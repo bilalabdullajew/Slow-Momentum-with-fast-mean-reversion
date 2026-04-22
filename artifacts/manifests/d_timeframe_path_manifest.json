@@ -1,0 +1,1602 @@
+[
+  {
+    "asset_id": "COCOA.c",
+    "symbol": "COCOA.c",
+    "category": "Agriculture",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Agriculture/COCOA.c/D/COCOA.c_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Agriculture/COCOA.c/D/COCOA.c_data.csv"
+    ]
+  },
+  {
+    "asset_id": "COFFEE.c",
+    "symbol": "COFFEE.c",
+    "category": "Agriculture",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Agriculture/COFFEE.c/D/COFFEE.c_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Agriculture/COFFEE.c/D/COFFEE.c_data.csv"
+    ]
+  },
+  {
+    "asset_id": "CORN.c",
+    "symbol": "CORN.c",
+    "category": "Agriculture",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Agriculture/CORN.c/D/CORN.c_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Agriculture/CORN.c/D/CORN.c_data.csv"
+    ]
+  },
+  {
+    "asset_id": "COTTON.c",
+    "symbol": "COTTON.c",
+    "category": "Agriculture",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Agriculture/COTTON.c/D/COTTON.c_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Agriculture/COTTON.c/D/COTTON.c_data.csv"
+    ]
+  },
+  {
+    "asset_id": "SOYBEAN.c",
+    "symbol": "SOYBEAN.c",
+    "category": "Agriculture",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Agriculture/SOYBEAN.c/D/SOYBEAN.c_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Agriculture/SOYBEAN.c/D/SOYBEAN.c_data.csv"
+    ]
+  },
+  {
+    "asset_id": "SUGAR.c",
+    "symbol": "SUGAR.c",
+    "category": "Agriculture",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Agriculture/SUGAR.c/D/SUGAR.c_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Agriculture/SUGAR.c/D/SUGAR.c_data.csv"
+    ]
+  },
+  {
+    "asset_id": "WHEAT.c",
+    "symbol": "WHEAT.c",
+    "category": "Agriculture",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Agriculture/WHEAT.c/D/WHEAT.c_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Agriculture/WHEAT.c/D/WHEAT.c_data.csv"
+    ]
+  },
+  {
+    "asset_id": "GER40.cash",
+    "symbol": "GER40.cash",
+    "category": "Cash CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash CFD/GER40.cash/D/GER40.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash CFD/GER40.cash/D/GER40.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "UK100.cash",
+    "symbol": "UK100.cash",
+    "category": "Cash CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash CFD/UK100.cash/D/UK100.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash CFD/UK100.cash/D/UK100.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "US100.cash",
+    "symbol": "US100.cash",
+    "category": "Cash CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash CFD/US100.cash/D/US100.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash CFD/US100.cash/D/US100.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "US30.cash",
+    "symbol": "US30.cash",
+    "category": "Cash CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash CFD/US30.cash/D/US30.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash CFD/US30.cash/D/US30.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "US500.cash",
+    "symbol": "US500.cash",
+    "category": "Cash CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash CFD/US500.cash/D/US500.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash CFD/US500.cash/D/US500.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AUS200.cash",
+    "symbol": "AUS200.cash",
+    "category": "Cash II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash II CFD/AUS200.cash/D/AUS200.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash II CFD/AUS200.cash/D/AUS200.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EU50.cash",
+    "symbol": "EU50.cash",
+    "category": "Cash II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash II CFD/EU50.cash/D/EU50.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash II CFD/EU50.cash/D/EU50.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "FRA40.cash",
+    "symbol": "FRA40.cash",
+    "category": "Cash II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash II CFD/FRA40.cash/D/FRA40.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash II CFD/FRA40.cash/D/FRA40.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "HK50.cash",
+    "symbol": "HK50.cash",
+    "category": "Cash II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash II CFD/HK50.cash/D/HK50.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash II CFD/HK50.cash/D/HK50.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "JP225.cash",
+    "symbol": "JP225.cash",
+    "category": "Cash II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash II CFD/JP225.cash/D/JP225.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash II CFD/JP225.cash/D/JP225.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "N25.cash",
+    "symbol": "N25.cash",
+    "category": "Cash II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash II CFD/N25.cash/D/N25.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash II CFD/N25.cash/D/N25.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "SPN35.cash",
+    "symbol": "SPN35.cash",
+    "category": "Cash II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash II CFD/SPN35.cash/D/SPN35.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash II CFD/SPN35.cash/D/SPN35.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "UKOIL.cash",
+    "symbol": "UKOIL.cash",
+    "category": "Cash II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash II CFD/UKOIL.cash/D/UKOIL.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash II CFD/UKOIL.cash/D/UKOIL.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "US2000.cash",
+    "symbol": "US2000.cash",
+    "category": "Cash II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash II CFD/US2000.cash/D/US2000.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash II CFD/US2000.cash/D/US2000.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USOIL.cash",
+    "symbol": "USOIL.cash",
+    "category": "Cash II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash II CFD/USOIL.cash/D/USOIL.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash II CFD/USOIL.cash/D/USOIL.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "DXY.cash",
+    "symbol": "DXY.cash",
+    "category": "Cash III CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Cash III CFD/DXY.cash/D/DXY.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Cash III CFD/DXY.cash/D/DXY.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "HEATOIL.c",
+    "symbol": "HEATOIL.c",
+    "category": "Commodities",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Commodities/HEATOIL.c/D/HEATOIL.c_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Commodities/HEATOIL.c/D/HEATOIL.c_data.csv"
+    ]
+  },
+  {
+    "asset_id": "NATGAS.cash",
+    "symbol": "NATGAS.cash",
+    "category": "Commodities",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Commodities/NATGAS.cash/D/NATGAS.cash_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Commodities/NATGAS.cash/D/NATGAS.cash_data.csv"
+    ]
+  },
+  {
+    "asset_id": "ADAUSD",
+    "symbol": "ADAUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/ADAUSD/D/ADAUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/ADAUSD/D/ADAUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AVAUSD",
+    "symbol": "AVAUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/AVAUSD/D/AVAUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/AVAUSD/D/AVAUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "BCHUSD",
+    "symbol": "BCHUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/BCHUSD/D/BCHUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/BCHUSD/D/BCHUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "BTCUSD",
+    "symbol": "BTCUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/BTCUSD/D/BTCUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/BTCUSD/D/BTCUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "DASHUSD",
+    "symbol": "DASHUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/DASHUSD/D/DASHUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/DASHUSD/D/DASHUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "DOTUSD",
+    "symbol": "DOTUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/DOTUSD/D/DOTUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/DOTUSD/D/DOTUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "ETCUSD",
+    "symbol": "ETCUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/ETCUSD/D/ETCUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/ETCUSD/D/ETCUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "ETHUSD",
+    "symbol": "ETHUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/ETHUSD/D/ETHUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/ETHUSD/D/ETHUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "LTCUSD",
+    "symbol": "LTCUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/LTCUSD/D/LTCUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/LTCUSD/D/LTCUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "SOLUSD",
+    "symbol": "SOLUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/SOLUSD/D/SOLUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/SOLUSD/D/SOLUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XRPUSD",
+    "symbol": "XRPUSD",
+    "category": "Crypto I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto I CFD/XRPUSD/D/XRPUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto I CFD/XRPUSD/D/XRPUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AAVUSD",
+    "symbol": "AAVUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/AAVUSD/D/AAVUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/AAVUSD/D/AAVUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "ALGUSD",
+    "symbol": "ALGUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/ALGUSD/D/ALGUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/ALGUSD/D/ALGUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "BARUSD",
+    "symbol": "BARUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/BARUSD/D/BARUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/BARUSD/D/BARUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "BNBUSD",
+    "symbol": "BNBUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/BNBUSD/D/BNBUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/BNBUSD/D/BNBUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "DOGEUSD",
+    "symbol": "DOGEUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/DOGEUSD/D/DOGEUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/DOGEUSD/D/DOGEUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "FETUSD",
+    "symbol": "FETUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/FETUSD/D/FETUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/FETUSD/D/FETUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "GALUSD",
+    "symbol": "GALUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/GALUSD/D/GALUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/GALUSD/D/GALUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "GRTUSD",
+    "symbol": "GRTUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/GRTUSD/D/GRTUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/GRTUSD/D/GRTUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "ICPUSD",
+    "symbol": "ICPUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/ICPUSD/D/ICPUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/ICPUSD/D/ICPUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "IMXUSD",
+    "symbol": "IMXUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/IMXUSD/D/IMXUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/IMXUSD/D/IMXUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "LNKUSD",
+    "symbol": "LNKUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/LNKUSD/D/LNKUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/LNKUSD/D/LNKUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "MANUSD",
+    "symbol": "MANUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/MANUSD/D/MANUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/MANUSD/D/MANUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "NEOUSD",
+    "symbol": "NEOUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/NEOUSD/D/NEOUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/NEOUSD/D/NEOUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "NERUSD",
+    "symbol": "NERUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/NERUSD/D/NERUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/NERUSD/D/NERUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "SANUSD",
+    "symbol": "SANUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/SANUSD/D/SANUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/SANUSD/D/SANUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "UNIUSD",
+    "symbol": "UNIUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/UNIUSD/D/UNIUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/UNIUSD/D/UNIUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "VECUSD",
+    "symbol": "VECUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/VECUSD/D/VECUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/VECUSD/D/VECUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XLMUSD",
+    "symbol": "XLMUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/XLMUSD/D/XLMUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/XLMUSD/D/XLMUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XMRUSD",
+    "symbol": "XMRUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/XMRUSD/D/XMRUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/XMRUSD/D/XMRUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XTZUSD",
+    "symbol": "XTZUSD",
+    "category": "Crypto II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Crypto II CFD/XTZUSD/D/XTZUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Crypto II CFD/XTZUSD/D/XTZUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AAPL",
+    "symbol": "AAPL",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/AAPL/D/AAPL_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/AAPL/D/AAPL_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AMZN",
+    "symbol": "AMZN",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/AMZN/D/AMZN_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/AMZN/D/AMZN_data.csv"
+    ]
+  },
+  {
+    "asset_id": "BABA",
+    "symbol": "BABA",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/BABA/D/BABA_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/BABA/D/BABA_data.csv"
+    ]
+  },
+  {
+    "asset_id": "BAC",
+    "symbol": "BAC",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/BAC/D/BAC_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/BAC/D/BAC_data.csv"
+    ]
+  },
+  {
+    "asset_id": "GOOG",
+    "symbol": "GOOG",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/GOOG/D/GOOG_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/GOOG/D/GOOG_data.csv"
+    ]
+  },
+  {
+    "asset_id": "META",
+    "symbol": "META",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/META/D/META_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/META/D/META_data.csv"
+    ]
+  },
+  {
+    "asset_id": "MSFT",
+    "symbol": "MSFT",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/MSFT/D/MSFT_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/MSFT/D/MSFT_data.csv"
+    ]
+  },
+  {
+    "asset_id": "NFLX",
+    "symbol": "NFLX",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/NFLX/D/NFLX_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/NFLX/D/NFLX_data.csv"
+    ]
+  },
+  {
+    "asset_id": "NVDA",
+    "symbol": "NVDA",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/NVDA/D/NVDA_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/NVDA/D/NVDA_data.csv"
+    ]
+  },
+  {
+    "asset_id": "PFE",
+    "symbol": "PFE",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/PFE/D/PFE_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/PFE/D/PFE_data.csv"
+    ]
+  },
+  {
+    "asset_id": "RACE",
+    "symbol": "RACE",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/RACE/D/RACE_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/RACE/D/RACE_data.csv"
+    ]
+  },
+  {
+    "asset_id": "T",
+    "symbol": "T",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/T/D/T_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/T/D/T_data.csv"
+    ]
+  },
+  {
+    "asset_id": "TSLA",
+    "symbol": "TSLA",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/TSLA/D/TSLA_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/TSLA/D/TSLA_data.csv"
+    ]
+  },
+  {
+    "asset_id": "V",
+    "symbol": "V",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/V/D/V_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/V/D/V_data.csv"
+    ]
+  },
+  {
+    "asset_id": "WMT",
+    "symbol": "WMT",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/WMT/D/WMT_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/WMT/D/WMT_data.csv"
+    ]
+  },
+  {
+    "asset_id": "ZM",
+    "symbol": "ZM",
+    "category": "Equities I CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities I CFD/ZM/D/ZM_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities I CFD/ZM/D/ZM_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AIRF",
+    "symbol": "AIRF",
+    "category": "Equities II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities II CFD/AIRF/D/AIRF_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities II CFD/AIRF/D/AIRF_data.csv"
+    ]
+  },
+  {
+    "asset_id": "ALVG",
+    "symbol": "ALVG",
+    "category": "Equities II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities II CFD/ALVG/D/ALVG_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities II CFD/ALVG/D/ALVG_data.csv"
+    ]
+  },
+  {
+    "asset_id": "BAYGn",
+    "symbol": "BAYGn",
+    "category": "Equities II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities II CFD/BAYGn/D/BAYGn_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities II CFD/BAYGn/D/BAYGn_data.csv"
+    ]
+  },
+  {
+    "asset_id": "DBKGn",
+    "symbol": "DBKGn",
+    "category": "Equities II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities II CFD/DBKGn/D/DBKGn_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities II CFD/DBKGn/D/DBKGn_data.csv"
+    ]
+  },
+  {
+    "asset_id": "IBE",
+    "symbol": "IBE",
+    "category": "Equities II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities II CFD/IBE/D/IBE_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities II CFD/IBE/D/IBE_data.csv"
+    ]
+  },
+  {
+    "asset_id": "LVMH",
+    "symbol": "LVMH",
+    "category": "Equities II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities II CFD/LVMH/D/LVMH_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities II CFD/LVMH/D/LVMH_data.csv"
+    ]
+  },
+  {
+    "asset_id": "VOWG_p",
+    "symbol": "VOWG_p",
+    "category": "Equities II CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Equities II CFD/VOWG_p/D/VOWG_p_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Equities II CFD/VOWG_p/D/VOWG_p_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURCZK",
+    "symbol": "EURCZK",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/EURCZK/D/EURCZK_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/EURCZK/D/EURCZK_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURHUF",
+    "symbol": "EURHUF",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/EURHUF/D/EURHUF_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/EURHUF/D/EURHUF_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURNOK",
+    "symbol": "EURNOK",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/EURNOK/D/EURNOK_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/EURNOK/D/EURNOK_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURPLN",
+    "symbol": "EURPLN",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/EURPLN/D/EURPLN_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/EURPLN/D/EURPLN_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDCNH",
+    "symbol": "USDCNH",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDCNH/D/USDCNH_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDCNH/D/USDCNH_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDCZK",
+    "symbol": "USDCZK",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDCZK/D/USDCZK_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDCZK/D/USDCZK_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDHKD",
+    "symbol": "USDHKD",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDHKD/D/USDHKD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDHKD/D/USDHKD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDHUF",
+    "symbol": "USDHUF",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDHUF/D/USDHUF_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDHUF/D/USDHUF_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDILS",
+    "symbol": "USDILS",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDILS/D/USDILS_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDILS/D/USDILS_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDMXN",
+    "symbol": "USDMXN",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDMXN/D/USDMXN_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDMXN/D/USDMXN_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDNOK",
+    "symbol": "USDNOK",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDNOK/D/USDNOK_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDNOK/D/USDNOK_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDPLN",
+    "symbol": "USDPLN",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDPLN/D/USDPLN_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDPLN/D/USDPLN_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDSEK",
+    "symbol": "USDSEK",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDSEK/D/USDSEK_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDSEK/D/USDSEK_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDSGD",
+    "symbol": "USDSGD",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDSGD/D/USDSGD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDSGD/D/USDSGD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDZAR",
+    "symbol": "USDZAR",
+    "category": "Exotics",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Exotics/USDZAR/D/USDZAR_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Exotics/USDZAR/D/USDZAR_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AUDCAD",
+    "symbol": "AUDCAD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/AUD/AUDCAD/D/AUDCAD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/AUDCAD/D/AUDCAD_data.csv",
+      "data/FTMO Data/Forex/AUD/AUDCAD/D/AUDCAD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AUDCHF",
+    "symbol": "AUDCHF",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/AUD/AUDCHF/D/AUDCHF_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/AUDCHF/D/AUDCHF_data.csv",
+      "data/FTMO Data/Forex/AUD/AUDCHF/D/AUDCHF_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AUDJPY",
+    "symbol": "AUDJPY",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/AUD/AUDJPY/D/AUDJPY_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/AUDJPY/D/AUDJPY_data.csv",
+      "data/FTMO Data/Forex/AUD/AUDJPY/D/AUDJPY_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AUDNZD",
+    "symbol": "AUDNZD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/AUD/AUDNZD/D/AUDNZD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/AUDNZD/D/AUDNZD_data.csv",
+      "data/FTMO Data/Forex/AUD/AUDNZD/D/AUDNZD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "AUDUSD",
+    "symbol": "AUDUSD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/AUD/AUDUSD/D/AUDUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/AUDUSD/D/AUDUSD_data.csv",
+      "data/FTMO Data/Forex/AUD/AUDUSD/D/AUDUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "CADCHF",
+    "symbol": "CADCHF",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/CAD/CADCHF/D/CADCHF_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/CADCHF/D/CADCHF_data.csv",
+      "data/FTMO Data/Forex/CAD/CADCHF/D/CADCHF_data.csv"
+    ]
+  },
+  {
+    "asset_id": "CADJPY",
+    "symbol": "CADJPY",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/CAD/CADJPY/D/CADJPY_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/CADJPY/D/CADJPY_data.csv",
+      "data/FTMO Data/Forex/CAD/CADJPY/D/CADJPY_data.csv"
+    ]
+  },
+  {
+    "asset_id": "CHFJPY",
+    "symbol": "CHFJPY",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/CHF/CHFJPY/D/CHFJPY_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/CHFJPY/D/CHFJPY_data.csv",
+      "data/FTMO Data/Forex/CHF/CHFJPY/D/CHFJPY_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURAUD",
+    "symbol": "EURAUD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/EUR/EURAUD/D/EURAUD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/EURAUD/D/EURAUD_data.csv",
+      "data/FTMO Data/Forex/EUR/EURAUD/D/EURAUD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURCAD",
+    "symbol": "EURCAD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/EUR/EURCAD/D/EURCAD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/EURCAD/D/EURCAD_data.csv",
+      "data/FTMO Data/Forex/EUR/EURCAD/D/EURCAD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURCHF",
+    "symbol": "EURCHF",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/EUR/EURCHF/D/EURCHF_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/EURCHF/D/EURCHF_data.csv",
+      "data/FTMO Data/Forex/EUR/EURCHF/D/EURCHF_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURGBP",
+    "symbol": "EURGBP",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/EUR/EURGBP/D/EURGBP_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/EURGBP/D/EURGBP_data.csv",
+      "data/FTMO Data/Forex/EUR/EURGBP/D/EURGBP_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURJPY",
+    "symbol": "EURJPY",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/EUR/EURJPY/D/EURJPY_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/EURJPY/D/EURJPY_data.csv",
+      "data/FTMO Data/Forex/EUR/EURJPY/D/EURJPY_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURNZD",
+    "symbol": "EURNZD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/EUR/EURNZD/D/EURNZD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/EURNZD/D/EURNZD_data.csv",
+      "data/FTMO Data/Forex/EUR/EURNZD/D/EURNZD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "EURUSD",
+    "symbol": "EURUSD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/EUR/EURUSD/D/EURUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/EURUSD/D/EURUSD_data.csv",
+      "data/FTMO Data/Forex/EUR/EURUSD/D/EURUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "GBPAUD",
+    "symbol": "GBPAUD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/GBP/GBPAUD/D/GBPAUD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/GBPAUD/D/GBPAUD_data.csv",
+      "data/FTMO Data/Forex/GBP/GBPAUD/D/GBPAUD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "GBPCAD",
+    "symbol": "GBPCAD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/GBP/GBPCAD/D/GBPCAD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/GBPCAD/D/GBPCAD_data.csv",
+      "data/FTMO Data/Forex/GBP/GBPCAD/D/GBPCAD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "GBPCHF",
+    "symbol": "GBPCHF",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/GBP/GBPCHF/D/GBPCHF_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/GBPCHF/D/GBPCHF_data.csv",
+      "data/FTMO Data/Forex/GBP/GBPCHF/D/GBPCHF_data.csv"
+    ]
+  },
+  {
+    "asset_id": "GBPJPY",
+    "symbol": "GBPJPY",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/GBP/GBPJPY/D/GBPJPY_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/GBPJPY/D/GBPJPY_data.csv",
+      "data/FTMO Data/Forex/GBP/GBPJPY/D/GBPJPY_data.csv"
+    ]
+  },
+  {
+    "asset_id": "GBPNZD",
+    "symbol": "GBPNZD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/GBP/GBPNZD/D/GBPNZD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/GBPNZD/D/GBPNZD_data.csv",
+      "data/FTMO Data/Forex/GBP/GBPNZD/D/GBPNZD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "GBPUSD",
+    "symbol": "GBPUSD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/GBP/GBPUSD/D/GBPUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/GBPUSD/D/GBPUSD_data.csv",
+      "data/FTMO Data/Forex/GBP/GBPUSD/D/GBPUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "NZDCAD",
+    "symbol": "NZDCAD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/NZD/NZDCAD/D/NZDCAD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/NZDCAD/D/NZDCAD_data.csv",
+      "data/FTMO Data/Forex/NZD/NZDCAD/D/NZDCAD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "NZDCHF",
+    "symbol": "NZDCHF",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/NZD/NZDCHF/D/NZDCHF_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/NZDCHF/D/NZDCHF_data.csv",
+      "data/FTMO Data/Forex/NZD/NZDCHF/D/NZDCHF_data.csv"
+    ]
+  },
+  {
+    "asset_id": "NZDJPY",
+    "symbol": "NZDJPY",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/NZD/NZDJPY/D/NZDJPY_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/NZDJPY/D/NZDJPY_data.csv",
+      "data/FTMO Data/Forex/NZD/NZDJPY/D/NZDJPY_data.csv"
+    ]
+  },
+  {
+    "asset_id": "NZDUSD",
+    "symbol": "NZDUSD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/NZD/NZDUSD/D/NZDUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/NZDUSD/D/NZDUSD_data.csv",
+      "data/FTMO Data/Forex/NZD/NZDUSD/D/NZDUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDCAD",
+    "symbol": "USDCAD",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/USD/USDCAD/D/USDCAD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/USDCAD/D/USDCAD_data.csv",
+      "data/FTMO Data/Forex/USD/USDCAD/D/USDCAD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDCHF",
+    "symbol": "USDCHF",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/USD/USDCHF/D/USDCHF_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/USDCHF/D/USDCHF_data.csv",
+      "data/FTMO Data/Forex/USD/USDCHF/D/USDCHF_data.csv"
+    ]
+  },
+  {
+    "asset_id": "USDJPY",
+    "symbol": "USDJPY",
+    "category": "Forex",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "forex_base_symbol_d",
+    "d_file_path": "data/FTMO Data/Forex/USD/USDJPY/D/USDJPY_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Forex/USDJPY/D/USDJPY_data.csv",
+      "data/FTMO Data/Forex/USD/USDJPY/D/USDJPY_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XAGAUD",
+    "symbol": "XAGAUD",
+    "category": "Metals CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Metals CFD/XAGAUD/D/XAGAUD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Metals CFD/XAGAUD/D/XAGAUD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XAGEUR",
+    "symbol": "XAGEUR",
+    "category": "Metals CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Metals CFD/XAGEUR/D/XAGEUR_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Metals CFD/XAGEUR/D/XAGEUR_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XAGUSD",
+    "symbol": "XAGUSD",
+    "category": "Metals CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Metals CFD/XAGUSD/D/XAGUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Metals CFD/XAGUSD/D/XAGUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XAUAUD",
+    "symbol": "XAUAUD",
+    "category": "Metals CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Metals CFD/XAUAUD/D/XAUAUD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Metals CFD/XAUAUD/D/XAUAUD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XAUEUR",
+    "symbol": "XAUEUR",
+    "category": "Metals CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Metals CFD/XAUEUR/D/XAUEUR_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Metals CFD/XAUEUR/D/XAUEUR_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XAUUSD",
+    "symbol": "XAUUSD",
+    "category": "Metals CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Metals CFD/XAUUSD/D/XAUUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Metals CFD/XAUUSD/D/XAUUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XCUUSD",
+    "symbol": "XCUUSD",
+    "category": "Metals CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Metals CFD/XCUUSD/D/XCUUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Metals CFD/XCUUSD/D/XCUUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XPDUSD",
+    "symbol": "XPDUSD",
+    "category": "Metals CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Metals CFD/XPDUSD/D/XPDUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Metals CFD/XPDUSD/D/XPDUSD_data.csv"
+    ]
+  },
+  {
+    "asset_id": "XPTUSD",
+    "symbol": "XPTUSD",
+    "category": "Metals CFD",
+    "resolution_status": "RESOLVED",
+    "resolution_failure_reason": null,
+    "path_pattern": "category_symbol_d",
+    "d_file_path": "data/FTMO Data/Metals CFD/XPTUSD/D/XPTUSD_data.csv",
+    "candidate_paths": [
+      "data/FTMO Data/Metals CFD/XPTUSD/D/XPTUSD_data.csv"
+    ]
+  }
+]

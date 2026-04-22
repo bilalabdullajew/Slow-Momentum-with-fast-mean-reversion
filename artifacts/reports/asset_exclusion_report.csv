@@ -1,0 +1,6 @@
+asset_id,symbol,category,path_pattern,d_file_path,raw_row_count,screened_row_count,reason_code,first_timestamp,last_timestamp
+COTTON.c,COTTON.c,Agriculture,category_symbol_d,data/FTMO Data/Agriculture/COTTON.c/D/COTTON.c_data.csv,310,310,INSUFFICIENT_RAW_HISTORY,2024-11-26,2026-02-23
+SUGAR.c,SUGAR.c,Agriculture,category_symbol_d,data/FTMO Data/Agriculture/SUGAR.c/D/SUGAR.c_data.csv,309,309,INSUFFICIENT_RAW_HISTORY,2024-11-26,2026-02-20
+HEATOIL.c,HEATOIL.c,Commodities,category_symbol_d,data/FTMO Data/Commodities/HEATOIL.c/D/HEATOIL.c_data.csv,309,309,INSUFFICIENT_RAW_HISTORY,2024-12-11,2026-02-23
+SOLUSD,SOLUSD,Crypto I CFD,category_symbol_d,data/FTMO Data/Crypto I CFD/SOLUSD/D/SOLUSD_data.csv,296,296,INSUFFICIENT_RAW_HISTORY,2025-04-28,2026-02-23
+XCUUSD,XCUUSD,Metals CFD,category_symbol_d,data/FTMO Data/Metals CFD/XCUUSD/D/XCUUSD_data.csv,316,316,INSUFFICIENT_RAW_HISTORY,2024-12-02,2026-02-23

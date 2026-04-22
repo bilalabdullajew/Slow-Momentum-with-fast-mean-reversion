@@ -1,0 +1,657 @@
+[
+  {
+    "asset_id": "COCOA.c",
+    "symbol": "COCOA.c",
+    "category": "Agriculture"
+  },
+  {
+    "asset_id": "COFFEE.c",
+    "symbol": "COFFEE.c",
+    "category": "Agriculture"
+  },
+  {
+    "asset_id": "CORN.c",
+    "symbol": "CORN.c",
+    "category": "Agriculture"
+  },
+  {
+    "asset_id": "COTTON.c",
+    "symbol": "COTTON.c",
+    "category": "Agriculture"
+  },
+  {
+    "asset_id": "SOYBEAN.c",
+    "symbol": "SOYBEAN.c",
+    "category": "Agriculture"
+  },
+  {
+    "asset_id": "SUGAR.c",
+    "symbol": "SUGAR.c",
+    "category": "Agriculture"
+  },
+  {
+    "asset_id": "WHEAT.c",
+    "symbol": "WHEAT.c",
+    "category": "Agriculture"
+  },
+  {
+    "asset_id": "GER40.cash",
+    "symbol": "GER40.cash",
+    "category": "Cash CFD"
+  },
+  {
+    "asset_id": "UK100.cash",
+    "symbol": "UK100.cash",
+    "category": "Cash CFD"
+  },
+  {
+    "asset_id": "US100.cash",
+    "symbol": "US100.cash",
+    "category": "Cash CFD"
+  },
+  {
+    "asset_id": "US30.cash",
+    "symbol": "US30.cash",
+    "category": "Cash CFD"
+  },
+  {
+    "asset_id": "US500.cash",
+    "symbol": "US500.cash",
+    "category": "Cash CFD"
+  },
+  {
+    "asset_id": "AUS200.cash",
+    "symbol": "AUS200.cash",
+    "category": "Cash II CFD"
+  },
+  {
+    "asset_id": "EU50.cash",
+    "symbol": "EU50.cash",
+    "category": "Cash II CFD"
+  },
+  {
+    "asset_id": "FRA40.cash",
+    "symbol": "FRA40.cash",
+    "category": "Cash II CFD"
+  },
+  {
+    "asset_id": "HK50.cash",
+    "symbol": "HK50.cash",
+    "category": "Cash II CFD"
+  },
+  {
+    "asset_id": "JP225.cash",
+    "symbol": "JP225.cash",
+    "category": "Cash II CFD"
+  },
+  {
+    "asset_id": "N25.cash",
+    "symbol": "N25.cash",
+    "category": "Cash II CFD"
+  },
+  {
+    "asset_id": "SPN35.cash",
+    "symbol": "SPN35.cash",
+    "category": "Cash II CFD"
+  },
+  {
+    "asset_id": "UKOIL.cash",
+    "symbol": "UKOIL.cash",
+    "category": "Cash II CFD"
+  },
+  {
+    "asset_id": "US2000.cash",
+    "symbol": "US2000.cash",
+    "category": "Cash II CFD"
+  },
+  {
+    "asset_id": "USOIL.cash",
+    "symbol": "USOIL.cash",
+    "category": "Cash II CFD"
+  },
+  {
+    "asset_id": "DXY.cash",
+    "symbol": "DXY.cash",
+    "category": "Cash III CFD"
+  },
+  {
+    "asset_id": "HEATOIL.c",
+    "symbol": "HEATOIL.c",
+    "category": "Commodities"
+  },
+  {
+    "asset_id": "NATGAS.cash",
+    "symbol": "NATGAS.cash",
+    "category": "Commodities"
+  },
+  {
+    "asset_id": "ADAUSD",
+    "symbol": "ADAUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "AVAUSD",
+    "symbol": "AVAUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "BCHUSD",
+    "symbol": "BCHUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "BTCUSD",
+    "symbol": "BTCUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "DASHUSD",
+    "symbol": "DASHUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "DOTUSD",
+    "symbol": "DOTUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "ETCUSD",
+    "symbol": "ETCUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "ETHUSD",
+    "symbol": "ETHUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "LTCUSD",
+    "symbol": "LTCUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "SOLUSD",
+    "symbol": "SOLUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "XRPUSD",
+    "symbol": "XRPUSD",
+    "category": "Crypto I CFD"
+  },
+  {
+    "asset_id": "AAVUSD",
+    "symbol": "AAVUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "ALGUSD",
+    "symbol": "ALGUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "BARUSD",
+    "symbol": "BARUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "BNBUSD",
+    "symbol": "BNBUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "DOGEUSD",
+    "symbol": "DOGEUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "FETUSD",
+    "symbol": "FETUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "GALUSD",
+    "symbol": "GALUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "GRTUSD",
+    "symbol": "GRTUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "ICPUSD",
+    "symbol": "ICPUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "IMXUSD",
+    "symbol": "IMXUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "LNKUSD",
+    "symbol": "LNKUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "MANUSD",
+    "symbol": "MANUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "NEOUSD",
+    "symbol": "NEOUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "NERUSD",
+    "symbol": "NERUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "SANUSD",
+    "symbol": "SANUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "UNIUSD",
+    "symbol": "UNIUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "VECUSD",
+    "symbol": "VECUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "XLMUSD",
+    "symbol": "XLMUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "XMRUSD",
+    "symbol": "XMRUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "XTZUSD",
+    "symbol": "XTZUSD",
+    "category": "Crypto II CFD"
+  },
+  {
+    "asset_id": "AAPL",
+    "symbol": "AAPL",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "AMZN",
+    "symbol": "AMZN",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "BABA",
+    "symbol": "BABA",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "BAC",
+    "symbol": "BAC",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "GOOG",
+    "symbol": "GOOG",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "META",
+    "symbol": "META",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "MSFT",
+    "symbol": "MSFT",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "NFLX",
+    "symbol": "NFLX",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "NVDA",
+    "symbol": "NVDA",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "PFE",
+    "symbol": "PFE",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "RACE",
+    "symbol": "RACE",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "T",
+    "symbol": "T",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "TSLA",
+    "symbol": "TSLA",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "V",
+    "symbol": "V",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "WMT",
+    "symbol": "WMT",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "ZM",
+    "symbol": "ZM",
+    "category": "Equities I CFD"
+  },
+  {
+    "asset_id": "AIRF",
+    "symbol": "AIRF",
+    "category": "Equities II CFD"
+  },
+  {
+    "asset_id": "ALVG",
+    "symbol": "ALVG",
+    "category": "Equities II CFD"
+  },
+  {
+    "asset_id": "BAYGn",
+    "symbol": "BAYGn",
+    "category": "Equities II CFD"
+  },
+  {
+    "asset_id": "DBKGn",
+    "symbol": "DBKGn",
+    "category": "Equities II CFD"
+  },
+  {
+    "asset_id": "IBE",
+    "symbol": "IBE",
+    "category": "Equities II CFD"
+  },
+  {
+    "asset_id": "LVMH",
+    "symbol": "LVMH",
+    "category": "Equities II CFD"
+  },
+  {
+    "asset_id": "VOWG_p",
+    "symbol": "VOWG_p",
+    "category": "Equities II CFD"
+  },
+  {
+    "asset_id": "EURCZK",
+    "symbol": "EURCZK",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "EURHUF",
+    "symbol": "EURHUF",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "EURNOK",
+    "symbol": "EURNOK",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "EURPLN",
+    "symbol": "EURPLN",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDCNH",
+    "symbol": "USDCNH",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDCZK",
+    "symbol": "USDCZK",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDHKD",
+    "symbol": "USDHKD",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDHUF",
+    "symbol": "USDHUF",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDILS",
+    "symbol": "USDILS",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDMXN",
+    "symbol": "USDMXN",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDNOK",
+    "symbol": "USDNOK",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDPLN",
+    "symbol": "USDPLN",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDSEK",
+    "symbol": "USDSEK",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDSGD",
+    "symbol": "USDSGD",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "USDZAR",
+    "symbol": "USDZAR",
+    "category": "Exotics"
+  },
+  {
+    "asset_id": "AUDCAD",
+    "symbol": "AUDCAD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "AUDCHF",
+    "symbol": "AUDCHF",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "AUDJPY",
+    "symbol": "AUDJPY",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "AUDNZD",
+    "symbol": "AUDNZD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "AUDUSD",
+    "symbol": "AUDUSD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "CADCHF",
+    "symbol": "CADCHF",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "CADJPY",
+    "symbol": "CADJPY",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "CHFJPY",
+    "symbol": "CHFJPY",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "EURAUD",
+    "symbol": "EURAUD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "EURCAD",
+    "symbol": "EURCAD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "EURCHF",
+    "symbol": "EURCHF",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "EURGBP",
+    "symbol": "EURGBP",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "EURJPY",
+    "symbol": "EURJPY",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "EURNZD",
+    "symbol": "EURNZD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "EURUSD",
+    "symbol": "EURUSD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "GBPAUD",
+    "symbol": "GBPAUD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "GBPCAD",
+    "symbol": "GBPCAD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "GBPCHF",
+    "symbol": "GBPCHF",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "GBPJPY",
+    "symbol": "GBPJPY",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "GBPNZD",
+    "symbol": "GBPNZD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "GBPUSD",
+    "symbol": "GBPUSD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "NZDCAD",
+    "symbol": "NZDCAD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "NZDCHF",
+    "symbol": "NZDCHF",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "NZDJPY",
+    "symbol": "NZDJPY",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "NZDUSD",
+    "symbol": "NZDUSD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "USDCAD",
+    "symbol": "USDCAD",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "USDCHF",
+    "symbol": "USDCHF",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "USDJPY",
+    "symbol": "USDJPY",
+    "category": "Forex"
+  },
+  {
+    "asset_id": "XAGAUD",
+    "symbol": "XAGAUD",
+    "category": "Metals CFD"
+  },
+  {
+    "asset_id": "XAGEUR",
+    "symbol": "XAGEUR",
+    "category": "Metals CFD"
+  },
+  {
+    "asset_id": "XAGUSD",
+    "symbol": "XAGUSD",
+    "category": "Metals CFD"
+  },
+  {
+    "asset_id": "XAUAUD",
+    "symbol": "XAUAUD",
+    "category": "Metals CFD"
+  },
+  {
+    "asset_id": "XAUEUR",
+    "symbol": "XAUEUR",
+    "category": "Metals CFD"
+  },
+  {
+    "asset_id": "XAUUSD",
+    "symbol": "XAUUSD",
+    "category": "Metals CFD"
+  },
+  {
+    "asset_id": "XCUUSD",
+    "symbol": "XCUUSD",
+    "category": "Metals CFD"
+  },
+  {
+    "asset_id": "XPDUSD",
+    "symbol": "XPDUSD",
+    "category": "Metals CFD"
+  },
+  {
+    "asset_id": "XPTUSD",
+    "symbol": "XPTUSD",
+    "category": "Metals CFD"
+  }
+]

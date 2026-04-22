@@ -1,0 +1,18 @@
+# Core numerical stack
+numpy
+pandas
+scipy
+
+# Deep learning and GP stack
+tensorflow
+tensorflow-probability
+gpflow
+
+# Config, manifests, and reports
+pyyaml
+jsonschema
+tqdm
+
+# Notebook and plotting
+jupyter
+matplotlib

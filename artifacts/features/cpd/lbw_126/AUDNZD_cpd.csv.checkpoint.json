@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "asset_id": "AUDNZD",
+  "lbw": 126,
+  "output_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/features/cpd/lbw_126/AUDNZD_cpd.csv",
+  "partial_output_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/features/cpd/lbw_126/AUDNZD_cpd.partial.csv",
+  "rows_completed": 5710,
+  "last_completed_timestamp": "2022-08-22T00:00:00",
+  "previous_output_timestamp": "2022-08-22T00:00:00",
+  "previous_nu": 0.27249436468927546,
+  "previous_gamma": 0.5177114299902609
+}
