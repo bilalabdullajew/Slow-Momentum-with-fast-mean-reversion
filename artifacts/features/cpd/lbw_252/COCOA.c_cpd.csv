@@ -1,0 +1,777 @@
+timestamp,asset_id,lbw,nu,gamma,status,window_size,nlml_baseline,nlml_changepoint,retry_used,fallback_used,location_c,steepness_s,fallback_source_timestamp,failure_stage,failure_message
+2023-01-19T00:00:00,COCOA.c,252,,,invalid_window,1,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 1"
+2023-01-20T00:00:00,COCOA.c,252,,,invalid_window,2,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 2"
+2023-01-23T00:00:00,COCOA.c,252,,,invalid_window,3,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 3"
+2023-01-24T00:00:00,COCOA.c,252,,,invalid_window,4,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 4"
+2023-01-25T00:00:00,COCOA.c,252,,,invalid_window,5,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 5"
+2023-01-26T00:00:00,COCOA.c,252,,,invalid_window,6,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 6"
+2023-01-27T00:00:00,COCOA.c,252,,,invalid_window,7,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 7"
+2023-01-30T00:00:00,COCOA.c,252,,,invalid_window,8,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 8"
+2023-01-31T00:00:00,COCOA.c,252,,,invalid_window,9,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 9"
+2023-02-01T00:00:00,COCOA.c,252,,,invalid_window,10,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 10"
+2023-02-02T00:00:00,COCOA.c,252,,,invalid_window,11,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 11"
+2023-02-03T00:00:00,COCOA.c,252,,,invalid_window,12,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 12"
+2023-02-06T00:00:00,COCOA.c,252,,,invalid_window,13,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 13"
+2023-02-07T00:00:00,COCOA.c,252,,,invalid_window,14,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 14"
+2023-02-08T00:00:00,COCOA.c,252,,,invalid_window,15,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 15"
+2023-02-09T00:00:00,COCOA.c,252,,,invalid_window,16,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 16"
+2023-02-10T00:00:00,COCOA.c,252,,,invalid_window,17,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 17"
+2023-02-13T00:00:00,COCOA.c,252,,,invalid_window,18,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 18"
+2023-02-14T00:00:00,COCOA.c,252,,,invalid_window,19,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 19"
+2023-02-15T00:00:00,COCOA.c,252,,,invalid_window,20,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 20"
+2023-02-16T00:00:00,COCOA.c,252,,,invalid_window,21,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 21"
+2023-02-17T00:00:00,COCOA.c,252,,,invalid_window,22,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 22"
+2023-02-21T00:00:00,COCOA.c,252,,,invalid_window,23,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 23"
+2023-02-22T00:00:00,COCOA.c,252,,,invalid_window,24,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 24"
+2023-02-23T00:00:00,COCOA.c,252,,,invalid_window,25,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 25"
+2023-02-24T00:00:00,COCOA.c,252,,,invalid_window,26,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 26"
+2023-02-27T00:00:00,COCOA.c,252,,,invalid_window,27,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 27"
+2023-02-28T00:00:00,COCOA.c,252,,,invalid_window,28,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 28"
+2023-03-01T00:00:00,COCOA.c,252,,,invalid_window,29,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 29"
+2023-03-02T00:00:00,COCOA.c,252,,,invalid_window,30,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 30"
+2023-03-03T00:00:00,COCOA.c,252,,,invalid_window,31,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 31"
+2023-03-06T00:00:00,COCOA.c,252,,,invalid_window,32,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 32"
+2023-03-07T00:00:00,COCOA.c,252,,,invalid_window,33,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 33"
+2023-03-08T00:00:00,COCOA.c,252,,,invalid_window,34,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 34"
+2023-03-09T00:00:00,COCOA.c,252,,,invalid_window,35,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 35"
+2023-03-10T00:00:00,COCOA.c,252,,,invalid_window,36,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 36"
+2023-03-13T00:00:00,COCOA.c,252,,,invalid_window,37,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 37"
+2023-03-14T00:00:00,COCOA.c,252,,,invalid_window,38,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 38"
+2023-03-15T00:00:00,COCOA.c,252,,,invalid_window,39,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 39"
+2023-03-16T00:00:00,COCOA.c,252,,,invalid_window,40,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 40"
+2023-03-17T00:00:00,COCOA.c,252,,,invalid_window,41,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 41"
+2023-03-20T00:00:00,COCOA.c,252,,,invalid_window,42,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 42"
+2023-03-21T00:00:00,COCOA.c,252,,,invalid_window,43,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 43"
+2023-03-22T00:00:00,COCOA.c,252,,,invalid_window,44,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 44"
+2023-03-23T00:00:00,COCOA.c,252,,,invalid_window,45,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 45"
+2023-03-24T00:00:00,COCOA.c,252,,,invalid_window,46,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 46"
+2023-03-27T00:00:00,COCOA.c,252,,,invalid_window,47,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 47"
+2023-03-28T00:00:00,COCOA.c,252,,,invalid_window,48,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 48"
+2023-03-29T00:00:00,COCOA.c,252,,,invalid_window,49,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 49"
+2023-03-30T00:00:00,COCOA.c,252,,,invalid_window,50,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 50"
+2023-03-31T00:00:00,COCOA.c,252,,,invalid_window,51,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 51"
+2023-04-03T00:00:00,COCOA.c,252,,,invalid_window,52,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 52"
+2023-04-04T00:00:00,COCOA.c,252,,,invalid_window,53,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 53"
+2023-04-05T00:00:00,COCOA.c,252,,,invalid_window,54,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 54"
+2023-04-06T00:00:00,COCOA.c,252,,,invalid_window,55,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 55"
+2023-04-10T00:00:00,COCOA.c,252,,,invalid_window,56,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 56"
+2023-04-11T00:00:00,COCOA.c,252,,,invalid_window,57,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 57"
+2023-04-12T00:00:00,COCOA.c,252,,,invalid_window,58,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 58"
+2023-04-13T00:00:00,COCOA.c,252,,,invalid_window,59,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 59"
+2023-04-14T00:00:00,COCOA.c,252,,,invalid_window,60,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 60"
+2023-04-17T00:00:00,COCOA.c,252,,,invalid_window,61,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 61"
+2023-04-18T00:00:00,COCOA.c,252,,,invalid_window,62,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 62"
+2023-04-19T00:00:00,COCOA.c,252,,,invalid_window,63,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 63"
+2023-04-20T00:00:00,COCOA.c,252,,,invalid_window,64,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 64"
+2023-04-21T00:00:00,COCOA.c,252,,,invalid_window,65,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 65"
+2023-04-24T00:00:00,COCOA.c,252,,,invalid_window,66,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 66"
+2023-04-25T00:00:00,COCOA.c,252,,,invalid_window,67,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 67"
+2023-04-26T00:00:00,COCOA.c,252,,,invalid_window,68,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 68"
+2023-04-27T00:00:00,COCOA.c,252,,,invalid_window,69,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 69"
+2023-04-28T00:00:00,COCOA.c,252,,,invalid_window,70,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 70"
+2023-05-01T00:00:00,COCOA.c,252,,,invalid_window,71,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 71"
+2023-05-02T00:00:00,COCOA.c,252,,,invalid_window,72,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 72"
+2023-05-03T00:00:00,COCOA.c,252,,,invalid_window,73,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 73"
+2023-05-04T00:00:00,COCOA.c,252,,,invalid_window,74,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 74"
+2023-05-05T00:00:00,COCOA.c,252,,,invalid_window,75,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 75"
+2023-05-08T00:00:00,COCOA.c,252,,,invalid_window,76,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 76"
+2023-05-09T00:00:00,COCOA.c,252,,,invalid_window,77,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 77"
+2023-05-10T00:00:00,COCOA.c,252,,,invalid_window,78,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 78"
+2023-05-11T00:00:00,COCOA.c,252,,,invalid_window,79,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 79"
+2023-05-12T00:00:00,COCOA.c,252,,,invalid_window,80,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 80"
+2023-05-15T00:00:00,COCOA.c,252,,,invalid_window,81,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 81"
+2023-05-16T00:00:00,COCOA.c,252,,,invalid_window,82,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 82"
+2023-05-17T00:00:00,COCOA.c,252,,,invalid_window,83,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 83"
+2023-05-18T00:00:00,COCOA.c,252,,,invalid_window,84,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 84"
+2023-05-19T00:00:00,COCOA.c,252,,,invalid_window,85,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 85"
+2023-05-22T00:00:00,COCOA.c,252,,,invalid_window,86,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 86"
+2023-05-23T00:00:00,COCOA.c,252,,,invalid_window,87,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 87"
+2023-05-24T00:00:00,COCOA.c,252,,,invalid_window,88,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 88"
+2023-05-25T00:00:00,COCOA.c,252,,,invalid_window,89,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 89"
+2023-05-26T00:00:00,COCOA.c,252,,,invalid_window,90,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 90"
+2023-05-30T00:00:00,COCOA.c,252,,,invalid_window,91,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 91"
+2023-05-31T00:00:00,COCOA.c,252,,,invalid_window,92,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 92"
+2023-06-01T00:00:00,COCOA.c,252,,,invalid_window,93,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 93"
+2023-06-02T00:00:00,COCOA.c,252,,,invalid_window,94,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 94"
+2023-06-05T00:00:00,COCOA.c,252,,,invalid_window,95,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 95"
+2023-06-06T00:00:00,COCOA.c,252,,,invalid_window,96,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 96"
+2023-06-07T00:00:00,COCOA.c,252,,,invalid_window,97,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 97"
+2023-06-08T00:00:00,COCOA.c,252,,,invalid_window,98,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 98"
+2023-06-09T00:00:00,COCOA.c,252,,,invalid_window,99,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 99"
+2023-06-12T00:00:00,COCOA.c,252,,,invalid_window,100,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 100"
+2023-06-13T00:00:00,COCOA.c,252,,,invalid_window,101,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 101"
+2023-06-14T00:00:00,COCOA.c,252,,,invalid_window,102,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 102"
+2023-06-15T00:00:00,COCOA.c,252,,,invalid_window,103,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 103"
+2023-06-16T00:00:00,COCOA.c,252,,,invalid_window,104,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 104"
+2023-06-20T00:00:00,COCOA.c,252,,,invalid_window,105,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 105"
+2023-06-21T00:00:00,COCOA.c,252,,,invalid_window,106,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 106"
+2023-06-22T00:00:00,COCOA.c,252,,,invalid_window,107,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 107"
+2023-06-23T00:00:00,COCOA.c,252,,,invalid_window,108,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 108"
+2023-06-26T00:00:00,COCOA.c,252,,,invalid_window,109,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 109"
+2023-06-27T00:00:00,COCOA.c,252,,,invalid_window,110,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 110"
+2023-06-28T00:00:00,COCOA.c,252,,,invalid_window,111,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 111"
+2023-06-29T00:00:00,COCOA.c,252,,,invalid_window,112,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 112"
+2023-06-30T00:00:00,COCOA.c,252,,,invalid_window,113,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 113"
+2023-07-03T00:00:00,COCOA.c,252,,,invalid_window,114,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 114"
+2023-07-05T00:00:00,COCOA.c,252,,,invalid_window,115,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 115"
+2023-07-06T00:00:00,COCOA.c,252,,,invalid_window,116,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 116"
+2023-07-07T00:00:00,COCOA.c,252,,,invalid_window,117,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 117"
+2023-07-10T00:00:00,COCOA.c,252,,,invalid_window,118,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 118"
+2023-07-11T00:00:00,COCOA.c,252,,,invalid_window,119,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 119"
+2023-07-12T00:00:00,COCOA.c,252,,,invalid_window,120,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 120"
+2023-07-13T00:00:00,COCOA.c,252,,,invalid_window,121,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 121"
+2023-07-14T00:00:00,COCOA.c,252,,,invalid_window,122,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 122"
+2023-07-17T00:00:00,COCOA.c,252,,,invalid_window,123,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 123"
+2023-07-18T00:00:00,COCOA.c,252,,,invalid_window,124,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 124"
+2023-07-19T00:00:00,COCOA.c,252,,,invalid_window,125,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 125"
+2023-07-20T00:00:00,COCOA.c,252,,,invalid_window,126,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 126"
+2023-07-21T00:00:00,COCOA.c,252,,,invalid_window,127,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 127"
+2023-07-24T00:00:00,COCOA.c,252,,,invalid_window,128,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 128"
+2023-07-25T00:00:00,COCOA.c,252,,,invalid_window,129,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 129"
+2023-07-26T00:00:00,COCOA.c,252,,,invalid_window,130,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 130"
+2023-07-27T00:00:00,COCOA.c,252,,,invalid_window,131,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 131"
+2023-07-28T00:00:00,COCOA.c,252,,,invalid_window,132,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 132"
+2023-07-31T00:00:00,COCOA.c,252,,,invalid_window,133,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 133"
+2023-08-01T00:00:00,COCOA.c,252,,,invalid_window,134,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 134"
+2023-08-02T00:00:00,COCOA.c,252,,,invalid_window,135,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 135"
+2023-08-03T00:00:00,COCOA.c,252,,,invalid_window,136,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 136"
+2023-08-04T00:00:00,COCOA.c,252,,,invalid_window,137,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 137"
+2023-08-07T00:00:00,COCOA.c,252,,,invalid_window,138,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 138"
+2023-08-08T00:00:00,COCOA.c,252,,,invalid_window,139,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 139"
+2023-08-09T00:00:00,COCOA.c,252,,,invalid_window,140,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 140"
+2023-08-10T00:00:00,COCOA.c,252,,,invalid_window,141,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 141"
+2023-08-11T00:00:00,COCOA.c,252,,,invalid_window,142,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 142"
+2023-08-14T00:00:00,COCOA.c,252,,,invalid_window,143,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 143"
+2023-08-15T00:00:00,COCOA.c,252,,,invalid_window,144,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 144"
+2023-08-16T00:00:00,COCOA.c,252,,,invalid_window,145,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 145"
+2023-08-17T00:00:00,COCOA.c,252,,,invalid_window,146,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 146"
+2023-08-18T00:00:00,COCOA.c,252,,,invalid_window,147,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 147"
+2023-08-21T00:00:00,COCOA.c,252,,,invalid_window,148,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 148"
+2023-08-22T00:00:00,COCOA.c,252,,,invalid_window,149,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 149"
+2023-08-23T00:00:00,COCOA.c,252,,,invalid_window,150,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 150"
+2023-08-24T00:00:00,COCOA.c,252,,,invalid_window,151,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 151"
+2023-08-25T00:00:00,COCOA.c,252,,,invalid_window,152,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 152"
+2023-08-28T00:00:00,COCOA.c,252,,,invalid_window,153,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 153"
+2023-08-29T00:00:00,COCOA.c,252,,,invalid_window,154,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 154"
+2023-08-30T00:00:00,COCOA.c,252,,,invalid_window,155,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 155"
+2023-08-31T00:00:00,COCOA.c,252,,,invalid_window,156,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 156"
+2023-09-01T00:00:00,COCOA.c,252,,,invalid_window,157,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 157"
+2023-09-05T00:00:00,COCOA.c,252,,,invalid_window,158,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 158"
+2023-09-06T00:00:00,COCOA.c,252,,,invalid_window,159,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 159"
+2023-09-07T00:00:00,COCOA.c,252,,,invalid_window,160,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 160"
+2023-09-08T00:00:00,COCOA.c,252,,,invalid_window,161,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 161"
+2023-09-11T00:00:00,COCOA.c,252,,,invalid_window,162,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 162"
+2023-09-12T00:00:00,COCOA.c,252,,,invalid_window,163,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 163"
+2023-09-13T00:00:00,COCOA.c,252,,,invalid_window,164,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 164"
+2023-09-14T00:00:00,COCOA.c,252,,,invalid_window,165,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 165"
+2023-09-15T00:00:00,COCOA.c,252,,,invalid_window,166,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 166"
+2023-09-18T00:00:00,COCOA.c,252,,,invalid_window,167,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 167"
+2023-09-19T00:00:00,COCOA.c,252,,,invalid_window,168,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 168"
+2023-09-20T00:00:00,COCOA.c,252,,,invalid_window,169,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 169"
+2023-09-21T00:00:00,COCOA.c,252,,,invalid_window,170,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 170"
+2023-09-22T00:00:00,COCOA.c,252,,,invalid_window,171,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 171"
+2023-09-25T00:00:00,COCOA.c,252,,,invalid_window,172,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 172"
+2023-09-26T00:00:00,COCOA.c,252,,,invalid_window,173,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 173"
+2023-09-27T00:00:00,COCOA.c,252,,,invalid_window,174,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 174"
+2023-09-28T00:00:00,COCOA.c,252,,,invalid_window,175,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 175"
+2023-09-29T00:00:00,COCOA.c,252,,,invalid_window,176,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 176"
+2023-10-02T00:00:00,COCOA.c,252,,,invalid_window,177,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 177"
+2023-10-03T00:00:00,COCOA.c,252,,,invalid_window,178,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 178"
+2023-10-04T00:00:00,COCOA.c,252,,,invalid_window,179,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 179"
+2023-10-05T00:00:00,COCOA.c,252,,,invalid_window,180,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 180"
+2023-10-06T00:00:00,COCOA.c,252,,,invalid_window,181,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 181"
+2023-10-09T00:00:00,COCOA.c,252,,,invalid_window,182,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 182"
+2023-10-10T00:00:00,COCOA.c,252,,,invalid_window,183,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 183"
+2023-10-11T00:00:00,COCOA.c,252,,,invalid_window,184,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 184"
+2023-10-12T00:00:00,COCOA.c,252,,,invalid_window,185,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 185"
+2023-10-13T00:00:00,COCOA.c,252,,,invalid_window,186,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 186"
+2023-10-16T00:00:00,COCOA.c,252,,,invalid_window,187,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 187"
+2023-10-17T00:00:00,COCOA.c,252,,,invalid_window,188,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 188"
+2023-10-18T00:00:00,COCOA.c,252,,,invalid_window,189,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 189"
+2023-10-19T00:00:00,COCOA.c,252,,,invalid_window,190,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 190"
+2023-10-20T00:00:00,COCOA.c,252,,,invalid_window,191,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 191"
+2023-10-23T00:00:00,COCOA.c,252,,,invalid_window,192,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 192"
+2023-10-24T00:00:00,COCOA.c,252,,,invalid_window,193,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 193"
+2023-10-25T00:00:00,COCOA.c,252,,,invalid_window,194,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 194"
+2023-10-26T00:00:00,COCOA.c,252,,,invalid_window,195,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 195"
+2023-10-27T00:00:00,COCOA.c,252,,,invalid_window,196,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 196"
+2023-10-30T00:00:00,COCOA.c,252,,,invalid_window,197,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 197"
+2023-10-31T00:00:00,COCOA.c,252,,,invalid_window,198,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 198"
+2023-11-01T00:00:00,COCOA.c,252,,,invalid_window,199,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 199"
+2023-11-02T00:00:00,COCOA.c,252,,,invalid_window,200,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 200"
+2023-11-03T00:00:00,COCOA.c,252,,,invalid_window,201,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 201"
+2023-11-06T00:00:00,COCOA.c,252,,,invalid_window,202,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 202"
+2023-11-07T00:00:00,COCOA.c,252,,,invalid_window,203,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 203"
+2023-11-08T00:00:00,COCOA.c,252,,,invalid_window,204,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 204"
+2023-11-09T00:00:00,COCOA.c,252,,,invalid_window,205,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 205"
+2023-11-10T00:00:00,COCOA.c,252,,,invalid_window,206,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 206"
+2023-11-13T00:00:00,COCOA.c,252,,,invalid_window,207,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 207"
+2023-11-14T00:00:00,COCOA.c,252,,,invalid_window,208,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 208"
+2023-11-15T00:00:00,COCOA.c,252,,,invalid_window,209,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 209"
+2023-11-16T00:00:00,COCOA.c,252,,,invalid_window,210,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 210"
+2023-11-17T00:00:00,COCOA.c,252,,,invalid_window,211,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 211"
+2023-11-20T00:00:00,COCOA.c,252,,,invalid_window,212,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 212"
+2023-11-21T00:00:00,COCOA.c,252,,,invalid_window,213,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 213"
+2023-11-22T00:00:00,COCOA.c,252,,,invalid_window,214,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 214"
+2023-11-24T00:00:00,COCOA.c,252,,,invalid_window,215,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 215"
+2023-11-27T00:00:00,COCOA.c,252,,,invalid_window,216,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 216"
+2023-11-28T00:00:00,COCOA.c,252,,,invalid_window,217,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 217"
+2023-11-29T00:00:00,COCOA.c,252,,,invalid_window,218,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 218"
+2023-11-30T00:00:00,COCOA.c,252,,,invalid_window,219,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 219"
+2023-12-01T00:00:00,COCOA.c,252,,,invalid_window,220,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 220"
+2023-12-04T00:00:00,COCOA.c,252,,,invalid_window,221,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 221"
+2023-12-05T00:00:00,COCOA.c,252,,,invalid_window,222,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 222"
+2023-12-06T00:00:00,COCOA.c,252,,,invalid_window,223,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 223"
+2023-12-07T00:00:00,COCOA.c,252,,,invalid_window,224,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 224"
+2023-12-08T00:00:00,COCOA.c,252,,,invalid_window,225,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 225"
+2023-12-11T00:00:00,COCOA.c,252,,,invalid_window,226,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 226"
+2023-12-12T00:00:00,COCOA.c,252,,,invalid_window,227,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 227"
+2023-12-13T00:00:00,COCOA.c,252,,,invalid_window,228,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 228"
+2023-12-14T00:00:00,COCOA.c,252,,,invalid_window,229,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 229"
+2023-12-15T00:00:00,COCOA.c,252,,,invalid_window,230,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 230"
+2023-12-18T00:00:00,COCOA.c,252,,,invalid_window,231,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 231"
+2023-12-19T00:00:00,COCOA.c,252,,,invalid_window,232,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 232"
+2023-12-20T00:00:00,COCOA.c,252,,,invalid_window,233,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 233"
+2023-12-21T00:00:00,COCOA.c,252,,,invalid_window,234,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 234"
+2023-12-22T00:00:00,COCOA.c,252,,,invalid_window,235,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 235"
+2023-12-26T00:00:00,COCOA.c,252,,,invalid_window,236,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 236"
+2023-12-27T00:00:00,COCOA.c,252,,,invalid_window,237,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 237"
+2023-12-28T00:00:00,COCOA.c,252,,,invalid_window,238,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 238"
+2023-12-29T00:00:00,COCOA.c,252,,,invalid_window,239,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 239"
+2024-01-02T00:00:00,COCOA.c,252,,,invalid_window,240,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 240"
+2024-01-03T00:00:00,COCOA.c,252,,,invalid_window,241,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 241"
+2024-01-04T00:00:00,COCOA.c,252,,,invalid_window,242,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 242"
+2024-01-05T00:00:00,COCOA.c,252,,,invalid_window,243,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 243"
+2024-01-08T00:00:00,COCOA.c,252,,,invalid_window,244,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 244"
+2024-01-09T00:00:00,COCOA.c,252,,,invalid_window,245,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 245"
+2024-01-10T00:00:00,COCOA.c,252,,,invalid_window,246,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 246"
+2024-01-11T00:00:00,COCOA.c,252,,,invalid_window,247,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 247"
+2024-01-12T00:00:00,COCOA.c,252,,,invalid_window,248,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 248"
+2024-01-16T00:00:00,COCOA.c,252,,,invalid_window,249,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 249"
+2024-01-17T00:00:00,COCOA.c,252,,,invalid_window,250,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 250"
+2024-01-18T00:00:00,COCOA.c,252,,,invalid_window,251,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 251"
+2024-01-19T00:00:00,COCOA.c,252,,,invalid_window,252,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 252"
+2024-01-22T00:00:00,COCOA.c,252,,,invalid_window,253,,,false,false,,,,window_standardization,window returns must be finite
+2024-01-23T00:00:00,COCOA.c,252,0.86492199287783922,0.52781349055635796,success,253,358.99144953007811,357.13466265095013,false,false,133.00899962020222,34.952485830980251,,,
+2024-01-24T00:00:00,COCOA.c,252,0.78594688099430798,0.32148480847961436,success,253,358.99144939425258,357.6907843894125,false,false,81.014171736862821,20.450358836563293,,,
+2024-01-25T00:00:00,COCOA.c,252,0.93441368527320923,0.5198924046781529,success,253,358.99144976155236,356.33489756074812,false,false,131.01288597889453,30.040321969995301,,,
+2024-01-26T00:00:00,COCOA.c,252,0.71109769175369919,0.73519728142836316,success,253,358.99144934032665,358.09072811668085,false,false,185.26971491994752,10.514700205255895,,,
+2024-01-29T00:00:00,COCOA.c,252,0.78023057050898259,0.8108418701558876,success,253,358.99144936627903,357.72443883605894,false,false,204.33215127928366,12.102912608538899,,,
+2024-01-30T00:00:00,COCOA.c,252,0.92284941488099581,0.62041732676492944,success,253,358.99144942821738,356.50974251745322,false,false,156.34516634476222,19.15540488816049,,,
+2024-01-31T00:00:00,COCOA.c,252,0.94214244289166638,0.40479245432486272,success,253,358.99144939390618,356.20127699542331,false,false,102.0076984898654,52.972990865954138,,,
+2024-02-01T00:00:00,COCOA.c,252,0.88988849800067638,0.34538413169941778,success,253,358.99144959037352,356.9018469255721,false,false,87.036801188253278,10.13129099355722,,,
+2024-02-02T00:00:00,COCOA.c,252,0.9691732572974372,0.029612031172237371,success,253,358.99144939982875,355.54338858663556,false,false,7.4622318554038172,3.4071727457471721,,,
+2024-02-05T00:00:00,COCOA.c,252,0.9290992243892302,0.4661412483146728,success,253,358.99144984172216,356.41851567385453,false,false,117.46759457529754,4.928522217553378,,,
+2024-02-06T00:00:00,COCOA.c,252,0.95207367381723274,0.38892027831331571,success,253,358.99144927929541,356.00247181962897,false,false,98.007910134955566,54.153601569943902,,,
+2024-02-07T00:00:00,COCOA.c,252,0.9907477983021219,0.92416967524648408,success,253,358.99144963854161,354.31785117332123,false,false,232.890758162114,0.18756806716394495,,,
+2024-02-08T00:00:00,COCOA.c,252,0.99982839539031176,0.92077427483069596,success,253,357.76333086731677,349.0931849783658,false,false,232.03511725733537,2.6586635762755129,,,
+2024-02-09T00:00:00,COCOA.c,252,0.99988849009711489,0.91424738046904697,success,253,358.07417004033243,348.97288440055792,false,false,230.39033987819982,30.979910753015169,,,
+2024-02-12T00:00:00,COCOA.c,252,0.9999793289319775,0.99974462657466667,success,253,358.22235320465973,347.43559836050724,false,false,251.935645896816,0.092332871931811319,,,
+2024-02-13T00:00:00,COCOA.c,252,0.99399897861628106,0.57944150265365213,success,253,358.98111892657386,353.8713124328271,false,false,146.01925866872034,26.647881119293608,,,
+2024-02-14T00:00:00,COCOA.c,252,0.98405770847094987,0.46434916326552639,success,253,358.98362764441794,354.86091852495929,false,false,117.01598914291264,29.213577556705705,,,
+2024-02-15T00:00:00,COCOA.c,252,0.9820474646612769,0.46037294517262128,success,253,358.98698618179958,354.98507788938491,false,false,116.01398218350056,32.733566725869352,,,
+2024-02-16T00:00:00,COCOA.c,252,0.99999950814737482,0.94512617766460316,success,253,358.52418120750201,343.99909499175129,false,false,238.17179677147999,0.11391226103523719,,,
+2024-02-20T00:00:00,COCOA.c,252,0.99979850574656748,0.52483803150812536,success,253,358.99144953653041,350.48190135515642,false,false,132.25918394004759,17.806606106152287,,,
+2024-02-21T00:00:00,COCOA.c,252,0.99999999998507416,0.92420610092119293,success,253,358.99144961709351,334.06351803063251,false,false,232.89993743214063,11.658364663061965,,,
+2024-02-22T00:00:00,COCOA.c,252,0.9999999999876501,0.99106439669827384,success,253,358.99145013100065,333.87408188337179,false,false,249.74822796796502,0.084771318153726849,,,
+2024-02-23T00:00:00,COCOA.c,252,0.99999999999995981,0.99999850835273041,success,253,358.9914497996495,328.14509365638531,false,false,251.99962410488806,0.084640043232414641,,,
+2024-02-26T00:00:00,COCOA.c,252,0.99999999999976419,0.91234111757313729,success,253,358.98745849624805,329.91176781761487,false,false,229.90996162843061,10.75821261841425,,,
+2024-02-27T00:00:00,COCOA.c,252,0.99999999999993161,0.95457841655042164,success,253,358.991449377979,328.67719972836272,false,false,240.55376097070626,0.096608863279039225,,,
+2024-02-28T00:00:00,COCOA.c,252,0.99999993569934553,0.5527850504536217,success,253,358.9166180031612,342.3569220395546,false,false,139.30183271431267,18.455047578037579,,,
+2024-02-29T00:00:00,COCOA.c,252,0.99999999999999978,0.90035209787749815,success,253,358.98270334775964,322.93215867164207,false,false,226.88872866512952,7.1900096444837818,,,
+2024-03-01T00:00:00,COCOA.c,252,0.99999999999999978,0.89655959086356274,success,253,358.97573251578518,322.33741535673732,false,false,225.93301689761782,11.920536340350528,,,
+2024-03-04T00:00:00,COCOA.c,252,1,0.93598215588241174,success,253,358.78206194330562,318.26366818273857,false,false,235.86750328236775,0.083417761082920344,,,
+2024-03-05T00:00:00,COCOA.c,252,1,0.88863685824521188,success,253,358.98252567591885,317.86226679369236,false,false,223.93648827779339,11.287476473843727,,,
+2024-03-06T00:00:00,COCOA.c,252,0.99999999678814389,0.53176208890912402,success,253,358.99143922474519,339.43502236103507,false,false,134.00404640509925,277.11860872134673,,,
+2024-03-07T00:00:00,COCOA.c,252,1,0.88029471948815952,success,253,358.99145029253134,319.08828643687667,false,false,221.83426931101619,0.9219917459983249,,,
+2024-03-08T00:00:00,COCOA.c,252,0.99999999512237836,0.52383011320286377,success,253,358.99144960558124,339.85284148602966,false,false,132.00518852712167,213.89647630498152,,,
+2024-03-11T00:00:00,COCOA.c,252,1,0.87275532978341541,success,253,358.9914495421155,317.86854573595491,false,false,219.93434310542068,11.888360437268647,,,
+2024-03-12T00:00:00,COCOA.c,252,1,0.86893429080883033,success,253,358.98244562932769,317.54027218034787,false,false,218.97144128382524,26.63602477331445,,,
+2024-03-13T00:00:00,COCOA.c,252,1,0.87840356898758687,success,253,358.99130362895539,317.42295367686671,false,false,221.35769938487189,0.1387878704192963,,,
+2024-03-14T00:00:00,COCOA.c,252,1,0.86087093591080799,success,253,358.99145036209967,315.28178745550605,false,false,216.9394758495236,11.158532777581948,,,
+2024-03-15T00:00:00,COCOA.c,252,1,0.8924133875663377,success,253,358.59367192307599,305.65474023663046,false,false,224.88817366671711,0.083522651362892789,,,
+2024-03-18T00:00:00,COCOA.c,252,0.99999982407138888,0.27833501861097232,success,253,358.25720695050876,342.70401958431233,false,false,70.14042468996503,9.2707703224685911,,,
+2024-03-19T00:00:00,COCOA.c,252,1,0.87053192335581342,success,253,358.41744326937652,305.19397997375961,false,false,219.37404468566498,0.089878144887864636,,,
+2024-03-20T00:00:00,COCOA.c,252,1,0.86860196199571571,success,253,358.73015621952362,303.62472839320685,false,false,218.88769442292036,0.088701064298393514,,,
+2024-03-21T00:00:00,COCOA.c,252,1,0.83996656345801191,success,253,358.72340787985399,305.94246819420249,false,false,211.671573991419,2.8798597771391083,,,
+2024-03-22T00:00:00,COCOA.c,252,1,0.83608168070673694,success,253,358.7258983134231,304.95208358241786,false,false,210.69258353809772,2.8508923227490368,,,
+2024-03-25T00:00:00,COCOA.c,252,0.99999999999989564,0.48052412976408715,success,253,357.95326463811165,328.06316870265715,false,false,121.09208070054996,15.434862282402859,,,
+2024-03-26T00:00:00,COCOA.c,252,0.99999999999849698,0.49649258096449689,success,253,358.09384385891497,330.87035744866,false,false,125.11613040305322,10.092809052263735,,,
+2024-03-27T00:00:00,COCOA.c,252,1,0.82539572959896734,success,253,358.13342076776127,297.45666375550888,false,false,207.99972385893977,2149.6830524600455,,,
+2024-03-28T00:00:00,COCOA.c,252,1,0.78169583549709143,success,253,353.85985763197169,303.55822671284182,false,false,196.98735054526705,5822.5837793788505,,,
+2024-04-01T00:00:00,COCOA.c,252,1,0.77814605999125686,success,253,352.47487334046389,301.40750847962875,false,false,196.09280711779672,1956.8099705452314,,,
+2024-04-02T00:00:00,COCOA.c,252,0.98242723989824277,0.76986389424690449,success,253,354.84778822116971,350.82411191784666,false,false,194.00570135021994,5989.2451770797807,,,
+2024-04-03T00:00:00,COCOA.c,252,1,0.83890690807031998,success,253,358.40326155437742,294.55519844282185,false,false,211.40454083372063,0.11433312365899079,,,
+2024-04-04T00:00:00,COCOA.c,252,1,0.80455836696011873,success,253,358.55497320282819,297.38352519394908,false,false,202.74870847394993,2.7252791277046966,,,
+2024-04-05T00:00:00,COCOA.c,252,1,0.80058278736288047,success,253,358.40595665512694,296.88284612140973,false,false,201.74686241544589,2.742629617028705,,,
+2024-04-08T00:00:00,COCOA.c,252,1,0.79660554259331007,success,253,358.52251691779838,296.4719521790658,false,false,200.74459673351413,2.7632911401072562,,,
+2024-04-09T00:00:00,COCOA.c,252,1,0.79266259614019352,success,253,358.63413052970208,297.36375886073705,false,false,199.75097422732875,2.6976186065277648,,,
+2024-04-10T00:00:00,COCOA.c,252,1,0.78867711008353858,success,253,358.53582416521778,297.68804803301077,false,false,198.74663174105171,2.751423016594027,,,
+2024-04-11T00:00:00,COCOA.c,252,1,0.79817894153617608,success,253,358.55067151638247,297.49827980647939,false,false,201.14109326711636,0.10363781205477639,,,
+2024-04-12T00:00:00,COCOA.c,252,1,0.79315667889056007,success,253,358.57241677903488,297.33960651108481,false,false,199.87548308042113,0.10118466055541016,,,
+2024-04-15T00:00:00,COCOA.c,252,1,0.77675373248603441,success,253,358.50541406829444,299.31324117150109,false,false,195.74194058648067,2.7601803109130438,,,
+2024-04-16T00:00:00,COCOA.c,252,0.99999999999996647,0.44094327688194052,success,253,358.58672797970456,327.56217156509132,false,false,111.117705774249,11.934888803944483,,,
+2024-04-17T00:00:00,COCOA.c,252,1,0.769238019740759,success,253,358.95695382831389,291.93658183533336,false,false,193.84798097467126,2.639374721534792,,,
+2024-04-18T00:00:00,COCOA.c,252,1,0.79809127002466762,success,253,358.66369265557654,288.03855109677914,false,false,201.11900004621623,0.53478518655965712,,,
+2024-04-19T00:00:00,COCOA.c,252,1,0.78862118421346483,success,253,357.98021087464451,285.30989687576727,false,false,198.73253842179315,0.084351038947695953,,,
+2024-04-22T00:00:00,COCOA.c,252,1,0.78976252963445315,success,253,358.63854034591412,281.24229666338277,false,false,199.0201574678822,0.081731561296626731,,,
+2024-04-23T00:00:00,COCOA.c,252,1,0.78362295422765427,success,253,358.29068271731444,280.94916762448531,false,false,197.47298446536888,0.082853582898888986,,,
+2024-04-24T00:00:00,COCOA.c,252,1,0.78382793652021276,success,253,358.6093478968732,281.65072609920185,false,false,197.52464000309362,0.48473322702894989,,,
+2024-04-25T00:00:00,COCOA.c,252,1,0.74583096129121706,success,253,358.94405951637714,281.17381643554683,false,false,187.94940224538669,2.3766570012020023,,,
+2024-04-26T00:00:00,COCOA.c,252,1,0.77544919058159045,success,253,358.90065831082018,279.97857510420647,false,false,195.4131960265608,0.48695409923721189,,,
+2024-04-29T00:00:00,COCOA.c,252,1,0.80836600200605291,success,253,358.79236365012918,259.91288674210125,false,false,203.70823250552533,0.059908420605617144,,,
+2024-04-30T00:00:00,COCOA.c,252,1,0.79866357713066238,success,253,358.66165541753895,260.81505244639976,false,false,201.26322143692693,0.061606202543737894,,,
+2024-05-01T00:00:00,COCOA.c,252,1,0.95281163526621826,success,253,357.17410091878645,304.71511376049898,false,false,240.10853208708701,50.714192485777268,,,
+2024-05-02T00:00:00,COCOA.c,252,1,0.76617360223830155,success,253,354.55665463854012,251.56879490141,false,false,193.07574776405198,7.5768131709955071,,,
+2024-05-03T00:00:00,COCOA.c,252,1,0.8396470849264499,success,253,358.41095037992102,243.35884847120317,false,false,211.59106540146539,0.047288974548885393,,,
+2024-05-06T00:00:00,COCOA.c,252,0.99999999999999978,0.9769780102800143,success,253,357.37732884729309,321.57618967049683,false,false,246.1984585905636,24.833911642082825,,,
+2024-05-07T00:00:00,COCOA.c,252,1,0.87828585907253098,success,253,358.9914566141162,235.43459522212521,false,false,221.3280364862778,0.042509040546297408,,,
+2024-05-08T00:00:00,COCOA.c,252,1,0.85226076974883336,success,253,358.99144950941354,237.23915612387759,false,false,214.76971397670602,0.045729796308264077,,,
+2024-05-09T00:00:00,COCOA.c,252,1,0.772454893625377,success,253,358.99144950909556,248.44177593731609,false,false,194.65863319359499,11.966467608441,,,
+2024-05-10T00:00:00,COCOA.c,252,1,0.81518536253541474,success,253,358.99144952187083,240.5877557744073,false,false,205.42671135892451,0.051831203390367668,,,
+2024-05-13T00:00:00,COCOA.c,252,1,0.91703864783950084,success,253,358.9914494994544,220.85608651544808,false,false,231.09373925555423,0.037293755392164979,,,
+2024-05-14T00:00:00,COCOA.c,252,1,0.88904927530706324,success,253,358.99144951646372,222.25316977343422,false,false,224.04041737737992,0.039307105530615824,,,
+2024-05-15T00:00:00,COCOA.c,252,1,0.75711616732279652,success,253,358.99144926621852,234.40459734831913,false,false,190.79327416534471,10.114976638158904,,,
+2024-05-16T00:00:00,COCOA.c,252,1,0.75316424367895651,success,253,358.99144928464153,234.4203182929802,false,false,189.79738940709703,10.090584046934721,,,
+2024-05-17T00:00:00,COCOA.c,252,1,0.83414446726907843,success,253,358.99145018121845,224.6230415576195,false,false,210.20440575180777,0.044553071971142014,,,
+2024-05-20T00:00:00,COCOA.c,252,1,0.74519287400395939,success,253,358.99144976149631,237.18091341710078,false,false,187.78860424899776,10.268463097254239,,,
+2024-05-21T00:00:00,COCOA.c,252,1,0.74117516991004384,success,253,358.9914494168716,238.46410871163036,false,false,186.77614281733105,10.106584894677818,,,
+2024-05-22T00:00:00,COCOA.c,252,1,0.78921622327536034,success,253,358.99144943632973,227.9585172685866,false,false,198.8824882653908,0.050811895490098617,,,
+2024-05-23T00:00:00,COCOA.c,252,1,0.73324565533795361,success,253,358.99145034486378,236.04586218865776,false,false,184.77790514516431,10.187346686441108,,,
+2024-05-24T00:00:00,COCOA.c,252,1,0.78391856739205035,success,253,358.99144952091552,226.78564769006059,false,false,197.54747898279669,0.050236576853064693,,,
+2024-05-28T00:00:00,COCOA.c,252,1,0.77459402992855464,success,253,358.99145070788933,228.27113179195524,false,false,195.19769554199576,0.051693826149148914,,,
+2024-05-29T00:00:00,COCOA.c,252,1,0.77148512127101143,success,253,358.99144943074651,228.66802713586708,false,false,194.41425056029487,0.051626478456685165,,,
+2024-05-30T00:00:00,COCOA.c,252,1,0.76076030575361131,success,253,358.99144959536625,230.19214876184813,false,false,191.71159704991004,0.053575781796482869,,,
+2024-05-31T00:00:00,COCOA.c,252,1,0.75078660182787049,success,253,358.99144951212048,231.93014996164027,false,false,189.19822366062337,0.055570230125024288,,,
+2024-06-03T00:00:00,COCOA.c,252,1,0.74201153079936366,success,253,358.99145226430591,233.62400860272959,false,false,186.98690576143963,0.057352413568155673,,,
+2024-06-04T00:00:00,COCOA.c,252,1,0.73333526208628141,success,253,358.99144954981324,235.28193343411147,false,false,184.80048604574293,0.0592675729738509,,,
+2024-06-05T00:00:00,COCOA.c,252,1,0.72547684649735844,success,253,358.99145005492471,237.00702143044992,false,false,182.82016531733433,0.061045250131741134,,,
+2024-06-06T00:00:00,COCOA.c,252,1,0.7183652381043889,success,253,358.99144953645992,238.62913577730768,false,false,181.028040002306,0.062637620026578994,,,
+2024-06-07T00:00:00,COCOA.c,252,1,0.71127533249295138,success,253,358.99144952474842,240.14988200944111,false,false,179.24138378822374,0.064264940138451493,,,
+2024-06-10T00:00:00,COCOA.c,252,1,0.70646966318200055,success,253,358.99144967415788,239.5284285311634,false,false,178.03035512186415,0.064535527808228438,,,
+2024-06-11T00:00:00,COCOA.c,252,1,0.68528959260189437,success,253,358.99145234390596,247.24996059369448,false,false,172.69297733567737,10.634863313236647,,,
+2024-06-12T00:00:00,COCOA.c,252,1,0.69922469143367327,success,253,358.99144945042656,240.48514558690985,false,false,176.20462224128568,0.064543666161235219,,,
+2024-06-13T00:00:00,COCOA.c,252,1,0.69254382015744553,success,253,358.99145112058949,241.59626173727361,false,false,174.52104267967627,0.065962793600791089,,,
+2024-06-14T00:00:00,COCOA.c,252,1,0.6862894092950127,success,253,358.99144983944672,242.23016491667352,false,false,172.94493114234319,0.067174530605260033,,,
+2024-06-17T00:00:00,COCOA.c,252,1,0.68089428321534406,success,253,358.9914506708887,242.44035789432917,false,false,171.5853593702667,0.067904407728577046,,,
+2024-06-18T00:00:00,COCOA.c,252,1,0.67456001039368485,success,253,358.99144994224287,243.7410793189118,false,false,169.98912261920859,0.06940705038988923,,,
+2024-06-20T00:00:00,COCOA.c,252,1,0.67020602023419551,success,253,358.99144975573188,243.51224433635699,false,false,168.89191709901726,0.069520278292014237,,,
+2024-06-21T00:00:00,COCOA.c,252,1,0.6645078722726907,success,253,358.99144937691284,244.2035867304505,false,false,167.45598381271805,0.070502150638322783,,,
+2024-06-24T00:00:00,COCOA.c,252,1,0.66240067636236444,success,253,358.99144934755901,242.67458556586587,false,false,166.92497044331583,0.069124533959393719,,,
+2024-06-25T00:00:00,COCOA.c,252,1,0.64956384128340028,success,253,358.99144943418196,251.53129073638632,false,false,163.69008800341686,10.016107593683994,,,
+2024-06-26T00:00:00,COCOA.c,252,1,0.65072186412863231,success,253,358.99144935895856,245.36804354670875,false,false,163.98190976041533,0.071798895997320172,,,
+2024-06-27T00:00:00,COCOA.c,252,1,0.64671843438821985,success,253,358.99144962842195,244.68298993465825,false,false,162.9730454658314,0.071428890527035563,,,
+2024-06-28T00:00:00,COCOA.c,252,1,0.63770678625890609,success,253,358.99144954107589,253.67346920305619,false,false,160.70211013724435,10.484665212922019,,,
+2024-07-01T00:00:00,COCOA.c,252,1,0.63605688353206913,success,253,358.99144964407407,246.13056276321595,false,false,160.28633465008141,0.073109098930792454,,,
+2024-07-02T00:00:00,COCOA.c,252,1,0.63228995952864664,success,253,358.99144970184614,245.84126546412267,false,false,159.33706980121895,0.072810276236777494,,,
+2024-07-03T00:00:00,COCOA.c,252,1,0.62651764221901096,success,253,358.9914501627693,246.20896588530525,false,false,157.88244583919075,0.073648946539370069,,,
+2024-07-05T00:00:00,COCOA.c,252,1,0.62087412323958235,success,253,358.99144972613902,247.30383964782254,false,false,156.46027905637476,0.074804173324769685,,,
+2024-07-08T00:00:00,COCOA.c,252,1,0.61556673265205164,success,253,358.99145000321079,248.00002742880469,false,false,155.12281662831703,0.075618246807383036,,,
+2024-07-09T00:00:00,COCOA.c,252,1,0.61164469606059979,success,253,358.99144943085491,248.55038095673115,false,false,154.13446340727114,0.075728544647491569,,,
+2024-07-10T00:00:00,COCOA.c,252,1,0.60657731378974566,success,253,358.99144963489795,249.5333239115059,false,false,152.85748307501592,0.076629437705894435,,,
+2024-07-11T00:00:00,COCOA.c,252,1,0.60275636147402578,success,253,358.99144935332487,250.66501011617322,false,false,151.89460309145448,0.076964081765568473,,,
+2024-07-12T00:00:00,COCOA.c,252,1,0.59756289080995884,success,253,358.99144952241102,251.97082901394813,false,false,150.58584848410962,0.078142764278638269,,,
+2024-07-15T00:00:00,COCOA.c,252,1,0.59256366405272465,success,253,358.99145018028577,253.42801934987318,false,false,149.32604334128661,0.079242816431486146,,,
+2024-07-16T00:00:00,COCOA.c,252,1,0.58907337547280814,success,253,358.99144979025971,251.6735689121424,false,false,148.44649061914765,0.077841723700209323,,,
+2024-07-17T00:00:00,COCOA.c,252,1,0.58381876968335655,success,253,358.9914492549442,252.63902553753729,false,false,147.12232996020586,0.078807147487399462,,,
+2024-07-18T00:00:00,COCOA.c,252,1,0.573715269493978,success,253,358.99144933939766,253.68839183261593,false,false,144.57624791248244,0.07258210203607067,,,
+2024-07-19T00:00:00,COCOA.c,252,1,0.57487691691916953,success,253,358.99144962777535,254.48314420875226,false,false,144.86898306363074,0.079905296453303687,,,
+2024-07-22T00:00:00,COCOA.c,252,1,0.57764827249198269,success,253,358.99144928847642,262.40052412409773,false,false,145.56736466797963,12.101957858047779,,,
+2024-07-23T00:00:00,COCOA.c,252,1,0.56685955349352724,success,253,358.99144937165732,256.68927146151361,false,false,142.84860748036886,0.080946384926135193,,,
+2024-07-24T00:00:00,COCOA.c,252,1,0.56934436500889796,success,253,358.9914493569882,264.7784042666355,false,false,143.4747799822423,15.612301049430025,,,
+2024-07-25T00:00:00,COCOA.c,252,1,0.56566553519913854,success,253,358.99144928580205,265.37207587902554,false,false,142.54771487018292,12.733231244390677,,,
+2024-07-26T00:00:00,COCOA.c,252,1,0.56111801100109637,success,253,358.99144931487479,266.3401116709797,false,false,141.40173877227627,16.413704827589118,,,
+2024-07-29T00:00:00,COCOA.c,252,1,0.54120146888731147,success,253,358.99144935559247,258.86712922075884,false,false,136.3827701596025,0.075466757315025543,,,
+2024-07-30T00:00:00,COCOA.c,252,1,0.5433273992801958,success,253,358.99144987119263,260.04198153558201,false,false,136.91850461860935,0.083369511138252514,,,
+2024-07-31T00:00:00,COCOA.c,252,1,0.53853375739772069,success,253,358.99145049172711,261.29893484920228,false,false,135.71050686422561,0.08436262797814939,,,
+2024-08-01T00:00:00,COCOA.c,252,1,0.53450228641467712,success,253,358.99144976512497,261.63731241164436,false,false,134.69457617649863,0.084367315725558958,,,
+2024-08-02T00:00:00,COCOA.c,252,1,0.52974529470922971,success,253,358.99144935332157,263.0993103319766,false,false,133.49581426672589,0.08545853303922317,,,
+2024-08-05T00:00:00,COCOA.c,252,1,0.52541896861044701,success,253,358.99144935099042,264.46747203041241,false,false,132.40558008983265,0.086328444633937476,,,
+2024-08-06T00:00:00,COCOA.c,252,1,0.5333326374509777,success,253,358.99144936710917,271.57948760223746,false,false,134.39982463764639,18.804692082358645,,,
+2024-08-07T00:00:00,COCOA.c,252,1,0.51691782969758815,success,253,358.9914497942994,266.23328595488596,false,false,130.26329308379221,0.087335261496875066,,,
+2024-08-08T00:00:00,COCOA.c,252,1,0.5123867774809111,success,253,358.99144930619423,267.0261267648475,false,false,129.12146792518959,0.087785382233850351,,,
+2024-08-09T00:00:00,COCOA.c,252,1,0.67454768426469602,success,253,358.99144983209823,307.66820554460145,false,false,169.9860164347034,2.1396307991818686,,,
+2024-08-12T00:00:00,COCOA.c,252,1,0.51682602003240441,success,253,358.99144966160839,271.77656308160988,false,false,130.24015704816591,10.777289651191005,,,
+2024-08-13T00:00:00,COCOA.c,252,1,0.50026617032661003,success,253,358.991451185183,266.25904499524256,false,false,126.06707492230572,0.08624372839133064,,,
+2024-08-14T00:00:00,COCOA.c,252,1,0.49561147966942654,success,253,358.99144966895278,267.52646772226814,false,false,124.89409287669548,0.087108353292619858,,,
+2024-08-15T00:00:00,COCOA.c,252,1,0.50409812647519714,success,253,358.99144987303856,275.32723768757518,false,false,127.03272787174969,77.671036397830903,,,
+2024-08-16T00:00:00,COCOA.c,252,1,0.48633214535597336,success,253,358.99145041204571,270.01177116616782,false,false,122.55570062970529,0.088944319718518502,,,
+2024-08-19T00:00:00,COCOA.c,252,1,0.48219044698510621,success,253,358.99144948089901,271.38959602638795,false,false,121.51199264024676,0.089900654884561726,,,
+2024-08-20T00:00:00,COCOA.c,252,1,0.47810947298580564,success,253,358.9914495767685,272.51742461207414,false,false,120.48358719242302,0.090582249732653261,,,
+2024-08-21T00:00:00,COCOA.c,252,1,0.46668159455261982,success,253,358.99144962499298,272.86054638753353,false,false,117.6037618272602,0.081229789216203233,,,
+2024-08-22T00:00:00,COCOA.c,252,1,0.63824663210954025,success,253,358.99144959602859,314.13164623979856,false,false,160.83815129160413,3.2574884168427718,,,
+2024-08-23T00:00:00,COCOA.c,252,1,0.46456339432364152,success,253,358.99144968585534,275.38882719293554,false,false,117.06997536955767,0.092487249250264372,,,
+2024-08-26T00:00:00,COCOA.c,252,1,0.54040276899401585,success,253,358.99144960385496,302.10217903660578,false,false,136.181497786492,0.91718685283852663,,,
+2024-08-27T00:00:00,COCOA.c,252,1,0.53623739270618698,success,253,358.99145052056616,302.90787020764941,false,false,135.13182296195913,0.99434712500130584,,,
+2024-08-28T00:00:00,COCOA.c,252,1,0.62227270089178832,success,253,358.99145693742946,317.07625586127,false,false,156.81272062473064,3.6554951317055031,,,
+2024-08-29T00:00:00,COCOA.c,252,1,0.6182857485155917,success,253,358.99144966265453,317.89219542691478,false,false,155.80800862592912,3.7342552377775089,,,
+2024-08-30T00:00:00,COCOA.c,252,1,0.61428528375712599,success,253,358.99144931218405,318.3856875501574,false,false,154.79989150679575,3.9440505068273883,,,
+2024-09-03T00:00:00,COCOA.c,252,1,0.4577517102552599,success,253,358.99145257867758,286.0521645351181,false,false,115.3534309843255,17.561397166432734,,,
+2024-09-04T00:00:00,COCOA.c,252,1,0.51496505756658018,success,253,358.99144952315748,305.83959712176954,false,false,129.77119450677822,6.2066932786158864,,,
+2024-09-05T00:00:00,COCOA.c,252,1,0.42911061199794692,success,253,358.99144930054558,281.91002479725103,false,false,108.13587422348263,0.096254035480187475,,,
+2024-09-06T00:00:00,COCOA.c,252,1,0.59836156714830113,success,253,358.99145536069432,320.40325999004693,false,false,150.78711492137188,4.1676372386070097,,,
+2024-09-09T00:00:00,COCOA.c,252,1,0.44206504571355609,success,253,358.99144954401817,289.55052952419237,false,false,111.40039151981614,15.940446675912803,,,
+2024-09-10T00:00:00,COCOA.c,252,1,0.41626429360868072,success,253,358.99144961015401,284.81205928000554,false,false,104.89860198938754,0.098283450315471893,,,
+2024-09-11T00:00:00,COCOA.c,252,1,0.41264907877226376,success,253,358.99145827591593,285.58093611209358,false,false,103.98756785061046,0.09837102462402994,,,
+2024-09-12T00:00:00,COCOA.c,252,1,0.40825763594785758,success,253,358.9914498466843,286.80030158201396,false,false,102.88092425886011,0.099329354440499021,,,
+2024-09-13T00:00:00,COCOA.c,252,1,0.40405406948964523,success,253,358.99145064745625,287.94337232260938,false,false,101.82162551139059,0.10021278492718767,,,
+2024-09-16T00:00:00,COCOA.c,252,0.99999999999999956,0.57450484340129104,success,253,358.99144961819826,323.74834070172977,false,false,144.77522053712534,4.2883372775538833,,,
+2024-09-17T00:00:00,COCOA.c,252,1,0.38732540917912389,success,253,358.99145257684131,289.49229369571549,false,false,97.606003113139224,0.087970311617586353,,,
+2024-09-18T00:00:00,COCOA.c,252,0.999999999999998,0.56655725207803187,success,253,358.99144940880467,325.19374489321797,false,false,142.77242752366402,4.4662070529519156,,,
+2024-09-19T00:00:00,COCOA.c,252,1,0.38524678114237348,success,253,358.99145012766951,288.67055179859409,false,false,97.082188847878115,0.099294270772552373,,,
+2024-09-20T00:00:00,COCOA.c,252,1,0.4061195184664646,success,253,358.9914496686194,295.61266131946348,false,false,102.34211865354908,21.445475408291124,,,
+2024-09-23T00:00:00,COCOA.c,252,1,0.37639004273388049,success,253,358.99144954833446,290.28616032366773,false,false,94.850290768937882,0.10015413390180108,,,
+2024-09-24T00:00:00,COCOA.c,252,0.99999999999998579,0.5506530922180759,success,253,358.99144945688266,327.11276407715991,false,false,138.76457923895512,4.649704327262377,,,
+2024-09-25T00:00:00,COCOA.c,252,0.99999999999997247,0.54667023906596079,success,253,358.99145004356598,327.76444528818109,false,false,137.76090024462212,4.5876717742709872,,,
+2024-09-26T00:00:00,COCOA.c,252,0.99999999999996736,0.5426969434610146,success,253,358.99145002272076,327.93600193285056,false,false,136.75962975217567,4.549529439405525,,,
+2024-09-27T00:00:00,COCOA.c,252,1,0.35919802787629995,success,253,358.99144971290212,293.29833534403321,false,false,90.517903024827589,0.10121728747664099,,,
+2024-09-30T00:00:00,COCOA.c,252,1,0.38229832579360234,success,253,358.99145257540715,298.85135155809797,false,false,96.339178099987791,20.785494284075053,,,
+2024-10-01T00:00:00,COCOA.c,252,0.99999999999993183,0.5307894481999953,success,253,358.99144932038701,328.67499134635091,false,false,133.75894094639881,4.6757229206556987,,,
+2024-10-02T00:00:00,COCOA.c,252,0.99999999999987477,0.52680459410272229,success,253,358.99144935587168,329.28325038339136,false,false,132.75475771388602,4.7031438108400643,,,
+2024-10-03T00:00:00,COCOA.c,252,1,0.34227910704581904,success,253,358.99144974073999,294.575542716982,false,false,86.254334975546399,0.099174755085490993,,,
+2024-10-04T00:00:00,COCOA.c,252,0.99999999999972644,0.51885342509285626,success,253,358.99144931170838,330.06409041418738,false,false,130.75106312339977,4.7358758090871058,,,
+2024-10-07T00:00:00,COCOA.c,252,0.99999999999945954,0.51487023383830921,success,253,358.99144943089908,330.74519991186759,false,false,129.74729892725392,4.7766771684959535,,,
+2024-10-08T00:00:00,COCOA.c,252,1,0.35865599420286287,success,253,358.99144950179181,302.77306583138267,false,false,90.381310539121444,17.107889669768898,,,
+2024-10-09T00:00:00,COCOA.c,252,1,0.32513618808784361,success,253,358.99144935927461,296.79167549030831,false,false,81.934319398136594,0.098688624216327625,,,
+2024-10-10T00:00:00,COCOA.c,252,1,0.32086833056008185,success,253,358.99144934968393,297.78375974199048,false,false,80.858819301140628,0.099046957300853944,,,
+2024-10-11T00:00:00,COCOA.c,252,1,0.31692758738237098,success,253,358.99146126927388,298.78797723667486,false,false,79.86575202035749,0.099413066148237181,,,
+2024-10-14T00:00:00,COCOA.c,252,1,0.31218473935824465,success,253,358.99144936712457,299.47027145631859,false,false,78.670554318277652,0.099045050257132158,,,
+2024-10-15T00:00:00,COCOA.c,252,1,0.33734320701760639,success,253,358.99144935242089,305.99952040037181,false,false,85.010488168436808,219.61390389489264,,,
+2024-10-16T00:00:00,COCOA.c,252,1,0.3046761787568677,success,253,358.9914492294082,301.40652356188491,false,false,76.77839704673066,0.1005478467701465,,,
+2024-10-17T00:00:00,COCOA.c,252,0.99999999998130962,0.48311837938968577,success,253,358.99145032664097,334.28843644879709,false,false,121.74583160620081,4.9827446323932421,,,
+2024-10-18T00:00:00,COCOA.c,252,0.99999999996706102,0.47913624266077792,success,253,358.99145161294177,334.85508655454601,false,false,120.74233315051603,5.1219136925442053,,,
+2024-10-21T00:00:00,COCOA.c,252,0.99999999999999623,0.38383189795121198,success,253,358.99144927552095,325.75663177972677,false,false,96.725638283705422,7.0032711613317487,,,
+2024-10-22T00:00:00,COCOA.c,252,0.99999999988292476,0.47118321525368595,success,253,358.99144948175973,336.12324573776192,false,false,118.73817024392886,5.2970202548796399,,,
+2024-10-23T00:00:00,COCOA.c,252,1,0.28166733105454872,success,253,358.99144951045525,305.22523696488372,false,false,70.980167425746274,0.10145597702576908,,,
+2024-10-24T00:00:00,COCOA.c,252,1,0.2768479875956823,success,253,358.99144928292594,306.13181320522341,false,false,69.765692874111934,0.1014377385973903,,,
+2024-10-25T00:00:00,COCOA.c,252,1,0.27292235928300673,success,253,358.99145047742036,307.26214289650721,false,false,68.776434539317691,0.10232864160656836,,,
+2024-10-28T00:00:00,COCOA.c,252,1,0.26920678547183829,success,253,358.99145136648934,308.60324970868487,false,false,67.840109938903254,0.10384509872035451,,,
+2024-10-29T00:00:00,COCOA.c,252,0.99999999999985389,0.36000155976344306,success,253,358.99144984788319,329.43771416351638,false,false,90.72039306038765,7.4443873546020258,,,
+2024-10-30T00:00:00,COCOA.c,252,0.99999999809952578,0.44736313707828546,success,253,358.99144938243342,338.91028699407627,false,false,112.73551054372794,5.6481519331619214,,,
+2024-10-31T00:00:00,COCOA.c,252,0.85770102813585924,0.62559376432469671,success,253,358.99144938645878,357.19512407969114,false,false,157.64962860982357,19.750078811599401,,,
+2024-11-01T00:00:00,COCOA.c,252,0.97829616288955779,0.66251304571566894,success,253,358.9914493697745,355.18312599082213,false,false,166.95328752034857,10.962110345221337,,,
+2024-11-04T00:00:00,COCOA.c,252,0.87043219040028186,0.53570994624499502,success,253,358.99144939764659,357.08666390912043,false,false,134.99890645373875,293.09484844188478,,,
+2024-11-05T00:00:00,COCOA.c,252,0.94780356528489451,0.56345196203960612,success,253,358.99144935264081,356.09231627355086,false,false,141.98989443398074,40.996827365140284,,,
+2024-11-06T00:00:00,COCOA.c,252,0.95183540801744404,0.55940366137615916,success,253,358.99144991453937,356.0076819303635,false,false,140.96972266679211,13.853537139127178,,,
+2024-11-07T00:00:00,COCOA.c,252,0.99999999998578493,0.33188531915954517,success,253,358.99144947172101,334.01473742482136,false,false,83.635100428205376,6.1038859452368914,,,
+2024-11-08T00:00:00,COCOA.c,252,1,0.23263039387218959,success,253,358.99144952632213,316.44653408204374,false,false,58.622859255791774,0.10784152271374053,,,
+2024-11-11T00:00:00,COCOA.c,252,0.99999992108591185,0.37873797373522167,success,253,358.99144966264805,342.63654367379161,false,false,95.441969381275854,21.626730927366175,,,
+2024-11-12T00:00:00,COCOA.c,252,0.98541755129222242,0.63487447271927899,success,253,358.99144989858098,354.7782030995495,false,false,159.98836712525829,45.659866007863641,,,
+2024-11-13T00:00:00,COCOA.c,252,0.99741007687179406,0.74204136303086787,success,253,358.99144937859421,353.03791557743489,false,false,186.99442348377872,130.26069149457322,,,
+2024-11-14T00:00:00,COCOA.c,252,0.97411995142366659,0.62691043983789563,success,253,358.99144931454828,355.36338721169056,false,false,157.98143083914971,26.122920034992337,,,
+2024-11-15T00:00:00,COCOA.c,252,0.97825534089220945,0.62296212867272927,success,253,358.99144955286835,355.18504700127119,false,false,156.98645642552776,36.517089826980261,,,
+2024-11-18T00:00:00,COCOA.c,252,0.98074745713399969,0.61900600267815042,success,253,358.99145475693734,355.06078291357284,false,false,155.98951267489392,47.979625605397054,,,
+2024-11-19T00:00:00,COCOA.c,252,0.95595065306154803,0.52378158386253681,success,253,358.99144977062741,355.91405400385622,false,false,131.99295913335928,60.169746816662112,,,
+2024-11-20T00:00:00,COCOA.c,252,0.91034406343696272,0.48723136053027705,success,253,358.99144966256489,356.67360646001356,false,false,122.78230285362982,12.587139978282083,,,
+2024-11-21T00:00:00,COCOA.c,252,0.93794172396169329,0.48412589605447404,success,253,358.99144933033426,356.27583539091415,false,false,121.99972580572745,1423.5130967338762,,,
+2024-11-22T00:00:00,COCOA.c,252,0.91527751761089193,0.85312879609524317,success,253,358.99145035902848,356.61160404376596,false,false,214.98845661600129,47.671617407015098,,,
+2024-11-25T00:00:00,COCOA.c,252,0.9252546871460714,0.84816430734373638,success,253,358.99144955331832,356.47546702225861,false,false,213.73740545062157,15.412229121404117,,,
+2024-11-26T00:00:00,COCOA.c,252,0.99723181733419852,0.67851596531067981,success,253,358.99144979908414,353.10465756882917,false,false,170.98602325829131,47.577182549573244,,,
+2024-11-27T00:00:00,COCOA.c,252,0.98926036211477653,0.76469440294479274,success,253,358.99144965608059,354.46843347320458,false,false,192.70298954208778,18.915115237995195,,,
+2024-11-29T00:00:00,COCOA.c,252,0.992006587847862,0.76187692921967032,success,253,358.99144971300814,354.17033768622002,false,false,191.99298616335693,96.913933198230765,,,
+2024-12-02T00:00:00,COCOA.c,252,0.9979765974500121,0.64704926416684128,success,253,358.99144983309003,352.79050053154026,false,false,163.05641457004401,0.98446995226667755,,,
+2024-12-03T00:00:00,COCOA.c,252,0.99160247179944305,0.48803761297928883,success,253,358.99144956059115,354.22006466840207,false,false,122.98547847078079,36.779466565195911,,,
+2024-12-04T00:00:00,COCOA.c,252,0.98150986065771006,0.45237677533371773,success,253,358.99144933564668,355.0195948569222,false,false,113.99894738409687,458.27695266932267,,,
+2024-12-05T00:00:00,COCOA.c,252,0.98193299495102104,0.44840915493237821,success,253,358.99144958447943,354.99601386095077,false,false,112.99910704295931,542.2491847929856,,,
+2024-12-06T00:00:00,COCOA.c,252,0.99827471076268604,0.5673558939719765,success,253,358.99144917759037,352.63081538810394,false,false,142.97368528093807,24.251627070914981,,,
+2024-12-09T00:00:00,COCOA.c,252,0.99494091024305653,0.47219812924935001,success,253,358.99144936082052,353.70995258930088,false,false,118.9939285708362,92.702855534121909,,,
+2024-12-10T00:00:00,COCOA.c,252,0.99960579430731289,0.68334439175055728,success,253,358.99144962085217,351.15320618202838,false,false,172.20278672114043,0.35002800795177907,,,
+2024-12-11T00:00:00,COCOA.c,252,0.999694252053558,0.66659980686577369,success,253,358.99144978784773,350.89900608266402,false,false,167.98315133017496,46.477071064661025,,,
+2024-12-12T00:00:00,COCOA.c,252,0.99976413361176886,0.66267309088738957,success,253,358.99144933621733,350.639440165601,false,false,166.99361890362218,124.28727730467129,,,
+2024-12-13T00:00:00,COCOA.c,252,0.99917409495106269,0.54758164891602923,success,253,358.99144965643603,351.893245158821,false,false,137.99057552683936,71.133349732609119,,,
+2024-12-16T00:00:00,COCOA.c,252,0.99293212499735828,0.41960313838975422,success,253,358.99146254142249,354.04636010252295,false,false,105.73999087421807,13.713870792522057,,,
+2024-12-17T00:00:00,COCOA.c,252,0.99552106322874745,0.41666509727968076,success,253,358.99145303748696,353.58757244617959,false,false,104.99960451447956,1445.0008191378204,,,
+2024-12-18T00:00:00,COCOA.c,252,0.99494590563604812,0.41156648264105339,success,253,358.99145070236625,353.7089610128142,false,false,103.71475362554546,14.003584036440762,,,
+2024-12-19T00:00:00,COCOA.c,252,0.99758746607720861,0.44045100332509241,success,253,358.99144941790973,352.96678720309222,false,false,110.99365283792329,94.741887948663958,,,
+2024-12-20T00:00:00,COCOA.c,252,0.99973041819211883,0.63884076708492521,success,253,358.99144933491351,350.7730802936764,false,false,160.98787330540117,63.4386861850966,,,
+2024-12-23T00:00:00,COCOA.c,252,0.99673117005262157,0.69838634372374686,success,253,358.9914500274329,353.27140103931515,false,false,175.99335861838421,102.13652896433075,,,
+2024-12-24T00:00:00,COCOA.c,252,0.99981240268103821,0.63092956604435069,success,253,358.99144942296152,350.4104242251363,false,false,158.99425064317637,136.15991138990069,,,
+2024-12-26T00:00:00,COCOA.c,252,0.99914028832483215,0.56745622072367519,success,253,358.99145010763175,351.93339670270871,false,false,142.99896762236614,653.90019374528481,,,
+2024-12-27T00:00:00,COCOA.c,252,0.99797487948011665,0.62295493721161499,success,253,358.99144965831357,352.79135076795984,false,false,156.98464417732697,42.433909174197616,,,
+2024-12-30T00:00:00,COCOA.c,252,0.98853442465544206,0.61899557699787444,success,253,358.9914492718263,354.53457490241965,false,false,155.98688540346436,40.885985092194808,,,
+2024-12-31T00:00:00,COCOA.c,252,0.99195320659120301,0.55553746186480502,success,253,358.99144974127108,354.17704748363712,false,false,139.99544038993088,119.47225043805315,,,
+2025-01-02T00:00:00,COCOA.c,252,0.99319805367995007,0.55157277915191338,success,253,358.99145221884504,354.00773091962327,false,false,138.99634034628218,151.41600446977526,,,
+2025-01-03T00:00:00,COCOA.c,252,0.99433225369336187,0.54755186879888806,success,253,358.99144948999276,353.82416964188093,false,false,137.98307093731978,33.312289971126354,,,
+2025-01-06T00:00:00,COCOA.c,252,0.99557744887813648,0.40073597061596006,success,253,358.99145049957957,353.57484428660729,false,false,100.98546459522194,39.382769134885834,,,
+2025-01-07T00:00:00,COCOA.c,252,0.99669640232698331,0.39677948011901865,success,253,358.99144957547247,353.28201544166637,false,false,99.988428989992698,51.002749949983887,,,
+2025-01-08T00:00:00,COCOA.c,252,0.99743512513394084,0.39281750657872433,success,253,358.99145047023666,353.02817305331797,false,false,98.990011657838537,60.441048133339905,,,
+2025-01-09T00:00:00,COCOA.c,252,0.99786012619186226,0.38886766163202163,success,253,358.99144937369573,352.84658312045832,false,false,97.994650731269445,114.83083499755745,,,
+2025-01-10T00:00:00,COCOA.c,252,0.99826560116000917,0.38489470925712022,success,253,358.99145488875229,352.63609637785964,false,false,96.993466732794289,95.896601399735786,,,
+2025-01-13T00:00:00,COCOA.c,252,0.9973229827216854,0.34818242065997757,success,253,358.99144952575642,353.07107807254584,false,false,87.741970006314347,13.17970952327622,,,
+2025-01-14T00:00:00,COCOA.c,252,0.99902409721948537,0.37693515526168192,success,253,358.99145174705728,352.06028053969993,false,false,94.98765912594385,53.198121183530823,,,
+2025-01-15T00:00:00,COCOA.c,252,0.99910286918093472,0.51586858501909116,success,253,358.99144992759602,351.97603859519091,false,false,129.99888342481097,588.20565486878399,,,
+2025-01-16T00:00:00,COCOA.c,252,0.9992691462174893,0.51189695490958487,success,253,358.99145017039626,351.7708841492356,false,false,128.99803263721537,339.26601971973844,,,
+2025-01-17T00:00:00,COCOA.c,252,0.99902003932530425,0.507915412449786,success,253,358.99145162250198,352.06443394868586,false,false,127.99468393734608,122.83739113180003,,,
+2025-01-21T00:00:00,COCOA.c,252,0.99954430592645227,0.45283912393084452,success,253,358.99144917261992,351.29821610561277,false,false,114.11545923057282,0.93589826379608487,,,
+2025-01-22T00:00:00,COCOA.c,252,0.99948962766881821,0.44248483200047811,success,253,358.99145042434077,351.41159088948604,false,false,111.50617766412049,1.0572184403897138,,,
+2025-01-23T00:00:00,COCOA.c,252,0.99956228622582977,0.49602031631121529,success,253,358.99144974667723,351.25794221144525,false,false,124.99711971042625,239.76782591836445,,,
+2025-01-24T00:00:00,COCOA.c,252,0.99969079481987599,0.49204062979526403,success,253,358.991449524085,350.91025328899912,false,false,123.99423870840654,122.59320854126462,,,
+2025-01-27T00:00:00,COCOA.c,252,0.9996679109169313,0.54757033200095073,success,253,358.99144934668772,350.98167418838091,false,false,137.98772366423958,58.322597667575074,,,
+2025-01-28T00:00:00,COCOA.c,252,0.99981616608482038,0.4841174797605316,success,253,358.99144929932152,350.39015530726766,false,false,121.99760489965396,304.2016203036024,,,
+2025-01-29T00:00:00,COCOA.c,252,0.99988714641047272,0.42220874349731785,success,253,358.99144926601866,349.90214287872107,false,false,106.3966033613241,0.99410459581246946,,,
+2025-01-30T00:00:00,COCOA.c,252,0.99992841770523821,0.33330071696397012,success,253,358.99145005866785,349.44685884908296,false,false,83.991780674920477,95.693089686029992,,,
+2025-01-31T00:00:00,COCOA.c,252,0.9998447057006794,0.53172199095324624,success,253,358.99144969000764,350.22141646035215,false,false,133.99394172021806,123.1049221558185,,,
+2025-02-03T00:00:00,COCOA.c,252,0.99993056603167385,0.46822562472747437,success,253,358.99144964956542,349.41638473289623,false,false,117.99285743132354,107.81250838955832,,,
+2025-02-04T00:00:00,COCOA.c,252,0.99996196312012509,0.40560201075708097,success,253,358.99145018053537,348.81453387227015,false,false,102.2117067107844,0.93616111131745405,,,
+2025-02-05T00:00:00,COCOA.c,252,0.99998345611376738,0.31741314661316566,success,253,358.99144952249839,347.98197213020501,false,false,79.988112946517745,71.521765391045363,,,
+2025-02-06T00:00:00,COCOA.c,252,0.99997365552008599,0.28172784805465473,success,253,358.99144954779479,348.44722409676848,false,false,70.995417709772994,185.79430092691666,,,
+2025-02-07T00:00:00,COCOA.c,252,0.9999897447891074,0.30941985008794476,success,253,358.99145584513099,347.50374149860829,false,false,77.973802222162078,33.396245001555599,,,
+2025-02-10T00:00:00,COCOA.c,252,0.9999930471967351,0.30553993511141714,success,253,358.9914497319719,347.11509105255271,false,false,76.996063648077126,225.57012690009202,,,
+2025-02-11T00:00:00,COCOA.c,252,0.99999161418108395,0.3014466848043113,success,253,358.99144934104208,347.30248922383078,false,false,75.964564570686449,24.993936631789328,,,
+2025-02-12T00:00:00,COCOA.c,252,0.99998284581330854,0.44042905642035995,success,253,358.99144936341787,348.01819822555296,false,false,110.98812221793071,69.424728231399271,,,
+2025-02-13T00:00:00,COCOA.c,252,0.99999139987598917,0.37711888652307207,success,253,358.99144929699878,347.32772396221856,false,false,95.033959403814166,0.83421085268011053,,,
+2025-02-14T00:00:00,COCOA.c,252,0.99951756788605461,0.55547733350470918,success,253,358.99144974369733,351.355261948649,false,false,139.9802880431867,35.87280556402964,,,
+2025-02-18T00:00:00,COCOA.c,252,0.99999620776749787,0.36879813428623864,success,253,358.99144983450259,346.50889796513297,false,false,92.937129840132144,0.81731255585953899,,,
+2025-02-19T00:00:00,COCOA.c,252,0.99999589619836204,0.42456854959683199,success,253,358.99144963221192,346.58785695093684,false,false,106.99127449840167,100.82308022403065,,,
+2025-02-20T00:00:00,COCOA.c,252,0.99999905579573989,0.27773678356264236,success,253,358.99144967926679,345.11852730657381,false,false,69.98966945778588,94.829193928826172,,,
+2025-02-21T00:00:00,COCOA.c,252,0.99997516733068992,0.47616317563810551,success,253,358.9914495229616,348.38812389514322,false,false,119.99312026080258,118.26453721670501,,,
+2025-02-24T00:00:00,COCOA.c,252,0.99997428545180911,0.41257039519310967,success,253,358.99144956142845,348.4230216275493,false,false,103.96773958866363,25.062187327405638,,,
+2025-02-25T00:00:00,COCOA.c,252,0.99998658336209678,0.30554244676921744,success,253,358.99144978345288,347.77244821355248,false,false,76.996696585842798,261.68285673614503,,,
+2025-02-26T00:00:00,COCOA.c,252,0.99999628785555017,0.26063860420510038,success,253,358.99144980168921,346.48755268434911,false,false,65.680928259685288,17.724248785257224,,,
+2025-02-27T00:00:00,COCOA.c,252,0.99999228298934273,0.33963003161792277,success,253,358.99144979439035,347.21937402195613,false,false,85.58676796771654,0.70736139523582342,,,
+2025-02-28T00:00:00,COCOA.c,252,0.99999438658615758,0.33549494902952742,success,253,358.99144963541903,346.9011037533835,false,false,84.54472715544091,0.68794382371147589,,,
+2025-03-03T00:00:00,COCOA.c,252,0.99999542339525449,0.24995448714747728,success,253,358.99144949723149,346.69690091714995,false,false,62.988530761164277,82.275537222237602,,,
+2025-03-04T00:00:00,COCOA.c,252,0.99999443381052477,0.2117948830437304,success,253,358.991449622267,346.89265533459024,false,false,53.372310527020062,6.919797432636364,,,
+2025-03-05T00:00:00,COCOA.c,252,0.99999589037060144,0.20764872194905529,success,253,358.99144952092831,346.58927592638435,false,false,52.32747793116193,7.1521929746215189,,,
+2025-03-06T00:00:00,COCOA.c,252,0.99998984439071936,0.31845419823217241,success,253,358.99144973579695,347.49397552483458,false,false,80.250457954507453,0.5827277783434861,,,
+2025-03-07T00:00:00,COCOA.c,252,0.9999949137004619,0.29726996862823885,success,253,358.99145062778001,346.80249571602627,false,false,74.912032094316189,0.11698336380704433,,,
+2025-03-10T00:00:00,COCOA.c,252,0.99996532004142491,0.43248588600357701,success,253,358.9914494964267,348.72213557644534,false,false,108.98644327290141,58.723112754583425,,,
+2025-03-11T00:00:00,COCOA.c,252,0.99999798585238664,0.28748233058193401,success,253,358.9914494767014,345.87613701811625,false,false,72.44554730664737,0.11245507637270533,,,
+2025-03-12T00:00:00,COCOA.c,252,0.99999879330119645,0.28231180305482062,success,253,358.9914493634069,345.36382838181663,false,false,71.142574369814795,0.110039392458237,,,
+2025-03-13T00:00:00,COCOA.c,252,0.99999555709084498,0.36104275098470567,success,253,358.99144964183284,346.66725290377281,false,false,90.982773248145833,51.394989594095321,,,
+2025-03-14T00:00:00,COCOA.c,252,0.99998832628620038,0.41659256271652056,success,253,358.99145281701567,347.6332935632683,false,false,104.98132580456318,45.078332128379174,,,
+2025-03-17T00:00:00,COCOA.c,252,0.99999233852394742,0.41263783766803241,success,253,358.99144957910454,347.21215134400825,false,false,103.98473509234417,56.093374574032723,,,
+2025-03-18T00:00:00,COCOA.c,252,0.99999298477067455,0.40868544190722633,success,253,358.99144967170332,347.12402953273772,false,false,102.98873136062103,76.30463512084404,,,
+2025-03-19T00:00:00,COCOA.c,252,0.99999971886079209,0.16759906857974813,success,253,358.9914493676705,343.90703376013533,false,false,42.234965282096532,6.1543433247485462,,,
+2025-03-20T00:00:00,COCOA.c,252,0.99999364417428582,0.40075027276586339,success,253,358.9914497988193,347.02531742433575,false,false,100.98906873699758,79.094520554965442,,,
+2025-03-21T00:00:00,COCOA.c,252,0.99999502582547539,0.39678698446757799,success,253,358.99144943190777,346.78020328026156,false,false,99.990320085829651,90.376750702350904,,,
+2025-03-24T00:00:00,COCOA.c,252,0.99999993927936648,0.19044771716444714,success,253,358.9914494750721,342.3744672659829,false,false,47.992824725440677,162.57666813066865,,,
+2025-03-25T00:00:00,COCOA.c,252,0.99999988600304845,0.23807084436870871,success,253,358.99144963892951,343.00435562360423,false,false,59.993852780914594,0.098112983689572386,,,
+2025-03-26T00:00:00,COCOA.c,252,0.99999973489570559,0.21963410514306742,success,253,358.9914496506911,343.84830739102409,false,false,55.347794496052991,8.2150613112908921,,,
+2025-03-27T00:00:00,COCOA.c,252,0.99999994966500061,0.17854304430549894,success,253,358.99144934371287,342.18688420409825,false,false,44.992847164985733,166.8524611876374,,,
+2025-03-28T00:00:00,COCOA.c,252,0.99999995547503739,0.13971281318312886,success,253,358.99146131531995,342.06424551078186,false,false,35.207628922148473,4.8386438603364814,,,
+2025-03-31T00:00:00,COCOA.c,252,0.99999998360402031,0.1705075729215712,success,253,358.99145129187013,341.06522162948147,false,false,42.967908376235947,38.74722367978206,,,
+2025-04-01T00:00:00,COCOA.c,252,0.99999998851440075,0.16664575435926843,success,253,358.99144944132877,340.70927761789608,false,false,41.994730098535641,240.01113248334838,,,
+2025-04-02T00:00:00,COCOA.c,252,0.99999913203410129,0.30274907355095027,success,253,358.99144954460047,345.0343370024533,false,false,76.292766534839473,0.94511506659532218,,,
+2025-04-03T00:00:00,COCOA.c,252,0.99999922220663906,0.29877702734753397,success,253,358.99144966286553,344.92464548970719,false,false,75.291810891578564,0.96123265293725546,,,
+2025-04-04T00:00:00,COCOA.c,252,0.94496769893186261,0.62297962997225731,success,253,358.9914498104942,356.14821936960101,false,false,156.99086675300885,46.231485887525942,,,
+2025-04-07T00:00:00,COCOA.c,252,0.93180611144279168,0.61900250921551436,success,253,358.99144994941702,356.37668014154235,false,false,155.98863232230963,35.31588184525986,,,
+2025-04-08T00:00:00,COCOA.c,252,0.99999470306573535,0.34704233478035773,success,253,358.99144963374681,346.8430725852935,false,false,87.454668364650146,7.3838584750579113,,,
+2025-04-09T00:00:00,COCOA.c,252,0.99999998243955279,0.13869769914595509,success,253,358.99144933873555,341.13383257601441,false,false,34.951820184780679,0.95102360104286354,,,
+2025-04-10T00:00:00,COCOA.c,252,0.99999999339703094,0.10299123254332079,success,253,358.99144970734903,340.15570326297387,false,false,25.95379060091684,2.0702820594260145,,,
+2025-04-11T00:00:00,COCOA.c,252,0.99999579203856481,0.33496741329534602,success,253,358.9914516673677,346.61292362812264,false,false,84.411788150427199,7.2014667471437965,,,
+2025-04-14T00:00:00,COCOA.c,252,0.99999999786264926,0.09463630000123012,success,253,358.99144985003403,339.02775113654121,false,false,23.848347600309989,1.8829423488161143,,,
+2025-04-15T00:00:00,COCOA.c,252,0.99999999722082289,0.11229187366887146,success,253,358.99144965740601,339.29033873408468,false,false,28.297552164555608,0.33330448303987836,,,
+2025-04-16T00:00:00,COCOA.c,252,0.99999812695986101,0.3227475616502738,success,253,358.99144933756497,345.80350350622143,false,false,81.332385535868994,7.1671073120517192,,,
+2025-04-17T00:00:00,COCOA.c,252,0.99999999744545853,0.10265447650510696,success,253,358.99144951721962,339.20605639953919,false,false,25.868928079286956,0.31619043272529623,,,
+2025-04-21T00:00:00,COCOA.c,252,0.99999999792664918,0.097482851518283134,success,253,358.99144946019845,338.99734972970765,false,false,24.565678582607351,0.30347190406634694,,,
+2025-04-22T00:00:00,COCOA.c,252,0.9999999944175042,0.093532254524263433,success,253,358.99144955396002,339.98781966748362,false,false,23.570128140114385,0.30444055521530505,,,
+2025-04-23T00:00:00,COCOA.c,252,0.99999999457137734,0.08871847182296555,success,253,358.99145832037863,339.95987792162816,false,false,22.357054899387318,0.29385971602901562,,,
+2025-04-24T00:00:00,COCOA.c,252,0.99999999414790319,0.083452739400602327,success,253,358.99146204757631,340.03499624265612,false,false,21.030090328951786,0.28501867030586481,,,
+2025-04-25T00:00:00,COCOA.c,252,0.99999999700716735,0.076685901261457412,success,253,358.99144948228235,339.36440398249584,false,false,19.324847117887266,0.26487986250663831,,,
+2025-04-28T00:00:00,COCOA.c,252,0.99999999699846032,0.057495712650896931,success,253,358.99144943446538,339.36730899934577,false,false,14.488919588026027,1.5670543622565343,,,
+2025-04-29T00:00:00,COCOA.c,252,0.99999999674924589,0.064012536789102376,success,253,358.99144946699107,339.44707062888978,false,false,16.1311592708538,0.23327805620522502,,,
+2025-04-30T00:00:00,COCOA.c,252,0.99999490262820834,0.28718963721639429,success,253,358.991457636566,346.80467724791799,false,false,72.371788578531365,7.4553643939611653,,,
+2025-05-01T00:00:00,COCOA.c,252,0.9999999350136437,0.045696721182394109,success,253,358.99144997960599,342.44236155367463,false,false,11.515573737963315,1.5531564829906328,,,
+2025-05-02T00:00:00,COCOA.c,252,0.96512337312272001,0.66640396535647228,success,253,358.99145110325207,355.67101205015376,false,false,167.93379926983101,16.103685074587368,,,
+2025-05-05T00:00:00,COCOA.c,252,0.93391041059609436,0.66253998542007431,success,253,358.9914493990413,356.34308012232771,false,false,166.96007632585872,23.20060558142233,,,
+2025-05-06T00:00:00,COCOA.c,252,0.99987527890187111,0.21425002837577978,success,253,358.99145004149824,350.0021442418755,false,false,53.991007150696504,93.474258990502463,,,
+2025-05-07T00:00:00,COCOA.c,252,0.99998914541989781,0.036759274837871461,success,253,358.99145046526189,347.56053788208209,false,false,9.2633372591436078,0.22343474382244516,,,
+2025-05-08T00:00:00,COCOA.c,252,0.99924126100709854,0.26579740947279529,success,253,358.99144947734965,351.80835578175038,false,false,66.980947187144409,37.362516108100088,,,
+2025-05-09T00:00:00,COCOA.c,252,0.99970499547806491,0.022157648325393062,success,253,358.99144928788934,350.8632244627853,false,false,5.5837273779990513,1.5799490750573033,,,
+2025-05-12T00:00:00,COCOA.c,252,0.99988802818050804,0.016544106588260343,success,253,358.99144929878889,349.89429794686953,false,false,4.1691148602416064,1.3641702820554726,,,
+2025-05-13T00:00:00,COCOA.c,252,0.99991946365862205,0.00010151594094743762,success,253,358.99144938394272,349.56472789380626,false,false,0.025582017118754279,0.23472205333441068,,,
+2025-05-14T00:00:00,COCOA.c,252,0.9999938411970396,0.00052788521709099369,success,253,358.99145329055546,346.9938313254649,false,false,0.1330270747069304,9.0623307189968294,,,
+2025-05-15T00:00:00,COCOA.c,252,0.96621579376841371,0.31926335697059222,success,253,358.99144948900425,355.63805571277402,false,false,80.454365956589243,0.058692852327026916,,,
+2025-05-16T00:00:00,COCOA.c,252,0.97048581768770537,0.31366732463927965,success,253,358.99144951135537,355.49852362642935,false,false,79.044165809098473,0.058395153379177618,,,
+2025-05-19T00:00:00,COCOA.c,252,0.69301950511270916,0.57373314388933638,success,253,358.99144979531093,358.17717586161103,false,false,144.58075226011277,1.9571100531124048,,,
+2025-05-20T00:00:00,COCOA.c,252,0.78246395661995205,0.74553583304572391,success,253,358.99144977687803,357.71136647084126,false,false,187.87502992752243,1.1954750637841711,,,
+2025-05-21T00:00:00,COCOA.c,252,0.77785175574199417,0.74145927489242902,success,253,358.99144963831208,357.73825860355163,false,false,186.84773727289212,1.1893016426207323,,,
+2025-05-22T00:00:00,COCOA.c,252,0.79075431439056743,0.73746904598429341,success,253,358.99144959558447,357.66197136814259,false,false,185.84219958804195,1.1815693402681899,,,
+2025-05-23T00:00:00,COCOA.c,252,0.81718101390163622,0.73355062073222566,success,253,358.98858865545958,357.49122454220628,false,false,184.85475642452087,1.1751029083833442,,,
+2025-05-27T00:00:00,COCOA.c,252,0.84320264551285529,0.51202662702578039,success,253,358.99048645362234,357.30823337425312,false,false,129.03071001049665,0.40929835359652456,,,
+2025-05-28T00:00:00,COCOA.c,252,0.8555020349721183,0.50881347813402178,success,253,358.98135016106988,357.20292711364846,false,false,128.22099648977348,0.43220656550848557,,,
+2025-05-29T00:00:00,COCOA.c,252,0.66560125772061074,0.73042418144329568,success,253,358.93761542516086,358.24925876612861,false,false,184.06689372371051,14.830504637797109,,,
+2025-05-30T00:00:00,COCOA.c,252,0.68892454596429731,0.54370935727415159,success,253,358.99144943628141,358.19635318388373,false,false,137.0147580330862,13.707909983082301,,,
+2025-06-02T00:00:00,COCOA.c,252,0.72771047891273288,0.43665304765691737,success,253,358.99144942900284,358.00841206967772,false,false,110.03656800954317,4.8920411977189335,,,
+2025-06-03T00:00:00,COCOA.c,252,0.91320170142565238,0.30002827337069449,success,253,358.99144951642035,356.63807975841581,false,false,75.607124889415005,0.29416623011166981,,,
+2025-06-04T00:00:00,COCOA.c,252,0.80215306891691418,0.42139415769210936,success,253,358.99144933656112,357.59164354428697,false,false,106.19132773841156,0.64550628888759143,,,
+2025-06-05T00:00:00,COCOA.c,252,0.80804694155268797,0.41719556610554348,success,253,358.99144946905733,357.55408017112501,false,false,105.13328265859695,0.64201657182002769,,,
+2025-06-06T00:00:00,COCOA.c,252,0.64873663524600189,0.52386630381983879,success,253,358.99144950350916,358.37795893906394,false,false,132.01430856259938,12.191231028819535,,,
+2025-06-09T00:00:00,COCOA.c,252,0.63094856436311519,0.51987991586377502,success,253,358.99144944926758,358.4551611308251,false,false,131.0097387976713,16.480638494951119,,,
+2025-06-10T00:00:00,COCOA.c,252,0.8114857066881439,0.47276342425743473,success,253,358.99144935596581,357.53175641321428,false,false,119.13638291287356,0.43590622027123921,,,
+2025-06-11T00:00:00,COCOA.c,252,0.8035125372866897,0.46854492174638868,success,253,358.99144937803243,357.58305521592098,false,false,118.07332028008994,0.43637964125902834,,,
+2025-06-12T00:00:00,COCOA.c,252,0.65318176744226608,0.50574643603398117,success,253,358.99140371796619,358.35834908715236,false,false,127.44810188056326,2.2249926611105133,,,
+2025-06-13T00:00:00,COCOA.c,252,0.64405758279825054,0.50401888094637359,success,253,358.99144976100604,358.3984305929518,false,false,127.01275799848614,14.396875987457031,,,
+2025-06-16T00:00:00,COCOA.c,252,0.69478059975625173,0.39694008579463375,success,253,358.99144972285995,358.16888447400197,false,false,100.02890162024771,6.0476977707406636,,,
+2025-06-17T00:00:00,COCOA.c,252,0.80998364768378517,0.45308385616536229,success,253,358.99144942703504,357.54154550089635,false,false,114.17713175367129,0.45908461663069916,,,
+2025-06-18T00:00:00,COCOA.c,252,0.63875070902720166,0.49211573881112297,success,253,358.99144924573437,358.42150327091372,false,false,124.01316618040299,12.977878796364834,,,
+2025-06-20T00:00:00,COCOA.c,252,0.65939465819521059,0.48813511466284665,success,253,358.99144979371988,358.33085201574261,false,false,123.01004889503736,17.630430742451129,,,
+2025-06-23T00:00:00,COCOA.c,252,0.81187768929949089,0.44121107441845503,success,253,358.99144980106502,357.52919244131181,false,false,111.18519075345067,0.45659772003563781,,,
+2025-06-24T00:00:00,COCOA.c,252,0.66442463702420862,0.48022140595169016,success,253,358.99144964351149,358.30837474487242,false,false,121.01579429982593,11.642264844815044,,,
+2025-06-25T00:00:00,COCOA.c,252,0.65261151329767164,0.4762263267895489,success,253,358.99145046614353,358.36091215187196,false,false,120.00903435096632,19.444654301021039,,,
+2025-06-26T00:00:00,COCOA.c,252,0.61315699746909069,0.30559120173522436,success,253,358.9914494657088,358.530847381743,false,false,77.008982837276534,13.806808966569333,,,
+2025-06-27T00:00:00,COCOA.c,252,0.75886650371008668,0.36508318109721716,success,253,358.99145947460977,357.84498430376772,false,false,92.000961636498729,224.46483914050557,,,
+2025-06-30T00:00:00,COCOA.c,252,0.63428774788666242,0.27758842519647986,success,253,358.99144969604617,358.44079381132798,false,false,69.952283149512922,1.1829803107420556,,,
+2025-07-01T00:00:00,COCOA.c,252,0.67821790622690681,0.25000355407546504,success,253,358.99145040087467,358.24585635800418,false,false,63.000895627017194,245.30997655523291,,,
+2025-07-02T00:00:00,COCOA.c,252,0.87258976666012644,0.71240114265611265,success,253,358.99144944788918,357.06739597908165,false,false,179.52508794934039,0.30840220309001704,,,
+2025-07-03T00:00:00,COCOA.c,252,0.88265028358850872,0.70851106103070682,success,253,358.99144966748946,356.97367910585194,false,false,178.54478737973812,0.30710409853236131,,,
+2025-07-07T00:00:00,COCOA.c,252,0.87082181902153999,0.70414234562436073,success,253,358.99144943556536,357.08320474943537,false,false,177.4438710973389,0.31089988386880107,,,
+2025-07-08T00:00:00,COCOA.c,252,0.87219391239882116,0.69972741667555338,success,253,358.9914495877872,357.0709519866171,false,false,176.33130900223946,0.31058852618011012,,,
+2025-07-09T00:00:00,COCOA.c,252,0.75990081854920799,0.55705785809056885,success,253,358.99144968999218,357.83931386115705,false,false,140.37858023882336,0.3373406056989704,,,
+2025-07-10T00:00:00,COCOA.c,252,0.7152854253324924,0.50274227367591728,success,253,358.99144931782348,358.07025484456324,false,false,126.69105296633114,0.94865187469256984,,,
+2025-07-11T00:00:00,COCOA.c,252,0.71747576852027239,0.49875738409175979,success,253,358.9914496738333,358.05947482092449,false,false,125.68686079112346,0.95247274945651605,,,
+2025-07-14T00:00:00,COCOA.c,252,0.72320819715139417,0.4946821137671028,success,253,358.99144931351054,358.03101777925889,false,false,124.65989266930991,0.96153326331179734,,,
+2025-07-15T00:00:00,COCOA.c,252,0.71008631083775076,0.49098555692364448,success,253,358.99144970908515,358.09564643698133,false,false,123.72836034475841,0.94023667045500281,,,
+2025-07-16T00:00:00,COCOA.c,252,0.71876885427677439,0.48692009889840027,success,253,358.99144946618577,358.053086556224,false,false,122.70386492239686,0.94364023635890337,,,
+2025-07-17T00:00:00,COCOA.c,252,0.72342749723158917,0.48299037141241585,success,253,358.99144952333933,358.02992219619154,false,false,121.71357359592879,0.93324847651503084,,,
+2025-07-18T00:00:00,COCOA.c,252,0.6919289995409249,0.47922967731534388,success,253,358.99144960788635,358.1822965367308,false,false,120.76587868346665,0.94156998884118792,,,
+2025-07-21T00:00:00,COCOA.c,252,0.82359915774801606,0.30566150466039194,success,253,358.99144937436864,357.45052434009483,false,false,77.026699174418766,11.567208465238346,,,
+2025-07-22T00:00:00,COCOA.c,252,0.74114579848525852,0.47113847457147146,success,253,358.99144960018714,357.93951720983745,false,false,118.72689559201081,0.95681583721904573,,,
+2025-07-23T00:00:00,COCOA.c,252,0.61579177220139947,0.7222128048480646,success,253,358.98066278419509,358.50893857545805,false,false,181.99762682171229,160.73726816645615,,,
+2025-07-24T00:00:00,COCOA.c,252,0.77241775057777562,0.51591228844450232,success,253,358.98648624268304,357.76447242029815,false,false,130.00989668801458,0.31196946892166011,,,
+2025-07-25T00:00:00,COCOA.c,252,0.77123367996678938,0.5108428877833161,success,253,358.98798737884431,357.77269701036369,false,false,128.73240772139565,0.32453821058313298,,,
+2025-07-28T00:00:00,COCOA.c,252,0.74153402963240489,0.85630694805394791,success,253,358.99052448229207,357.93656747140795,false,false,215.78935090959487,1.8458607278800181,,,
+2025-07-29T00:00:00,COCOA.c,252,0.76589990054182999,0.50126310228882887,success,253,358.98964869629538,357.80434601258787,false,false,126.31830177678486,0.36463623193724493,,,
+2025-07-30T00:00:00,COCOA.c,252,0.76948700331843134,0.49723083625781284,success,253,358.98450237675615,357.77908555897727,false,false,125.30217073696883,0.36258034146933837,,,
+2025-07-31T00:00:00,COCOA.c,252,0.86118207648299527,0.27405821067586433,success,253,358.97895099232778,357.15380821101542,false,false,69.062669090317812,4.8402169250344125,,,
+2025-08-01T00:00:00,COCOA.c,252,0.76128898555204072,0.4869428184697423,success,253,358.98058311399359,357.82082375949017,false,false,122.70959025437506,0.50907455211056563,,,
+2025-08-04T00:00:00,COCOA.c,252,0.76774966315164206,0.48275058556763828,success,253,358.98417460912145,357.78852671661065,false,false,121.65314756304484,0.51878992644626976,,,
+2025-08-05T00:00:00,COCOA.c,252,0.76019736977420183,0.47868181036100677,success,253,358.98789719711391,357.83413531142543,false,false,120.62781621097371,0.55228298979105317,,,
+2025-08-06T00:00:00,COCOA.c,252,0.72770098975004383,0.42723776336134761,success,253,358.98673597033587,358.00374649977164,false,false,107.6639163670596,0.99257106583196197,,,
+2025-08-07T00:00:00,COCOA.c,252,0.69221405207700981,0.4929722787506125,success,253,358.98699072316089,358.17650005865426,false,false,124.22901424515435,0.96698311002611526,,,
+2025-08-08T00:00:00,COCOA.c,252,0.67374970640023624,0.527063497318489,success,253,358.98789725297456,358.26270342508019,false,false,132.82000132425924,1.3233206409621454,,,
+2025-08-11T00:00:00,COCOA.c,252,0.8728228574972573,0.60295796598951279,success,253,358.97448855275866,357.04833686733588,false,false,151.94540742935723,0.32244010573713566,,,
+2025-08-12T00:00:00,COCOA.c,252,0.87167808328633156,0.59904295546042152,success,253,358.92465801705976,357.00877991284392,false,false,150.95882477602623,0.32495920663034877,,,
+2025-08-13T00:00:00,COCOA.c,252,0.65041012399297182,0.51538013477383626,success,253,358.82311783792301,358.2022753985878,false,false,129.87579396300674,1.3654196552068378,,,
+2025-08-14T00:00:00,COCOA.c,252,0.86382249590783844,0.59183329038001231,success,253,358.80831490369383,356.9609068124285,false,false,149.14198917576311,0.33106047848094239,,,
+2025-08-15T00:00:00,COCOA.c,252,0.64784334663995224,0.50746071774067081,success,253,358.79494505414738,358.18537225058628,false,false,127.88010087064904,1.3756186142569544,,,
+2025-08-18T00:00:00,COCOA.c,252,0.89528118719023231,0.29804032600816155,success,253,358.79184680850744,356.64598774867613,false,false,75.106162154056705,12.999066398233925,,,
+2025-08-19T00:00:00,COCOA.c,252,0.87787681686443741,0.29393275206371433,success,253,358.78946096834846,356.81698491741884,false,false,74.071053520056012,18.799752923434546,,,
+2025-08-20T00:00:00,COCOA.c,252,0.85859988721820557,0.29006545979179477,success,253,358.79343689276482,356.98972741940014,false,false,73.096495867532283,13.627829447662426,,,
+2025-08-21T00:00:00,COCOA.c,252,0.83934675341430165,0.28632768026053523,success,253,358.79160341314969,357.13822779278377,false,false,72.154575425654883,8.730540009780329,,,
+2025-08-22T00:00:00,COCOA.c,252,0.8098589536420332,0.31205926163644221,success,253,358.81258581644943,357.36349186125972,false,false,78.638933932383438,1.9165571120559739,,,
+2025-08-25T00:00:00,COCOA.c,252,0.97872548629908607,0.91615919687970615,success,253,358.80853774304256,354.97979635840488,false,false,230.87211761368596,8.4513961852527064,,,
+2025-08-26T00:00:00,COCOA.c,252,0.90113742898630733,0.8293115350631749,success,253,358.82710755091313,356.6171804896926,false,false,208.98650683592007,38.375910242836106,,,
+2025-08-27T00:00:00,COCOA.c,252,0.96563901908589755,0.90728682185204867,success,253,358.86285142478016,355.52698299150114,false,false,228.63627910671627,2.5599198000907664,,,
+2025-08-28T00:00:00,COCOA.c,252,0.79790355848884387,0.40972940030884214,success,253,358.8541072779945,357.4808645585619,false,false,103.25180887782822,0.61670022317321205,,,
+2025-08-29T00:00:00,COCOA.c,252,0.82347645901777577,0.3062442880842412,success,253,358.87305507279234,357.33297435423191,false,false,77.173560597228786,12.789772566662464,,,
+2025-09-02T00:00:00,COCOA.c,252,0.85571801774368428,0.5116386569365764,success,253,358.86709993023447,357.08692862178185,false,false,128.93294154801725,4.308255231645262,,,
+2025-09-03T00:00:00,COCOA.c,252,0.97439387712744441,0.74421897930088077,success,253,358.87231376523408,355.2333296496314,false,false,187.54318278382195,19.902905883608437,,,
+2025-09-04T00:00:00,COCOA.c,252,0.96760833417225323,0.70706422892226595,success,253,358.88797941394387,355.49105318417475,false,false,178.18018568841103,1.7207201012458313,,,
+2025-09-05T00:00:00,COCOA.c,252,0.94825003350924342,0.72139680166226994,success,253,358.95750845594733,356.049314024664,false,false,181.79199401889201,15.976791136982794,,,
+2025-09-08T00:00:00,COCOA.c,252,0.94913700253887157,0.69503743916929805,success,253,358.92762550737365,356.00120804781,false,false,175.14943467066311,12.356081729235099,,,
+2025-09-09T00:00:00,COCOA.c,252,0.84506204402298102,0.48641951101338493,success,253,358.9394691609898,357.24308386421382,false,false,122.57771677537301,23.056903499574748,,,
+2025-09-10T00:00:00,COCOA.c,252,0.82490592101566973,0.37754874096820895,success,253,358.94051237653741,357.39056645550545,false,false,95.142282723988657,0.64582919204195743,,,
+2025-09-11T00:00:00,COCOA.c,252,0.82978061284594407,0.3734950628008431,success,253,358.92679528652991,357.34272206027623,false,false,94.120755825812466,0.64952492742063161,,,
+2025-09-12T00:00:00,COCOA.c,252,0.83165723560504934,0.36943549992170044,success,253,358.899638539835,357.3022203254821,false,false,93.097745980268513,0.65182465149730429,,,
+2025-09-15T00:00:00,COCOA.c,252,0.90448044514990578,0.47611681319132482,success,253,358.86949888038561,356.62146918465146,false,false,119.98143692421385,18.82739737861041,,,
+2025-09-16T00:00:00,COCOA.c,252,0.98964729733747692,0.70852443647531793,success,253,358.87367558913201,354.31357458723414,false,false,178.54815799178013,27.934469785450009,,,
+2025-09-17T00:00:00,COCOA.c,252,0.98776972625405368,0.76900138811207175,success,253,358.87227172646857,354.48073645907931,false,false,193.78834980424207,3.690082529808925,,,
+2025-09-18T00:00:00,COCOA.c,252,0.95595146610483062,0.56165248725152428,success,253,358.86585392734565,355.78843885234102,false,false,141.53642678738413,23.696100506004392,,,
+2025-09-19T00:00:00,COCOA.c,252,0.94307997640164654,0.44933880700119572,success,253,358.85766783638212,356.05016393454832,false,false,113.23337936430131,1119.1431350483924,,,
+2025-09-22T00:00:00,COCOA.c,252,0.94255156604417012,0.4454437466845555,success,253,358.85071170308578,356.05300881794579,false,false,112.25182416450798,58.2825296936144,,,
+2025-09-23T00:00:00,COCOA.c,252,0.97798259399868626,0.58150881825905654,success,253,358.85793257214181,355.06427402222954,false,false,146.54022220128223,27.625442163949138,,,
+2025-09-24T00:00:00,COCOA.c,252,0.9973928133969876,0.68458380474126224,success,253,358.85709987220889,352.91022689452979,false,false,172.51511879479807,27.733243235706279,,,
+2025-09-25T00:00:00,COCOA.c,252,0.96364473022457586,0.43903198687904732,success,253,358.85896196854401,355.58157844563243,false,false,110.63606069351992,39.671016729806702,,,
+2025-09-26T00:00:00,COCOA.c,252,0.93697259854461135,0.26598243348549649,success,253,358.86096613585028,356.1618816734225,false,false,67.027573238345113,40.444884719245664,,,
+2025-09-29T00:00:00,COCOA.c,252,0.94843747085296493,0.26202841388941017,success,253,358.86821287784255,355.95619224425684,false,false,66.031160300131361,35.678037338352624,,,
+2025-09-30T00:00:00,COCOA.c,252,0.95280886707591683,0.2586039307071511,success,253,358.87060402802837,355.86539571686103,false,false,65.168190538202083,7.7850259732408249,,,
+2025-10-01T00:00:00,COCOA.c,252,0.96181180201167371,0.25465812268584692,success,253,358.81369756385863,355.58740527902734,false,false,64.173846916833426,7.5413073477090764,,,
+2025-10-02T00:00:00,COCOA.c,252,0.93723005045933139,0.25007220025723342,success,253,358.9323134897349,356.22886116798406,false,false,63.01819446482282,25.18611352425815,,,
+2025-10-03T00:00:00,COCOA.c,252,0.89707181281288972,0.24878806247458474,success,253,358.90451123251364,356.73940684807098,false,false,62.694591743595353,4.1923752616948118,,,
+2025-10-06T00:00:00,COCOA.c,252,0.96211201281606018,0.41081784082645528,success,253,358.91221184892794,355.67771506860157,false,false,103.52609588826674,25.367983967283635,,,
+2025-10-07T00:00:00,COCOA.c,252,0.99981951531050905,0.79703033681407165,success,253,358.89678004802147,350.27709594244595,false,false,200.85164487714604,3632.8599323241351,,,
+2025-10-08T00:00:00,COCOA.c,252,0.99679767490561189,0.60790403623951061,success,253,358.88309960765304,353.14242893014296,false,false,153.19181713235668,8.8411191803255047,,,
+2025-10-09T00:00:00,COCOA.c,252,0.99132616742120394,0.53272637637155373,success,253,358.86609635689604,354.12736349085753,false,false,134.24704684563153,52.060052106424017,,,
+2025-10-10T00:00:00,COCOA.c,252,0.99993337417758654,0.84518909084496563,success,253,358.87900605678863,349.26265435319152,false,false,212.98765089293133,2201.983132298375,,,
+2025-10-13T00:00:00,COCOA.c,252,0.99997935997079501,0.77787765060410452,success,253,358.90573522061351,348.11747765847235,false,false,196.02516795223434,28.020502465964231,,,
+2025-10-14T00:00:00,COCOA.c,252,0.98241168020062797,0.38880514678765171,success,253,358.91762379793545,354.89484838512772,false,false,97.978896990488238,102.87728696890453,,,
+2025-10-15T00:00:00,COCOA.c,252,0.98525086514197513,0.38308285763410582,success,253,358.91615314500586,354.71444127820968,false,false,96.536880123794674,24.271276066060793,,,
+2025-10-16T00:00:00,COCOA.c,252,0.9693303835181879,0.21061474369608396,success,253,358.90600666352782,355.45267363006451,false,false,53.074915411413158,12.804275701179131,,,
+2025-10-17T00:00:00,COCOA.c,252,0.96570822022884895,0.20700419666861125,success,253,358.85499628462497,355.51704021412297,false,false,52.165057560490034,7.2537031172241972,,,
+2025-10-20T00:00:00,COCOA.c,252,0.98841527618822189,0.37109200950821591,success,253,358.87031185621851,354.42389624419468,false,false,93.515186396070405,19.312896207762094,,,
+2025-10-21T00:00:00,COCOA.c,252,0.9999969584562336,0.75414882463891353,success,253,358.87346776334306,346.17032545134083,false,false,190.04550380900622,14.33643665119653,,,
+2025-10-22T00:00:00,COCOA.c,252,0.99972392856496628,0.68999988329986028,success,253,358.89044520701788,350.69587041341731,false,false,173.87997059156478,26.866402249782141,,,
+2025-10-23T00:00:00,COCOA.c,252,0.99980921436563996,0.68513065698293041,success,253,358.88598594355011,350.32181665398809,false,false,172.65292555969847,40.432826838902912,,,
+2025-10-24T00:00:00,COCOA.c,252,0.999474700266065,0.55961596115752177,success,253,358.90275705035918,351.35174095160585,false,false,141.0232222116955,63.106494908106782,,,
+2025-10-27T00:00:00,COCOA.c,252,0.99984759067321927,0.67822392930378106,success,253,358.91460567372934,350.12581737743591,false,false,170.91243018455282,38.61711495807041,,,
+2025-10-28T00:00:00,COCOA.c,252,0.99989586886493187,0.67064649939626275,success,253,358.87937126496956,349.70961586253645,false,false,169.00291784785821,52745.021318470885,,,
+2025-10-29T00:00:00,COCOA.c,252,0.99998880282479652,0.73018097337179133,success,253,358.89761218084726,347.49777435263348,false,false,184.0056052896914,72.453414130413933,,,
+2025-10-30T00:00:00,COCOA.c,252,0.99558415879174178,0.33951035381615341,success,253,358.92474989004251,353.50661858094668,false,false,85.556609161670664,27.837397521855866,,,
+2025-10-31T00:00:00,COCOA.c,252,0.99870941727630835,0.48651546405315527,success,253,358.94417119028464,352.29280116771434,false,false,122.60189694139513,15.372635635943659,,,
+2025-11-03T00:00:00,COCOA.c,252,0.98960318055151308,0.16276337287098339,success,253,358.92402807247885,354.36822397454216,false,false,41.016369963487811,15.528576135576147,,,
+2025-11-04T00:00:00,COCOA.c,252,0.99552581885719327,0.3287633023340088,success,253,358.91844042733265,353.51349271873289,false,false,82.848352188170225,12.977716870800345,,,
+2025-11-05T00:00:00,COCOA.c,252,0.9998105947946907,0.64981506760047913,success,253,358.93130959335815,350.35987712206668,false,false,163.75339703532075,12.02539712244816,,,
+2025-11-06T00:00:00,COCOA.c,252,0.99988002515213215,0.56169915071995147,success,253,358.91399018138179,349.88588172517473,false,false,141.54818598142776,20.242029747484651,,,
+2025-11-07T00:00:00,COCOA.c,252,0.99759031056835157,0.31604414953201898,success,253,358.91000626016051,352.88416145124671,false,false,79.643125682068785,38.316546292566457,,,
+2025-11-10T00:00:00,COCOA.c,252,0.99763997388678405,0.31294692762694021,success,253,358.85406990471137,352.80735012499173,false,false,78.862625761988937,14.410448829080359,,,
+2025-11-11T00:00:00,COCOA.c,252,0.99659699444712657,0.30927799711064269,success,253,358.8468154725594,353.16712802979896,false,false,77.938055271881964,67.169430145208963,,,
+2025-11-12T00:00:00,COCOA.c,252,0.99989116374023967,0.54588295803398046,success,253,358.79122069554705,349.66566352852112,false,false,137.56250542456308,13.98132820164574,,,
+2025-11-13T00:00:00,COCOA.c,252,0.99996647099799241,0.68607233175568694,success,253,358.84239081895009,348.5393245864218,false,false,172.8902276024331,1.0268775843148543,,,
+2025-11-14T00:00:00,COCOA.c,252,0.99996601048754274,0.68265633245974933,success,253,358.88000819579281,348.59058364781265,false,false,172.02939577985683,1.6217065899511383,,,
+2025-11-17T00:00:00,COCOA.c,252,0.99997695980685508,0.67887710636902387,success,253,358.94240788335338,348.26416058466623,false,false,171.07703080499402,1.822567730031313,,,
+2025-11-18T00:00:00,COCOA.c,252,0.99983929350107537,0.5361271592459933,success,253,358.91946444850925,350.18369432323328,false,false,135.10404412999031,2.5642635321439617,,,
+2025-11-19T00:00:00,COCOA.c,252,0.9951885170354825,0.38709317391700127,success,253,358.9303243337468,353.59839749540885,false,false,97.547479827084317,22.68200529407083,,,
+2025-11-20T00:00:00,COCOA.c,252,0.9954305032501195,0.38321397436071741,success,253,358.95231701343943,353.56854478173716,false,false,96.569921538900786,17.079605768975473,,,
+2025-11-21T00:00:00,COCOA.c,252,0.99976579747391925,0.52380387095647818,success,253,358.96310227250217,350.60401218159689,false,false,131.9985754810325,2.4923772443147443,,,
+2025-11-24T00:00:00,COCOA.c,252,0.99817548872713391,0.42294807896916664,success,253,358.96679696366044,352.66218001788013,false,false,106.58291590022999,16.490466566597039,,,
+2025-11-25T00:00:00,COCOA.c,252,0.9959009998991929,0.26990223530862095,success,253,358.97583852868797,353.48293373985052,false,false,68.015363297772481,5.4814881169301319,,,
+2025-11-26T00:00:00,COCOA.c,252,0.9968478358532753,0.095272677770969039,success,253,358.97861417809651,353.22210528944163,false,false,24.008714798284199,18.254428526895943,,,
+2025-11-28T00:00:00,COCOA.c,252,0.99964988867713112,0.50221071516990268,success,253,358.96979988179254,351.0128906657057,false,false,126.55710022281546,19.031498931869098,,,
+2025-12-01T00:00:00,COCOA.c,252,0.9997550044262431,0.64481623052288883,success,253,358.96989543947251,350.6558700511813,false,false,162.49369009176797,1.8857773829032791,,,
+2025-12-02T00:00:00,COCOA.c,252,0.99982617109541783,0.64080558771834284,success,253,358.96838038745358,350.31111518195632,false,false,161.48300810502241,1.8956524506351697,,,
+2025-12-03T00:00:00,COCOA.c,252,0.99987214603279739,0.63680667883863007,success,253,358.97221420289787,350.00772023846395,false,false,160.47528306733477,1.9001516703479417,,,
+2025-12-04T00:00:00,COCOA.c,252,0.99982221502910418,0.57033475577484072,success,253,358.96859532991681,350.33383736409087,false,false,143.72435845525987,13.742558085555032,,,
+2025-12-05T00:00:00,COCOA.c,252,0.99987984874593849,0.48359377398661363,success,253,358.94304652304078,349.91640752314265,false,false,121.86563104462664,561.85391924564749,,,
+2025-12-08T00:00:00,COCOA.c,252,0.99879904413402154,0.41620838345930838,success,253,358.97124390867117,352.24780810197484,false,false,104.88451263174571,2.0937529010262268,,,
+2025-12-09T00:00:00,COCOA.c,252,0.99982328483523908,0.43979028855707786,success,253,358.97226237101307,350.33146774154858,false,false,110.82715271638362,2.4034737354172724,,,
+2025-12-10T00:00:00,COCOA.c,252,0.99962116884642038,0.43370357834000905,success,253,358.94529811284872,351.06725705856138,false,false,109.29330174168228,5.6719569986005149,,,
+2025-12-11T00:00:00,COCOA.c,252,0.99981539248874218,0.46825814002614691,success,253,358.95245472573123,350.35536080293201,false,false,118.00105128658902,15.076014873100478,,,
+2025-12-12T00:00:00,COCOA.c,252,0.99974877627986303,0.42793166795191584,success,253,358.94101139754184,350.65209595229214,false,false,107.83878032388279,2.3540798434694947,,,
+2025-12-15T00:00:00,COCOA.c,252,0.99958365394953241,0.42448530857410288,success,253,358.92768643856709,351.14410907989901,false,false,106.97029776067393,23.112683910625645,,,
+2025-12-16T00:00:00,COCOA.c,252,0.99843002270788761,0.36492798099975504,success,253,358.97247875886268,352.51735584651146,false,false,91.961851211938267,17.755384109240097,,,
+2025-12-17T00:00:00,COCOA.c,252,0.99764532131209238,0.2095791519266603,success,253,358.98813562750342,352.93914208372865,false,false,52.813946285518398,12.582164645807858,,,
+2025-12-18T00:00:00,COCOA.c,252,0.99977251452883376,0.45625286289420619,success,253,358.99077294385677,350.60257627058883,false,false,114.97572144933996,29.497581442476125,,,
+2025-12-19T00:00:00,COCOA.c,252,0.99975279658632277,0.58704446641961938,success,253,358.99145027718333,350.68639848805469,false,false,147.93520553774408,7.5045126744023296,,,
+2025-12-22T00:00:00,COCOA.c,252,0.99971632193502724,0.52372034664443645,success,253,358.97421106021386,350.80682424169959,false,false,131.97752735439798,31.848441439115131,,,
+2025-12-23T00:00:00,COCOA.c,252,0.99972443771770125,0.57914540540338166,success,253,358.96486659815838,350.76844531354385,false,false,145.94464216165218,2.7358195515685462,,,
+2025-12-24T00:00:00,COCOA.c,252,0.99980744561982293,0.43642221725703861,success,253,358.95945319895253,350.40451382216941,false,false,109.97839874877373,2.4220157266202751,,,
+2025-12-26T00:00:00,COCOA.c,252,0.99894022737610921,0.33952987428631781,success,253,358.94258241658349,352.09394185153229,false,false,85.561528320152092,1.2985338010265572,,,
+2025-12-29T00:00:00,COCOA.c,252,0.99747752954134117,0.29355865149623972,success,253,358.89143857699736,352.91144771730353,false,false,73.976780177052404,34.826792868239437,,,
+2025-12-30T00:00:00,COCOA.c,252,0.99948008057608151,0.42421197299833541,success,253,358.99144978617778,351.43013312840856,false,false,106.90141719558052,2.5347324744906343,,,
+2025-12-31T00:00:00,COCOA.c,252,0.99876589731315191,0.3775888316003691,success,253,358.76385330429298,352.06767702677621,false,false,95.152385563293009,14.671186580415636,,,
+2026-01-02T00:00:00,COCOA.c,252,0.99431340591299278,0.4108825023729758,success,253,358.89646488136691,353.73252391689215,false,false,103.54239059798991,19.141022177968377,,,
+2026-01-05T00:00:00,COCOA.c,252,0.99656149693748053,0.54973367153894781,success,253,358.90269540508001,353.23342077483159,false,false,138.53288522781486,14.224562201639721,,,
+2026-01-06T00:00:00,COCOA.c,252,0.99725109735055917,0.54530471658029722,success,253,358.89457801974788,353.00077722406161,false,false,137.4167885782349,29.454605842487073,,,
+2026-01-07T00:00:00,COCOA.c,252,0.99616518034899915,0.39891198579134335,success,253,358.85997776414695,353.30018708318397,false,false,100.52582041941852,27.361209034201742,,,
+2026-01-08T00:00:00,COCOA.c,252,0.9966417732692695,0.39490811579281865,success,253,358.86082390783696,353.1678455830355,false,false,99.516845179790295,29.162401570435495,,,
+2026-01-09T00:00:00,COCOA.c,252,0.98499358922095026,0.39103327857507097,success,253,358.89764630081106,354.7134886631344,false,false,98.540386200917879,26.603087817855485,,,
+2026-01-12T00:00:00,COCOA.c,252,0.97910491794485566,0.47149396282851308,success,253,358.95483622539678,355.10771124304051,false,false,118.81647863278529,15.668750499652402,,,
+2026-01-13T00:00:00,COCOA.c,252,0.98799581576305995,0.34916107651878925,success,253,358.98280040109722,354.57237721383865,false,false,87.988591282734887,42.275382990801795,,,
+2026-01-14T00:00:00,COCOA.c,252,0.95492942147871784,0.2720244298061667,success,253,358.9288023637925,355.87539460293505,false,false,68.550156311154012,14.726500995891577,,,
+2026-01-15T00:00:00,COCOA.c,252,0.98736765543514227,0.33983264789156858,success,253,358.91966974346747,354.56088782920949,false,false,85.637827268675281,40.867645617121248,,,
+2026-01-16T00:00:00,COCOA.c,252,0.964717360082193,0.26414376870887513,success,253,358.9324251997549,355.62398108836481,false,false,66.564229714636525,38.763131898889029,,,
+2026-01-20T00:00:00,COCOA.c,252,0.96863823319638709,0.43048634459726653,success,253,358.98737647449559,355.55707480596442,false,false,108.48255883851117,21.43209932136833,,,
+2026-01-21T00:00:00,COCOA.c,252,0.97644224928016154,0.4481069580544681,success,253,358.83507920056365,355.11061847644822,false,false,112.92295342972596,29.41017487054658,,,
+2026-01-22T00:00:00,COCOA.c,252,0.97227374651717202,0.50215488270768194,success,253,358.92798607146398,355.37072841793281,false,false,126.54303044233585,15.785890789919565,,,
+2026-01-23T00:00:00,COCOA.c,252,0.95896641051608733,0.41892166541322079,success,253,358.92688974128754,355.77542467955089,false,false,105.56825968413163,5.2530660140028038,,,
+2026-01-26T00:00:00,COCOA.c,252,0.96213910050787887,0.43649073977652714,success,253,358.98789455097011,355.75265441950984,false,false,109.99566642368484,89.015161851036467,,,
+2026-01-27T00:00:00,COCOA.c,252,0.95776672296595344,0.48950971295265694,success,253,358.98165246695578,355.86025668845252,false,false,123.35644766406955,32.263783659080872,,,
+2026-01-28T00:00:00,COCOA.c,252,0.94880062139147447,0.48643133590659454,success,253,358.99048352814162,356.0710122403944,false,false,122.58069664846182,11.583574582255261,,,
+2026-01-29T00:00:00,COCOA.c,252,0.952446276257088,0.48426608353900502,success,253,358.99145002513131,355.9942764206798,false,false,122.03505305182927,15.01209536755673,,,
+2026-01-30T00:00:00,COCOA.c,252,0.96276755286055615,0.47993139813953889,success,253,358.99145052775538,355.73881913925845,false,false,120.9427123311638,38.71124426045133,,,
+2026-02-02T00:00:00,COCOA.c,252,0.96958256379327978,0.47432111226792778,success,253,358.99063599319146,355.52878636434599,false,false,119.52892029151781,14.157407629176117,,,
+2026-02-03T00:00:00,COCOA.c,252,0.96821460151936511,0.47031228510885092,success,253,358.99107720385427,355.57463046242503,false,false,118.51869584743044,14.816498298653134,,,
+2026-02-04T00:00:00,COCOA.c,252,0.96691642453181281,0.46779353925472605,success,253,358.99144969361458,355.6163745792847,false,false,117.88397189219097,19.738672938751705,,,
+2026-02-05T00:00:00,COCOA.c,252,0.95724560064790032,0.46408179765037194,success,253,358.99144941820742,355.8828615225932,false,false,116.94861300789373,11.656452973152353,,,
+2026-02-06T00:00:00,COCOA.c,252,0.96536527782274395,0.46022104761964466,success,253,358.9914494784212,355.66379963246152,false,false,115.97570400015046,24.503761591166562,,,
+2026-02-09T00:00:00,COCOA.c,252,0.96988542212154849,0.37698623655766195,success,253,358.99145071793794,355.51928214435253,false,false,95.000531612530807,291.95535151596613,,,
+2026-02-10T00:00:00,COCOA.c,252,0.95479739033166933,0.45228070792279834,success,253,358.99144956259249,355.94110522253749,false,false,113.97473839654518,22.324552726817654,,,
+2026-02-11T00:00:00,COCOA.c,252,0.96319109275694315,0.44842412206008375,success,253,358.9914493759926,355.7269374095689,false,false,113.00287875914111,6.5371855020155545,,,
+2026-02-12T00:00:00,COCOA.c,252,0.97185715576041809,0.36508228734047715,success,253,358.99144955649399,355.44953384311788,false,false,92.00073640980024,217.42563848186336,,,
+2026-02-13T00:00:00,COCOA.c,252,0.99025204554178203,0.29472046773737121,success,253,358.99145766646836,354.37055562812799,false,false,74.269557869817547,56.986872694385475,,,
+2026-02-17T00:00:00,COCOA.c,252,0.97180743888035959,0.35706525368161895,success,253,358.99144952228937,355.4513499986644,false,false,89.980443927767979,23.626621662499609,,,
+2026-02-18T00:00:00,COCOA.c,252,0.96845927359720141,0.43100632564709468,success,253,358.98876115146902,355.5643343329458,false,false,108.61359406306786,217.63706438266161,,,
+2026-02-19T00:00:00,COCOA.c,252,0.57462278156681945,0.48557923446277501,success,253,358.63838858310066,358.33765113769277,false,false,122.3659670846193,10.522361476999704,,,
+2026-02-20T00:00:00,COCOA.c,252,0.99257228177400025,0.2459336330254179,success,253,358.98489091900069,354.08980978984482,false,false,61.975275522405312,21.215632815778505,,,

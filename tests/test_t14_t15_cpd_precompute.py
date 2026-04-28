@@ -592,10 +592,13 @@ class T14T15CpdPrecomputeTests(unittest.TestCase):
                 telemetry_rows = list(csv.DictReader(handle))
             self.assertEqual(len(telemetry_rows), 2)
             telemetry_by_lbw = {row["lbw"]: row for row in telemetry_rows}
+            self.assertEqual(telemetry_by_lbw["10"]["state"], "present")
+            self.assertEqual(telemetry_by_lbw["10"]["missing_reason"], "")
             self.assertEqual(telemetry_by_lbw["10"]["row_count"], "4")
             self.assertEqual(telemetry_by_lbw["10"]["output_row_count"], "3")
             self.assertEqual(telemetry_by_lbw["10"]["fallback_previous_count"], "1")
             self.assertEqual(telemetry_by_lbw["10"]["retry_used_count"], "2")
+            self.assertEqual(telemetry_by_lbw["21"]["state"], "present")
             self.assertEqual(telemetry_by_lbw["21"]["baseline_failure_count"], "1")
             self.assertEqual(telemetry_by_lbw["21"]["changepoint_failure_count"], "1")
 
@@ -620,9 +623,10 @@ class T14T15CpdPrecomputeTests(unittest.TestCase):
             manifest_entries = json.loads(outputs.manifest_output_path.read_text(encoding="utf-8"))
             self.assertEqual(len(manifest_entries), 2)
             self.assertTrue(all(entry["matches_canonical_timeline"] for entry in manifest_entries))
+            self.assertTrue(all(entry["state"] == "present" for entry in manifest_entries))
             self.assertTrue(all(str(entry["file_hash"]).startswith("sha256:") for entry in manifest_entries))
 
-    def test_build_t15_outputs_rejects_missing_expected_store(self) -> None:
+    def test_build_t15_outputs_marks_missing_expected_store(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             tmp_path = Path(tmpdir)
             manifest_path = tmp_path / "artifacts/manifests/canonical_daily_close_manifest.json"
@@ -722,17 +726,32 @@ class T14T15CpdPrecomputeTests(unittest.TestCase):
                 ],
             )
 
-            with self.assertRaisesRegex(ValueError, "feature-store mismatch"):
-                build_t15_outputs(
-                    input_dir=cpd_dir,
-                    canonical_manifest_input=manifest_path,
-                    project_root=tmp_path,
-                    telemetry_report_path=tmp_path / "artifacts/reports/cpd_fit_telemetry.csv",
-                    failure_ledger_path=tmp_path / "artifacts/reports/cpd_failure_ledger.csv",
-                    fallback_ledger_path=tmp_path / "artifacts/reports/cpd_fallback_ledger.csv",
-                    manifest_output_path=tmp_path / "artifacts/manifests/cpd_feature_store_manifest.json",
-                    lbws=(10, 21),
-                )
+            outputs = build_t15_outputs(
+                input_dir=cpd_dir,
+                canonical_manifest_input=manifest_path,
+                project_root=tmp_path,
+                telemetry_report_path=tmp_path / "artifacts/reports/cpd_fit_telemetry.csv",
+                failure_ledger_path=tmp_path / "artifacts/reports/cpd_failure_ledger.csv",
+                fallback_ledger_path=tmp_path / "artifacts/reports/cpd_fallback_ledger.csv",
+                manifest_output_path=tmp_path / "artifacts/manifests/cpd_feature_store_manifest.json",
+                lbws=(10, 21),
+            )
+
+            with outputs.telemetry_report_path.open("r", encoding="utf-8", newline="") as handle:
+                telemetry_rows = {row["lbw"]: row for row in csv.DictReader(handle)}
+            self.assertEqual(telemetry_rows["10"]["state"], "present")
+            self.assertEqual(telemetry_rows["21"]["state"], "missing")
+            self.assertEqual(telemetry_rows["21"]["missing_reason"], "missing_final_output")
+            self.assertEqual(telemetry_rows["21"]["row_count"], "0")
+
+            manifest_entries = {
+                str(entry["lbw"]): entry
+                for entry in json.loads(outputs.manifest_output_path.read_text(encoding="utf-8"))
+            }
+            self.assertEqual(manifest_entries["10"]["state"], "present")
+            self.assertEqual(manifest_entries["21"]["state"], "missing")
+            self.assertEqual(manifest_entries["21"]["missing_reason"], "missing_final_output")
+            self.assertFalse(manifest_entries["21"]["matches_canonical_timeline"])
 
 
 if __name__ == "__main__":

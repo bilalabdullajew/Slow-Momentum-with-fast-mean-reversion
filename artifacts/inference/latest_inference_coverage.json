@@ -1,0 +1,18 @@
+{
+  "candidate_id": "C-031",
+  "selected_lbw": 63,
+  "admitted_asset_count": 126,
+  "inference_asset_count": 124,
+  "skipped_asset_count": 2,
+  "skipped_assets": [
+    {
+      "asset_id": "DXY.cash",
+      "reason": "joined_rows_lt_63:7"
+    },
+    {
+      "asset_id": "NATGAS.cash",
+      "reason": "joined_rows_lt_63:31"
+    }
+  ],
+  "coverage_rule": "latest contiguous 63-row model-ready joined-feature block per asset"
+}

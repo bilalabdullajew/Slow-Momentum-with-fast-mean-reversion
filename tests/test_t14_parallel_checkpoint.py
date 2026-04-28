@@ -7,6 +7,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -18,6 +19,7 @@ from lstm_cpd.cpd.precompute import (  # noqa: E402
     build_t14_outputs,
     build_t14_outputs_parallel,
     build_t14_task_specs,
+    main as precompute_main,
     run_t14_chain_task,
     T14ChainStopRequested,
 )
@@ -38,6 +40,11 @@ def write_json(path: Path, payload) -> None:
 
 def hash_file(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def read_progress_rows(path: Path) -> list[dict[str, str]]:
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
 
 
 def build_fixture_project(
@@ -173,7 +180,7 @@ class T14ParallelCheckpointTests(unittest.TestCase):
 
             self.assertEqual(collect_hashes(serial_dir), collect_hashes(parallel_dir))
 
-    def test_resume_checkpoint_matches_fresh_reference_hash(self) -> None:
+    def test_resume_partial_csv_matches_fresh_reference_hash(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             tmp_path = Path(tmpdir)
             manifest_path, returns_dir = build_fixture_project(
@@ -182,6 +189,7 @@ class T14ParallelCheckpointTests(unittest.TestCase):
             )
             resume_dir = tmp_path / "resume/features/cpd"
             reference_dir = tmp_path / "reference/features/cpd"
+            progress_path = tmp_path / "artifacts/reports/cpd_precompute_progress.csv"
 
             task = build_t14_task_specs(
                 canonical_manifest_input=manifest_path,
@@ -196,16 +204,28 @@ class T14ParallelCheckpointTests(unittest.TestCase):
                     task,
                     resume=False,
                     stop_after_rows=11,
+                    project_root=tmp_path,
+                    progress_report_path=progress_path,
+                    flush_rows=4,
                 )
 
             self.assertTrue(task.partial_output_path.exists())
-            self.assertTrue(task.checkpoint_path.exists())
+            self.assertFalse(task.checkpoint_path.exists())
             self.assertFalse(task.output_path.exists())
+
+            progress_rows = read_progress_rows(progress_path)
+            self.assertEqual(len(progress_rows), 1)
+            self.assertEqual(progress_rows[0]["state"], "running")
+            self.assertEqual(progress_rows[0]["rows_written"], "11")
+            self.assertEqual(progress_rows[0]["last_timestamp"], "2024-01-11T00:00:00")
 
             resumed_output = run_t14_chain_task(
                 task,
                 resume=True,
                 skip_if_complete=True,
+                project_root=tmp_path,
+                progress_report_path=progress_path,
+                flush_rows=4,
             )
             reference_output = build_t14_outputs(
                 canonical_manifest_input=manifest_path,
@@ -218,6 +238,42 @@ class T14ParallelCheckpointTests(unittest.TestCase):
             self.assertFalse(task.partial_output_path.exists())
             self.assertFalse(task.checkpoint_path.exists())
             self.assertEqual(hash_file(resumed_output), hash_file(reference_output))
+
+            final_progress = read_progress_rows(progress_path)
+            self.assertEqual(final_progress[0]["state"], "completed")
+            self.assertEqual(final_progress[0]["rows_written"], "12")
+
+    def test_skip_if_complete_does_not_refit_existing_final_output(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp_path = Path(tmpdir)
+            manifest_path, returns_dir = build_fixture_project(
+                tmp_path,
+                assets={"ALPHA": self.make_assets()["ALPHA"]},
+            )
+            output_dir = tmp_path / "artifacts/features/cpd"
+
+            build_t14_outputs(
+                canonical_manifest_input=manifest_path,
+                returns_input_dir=returns_dir,
+                output_dir=output_dir,
+                project_root=tmp_path,
+                lbws=(10,),
+            )
+
+            failing_fit = mock.Mock(side_effect=AssertionError("fit should be skipped"))
+            output_paths = build_t14_outputs(
+                canonical_manifest_input=manifest_path,
+                returns_input_dir=returns_dir,
+                output_dir=output_dir,
+                project_root=tmp_path,
+                lbws=(10,),
+                resume=True,
+                skip_if_complete=True,
+                fit_window_fn=failing_fit,
+            )
+
+            self.assertEqual(len(output_paths), 1)
+            failing_fit.assert_not_called()
 
     def test_parallel_worker_count_invariance_on_small_real_subset(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -249,6 +305,45 @@ class T14ParallelCheckpointTests(unittest.TestCase):
             )
 
             self.assertEqual(collect_hashes(one_worker_dir), collect_hashes(two_worker_dir))
+
+    def test_cli_smoke_single_asset_single_lbw(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp_path = Path(tmpdir)
+            manifest_path, returns_dir = build_fixture_project(
+                tmp_path,
+                assets={"ALPHA": self.make_assets()["ALPHA"]},
+            )
+            output_dir = tmp_path / "artifacts/features/cpd"
+            progress_path = tmp_path / "artifacts/reports/cpd_precompute_progress.csv"
+
+            exit_code = precompute_main(
+                [
+                    "--canonical-manifest-input",
+                    str(manifest_path),
+                    "--returns-input-dir",
+                    str(returns_dir),
+                    "--output-dir",
+                    str(output_dir),
+                    "--project-root",
+                    str(tmp_path),
+                    "--asset-id",
+                    "ALPHA",
+                    "--lbw",
+                    "10",
+                    "--workers",
+                    "1",
+                    "--progress-report-path",
+                    str(progress_path),
+                ]
+            )
+
+            self.assertEqual(exit_code, 0)
+            self.assertTrue((output_dir / "lbw_10" / "ALPHA_cpd.csv").exists())
+            progress_rows = read_progress_rows(progress_path)
+            self.assertEqual(len(progress_rows), 1)
+            self.assertEqual(progress_rows[0]["state"], "completed")
+            self.assertEqual(progress_rows[0]["asset_id"], "ALPHA")
+            self.assertEqual(progress_rows[0]["lbw"], "10")
 
 
 if __name__ == "__main__":

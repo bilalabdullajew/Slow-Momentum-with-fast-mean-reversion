@@ -1,0 +1,61 @@
+{
+  "generated_at_utc": "2026-04-28T16:56:40Z",
+  "project_root": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion",
+  "ready_for_project_closure": true,
+  "first_blocking_stage": null,
+  "stages": [
+    {
+      "stage_id": "G-04",
+      "stage_name": "CPD Fidelity",
+      "status": "ready",
+      "blocker_count": 0,
+      "warning_count": 0,
+      "summary": "All official artifacts for this stage are present and validated."
+    },
+    {
+      "stage_id": "G-05",
+      "stage_name": "Split, Sequence, and Dataset Assembly",
+      "status": "ready",
+      "blocker_count": 0,
+      "warning_count": 0,
+      "summary": "All official artifacts for this stage are present and validated."
+    },
+    {
+      "stage_id": "G-06",
+      "stage_name": "Model and Training Setup",
+      "status": "ready",
+      "blocker_count": 0,
+      "warning_count": 0,
+      "summary": "All official artifacts for this stage are present and validated."
+    },
+    {
+      "stage_id": "G-07",
+      "stage_name": "Search and Selection",
+      "status": "ready",
+      "blocker_count": 0,
+      "warning_count": 0,
+      "summary": "All official artifacts for this stage are present and validated."
+    },
+    {
+      "stage_id": "G-08",
+      "stage_name": "Inference, Evaluation, and Reproducibility",
+      "status": "ready",
+      "blocker_count": 0,
+      "warning_count": 0,
+      "summary": "All official artifacts for this stage are present and validated."
+    },
+    {
+      "stage_id": "G-09",
+      "stage_name": "Notebook",
+      "status": "ready",
+      "blocker_count": 0,
+      "warning_count": 0,
+      "summary": "All official artifacts for this stage are present and validated."
+    }
+  ],
+  "findings": [],
+  "recommended_replay_chain": [
+    "Official artifact chain is complete; artifacts/interim remains archival only.",
+    "Close any remaining open Asana tasks and gates against the canonical official paths."
+  ]
+}

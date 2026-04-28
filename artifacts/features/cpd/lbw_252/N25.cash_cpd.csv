@@ -1,0 +1,1201 @@
+timestamp,asset_id,lbw,nu,gamma,status,window_size,nlml_baseline,nlml_changepoint,retry_used,fallback_used,location_c,steepness_s,fallback_source_timestamp,failure_stage,failure_message
+2020-11-12T00:00:00,N25.cash,252,,,invalid_window,1,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 1"
+2020-11-13T00:00:00,N25.cash,252,,,invalid_window,2,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 2"
+2020-11-16T00:00:00,N25.cash,252,,,invalid_window,3,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 3"
+2020-11-17T00:00:00,N25.cash,252,,,invalid_window,4,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 4"
+2020-11-18T00:00:00,N25.cash,252,,,invalid_window,5,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 5"
+2020-11-19T00:00:00,N25.cash,252,,,invalid_window,6,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 6"
+2020-11-20T00:00:00,N25.cash,252,,,invalid_window,7,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 7"
+2020-11-23T00:00:00,N25.cash,252,,,invalid_window,8,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 8"
+2020-11-24T00:00:00,N25.cash,252,,,invalid_window,9,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 9"
+2020-11-25T00:00:00,N25.cash,252,,,invalid_window,10,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 10"
+2020-11-26T00:00:00,N25.cash,252,,,invalid_window,11,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 11"
+2020-11-27T00:00:00,N25.cash,252,,,invalid_window,12,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 12"
+2020-11-30T00:00:00,N25.cash,252,,,invalid_window,13,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 13"
+2020-12-01T00:00:00,N25.cash,252,,,invalid_window,14,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 14"
+2020-12-02T00:00:00,N25.cash,252,,,invalid_window,15,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 15"
+2020-12-03T00:00:00,N25.cash,252,,,invalid_window,16,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 16"
+2020-12-04T00:00:00,N25.cash,252,,,invalid_window,17,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 17"
+2020-12-07T00:00:00,N25.cash,252,,,invalid_window,18,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 18"
+2020-12-08T00:00:00,N25.cash,252,,,invalid_window,19,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 19"
+2020-12-09T00:00:00,N25.cash,252,,,invalid_window,20,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 20"
+2020-12-10T00:00:00,N25.cash,252,,,invalid_window,21,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 21"
+2020-12-11T00:00:00,N25.cash,252,,,invalid_window,22,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 22"
+2020-12-14T00:00:00,N25.cash,252,,,invalid_window,23,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 23"
+2020-12-15T00:00:00,N25.cash,252,,,invalid_window,24,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 24"
+2020-12-16T00:00:00,N25.cash,252,,,invalid_window,25,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 25"
+2020-12-17T00:00:00,N25.cash,252,,,invalid_window,26,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 26"
+2020-12-18T00:00:00,N25.cash,252,,,invalid_window,27,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 27"
+2020-12-21T00:00:00,N25.cash,252,,,invalid_window,28,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 28"
+2020-12-22T00:00:00,N25.cash,252,,,invalid_window,29,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 29"
+2020-12-23T00:00:00,N25.cash,252,,,invalid_window,30,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 30"
+2020-12-24T00:00:00,N25.cash,252,,,invalid_window,31,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 31"
+2020-12-28T00:00:00,N25.cash,252,,,invalid_window,32,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 32"
+2020-12-29T00:00:00,N25.cash,252,,,invalid_window,33,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 33"
+2020-12-30T00:00:00,N25.cash,252,,,invalid_window,34,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 34"
+2020-12-31T00:00:00,N25.cash,252,,,invalid_window,35,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 35"
+2021-01-04T00:00:00,N25.cash,252,,,invalid_window,36,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 36"
+2021-01-05T00:00:00,N25.cash,252,,,invalid_window,37,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 37"
+2021-01-06T00:00:00,N25.cash,252,,,invalid_window,38,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 38"
+2021-01-07T00:00:00,N25.cash,252,,,invalid_window,39,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 39"
+2021-01-08T00:00:00,N25.cash,252,,,invalid_window,40,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 40"
+2021-01-11T00:00:00,N25.cash,252,,,invalid_window,41,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 41"
+2021-01-12T00:00:00,N25.cash,252,,,invalid_window,42,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 42"
+2021-01-13T00:00:00,N25.cash,252,,,invalid_window,43,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 43"
+2021-01-14T00:00:00,N25.cash,252,,,invalid_window,44,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 44"
+2021-01-15T00:00:00,N25.cash,252,,,invalid_window,45,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 45"
+2021-01-18T00:00:00,N25.cash,252,,,invalid_window,46,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 46"
+2021-01-19T00:00:00,N25.cash,252,,,invalid_window,47,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 47"
+2021-01-20T00:00:00,N25.cash,252,,,invalid_window,48,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 48"
+2021-01-21T00:00:00,N25.cash,252,,,invalid_window,49,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 49"
+2021-01-22T00:00:00,N25.cash,252,,,invalid_window,50,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 50"
+2021-01-25T00:00:00,N25.cash,252,,,invalid_window,51,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 51"
+2021-01-26T00:00:00,N25.cash,252,,,invalid_window,52,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 52"
+2021-01-27T00:00:00,N25.cash,252,,,invalid_window,53,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 53"
+2021-01-28T00:00:00,N25.cash,252,,,invalid_window,54,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 54"
+2021-01-29T00:00:00,N25.cash,252,,,invalid_window,55,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 55"
+2021-02-01T00:00:00,N25.cash,252,,,invalid_window,56,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 56"
+2021-02-02T00:00:00,N25.cash,252,,,invalid_window,57,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 57"
+2021-02-03T00:00:00,N25.cash,252,,,invalid_window,58,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 58"
+2021-02-04T00:00:00,N25.cash,252,,,invalid_window,59,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 59"
+2021-02-05T00:00:00,N25.cash,252,,,invalid_window,60,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 60"
+2021-02-08T00:00:00,N25.cash,252,,,invalid_window,61,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 61"
+2021-02-09T00:00:00,N25.cash,252,,,invalid_window,62,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 62"
+2021-02-10T00:00:00,N25.cash,252,,,invalid_window,63,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 63"
+2021-02-11T00:00:00,N25.cash,252,,,invalid_window,64,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 64"
+2021-02-12T00:00:00,N25.cash,252,,,invalid_window,65,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 65"
+2021-02-15T00:00:00,N25.cash,252,,,invalid_window,66,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 66"
+2021-02-16T00:00:00,N25.cash,252,,,invalid_window,67,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 67"
+2021-02-17T00:00:00,N25.cash,252,,,invalid_window,68,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 68"
+2021-02-18T00:00:00,N25.cash,252,,,invalid_window,69,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 69"
+2021-02-19T00:00:00,N25.cash,252,,,invalid_window,70,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 70"
+2021-02-22T00:00:00,N25.cash,252,,,invalid_window,71,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 71"
+2021-02-23T00:00:00,N25.cash,252,,,invalid_window,72,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 72"
+2021-02-24T00:00:00,N25.cash,252,,,invalid_window,73,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 73"
+2021-02-25T00:00:00,N25.cash,252,,,invalid_window,74,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 74"
+2021-02-26T00:00:00,N25.cash,252,,,invalid_window,75,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 75"
+2021-03-01T00:00:00,N25.cash,252,,,invalid_window,76,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 76"
+2021-03-02T00:00:00,N25.cash,252,,,invalid_window,77,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 77"
+2021-03-03T00:00:00,N25.cash,252,,,invalid_window,78,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 78"
+2021-03-04T00:00:00,N25.cash,252,,,invalid_window,79,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 79"
+2021-03-05T00:00:00,N25.cash,252,,,invalid_window,80,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 80"
+2021-03-08T00:00:00,N25.cash,252,,,invalid_window,81,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 81"
+2021-03-09T00:00:00,N25.cash,252,,,invalid_window,82,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 82"
+2021-03-10T00:00:00,N25.cash,252,,,invalid_window,83,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 83"
+2021-03-11T00:00:00,N25.cash,252,,,invalid_window,84,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 84"
+2021-03-12T00:00:00,N25.cash,252,,,invalid_window,85,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 85"
+2021-03-15T00:00:00,N25.cash,252,,,invalid_window,86,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 86"
+2021-03-16T00:00:00,N25.cash,252,,,invalid_window,87,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 87"
+2021-03-17T00:00:00,N25.cash,252,,,invalid_window,88,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 88"
+2021-03-18T00:00:00,N25.cash,252,,,invalid_window,89,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 89"
+2021-03-19T00:00:00,N25.cash,252,,,invalid_window,90,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 90"
+2021-03-22T00:00:00,N25.cash,252,,,invalid_window,91,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 91"
+2021-03-23T00:00:00,N25.cash,252,,,invalid_window,92,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 92"
+2021-03-24T00:00:00,N25.cash,252,,,invalid_window,93,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 93"
+2021-03-25T00:00:00,N25.cash,252,,,invalid_window,94,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 94"
+2021-03-26T00:00:00,N25.cash,252,,,invalid_window,95,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 95"
+2021-03-29T00:00:00,N25.cash,252,,,invalid_window,96,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 96"
+2021-03-30T00:00:00,N25.cash,252,,,invalid_window,97,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 97"
+2021-03-31T00:00:00,N25.cash,252,,,invalid_window,98,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 98"
+2021-04-01T00:00:00,N25.cash,252,,,invalid_window,99,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 99"
+2021-04-06T00:00:00,N25.cash,252,,,invalid_window,100,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 100"
+2021-04-07T00:00:00,N25.cash,252,,,invalid_window,101,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 101"
+2021-04-08T00:00:00,N25.cash,252,,,invalid_window,102,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 102"
+2021-04-09T00:00:00,N25.cash,252,,,invalid_window,103,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 103"
+2021-04-12T00:00:00,N25.cash,252,,,invalid_window,104,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 104"
+2021-04-13T00:00:00,N25.cash,252,,,invalid_window,105,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 105"
+2021-04-14T00:00:00,N25.cash,252,,,invalid_window,106,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 106"
+2021-04-15T00:00:00,N25.cash,252,,,invalid_window,107,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 107"
+2021-04-16T00:00:00,N25.cash,252,,,invalid_window,108,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 108"
+2021-04-19T00:00:00,N25.cash,252,,,invalid_window,109,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 109"
+2021-04-20T00:00:00,N25.cash,252,,,invalid_window,110,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 110"
+2021-04-21T00:00:00,N25.cash,252,,,invalid_window,111,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 111"
+2021-04-22T00:00:00,N25.cash,252,,,invalid_window,112,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 112"
+2021-04-23T00:00:00,N25.cash,252,,,invalid_window,113,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 113"
+2021-04-26T00:00:00,N25.cash,252,,,invalid_window,114,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 114"
+2021-04-27T00:00:00,N25.cash,252,,,invalid_window,115,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 115"
+2021-04-28T00:00:00,N25.cash,252,,,invalid_window,116,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 116"
+2021-04-29T00:00:00,N25.cash,252,,,invalid_window,117,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 117"
+2021-04-30T00:00:00,N25.cash,252,,,invalid_window,118,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 118"
+2021-05-03T00:00:00,N25.cash,252,,,invalid_window,119,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 119"
+2021-05-04T00:00:00,N25.cash,252,,,invalid_window,120,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 120"
+2021-05-05T00:00:00,N25.cash,252,,,invalid_window,121,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 121"
+2021-05-06T00:00:00,N25.cash,252,,,invalid_window,122,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 122"
+2021-05-07T00:00:00,N25.cash,252,,,invalid_window,123,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 123"
+2021-05-10T00:00:00,N25.cash,252,,,invalid_window,124,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 124"
+2021-05-11T00:00:00,N25.cash,252,,,invalid_window,125,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 125"
+2021-05-12T00:00:00,N25.cash,252,,,invalid_window,126,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 126"
+2021-05-13T00:00:00,N25.cash,252,,,invalid_window,127,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 127"
+2021-05-14T00:00:00,N25.cash,252,,,invalid_window,128,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 128"
+2021-05-17T00:00:00,N25.cash,252,,,invalid_window,129,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 129"
+2021-05-18T00:00:00,N25.cash,252,,,invalid_window,130,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 130"
+2021-05-19T00:00:00,N25.cash,252,,,invalid_window,131,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 131"
+2021-05-20T00:00:00,N25.cash,252,,,invalid_window,132,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 132"
+2021-05-21T00:00:00,N25.cash,252,,,invalid_window,133,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 133"
+2021-05-24T00:00:00,N25.cash,252,,,invalid_window,134,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 134"
+2021-05-25T00:00:00,N25.cash,252,,,invalid_window,135,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 135"
+2021-05-26T00:00:00,N25.cash,252,,,invalid_window,136,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 136"
+2021-05-27T00:00:00,N25.cash,252,,,invalid_window,137,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 137"
+2021-05-28T00:00:00,N25.cash,252,,,invalid_window,138,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 138"
+2021-05-31T00:00:00,N25.cash,252,,,invalid_window,139,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 139"
+2021-06-01T00:00:00,N25.cash,252,,,invalid_window,140,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 140"
+2021-06-02T00:00:00,N25.cash,252,,,invalid_window,141,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 141"
+2021-06-03T00:00:00,N25.cash,252,,,invalid_window,142,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 142"
+2021-06-04T00:00:00,N25.cash,252,,,invalid_window,143,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 143"
+2021-06-07T00:00:00,N25.cash,252,,,invalid_window,144,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 144"
+2021-06-08T00:00:00,N25.cash,252,,,invalid_window,145,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 145"
+2021-06-09T00:00:00,N25.cash,252,,,invalid_window,146,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 146"
+2021-06-10T00:00:00,N25.cash,252,,,invalid_window,147,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 147"
+2021-06-11T00:00:00,N25.cash,252,,,invalid_window,148,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 148"
+2021-06-14T00:00:00,N25.cash,252,,,invalid_window,149,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 149"
+2021-06-15T00:00:00,N25.cash,252,,,invalid_window,150,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 150"
+2021-06-16T00:00:00,N25.cash,252,,,invalid_window,151,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 151"
+2021-06-17T00:00:00,N25.cash,252,,,invalid_window,152,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 152"
+2021-06-18T00:00:00,N25.cash,252,,,invalid_window,153,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 153"
+2021-06-21T00:00:00,N25.cash,252,,,invalid_window,154,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 154"
+2021-06-22T00:00:00,N25.cash,252,,,invalid_window,155,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 155"
+2021-06-23T00:00:00,N25.cash,252,,,invalid_window,156,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 156"
+2021-06-24T00:00:00,N25.cash,252,,,invalid_window,157,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 157"
+2021-06-25T00:00:00,N25.cash,252,,,invalid_window,158,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 158"
+2021-06-28T00:00:00,N25.cash,252,,,invalid_window,159,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 159"
+2021-06-29T00:00:00,N25.cash,252,,,invalid_window,160,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 160"
+2021-06-30T00:00:00,N25.cash,252,,,invalid_window,161,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 161"
+2021-07-01T00:00:00,N25.cash,252,,,invalid_window,162,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 162"
+2021-07-02T00:00:00,N25.cash,252,,,invalid_window,163,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 163"
+2021-07-05T00:00:00,N25.cash,252,,,invalid_window,164,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 164"
+2021-07-06T00:00:00,N25.cash,252,,,invalid_window,165,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 165"
+2021-07-07T00:00:00,N25.cash,252,,,invalid_window,166,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 166"
+2021-07-08T00:00:00,N25.cash,252,,,invalid_window,167,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 167"
+2021-07-09T00:00:00,N25.cash,252,,,invalid_window,168,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 168"
+2021-07-12T00:00:00,N25.cash,252,,,invalid_window,169,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 169"
+2021-07-13T00:00:00,N25.cash,252,,,invalid_window,170,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 170"
+2021-07-14T00:00:00,N25.cash,252,,,invalid_window,171,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 171"
+2021-07-15T00:00:00,N25.cash,252,,,invalid_window,172,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 172"
+2021-07-16T00:00:00,N25.cash,252,,,invalid_window,173,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 173"
+2021-07-19T00:00:00,N25.cash,252,,,invalid_window,174,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 174"
+2021-07-20T00:00:00,N25.cash,252,,,invalid_window,175,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 175"
+2021-07-21T00:00:00,N25.cash,252,,,invalid_window,176,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 176"
+2021-07-22T00:00:00,N25.cash,252,,,invalid_window,177,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 177"
+2021-07-23T00:00:00,N25.cash,252,,,invalid_window,178,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 178"
+2021-07-26T00:00:00,N25.cash,252,,,invalid_window,179,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 179"
+2021-07-27T00:00:00,N25.cash,252,,,invalid_window,180,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 180"
+2021-07-28T00:00:00,N25.cash,252,,,invalid_window,181,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 181"
+2021-07-29T00:00:00,N25.cash,252,,,invalid_window,182,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 182"
+2021-07-30T00:00:00,N25.cash,252,,,invalid_window,183,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 183"
+2021-08-02T00:00:00,N25.cash,252,,,invalid_window,184,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 184"
+2021-08-03T00:00:00,N25.cash,252,,,invalid_window,185,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 185"
+2021-08-04T00:00:00,N25.cash,252,,,invalid_window,186,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 186"
+2021-08-05T00:00:00,N25.cash,252,,,invalid_window,187,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 187"
+2021-08-06T00:00:00,N25.cash,252,,,invalid_window,188,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 188"
+2021-08-09T00:00:00,N25.cash,252,,,invalid_window,189,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 189"
+2021-08-10T00:00:00,N25.cash,252,,,invalid_window,190,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 190"
+2021-08-11T00:00:00,N25.cash,252,,,invalid_window,191,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 191"
+2021-08-12T00:00:00,N25.cash,252,,,invalid_window,192,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 192"
+2021-08-13T00:00:00,N25.cash,252,,,invalid_window,193,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 193"
+2021-08-16T00:00:00,N25.cash,252,,,invalid_window,194,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 194"
+2021-08-17T00:00:00,N25.cash,252,,,invalid_window,195,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 195"
+2021-08-18T00:00:00,N25.cash,252,,,invalid_window,196,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 196"
+2021-08-19T00:00:00,N25.cash,252,,,invalid_window,197,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 197"
+2021-08-20T00:00:00,N25.cash,252,,,invalid_window,198,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 198"
+2021-08-23T00:00:00,N25.cash,252,,,invalid_window,199,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 199"
+2021-08-24T00:00:00,N25.cash,252,,,invalid_window,200,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 200"
+2021-08-25T00:00:00,N25.cash,252,,,invalid_window,201,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 201"
+2021-08-26T00:00:00,N25.cash,252,,,invalid_window,202,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 202"
+2021-08-27T00:00:00,N25.cash,252,,,invalid_window,203,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 203"
+2021-08-30T00:00:00,N25.cash,252,,,invalid_window,204,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 204"
+2021-08-31T00:00:00,N25.cash,252,,,invalid_window,205,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 205"
+2021-09-01T00:00:00,N25.cash,252,,,invalid_window,206,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 206"
+2021-09-02T00:00:00,N25.cash,252,,,invalid_window,207,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 207"
+2021-09-03T00:00:00,N25.cash,252,,,invalid_window,208,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 208"
+2021-09-06T00:00:00,N25.cash,252,,,invalid_window,209,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 209"
+2021-09-07T00:00:00,N25.cash,252,,,invalid_window,210,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 210"
+2021-09-08T00:00:00,N25.cash,252,,,invalid_window,211,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 211"
+2021-09-09T00:00:00,N25.cash,252,,,invalid_window,212,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 212"
+2021-09-10T00:00:00,N25.cash,252,,,invalid_window,213,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 213"
+2021-09-13T00:00:00,N25.cash,252,,,invalid_window,214,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 214"
+2021-09-14T00:00:00,N25.cash,252,,,invalid_window,215,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 215"
+2021-09-15T00:00:00,N25.cash,252,,,invalid_window,216,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 216"
+2021-09-16T00:00:00,N25.cash,252,,,invalid_window,217,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 217"
+2021-09-17T00:00:00,N25.cash,252,,,invalid_window,218,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 218"
+2021-09-20T00:00:00,N25.cash,252,,,invalid_window,219,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 219"
+2021-09-21T00:00:00,N25.cash,252,,,invalid_window,220,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 220"
+2021-09-22T00:00:00,N25.cash,252,,,invalid_window,221,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 221"
+2021-09-23T00:00:00,N25.cash,252,,,invalid_window,222,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 222"
+2021-09-24T00:00:00,N25.cash,252,,,invalid_window,223,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 223"
+2021-09-27T00:00:00,N25.cash,252,,,invalid_window,224,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 224"
+2021-09-28T00:00:00,N25.cash,252,,,invalid_window,225,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 225"
+2021-09-29T00:00:00,N25.cash,252,,,invalid_window,226,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 226"
+2021-09-30T00:00:00,N25.cash,252,,,invalid_window,227,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 227"
+2021-10-01T00:00:00,N25.cash,252,,,invalid_window,228,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 228"
+2021-10-04T00:00:00,N25.cash,252,,,invalid_window,229,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 229"
+2021-10-05T00:00:00,N25.cash,252,,,invalid_window,230,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 230"
+2021-10-06T00:00:00,N25.cash,252,,,invalid_window,231,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 231"
+2021-10-07T00:00:00,N25.cash,252,,,invalid_window,232,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 232"
+2021-10-08T00:00:00,N25.cash,252,,,invalid_window,233,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 233"
+2021-10-11T00:00:00,N25.cash,252,,,invalid_window,234,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 234"
+2021-10-12T00:00:00,N25.cash,252,,,invalid_window,235,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 235"
+2021-10-13T00:00:00,N25.cash,252,,,invalid_window,236,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 236"
+2021-10-14T00:00:00,N25.cash,252,,,invalid_window,237,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 237"
+2021-10-15T00:00:00,N25.cash,252,,,invalid_window,238,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 238"
+2021-10-18T00:00:00,N25.cash,252,,,invalid_window,239,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 239"
+2021-10-19T00:00:00,N25.cash,252,,,invalid_window,240,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 240"
+2021-10-20T00:00:00,N25.cash,252,,,invalid_window,241,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 241"
+2021-10-21T00:00:00,N25.cash,252,,,invalid_window,242,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 242"
+2021-10-22T00:00:00,N25.cash,252,,,invalid_window,243,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 243"
+2021-10-25T00:00:00,N25.cash,252,,,invalid_window,244,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 244"
+2021-10-26T00:00:00,N25.cash,252,,,invalid_window,245,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 245"
+2021-10-27T00:00:00,N25.cash,252,,,invalid_window,246,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 246"
+2021-10-28T00:00:00,N25.cash,252,,,invalid_window,247,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 247"
+2021-10-29T00:00:00,N25.cash,252,,,invalid_window,248,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 248"
+2021-11-01T00:00:00,N25.cash,252,,,invalid_window,249,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 249"
+2021-11-02T00:00:00,N25.cash,252,,,invalid_window,250,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 250"
+2021-11-03T00:00:00,N25.cash,252,,,invalid_window,251,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 251"
+2021-11-04T00:00:00,N25.cash,252,,,invalid_window,252,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 252"
+2021-11-05T00:00:00,N25.cash,252,,,invalid_window,253,,,false,false,,,,window_standardization,window returns must be finite
+2021-11-08T00:00:00,N25.cash,252,0.89471602150436336,0.71818677220432503,success,253,358.99144935822784,356.85160424123524,false,false,180.9830665954899,22.98337031219242,,,
+2021-11-09T00:00:00,N25.cash,252,0.90497671181525652,0.71419305901416874,success,253,358.99145018147186,356.73766297124956,false,false,179.97665087157051,17.111538720178139,,,
+2021-11-10T00:00:00,N25.cash,252,0.96157543850266525,0.49600902069775321,success,253,358.99144988869813,355.77157374501485,false,false,124.99427321583381,76.156823688791704,,,
+2021-11-11T00:00:00,N25.cash,252,0.96826614454799365,0.49205177262176192,success,253,358.99144989916135,355.57332701327311,false,false,123.99704670068401,152.0335757958162,,,
+2021-11-12T00:00:00,N25.cash,252,0.85791182302279601,0.59124642467518707,success,253,358.99144988893494,357.19339639460861,false,false,148.99409901814715,52.99185615931215,,,
+2021-11-15T00:00:00,N25.cash,252,0.94351896920925216,0.69830880090616987,success,253,358.9914551074117,356.17574348121781,false,false,175.97381782835481,17.121094406892457,,,
+2021-11-16T00:00:00,N25.cash,252,0.8882953910912611,0.58329051947974586,success,253,358.99144984621358,356.91800347762774,false,false,146.98921090889596,31.550350225748247,,,
+2021-11-17T00:00:00,N25.cash,252,0.9801782378117373,0.47537176384041263,success,253,358.99144982400287,355.09049582810661,false,false,119.79368448778398,15.560921833686237,,,
+2021-11-18T00:00:00,N25.cash,252,0.98608510615777112,0.47221272859342905,success,253,358.99144988855045,354.73066698904285,false,false,118.99760760554412,211.7578965360602,,,
+2021-11-19T00:00:00,N25.cash,252,0.98756106335035343,0.46824387539913559,success,253,358.99144941617936,354.61704269034504,false,false,117.99745660058217,201.35622197791119,,,
+2021-11-22T00:00:00,N25.cash,252,0.98674674844881194,0.46425967848340927,success,253,358.99144942611821,354.68127892920967,false,false,116.99343897781914,77.342796037231579,,,
+2021-11-23T00:00:00,N25.cash,252,0.98794724277792545,0.46029791429787376,success,253,358.99144960889038,354.58511375943868,false,false,115.99507440306418,104.08237535626512,,,
+2021-11-24T00:00:00,N25.cash,252,0.96584089930498607,0.67058831509774508,success,253,358.99145060286838,355.64948052504838,false,false,168.98825540463176,40.865058840487826,,,
+2021-11-25T00:00:00,N25.cash,252,0.98696446000016513,0.45236829750392388,success,253,358.99144996584369,354.66449540860594,false,false,113.99681097098882,159.60896898055591,,,
+2021-11-26T00:00:00,N25.cash,252,0.71243794364272783,0.55151971536098443,success,253,358.99144952462802,358.08419539806488,false,false,138.98296827096809,11.165498355149481,,,
+2021-11-29T00:00:00,N25.cash,252,0.89674166700624869,0.44442625407644992,success,253,358.99144940738989,356.82991551900443,false,false,111.99541602726538,75.636295632302819,,,
+2021-11-30T00:00:00,N25.cash,252,0.85951059789998485,0.44044786009396908,success,253,358.99144947688774,357.18021837786824,false,false,110.99286074368021,43.848585259683631,,,
+2021-12-01T00:00:00,N25.cash,252,0.66507433056546106,0.53961552124124335,success,253,358.99144968111841,358.30545949634313,false,false,135.98311135279332,8.8144270494444079,,,
+2021-12-02T00:00:00,N25.cash,252,0.8712418829999411,0.43250340879998178,success,253,358.99144974192984,357.07946567861512,false,false,108.99085901759541,35.407458055092022,,,
+2021-12-03T00:00:00,N25.cash,252,0.87122342613903325,0.42854024127257923,success,253,358.99144956891735,357.07963002531915,false,false,107.99214080068997,41.055993056926759,,,
+2021-12-06T00:00:00,N25.cash,252,0.87665500152281572,0.42458066252808907,success,253,358.99144928157244,357.03032104614999,false,false,106.99432695707844,57.936140285391012,,,
+2021-12-07T00:00:00,N25.cash,252,0.71994513668689009,0.28967586187006217,success,253,358.99144950095649,358.04726001527507,false,false,72.998317191255666,136.44171188423064,,,
+2021-12-08T00:00:00,N25.cash,252,0.72576590344936043,0.28570008696535193,success,253,358.99145052715005,358.01820511995942,false,false,71.996421915268684,67.147365948261125,,,
+2021-12-09T00:00:00,N25.cash,252,0.77917286891642845,0.41267573420331549,success,253,358.99144988802431,357.73059713859317,false,false,103.99428501923551,44.160276724883943,,,
+2021-12-10T00:00:00,N25.cash,252,0.78505954304110193,0.22615883525117825,success,253,358.99145050187292,357.69605198135355,false,false,56.992026483296918,36.548837447093305,,,
+2021-12-13T00:00:00,N25.cash,252,0.8103135205031462,0.40473109870142399,success,253,358.99144992521275,357.53940129140761,false,false,101.99223687275884,35.358384675366963,,,
+2021-12-14T00:00:00,N25.cash,252,0.88630552278533126,0.7500296721884685,success,253,358.991449425506,356.93790252676587,false,false,189.00747739149406,50.389911016382285,,,
+2021-12-15T00:00:00,N25.cash,252,0.95974578656348919,0.44654000867511051,success,253,358.99144976695192,355.81999600325855,false,false,112.52808218612785,0.18179490128935513,,,
+2021-12-16T00:00:00,N25.cash,252,0.96047567283485236,0.44252542488207935,success,253,358.99144975684908,355.80093746249776,false,false,111.516407070284,0.17999239624647639,,,
+2021-12-17T00:00:00,N25.cash,252,0.96124897240251106,0.43839129557564577,success,253,358.99146213632963,355.78038595862506,false,false,110.47460648506274,0.17870679120342181,,,
+2021-12-20T00:00:00,N25.cash,252,0.96353732092912003,0.43383620284980734,success,253,358.9914494124788,355.71712743690608,false,false,109.32672311815145,0.17858708171774934,,,
+2021-12-21T00:00:00,N25.cash,252,0.96480029304245896,0.42990663940524293,success,253,358.99144939879596,355.68056602658874,false,false,108.33647313012122,0.17578311831405552,,,
+2021-12-22T00:00:00,N25.cash,252,0.96727790446076067,0.42536960591645334,success,253,358.99144941712035,355.60501412896292,false,false,107.19314069094624,0.17523664219416107,,,
+2021-12-23T00:00:00,N25.cash,252,0.96912422984252122,0.42105876154223992,success,253,358.99144950439319,355.54502843555684,false,false,106.10680790864446,0.17430911855227005,,,
+2021-12-24T00:00:00,N25.cash,252,0.86577575246882277,0.36901389969071213,success,253,358.99144983489089,357.12733579646874,false,false,92.991502722059451,38.220412379198855,,,
+2021-12-27T00:00:00,N25.cash,252,0.89850463795741808,0.18250948002869383,success,253,358.99144983065833,356.81073106583494,false,false,45.992388967230845,56.096960922835656,,,
+2021-12-28T00:00:00,N25.cash,252,0.90674896192110932,0.17853983971328408,success,253,358.99144991021052,356.71687946755816,false,false,44.992039607747586,55.398027356489116,,,
+2021-12-29T00:00:00,N25.cash,252,0.86444098695886962,0.22618363678060949,success,253,358.99145178272073,357.13877580866142,false,false,56.998276468713591,215.48412731172905,,,
+2021-12-30T00:00:00,N25.cash,252,0.92095182754120541,0.24621015458246601,success,253,358.99144999515431,356.53609970936986,false,false,62.044958954781436,0.44823003813200479,,,
+2021-12-31T00:00:00,N25.cash,252,0.91045141245426053,0.34918336589426818,success,253,358.9914498308458,356.67229065227087,false,false,87.994208205355577,64.07537952179274,,,
+2022-01-03T00:00:00,N25.cash,252,0.64221436091288209,0.54358794529467669,success,253,358.9914497885423,358.40646167864469,false,false,136.98416221425853,9.3483028968565147,,,
+2022-01-04T00:00:00,N25.cash,252,0.65833936864879417,0.53967317807329929,success,253,358.9914502851002,358.33554766731777,false,false,135.99764087447141,68.814823855890282,,,
+2022-01-05T00:00:00,N25.cash,252,0.63817585055968473,0.53569269785131735,success,253,358.99145012173415,358.42399456730334,false,false,134.99455985853197,26.292729902406681,,,
+2022-01-06T00:00:00,N25.cash,252,0.90593737146145303,0.33332402800852717,success,253,358.9914497816136,356.72644042584722,false,false,83.997655058148851,157.32067913223281,,,
+2022-01-07T00:00:00,N25.cash,252,0.84520411813582885,0.27348446227503254,success,253,358.9914497171651,357.2939789169119,false,false,68.9180844933082,0.90946813821569494,,,
+2022-01-10T00:00:00,N25.cash,252,0.84816265432484683,0.26950432017039988,success,253,358.99144968021051,357.27118710711056,false,false,67.915088682940777,0.90154756507218303,,,
+2022-01-11T00:00:00,N25.cash,252,0.9352740099964606,0.034729590275923081,success,253,358.9914498509595,356.32077312684061,false,false,8.7518567495326156,18.253762602555206,,,
+2022-01-12T00:00:00,N25.cash,252,0.91449924855966702,0.31744318996655274,success,253,358.99144981281495,356.62159833135956,false,false,79.995683871571288,88.557046073497133,,,
+2022-01-13T00:00:00,N25.cash,252,0.74510296300007073,0.6640667175270899,success,253,358.99144986835051,357.91878714129911,false,false,167.34481281682665,19.407183071499631,,,
+2022-01-14T00:00:00,N25.cash,252,0.98938679717315658,0.48296042605818496,success,253,358.99146234024249,354.4564757615808,false,false,121.70602736666261,0.024880014893260447,,,
+2022-01-17T00:00:00,N25.cash,252,0.64900083057229974,0.50394303824471964,success,253,358.99144976472007,358.3767996254046,false,false,126.99364563766936,23.428716680308455,,,
+2022-01-18T00:00:00,N25.cash,252,0.99332995452800077,0.47887528163425375,success,253,358.99144990808014,353.98801369603194,false,false,120.67657097183195,0.024640267349628011,,,
+2022-01-19T00:00:00,N25.cash,252,0.59664263941119344,0.49600505869209965,success,253,358.99144943407924,358.59995401372277,false,false,124.99327479040912,14.012963165461997,,,
+2022-01-20T00:00:00,N25.cash,252,0.59994825959294307,0.49203676200935903,success,253,358.99145058196149,358.58620105423597,false,false,123.99326402635847,14.418787649371883,,,
+2022-01-21T00:00:00,N25.cash,252,0.90974715594144639,0.63891885041182328,success,253,358.99144947153019,356.68089787107135,false,false,161.00755030377945,48.838227181752735,,,
+2022-01-24T00:00:00,N25.cash,252,0.99783039293402975,0.83334199314594648,success,253,358.99145038709065,352.86041314774815,false,false,210.00218227277853,344.14719022659733,,,
+2022-01-25T00:00:00,N25.cash,252,0.99773200626282132,0.83038777267751129,success,253,358.99144967741876,352.90486059244353,false,false,209.25771871473285,18.199400383883781,,,
+2022-01-26T00:00:00,N25.cash,252,0.99736881162741631,0.82545254533608592,success,253,358.99144958855339,353.05376456243243,false,false,208.01404142469366,51.971818453963344,,,
+2022-01-27T00:00:00,N25.cash,252,0.99624224211272594,0.82149635913985208,success,253,358.99144960522773,353.41128163520676,false,false,207.01708250324273,41.143741156930176,,,
+2022-01-28T00:00:00,N25.cash,252,0.99549153818287228,0.81750448657436203,success,253,358.99144928921902,353.59416870065473,false,false,206.01113061673922,61.83971541155428,,,
+2022-01-31T00:00:00,N25.cash,252,0.89770377537497914,0.61513977421313359,success,253,358.99144964524965,356.81948227022741,false,false,155.01522310170967,23.339806078274375,,,
+2022-02-01T00:00:00,N25.cash,252,0.89023694259105246,0.611178343758081,success,253,358.99146071872269,356.89829708279024,false,false,154.0169426270364,20.44133803679351,,,
+2022-02-02T00:00:00,N25.cash,252,0.8734208714365943,0.60721981461006047,success,253,358.99144958747576,357.05989968479292,false,false,153.01939328173523,17.126977121065593,,,
+2022-02-03T00:00:00,N25.cash,252,0.95056013282011742,0.60322092680511286,success,253,358.9914494918595,356.03515519417857,false,false,152.01167355488843,35.956928228469295,,,
+2022-02-04T00:00:00,N25.cash,252,0.95657088731682682,0.59921202281857444,success,253,358.99145255559341,355.89922767367989,false,false,151.00142975028075,299.44619588434307,,,
+2022-02-07T00:00:00,N25.cash,252,0.95664180687032829,0.59531092502022187,success,253,358.99144946918381,355.89751612018517,false,false,150.01835310509591,23.383892791084865,,,
+2022-02-08T00:00:00,N25.cash,252,0.94894668815774252,0.59131416150766891,success,253,358.99144968232287,356.06896747914061,false,false,149.01116869993257,37.189294002238626,,,
+2022-02-09T00:00:00,N25.cash,252,0.99933412723411053,0.78574476610565702,success,253,358.991449838807,351.67770398548186,false,false,198.00768105862556,98.939086406711652,,,
+2022-02-10T00:00:00,N25.cash,252,0.97966423948583514,0.58337315871435225,success,253,358.99145028964654,355.11662132738695,false,false,147.01003599601677,48.059331851408047,,,
+2022-02-11T00:00:00,N25.cash,252,0.97650659858164846,0.57945155036541018,success,253,358.99145092508866,355.26418900842725,false,false,146.02179069208336,21.670930704785295,,,
+2022-02-14T00:00:00,N25.cash,252,0.97827454549382342,0.96828283161123108,success,253,358.99144947267075,355.1841437124823,false,false,244.00727356603022,152.45029379470819,,,
+2022-02-15T00:00:00,N25.cash,252,0.97903245667024463,0.57145210855444228,success,253,358.99144964221102,355.14786053374348,false,false,144.00593135571947,80.692492544033328,,,
+2022-02-16T00:00:00,N25.cash,252,0.90863137894717716,0.61229956179808731,success,253,358.99145029422414,356.69441291099776,false,false,154.299489573118,17.77533524363837,,,
+2022-02-17T00:00:00,N25.cash,252,0.9892327663371091,0.56350802576068526,success,253,358.99144996254319,354.47102790572927,false,false,142.00402249169269,129.92910927073027,,,
+2022-02-18T00:00:00,N25.cash,252,0.98649507430550731,0.55955153087641696,success,253,358.99144998672415,354.70034613953089,false,false,141.00698578085706,72.35522129599704,,,
+2022-02-21T00:00:00,N25.cash,252,0.99751531879203625,0.55557201310949023,success,253,358.99144926731492,352.99632612626931,false,false,140.00414730359154,145.88901459036759,,,
+2022-02-22T00:00:00,N25.cash,252,0.98943317964923805,0.62310947250697846,success,253,358.99144949243174,354.4520361954244,false,false,157.02358707175858,22.196764765609469,,,
+2022-02-23T00:00:00,N25.cash,252,0.99998939737395764,0.74631810522386877,success,253,358.99144977102765,347.53705152603033,false,false,188.07216251641492,12.606110222272546,,,
+2022-02-24T00:00:00,N25.cash,252,0.99754174192129796,0.54367175924331657,success,253,358.99144938206689,352.98560838867655,false,false,137.00528332931577,114.77593256490728,,,
+2022-02-25T00:00:00,N25.cash,252,0.99906886752012214,0.53970705063054236,success,253,358.99144930713089,352.01327188104557,false,false,136.00617675889669,106.042697612927,,,
+2022-02-28T00:00:00,N25.cash,252,0.99890524860468322,0.53575096520700904,success,253,358.99144937694768,352.17531675029028,false,false,135.00924323216628,70.021628544198251,,,
+2022-03-01T00:00:00,N25.cash,252,0.99959470741152734,0.53289039328085663,success,253,358.99145030728403,351.18095437100629,false,false,134.28837910677586,15.731392701062621,,,
+2022-03-02T00:00:00,N25.cash,252,0.99999932703814565,0.72739907722919084,success,253,358.99144942768908,344.77987291186685,false,false,183.30456746175608,23.163389548894735,,,
+2022-03-03T00:00:00,N25.cash,252,0.99999977049308009,0.72223873915665915,success,253,358.99144988983818,343.70411746339232,false,false,182.00416226747811,246.95127228505407,,,
+2022-03-04T00:00:00,N25.cash,252,0.99997056675888518,0.51993861457562507,success,253,358.99145402066944,348.55809758218936,false,false,131.02453087305753,33.013869969040805,,,
+2022-03-07T00:00:00,N25.cash,252,0.99997717290078281,0.51591434463356378,success,253,358.99144924517759,348.30390990691552,false,false,130.01041484765807,78.987004640811762,,,
+2022-03-08T00:00:00,N25.cash,252,0.99996282005696702,0.51308136156105466,success,253,358.99145192183016,348.79174799459651,false,false,129.29650311338577,15.480421436661425,,,
+2022-03-09T00:00:00,N25.cash,252,0.99999576708213844,0.50796245052249689,success,253,358.99145202540996,346.61883725739369,false,false,128.00653753166921,135.78935907176273,,,
+2022-03-10T00:00:00,N25.cash,252,0.99999772433594758,0.50401340708962883,success,253,358.9914500470037,345.99821366567346,false,false,127.01137858658647,80.175443502849475,,,
+2022-03-11T00:00:00,N25.cash,252,0.99384195118646423,0.29729384977020934,success,253,358.99144938466401,353.90763116980008,false,false,74.918050142092753,10.681172528613878,,,
+2022-03-14T00:00:00,N25.cash,252,0.99999999966290143,0.69446342932401572,success,253,358.99145019070539,337.18080459802837,false,false,175.00478418965196,251.91376197531358,,,
+2022-03-15T00:00:00,N25.cash,252,0.9999965492781967,0.49208441554875887,success,253,358.99144936683012,346.41452568710184,false,false,124.00527271828723,170.4197554809528,,,
+2022-03-16T00:00:00,N25.cash,252,0.99999999999465938,0.88213063768836542,success,253,358.99144947043942,333.03577240552335,false,false,222.2969206974681,21.570851179959732,,,
+2022-03-17T00:00:00,N25.cash,252,0.99999999999445799,0.9999990273118875,success,253,358.99144948337675,333.0727701404553,false,false,251.99975488259565,0.030441925002514636,,,
+2022-03-18T00:00:00,N25.cash,252,0.99999989492893449,0.48016891099168063,success,253,358.99144934008427,342.92282054263063,false,false,121.00256556990352,400.12583116901794,,,
+2022-03-21T00:00:00,N25.cash,252,0.99999982015961131,0.47749672744567379,success,253,358.99144984671403,343.46025391791022,false,false,120.3291753163098,16.523035393970904,,,
+2022-03-22T00:00:00,N25.cash,252,0.99999979354538504,0.47228653216973471,success,253,358.99144929690107,343.5982642719917,false,false,119.01620610677314,62.534733597364188,,,
+2022-03-23T00:00:00,N25.cash,252,0.99999999998057665,0.8624732314329604,success,253,358.99145011897139,334.32690172954955,false,false,217.34325432110603,21.968819544994293,,,
+2022-03-24T00:00:00,N25.cash,252,0.9999999998401814,0.87524720783886889,success,253,358.99144950400472,336.43446723416378,false,false,220.56229637539496,11.69303773898201,,,
+2022-03-25T00:00:00,N25.cash,252,0.99999999999253419,0.65999267901201619,success,253,358.99145427594834,333.37075531595116,false,false,166.31815511102809,22.812562391437961,,,
+2022-03-28T00:00:00,N25.cash,252,0.99999968039559195,0.45637217680914438,success,253,358.99146226297694,344.03528075195368,false,false,115.00578855590439,172.50843986532087,,,
+2022-03-29T00:00:00,N25.cash,252,0.99999999998720068,0.65188402536606571,success,253,358.99144931254011,333.90981202074954,false,false,164.27477439224856,21.250436704588104,,,
+2022-03-30T00:00:00,N25.cash,252,0.99999999991127808,0.84271370117825151,success,253,358.99144948737739,335.84593658295029,false,false,212.36385269691937,23.058043151796944,,,
+2022-03-31T00:00:00,N25.cash,252,0.99999999827996144,0.87968360686359937,success,253,358.99144938814192,338.8105303192944,false,false,221.68026892962703,8.7594413105262827,,,
+2022-04-01T00:00:00,N25.cash,252,0.99999999978709719,0.82350649663982067,success,253,358.99144984143925,336.72126496533986,false,false,207.5236371532348,0.12706006471847589,,,
+2022-04-04T00:00:00,N25.cash,252,0.99999999987142285,0.83058966612178586,success,253,358.99145068344717,336.21695895170615,false,false,209.30859586269003,21.284696811805045,,,
+2022-04-05T00:00:00,N25.cash,252,0.99999911999622049,0.43255178863925126,success,253,358.99144990263966,345.04811114792602,false,false,109.00305073709131,320.32869200855032,,,
+2022-04-06T00:00:00,N25.cash,252,0.99999892613904573,0.42857977365843286,success,253,358.99145442073831,345.24720545897634,false,false,108.00210296192508,461.28968745015163,,,
+2022-04-07T00:00:00,N25.cash,252,0.99999902102132288,0.42476399005351556,success,253,358.99144925602212,345.15469426024464,false,false,107.04052549348592,24.130892303343266,,,
+2022-04-08T00:00:00,N25.cash,252,0.99999999996784372,0.61905715980351572,success,253,358.99144949400574,334.83103847476832,false,false,156.00240427048595,517.74102809801252,,,
+2022-04-11T00:00:00,N25.cash,252,0.99999999987866905,0.80960983275451637,success,253,358.99144966892612,336.15895095703502,false,false,204.02167785413812,62.464506021857275,,,
+2022-04-12T00:00:00,N25.cash,252,0.99999999977102183,0.80646949511021593,success,253,358.99144949967456,336.79405486868802,false,false,203.23031276777442,22.400069171802034,,,
+2022-04-13T00:00:00,N25.cash,252,0.99999999974333198,0.8028909316187931,success,253,358.99145028373704,336.90821293396795,false,false,202.32851476793587,18.727781726485301,,,
+2022-04-14T00:00:00,N25.cash,252,0.9999999995676192,0.79762535846655447,success,253,358.99144936351172,337.42973492403996,false,false,201.00159033357173,816.66072980170179,,,
+2022-04-19T00:00:00,N25.cash,252,0.99999999838368647,0.77376830297415466,success,253,358.99144940231116,338.74833145843519,false,false,194.98961234948698,0.15298050139007888,,,
+2022-04-20T00:00:00,N25.cash,252,0.99999999882136836,0.78973232873512433,success,253,358.99144970460191,338.43253802189179,false,false,199.01254684125132,100.2610785668376,,,
+2022-04-21T00:00:00,N25.cash,252,0.99999999983178989,0.5912789437470849,success,253,358.99145007338308,336.48564279037043,false,false,149.00229382426539,522.507080920936,,,
+2022-04-22T00:00:00,N25.cash,252,0.99999999978642928,0.587306516444008,success,253,358.99144933740104,336.72439652550577,false,false,148.00124214389001,960.28104440534526,,,
+2022-04-25T00:00:00,N25.cash,252,0.99999999968622522,0.58334467055255179,success,253,358.9914492991465,337.10910366296156,false,false,147.00285697924306,413.3999511685534,,,
+2022-04-26T00:00:00,N25.cash,252,0.99999999994810773,0.57937451078637026,success,253,358.99145309288531,335.30960099725149,false,false,146.00237671816529,518.09467406206659,,,
+2022-04-27T00:00:00,N25.cash,252,0.99999999936370165,0.77077688499678976,success,253,358.99144980395789,337.81609631816008,false,false,194.23577501919101,22.767723461459003,,,
+2022-04-28T00:00:00,N25.cash,252,0.99999999998856315,0.57143220684793972,success,253,358.99144931539331,333.79727416335072,false,false,144.00091612568082,1488.7774214632475,,,
+2022-04-29T00:00:00,N25.cash,252,0.99999999998936362,0.56747464804805714,success,253,358.9914493754186,333.72470260766659,false,false,143.00361130811041,353.19192761237144,,,
+2022-05-02T00:00:00,N25.cash,252,0.99999999999554623,0.56354989572804426,success,253,358.9914494105646,332.85420050749957,false,false,142.01457372346715,89.205074166439772,,,
+2022-05-03T00:00:00,N25.cash,252,0.99999999981069743,0.75519788916089814,success,253,358.99144983400657,336.60377563466261,false,false,190.30986806854634,20.845660240702873,,,
+2022-05-04T00:00:00,N25.cash,252,0.9999999998478537,0.75001883510651846,success,253,358.99144925664797,336.38527005485776,false,false,189.00474644684266,266.82474666340505,,,
+2022-05-05T00:00:00,N25.cash,252,0.99999999999897526,0.55160120752935371,success,253,358.99144929881464,331.38496181401104,false,false,139.00350429739714,381.55016888753454,,,
+2022-05-06T00:00:00,N25.cash,252,0.99999999999950373,0.54788908917294721,success,253,358.99144948944905,330.65994360061535,false,false,138.06805047158269,19.972161705603863,,,
+2022-05-09T00:00:00,N25.cash,252,0.99999999999967648,0.54483670549938623,success,253,358.99144976415403,330.23203147902041,false,false,137.29884978584533,21.346392698119782,,,
+2022-05-10T00:00:00,N25.cash,252,0.99999999998709765,0.73413867719622306,success,253,358.99144980554712,333.91783494381758,false,false,185.00294665344822,446.86011411114049,,,
+2022-05-11T00:00:00,N25.cash,252,0.99999999999949041,0.5357274015607304,success,253,358.991449286229,330.68613622988903,false,false,135.00330519330407,412.60107982369448,,,
+2022-05-12T00:00:00,N25.cash,252,0.99999999999961253,0.53181271578246481,success,253,358.99144932417261,330.41231261017225,false,false,134.01680437718113,81.585983279490947,,,
+2022-05-13T00:00:00,N25.cash,252,0.99999999999983835,0.52782221678879038,success,253,358.99144951812269,329.53836541857447,false,false,133.01119863077517,124.57961259870545,,,
+2022-05-16T00:00:00,N25.cash,252,0.99999999999969691,0.52502747839794994,success,253,358.99144928946333,330.16703273469767,false,false,132.30692455628338,24.838999394269102,,,
+2022-05-17T00:00:00,N25.cash,252,0.99999999999957834,0.51985369938213988,success,253,358.99144948729094,330.49668288345077,false,false,131.00313224429925,439.06174132300686,,,
+2022-05-18T00:00:00,N25.cash,252,0.99999999999958278,0.5171773077022277,success,253,358.99144944817874,330.48647831083991,false,false,130.32868154096138,22.557111406214471,,,
+2022-05-19T00:00:00,N25.cash,252,0.99999997982287137,0.31352117401863661,success,253,358.99144963732709,341.27273353560884,false,false,79.007335852696428,169.67407366788606,,,
+2022-05-20T00:00:00,N25.cash,252,0.99999981739949728,0.38232408507341359,success,253,358.99145208917508,343.47548715629409,false,false,96.345669438500224,2.1481309708618825,,,
+2022-05-23T00:00:00,N25.cash,252,0.99999965975517757,0.35036458743023297,success,253,358.99144958644223,344.09784951437371,false,false,88.291876032418713,12.17659519165907,,,
+2022-05-24T00:00:00,N25.cash,252,0.99999995874542946,0.30169258816584132,success,253,358.99144927367689,341.98794538312842,false,false,76.02653221779201,46.53063922783533,,,
+2022-05-25T00:00:00,N25.cash,252,0.99999992796836346,0.29765346743169885,success,253,358.99144932768689,342.54528898113182,false,false,75.008673792788116,140.74076257217391,,,
+2022-05-26T00:00:00,N25.cash,252,0.99999999992056932,0.68653019792805636,success,253,358.99144933179355,335.73531376328515,false,false,173.0056098778702,220.77122565165288,,,
+2022-05-27T00:00:00,N25.cash,252,0.99999999990914867,0.68258180729778728,success,253,358.99144925725375,335.86965337489096,false,false,172.0106154390424,116.13156615003651,,,
+2022-05-30T00:00:00,N25.cash,252,0.99999999985592369,0.67866415057713292,success,253,358.99144924163903,336.33077195404405,false,false,171.02336594543749,52.196825893589143,,,
+2022-05-31T00:00:00,N25.cash,252,0.999999999987494,0.48016587114974851,success,253,358.99144921386716,333.88663660044432,false,false,121.00179952973663,726.2201148314773,,,
+2022-06-01T00:00:00,N25.cash,252,0.99999999997977596,0.47626916396315205,success,253,358.99144966274571,334.3673042850653,false,false,120.01982931871432,65.283464405946077,,,
+2022-06-02T00:00:00,N25.cash,252,0.99999916542882539,0.27385146403209265,success,253,358.9914495023873,344.99510252978075,false,false,69.010568936087353,108.9462959428852,,,
+2022-06-03T00:00:00,N25.cash,252,0.99999999350461444,0.68002668460088622,success,253,358.99146303489169,340.13928919581139,false,false,171.36672451942331,22.275205194235685,,,
+2022-06-06T00:00:00,N25.cash,252,0.99999999909753168,0.65885731923557667,success,253,358.99144931667644,338.1655617718344,false,false,166.03204444736531,36.228450825982051,,,
+2022-06-07T00:00:00,N25.cash,252,0.99999996857055173,0.69447442309806517,success,253,358.99144974231882,341.71592923517858,false,false,175.00755462071243,142.25256118858002,,,
+2022-06-08T00:00:00,N25.cash,252,0.99999999747635093,0.65085235918288331,success,253,358.99145052410734,339.19389056346506,false,false,164.01479451408659,76.269267748732076,,,
+2022-06-09T00:00:00,N25.cash,252,0.99999999710004905,0.64793774284164729,success,253,358.99144941614753,339.33287739951089,false,false,163.28031119609511,19.639488233666977,,,
+2022-06-10T00:00:00,N25.cash,252,0.99999999996688671,0.44842642970644142,success,253,358.99144996365465,334.86036070341726,false,false,113.00346028602324,376.18566947169637,,,
+2022-06-13T00:00:00,N25.cash,252,0.99999999998168931,0.44446269255485049,success,253,358.99145005251285,334.26790876744701,false,false,112.00459852382232,287.70792916916974,,,
+2022-06-14T00:00:00,N25.cash,252,0.99999999932081418,0.62459105141985405,success,253,358.9893012775712,337.87917506848987,false,false,157.39694495780321,0.96597918124986681,,,
+2022-06-15T00:00:00,N25.cash,252,0.99999999953148233,0.63096533100457841,success,253,358.99144957169943,337.51000216878043,false,false,159.00326341315375,360.02036114577527,,,
+2022-06-16T00:00:00,N25.cash,252,0.99999999996610311,0.62702781986147316,success,253,358.99144983473786,334.88374994899334,false,false,158.01101060509123,113.02955174686561,,,
+2022-06-17T00:00:00,N25.cash,252,0.99999999994016631,0.62303511656773258,success,253,358.99144952399945,335.45199616123801,false,false,157.0048493750686,253.04740436504497,,,
+2022-06-20T00:00:00,N25.cash,252,0.99999999990401656,0.61907396895089994,success,253,358.99144961519528,335.92460359419772,false,false,156.00664017562679,182.4678688406826,,,
+2022-06-21T00:00:00,N25.cash,252,0.99999999986316923,0.61528960910581765,success,253,358.99144962887112,336.27917278025751,false,false,155.05298149466606,22.700008816076032,,,
+2022-06-22T00:00:00,N25.cash,252,0.99999999979293164,0.61143163730952188,success,253,358.99144952667456,336.6934775333155,false,false,154.08077260199951,14.75648242863616,,,
+2022-06-23T00:00:00,N25.cash,252,0.99999999365323466,0.64797237072535896,success,253,358.9914498457556,340.11612929517207,false,false,163.28903742279047,16.787532919864717,,,
+2022-06-24T00:00:00,N25.cash,252,0.99999999994431366,0.60323639304456156,success,253,358.99144933296941,335.38016207122052,false,false,152.01557104722951,78.92851487910751,,,
+2022-06-27T00:00:00,N25.cash,252,0.99999999991084221,0.59922445256307266,success,253,358.99144977249387,335.85083669249173,false,false,151.00456204589432,265.84434144854799,,,
+2022-06-28T00:00:00,N25.cash,252,0.99999999985193266,0.5952847399222605,success,253,358.99144923236111,336.35809480212453,false,false,150.01175446040963,102.04784067119319,,,
+2022-06-29T00:00:00,N25.cash,252,0.99999999989835109,0.39789281427089401,success,253,358.99144938661595,335.98195316694938,false,false,100.2689891962653,17.611857210005503,,,
+2022-06-30T00:00:00,N25.cash,252,0.99999999989825161,0.58732166429137556,success,253,358.99144937761668,335.9829310256805,false,false,148.00505940142665,239.2428659496255,,,
+2022-07-01T00:00:00,N25.cash,252,0.99999999998553513,0.38892990291294899,success,253,358.99144929361813,334.03215743971009,false,false,98.010335534063145,134.38520097545222,,,
+2022-07-04T00:00:00,N25.cash,252,0.99999999984132115,0.57944282426261762,success,253,358.99144921835654,336.42731040400582,false,false,146.01959171417963,61.236981916248396,,,
+2022-07-05T00:00:00,N25.cash,252,0.99999999970899611,0.57621863579723476,success,253,358.99144921148087,337.03376465031965,false,false,145.20709622090317,20.482715358312731,,,
+2022-07-06T00:00:00,N25.cash,252,0.99999999961948971,0.57191217076749634,success,253,358.99144925737653,337.30194163130756,false,false,144.12186703340907,9.760390109637072,,,
+2022-07-07T00:00:00,N25.cash,252,0.9999999996563369,0.56749361801925802,success,253,358.99144945276493,337.20009002859649,false,false,143.00839174085303,140.54072846478752,,,
+2022-07-08T00:00:00,N25.cash,252,0.9999999994501112,0.56352017211516237,success,253,358.99144935156477,337.670144361751,false,false,142.00708337302092,164.50748827534917,,,
+2022-07-11T00:00:00,N25.cash,252,0.99999999891711511,0.5422698635930896,success,253,358.99144929557661,338.34781216811552,false,false,136.65200562545857,0.19489616871385457,,,
+2022-07-12T00:00:00,N25.cash,252,0.99999999925817429,0.55563422487029035,success,253,358.99144948337175,337.96954271643216,false,false,140.01982466731317,58.48252393914332,,,
+2022-07-13T00:00:00,N25.cash,252,0.99999999126330963,0.59250082999134623,success,253,358.9914733747321,340.43573899814351,false,false,149.31020915781926,15.091192400328142,,,
+2022-07-14T00:00:00,N25.cash,252,0.99999999427883668,0.56485562791268629,success,253,358.9914492310931,340.01235554405253,false,false,142.34361823399695,21.572005718593125,,,
+2022-07-15T00:00:00,N25.cash,252,0.99999998580390326,0.58467321475150524,success,253,358.99144919740075,340.92115042653563,false,false,147.33765011737933,16.778426156090884,,,
+2022-07-18T00:00:00,N25.cash,252,0.99999999896601266,0.53976083201595337,success,253,358.99144942124917,338.30160609679751,false,false,136.01972966802026,58.377015771493106,,,
+2022-07-19T00:00:00,N25.cash,252,0.99999999931368011,0.53572896739681908,success,253,358.99145013420161,337.89177295579452,false,false,135.0036997839984,314.60248949901921,,,
+2022-07-20T00:00:00,N25.cash,252,0.99999999906900339,0.53179953388521539,success,253,358.99144947113513,338.19668390382043,false,false,134.01348253907429,85.944238752783932,,,
+2022-07-21T00:00:00,N25.cash,252,0.99999998444302385,0.56866042429891961,success,253,358.99144945088176,341.01269278670503,false,false,143.30242692332774,15.80798512949864,,,
+2022-07-22T00:00:00,N25.cash,252,0.99999999875181866,0.52381946876678376,success,253,358.99144958946601,338.48987124912276,false,false,132.00250612922952,641.40254648028588,,,
+2022-07-25T00:00:00,N25.cash,252,0.99999995983045953,0.56072471253969791,success,253,358.99145090104781,341.96129411283829,false,false,141.30262756000388,15.264210500424223,,,
+2022-07-26T00:00:00,N25.cash,252,0.99999999745417401,0.51588284552128916,success,253,358.99144987476905,339.2026391673844,false,false,130.00247707136486,457.93204134901714,,,
+2022-07-27T00:00:00,N25.cash,252,0.99999999678416485,0.51192105139462174,success,253,358.99144955348481,339.4362708006152,false,false,129.00410495144467,274.46937690410175,,,
+2022-07-28T00:00:00,N25.cash,252,0.99999999438571807,0.50913425572053284,success,253,358.99146426401643,339.99351212733745,false,false,128.30183244157428,20.949156428178608,,,
+2022-07-29T00:00:00,N25.cash,252,0.99999999976155318,0.31076844886510369,success,253,358.9914505640117,336.83457602739367,false,false,78.313649114006125,21.241419762403325,,,
+2022-08-01T00:00:00,N25.cash,252,0.99999999967497866,0.30558524485641692,success,253,358.99144966903674,337.1443194762129,false,false,77.007481703817064,189.63747162780189,,,
+2022-08-02T00:00:00,N25.cash,252,0.99999998319761507,0.49608420648061213,success,253,358.9914498652069,341.08970488216551,false,false,125.01322003311425,81.819921310741719,,,
+2022-08-03T00:00:00,N25.cash,252,0.97253517418492319,0.71431930391716292,success,253,358.99144979945328,355.42444968049261,false,false,180.00846458712505,57.486036221098992,,,
+2022-08-04T00:00:00,N25.cash,252,0.99999996639787936,0.48811290407445429,success,253,358.99144961726637,341.78277299385195,false,false,123.00445182676248,238.65275083704091,,,
+2022-08-05T00:00:00,N25.cash,252,0.99999994407015924,0.48416570517888347,success,253,358.9914496118439,342.29228189271873,false,false,122.00975770507863,107.27199257122628,,,
+2022-08-08T00:00:00,N25.cash,252,0.99999991161766499,0.48019096523571492,success,253,358.99145037712316,342.74985674795403,false,false,121.00812323940016,127.18559002948618,,,
+2022-08-09T00:00:00,N25.cash,252,0.99999986445427813,0.47715912291900286,success,253,358.99144987789396,343.17749319084811,false,false,120.24409897558873,17.330187662464841,,,
+2022-08-10T00:00:00,N25.cash,252,0.9471470085162581,0.69448896546010064,success,253,358.99145187988938,356.10551187672735,false,false,175.01121929594535,38.038331072172483,,,
+2022-08-11T00:00:00,N25.cash,252,0.99999974919473023,0.46833321195057004,success,253,358.99144960055361,343.79286083497311,false,false,118.01996941154366,50.162892750614688,,,
+2022-08-12T00:00:00,N25.cash,252,0.99999967558221159,0.46429955888102908,success,253,358.99144965342026,344.05021629640265,false,false,117.00348883801932,284.85448387404915,,,
+2022-08-15T00:00:00,N25.cash,252,0.99999996543489977,0.26696325378202884,success,253,358.99145008020815,341.81102878612751,false,false,67.274739953071261,16.736913218812564,,,
+2022-08-16T00:00:00,N25.cash,252,0.99999994130132264,0.26191617298491338,success,253,358.99144969908519,342.34060111434627,false,false,66.002875592198166,451.90991291402031,,,
+2022-08-17T00:00:00,N25.cash,252,0.99999989449663995,0.25793884826233582,success,253,358.99145052906948,342.92692759942912,false,false,65.000589762108632,2149.3325479673013,,,
+2022-08-18T00:00:00,N25.cash,252,0.99998611001826754,0.48813223352937329,success,253,358.99144970785636,347.8071208815781,false,false,123.00932284940207,90.654323508702888,,,
+2022-08-19T00:00:00,N25.cash,252,0.87620881595379263,0.6667211830094284,success,253,358.99144958893129,357.03444129848151,false,false,168.01373811837595,24.189463373326372,,,
+2022-08-22T00:00:00,N25.cash,252,0.86903141961100816,0.6627537412933211,success,253,358.99144945937678,357.09902762878596,false,false,167.01394280591691,23.540809918300759,,,
+2022-08-23T00:00:00,N25.cash,252,0.99999687899523626,0.43651442138140362,success,253,358.99145002015081,346.31409757278476,false,false,110.00163418811371,565.55494331935552,,,
+2022-08-24T00:00:00,N25.cash,252,0.99999896212168204,0.23925893500170295,success,253,358.9914496728868,345.21311870319943,false,false,60.293251620429146,24.540809662823744,,,
+2022-08-25T00:00:00,N25.cash,252,0.9999936722138163,0.42861141026567307,success,253,358.99145284968483,347.02089906050088,false,false,108.01007538694961,89.346289062232401,,,
+2022-08-26T00:00:00,N25.cash,252,0.99995574221015371,0.46527473452775209,success,253,358.99144943746495,348.96601453595338,false,false,117.24923310099352,12.305665940092602,,,
+2022-08-29T00:00:00,N25.cash,252,0.99999448072661812,0.42066442008735844,success,253,358.99146289699775,346.88420407621101,false,false,106.00743386201432,122.51979834648039,,,
+2022-08-30T00:00:00,N25.cash,252,0.99999754133128083,0.22350791890495705,success,253,358.99144934237768,346.07556127549998,false,false,56.323995564049177,23.763216502716798,,,
+2022-08-31T00:00:00,N25.cash,252,0.99999070035775972,0.41272574763135828,success,253,358.99145058056865,347.40592525293289,false,false,104.00688840310228,129.8700687406342,,,
+2022-09-01T00:00:00,N25.cash,252,0.82711722495069084,0.63101458313708136,success,253,358.99145047909644,357.42611781084975,false,false,159.01567495054451,18.317269155523626,,,
+2022-09-02T00:00:00,N25.cash,252,0.99978956728676072,0.33633979331023245,success,253,358.99145063058512,350.52531647743069,false,false,84.75762791417857,1.194888690590447,,,
+2022-09-05T00:00:00,N25.cash,252,0.69710088543508231,0.54930360321941407,success,253,358.99144930839083,358.15791896056606,false,false,138.42450801129235,1.5358526702139361,,,
+2022-09-06T00:00:00,N25.cash,252,0.60835523926512325,0.74298233963853044,success,253,358.99144979129244,358.5510460111488,false,false,187.23154958890967,1.9279042064601084,,,
+2022-09-07T00:00:00,N25.cash,252,0.59963483126115846,0.7389493457945282,success,253,358.99144961158754,358.58750580871254,false,false,186.2152351402211,1.9385871229455456,,,
+2022-09-08T00:00:00,N25.cash,252,0.99992815084522702,0.38895215407460804,success,253,358.99144935734273,349.45057949979906,false,false,98.015942826801222,51.257471588422284,,,
+2022-09-09T00:00:00,N25.cash,252,0.99971360701236156,0.42462659753019932,success,253,358.99144941588077,350.83359024220675,false,false,107.00590257761023,124.10446079334903,,,
+2022-09-12T00:00:00,N25.cash,252,0.67827812427856804,0.52932507545598662,success,253,358.9914494637386,358.24557947942276,false,false,133.38991901490863,1.5006188024481513,,,
+2022-09-13T00:00:00,N25.cash,252,0.62428259792326124,0.72316984377237492,success,253,358.99144925731525,358.48368338076125,false,false,182.23880063063848,1.8962528250931034,,,
+2022-09-14T00:00:00,N25.cash,252,0.77508724053497535,0.59530719340450622,success,253,358.99144981253255,357.75418681238682,false,false,150.01741273793556,14.022017873636404,,,
+2022-09-15T00:00:00,N25.cash,252,0.77459835883260286,0.59134285302540601,success,253,358.99144935559468,357.75698858995742,false,false,149.0183989624023,13.117171056869305,,,
+2022-09-16T00:00:00,N25.cash,252,0.76412985524582633,0.58736376079209873,success,253,358.99144942263973,357.81599309981561,false,false,148.01566771960887,14.911157576953197,,,
+2022-09-19T00:00:00,N25.cash,252,0.74384020426513031,0.58339008182432051,success,253,358.99144943305481,357.92542465233942,false,false,147.01430061972877,15.159160952338608,,,
+2022-09-20T00:00:00,N25.cash,252,0.74891328803382706,0.57942412894565787,success,253,358.99144945175891,357.89862459073174,false,false,146.01488049430577,14.839014429044262,,,
+2022-09-21T00:00:00,N25.cash,252,0.72907347616324125,0.57544880359887463,success,253,358.99144954938146,358.00152268646815,false,false,145.01309850691641,15.72622346517327,,,
+2022-09-22T00:00:00,N25.cash,252,0.99999568409395967,0.15477693433360923,success,253,358.99145008155483,346.63825111656695,false,false,39.003787452069524,373.68338766228447,,,
+2022-09-23T00:00:00,N25.cash,252,0.99992374050718502,0.34527761279313385,success,253,358.99144936868993,349.51015697679799,false,false,87.009958423869733,84.949338806277694,,,
+2022-09-26T00:00:00,N25.cash,252,0.99992558442669088,0.34224483997847088,success,253,358.99145485837823,349.48568395736299,false,false,86.245699674574666,14.348398237016834,,,
+2022-09-27T00:00:00,N25.cash,252,0.99990507671526718,0.33067475264431262,success,253,358.99145127104345,349.72910467711489,false,false,83.330037666366778,1.332235009703846,,,
+2022-09-28T00:00:00,N25.cash,252,0.99992240728315784,0.33338975766346679,success,253,358.99144955545677,349.52749016087728,false,false,84.014218931193625,60.057310134759589,,,
+2022-09-29T00:00:00,N25.cash,252,0.70099749460237071,0.55163609654867052,success,253,358.99144956553192,358.13939720514929,false,false,139.01229633026497,14.754553671937076,,,
+2022-09-30T00:00:00,N25.cash,252,0.75743804509700663,0.53204255681973833,success,253,358.9914499401097,357.85276535660495,false,false,134.07472431857406,0.55482997743138929,,,
+2022-10-03T00:00:00,N25.cash,252,0.76595099725424465,0.52805860815233774,success,253,358.99144961403493,357.80586192547077,false,false,133.07076925438912,0.54948147608382125,,,
+2022-10-04T00:00:00,N25.cash,252,0.79504385613322648,0.52439035236783771,success,253,358.99145030689704,357.63584905271119,false,false,132.1463687966951,0.54043830714779384,,,
+2022-10-05T00:00:00,N25.cash,252,0.78369517847764603,0.52022324195785208,success,253,358.99144955337118,357.70411803520017,false,false,131.09625697337873,0.54079146833812852,,,
+2022-10-06T00:00:00,N25.cash,252,0.78699162998772476,0.51644560811258255,success,253,358.99144957495503,357.68456342270343,false,false,130.1442932443708,0.5431684824940014,,,
+2022-10-07T00:00:00,N25.cash,252,0.65115476946353668,0.54762400385796517,success,253,358.99144925050859,358.36733025377549,false,false,138.00124897220724,108.80655432958274,,,
+2022-10-10T00:00:00,N25.cash,252,0.78303879771928908,0.50837434644947932,success,253,358.99144941750234,357.70798571887286,false,false,128.11033530526879,0.53307642934757771,,,
+2022-10-11T00:00:00,N25.cash,252,0.79594684487082357,0.50450336918857253,success,253,358.9914495264448,357.63029764489255,false,false,127.13484903552029,0.53477939355565995,,,
+2022-10-12T00:00:00,N25.cash,252,0.78465072461206609,0.5002426540376651,success,253,358.99144957740356,357.69847214211819,false,false,126.06114881749161,0.53050117440065869,,,
+2022-10-13T00:00:00,N25.cash,252,0.78079519727569069,0.49612866692155894,success,253,358.99144949454546,357.72114307556808,false,false,125.02442406423285,0.52772766949651806,,,
+2022-10-14T00:00:00,N25.cash,252,0.99966991892073154,0.27313950567519457,success,253,358.99144956925846,350.97560746589716,false,false,68.831155430149039,1.0231994154719168,,,
+2022-10-17T00:00:00,N25.cash,252,0.99958916370775985,0.26927280015866162,success,253,358.99146064487621,351.19455582705058,false,false,67.856745639982734,0.99882243746510291,,,
+2022-10-18T00:00:00,N25.cash,252,0.99943501549315761,0.2652490991696444,success,253,358.99145116892231,351.5133040643812,false,false,66.84277299075039,0.99393180531775016,,,
+2022-10-19T00:00:00,N25.cash,252,0.99673975688925043,0.31349577066397838,success,253,358.99145304712101,353.26876510386944,false,false,79.000934207322558,759.33960726594648,,,
+2022-10-20T00:00:00,N25.cash,252,0.99909104065063292,0.26989475821332787,success,253,358.99145001481537,351.98914920256379,false,false,68.013479069758617,58.032332656627155,,,
+2022-10-21T00:00:00,N25.cash,252,0.59628923513339804,0.50793131283187531,success,253,358.99145158467519,358.60142443449274,false,false,127.99869083363257,533.07392897177408,,,
+2022-10-24T00:00:00,N25.cash,252,0.64451183625043551,0.58385009723189374,success,253,358.991449417149,358.39644818395846,false,false,147.13022450243722,0.49400878550421556,,,
+2022-10-25T00:00:00,N25.cash,252,0.6504163887768184,0.57937782460870024,success,253,358.99145043198314,358.37058044010098,false,false,146.00321180139247,0.48775620359367383,,,
+2022-10-26T00:00:00,N25.cash,252,0.99747372791997668,0.25407712757651241,success,253,358.99144944622753,353.01296836566951,false,false,64.027436149281129,26.707355106926119,,,
+2022-10-27T00:00:00,N25.cash,252,0.99654770683780547,0.25002857062668477,success,253,358.9914500442186,353.32619172624578,false,false,63.007199797924557,99.330264424108108,,,
+2022-10-28T00:00:00,N25.cash,252,0.62436277083067926,0.3935954546845713,success,253,358.99144958812519,358.48334188678763,false,false,99.186054580511964,1.3335986381520986,,,
+2022-10-31T00:00:00,N25.cash,252,0.73710502826438407,0.44560758323198674,success,253,358.99146182457508,357.96048604012225,false,false,112.29311097446066,0.47193028464158798,,,
+2022-11-01T00:00:00,N25.cash,252,0.85835149883455686,0.71419814776206403,success,253,358.99144931549216,357.18978427256269,false,false,179.97793323604014,16.018850816981875,,,
+2022-11-02T00:00:00,N25.cash,252,0.94514574979618249,0.63482535351488734,success,253,358.9914494833294,356.14479000662226,false,false,159.97598908575162,19.492003985448708,,,
+2022-11-03T00:00:00,N25.cash,252,0.65858146083531388,0.52621236692254658,success,253,358.99144968890658,358.33447058095362,false,false,132.60551646448175,2.9589533661613761,,,
+2022-11-04T00:00:00,N25.cash,252,0.74204747108126357,0.42882358991947839,success,253,358.99145055744304,357.93481291067684,false,false,108.06354465970855,0.44770013357494226,,,
+2022-11-07T00:00:00,N25.cash,252,0.65456830956851164,0.51828061563716266,success,253,358.99144989937207,358.35226886182977,false,false,130.606715140565,2.8907177972764977,,,
+2022-11-08T00:00:00,N25.cash,252,0.86037315497851685,0.69435930190645667,success,253,358.99144929323518,357.17305656837959,false,false,174.97854408042707,16.220759003635632,,,
+2022-11-09T00:00:00,N25.cash,252,0.95934948364207517,0.61503495052346824,success,253,358.99144965441798,355.8302057592964,false,false,154.98880753191401,44.611526766870426,,,
+2022-11-10T00:00:00,N25.cash,252,0.85770647096661512,0.61106377631697084,success,253,358.99145002191148,357.19508011933294,false,false,153.98807163187666,28.285856244679536,,,
+2022-11-11T00:00:00,N25.cash,252,0.73711818052107081,0.68681002020469994,success,253,358.99145032645788,357.96040666922909,false,false,173.07612509158437,1.037844580153769,,,
+2022-11-14T00:00:00,N25.cash,252,0.88726003899707284,0.6031227582379256,success,253,358.99145010272895,356.92839593328375,false,false,151.98693507595726,27.666749156846745,,,
+2022-11-15T00:00:00,N25.cash,252,0.89283446250850673,0.59911473050466146,success,253,358.99144964131852,356.87142316828374,false,false,150.9769120871747,15.828821073194645,,,
+2022-11-16T00:00:00,N25.cash,252,0.74734245278378753,0.67056195999349233,success,253,358.99144979875229,357.90696128471933,false,false,168.98161391836007,13.26860748450102,,,
+2022-11-17T00:00:00,N25.cash,252,0.65979981435402457,0.48738044255270702,success,253,358.9914495637791,358.32904731200989,false,false,122.81987152328217,2.4779112944534729,,,
+2022-11-18T00:00:00,N25.cash,252,0.71165267961568457,0.50388104286439561,success,253,358.99144969073166,358.08802543495659,false,false,126.97802280182771,0.4552778830732313,,,
+2022-11-21T00:00:00,N25.cash,252,0.71180291257971207,0.49982180361412837,success,253,358.99144945284161,358.08729296533113,false,false,125.95509451076035,0.4574691084045816,,,
+2022-11-22T00:00:00,N25.cash,252,0.91515240021199751,0.57931024404500486,success,253,358.99145284878551,356.61321894334287,false,false,145.98618149934123,27.675734829894367,,,
+2022-11-23T00:00:00,N25.cash,252,0.72742701726024095,0.49084484851155136,success,253,358.99144943983913,358.00984217055515,false,false,123.69290182491095,0.46402289711828948,,,
+2022-11-24T00:00:00,N25.cash,252,0.73175721835768859,0.48645847407114573,success,253,358.99144924175067,357.98789292379394,false,false,122.58753546592872,0.46760074956572184,,,
+2022-11-25T00:00:00,N25.cash,252,0.7424929146486311,0.48177576932722482,success,253,358.99144947217229,357.93248337975461,false,false,121.40749387046066,0.47394134488338546,,,
+2022-11-28T00:00:00,N25.cash,252,0.68615717810546772,0.45971861659742785,success,253,358.99144953777881,358.20923510706257,false,false,115.84909138255182,2.5117527759812863,,,
+2022-11-29T00:00:00,N25.cash,252,0.65787666503437248,0.45538494633190757,success,253,358.99144986565466,358.33760369166197,false,false,114.75700647564071,2.703457375856642,,,
+2022-11-30T00:00:00,N25.cash,252,0.65505196118765496,0.28567785537674667,success,253,358.99144979365258,358.35012902465638,false,false,71.99081955494016,16.253901902218018,,,
+2022-12-01T00:00:00,N25.cash,252,0.67774516857577716,0.44778856327711264,success,253,358.99145322491017,358.24802449966938,false,false,112.84271794583239,2.5655460014813438,,,
+2022-12-02T00:00:00,N25.cash,252,0.7563103004456585,0.34861211954191967,success,253,358.99144982198737,357.85889377252374,false,false,87.850254124563762,0.44993524019324488,,,
+2022-12-05T00:00:00,N25.cash,252,0.69691776437485464,0.27377991024886222,success,253,358.99144966141466,358.15878641611914,false,false,68.99253738271328,26.043072313669079,,,
+2022-12-06T00:00:00,N25.cash,252,0.71367660793776011,0.26978764473709405,success,253,358.9914498058132,358.07814178962616,false,false,67.986486473747703,15.697334180383997,,,
+2022-12-07T00:00:00,N25.cash,252,0.72684322063578122,0.26585456281067849,success,253,358.9914534298677,358.01278854181879,false,false,66.995349828290983,47.032950504073966,,,
+2022-12-08T00:00:00,N25.cash,252,0.74135746877243736,0.26189466676162326,success,253,358.99145127515015,357.93841527223219,false,false,65.997456023929061,92.643315014410717,,,
+2022-12-09T00:00:00,N25.cash,252,0.99972596508513989,0.93299212408918375,success,253,358.99144980323871,350.78946884251042,false,false,235.11401527047431,1.8887579983676877,,,
+2022-12-12T00:00:00,N25.cash,252,0.82091859307030834,0.7220469402957469,success,253,358.99144956412289,357.46886610518158,false,false,181.95582895452822,0.75721522920959483,,,
+2022-12-13T00:00:00,N25.cash,252,0.82779536165498013,0.71798557206848579,success,253,358.99145028116379,357.42136783251664,false,false,180.93236416125842,0.7584532478864735,,,
+2022-12-14T00:00:00,N25.cash,252,0.99016333020830205,0.51583817805057464,success,253,358.99144948826188,354.37969679671136,false,false,129.99122086874482,64.791792519434196,,,
+2022-12-15T00:00:00,N25.cash,252,0.81509975226926956,0.23410288379039851,success,253,358.99144996350913,357.50795594053699,false,false,58.993926715180422,50.781187949964995,,,
+2022-12-16T00:00:00,N25.cash,252,0.83463102154086866,0.23014222800136833,success,253,358.99144950096098,357.37263897448105,false,false,57.99584145634482,78.958346589556427,,,
+2022-12-19T00:00:00,N25.cash,252,0.98957599665699625,0.50391555963170764,success,253,358.9914493527296,354.43828394807184,false,false,126.98672102719033,39.933142519382713,,,
+2022-12-20T00:00:00,N25.cash,252,0.80875321857385563,0.73779437300752082,success,253,358.99144928805174,357.54952010597577,false,false,185.92418199789526,0.86915768844892749,,,
+2022-12-21T00:00:00,N25.cash,252,0.80342723123750814,0.73388793881675474,success,253,358.99144984754025,357.58359591844351,false,false,184.93976058182218,0.86458721862962395,,,
+2022-12-22T00:00:00,N25.cash,252,0.85413615209350158,0.68951965642801927,success,253,358.99144943968793,357.2240324679546,false,false,173.75895341986086,0.72892536375843475,,,
+2022-12-23T00:00:00,N25.cash,252,0.99462173128561959,0.48805926842302783,success,253,358.99144949980905,353.77145352657925,false,false,122.99093564260301,62.320132720436007,,,
+2022-12-27T00:00:00,N25.cash,252,0.99562901239338508,0.48407466906534413,success,253,358.99144996891192,353.56306423874207,false,false,121.98681660446672,44.244520536197065,,,
+2022-12-28T00:00:00,N25.cash,252,0.91471728287294962,0.37288107167834578,success,253,358.99144938692842,356.6188061710198,false,false,93.966030062943133,13.285715962621589,,,
+2022-12-29T00:00:00,N25.cash,252,0.91509528711329335,0.36890479503037488,success,253,358.9914494963474,356.61395090038201,false,false,92.96400834765447,13.153912671394393,,,
+2022-12-30T00:00:00,N25.cash,252,0.92079043254810689,0.36495648908357781,success,253,358.99144963498196,356.53831426068217,false,false,91.969035249061605,16.584587910054829,,,
+2023-01-02T00:00:00,N25.cash,252,0.99677978636746734,0.46821077633954195,success,253,358.99144959642456,353.25636742998336,false,false,117.98911563756457,54.965302418487617,,,
+2023-01-03T00:00:00,N25.cash,252,0.89571247626085404,0.66144372106803995,success,253,358.9914499783452,356.84098224975895,false,false,166.68381770914607,0.73057730862881642,,,
+2023-01-04T00:00:00,N25.cash,252,0.97578451172187142,0.53562214993091661,success,253,358.99145020548298,355.29520087055272,false,false,134.97678178259099,20.366213516493094,,,
+2023-01-05T00:00:00,N25.cash,252,0.9975504863794189,0.45633003446687365,success,253,358.99145125324009,352.98203797548189,false,false,114.99516868565216,125.56333256917426,,,
+2023-01-06T00:00:00,N25.cash,252,0.99753468808093859,0.4523465498035823,success,253,358.99144963073326,352.98848104621766,false,false,113.99133055050274,70.446441145337005,,,
+2023-01-09T00:00:00,N25.cash,252,0.95059447288671217,0.34116791894914594,success,253,358.99144986665817,356.03442461965653,false,false,85.974315575184775,20.899997103660588,,,
+2023-01-10T00:00:00,N25.cash,252,0.95719083683031636,0.33720842345687196,success,253,358.9914496792523,355.88419906857604,false,false,84.976522711131736,23.643154175406224,,,
+2023-01-11T00:00:00,N25.cash,252,0.95853189222254509,0.33321952428620216,success,253,358.99145029615505,355.85097210567727,false,false,83.97132012012294,21.289750813509613,,,
+2023-01-12T00:00:00,N25.cash,252,0.99898935111532594,0.43632807963935988,success,253,358.99145434111728,352.09530280670708,false,false,109.95467606911869,14.460800734524172,,,
+2023-01-13T00:00:00,N25.cash,252,0.91860058961094471,0.65869347544909695,success,253,358.99144965552239,356.56796627137726,false,false,165.99075581317243,42.826076105035803,,,
+2023-01-16T00:00:00,N25.cash,252,0.9992667556439967,0.42853457601088318,success,253,358.99145042866348,351.77415239460464,false,false,107.99071315474256,72.282744280022953,,,
+2023-01-17T00:00:00,N25.cash,252,0.9779221794112446,0.31734002561779123,success,253,358.99144977024923,355.20059318585231,false,false,79.969686455683387,21.755825937478061,,,
+2023-01-18T00:00:00,N25.cash,252,0.99952173955419688,0.42056417192206452,success,253,358.99144972329759,351.34657298998508,false,false,105.98217132436027,38.742191375580582,,,
+2023-01-19T00:00:00,N25.cash,252,0.99959898490523025,0.41663984735800474,success,253,358.99144974836724,351.17033935534096,false,false,104.99324153421719,103.4316123175881,,,
+2023-01-20T00:00:00,N25.cash,252,0.99968521356432272,0.41266824853133915,success,253,358.99145005314557,350.92814875808767,false,false,103.99239862989747,92.7935414191424,,,
+2023-01-23T00:00:00,N25.cash,252,0.99647339800444967,0.48399628026045566,success,253,358.99144992024696,353.34756227622825,false,false,121.96706262563482,17.825338007143728,,,
+2023-01-24T00:00:00,N25.cash,252,0.99979335130224045,0.4047432575740727,success,253,358.99145013631448,350.50716648766883,false,false,101.99530090866632,155.96489050509075,,,
+2023-01-25T00:00:00,N25.cash,252,0.99984362026097673,0.40073182931472934,success,253,358.99145362870144,350.22838673653695,false,false,100.98442098731179,47.517976924471249,,,
+2023-01-26T00:00:00,N25.cash,252,0.99988342972960453,0.39678422662014429,success,253,358.99144990298214,349.93455019261052,false,false,99.989625108276357,73.315946573061524,,,
+2023-01-27T00:00:00,N25.cash,252,0.99747530847218069,0.4681826775622262,success,253,358.99145069708396,353.01234219010166,false,false,117.98203474568101,33.630633354031588,,,
+2023-01-30T00:00:00,N25.cash,252,0.99985659724088016,0.38786823351507094,success,253,358.99145010355272,350.14174012733616,false,false,97.742794845797874,18.6049921805601,,,
+2023-01-31T00:00:00,N25.cash,252,0.99989759811306256,0.38486899980721773,success,253,358.99144946786379,349.80494645658837,false,false,96.986987951418868,58.625810997066345,,,
+2023-02-01T00:00:00,N25.cash,252,0.99883723250898815,0.1031459667713903,success,253,358.99144949451426,352.23566059136732,false,false,25.992783626390356,168.98779836029607,,,
+2023-02-02T00:00:00,N25.cash,252,0.9988882090968827,0.099199326064309687,success,253,358.99145091527322,352.19078018707438,false,false,24.998230168206042,522.82792483125672,,,
+2023-02-03T00:00:00,N25.cash,252,0.98371474616812993,0.5991217020297529,success,253,358.99144962930097,354.89037369183893,false,false,150.97866891149772,24.03328622980515,,,
+2023-02-06T00:00:00,N25.cash,252,0.99262200492802088,0.67336462444903655,success,253,358.99144978702327,354.08960178637693,false,false,169.68788536115721,12.2504049842867,,,
+2023-02-07T00:00:00,N25.cash,252,0.99410540808909253,0.6694725179853489,success,253,358.99144962692549,353.8636416868199,false,false,168.70707453230793,12.013358689881221,,,
+2023-02-08T00:00:00,N25.cash,252,0.99094745405802764,0.5569209209275171,success,253,358.9914497843148,354.29583431224478,false,false,140.34407207373431,0.76718561433545462,,,
+2023-02-09T00:00:00,N25.cash,252,0.99996971586924621,0.35713057476583943,success,253,358.9914563320263,348.58659989647236,false,false,89.996904840991533,264.12284423570605,,,
+2023-02-10T00:00:00,N25.cash,252,0.99738205438505967,0.24595236648210653,success,253,358.99144989007522,353.0487058832781,false,false,61.979996353490847,50.897113702617148,,,
+2023-02-13T00:00:00,N25.cash,252,0.99977897404102634,0.07062222389793045,success,253,358.9914504408971,350.57444108936068,false,false,17.796800422278473,26.671843421670328,,,
+2023-02-14T00:00:00,N25.cash,252,0.99996032464230578,0.34514946203741265,success,253,358.99144941447497,348.85670881463199,false,false,86.977664433427989,36.4308060446686,,,
+2023-02-15T00:00:00,N25.cash,252,0.99996720803881378,0.34122897936006863,success,253,358.9913504605276,348.66605609463238,false,false,85.989702798737298,45.232453074760294,,,
+2023-02-16T00:00:00,N25.cash,252,0.99997428135803945,0.3372704315878472,success,253,358.99144967764386,348.42318093571572,false,false,84.992148760137496,105.87102921678927,,,
+2023-02-17T00:00:00,N25.cash,252,0.99980178289215582,0.054739146981458091,success,253,358.99102515358635,350.46507576661418,false,false,13.794265039327438,18.55581703668469,,,
+2023-02-20T00:00:00,N25.cash,252,0.99769734724067272,0.22224846186296546,success,253,358.98538762433577,352.91399948522587,false,false,56.006612389467293,53.830814987918195,,,
+2023-02-21T00:00:00,N25.cash,252,0.99998515891494499,0.32536477359191091,success,253,358.99061649890388,347.87252013410875,false,false,81.991922945161548,58.48716588492033,,,
+2023-02-22T00:00:00,N25.cash,252,0.99999558634885766,0.72995637412163428,success,253,358.97351830962111,346.64271443566435,false,false,183.94900627865184,0.86153283758017229,,,
+2023-02-23T00:00:00,N25.cash,252,0.99999603055243769,0.72610360097286952,success,253,358.92805180809637,346.4911721515669,false,false,182.97810744516312,0.86186994356193458,,,
+2023-02-24T00:00:00,N25.cash,252,0.99999094497041197,0.71690802840707002,success,253,358.99145022030865,347.37926907634466,false,false,180.66082315858165,1.8515612595458231,,,
+2023-02-27T00:00:00,N25.cash,252,0.99998778271907496,0.7186342675507017,success,253,358.99144975873202,347.67880283687924,false,false,181.09583542277682,0.83257356108214897,,,
+2023-02-28T00:00:00,N25.cash,252,0.99998382678136655,0.70915758630358317,success,253,358.99144961249516,347.9593119313476,false,false,178.70771174850296,1.9005111125981791,,,
+2023-03-01T00:00:00,N25.cash,252,0.9975411013098302,0.60569317741886952,success,253,358.99144948082449,352.98586969136841,false,false,152.63468070955511,14.895488083878583,,,
+2023-03-02T00:00:00,N25.cash,252,0.99953858467794521,0.29759294939535874,success,253,358.99144966330709,351.31069918008569,false,false,74.993423247630403,111.55805871307452,,,
+2023-03-03T00:00:00,N25.cash,252,0.9091846089660317,0.014743067403415699,success,253,358.99144964435675,356.68773025664996,false,false,3.7152529856607561,18.716695888324427,,,
+2023-03-06T00:00:00,N25.cash,252,0.99952597133482657,0.28869436622400135,success,253,358.99144954455824,351.33768092256219,false,false,72.750980288448346,18.509610357989612,,,
+2023-03-07T00:00:00,N25.cash,252,0.97149938409889236,0.0062062988975507341,success,253,358.99144932782815,355.46253439058637,false,false,1.5639873221827849,25.296827908428554,,,
+2023-03-08T00:00:00,N25.cash,252,0.99971340645708195,0.28174153418673803,success,253,358.99145012171215,350.8342911835631,false,false,70.998866615057977,668.32595842586466,,,
+2023-03-09T00:00:00,N25.cash,252,0.99994015146653603,0.68221985120671214,success,253,358.99144951334881,349.26781573388655,false,false,171.91940250409147,9.6729050831156833,,,
+2023-03-10T00:00:00,N25.cash,252,0.99219415226210028,0.59514515638903998,success,253,358.99144956134296,354.14640391799276,false,false,149.97657941003808,26.809198851598918,,,
+2023-03-13T00:00:00,N25.cash,252,0.99992885725636238,0.67421667575411937,success,253,358.9914536652521,349.44070258507566,false,false,169.90260229003809,10.166992128371913,,,
+2023-03-14T00:00:00,N25.cash,252,0.99991304085821642,0.67019192160828023,success,253,358.99144966264436,349.64146444127277,false,false,168.88836424528662,9.6274245080862642,,,
+2023-03-15T00:00:00,N25.cash,252,0.98908583215517876,0.58327386419023464,success,253,358.99144953478577,354.48473016761932,false,false,146.98501377593914,40.256860720622612,,,
+2023-03-16T00:00:00,N25.cash,252,0.92552501042374313,0.44816032350060214,success,253,358.99144977298295,356.47155197628234,false,false,112.93640152215174,12.715063079866308,,,
+2023-03-17T00:00:00,N25.cash,252,0.99787276179985507,0.25395810526217205,success,253,358.99144969728337,352.8406484410188,false,false,63.997442526067353,265.72292918926064,,,
+2023-03-20T00:00:00,N25.cash,252,0.83563906829235146,0.14320310389947194,success,253,358.99144953941737,357.36531756874996,false,false,36.087182182666929,8.4832412816940046,,,
+2023-03-21T00:00:00,N25.cash,252,0.94623060463525144,0.50393591804735671,success,253,358.99144937848916,356.12366751694509,false,false,126.9918513479339,49.314069840660423,,,
+2023-03-22T00:00:00,N25.cash,252,0.99971614548370413,0.64632811829297099,success,253,358.99145001986886,350.82468519705907,false,false,162.87468580982869,12.981359041576511,,,
+2023-03-23T00:00:00,N25.cash,252,0.9997742814602566,0.64268102030711105,success,253,358.9914494906493,350.59545350045596,false,false,161.95561711739199,37.152187933267172,,,
+2023-03-24T00:00:00,N25.cash,252,0.99882195161227372,0.23333976526523389,success,253,358.99144941010451,352.24873203450863,false,false,58.801620846838944,16.690986604245019,,,
+2023-03-27T00:00:00,N25.cash,252,0.99898347041825675,0.22929499453909463,success,253,358.99144973749657,352.10110596034298,false,false,57.782338623851849,18.211528096004752,,,
+2023-03-28T00:00:00,N25.cash,252,0.99905706648509018,0.22615682040344814,success,253,358.99144945425701,352.02587805098972,false,false,56.991518741668934,87.692488221375555,,,
+2023-03-29T00:00:00,N25.cash,252,0.99905496809758776,0.222206130886172,success,253,358.99144937836945,352.02810298522201,false,false,55.995944983315347,183.92865379360245,,,
+2023-03-30T00:00:00,N25.cash,252,0.99984487813709066,0.62171023444828744,success,253,358.99144932396422,350.22030492022998,false,false,156.67097908096844,10.281209576883695,,,
+2023-03-31T00:00:00,N25.cash,252,0.99987897407196047,0.61810030539039618,success,253,358.99144989762954,349.97206517687732,false,false,155.76127695837982,11.205613496185251,,,
+2023-04-03T00:00:00,N25.cash,252,0.99991333633955204,0.61394396699670373,success,253,358.99144937478894,349.63806013884749,false,false,154.71387968316935,6.767574702833933,,,
+2023-04-04T00:00:00,N25.cash,252,0.99992688804157759,0.61002099670737753,success,253,358.99145114465813,349.4680056446125,false,false,153.72529117025914,5.5719145206701448,,,
+2023-04-05T00:00:00,N25.cash,252,0.99735553043007996,0.69423896620654069,success,253,358.99145322786745,353.05881642576793,false,false,174.94821948404825,14.969405050960633,,,
+2023-04-06T00:00:00,N25.cash,252,0.99996436467404526,0.60207556184589617,success,253,358.99144988458693,348.7493124105381,false,false,151.72304158516584,5.2233972161506621,,,
+2023-04-11T00:00:00,N25.cash,252,0.99792589653109653,0.51584964813131695,success,253,358.9914493683757,352.81529934393131,false,false,129.99411132909188,115.47940806922847,,,
+2023-04-12T00:00:00,N25.cash,252,0.95859700336708842,0.082285330860725855,success,253,358.99144949984537,355.84933199982544,false,false,20.735903376902915,16.832772283717691,,,
+2023-04-13T00:00:00,N25.cash,252,0.99812972921974707,0.26188648119162183,success,253,358.99144959694019,352.71164956253637,false,false,65.995393260288708,145.63671339771247,,,
+2023-04-14T00:00:00,N25.cash,252,0.99999090998047957,0.58605348465410279,success,253,358.99144957755317,347.38312516529766,false,false,147.68547813283391,2.2103762130375548,,,
+2023-04-17T00:00:00,N25.cash,252,0.9999953201427656,0.58846445423068006,success,253,358.99144939707918,346.71921112298998,false,false,148.29304246613137,0.79172881341439849,,,
+2023-04-18T00:00:00,N25.cash,252,0.99959774988860006,0.68427961539923521,success,253,358.99144943889053,351.17341527477612,false,false,172.43846308060728,5.782132862328158,,,
+2023-04-19T00:00:00,N25.cash,252,0.99929982697706743,0.4920394808355591,success,253,358.99144925138228,351.72796659179494,false,false,123.9939491705609,127.08352552156602,,,
+2023-04-20T00:00:00,N25.cash,252,0.99945325061745893,0.48705654852573677,success,253,358.99144939758611,351.48047626875666,false,false,122.73825022848567,16.727973308607435,,,
+2023-04-21T00:00:00,N25.cash,252,0.99932893271088441,0.482972026823906,success,253,358.99144947798197,351.68547962635824,false,false,121.70895075962432,18.016688689874467,,,
+2023-04-24T00:00:00,N25.cash,252,0.99999683875386891,0.56253277988167849,success,253,358.99144945113846,346.32690834955952,false,false,141.75826053018298,2.39892613244082,,,
+2023-04-25T00:00:00,N25.cash,252,0.99999578784877818,0.55854611415612221,success,253,358.99146019834706,346.61392734877467,false,false,140.7536207673428,3.3470292364879666,,,
+2023-04-26T00:00:00,N25.cash,252,0.99999675103989283,0.55460398529329347,success,253,358.99144949249688,346.3542771616261,false,false,139.76020429390996,3.8764658041537681,,,
+2023-04-27T00:00:00,N25.cash,252,0.9993261974435701,0.46822049841389413,success,253,358.99144978610252,351.68955038281536,false,false,117.99156560030131,83.723031784356095,,,
+2023-04-28T00:00:00,N25.cash,252,0.98512983625293238,0.37691734066885302,success,253,358.99144938937656,354.79803271575548,false,false,94.983169848550958,42.550994178664446,,,
+2023-05-02T00:00:00,N25.cash,252,0.97734952666305364,0.32865944469892722,success,253,358.99144959850065,355.22678600499734,false,false,82.822180064129654,6.9633967067862992,,,
+2023-05-03T00:00:00,N25.cash,252,0.78706053931890407,0.026815617958408006,success,253,358.9914494534442,357.68415218697515,false,false,6.7575357255188173,18.388742143162261,,,
+2023-05-04T00:00:00,N25.cash,252,0.96983650684617351,0.36500428250220862,success,253,358.99144964490182,355.52095449443686,false,false,91.981079190556571,49.144214329136737,,,
+2023-05-05T00:00:00,N25.cash,252,0.99798579412288779,0.44839307940394829,success,253,358.99144952703875,352.78593549724144,false,false,112.99505600979496,135.58272517577268,,,
+2023-05-08T00:00:00,N25.cash,252,0.99375793820840208,0.1984005351525833,success,253,358.99144945248105,353.92126634153658,false,false,49.996934858450992,213.96983773894698,,,
+2023-05-09T00:00:00,N25.cash,252,0.99882794392929697,0.11900117783784629,success,253,358.9914494197929,352.24362641618347,false,false,29.988296815137264,77.022104542622174,,,
+2023-05-10T00:00:00,N25.cash,252,0.99925906582632851,0.11507201253284373,success,253,358.99145810665584,351.78460054439131,false,false,28.99814715827662,503.16756361072697,,,
+2023-05-11T00:00:00,N25.cash,252,0.99998805851901051,0.51546190340507458,success,253,358.99144946792876,347.65596898776954,false,false,129.89639965807879,7.0703315418109938,,,
+2023-05-12T00:00:00,N25.cash,252,0.99998399996173781,0.5116456331197633,success,253,358.99144929988165,347.94854585570585,false,false,128.93469954618035,9.4443986814401057,,,
+2023-05-15T00:00:00,N25.cash,252,0.99998649368886727,0.50766874619321289,success,253,358.99145085228213,347.77911086823877,false,false,127.93252404068964,9.5818402035656778,,,
+2023-05-16T00:00:00,N25.cash,252,0.99998934586885102,0.5036336777079744,success,253,358.99144956829593,347.5418973827679,false,false,126.91568678240954,6.4058666180411876,,,
+2023-05-17T00:00:00,N25.cash,252,0.99960524583764432,0.60711300525487932,success,253,358.99144939058016,351.15459686207748,false,false,152.99247732422958,97.198421837017307,,,
+2023-05-18T00:00:00,N25.cash,252,0.99988792623153566,0.64281990258093369,success,253,358.99144934941523,349.89520817298518,false,false,161.9906154503953,87.511190582440477,,,
+2023-05-19T00:00:00,N25.cash,252,0.99974319961966573,0.5793610521949385,success,253,358.9914505454181,350.72449587368044,false,false,145.99898515312449,14.524911311092824,,,
+2023-05-22T00:00:00,N25.cash,252,0.9999961356848488,0.48765416190714866,success,253,358.99144993155903,346.52772771179554,false,false,122.88884880060147,5.3816676330044579,,,
+2023-05-23T00:00:00,N25.cash,252,0.99999647158366467,0.48384028549413505,success,253,358.99145014039175,346.43679225093712,false,false,121.92775194452203,9.6454838035361252,,,
+2023-05-24T00:00:00,N25.cash,252,0.99999615982339518,0.47981613025720965,success,253,358.99144946576331,346.52146110433785,false,false,120.91366482481683,10.006254569614825,,,
+2023-05-25T00:00:00,N25.cash,252,0.99999715008063095,0.47584524173424592,success,253,358.99144971700179,346.22323271129966,false,false,119.91300091702998,9.207049958119077,,,
+2023-05-26T00:00:00,N25.cash,252,0.99999631405038669,0.47163640422109354,success,253,358.99145074589916,346.48047206326976,false,false,118.85237386371557,4.8771157584258722,,,
+2023-05-29T00:00:00,N25.cash,252,0.99927440453302685,0.38487856351619049,success,253,358.99144987522999,351.76365782760536,false,false,96.989398006080009,76.577037778663822,,,
+2023-05-30T00:00:00,N25.cash,252,0.99927822865552018,0.37983332913579626,success,253,358.99144938244837,351.75836924776809,false,false,95.71799894222066,18.056531338725947,,,
+2023-05-31T00:00:00,N25.cash,252,0.99999750394178299,0.45982293362569865,success,253,358.9914500582907,346.09065477075154,false,false,115.87537927367606,7.4156745155501973,,,
+2023-06-01T00:00:00,N25.cash,252,0.99996780114282413,0.6030887023456647,success,253,358.99144982438281,348.64790242628129,false,false,151.9783529911075,39.425313190852954,,,
+2023-06-02T00:00:00,N25.cash,252,0.9999979101462203,0.45148164371915522,success,253,358.99144939550763,345.91303502902429,false,false,113.77337421722711,3.3045574860566762,,,
+2023-06-05T00:00:00,N25.cash,252,0.99999757031503156,0.4475352334262781,success,253,358.9914497713437,346.06370324940798,false,false,112.77887882342208,2.8288486302330904,,,
+2023-06-06T00:00:00,N25.cash,252,0.99989393943269378,0.55146735066697061,success,253,358.99144921206732,349.84005504090715,false,false,138.9697723680766,25.521361049914709,,,
+2023-06-07T00:00:00,N25.cash,252,0.99983541542729359,0.54758394663791488,success,253,358.99144927435327,350.2795278723944,false,false,137.99115455275455,84.59189532823828,,,
+2023-06-08T00:00:00,N25.cash,252,0.99999586211780211,0.43594534713895544,success,253,358.99144996884394,346.59612765932337,false,false,109.85822747901678,2.5264270567654386,,,
+2023-06-09T00:00:00,N25.cash,252,0.99880341300416198,0.34912562487584192,success,253,358.99144951577938,352.26436487459637,false,false,87.979657468712162,36.63260833646298,,,
+2023-06-12T00:00:00,N25.cash,252,0.9999434151097969,0.42857788508755218,success,253,358.99144972045599,349.21173774101021,false,false,108.00162704206315,7.4802955481041629,,,
+2023-06-13T00:00:00,N25.cash,252,0.99979516042667382,0.5713326481154426,success,253,358.99144931231058,350.49837071853267,false,false,143.97582732509153,31.040029837045747,,,
+2023-06-14T00:00:00,N25.cash,252,0.99997023948352537,0.42063997453350993,success,253,358.99145023555991,348.56915200302757,false,false,106.0012735824445,5.4354007155764608,,,
+2023-06-15T00:00:00,N25.cash,252,0.99997608190043408,0.41663903524102819,success,253,358.99144969739439,348.35059853415385,false,false,104.9930368807391,10.473523514285631,,,
+2023-06-16T00:00:00,N25.cash,252,0.9998954600021035,0.55947433775147259,success,253,358.99144946298287,349.82561320364437,false,false,140.98753311337109,62.265391250182773,,,
+2023-06-19T00:00:00,N25.cash,252,0.99972516655207144,0.76314914340706341,success,253,358.99144949159853,350.79237907514977,false,false,192.31358413857998,4.7873432343881559,,,
+2023-06-20T00:00:00,N25.cash,252,0.99987031081979405,0.40474274547811312,success,253,358.99144953175636,350.0412093375283,false,false,101.9951718604845,10.955282433631616,,,
+2023-06-21T00:00:00,N25.cash,252,0.99988182314586282,0.40074963466077029,success,253,358.99144977175473,349.94823966394199,false,false,100.98890793451412,10.980132017291039,,,
+2023-06-22T00:00:00,N25.cash,252,0.99869322615846334,0.50276248728664208,success,253,358.99144986486237,352.3525635976502,false,false,126.6961467962338,12.059624913257798,,,
+2023-06-23T00:00:00,N25.cash,252,0.99980281271189875,0.53963173696160904,success,253,358.99144945668127,350.46029008357846,false,false,135.98719771432548,58.097775278659547,,,
+2023-06-26T00:00:00,N25.cash,252,0.99995137537835599,0.38885945052731086,success,253,358.99145079839434,349.06011888704421,false,false,97.99258153288234,11.954094306585125,,,
+2023-06-27T00:00:00,N25.cash,252,0.98285126934460065,0.30147393670326017,success,253,358.99145065737639,354.94291700809003,false,false,75.971432049221562,23.131219380967121,,,
+2023-06-28T00:00:00,N25.cash,252,0.99997142040200193,0.38094053140481077,success,253,358.99144935144045,348.52866048003574,false,false,95.997013914012314,9.4840386260468588,,,
+2023-06-29T00:00:00,N25.cash,252,0.9884316413276969,0.2936213111219575,success,253,358.99144988865248,354.54360407287015,false,false,73.992570402733293,191.9668588678513,,,
+2023-06-30T00:00:00,N25.cash,252,0.99993786296140463,0.51978303044749263,success,253,358.99144947765848,349.30534330451655,false,false,130.98532367276815,53.884844700006454,,,
+2023-07-03T00:00:00,N25.cash,252,0.99993378310129344,0.51584769470394898,success,253,358.99144953663762,349.36894089560371,false,false,129.99361906539514,122.91537154080778,,,
+2023-07-04T00:00:00,N25.cash,252,0.99994927868307348,0.51068925806859533,success,253,358.99145191013633,349.10233834920496,false,false,128.69369303328602,19.145912167426786,,,
+2023-07-05T00:00:00,N25.cash,252,0.99995364528819142,0.50792031760289258,success,253,358.99144950074623,349.01230824255731,false,false,127.99592003592892,195.04939760492019,,,
+2023-07-06T00:00:00,N25.cash,252,0.99970005730394318,0.71137440131611995,success,253,358.99144978341536,350.87983065640628,false,false,179.26634913166222,4.9174375060052364,,,
+2023-07-07T00:00:00,N25.cash,252,0.99974240581847607,0.72989931220282422,success,253,358.99144975818086,350.72758223430407,false,false,183.9346266751117,12.432664808311518,,,
+2023-07-10T00:00:00,N25.cash,252,0.99985781817474417,0.70343611429450437,success,253,358.99144936541518,350.13318769744455,false,false,177.2659008022151,4.9502585239084684,,,
+2023-07-11T00:00:00,N25.cash,252,0.99996156908885525,0.49197764163966839,success,253,358.99144937153744,348.82483935872307,false,false,123.97836569319644,37.163655259672616,,,
+2023-07-12T00:00:00,N25.cash,252,0.99996507565311188,0.48808155250122381,success,253,358.99144963783732,348.72915820938766,false,false,122.9965512303084,233.42302272077956,,,
+2023-07-13T00:00:00,N25.cash,252,0.99992744415061852,0.48411131763071602,success,253,358.99144937672099,349.46036797883852,false,false,121.99605204294043,195.8443446546423,,,
+2023-07-14T00:00:00,N25.cash,252,0.99976973810297864,0.4404599646720519,success,253,358.99145903132461,350.61539610558924,false,false,110.99591109735708,175.66624669495343,,,
+2023-07-17T00:00:00,N25.cash,252,0.9996468629703007,0.41676700092747748,success,253,358.99144938543157,351.04314819459017,false,false,105.02528423372432,14.240307037148472,,,
+2023-07-18T00:00:00,N25.cash,252,0.99998948546269117,0.32530751992784568,success,253,358.99144940636211,347.52870816820695,false,false,81.977495021817106,10.978901586525215,,,
+2023-07-19T00:00:00,N25.cash,252,0.99997167985350821,0.4682246699509216,success,253,358.99144935252622,348.51954055665169,false,false,117.99261682763225,110.02456057324972,,,
+2023-07-20T00:00:00,N25.cash,252,0.99994971584124226,0.67161237230693438,success,253,358.99144955566584,349.09367937539452,false,false,169.24631782134747,4.9434875861570502,,,
+2023-07-21T00:00:00,N25.cash,252,0.99994524519835448,0.69034724914357437,success,253,358.99144938594861,349.17885865042314,false,false,173.96750678418073,11.943079909134054,,,
+2023-07-24T00:00:00,N25.cash,252,0.99999526801198346,0.30938642151055573,success,253,358.99144938570635,346.73028897342516,false,false,77.965378220660043,11.400497603227119,,,
+2023-07-25T00:00:00,N25.cash,252,0.99998334524323462,0.45235237305955545,success,253,358.99144991653674,347.98865188071153,false,false,113.99279801100798,115.37398931091155,,,
+2023-07-26T00:00:00,N25.cash,252,0.99998721343560293,0.44839265597254419,success,253,358.99144939016531,347.7243465820261,false,false,112.99494930508114,166.29236271439308,,,
+2023-07-27T00:00:00,N25.cash,252,0.99998472268417871,0.4444237567199894,success,253,358.99145321882509,347.90232704045297,false,false,111.99478669343733,159.74195076306501,,,
+2023-07-28T00:00:00,N25.cash,252,0.99998323741821082,0.44045879736629118,success,253,358.99144952199214,347.99510485464032,false,false,110.99561693630538,189.37831545064702,,,
+2023-07-31T00:00:00,N25.cash,252,0.99998735784307868,0.4364715013489186,success,253,358.99144938120855,347.71298848214644,false,false,109.99081833992749,91.540391734376655,,,
+2023-08-01T00:00:00,N25.cash,252,0.9999905818619188,0.43250804904122314,success,253,358.99144938311446,347.41858565646925,false,false,108.99202835838823,106.95388384026276,,,
+2023-08-02T00:00:00,N25.cash,252,0.99998502744306206,0.42853724249176967,success,253,358.99144948749966,347.88217289018678,false,false,107.99138510792595,96.856630902910894,,,
+2023-08-03T00:00:00,N25.cash,252,0.99998524367302621,0.42457970819260227,success,253,358.99144971299944,347.8676258496555,false,false,106.99408646453577,142.58377109068024,,,
+2023-08-04T00:00:00,N25.cash,252,0.99997976869412064,0.50580575602725741,success,253,358.99144957777219,348.18319045203913,false,false,127.46305051886887,0.019443431783737405,,,
+2023-08-07T00:00:00,N25.cash,252,0.9999885170011531,0.41664446484942425,success,253,358.99145022460863,347.61681873008007,false,false,104.99440514205492,150.44853888394587,,,
+2023-08-08T00:00:00,N25.cash,252,0.99999041324596338,0.41257691472250613,success,253,358.99145145757547,347.4363328442513,false,false,103.96938251007154,27.842551659158026,,,
+2023-08-09T00:00:00,N25.cash,252,0.99999309406336101,0.40758103548007368,success,253,358.9914500305232,347.10832780265446,false,false,102.71042094097857,17.734411107622144,,,
+2023-08-10T00:00:00,N25.cash,252,0.99999929321667624,0.25769985371991128,success,253,358.9914498747267,344.82890889069699,false,false,64.940363137417648,8.7642387704996434,,,
+2023-08-11T00:00:00,N25.cash,252,0.99999594788862167,0.40074128585413749,success,253,358.99144973505327,346.5751813024487,false,false,100.98680403524264,67.038596046945642,,,
+2023-08-14T00:00:00,N25.cash,252,0.99998899937149988,0.62682309276547632,success,253,358.99144968438429,347.57390253465093,false,false,157.95941937690003,12.753949500009224,,,
+2023-08-15T00:00:00,N25.cash,252,0.99998388550021111,0.59999325345551713,success,253,358.99144958355748,347.95567461491652,false,false,151.19829987079032,4.8439830965554096,,,
+2023-08-16T00:00:00,N25.cash,252,0.99998435070332525,0.5960529778857967,success,253,358.99145159143973,347.92638265796467,false,false,150.20535042722076,4.8275831184155837,,,
+2023-08-17T00:00:00,N25.cash,252,0.99999077131317726,0.38491221296609723,success,253,358.99144944180517,347.39826487822495,false,false,96.997877667456507,403.91037971583552,,,
+2023-08-18T00:00:00,N25.cash,252,0.99999398054796995,0.38094919845973463,success,253,358.9914494651473,346.97094115691414,false,false,95.999198011853125,1089.3556492926784,,,
+2023-08-21T00:00:00,N25.cash,252,0.99999463351052587,0.37697024093376297,success,253,358.98892470338876,346.85359347745532,false,false,94.996500715308272,225.2496791426473,,,
+2023-08-22T00:00:00,N25.cash,252,0.9999805057573341,0.37298663118917069,success,253,358.99145076783515,348.1460788783728,false,false,93.992631059671012,104.71983255381851,,,
+2023-08-23T00:00:00,N25.cash,252,0.99999789224969393,0.22165557552072698,success,253,358.99144930447818,345.92156202732298,false,false,55.857205031223202,3.582809196961334,,,
+2023-08-24T00:00:00,N25.cash,252,0.99998053656856678,0.36506113441446175,success,253,358.99148173006159,348.14452802957459,false,false,91.995405872444366,180.61557803958411,,,
+2023-08-25T00:00:00,N25.cash,252,0.99991555987501834,0.56834253019696612,success,253,358.99144941597638,349.61206600480466,false,false,143.22231760963547,5.0597256708918481,,,
+2023-08-28T00:00:00,N25.cash,252,0.99991987716609121,0.564391830027549,success,253,358.99144929659906,349.55957974565456,false,false,142.22674116694236,5.2203468377967477,,,
+2023-08-29T00:00:00,N25.cash,252,0.99998493411501566,0.3530937774628054,success,253,358.99145042821584,347.8883878515021,false,false,88.979631920626957,41.613942887286399,,,
+2023-08-30T00:00:00,N25.cash,252,0.99999867013405663,0.20147390636684601,success,253,358.99144952525478,345.46101843992005,false,false,50.771424404445192,2.1096579450204538,,,
+2023-08-31T00:00:00,N25.cash,252,0.99999173536725672,0.34402570523321346,success,253,358.99145088936422,347.28793389117169,false,false,86.694477718769789,18.841259899147566,,,
+2023-09-01T00:00:00,N25.cash,252,0.99899983986691865,0.10980828643492489,success,253,358.99145443134483,352.08485993325115,false,false,27.671688181601073,18.710906260188221,,,
+2023-09-04T00:00:00,N25.cash,252,0.9999997020951058,0.18923733346098048,success,253,358.99144942135194,343.96495817077272,false,false,47.687808032167084,1.8604175928872544,,,
+2023-09-05T00:00:00,N25.cash,252,0.99787766853698134,0.10196644973940128,success,253,358.99144953645003,352.83833407538037,false,false,25.695545334329122,15.9678987815673,,,
+2023-09-06T00:00:00,N25.cash,252,0.99999936273925671,0.18147430602910125,success,253,358.99144928502807,344.72536298715482,false,false,45.731525119333519,2.0146438581815804,,,
+2023-09-07T00:00:00,N25.cash,252,0.9999975217050312,0.17778390776848815,success,253,358.99144988615456,346.08351261764631,false,false,44.801544757659016,2.2980376474140773,,,
+2023-09-08T00:00:00,N25.cash,252,0.99999780128281368,0.16790264291965126,success,253,358.9914522149175,345.96381794880006,false,false,42.311466015752117,196.96458658170417,,,
+2023-09-11T00:00:00,N25.cash,252,0.99999396258481155,2.3621782358482501e-06,success,253,358.99145186249217,346.97392331337818,false,false,0.000595268915433759,0.011003608597241638,,,
+2023-09-12T00:00:00,N25.cash,252,0.99999132136349311,0.31348453366398304,success,253,358.99144966731632,347.33681221990383,false,false,78.998102483323734,463.51871458014841,,,
+2023-09-13T00:00:00,N25.cash,252,0.99988218077899238,0.63488699317379205,success,253,358.99144963489994,349.94520832745434,false,false,159.99152227979559,95.061694603159452,,,
+2023-09-14T00:00:00,N25.cash,252,0.99806405484781502,0.71021390940909468,success,253,358.99144955956865,352.74622776007277,false,false,178.97390517109187,35.383090534273926,,,
+2023-09-15T00:00:00,N25.cash,252,0.99782351280988757,0.70610789816183661,success,253,358.99144940632004,352.86358518296697,false,false,177.93919033678281,15.245665311851745,,,
+2023-09-18T00:00:00,N25.cash,252,0.99814166867829057,0.70214021933404813,success,253,358.99144923840322,352.70523296577187,false,false,176.93933527218013,14.449799299506997,,,
+2023-09-19T00:00:00,N25.cash,252,0.99753497386435719,0.69813087457750733,success,253,358.99144938993061,352.98836459039643,false,false,175.92898039353184,13.281543643173519,,,
+2023-09-20T00:00:00,N25.cash,252,0.99824228804644599,0.69421673350753066,success,253,358.99144938562682,352.64946630207936,false,false,174.94261684389772,16.334172887852578,,,
+2023-09-21T00:00:00,N25.cash,252,0.99996140640522169,0.49310498110425499,success,253,358.99144949234756,348.82906385303716,false,false,124.26245523827225,5.2710297125457943,,,
+2023-09-22T00:00:00,N25.cash,252,0.99999118461402092,0.28171867964391184,success,253,358.99146035676341,347.35245721574427,false,false,70.993107270265781,130.20977088742424,,,
+2023-09-25T00:00:00,N25.cash,252,0.99998885274923199,0.27775780877248407,success,253,358.99144924716643,347.58714273612912,false,false,69.994967810665983,176.97253498255625,,,
+2023-09-26T00:00:00,N25.cash,252,0.99997293838849988,0.48118296758002344,success,253,358.991449319092,348.47408199692489,false,false,121.25810783016591,5.3434979867998544,,,
+2023-09-27T00:00:00,N25.cash,252,0.99840969799206347,0.67451864097322156,success,253,358.99144969691793,352.54920992611011,false,false,169.97869752525185,41.504888042977328,,,
+2023-09-28T00:00:00,N25.cash,252,0.99925858215461227,0.59118074199052095,success,253,358.99144934354473,351.78524483869029,false,false,148.97754698161128,30.731716863236663,,,
+2023-09-29T00:00:00,N25.cash,252,0.99991205172258268,0.4918480047737811,success,253,358.99144982201972,349.65277610126208,false,false,123.94569720299283,12.215849433694585,,,
+2023-10-02T00:00:00,N25.cash,252,0.99807018161353811,0.66256238564947079,success,253,358.99144939797497,352.74305170008824,false,false,166.96572118366663,26.548701323417923,,,
+2023-10-03T00:00:00,N25.cash,252,0.99983159228521246,0.48394765685938601,success,253,358.99144938023505,350.30249515720402,false,false,121.95480952856528,12.289064630379304,,,
+2023-10-04T00:00:00,N25.cash,252,0.99987196910723586,0.45766286208795059,success,253,358.99144924853834,350.02833831418286,false,false,115.33104124616355,5.7071617049764116,,,
+2023-10-05T00:00:00,N25.cash,252,0.99982759471940663,0.47622404903115667,success,253,358.99144929346892,350.32595914330091,false,false,120.00846035585148,10.274557097083704,,,
+2023-10-06T00:00:00,N25.cash,252,0.99985137180054839,0.44994900843469965,success,253,358.99144924485324,350.17753520792223,false,false,113.38715012554431,5.5196330456629941,,,
+2023-10-09T00:00:00,N25.cash,252,0.99986574302505082,0.46797347053527644,success,253,358.99144931985893,350.07582871485039,false,false,117.92931457488966,12.051786773930923,,,
+2023-10-10T00:00:00,N25.cash,252,0.9989382094811986,0.55949711443192773,success,253,358.99145163344826,352.1447153608475,false,false,140.99327283684579,98.026528385273195,,,
+2023-10-11T00:00:00,N25.cash,252,0.99969633991710838,0.4601724875538562,success,253,358.99144976754332,350.89215184320494,false,false,115.96346686357177,11.836547974615533,,,
+2023-10-12T00:00:00,N25.cash,252,0.99976760277286048,0.4560225842353664,success,253,358.99144955812159,350.62461951788623,false,false,114.91769122731233,13.391122026426785,,,
+2023-10-13T00:00:00,N25.cash,252,0.99980992208130604,0.43002367912285228,success,253,358.99144953382824,350.4235631583324,false,false,108.36596713895878,5.9961829263762043,,,
+2023-10-16T00:00:00,N25.cash,252,0.99976640639484826,0.21795703330285265,success,253,358.99144918046875,350.62975511876937,false,false,54.925172392318871,10.911433724996479,,,
+2023-10-17T00:00:00,N25.cash,252,0.99967827427554257,0.21408462038552795,success,253,358.99144922920635,350.94995984389976,false,false,53.949324337153044,15.80418881766831,,,
+2023-10-18T00:00:00,N25.cash,252,0.99970410728500381,0.21031593617271488,success,253,358.9914498955705,350.86623221339227,false,false,52.999615915524153,2111.8798159367693,,,
+2023-10-19T00:00:00,N25.cash,252,0.99963551644057869,0.20631119928319758,success,253,358.99144980583986,351.07478524383845,false,false,51.99042221936579,84.006193171885172,,,
+2023-10-20T00:00:00,N25.cash,252,0.99974856213100161,0.40990803629368244,success,253,358.9914499389597,350.70338676774406,false,false,103.29682514600798,6.1713955133452814,,,
+2023-10-23T00:00:00,N25.cash,252,0.99970823323909064,0.19838366166715171,success,253,358.99145041138945,350.85218638183557,false,false,49.992682740122234,112.83916945043219,,,
+2023-10-24T00:00:00,N25.cash,252,0.99975798485012102,0.40191286673346865,success,253,358.99144953110829,350.66518134458693,false,false,101.2820424168341,6.224392215833559,,,
+2023-10-25T00:00:00,N25.cash,252,0.99718090261482339,0.59510748068687991,success,253,358.99145099388573,353.12293555096386,false,false,149.96708513309375,24.970970506653106,,,
+2023-10-26T00:00:00,N25.cash,252,0.97083202768687415,0.70613796811980256,success,253,358.99144941534649,355.48636721972844,false,false,177.94676796619024,9.5926212190111055,,,
+2023-10-27T00:00:00,N25.cash,252,0.99968841892921434,0.41252635626338291,success,253,358.9914546520825,350.9179152874504,false,false,103.9566417783725,13.104437669051576,,,
+2023-10-30T00:00:00,N25.cash,252,0.99723245733659172,0.58317377669088943,success,253,358.99144937605718,353.10442527781265,false,false,146.95979172610413,10.89558064268804,,,
+2023-10-31T00:00:00,N25.cash,252,0.99951818267270431,0.4047176958959654,success,253,358.99144945961513,351.35398588829236,false,false,101.98885936578328,11.426046908783436,,,
+2023-11-01T00:00:00,N25.cash,252,0.96494645718819938,0.66978613949531651,success,253,358.99145144057564,355.67625551272357,false,false,168.78610715281977,13.937567333581599,,,
+2023-11-02T00:00:00,N25.cash,252,0.99134662219819858,0.57133124280720804,success,253,358.99144952785269,354.2503350265863,false,false,143.97547318741641,29.812519726290908,,,
+2023-11-03T00:00:00,N25.cash,252,0.99664772755716213,0.48806342435340128,success,253,358.99144978108779,353.29669086301601,false,false,122.99198293705712,73.007778646061865,,,
+2023-11-06T00:00:00,N25.cash,252,0.9716092586891365,0.38896273509918639,success,253,358.99144937123009,355.45855872665902,false,false,98.018609244994963,11.337869608452657,,,
+2023-11-07T00:00:00,N25.cash,252,0.97235635891742445,0.36493756090024237,success,253,358.99144959202124,355.43112295293923,false,false,91.964265346861083,26.675884539573268,,,
+2023-11-08T00:00:00,N25.cash,252,0.97576131490123286,0.35967377359924196,success,253,358.99144946526934,355.29618137779846,false,false,90.63779094700898,16.415363855867152,,,
+2023-11-09T00:00:00,N25.cash,252,0.93626979437631086,0.55144458313117073,success,253,358.99144945137965,356.30420441038359,false,false,138.96403494905502,17.966322005239515,,,
+2023-11-10T00:00:00,N25.cash,252,0.79862617350304033,0.66260511754169671,success,253,358.99144969090673,357.61371973660965,false,false,166.97648962050758,11.77173466304869,,,
+2023-11-13T00:00:00,N25.cash,252,0.93952965560727264,0.54352434597258226,success,253,358.99144964010412,356.24822332597512,false,false,136.96813518509072,17.480095241096862,,,
+2023-11-14T00:00:00,N25.cash,252,0.9760404560153606,0.34516732887789486,success,253,358.99144962131822,355.28431232563429,false,false,86.982166877229503,49.833970630046629,,,
+2023-11-15T00:00:00,N25.cash,252,0.87848323874360601,0.13091332365942809,success,253,358.99144962461963,357.013305002572,false,false,32.990157562175881,48.227040582664081,,,
+2023-11-16T00:00:00,N25.cash,252,0.97423945852811289,0.45233136475328228,success,253,358.99144924995238,355.35863604676791,false,false,113.98750391782714,36.567916104572298,,,
+2023-11-17T00:00:00,N25.cash,252,0.98754082810841326,0.35322270091918723,success,253,358.99144986209757,354.61868907105833,false,false,89.012120631635185,11.93564575177294,,,
+2023-11-20T00:00:00,N25.cash,252,0.97187442803766189,0.52367313376534863,success,253,358.99144991036343,355.4489025002668,false,false,131.96562970886785,19.590971507172409,,,
+2023-11-21T00:00:00,N25.cash,252,0.99233658668338365,0.3454486698434997,success,253,358.99145018707492,354.12784532344006,false,false,87.053064800561927,9.6048621533122951,,,
+2023-11-22T00:00:00,N25.cash,252,0.99389761505214602,0.34125807461436564,success,253,358.99144926466488,353.89849473610559,false,false,85.997034802820139,12.158439807479214,,,
+2023-11-23T00:00:00,N25.cash,252,0.98552258616639743,0.51183876722726385,success,253,358.99144945468504,354.77086717822493,false,false,128.9833693412705,37.313666181731669,,,
+2023-11-24T00:00:00,N25.cash,252,0.98833756954376017,0.42854308662627083,success,253,358.99144964952842,354.55179794368991,false,false,107.99285782982025,71.633385938104482,,,
+2023-11-27T00:00:00,N25.cash,252,0.97911592148892546,0.75409258017694603,success,253,358.99145007744403,355.14378710879504,false,false,190.0313302045904,0.41304008074433773,,,
+2023-11-28T00:00:00,N25.cash,252,0.91806549285333428,0.66985425282610811,success,253,358.99144942889473,356.57510093264699,false,false,168.80327171217925,12.754899267234217,,,
+2023-11-29T00:00:00,N25.cash,252,0.98414113053005481,0.74576522536152912,success,253,358.99144965398023,354.86340927369844,false,false,187.93283679110533,0.41554765372418517,,,
+2023-11-30T00:00:00,N25.cash,252,0.9856161778469521,0.74159856466721863,success,253,358.991449580508,354.76428668708388,false,false,186.88283829613908,0.41766682206200961,,,
+2023-12-01T00:00:00,N25.cash,252,0.99211062595278965,0.48795439516505346,success,253,358.99145043256175,354.15713261015327,false,false,122.96450758159347,23.833720187941498,,,
+2023-12-04T00:00:00,N25.cash,252,0.99403160557961046,0.48395685899272095,success,253,358.99144927120165,353.87615821861783,false,false,121.95712846616568,21.027664435141737,,,
+2023-12-05T00:00:00,N25.cash,252,0.99545506849026,0.47996208776202753,success,253,358.99144943778555,353.60226210806718,false,false,120.95044611603093,19.090571307524595,,,
+2024-07-15T00:00:00,N25.cash,252,1,0.99838272277685625,success,253,358.99145856275697,198.07807557104638,false,false,251.59244613976779,117.81031105454095,,,
+2024-07-16T00:00:00,N25.cash,252,1,0.9936312807928992,success,253,358.99144962813125,200.77048276413871,false,false,250.39508275981061,22.339741026544292,,,
+2024-07-17T00:00:00,N25.cash,252,1,0.990075122750397,success,253,358.99144976396201,201.75431997555526,false,false,249.49893093310004,21.665971193041841,,,
+2024-07-18T00:00:00,N25.cash,252,1,0.98669246911775832,success,253,358.99144942152259,200.8578918535909,false,false,248.64650221767511,47.346040751395236,,,
+2024-07-19T00:00:00,N25.cash,252,1,0.98170381176083799,success,253,358.9914493345936,202.68221843148706,false,false,247.38936056373117,20.851918827507486,,,
+2024-07-22T00:00:00,N25.cash,252,1,0.97761472576161823,success,253,358.99144928028852,204.94035250169176,false,false,246.35891089192779,26.001080488606039,,,
+2024-07-23T00:00:00,N25.cash,252,1,0.97371658484659351,success,253,358.99144924100682,207.13527020082594,false,false,245.37657938134157,27.843427571070745,,,
+2024-07-24T00:00:00,N25.cash,252,1,0.96980551766656942,success,253,358.99147395378537,206.90639677026226,false,false,244.39099045197548,20.266504498584382,,,
+2024-07-25T00:00:00,N25.cash,252,1,0.96602804880914572,success,253,358.99144934677395,208.15863886706444,false,false,243.43906829990473,27.773439764311558,,,
+2024-07-26T00:00:00,N25.cash,252,1,0.96163498461161023,success,253,358.9914493857724,210.22786003473672,false,false,242.33201612212576,23.596437142700104,,,
+2024-07-29T00:00:00,N25.cash,252,1,0.95774823054503944,success,253,358.9914492725095,212.12983489901703,false,false,241.35255409734995,27.296293631310803,,,
+2024-07-30T00:00:00,N25.cash,252,1,0.9538038643268143,success,253,358.99147375308769,213.56486142047814,false,false,240.3585738103572,22.038427759640467,,,
+2024-07-31T00:00:00,N25.cash,252,1,0.95020591230577967,success,253,358.99144929339462,214.37181196510093,false,false,239.45188990105649,30.821472104934987,,,
+2024-08-01T00:00:00,N25.cash,252,1,0.94649938232157449,success,253,358.9914493338199,213.0590874346336,false,false,238.51784434503676,35.343769884342564,,,
+2024-08-02T00:00:00,N25.cash,252,1,0.94183720950852801,success,253,358.99144936312877,212.25710075609146,false,false,237.34297679614906,27.031000088353871,,,
+2024-08-05T00:00:00,N25.cash,252,1,0.93789065342551459,success,253,358.99144939028986,212.19144554058951,false,false,236.34844466322969,24.463975654090223,,,
+2024-08-06T00:00:00,N25.cash,252,1,0.93385275503358711,success,253,358.99144982876476,212.66643828493642,false,false,235.33089426846396,27.441662316534686,,,
+2024-08-07T00:00:00,N25.cash,252,1,0.93003872554333167,success,253,358.99144947764609,214.44105225412221,false,false,234.36975883691957,28.613960390813101,,,
+2024-08-08T00:00:00,N25.cash,252,1,0.92593399675227772,success,253,358.99144965523857,214.16390816704291,false,false,233.33536718157399,27.836352865093357,,,
+2024-08-09T00:00:00,N25.cash,252,1,0.92205745469723865,success,253,358.99144937164414,215.8290467339593,false,false,232.35847858370414,27.957680367801441,,,
+2024-08-12T00:00:00,N25.cash,252,1,0.91798241339518094,success,253,358.99145099039828,217.37786778022243,false,false,231.3315681755856,27.604626215152273,,,
+2024-08-13T00:00:00,N25.cash,252,1,0.91397589438851945,success,253,358.99144991188808,218.81062870539813,false,false,230.32192538590689,22.091810044822928,,,
+2024-08-14T00:00:00,N25.cash,252,1,0.9103444721516063,success,253,358.99144955525998,220.60367022797868,false,false,229.40680698220478,29.748871950894369,,,
+2024-08-15T00:00:00,N25.cash,252,1,0.90620550486637019,success,253,358.99144924540622,221.44363571351377,false,false,228.36378722632529,27.652732245960276,,,
+2024-08-16T00:00:00,N25.cash,252,1,0.9021453791594336,success,253,358.99144974800208,223.03672987753015,false,false,227.34063554817726,26.157428380072702,,,
+2024-08-19T00:00:00,N25.cash,252,1,0.89816986895447137,success,253,358.99144996619123,224.60801812483925,false,false,226.3388069765268,24.568709019672426,,,
+2024-08-20T00:00:00,N25.cash,252,1,0.89418810197670606,success,253,358.99144943469122,225.46886330609985,false,false,225.33540169812991,21.966499176738534,,,
+2024-08-21T00:00:00,N25.cash,252,1,0.89011926003804853,success,253,358.99144924998495,226.38418456360412,false,false,224.31005352958823,25.954107649105499,,,
+2024-08-22T00:00:00,N25.cash,252,1,0.88624635192625456,success,253,358.99144920515783,227.29578524358516,false,false,223.33408068541615,27.235797069359588,,,
+2024-08-23T00:00:00,N25.cash,252,1,0.88228681035976608,success,253,358.99144944720337,228.49036036308891,false,false,222.33627621066105,21.895238181255852,,,
+2024-08-26T00:00:00,N25.cash,252,1,0.87720963202890867,success,253,358.99144948752758,229.94372213669723,false,false,221.05682727128499,57.652343598099087,,,
+2024-08-27T00:00:00,N25.cash,252,1,0.87420683391048915,success,253,358.99144947060893,231.59349037755393,false,false,220.30012214544325,23.97152641279127,,,
+2024-08-28T00:00:00,N25.cash,252,1,0.87040253133555501,success,253,358.99144944730062,232.717861619232,false,false,219.34143789655985,27.977308305753954,,,
+2024-08-29T00:00:00,N25.cash,252,1,0.86641541589736404,success,253,358.99144934118868,234.18683171096524,false,false,218.33668480613574,26.005047918844355,,,
+2024-08-30T00:00:00,N25.cash,252,1,0.86226052644065498,success,253,358.99145109084628,235.36566557424925,false,false,217.28965266304505,25.30438554145768,,,
+2024-09-02T00:00:00,N25.cash,252,1,0.8339271990777638,success,253,358.99145136969736,246.97603218511787,false,false,210.14965416759648,0.95285899621099512,,,
+2024-09-03T00:00:00,N25.cash,252,1,0.85445798868788336,success,253,358.9914492121473,237.06758276079364,false,false,215.32341314934661,24.524102267655447,,,
+2024-09-04T00:00:00,N25.cash,252,1,0.85049485685889747,success,253,358.99144945905454,237.79697978014946,false,false,214.32470392844218,22.69130025743549,,,
+2024-09-05T00:00:00,N25.cash,252,1,0.84653255330504484,success,253,358.99145019523189,239.20370626239762,false,false,213.3262034328713,24.881882329773273,,,
+2024-09-06T00:00:00,N25.cash,252,1,0.8435876394191314,success,253,358.9912400922131,239.5001397156766,false,false,212.5840851336211,233.16040619356482,,,
+2024-09-09T00:00:00,N25.cash,252,1,0.84076877728255828,success,253,358.9914498453179,240.43978830415858,false,false,211.8737318752047,167.40961400493012,,,
+2024-09-10T00:00:00,N25.cash,252,1,0.83458725802889577,success,253,358.99145006247517,240.95663332872425,false,false,210.31598902328173,25.210160724644616,,,
+2024-09-11T00:00:00,N25.cash,252,1,0.83058056708132932,success,253,358.99144937768347,242.26603779474283,false,false,209.306302904495,25.87160051943458,,,
+2024-09-12T00:00:00,N25.cash,252,1,0.82665327267370681,success,253,358.99145049256509,243.73501101341321,false,false,208.3166247137741,23.81765725713241,,,
+2024-09-13T00:00:00,N25.cash,252,1,0.82273337536483426,success,253,358.99144945767762,244.00813735131561,false,false,207.32881059193824,26.732305163273022,,,
+2024-09-16T00:00:00,N25.cash,252,1,0.81874902474184053,success,253,358.99144933699586,245.33945753586102,false,false,206.32475423494381,26.917395430769727,,,
+2024-09-17T00:00:00,N25.cash,252,1,0.81483866876112843,success,253,358.99144942924403,246.40183089820562,false,false,205.33934452780437,27.766847477637221,,,
+2024-09-18T00:00:00,N25.cash,252,1,0.8109400267684086,success,253,358.9914494824655,247.40329072810084,false,false,204.35688674563897,29.133978020124751,,,
+2024-09-19T00:00:00,N25.cash,252,1,0.80682691233444859,success,253,358.9914512758877,248.62699787993611,false,false,203.32038190828104,27.028605250869891,,,
+2024-09-20T00:00:00,N25.cash,252,1,0.80277070305978482,success,253,358.99144937822871,249.58794735436919,false,false,202.29821717106577,26.279231905628524,,,
+2024-09-23T00:00:00,N25.cash,252,1,0.79870522390606724,success,253,358.99144936522737,250.4973024974658,false,false,201.27371642432894,24.846663144299409,,,
+2024-09-24T00:00:00,N25.cash,252,1,0.79487942016906921,success,253,358.991449365351,251.90877873596816,false,false,200.30961388260545,23.582002911278572,,,
+2024-09-25T00:00:00,N25.cash,252,1,0.79090680828535287,success,253,358.9914494926461,252.9081522455599,false,false,199.30851568790894,22.699268987844068,,,
+2024-09-26T00:00:00,N25.cash,252,1,0.78694610785180907,success,253,358.99144948158636,252.94703187715226,false,false,198.31041917865588,23.289706229038355,,,
+2024-09-27T00:00:00,N25.cash,252,1,0.78298236440787328,success,253,358.99144933540674,253.72135569935617,false,false,197.31155583078407,24.65524260616143,,,
+2024-09-30T00:00:00,N25.cash,252,1,0.7789818966397265,success,253,358.99144948719089,254.70326495315078,false,false,196.30343795321107,24.300168664660365,,,
+2024-10-01T00:00:00,N25.cash,252,1,0.77512287109739675,success,253,358.99144969229047,256.03310404646987,false,false,195.33096351654399,27.451157204098028,,,
+2024-10-02T00:00:00,N25.cash,252,1,0.77113394213989139,success,253,358.99144946232167,256.50361263856507,false,false,194.32575341925264,25.958600768216762,,,
+2024-10-03T00:00:00,N25.cash,252,1,0.76691053380794316,success,253,358.99144947305376,257.50267827927627,false,false,193.26145451960167,25.98680773141832,,,
+2024-10-04T00:00:00,N25.cash,252,1,0.76297011635616774,success,253,358.99144929993577,258.17895248125359,false,false,192.26846932175428,26.541450541480664,,,
+2024-10-07T00:00:00,N25.cash,252,1,0.75923479191272547,success,253,358.99144939574205,258.88207761097527,false,false,191.32716756200682,26.384225273753149,,,
+2024-10-08T00:00:00,N25.cash,252,1,0.75518954169470587,success,253,358.99144951115301,259.98965585278171,false,false,190.30776450706588,26.767246924823723,,,
+2024-10-09T00:00:00,N25.cash,252,1,0.75120632784231833,success,253,358.99144954145078,259.80613708163878,false,false,189.30399461626422,25.584222380488352,,,
+2024-10-10T00:00:00,N25.cash,252,1,0.74620276155680798,success,253,358.99144936810723,259.80242091119783,false,false,188.04309591231561,61.067446160934978,,,
+2024-10-11T00:00:00,N25.cash,252,1,0.74322716636536024,success,253,358.9914493590598,260.33997179197536,false,false,187.29324592407079,25.621832559077696,,,
+2024-10-14T00:00:00,N25.cash,252,1,0.73931858802751316,success,253,358.99145147800101,260.22587470757685,false,false,186.30828418293331,25.763913326195453,,,
+2024-10-15T00:00:00,N25.cash,252,1,0.73497986833231876,success,253,358.99144948582415,257.75686172807593,false,false,185.21492681974433,29.074275853674504,,,
+2024-10-16T00:00:00,N25.cash,252,1,0.73215053589301859,success,253,358.99139540041335,257.78170391535485,false,false,184.50193504504068,104.13740371416584,,,
+2024-10-17T00:00:00,N25.cash,252,1,0.72637890338281097,success,253,358.98958821838204,256.11267980420985,false,false,183.04748365246837,56.244428222962384,,,
+2024-10-18T00:00:00,N25.cash,252,1,0.72223208522394333,success,253,358.99102133384395,256.48055358018905,false,false,182.00248547643372,1073.6824484266353,,,
+2024-10-21T00:00:00,N25.cash,252,1,0.71946862933533562,success,253,358.99004987633697,257.45054782664255,false,false,181.30609459250456,19.458945011024774,,,
+2024-10-22T00:00:00,N25.cash,252,1,0.71456644142227177,success,253,358.98842607263259,256.92478758491359,false,false,180.07074323841249,37.555881170329215,,,
+2024-10-23T00:00:00,N25.cash,252,1,0.71049999616654047,success,253,358.98701269637888,257.64295010435001,false,false,179.0459990339682,57.529580993493049,,,
+2024-10-24T00:00:00,N25.cash,252,1,0.70641816971592908,success,253,358.98848772287261,258.86986555471645,false,false,178.01737876841412,151.22955937920088,,,
+2024-10-25T00:00:00,N25.cash,252,1,0.70253682617430147,success,253,358.98825939704614,260.16172048762934,false,false,177.03928019592396,66.402207071353445,,,
+2024-10-28T00:00:00,N25.cash,252,1,0.69847067807515395,success,253,358.98574421305051,260.99294852303922,false,false,176.0146108749388,177.41723165722058,,,
+2024-10-29T00:00:00,N25.cash,252,1,0.6945472195744864,success,253,358.98874157498619,260.31698360732418,false,false,175.02589933277056,100.76352896863852,,,
+2024-10-30T00:00:00,N25.cash,252,1,0.69073046774020619,success,253,358.98854182233242,260.65347899836416,false,false,174.06407787053195,40.569112539672126,,,
+2024-10-31T00:00:00,N25.cash,252,1,0.68652203812311019,success,253,358.98643555883649,261.59103575334188,false,false,173.00355360702378,728.65129594840812,,,
+2024-11-01T00:00:00,N25.cash,252,1,0.68269748598954849,success,253,358.98695453239606,262.6089406447723,false,false,172.03976646936621,64.756425344560697,,,
+2024-11-04T00:00:00,N25.cash,252,1,0.67911482071428897,success,253,358.98757363067364,263.68713785583668,false,false,171.13693482000082,18.681782521590641,,,
+2024-11-05T00:00:00,N25.cash,252,1,0.67465782432913779,success,253,358.98757186895335,264.96064225250268,false,false,170.01377173094272,185.01409469991316,,,
+2024-11-06T00:00:00,N25.cash,252,1,0.67185198753903441,success,253,358.98778664930825,267.06703179020701,false,false,169.30670085983667,20.57611066389455,,,
+2024-11-07T00:00:00,N25.cash,252,1,0.66672925450041087,success,253,358.98778995784858,267.32607388409195,false,false,168.01577213410354,158.82676818823424,,,
+2024-11-08T00:00:00,N25.cash,252,1,0.66279365319469041,success,253,358.98692549842042,268.06999312994634,false,false,167.02400060506199,103.9969491169298,,,
+2024-11-11T00:00:00,N25.cash,252,1,0.65888454390104634,success,253,358.98661694457917,268.91241521359444,false,false,166.03890506306368,63.762674247351491,,,
+2024-11-12T00:00:00,N25.cash,252,1,0.65485480966675236,success,253,358.98669420633507,269.83629164825982,false,false,165.0234120360216,105.03596908253466,,,
+2024-11-13T00:00:00,N25.cash,252,1,0.65119462023523533,success,253,358.98610563870022,270.96320651831462,false,false,164.10104429927929,24.304668029978529,,,
+2024-11-14T00:00:00,N25.cash,252,1,0.6469506735624212,success,253,358.98572793705921,272.00335658230381,false,false,163.03156973773014,77.161278569093682,,,
+2024-11-15T00:00:00,N25.cash,252,1,0.64304740685099249,success,253,358.98768310391091,272.89972297482092,false,false,162.04794652645012,50.602438794317045,,,
+2024-11-18T00:00:00,N25.cash,252,1,0.63905857521243303,success,253,358.98819912148826,274.09775026765828,false,false,161.04276095353313,56.302797692277714,,,
+2024-11-19T00:00:00,N25.cash,252,1,0.63517707399486967,success,253,358.98838166166888,275.28102678523783,false,false,160.06462264670716,37.069463094666375,,,
+2024-11-20T00:00:00,N25.cash,252,1,0.63109223286542682,success,253,358.98913392773756,276.48188613994387,false,false,159.03524268208756,67.760346934045586,,,
+2024-11-21T00:00:00,N25.cash,252,1,0.62700699605823662,success,253,358.99073569612364,276.01561621489054,false,false,158.00576300667564,414.59040670838931,,,
+2024-11-22T00:00:00,N25.cash,252,1,0.62304806909237787,success,253,358.98688186502898,276.54937859764851,false,false,157.00811341127923,293.36463946271016,,,
+2024-11-25T00:00:00,N25.cash,252,1,0.62027879827925847,success,253,358.98967721892848,277.22246041129097,false,false,156.31025716637313,24.004676962051278,,,
+2024-11-26T00:00:00,N25.cash,252,1,0.61509273078907989,success,253,358.98740374753663,277.06776146633882,false,false,155.00336815884813,707.1154343588056,,,
+2024-11-27T00:00:00,N25.cash,252,1,0.61120797271552274,success,253,358.98985117142837,275.80849061538186,false,false,154.02440912431172,98.376015582316455,,,
+2024-11-28T00:00:00,N25.cash,252,1,0.60727829369403863,success,253,358.99009502258542,276.78373355054606,false,false,153.03413001089774,70.025503804843268,,,
+2024-11-29T00:00:00,N25.cash,252,1,0.60320350887947549,success,253,358.98955806381946,277.8388284642802,false,false,152.00728423762783,325.89658507987969,,,
+2024-12-02T00:00:00,N25.cash,252,1,0.59993021933905655,success,253,358.98879449407502,277.20682510955157,false,false,151.18241527344225,16.505848856911292,,,
+2024-12-03T00:00:00,N25.cash,252,1,0.5953974750678106,success,253,358.98890593816373,278.3931888997605,false,false,150.04016371708826,58.962647128696773,,,
+2024-12-04T00:00:00,N25.cash,252,1,0.59248460325477026,success,253,358.98899754007937,280.27256768597164,false,false,149.30612002020212,24.743087624795937,,,
+2024-12-05T00:00:00,N25.cash,252,1,0.58780072352550838,success,253,358.98897014723838,280.40742360666115,false,false,148.1257823284281,26.022033510600885,,,
+2024-12-06T00:00:00,N25.cash,252,1,0.58352079063170004,success,253,358.98900856127506,281.27088876729408,false,false,147.0472392391884,49.446556404601424,,,
+2024-12-09T00:00:00,N25.cash,252,1,0.5797588734473732,success,253,358.9893415428096,282.43770832918705,false,false,146.09923610873804,31.002388085788105,,,
+2024-12-10T00:00:00,N25.cash,252,1,0.57541318995746149,success,253,358.98824290841367,283.08233005667512,false,false,145.00412386928031,560.45954621802935,,,
+2024-12-11T00:00:00,N25.cash,252,1,0.57151009417052412,success,253,358.98687346374015,283.71390587468159,false,false,144.02054373097207,111.9990557984447,,,
+2024-12-12T00:00:00,N25.cash,252,1,0.56761107597675298,success,253,358.9889826311973,284.08860463904364,false,false,143.03799114614176,60.534543076133033,,,
+2024-12-13T00:00:00,N25.cash,252,1,0.56432285410886929,success,253,358.98902418912422,285.01174226334746,false,false,142.20935923543507,13.8960162195569,,,
+2024-12-16T00:00:00,N25.cash,252,1,0.55964448600190975,success,253,358.98880843562108,286.08096265846552,false,false,141.03041047248126,74.699018382494685,,,
+2024-12-17T00:00:00,N25.cash,252,1,0.55677364130528917,success,253,358.988974169242,288.36685101067837,false,false,140.30695760893286,26.766369260147048,,,
+2024-12-18T00:00:00,N25.cash,252,1,0.5527908574867656,success,253,358.99048800710523,289.03538261473153,false,false,139.30329608666494,25.082722385473588,,,
+2024-12-19T00:00:00,N25.cash,252,1,0.54780081317013818,success,253,358.98850008940889,287.54888080250561,false,false,138.04580491887481,73.851770475020544,,,
+2024-12-20T00:00:00,N25.cash,252,1,0.54417470197244244,success,253,358.98968791131762,288.45963486800935,false,false,137.13202489705549,26.219589615569877,,,
+2024-12-23T00:00:00,N25.cash,252,1,0.54002636920352765,success,253,358.98869245584302,288.01198509235041,false,false,136.08664503928895,26.130453492378575,,,
+2024-12-24T00:00:00,N25.cash,252,1,0.5362764713534065,success,253,358.99018901526483,288.88291441899742,false,false,135.14167078105845,25.368815962374025,,,
+2024-12-27T00:00:00,N25.cash,252,1,0.53485739753365569,success,253,358.99108148723644,289.0195700593398,false,false,134.78406417848123,100.32400109465534,,,
+2024-12-30T00:00:00,N25.cash,252,1,0.52815394506911584,success,253,358.99073660137486,289.48031490816447,false,false,133.0947941574172,39.394511403831935,,,
+2024-12-31T00:00:00,N25.cash,252,1,0.52443669662535164,success,253,358.99144257643565,290.39703288571798,false,false,132.15804754958862,24.896884172993833,,,
+2025-01-02T00:00:00,N25.cash,252,1,0.52039117905645582,success,253,358.9908557385134,289.51933331149706,false,false,131.13857712222688,26.896977145057871,,,
+2025-01-03T00:00:00,N25.cash,252,1,0.51787124360610337,success,253,358.99076979067382,291.59833588465557,false,false,130.50355338873806,43.271731459180131,,,
+2025-01-06T00:00:00,N25.cash,252,1,0.51259044446514046,success,253,358.99076267739531,291.41398257393678,false,false,129.1727920052154,21.350035895203312,,,
+2025-01-07T00:00:00,N25.cash,252,1,0.50801801411542569,success,253,358.99069945839932,293.58739521804699,false,false,128.02053955708726,106.82784229275552,,,
+2025-01-08T00:00:00,N25.cash,252,1,0.50516563563294981,success,253,358.99086820724085,294.64773612927672,false,false,127.30174017950335,28.006846176396682,,,
+2025-01-09T00:00:00,N25.cash,252,1,0.50120808819766038,success,253,358.99092366264148,295.60474229375734,false,false,126.30443822581042,24.85997362353238,,,
+2025-01-10T00:00:00,N25.cash,252,1,0.49631825380779537,success,253,358.99127307429535,295.49390971097819,false,false,125.07219995956443,30.11846189890586,,,
+2025-01-13T00:00:00,N25.cash,252,1,0.56421515023178126,success,253,358.99113423608264,307.31000522943435,false,false,142.18221785840888,0.97959515888096471,,,
+2025-01-14T00:00:00,N25.cash,252,1,0.56250741663220805,success,253,358.99119254507036,306.1907788935489,false,false,141.75186899131643,0.93136044063910994,,,
+2025-01-15T00:00:00,N25.cash,252,1,0.55622513131598383,success,253,358.9910757975706,305.81857716407819,false,false,140.16873309162793,0.9698256815021763,,,
+2025-01-16T00:00:00,N25.cash,252,1,0.55436146540815012,success,253,358.98996326242292,306.41692473039319,false,false,139.69908928285383,0.90416788891237398,,,
+2025-01-17T00:00:00,N25.cash,252,1,0.55029364055954177,success,253,358.98867214815897,305.70574453367186,false,false,138.67399742100451,0.89622378106292089,,,
+2025-01-20T00:00:00,N25.cash,252,1,0.54625398951772619,success,253,358.98980468633476,304.85715932641887,false,false,137.65600535846701,0.89265122339962311,,,
+2025-01-21T00:00:00,N25.cash,252,1,0.53978162223736093,success,253,358.98948636356982,304.08137871865881,false,false,136.02496880381494,0.96818610945251582,,,
+2025-01-22T00:00:00,N25.cash,252,1,0.53822109703263199,success,253,358.98855632920595,303.28107788627739,false,false,135.63171645222326,0.8873355649451119,,,
+2025-01-23T00:00:00,N25.cash,252,1,0.4923017917869264,success,253,358.98822494517907,312.24128825606851,false,false,124.06005153030546,1.1754438133240166,,,
+2025-01-24T00:00:00,N25.cash,252,1,0.53017379308095769,success,253,358.98788584582189,302.43215700743463,false,false,133.60379585640135,0.87653728591845304,,,
+2025-01-27T00:00:00,N25.cash,252,1,0.4682182707665527,success,253,358.98783562056849,309.90503841007683,false,false,117.99100423317128,204.39822163745541,,,
+2025-01-28T00:00:00,N25.cash,252,1,0.46302480621631548,success,253,358.98823924886727,309.12011192677767,false,false,116.68225116651151,22.224511946755136,,,
+2025-01-29T00:00:00,N25.cash,252,1,0.47644272839753926,success,253,358.98840095801916,309.48228728818754,false,false,120.06356755617989,1.1761416260933992,,,
+2025-01-30T00:00:00,N25.cash,252,1,0.51403449428962766,success,253,358.98776073250349,300.86711940727929,false,false,129.53669256098618,0.85343502117085246,,,
+2025-01-31T00:00:00,N25.cash,252,1,0.50767914271129888,success,253,358.9895823939803,300.03997519176187,false,false,127.93514396324731,0.93289867394178705,,,
+2025-02-03T00:00:00,N25.cash,252,1,0.50364417167682618,success,253,358.98954791368561,299.01088411759042,false,false,126.9183312625602,0.93006388558194308,,,
+2025-02-04T00:00:00,N25.cash,252,1,0.49966642588408755,success,253,358.99145772853558,298.13631601293622,false,false,125.91593932279007,0.92786114089787652,,,
+2025-02-05T00:00:00,N25.cash,252,1,0.495515122616148,success,253,358.99145155818667,297.76336347176743,false,false,124.8698108992693,0.94170232349294403,,,
+2025-02-06T00:00:00,N25.cash,252,1,0.4519127160336619,success,253,358.9914496173821,306.538854991123,false,false,113.8820044404828,1.1089183063822328,,,
+2025-02-07T00:00:00,N25.cash,252,1,0.44794681150007509,success,253,358.99144973203164,305.57481746689342,false,false,112.88259649801893,1.1078367730269663,,,
+2025-02-10T00:00:00,N25.cash,252,1,0.44399162492599697,success,253,358.99144941914381,305.26178069685818,false,false,111.88588948135124,1.1081865948974625,,,
+2025-02-11T00:00:00,N25.cash,252,1,0.43999703351600972,success,253,358.99144921387409,304.55524772902515,false,false,110.87925244603444,1.1062463977845212,,,
+2025-02-12T00:00:00,N25.cash,252,1,0.47562866224391959,success,253,358.99144941948617,293.85626451285441,false,false,119.85842288546773,0.90938088574464682,,,
+2025-02-13T00:00:00,N25.cash,252,1,0.43196657027718066,success,253,358.99144933444859,302.80864322854626,false,false,108.85557570984953,1.0983545040007356,,,
+2025-02-14T00:00:00,N25.cash,252,1,0.46765010701188303,success,253,358.99144924754904,291.77246119200584,false,false,117.84782696699452,0.89639727952930248,,,
+2025-02-17T00:00:00,N25.cash,252,1,0.46565719366353275,success,253,358.99144934656607,291.05787819347609,false,false,117.34561280321026,0.81605665409907513,,,
+2025-02-18T00:00:00,N25.cash,252,1,0.45940600435551571,success,253,358.99144963084029,290.14889032059756,false,false,115.77031309758996,0.90158214316795815,,,
+2025-02-19T00:00:00,N25.cash,252,1,0.45540083576006568,success,253,358.99144931259042,289.40557053682767,false,false,114.76101061153655,0.89652500383899492,,,
+2025-02-20T00:00:00,N25.cash,252,1,0.4514632243268521,success,253,358.9914504752926,288.51054348957359,false,false,113.76873253036673,0.88567697396516221,,,
+2025-02-21T00:00:00,N25.cash,252,1,0.44743978551655866,success,253,358.99144970087201,287.58647784440041,false,false,112.75482595017279,0.88042003618605125,,,
+2025-02-24T00:00:00,N25.cash,252,1,0.44336588506421826,success,253,358.99143924001373,286.63808223062864,false,false,111.728203036183,0.87951340132106248,,,
+2025-02-25T00:00:00,N25.cash,252,1,0.43939717477174289,success,253,358.99117388600638,285.53686542861215,false,false,110.72808804247921,0.86950206895512183,,,
+2025-02-26T00:00:00,N25.cash,252,1,0.43545319352705253,success,253,358.99145007235336,284.56246816190816,false,false,109.73420476881724,0.86445553605157133,,,
+2025-02-27T00:00:00,N25.cash,252,1,0.43143350794528251,success,253,358.99141131616437,284.50575502536731,false,false,108.72124400221119,0.85605801581999486,,,
+2025-02-28T00:00:00,N25.cash,252,1,0.42742531593155075,success,253,358.9914502269196,283.49109484760015,false,false,107.71117961475079,0.85038811910452272,,,
+2025-03-03T00:00:00,N25.cash,252,1,0.38367251336232133,success,253,358.9914492758877,293.00100786048313,false,false,96.685473367304979,1.0547569471914839,,,
+2025-03-04T00:00:00,N25.cash,252,1,0.41938046597685441,success,253,358.99144940446922,281.92122385570167,false,false,105.68387742616731,0.84630071249439975,,,
+2025-03-05T00:00:00,N25.cash,252,1,0.37575871426867857,success,253,358.99144945144059,291.44492858553315,false,false,94.691195995707005,1.0528573696273968,,,
+2025-03-06T00:00:00,N25.cash,252,1,0.41123449099387754,success,253,358.99144933371588,280.32660310685338,false,false,103.63109173045714,0.84198607699945804,,,
+2025-03-07T00:00:00,N25.cash,252,1,0.40720607818776033,success,253,358.99144925494784,279.97620080092349,false,false,102.61593170331561,0.83636271527162642,,,
+2025-03-10T00:00:00,N25.cash,252,1,0.36346198839548832,success,253,358.99144928970401,291.62945496194692,false,false,91.592421075663054,1.0407403475047272,,,
+2025-03-11T00:00:00,N25.cash,252,1,0.59907879264036445,success,253,358.99144946198498,303.05780064209375,false,false,150.96785574537185,68.770159215139699,,,
+2025-03-12T00:00:00,N25.cash,252,1,0.59510959900900195,success,253,358.99145004817183,302.3103796710061,false,false,149.9676189502685,68.278279378000789,,,
+2025-03-13T00:00:00,N25.cash,252,1,0.39087004336646108,success,253,358.99144928713196,279.55556937656877,false,false,98.499250928348189,0.82490736324393488,,,
+2025-03-14T00:00:00,N25.cash,252,1,0.38668998331670612,success,253,358.99144970518898,279.79363215931892,false,false,97.44587579580994,0.83265614483530404,,,
+2025-03-17T00:00:00,N25.cash,252,1,0.34343752223907875,success,253,358.99144931026746,288.91417468458258,false,false,86.546255604247847,1.0289890472662071,,,
+2025-03-18T00:00:00,N25.cash,252,1,0.37848525782141657,success,253,358.99144936619041,278.55330695265889,false,false,95.378284970996972,0.84459636871797195,,,
+2025-03-19T00:00:00,N25.cash,252,1,0.37370618722723858,success,253,358.99144945054718,279.06233558851221,false,false,94.173959181264124,0.98043965478509387,,,
+2025-03-20T00:00:00,N25.cash,252,1,0.36983957857367294,success,253,358.99144937390764,278.10531386774244,false,false,93.199573800565588,0.95784288698142372,,,
+2025-03-21T00:00:00,N25.cash,252,1,0.32742312961074965,success,253,358.99144944197809,286.62505588232358,false,false,82.51062866190891,1.0199999175564718,,,
+2025-03-24T00:00:00,N25.cash,252,1,0.3234130114040612,success,253,358.9914493128145,285.55226514345168,false,false,81.500078873823426,1.0164798778405764,,,
+2025-03-25T00:00:00,N25.cash,252,1,0.35757035408585502,success,253,358.9914492018047,275.1719561670439,false,false,90.107729229635467,0.97806780126183979,,,
+2025-03-26T00:00:00,N25.cash,252,1,0.35413110085717703,success,253,358.99144945825026,274.67436349950032,false,false,89.241037416008609,0.84522967820770323,,,
+2025-03-27T00:00:00,N25.cash,252,1,0.31131513851446801,success,253,358.99144943076567,283.03356462520912,false,false,78.451414905645933,1.0078523017873458,,,
+2025-03-28T00:00:00,N25.cash,252,1,0.29107488719854718,success,253,358.99144952356488,280.64320091529493,false,false,73.350871574033889,9.8782126640001682,,,
+2025-03-31T00:00:00,N25.cash,252,1,0.34216864601304847,success,253,358.99144941950254,271.78455500822787,false,false,86.226498795288208,0.79191756885765419,,,
+2025-04-01T00:00:00,N25.cash,252,1,0.33812969179356922,success,253,358.99144941947264,270.62673977214547,false,false,85.208682331979446,0.78331990750479608,,,
+2025-04-02T00:00:00,N25.cash,252,1,0.27905843776882033,success,253,358.99144941840945,277.38176825440064,false,false,70.32272631774272,8.9442415321675224,,,
+2025-04-03T00:00:00,N25.cash,252,1,0.32890168879360993,success,253,358.99144949023105,275.40356099023575,false,false,82.883225575989698,3.8462712733769111,,,
+2025-04-04T00:00:00,N25.cash,252,1,0.32714960187411596,success,253,358.93178546823253,286.5551755889984,false,false,82.441699672277224,0.57916207215035842,,,
+2025-04-07T00:00:00,N25.cash,252,1,0.32115589393849259,success,253,358.76531728568727,286.62827399401624,false,false,80.931285272500133,2.4817501831905022,,,
+2025-04-08T00:00:00,N25.cash,252,1,0.31716950874665878,success,253,358.68213736313544,286.14194781876063,false,false,79.926716204158012,2.4582803178583674,,,
+2025-04-09T00:00:00,N25.cash,252,1,0.31307766174446167,success,253,358.91709304314048,312.66719933439703,false,false,78.89557075960434,2.0412350141023046,,,
+2025-04-10T00:00:00,N25.cash,252,1,0.25508989686965367,success,253,358.99145435831451,316.06215891540273,false,false,64.282654011152729,6.8777054205053245,,,
+2025-04-11T00:00:00,N25.cash,252,1,0.25106065546890977,success,253,358.99144994553723,315.68585460053441,false,false,63.26728517816526,7.0727138267906016,,,
+2025-04-14T00:00:00,N25.cash,252,1,0.29988893643557729,success,253,358.99145011334866,316.83636991746573,false,false,75.572011981765471,3.4296053146652907,,,
+2025-04-15T00:00:00,N25.cash,252,1,0.24316679552953022,success,253,358.99144980000983,314.84792244430588,false,false,61.278032473441613,6.4927266844160076,,,
+2025-04-16T00:00:00,N25.cash,252,1,0.23909734093888563,success,253,358.99144952383483,314.74555732388473,false,false,60.25252991659918,6.7550377387341092,,,
+2025-04-17T00:00:00,N25.cash,252,1,0.28784182294872196,success,253,358.99145007944935,316.37669414427114,false,false,72.536139383077938,3.3685606470100864,,,
+2025-04-22T00:00:00,N25.cash,252,1,0.23113768635154916,success,253,358.99144967318381,313.70012957522908,false,false,58.246696960590391,6.6643412709269683,,,
+2025-04-23T00:00:00,N25.cash,252,1,0.22715011415006553,success,253,358.99144972199895,313.17995952734771,false,false,57.241828765816514,6.6124351301220567,,,
+2025-04-24T00:00:00,N25.cash,252,1,0.22316703972803428,success,253,358.99144972835984,312.2773150848376,false,false,56.238094011464639,6.4668277287053435,,,
+2025-04-25T00:00:00,N25.cash,252,1,0.21918474724077527,success,253,358.99145016174327,311.61495594366045,false,false,55.234556304675372,6.4388526511213797,,,
+2025-04-28T00:00:00,N25.cash,252,1,0.26780819150823681,success,253,358.99145025612063,312.91101873310663,false,false,67.487664260075675,3.2396630538772908,,,
+2025-04-29T00:00:00,N25.cash,252,1,0.21120641708077267,success,253,358.99145017477645,309.79256001530905,false,false,53.224017104354715,6.2438230080601071,,,
+2025-04-30T00:00:00,N25.cash,252,1,0.2072318843570953,success,253,358.99144965474051,309.04757732896957,false,false,52.222434857988013,6.1363296615537815,,,
+2025-05-02T00:00:00,N25.cash,252,1,0.20325161735072139,success,253,358.9914497216364,309.25254766316215,false,false,51.21940757238179,6.0470646056010953,,,
+2025-05-05T00:00:00,N25.cash,252,1,0.19925571774237724,success,253,358.99145013727184,308.31817497944292,false,false,50.212440871079068,5.9421303746014695,,,
+2025-05-06T00:00:00,N25.cash,252,1,0.24776312717304175,success,253,358.99144964711945,309.95039817051315,false,false,62.436308047606524,3.0454735878653389,,,
+2025-05-07T00:00:00,N25.cash,252,1,0.24375504183955138,success,253,358.99145230267226,309.18562872762607,false,false,61.42627054356695,3.036444441613686,,,
+2025-05-08T00:00:00,N25.cash,252,1,0.23974588778845801,success,253,358.99144996175329,308.38848822566587,false,false,60.415963722691416,3.0248834217147436,,,
+2025-05-09T00:00:00,N25.cash,252,1,0.18329998652389826,success,253,358.99144962948225,304.7124702072208,false,false,46.191596604022358,5.6089248994131955,,,
+2025-05-12T00:00:00,N25.cash,252,1,0.23170999739129947,success,253,358.99144981264851,307.52997114334886,false,false,58.390919342607468,3.004177365616429,,,
+2025-05-13T00:00:00,N25.cash,252,1,0.17532435754348338,success,253,358.99144968710698,303.6937256222061,false,false,44.181738100957816,5.433586790279854,,,
+2025-05-14T00:00:00,N25.cash,252,1,0.2237190057897516,success,253,358.99144959722008,305.69104954290469,false,false,56.377189459017401,2.8011483145741134,,,
+2025-05-15T00:00:00,N25.cash,252,1,0.21972168923491686,success,253,358.99144996250851,304.77454851607683,false,false,55.369865687199052,2.6619344920420973,,,
+2025-05-16T00:00:00,N25.cash,252,1,0.21571129859208038,success,253,358.99145182255972,303.80262569190603,false,false,54.359247245204259,2.5791056000370864,,,
+2025-05-19T00:00:00,N25.cash,252,1,0.21169744934502516,success,253,358.99144967146037,302.80465947085389,false,false,53.347757234946343,2.4752603769225816,,,
+2025-05-20T00:00:00,N25.cash,252,1,0.20768251526147596,success,253,358.9914496871454,301.92772729158611,false,false,52.335993845891942,2.4240582409532827,,,
+2025-05-21T00:00:00,N25.cash,252,1,0.20365895191095673,success,253,358.99145094327076,300.97261717278309,false,false,51.322055881561099,2.2936868291731418,,,
+2025-05-22T00:00:00,N25.cash,252,1,0.19241322653771487,success,253,358.99145227019329,299.76993300188593,false,false,48.488133087504146,0.37988190563328461,,,
+2025-05-23T00:00:00,N25.cash,252,1,0.1880874802066336,success,253,358.99144970040118,299.36722897940285,false,false,47.39804501207167,0.37573814098460118,,,
+2025-05-26T00:00:00,N25.cash,252,1,0.18376202078328241,success,253,358.99144971513755,298.47349256751636,false,false,46.308029237387167,0.37154018123559596,,,
+2025-05-27T00:00:00,N25.cash,252,1,0.17950399723768662,success,253,358.99145189215244,297.77991107661524,false,false,45.235007303897028,0.36820121948187767,,,
+2025-05-28T00:00:00,N25.cash,252,1,0.13138957698576684,success,253,358.99144954509188,293.20623423742961,false,false,33.110173400413245,4.740552347193133,,,
+2025-05-29T00:00:00,N25.cash,252,1,0.12737881660664779,success,253,358.9914498158322,292.08803880304151,false,false,32.099461784875245,4.6480117979173032,,,
+2025-05-30T00:00:00,N25.cash,252,1,0.1662704762011861,success,253,358.99144952201766,294.73123153395903,false,false,41.900160002698897,0.35430847627702278,,,
+2025-06-02T00:00:00,N25.cash,252,1,0.11937773324108346,success,253,358.99145487107097,289.79393616322,false,false,30.083188776753033,4.5358411798649154,,,
+2025-06-03T00:00:00,N25.cash,252,1,0.11537859990863251,success,253,358.99144993341457,288.70202700372636,false,false,29.075407176975393,4.4850738966179122,,,
+2025-06-04T00:00:00,N25.cash,252,1,0.1113718355044153,success,253,358.99147674501495,287.42883997818728,false,false,28.065702547112657,4.4249554494229617,,,
+2025-06-05T00:00:00,N25.cash,252,1,0.1073618483667001,success,253,358.9914495665368,286.13189016625438,false,false,27.055185788408423,4.3632094936667398,,,
+2025-06-06T00:00:00,N25.cash,252,1,0.14378360223861519,success,253,358.9914502135158,289.06511077247671,false,false,36.233467764131028,0.33055797134405651,,,
+2025-06-09T00:00:00,N25.cash,252,1,0.099343772521555559,success,253,358.99145054685567,284.01705522709727,false,false,25.034630675432002,4.2504027603626664,,,
+2025-06-10T00:00:00,N25.cash,252,1,0.13466608353311002,success,253,358.99144989988173,287.1492543103837,false,false,33.935853050343724,0.32142087922975315,,,
+2025-06-11T00:00:00,N25.cash,252,1,0.12995167224400384,success,253,358.99144957642102,285.93850363756894,false,false,32.747821405488963,0.31604473275832057,,,
+2025-06-12T00:00:00,N25.cash,252,1,0.087304436725903045,success,253,358.99144950006871,280.24679550206253,false,false,22.000718054927567,4.073117160918315,,,
+2025-06-13T00:00:00,N25.cash,252,1,0.083276487829706564,success,253,358.99145204525746,279.20888926185336,false,false,20.985674933086052,4.0036513285177859,,,
+2025-06-16T00:00:00,N25.cash,252,1,0.11540941824575583,success,253,358.9914501644044,282.49961712799359,false,false,29.083173397930469,0.29918622078297447,,,
+2025-06-17T00:00:00,N25.cash,252,1,0.11042508943176969,success,253,358.99144962740962,281.23649237721372,false,false,27.827122536805962,0.29324127473427641,,,
+2025-06-18T00:00:00,N25.cash,252,1,0.071193085249445481,success,253,358.99144961536967,274.96596872022667,false,false,17.94065748286026,3.8072350368192782,,,
+2025-06-19T00:00:00,N25.cash,252,1,0.067154024891369027,success,253,358.99145007651379,273.548013021815,false,false,16.922814272624993,3.7348818784799289,,,
+2025-06-20T00:00:00,N25.cash,252,1,0.063112321955489159,success,253,358.99145007803037,271.98811339478056,false,false,15.904305132783268,3.662538386268523,,,
+2025-06-23T00:00:00,N25.cash,252,1,0.089161388908263597,success,253,358.99145007564692,275.9796581458674,false,false,22.468670004882426,0.26566757634337557,,,
+2025-06-24T00:00:00,N25.cash,252,1,0.083307529202951466,success,253,358.99145087428843,274.76629505017235,false,false,20.99349735914377,0.25763348310988837,,,
+2025-06-25T00:00:00,N25.cash,252,1,0.076972837677507247,success,253,358.99145029708143,273.61378088240798,false,false,19.397155094731826,0.24908727154891519,,,
+2025-06-26T00:00:00,N25.cash,252,1,0.046879471333045236,success,253,358.991449633591,266.56630281661256,false,false,11.8136267759274,3.3316654562011823,,,
+2025-06-27T00:00:00,N25.cash,252,1,0.04279502625186702,success,253,358.99145013581017,264.89673832689965,false,false,10.78434661547049,3.2416602334664786,,,
+2025-06-30T00:00:00,N25.cash,252,1,0.038685849024167142,success,253,358.99145012563372,263.1300298466299,false,false,9.7488339540901201,3.138351539571925,,,
+2025-07-01T00:00:00,N25.cash,252,1,0.044470421711435067,success,253,358.99144950141931,266.81621480197498,false,false,11.206546271281637,0.20452736068665089,,,
+2025-07-02T00:00:00,N25.cash,252,1,0.030388049711085326,success,253,358.99144947683766,259.40036909723483,false,false,7.6577885271935022,2.9027081297206987,,,
+2025-07-03T00:00:00,N25.cash,252,1,0.010874269490167465,success,253,358.99144987849951,262.89523463090654,false,false,2.7403159115222011,0.1732955972782351,,,
+2025-07-04T00:00:00,N25.cash,252,1,0.021881927888792806,success,253,358.9914503847462,255.74959980455043,false,false,5.5142458279757873,2.6058819438922924,,,
+2025-07-07T00:00:00,N25.cash,252,1,0.017461527740451756,success,253,358.99144985422521,253.70084854566886,false,false,4.4003049905938427,2.4179800147977222,,,
+2025-07-08T00:00:00,N25.cash,252,1,0.012767013417763451,success,253,358.99145506977504,251.51231194601155,false,false,3.2172873812763898,2.1782901318592249,,,
+2025-07-09T00:00:00,N25.cash,252,1,0.0071713041176887102,success,253,358.99144945331432,249.055167800357,false,false,1.8071686376575549,1.8155446530108921,,,
+2025-07-10T00:00:00,N25.cash,252,1,3.968253974535748e-09,success,253,358.99144960511313,246.18967520506476,false,false,1.0000000015830086e-06,1.5518917073673582,,,
+2025-07-11T00:00:00,N25.cash,252,0.99999999923993621,0.6547075407139431,success,253,358.99144943316367,337.99383066259088,false,false,164.98630025991366,13.685760899516213,,,
+2025-07-14T00:00:00,N25.cash,252,0.99999999998835665,0.72227892538320959,success,253,358.99144918127035,333.81516878931029,false,false,182.01428919656882,91.901121477493234,,,
+2025-07-15T00:00:00,N25.cash,252,0.99999999999673528,0.71845650054843058,success,253,358.99144929919044,332.54357097332144,false,false,181.05103813820452,26.230448100769404,,,
+2025-07-16T00:00:00,N25.cash,252,0.99999999958893859,0.64278407434449225,success,253,358.99144932111682,337.3791706914734,false,false,161.98158673481205,13.241914629445439,,,
+2025-07-17T00:00:00,N25.cash,252,0.9999999999931497,0.71032898884772988,success,253,358.99144923306886,333.28471523976748,false,false,179.00290518962794,454.36692624523585,,,
+2025-07-18T00:00:00,N25.cash,252,0.99999999999152012,0.70746849926112643,success,253,358.99144974150857,333.49811844021599,false,false,178.28206181380386,20.079761036575064,,,
+2025-07-21T00:00:00,N25.cash,252,0.99999999998661893,0.70352177001964422,success,253,358.99144936308704,333.95426865413759,false,false,177.28748604495036,21.627862412854448,,,
+2025-07-22T00:00:00,N25.cash,252,0.99999999999176614,0.69968227399337635,success,253,358.99144944431782,333.46867461041586,false,false,176.31993304633085,21.812186722505952,,,
+2025-07-23T00:00:00,N25.cash,252,0.99999999999018163,0.69579081961318423,success,253,358.99145135692066,333.644676995731,false,false,175.33928654252242,22.252354754140921,,,
+2025-07-24T00:00:00,N25.cash,252,0.99999999998799938,0.69169490110483012,success,253,358.99144929629176,333.84538157515931,false,false,174.30711507841718,21.539594558615374,,,
+2025-07-25T00:00:00,N25.cash,252,0.99999999997992561,0.68767270371008271,success,253,358.99145017849844,334.35987413090817,false,false,173.29352133494083,21.074930450645496,,,
+2025-07-28T00:00:00,N25.cash,252,0.99999999996343858,0.68330819998928616,success,253,358.99144964077175,334.95942285550728,false,false,172.19366639730012,25.471402175869361,,,
+2025-07-29T00:00:00,N25.cash,252,0.99999616525016433,0.50128289922700442,success,253,358.99144947631908,346.52004695389462,false,false,126.32329060520512,0.97172945936667698,,,
+2025-07-30T00:00:00,N25.cash,252,0.99999999993413446,0.60301887370782536,success,253,358.99144949357424,335.54804409241893,false,false,151.96075617437199,12.487485093746809,,,
+2025-07-31T00:00:00,N25.cash,252,0.99999999999977596,0.67191727450118321,success,253,358.99144978514084,329.86455305230623,false,false,169.32315317429817,22.797328132162086,,,
+2025-08-01T00:00:00,N25.cash,252,0.99999999999998224,0.6679041043536883,success,253,358.99144968845184,327.33505138554136,false,false,168.31183429712945,19.614580859699053,,,
+2025-08-04T00:00:00,N25.cash,252,0.99999999999998446,0.66376913911381596,success,253,358.99144970953557,327.18970015107351,false,false,167.26982305668162,22.561268195261615,,,
+2025-08-05T00:00:00,N25.cash,252,0.99999999999916556,0.584483741897735,success,253,358.99144966093019,331.1793743040688,false,false,147.28990295822922,2.4024732399495239,,,
+2025-08-06T00:00:00,N25.cash,252,0.9999999999995377,0.58046128915101591,success,253,358.99144969093385,330.5888703251332,false,false,146.276244866056,2.4389732393689538,,,
+2025-08-07T00:00:00,N25.cash,252,0.99999999999929901,0.57644922087983275,success,253,358.99145254699738,331.00526173923561,false,false,145.26520366171786,2.4314068883693398,,,
+2025-08-08T00:00:00,N25.cash,252,0.99999999999863332,0.57246130480084989,success,253,358.99145248480244,331.67275374084602,false,false,144.26024880981419,2.4494388121497903,,,
+2025-08-11T00:00:00,N25.cash,252,0.99999999999989297,0.64406876161892512,success,253,358.99145045740863,329.1258287325586,false,false,162.30532792796913,21.011784115612784,,,
+2025-08-12T00:00:00,N25.cash,252,0.99999999999979594,0.64002495398690507,success,253,358.99145002097953,329.77054002150044,false,false,161.28628840470009,19.700807449185113,,,
+2025-08-13T00:00:00,N25.cash,252,0.9999999999999476,0.63506926910320427,success,253,358.99145043265872,328.41308951422207,false,false,160.03745581400747,37.531312115622853,,,
+2025-08-14T00:00:00,N25.cash,252,0.99999999999988698,0.63220322851504507,success,253,358.99144957316372,329.18016628691674,false,false,159.31521358579135,22.183797525093038,,,
+2025-08-15T00:00:00,N25.cash,252,0.99999999999654543,0.55244588706740172,success,253,358.9914497407587,332.60014498427,false,false,139.21636354098524,2.5669956064260853,,,
+2025-08-18T00:00:00,N25.cash,252,0.99999999999971956,0.62303871546290202,success,253,358.99144982964464,330.08933970534264,false,false,157.0057562966513,237.12030296519649,,,
+2025-08-19T00:00:00,N25.cash,252,0.99999999999948574,0.6202735029178954,success,253,358.9914498619957,330.69520028986494,false,false,156.30892273530964,21.127764670113958,,,
+2025-08-20T00:00:00,N25.cash,252,0.99999999999933165,0.61508863882006959,success,253,358.9914525503566,330.95755726332976,false,false,155.00233698265754,575.96765143876883,,,
+2025-08-21T00:00:00,N25.cash,252,0.9999999999986402,0.61231734095395496,success,253,358.99144978815343,331.66773727616345,false,false,154.30396992039664,20.127847386984474,,,
+2025-08-22T00:00:00,N25.cash,252,0.99999999999773581,0.60716173412457064,success,253,358.99144975405602,332.17763423900385,false,false,153.00475699939179,275.6093578022855,,,
+2025-08-25T00:00:00,N25.cash,252,0.99999999993468247,0.52850713642166502,success,253,358.9914498628313,335.53969054150741,false,false,133.18379837825958,2.6528661771609716,,,
+2025-08-26T00:00:00,N25.cash,252,0.99999999999256084,0.59921949818423981,success,253,358.99144975898844,333.3671739532623,false,false,151.00331354242843,386.46704525700432,,,
+2025-08-27T00:00:00,N25.cash,252,0.99999999988462829,0.52056696933730306,success,253,358.99144976955853,336.10858855523742,false,false,131.18287627300037,2.7196480065148871,,,
+2025-08-28T00:00:00,N25.cash,252,0.99999999998439404,0.59252575465283852,success,253,358.991449742486,334.1080788315499,false,false,149.3164901725153,21.06624095143026,,,
+2025-08-29T00:00:00,N25.cash,252,0.99999999997330447,0.58840896518080377,success,253,358.9914496881658,334.64492228825446,false,false,148.27905922556255,20.142997329627317,,,
+2025-09-01T00:00:00,N25.cash,252,0.99999999999316613,0.58461193727924499,success,253,358.99144940848157,333.28230909106105,false,false,147.32220819436975,20.741594093397236,,,
+2025-09-02T00:00:00,N25.cash,252,0.99999999993120081,0.50442722104365967,success,253,358.99144943428445,335.59162171901352,false,false,127.11565970300224,2.7981640126985741,,,
+2025-09-03T00:00:00,N25.cash,252,0.99999999989473087,0.50039877265789001,success,253,358.9914495692276,336.01694962400467,false,false,126.10049070978829,2.8009328137625289,,,
+2025-09-04T00:00:00,N25.cash,252,0.99999999996463851,0.49448017892245649,success,253,358.99146181635984,334.92606156785683,false,false,124.60900508845904,1.524344153335021,,,
+2025-09-05T00:00:00,N25.cash,252,0.99999999999605316,0.5685981230892635,success,253,358.99144982081191,332.73331776639816,false,false,143.28672701849439,21.610765045613764,,,
+2025-09-08T00:00:00,N25.cash,252,0.99999999999414735,0.56445982160344388,success,253,358.99144942018825,333.12732358808688,false,false,142.24387504406786,20.63981188799151,,,
+2025-09-09T00:00:00,N25.cash,252,0.99999999999519118,0.56063184009901146,success,253,358.99145035202673,332.93089919050607,false,false,141.27922370495088,20.474457845140094,,,
+2025-09-10T00:00:00,N25.cash,252,0.99999999999156075,0.55674202689092323,success,253,358.99144940416619,333.49331964065266,false,false,140.29899077651265,21.401874823444199,,,
+2025-09-11T00:00:00,N25.cash,252,0.99999999998851785,0.55161731392254409,success,253,358.99144987198383,333.80122758101083,false,false,139.00756310848112,168.61682226224806,,,
+2025-09-12T00:00:00,N25.cash,252,0.99999999997635891,0.54887969263626768,success,253,358.99144984203508,334.52341662512055,false,false,138.31768254433945,22.747122442533747,,,
+2025-09-15T00:00:00,N25.cash,252,0.99999999996781974,0.54367141213283421,success,253,358.99146182248836,334.83179557753652,false,false,137.00519585747423,242.32338942162522,,,
+2025-09-16T00:00:00,N25.cash,252,0.99999999995592259,0.539745426342227,success,253,358.99145048567033,335.14637531629063,false,false,136.0158474382412,78.475697023822178,,,
+2025-09-17T00:00:00,N25.cash,252,0.99999999997440381,0.53573953642523398,success,253,358.99144976807906,334.60287555544568,false,false,135.00636317915897,198.15956053826375,,,
+2025-09-18T00:00:00,N25.cash,252,0.99999999997988187,0.53291612726299198,success,253,358.99145043895373,334.36205135452946,false,false,134.29486407027397,19.996611626781064,,,
+2025-09-19T00:00:00,N25.cash,252,0.99999999997405808,0.52905372908218729,success,253,358.99144981089626,334.61628658053723,false,false,133.3215397287112,19.123580044491014,,,
+2025-09-22T00:00:00,N25.cash,252,0.99999999995672595,0.52386361957116845,success,253,358.99144979137964,335.12798306975748,false,false,132.01363213193446,97.008397797147325,,,
+2025-09-23T00:00:00,N25.cash,252,0.99999999961618924,0.44441433775209144,success,253,358.99144946645123,337.31057776035743,false,false,111.99241311352704,3.2020349783753042,,,
+2025-09-24T00:00:00,N25.cash,252,0.99999999990429167,0.51588058012595972,success,253,358.99145043404428,335.92173439479126,false,false,130.00190619174185,645.8113862415546,,,
+2025-09-25T00:00:00,N25.cash,252,0.99999999983529597,0.51192520729026847,success,253,358.99144983747391,336.4645785749442,false,false,129.00515223714766,236.22753455441907,,,
+2025-09-26T00:00:00,N25.cash,252,0.99999999972915532,0.50795434476615664,success,253,358.99144980552609,336.96197458858774,false,false,128.00449488107148,267.85206943723347,,,
+2025-09-29T00:00:00,N25.cash,252,0.99999999946395657,0.5050762732260583,success,253,358.9914494521027,337.64464349900959,false,false,127.27922085296669,18.818925476115172,,,
+2025-09-30T00:00:00,N25.cash,252,0.9999999967227986,0.42449756124430299,success,253,358.99144978395981,339.45517378807739,false,false,106.97338543356436,3.2804450201999402,,,
+2025-10-01T00:00:00,N25.cash,252,0.99999999587973165,0.42048461999558179,success,253,358.99144978953728,339.68410226067141,false,false,105.96212423888662,3.3176508569190579,,,
+2025-10-02T00:00:00,N25.cash,252,0.99999999423260322,0.41649379445084428,success,253,358.99144967029014,340.02040465432435,false,false,104.95643620161276,3.2942004233507802,,,
+2025-10-03T00:00:00,N25.cash,252,0.99999999013260654,0.41247485940934803,success,253,358.99144950914985,340.55741942548332,false,false,103.94366457115571,3.3222551669455447,,,
+2025-10-06T00:00:00,N25.cash,252,0.99999998283883562,0.40853851263140983,success,253,358.99144966112038,341.11083278762021,false,false,102.95170518311528,3.3750821369743202,,,
+2025-10-07T00:00:00,N25.cash,252,0.99999999411757412,0.48122022992670094,success,253,358.99144953777846,340.04015293277382,false,false,121.26749794152863,18.234170844435969,,,
+2025-10-08T00:00:00,N25.cash,252,0.9999999999593725,0.5793217576931986,success,253,358.99144971472742,335.06487248720549,false,false,145.98908293868604,120.8835878851838,,,
+2025-10-09T00:00:00,N25.cash,252,0.9999873940434475,0.78073918010129828,success,253,358.99144969952079,347.7101211920953,false,false,196.74627338552716,0.97571572650066463,,,
+2025-10-10T00:00:00,N25.cash,252,0.99999999970802622,0.57134766365314293,success,253,358.99145051258949,337.03709306865483,false,false,143.97961124059202,61.348614001276317,,,
+2025-10-13T00:00:00,N25.cash,252,0.99999999642171877,0.56721705045726367,success,253,358.99144960714574,339.54306633633632,false,false,142.93869671523044,19.057612778429011,,,
+2025-10-14T00:00:00,N25.cash,252,0.99999342628691601,0.69029267447067311,success,253,358.99144964713611,347.05902449315215,false,false,173.95375396660961,21.629721702512974,,,
+2025-10-15T00:00:00,N25.cash,252,0.99999999875814805,0.55950407915007794,success,253,358.99145230550317,338.48479015796391,false,false,140.99502794581963,240.00931645117723,,,
+2025-10-16T00:00:00,N25.cash,252,0.99999738301163499,0.68248311018159025,success,253,358.99144962887573,346.13796586554969,false,false,171.98574376576073,72.439449922105069,,,
+2025-10-17T00:00:00,N25.cash,252,0.99999999946720308,0.55152316596893391,success,253,358.99144970761193,337.63856900673926,false,false,138.98383782417136,75.300295933272437,,,
+2025-10-20T00:00:00,N25.cash,252,0.99999839588814587,0.67445153798617896,success,253,358.99144988416856,345.64851117186851,false,false,169.9617875725171,27.313076241546838,,,
+2025-10-21T00:00:00,N25.cash,252,0.99999999973301135,0.54362321091675525,success,253,358.99144984372049,336.9476349804961,false,false,136.99304915102232,177.23130713395975,,,
+2025-10-22T00:00:00,N25.cash,252,0.99999999919114457,0.49203204015190938,success,253,358.9914496497945,338.05604868792864,false,false,123.99207411828117,147.90868749781134,,,
+2025-10-23T00:00:00,N25.cash,252,0.99999999925203142,0.48671571486579818,success,253,358.99144945463615,337.97778934687022,false,false,122.65236014618114,16.827328252249224,,,
+2025-10-24T00:00:00,N25.cash,252,0.99999999957092744,0.48262570614249445,success,253,358.99144983539406,337.42205492868715,false,false,121.62167794790859,13.525904559308463,,,
+2025-10-27T00:00:00,N25.cash,252,0.99999999977495801,0.48013144577396094,success,253,358.99144981084038,336.77671580034718,false,false,120.99312433503816,174.94819107594296,,,
+2025-10-28T00:00:00,N25.cash,252,0.99999959568235464,0.65057141093606285,success,253,358.99145254481459,344.27038793179406,false,false,163.94399555588785,19.166564744775624,,,
+2025-10-29T00:00:00,N25.cash,252,0.99999999995032862,0.519832575055583,success,253,358.99145254292966,335.26585924829203,false,false,130.99780891400692,578.10542180046855,,,
+2025-10-30T00:00:00,N25.cash,252,0.99999999995815902,0.51458109863006096,success,253,358.99145253506885,335.09430785337588,false,false,129.67443685477537,22.651634169999127,,,
+2025-10-31T00:00:00,N25.cash,252,0.99999999981121412,0.46329950802528602,success,253,358.99145044953423,336.6010431360782,false,false,116.75147602237207,19.284976672047591,,,
+2025-11-03T00:00:00,N25.cash,252,0.99999999990805,0.46030132391231393,success,253,358.99144973631405,335.88167361485955,false,false,115.99593362590311,300.44278822283871,,,
+2025-11-04T00:00:00,N25.cash,252,0.99999999990782773,0.45466820773565536,success,253,358.99145226882746,335.88409106976832,false,false,114.57638834938516,16.179239676288439,,,
+2025-11-05T00:00:00,N25.cash,252,0.99998967843386455,0.73404617703675357,success,253,358.99145048603953,347.51018575554144,false,false,184.9796366132619,51.471305351652163,,,
+2025-11-06T00:00:00,N25.cash,252,0.99999999993037259,0.47218766395907347,success,253,358.99144948409548,335.60358703122915,false,false,118.99129131768652,141.79177891330127,,,
+2025-11-07T00:00:00,N25.cash,252,0.99999999998172684,0.49204584200078777,success,253,358.99144940873759,334.26586648556429,false,false,123.99555218419852,287.73434820548482,,,
+2025-11-10T00:00:00,N25.cash,252,0.99999999997246913,0.48805572404891517,success,253,358.99144937016683,334.67573900215973,false,false,122.99004246032662,127.00357363407406,,,
+2025-11-11T00:00:00,N25.cash,252,0.99999999996796896,0.46029937412843408,success,253,358.99144936659889,334.82713496171749,false,false,115.99544228036538,275.50033596392097,,,
+2025-11-12T00:00:00,N25.cash,252,0.99999999996722888,0.4301704482666785,success,253,358.99144957320675,334.84997743660637,false,false,108.40295296320298,8.9626852806021642,,,
+2025-11-13T00:00:00,N25.cash,252,0.99999999992271427,0.42624118985303122,success,253,358.99144937154165,335.70793690757904,false,false,107.41277984296387,8.7709989593532907,,,
+2025-11-14T00:00:00,N25.cash,252,0.99999999995314282,0.42432589454354663,success,253,358.99145256130492,335.20753664720462,false,false,106.93012542497375,17.659989499217904,,,
+2025-11-17T00:00:00,N25.cash,252,0.99999999995732636,0.41811771088411764,success,253,358.99144974932966,335.11400801473843,false,false,105.36566314279764,9.3169385843835908,,,
+2025-11-18T00:00:00,N25.cash,252,0.99999999998992828,0.4641185284237801,success,253,358.99145207255134,333.67016194726085,false,false,116.95786916279259,30.498091574817838,,,
+2025-11-19T00:00:00,N25.cash,252,0.99999999999347011,0.46029038334928624,success,253,358.99144974805046,333.23682235082202,false,false,115.99317660402014,189.77274302538086,,,
+2025-11-20T00:00:00,N25.cash,252,0.9999999999262692,0.4085989749298512,success,253,358.99144950789605,335.66084868929858,false,false,102.9669416823225,36.905073662594695,,,
+2025-11-21T00:00:00,N25.cash,252,0.99999999997104005,0.45231690481396397,success,253,358.99144960215176,334.72633985852696,false,false,113.98386001311891,77.497556847092511,,,
+2025-11-24T00:00:00,N25.cash,252,0.99999999997232014,0.42458545353024135,success,253,358.99144998451254,334.68113469006465,false,false,106.99553428962082,279.59900841915783,,,
+2025-11-25T00:00:00,N25.cash,252,0.99999999998830269,0.44442819495795843,success,253,358.99144964804054,333.81979025069779,false,false,111.99590512940553,311.23229039884598,,,
+2025-11-26T00:00:00,N25.cash,252,0.99999999998139155,0.39026748768492647,success,253,358.99144968527332,334.28404797591048,false,false,98.34740689660147,7.8141214810434363,,,
+2025-11-27T00:00:00,N25.cash,252,0.999999999988886,0.38622472747546943,success,253,358.99144975592088,333.76862426074808,false,false,97.3286313238183,8.0857964728354776,,,
+2025-11-28T00:00:00,N25.cash,252,0.9999999999913074,0.38227565920237655,success,253,358.99144960767558,333.52289510390699,false,false,96.333466118998885,8.0345248036207462,,,
+2025-12-01T00:00:00,N25.cash,252,0.99999999999429079,0.37826964839874822,success,253,358.99145103980754,333.10251096337481,false,false,95.323951396484546,7.8230862727908539,,,
+2025-12-02T00:00:00,N25.cash,252,0.99999999999701417,0.37426388643466402,success,253,358.99144960021664,332.45427476080317,false,false,94.314499381535327,7.7796089318560249,,,
+2025-12-03T00:00:00,N25.cash,252,0.99999999999839728,0.37025846829518988,success,253,358.99144954921439,331.83214332248269,false,false,93.305134010387846,7.7200608921030405,,,
+2025-12-04T00:00:00,N25.cash,252,0.99999999999954881,0.41663844753511747,success,253,358.99144993446208,330.56445564359592,false,false,104.9928887788496,190.12445348263009,,,
+2025-12-05T00:00:00,N25.cash,252,0.99999999999943445,0.36227706212520977,success,253,358.99144962305519,330.79062223256841,false,false,91.293819655552866,7.6217948515378033,,,
+2025-12-08T00:00:00,N25.cash,252,0.99999999999979305,0.38485718533834146,success,253,358.99144996276925,329.78551572961072,false,false,96.984010705262051,85.857787035606776,,,
+2025-12-09T00:00:00,N25.cash,252,0.99999999999988098,0.38092443130213577,success,253,358.9914502244979,329.23237267875328,false,false,95.992956688138207,197.30133937364897,,,
+2025-12-10T00:00:00,N25.cash,252,0.9999999999999627,0.40071499940629629,success,253,358.99144944956527,328.07059061105997,false,false,100.98017985038666,71.280807830010119,,,
+2025-12-11T00:00:00,N25.cash,252,0.99999999999994893,0.34634162035305577,success,253,358.99144976271236,328.38678198149972,false,false,87.278088328970057,7.0615148499613047,,,
+2025-12-12T00:00:00,N25.cash,252,0.99999999999993627,0.34235765345080732,success,253,358.99144960282968,328.60695182621924,false,false,86.274128669603442,7.0699825327329462,,,
+2025-12-15T00:00:00,N25.cash,252,0.99999999999998335,0.38847647003866814,success,253,358.99145253561511,327.26995060578332,false,false,97.896070449744371,13.725962495678033,,,
+2025-12-16T00:00:00,N25.cash,252,0.9999999999999738,0.33439575051143089,success,253,358.99145069031533,327.71987944924274,false,false,84.267729128880589,6.794496942173291,,,
+2025-12-17T00:00:00,N25.cash,252,0.99999999999997735,0.33042065405767279,success,253,358.99144962294793,327.57724576714156,false,false,83.266004822533546,6.7217907188761412,,,
+2025-12-18T00:00:00,N25.cash,252,0.99999999999998512,0.35203793121365168,success,253,358.99145037670343,327.15717437775567,false,false,88.713558665840225,20.442492575115452,,,
+2025-12-19T00:00:00,N25.cash,252,0.99999999999999267,0.37295939518197835,success,253,358.99151097134688,326.45843300494903,false,false,93.98576758585854,101.93107495082472,,,
+2025-12-22T00:00:00,N25.cash,252,0.999999999999996,0.36777854722495279,success,253,358.99144936342208,325.85257261920697,false,false,92.68019390068811,18.770607704983441,,,
+2025-12-23T00:00:00,N25.cash,252,0.99999999983912558,0.49199671705233089,success,253,358.99144949318998,336.4410520326245,false,false,123.98317269718738,72.256922880716218,,,
+2025-12-24T00:00:00,N25.cash,252,0.99999999999999867,0.33600606902649738,success,253,358.99144940220441,324.7506498750854,false,false,84.673529394677345,20.876584863006098,,,
+2025-12-29T00:00:00,N25.cash,252,0.99999999999999933,0.35596529342220562,success,253,358.99144981835394,324.0099924528057,false,false,89.703253942395818,20.789556348974681,,,
+2025-12-30T00:00:00,N25.cash,252,0.99999999999999956,0.30253870146966438,success,253,358.99144985281089,323.69316143282521,false,false,76.239752770355423,5.9471723822220781,,,
+2025-12-31T00:00:00,N25.cash,252,0.99999999999999978,0.3491804951525499,success,253,358.99144950200917,322.58674956719619,false,false,87.993484778442578,236.24914950082143,,,
+2026-01-02T00:00:00,N25.cash,252,0.99999980899092444,0.57935379583604241,success,253,358.99144973304391,343.52050503037651,false,false,145.99715655068269,366.7847571278632,,,
+2026-01-05T00:00:00,N25.cash,252,0.99999999999999645,0.28862146367792385,success,253,358.99145238665238,325.73010061516436,false,false,72.732608846836811,1.1999423356311387,,,
+2026-01-06T00:00:00,N25.cash,252,0.99999999999999756,0.31224733422996781,success,253,358.99145040487394,325.35493294096443,false,false,78.686328225951883,21.669194297609646,,,
+2026-01-07T00:00:00,N25.cash,252,0.99999999999999778,0.28047990690520497,success,253,358.99145006571604,325.23206513295861,false,false,70.680936540111645,1.1685703863126102,,,
+2026-01-08T00:00:00,N25.cash,252,0.999999999999998,0.32933927593697371,success,253,358.99145231969095,325.15364186955861,false,false,82.993497536117374,229.21589473309734,,,
+2026-01-09T00:00:00,N25.cash,252,0.99999999999999578,0.27193463387363709,success,253,358.9914494986856,325.86732219678811,false,false,68.527527736156543,1.1161522480214461,,,
+2026-01-12T00:00:00,N25.cash,252,0.999999999999998,0.26782882987082912,success,253,358.99144980548704,325.16029457686159,false,false,67.492865127448937,1.1035802885691803,,,
+2026-01-13T00:00:00,N25.cash,252,0.99999999999999889,0.26386404936852903,success,253,358.99145258951251,324.61074694022949,false,false,66.493740440869317,1.0995632480618152,,,
+2026-01-14T00:00:00,N25.cash,252,0.99999999999999778,0.31342594585845479,success,253,358.99144977889091,325.22785066792051,false,false,78.983338356330606,119.61438866194888,,,
+2026-01-15T00:00:00,N25.cash,252,0.99999999999999933,0.25588550572109137,success,253,358.99144978848597,324.1535864555629,false,false,64.483147441715019,1.0917631780170005,,,
+2026-01-16T00:00:00,N25.cash,252,0.99999999999999911,0.30544636732449215,success,253,358.99145019186011,324.2974492192314,false,false,76.972484565772021,55.121157181671038,,,
+2026-01-19T00:00:00,N25.cash,252,0.99999999999999889,0.24764730576703081,success,253,358.99144980092314,324.52652364855379,false,false,62.407121053291768,1.0701957826204778,,,
+2026-01-20T00:00:00,N25.cash,252,0.99999999999999933,0.2435574541218346,success,253,358.99144954769224,324.00363099914262,false,false,61.376478438702321,1.061499260357621,,,
+2026-01-21T00:00:00,N25.cash,252,0.99999999999999933,0.23922363571305078,success,253,358.99145472962789,324.00704369336376,false,false,60.284356199688794,1.0494399483551384,,,
+2026-01-22T00:00:00,N25.cash,252,0.99999999999999867,0.261509851715783,success,253,358.99144974980385,324.68293884941136,false,false,65.900482632377319,0.35722410411293354,,,
+2026-01-23T00:00:00,N25.cash,252,0.99999999999999933,0.28444933492479862,success,253,358.99145013404757,324.18407286057896,false,false,71.681232401049257,20.571639869944221,,,
+2026-01-26T00:00:00,N25.cash,252,1,0.22697992109756196,success,253,358.99144946588689,322.02479259351924,false,false,57.198940116585611,1.0280341634974064,,,
+2026-01-27T00:00:00,N25.cash,252,1,0.22292911364536575,success,253,358.99145031764795,321.23216315716473,false,false,56.178136638632168,1.0196500645818845,,,
+2026-01-28T00:00:00,N25.cash,252,1,0.21917635585265899,success,253,358.99145042575088,321.4248143485957,false,false,55.232441674870067,1.0207815514093013,,,
+2026-01-29T00:00:00,N25.cash,252,1,0.24465274472307857,success,253,358.99144977270151,321.63166608731927,false,false,61.652491670215802,19.202836148635296,,,
+2026-01-30T00:00:00,N25.cash,252,1,0.23681557811606443,success,253,358.99144943864428,321.08818612450722,false,false,59.677525685248234,0.343953145899344,,,
+2026-02-02T00:00:00,N25.cash,252,1,0.23188693480700892,success,253,358.99144987453394,320.75026711958918,false,false,58.435507571366252,0.34621173943841482,,,
+2026-02-03T00:00:00,N25.cash,252,1,0.25789516922708022,success,253,358.99144991561406,322.05770952372137,false,false,64.989582645224218,153.54739027900447,,,
+2026-02-04T00:00:00,N25.cash,252,1,0.25155341974096534,success,253,358.99145194337086,321.86072709830637,false,false,63.391461774723261,0.94841500854068495,,,
+2026-02-05T00:00:00,N25.cash,252,1,0.194315363192642,success,253,358.99144995855698,319.20422567976647,false,false,48.967471524545786,0.97721662908633322,,,
+2026-02-06T00:00:00,N25.cash,252,1,0.19001430816875603,success,253,358.99144968691706,319.80511234584407,false,false,47.88360565852652,0.97803162117622555,,,
+2026-02-09T00:00:00,N25.cash,252,1,0.21693450099707773,success,253,358.99144964788309,320.37612529744575,false,false,54.667494251263591,20.230853007735778,,,
+2026-02-10T00:00:00,N25.cash,252,1,0.20373107917559641,success,253,358.99144954376413,319.69404467962801,false,false,51.340231952250292,0.34965923530217907,,,
+2026-02-11T00:00:00,N25.cash,252,1,0.177542047682969,success,253,358.99144969368672,317.62528654796324,false,false,44.740596016108185,0.96097502780895139,,,
+2026-02-12T00:00:00,N25.cash,252,1,0.17316149571024803,success,253,358.99144979545804,319.00159884606728,false,false,43.636696918982501,0.96667207164298574,,,
+2026-02-13T00:00:00,N25.cash,252,1,0.16907172570328635,success,253,358.99144975235748,318.39276904035756,false,false,42.60607487722816,0.96041061028295227,,,
+2026-02-16T00:00:00,N25.cash,252,1,0.16488260150248213,success,253,358.99144951664272,317.4758712741824,false,false,41.550415578625497,0.95534997081946527,,,
+2026-02-17T00:00:00,N25.cash,252,1,0.16061608752257339,success,253,358.99144951127977,316.62415960288092,false,false,40.475254055688495,0.95525872399207279,,,
+2026-02-18T00:00:00,N25.cash,252,1,0.15603180272211639,success,253,358.99145018244451,316.343628925693,false,false,39.320014285973329,0.97418770499421725,,,
+2026-02-19T00:00:00,N25.cash,252,1,0.15184827841272222,success,253,358.99144952214766,315.50323659493654,false,false,38.265766160006002,0.97060089417560236,,,
+2026-02-20T00:00:00,N25.cash,252,1,0.14734108147076191,success,253,358.99145004752182,314.94008335615729,false,false,37.129952530632004,0.99148686009763554,,,

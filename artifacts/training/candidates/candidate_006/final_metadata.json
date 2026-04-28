@@ -1,0 +1,107 @@
+{
+  "status": "completed",
+  "candidate_id": "C-007",
+  "candidate_index": 6,
+  "dropout": 0.4,
+  "hidden_size": 80,
+  "minibatch_size": 128,
+  "learning_rate": 0.001,
+  "max_grad_norm": 1.0,
+  "lbw": 252,
+  "dataset_registry_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/manifests/dataset_registry.json",
+  "output_dir": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_006",
+  "initial_validation_loss": "-0.091258756816387177",
+  "best_validation_loss": "-0.40764486789703369",
+  "best_epoch_index": 5,
+  "epochs_completed": 31,
+  "validation_losses": [
+    "-0.37173166871070862",
+    "-0.35324731469154358",
+    "-0.36948779225349426",
+    "-0.34506931900978088",
+    "-0.3219912052154541",
+    "-0.40764486789703369",
+    "-0.35806965827941895",
+    "-0.35475298762321472",
+    "-0.35695067048072815",
+    "-0.3405672013759613",
+    "-0.40111243724822998",
+    "-0.39260119199752808",
+    "-0.36988535523414612",
+    "-0.32357454299926758",
+    "-0.39017608761787415",
+    "-0.37632814049720764",
+    "-0.39381971955299377",
+    "-0.40346229076385498",
+    "-0.31738966703414917",
+    "-0.28860241174697876",
+    "-0.39021873474121094",
+    "-0.2394099086523056",
+    "-0.30491089820861816",
+    "-0.24075873196125031",
+    "-0.29444339871406555",
+    "-0.21207332611083984",
+    "-0.26851487159729004",
+    "-0.20664703845977783",
+    "-0.20605273544788361",
+    "-0.282928466796875",
+    "-0.1225200816988945"
+  ],
+  "dataset_entry": {
+    "lbw": 252,
+    "feature_columns": [
+      "normalized_return_1",
+      "normalized_return_21",
+      "normalized_return_63",
+      "normalized_return_126",
+      "normalized_return_256",
+      "macd_8_24",
+      "macd_16_28",
+      "macd_32_96",
+      "nu",
+      "gamma"
+    ],
+    "sequence_length": 63,
+    "train_sequence_count": 4990,
+    "val_sequence_count": 511,
+    "train_input_shape": [
+      4990,
+      63,
+      10
+    ],
+    "train_target_shape": [
+      4990,
+      63
+    ],
+    "val_input_shape": [
+      511,
+      63,
+      10
+    ],
+    "val_target_shape": [
+      511,
+      63
+    ],
+    "artifacts": {
+      "train_inputs_path": "artifacts/datasets/lbw_252/train_inputs.npy",
+      "train_target_scale_path": "artifacts/datasets/lbw_252/train_target_scale.npy",
+      "val_inputs_path": "artifacts/datasets/lbw_252/val_inputs.npy",
+      "val_target_scale_path": "artifacts/datasets/lbw_252/val_target_scale.npy",
+      "train_sequence_index_path": "artifacts/datasets/lbw_252/train_sequence_index.csv",
+      "val_sequence_index_path": "artifacts/datasets/lbw_252/val_sequence_index.csv"
+    },
+    "source_artifacts": {
+      "split_manifest_path": "artifacts/datasets/lbw_252/split_manifest.csv",
+      "sequence_manifest_path": "artifacts/datasets/lbw_252/sequence_manifest.csv",
+      "target_alignment_registry_path": "artifacts/datasets/lbw_252/target_alignment_registry.csv"
+    }
+  },
+  "artifacts": {
+    "candidate_dir": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_006",
+    "config_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_006/config.json",
+    "best_model_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_006/best_model.keras",
+    "epoch_log_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_006/epoch_log.csv",
+    "validation_history_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_006/validation_history.csv",
+    "final_metadata_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_006/final_metadata.json"
+  }
+}

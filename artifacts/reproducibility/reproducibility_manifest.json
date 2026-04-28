@@ -1,0 +1,60 @@
+{
+  "run_id": "repro_c-031_lbw63",
+  "run_type": "evaluation",
+  "created_at_utc": "2026-04-28T11:16:12Z",
+  "project_root": "Dev/Research/Slow Momentum with fast mean reversion",
+  "authority_documents": {
+    "spec": "spec_lstm_cpd_model_revised_sole_authority.md",
+    "implementation_plan": "lstm_cpd_implementation_plan.md",
+    "project_overview": "project_overview_slow_momentum_with_fast_reversion.md",
+    "invariant_ledger": "docs/contracts/invariant_ledger.md",
+    "exclusions_ledger": "docs/contracts/exclusions_ledger.md",
+    "execution_policy_rules": "docs/contracts/execution_policy_rules.md"
+  },
+  "seed_policy": {
+    "global_seed": 20260421,
+    "epoch_seed_formula": "20260421 + epoch_index",
+    "candidate_seed_formula": "20260421 + candidate_index",
+    "candidate_index_basis": "zero_based_immutable_sample_schedule",
+    "sampled_schedule_seed": 20260421,
+    "sampled_schedule_hash": "sha256:a3778213bbadeba39723bfdc7241ef1c0b42e0517273d0ef74c7a2c92decef94"
+  },
+  "selected_lbw": 63,
+  "candidate_ids": [
+    "C-031"
+  ],
+  "selected_candidate_id": "C-031",
+  "artifact_locations": {
+    "dataset_registry": "artifacts/manifests/dataset_registry.json",
+    "checkpoint": "artifacts/training/candidates/candidate_030/best_model.keras",
+    "latest_positions": "artifacts/inference/latest_positions.csv",
+    "latest_sequence_manifest": "artifacts/inference/latest_sequence_manifest.csv",
+    "raw_validation_returns": "artifacts/evaluation/raw_validation_returns.csv",
+    "raw_validation_metrics": "artifacts/evaluation/raw_validation_metrics.json",
+    "rescaled_validation_returns": "artifacts/evaluation/rescaled_validation_returns.csv",
+    "rescaled_validation_metrics": "artifacts/evaluation/rescaled_validation_metrics.json",
+    "report_paths": [
+      "artifacts/evaluation/evaluation_report.md"
+    ]
+  },
+  "source_artifacts": {
+    "ftmo_asset_universe_manifest": "artifacts/manifests/ftmo_asset_universe.json",
+    "canonical_daily_close_manifest": "artifacts/manifests/canonical_daily_close_manifest.json",
+    "dataset_registry": "artifacts/manifests/dataset_registry.json",
+    "search_schedule": "artifacts/training/search_schedule.json",
+    "best_candidate": "artifacts/training/best_candidate.json",
+    "best_config": "artifacts/training/best_config.json"
+  },
+  "status": "completed",
+  "hashes": {
+    "sampled_schedule_hash": "sha256:a3778213bbadeba39723bfdc7241ef1c0b42e0517273d0ef74c7a2c92decef94",
+    "ftmo_asset_universe_hash": "sha256:19a3a1d9169d23629a22ccad4e1ff36ba157c1a61cdf6e64d39d3e4ab522a629",
+    "canonical_daily_close_manifest_hash": "sha256:a34cf9261942d069fe67a2c8580d9433289ad07b50eae2d1777209bb59298c38",
+    "dataset_registry_hash": "sha256:52326c76dde56fc3de6a3efa7a85bfe221325b55fbb60185920aba81f57ca13c"
+  },
+  "entrypoints": {
+    "inference": "src/lstm_cpd/inference/online_inference.py",
+    "evaluation": "src/lstm_cpd/evaluation/validation_evaluation.py",
+    "reproducibility": "src/lstm_cpd/reproducibility/manifest.py"
+  }
+}

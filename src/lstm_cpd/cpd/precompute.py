@@ -2,16 +2,25 @@ from __future__ import annotations
 
 import argparse
 import csv
+import gc
 import json
 import math
 import os
+import platform
 import subprocess
 import sys
 import tempfile
 import time
-from dataclasses import dataclass
+from contextlib import contextmanager
+from dataclasses import dataclass, replace
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Callable, Sequence
+
+try:
+    import fcntl
+except ImportError:  # pragma: no cover - only exercised on non-POSIX systems.
+    fcntl = None
 
 from lstm_cpd.cpd.fit_window import fit_cpd_window
 from lstm_cpd.cpd.precompute_contract import (
@@ -45,7 +54,8 @@ RETURNS_VOLATILITY_SUFFIX = "_returns_volatility.csv"
 CPD_CSV_SUFFIX = "_cpd.csv"
 CPD_PARTIAL_SUFFIX = ".partial.csv"
 CPD_CHECKPOINT_SUFFIX = ".checkpoint.json"
-CHECKPOINT_VERSION = 1
+DEFAULT_FLUSH_ROWS = 25
+MACOS_MAX_WORKERS = 3
 
 DETERMINISTIC_WORKER_ENV = {
     "OMP_NUM_THREADS": "1",
@@ -75,6 +85,33 @@ CPD_OUTPUT_HEADER = (
     "failure_stage",
     "failure_message",
 )
+
+PROGRESS_REPORT_HEADER = (
+    "lbw",
+    "asset_id",
+    "state",
+    "rows_written",
+    "last_timestamp",
+    "retry_count",
+    "fallback_count",
+    "started_at",
+    "finished_at",
+    "output_path",
+    "error_message",
+)
+
+PROGRESS_STATE_PENDING = "pending"
+PROGRESS_STATE_RUNNING = "running"
+PROGRESS_STATE_COMPLETED = "completed"
+PROGRESS_STATE_FAILED = "failed"
+PROGRESS_STATES = (
+    PROGRESS_STATE_PENDING,
+    PROGRESS_STATE_RUNNING,
+    PROGRESS_STATE_COMPLETED,
+    PROGRESS_STATE_FAILED,
+)
+
+_UNSET = object()
 
 
 @dataclass(frozen=True)
@@ -122,36 +159,36 @@ class T14ChainTask:
 
     @property
     def partial_output_path(self) -> Path:
-        return self.output_path.with_name(
-            f"{self.output_path.stem}{CPD_PARTIAL_SUFFIX}"
-        )
+        return self.output_path.with_name(f"{self.output_path.stem}{CPD_PARTIAL_SUFFIX}")
 
     @property
     def checkpoint_path(self) -> Path:
-        return self.output_path.with_name(
-            f"{self.output_path.name}{CPD_CHECKPOINT_SUFFIX}"
-        )
+        return self.output_path.with_name(f"{self.output_path.name}{CPD_CHECKPOINT_SUFFIX}")
 
 
 @dataclass(frozen=True)
-class T14ChainCheckpoint:
-    version: int
-    asset_id: str
-    lbw: int
-    output_path: str
-    partial_output_path: str
-    rows_completed: int
-    last_completed_timestamp: str | None
-    previous_output_timestamp: str | None
-    previous_nu: float | None
-    previous_gamma: float | None
-
-
-@dataclass(frozen=True)
-class T14ChainProgress:
-    rows_completed: int
+class T14ChainResumeState:
+    rows_written: int
     previous_outputs: CPDPreviousOutputs | None
     previous_output_timestamp: str | None
+    last_timestamp: str | None
+    retry_count: int
+    fallback_count: int
+
+
+@dataclass(frozen=True)
+class T14ProgressRow:
+    lbw: int
+    asset_id: str
+    state: str
+    rows_written: int
+    last_timestamp: str | None
+    retry_count: int
+    fallback_count: int
+    started_at: str | None
+    finished_at: str | None
+    output_path: str
+    error_message: str | None
 
 
 class T14ChainStopRequested(RuntimeError):
@@ -170,19 +207,48 @@ def default_output_dir() -> Path:
     return default_project_root() / "artifacts/features/cpd"
 
 
+def default_progress_report_path(project_root: Path | str | None = None) -> Path:
+    project_root_path = (
+        Path(project_root) if project_root is not None else default_project_root()
+    )
+    return project_root_path / "artifacts/reports/cpd_precompute_progress.csv"
+
+
 def default_parallel_workers() -> int:
-    cpu_count = os.cpu_count() or 1
-    if cpu_count <= 3:
-        return 1
-    return max(1, min(7, cpu_count - 3))
+    return 1
+
+
+def clamp_parallel_workers(max_workers: int) -> int:
+    if max_workers <= 0:
+        raise ValueError(f"max_workers must be positive: {max_workers}")
+    if platform.system() == "Darwin":
+        return min(max_workers, MACOS_MAX_WORKERS)
+    return max_workers
 
 
 def project_relative_path(path: Path | str, project_root: Path | str) -> str:
-    return Path(path).resolve().relative_to(Path(project_root).resolve()).as_posix()
+    resolved_path = Path(path).resolve()
+    resolved_root = Path(project_root).resolve()
+    try:
+        return resolved_path.relative_to(resolved_root).as_posix()
+    except ValueError:
+        return str(resolved_path)
 
 
 def _serialize_optional_text(value: str | None) -> str:
-    return "" if value is None else value
+    if value is None:
+        return ""
+    sanitized = value.replace("\r", " ").replace("\n", " ")
+    return sanitized.strip()
+
+
+def _utcnow_text() -> str:
+    return (
+        datetime.now(timezone.utc)
+        .replace(microsecond=0)
+        .isoformat()
+        .replace("+00:00", "Z")
+    )
 
 
 def _parse_optional_float_text(
@@ -226,6 +292,17 @@ def _validate_requested_lbws(lbws: Sequence[int]) -> tuple[int, ...]:
     if invalid_lbws:
         raise ValueError(f"Unsupported lbws requested: {invalid_lbws}")
     return unique_lbws
+
+
+def _normalize_asset_filter(asset_ids: Sequence[str] | None) -> tuple[str, ...] | None:
+    if asset_ids is None:
+        return None
+    normalized = tuple(dict.fromkeys(str(asset_id) for asset_id in asset_ids))
+    if not normalized:
+        return None
+    if any(asset_id == "" for asset_id in normalized):
+        raise ValueError("asset_id filters must not be empty")
+    return normalized
 
 
 def _build_asset_path_map(
@@ -401,6 +478,7 @@ def build_t14_task_specs(
     *,
     project_root: Path | str | None = None,
     lbws: Sequence[int] = ALLOWED_CPD_LBWS,
+    asset_ids: Sequence[str] | None = None,
 ) -> list[T14ChainTask]:
     project_root_path = (
         Path(project_root) if project_root is not None else default_project_root()
@@ -408,6 +486,14 @@ def build_t14_task_specs(
     output_dir_path = Path(output_dir)
     requested_lbws = _validate_requested_lbws(lbws)
     manifest_records = load_canonical_daily_close_manifest(canonical_manifest_input)
+    asset_filter = _normalize_asset_filter(asset_ids)
+    if asset_filter is not None:
+        manifest_by_asset = {record.asset_id: record for record in manifest_records}
+        missing_assets = sorted(set(asset_filter) - set(manifest_by_asset))
+        if missing_assets:
+            raise ValueError(f"Unknown asset_id filters: {missing_assets}")
+        manifest_records = [manifest_by_asset[asset_id] for asset_id in asset_filter]
+
     returns_paths = collect_returns_volatility_paths(manifest_records, returns_input_dir)
 
     tasks: list[T14ChainTask] = []
@@ -711,143 +797,161 @@ def _validate_cpd_row_semantics(
         )
 
 
-def _build_chain_checkpoint(
+def _validate_cpd_timeline_prefix(
+    rows: Sequence[CPDFeatureRow],
+    returns_rows: Sequence[ReturnsVolatilityRecord],
+    *,
+    csv_path: Path,
+) -> None:
+    if len(rows) > len(returns_rows):
+        raise ValueError(
+            f"CPD rows exceed returns timeline in {csv_path}: {len(rows)} > {len(returns_rows)}"
+        )
+    for row_index, cpd_row in enumerate(rows):
+        expected_timestamp = returns_rows[row_index].timestamp
+        if cpd_row.timestamp != expected_timestamp:
+            raise ValueError(
+                f"CPD timestamp mismatch at row {row_index} in {csv_path}: "
+                f"{cpd_row.timestamp} != {expected_timestamp}"
+            )
+
+
+def _summarize_cpd_rows(rows: Sequence[CPDFeatureRow]) -> T14ChainResumeState:
+    previous_output_row: CPDFeatureRow | None = None
+    for row in reversed(rows):
+        if row.has_outputs:
+            previous_output_row = row
+            break
+    previous_outputs = None
+    previous_output_timestamp = None
+    if previous_output_row is not None:
+        previous_outputs = CPDPreviousOutputs(
+            nu=previous_output_row.nu,
+            gamma=previous_output_row.gamma,
+        )
+        previous_output_timestamp = previous_output_row.timestamp
+    return T14ChainResumeState(
+        rows_written=len(rows),
+        previous_outputs=previous_outputs,
+        previous_output_timestamp=previous_output_timestamp,
+        last_timestamp=None if not rows else rows[-1].timestamp,
+        retry_count=sum(1 for row in rows if row.retry_used),
+        fallback_count=sum(1 for row in rows if row.fallback_used),
+    )
+
+
+def _fsync_handle(handle: object) -> None:
+    file_handle = handle
+    file_handle.flush()
+    os.fsync(file_handle.fileno())
+
+
+def _repair_partial_output(task: T14ChainTask) -> None:
+    partial_path = task.partial_output_path
+    if not partial_path.exists():
+        return
+
+    with partial_path.open("r", encoding="utf-8", newline="") as handle:
+        raw_lines = handle.readlines()
+    if not raw_lines:
+        raise ValueError(f"Partial output is empty: {partial_path}")
+
+    repaired = False
+    kept_lines: list[str] = []
+    for line_index, raw_line in enumerate(raw_lines):
+        is_last_line = line_index == len(raw_lines) - 1
+        has_newline = raw_line.endswith("\n")
+        parsed_rows = list(csv.reader([raw_line]))
+        if len(parsed_rows) != 1:
+            if is_last_line:
+                repaired = True
+                break
+            raise ValueError(f"Malformed partial CSV row {line_index}: {partial_path}")
+        fields = parsed_rows[0]
+        if line_index == 0:
+            if tuple(fields) != CPD_OUTPUT_HEADER:
+                raise ValueError(f"Partial output header mismatch: {partial_path}")
+            if not has_newline:
+                raw_line = raw_line + "\n"
+                repaired = True
+            kept_lines.append(raw_line)
+            continue
+        if not has_newline:
+            repaired = True
+            break
+        if len(fields) != len(CPD_OUTPUT_HEADER):
+            if is_last_line:
+                repaired = True
+                break
+            raise ValueError(
+                f"Malformed partial CSV field count at row {line_index}: {partial_path}"
+            )
+        kept_lines.append(raw_line)
+
+    if not repaired:
+        return
+    with partial_path.open("w", encoding="utf-8", newline="") as handle:
+        handle.writelines(kept_lines)
+        _fsync_handle(handle)
+
+
+def _load_partial_chain_progress(
     task: T14ChainTask,
     *,
-    rows_completed: int,
-    last_completed_timestamp: str | None,
-    previous_outputs: CPDPreviousOutputs | None,
-    previous_output_timestamp: str | None,
-) -> T14ChainCheckpoint:
-    return T14ChainCheckpoint(
-        version=CHECKPOINT_VERSION,
-        asset_id=task.asset_id,
-        lbw=task.lbw,
-        output_path=str(task.output_path),
-        partial_output_path=str(task.partial_output_path),
-        rows_completed=rows_completed,
-        last_completed_timestamp=last_completed_timestamp,
-        previous_output_timestamp=previous_output_timestamp,
-        previous_nu=None if previous_outputs is None else previous_outputs.nu,
-        previous_gamma=None if previous_outputs is None else previous_outputs.gamma,
-    )
-
-
-def _write_chain_checkpoint(
-    checkpoint_path: Path | str,
-    checkpoint: T14ChainCheckpoint,
-) -> None:
-    checkpoint_file = Path(checkpoint_path)
-    checkpoint_file.parent.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "version": checkpoint.version,
-        "asset_id": checkpoint.asset_id,
-        "lbw": checkpoint.lbw,
-        "output_path": checkpoint.output_path,
-        "partial_output_path": checkpoint.partial_output_path,
-        "rows_completed": checkpoint.rows_completed,
-        "last_completed_timestamp": checkpoint.last_completed_timestamp,
-        "previous_output_timestamp": checkpoint.previous_output_timestamp,
-        "previous_nu": checkpoint.previous_nu,
-        "previous_gamma": checkpoint.previous_gamma,
-    }
-    temp_path = checkpoint_file.with_name(f"{checkpoint_file.name}.tmp")
-    temp_path.write_text(
-        json.dumps(payload, indent=2, ensure_ascii=True) + "\n",
-        encoding="utf-8",
-    )
-    temp_path.replace(checkpoint_file)
-
-
-def _load_chain_checkpoint(
-    task: T14ChainTask,
-) -> T14ChainCheckpoint | None:
-    if not task.checkpoint_path.exists():
-        return None
-    payload = json.loads(task.checkpoint_path.read_text(encoding="utf-8"))
-    if not isinstance(payload, dict):
-        raise ValueError(f"Checkpoint payload must be an object: {task.checkpoint_path}")
-    if int(payload.get("version", -1)) != CHECKPOINT_VERSION:
-        raise ValueError(f"Unsupported checkpoint version: {task.checkpoint_path}")
-    asset_id = str(payload.get("asset_id", ""))
-    lbw = int(payload.get("lbw", -1))
-    if asset_id != task.asset_id or lbw != task.lbw:
-        raise ValueError(f"Checkpoint task mismatch: {task.checkpoint_path}")
-    if str(payload.get("output_path", "")) != str(task.output_path):
-        raise ValueError(f"Checkpoint output path mismatch: {task.checkpoint_path}")
-    if str(payload.get("partial_output_path", "")) != str(task.partial_output_path):
-        raise ValueError(f"Checkpoint partial output path mismatch: {task.checkpoint_path}")
-    rows_completed = int(payload.get("rows_completed", -1))
-    if rows_completed < 0:
-        raise ValueError(f"Checkpoint rows_completed must be non-negative: {task.checkpoint_path}")
-    previous_nu = payload.get("previous_nu")
-    previous_gamma = payload.get("previous_gamma")
-    if previous_nu is not None and not math.isfinite(float(previous_nu)):
-        raise ValueError(f"Checkpoint previous_nu must be finite: {task.checkpoint_path}")
-    if previous_gamma is not None and not math.isfinite(float(previous_gamma)):
-        raise ValueError(f"Checkpoint previous_gamma must be finite: {task.checkpoint_path}")
-    return T14ChainCheckpoint(
-        version=CHECKPOINT_VERSION,
-        asset_id=asset_id,
-        lbw=lbw,
-        output_path=str(payload["output_path"]),
-        partial_output_path=str(payload["partial_output_path"]),
-        rows_completed=rows_completed,
-        last_completed_timestamp=(
-            None if payload.get("last_completed_timestamp") is None else str(payload["last_completed_timestamp"])
-        ),
-        previous_output_timestamp=(
-            None if payload.get("previous_output_timestamp") is None else str(payload["previous_output_timestamp"])
-        ),
-        previous_nu=None if previous_nu is None else float(previous_nu),
-        previous_gamma=None if previous_gamma is None else float(previous_gamma),
-    )
-
-
-def _load_partial_chain_progress(task: T14ChainTask) -> T14ChainProgress:
-    checkpoint = _load_chain_checkpoint(task)
-    if not task.partial_output_path.exists():
-        if checkpoint is not None and checkpoint.rows_completed != 0:
+    returns_rows: Sequence[ReturnsVolatilityRecord],
+) -> T14ChainResumeState:
+    if task.checkpoint_path.exists() and not task.partial_output_path.exists():
+        if not task.output_path.exists():
             raise ValueError(
-                f"Checkpoint exists without partial output for {task.asset_id} lbw={task.lbw}"
+                f"Legacy checkpoint exists without partial/final output for "
+                f"{task.asset_id} lbw={task.lbw}: {task.checkpoint_path}"
             )
-        return T14ChainProgress(
-            rows_completed=0,
+
+    if not task.partial_output_path.exists():
+        return T14ChainResumeState(
+            rows_written=0,
             previous_outputs=None,
             previous_output_timestamp=None,
+            last_timestamp=None,
+            retry_count=0,
+            fallback_count=0,
         )
 
+    _repair_partial_output(task)
     partial_rows = load_cpd_feature_csv(
         task.partial_output_path,
         expected_asset_id=task.asset_id,
         expected_lbw=task.lbw,
     )
-    if partial_rows and partial_rows[-1].has_outputs:
-        previous_outputs = CPDPreviousOutputs(
-            nu=partial_rows[-1].nu,
-            gamma=partial_rows[-1].gamma,
-        )
-        previous_output_timestamp = partial_rows[-1].timestamp
-    else:
-        previous_outputs = None
-        previous_output_timestamp = None
-
-    rows_completed = len(partial_rows)
-    last_completed_timestamp = partial_rows[-1].timestamp if partial_rows else None
-    if checkpoint is not None:
-        if checkpoint.rows_completed < 0:
-            raise ValueError(f"Invalid checkpoint rows_completed for {task.asset_id} lbw={task.lbw}")
-        # The partial file is authoritative on resume because it is the durable row prefix.
-        if checkpoint.rows_completed == rows_completed:
-            if checkpoint.last_completed_timestamp != last_completed_timestamp:
-                raise ValueError(
-                    f"Checkpoint timestamp mismatch for {task.asset_id} lbw={task.lbw}"
-                )
-    return T14ChainProgress(
-        rows_completed=rows_completed,
-        previous_outputs=previous_outputs,
-        previous_output_timestamp=previous_output_timestamp,
+    _validate_cpd_timeline_prefix(
+        partial_rows,
+        returns_rows,
+        csv_path=task.partial_output_path,
     )
+    return _summarize_cpd_rows(partial_rows)
+
+
+def _load_completed_output_summary(
+    task: T14ChainTask,
+    *,
+    returns_rows: Sequence[ReturnsVolatilityRecord],
+) -> T14ChainResumeState:
+    completed_rows = load_cpd_feature_csv(
+        task.output_path,
+        expected_asset_id=task.asset_id,
+        expected_lbw=task.lbw,
+    )
+    if len(completed_rows) != len(returns_rows):
+        raise ValueError(
+            f"Completed CPD output row count mismatch for {task.asset_id} lbw={task.lbw}: "
+            f"{len(completed_rows)} != {len(returns_rows)}"
+        )
+    _validate_cpd_timeline_prefix(
+        completed_rows,
+        returns_rows,
+        csv_path=task.output_path,
+    )
+    return _summarize_cpd_rows(completed_rows)
 
 
 def _remove_if_exists(path: Path | str) -> None:
@@ -859,10 +963,8 @@ def _remove_if_exists(path: Path | str) -> None:
 def _prepare_partial_writer(
     task: T14ChainTask,
     *,
-    resume: bool,
+    use_append: bool,
 ) -> tuple[csv.DictWriter, object]:
-    partial_exists = task.partial_output_path.exists()
-    use_append = resume and partial_exists
     task.partial_output_path.parent.mkdir(parents=True, exist_ok=True)
     handle = task.partial_output_path.open(
         "a" if use_append else "w",
@@ -876,24 +978,244 @@ def _prepare_partial_writer(
     )
     if not use_append:
         writer.writeheader()
+        _fsync_handle(handle)
     return writer, handle
 
 
-def _validate_completed_output(
+def _cleanup_job_memory() -> None:
+    try:
+        import tensorflow as tf
+
+        tf.keras.backend.clear_session(free_memory=False)
+    except Exception:
+        pass
+    gc.collect()
+
+
+@contextmanager
+def _progress_lock(progress_report_path: Path) -> object:
+    lock_path = progress_report_path.with_name(f"{progress_report_path.name}.lock")
+    lock_path.parent.mkdir(parents=True, exist_ok=True)
+    with lock_path.open("a+", encoding="utf-8") as handle:
+        if fcntl is not None:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
+        try:
+            yield handle
+        finally:
+            if fcntl is not None:
+                fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+
+
+def _deserialize_progress_row(row: dict[str, str]) -> T14ProgressRow:
+    state = row["state"]
+    if state not in PROGRESS_STATES:
+        raise ValueError(f"Invalid progress state: {state}")
+    return T14ProgressRow(
+        lbw=int(row["lbw"]),
+        asset_id=row["asset_id"],
+        state=state,
+        rows_written=int(row["rows_written"]),
+        last_timestamp=row["last_timestamp"] or None,
+        retry_count=int(row["retry_count"]),
+        fallback_count=int(row["fallback_count"]),
+        started_at=row["started_at"] or None,
+        finished_at=row["finished_at"] or None,
+        output_path=row["output_path"],
+        error_message=row["error_message"] or None,
+    )
+
+
+def _serialize_progress_row(row: T14ProgressRow) -> dict[str, str]:
+    return {
+        "lbw": str(row.lbw),
+        "asset_id": row.asset_id,
+        "state": row.state,
+        "rows_written": str(row.rows_written),
+        "last_timestamp": row.last_timestamp or "",
+        "retry_count": str(row.retry_count),
+        "fallback_count": str(row.fallback_count),
+        "started_at": row.started_at or "",
+        "finished_at": row.finished_at or "",
+        "output_path": row.output_path,
+        "error_message": _serialize_optional_text(row.error_message),
+    }
+
+
+def _read_progress_rows_unlocked(
+    progress_report_path: Path,
+) -> dict[tuple[str, int], T14ProgressRow]:
+    if not progress_report_path.exists():
+        return {}
+    with progress_report_path.open("r", encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        if tuple(reader.fieldnames or ()) != PROGRESS_REPORT_HEADER:
+            raise ValueError(f"Progress report header mismatch: {progress_report_path}")
+        rows: dict[tuple[str, int], T14ProgressRow] = {}
+        for raw_row in reader:
+            row = _deserialize_progress_row(raw_row)
+            key = (row.asset_id, row.lbw)
+            rows[key] = row
+    return rows
+
+
+def _write_progress_rows_unlocked(
+    progress_report_path: Path,
+    rows: Sequence[T14ProgressRow],
+) -> None:
+    progress_report_path.parent.mkdir(parents=True, exist_ok=True)
+    temp_path = progress_report_path.with_name(f"{progress_report_path.name}.tmp")
+    ordered_rows = sorted(rows, key=lambda row: (row.asset_id, row.lbw))
+    with temp_path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=list(PROGRESS_REPORT_HEADER),
+            lineterminator="\n",
+        )
+        writer.writeheader()
+        for row in ordered_rows:
+            writer.writerow(_serialize_progress_row(row))
+        _fsync_handle(handle)
+    temp_path.replace(progress_report_path)
+
+
+def _default_progress_row(
     task: T14ChainTask,
     *,
-    expected_row_count: int,
-) -> None:
-    completed_rows = load_cpd_feature_csv(
-        task.output_path,
-        expected_asset_id=task.asset_id,
-        expected_lbw=task.lbw,
+    project_root: Path,
+) -> T14ProgressRow:
+    return T14ProgressRow(
+        lbw=task.lbw,
+        asset_id=task.asset_id,
+        state=PROGRESS_STATE_PENDING,
+        rows_written=0,
+        last_timestamp=None,
+        retry_count=0,
+        fallback_count=0,
+        started_at=None,
+        finished_at=None,
+        output_path=project_relative_path(task.output_path, project_root),
+        error_message=None,
     )
-    if len(completed_rows) != expected_row_count:
-        raise ValueError(
-            f"Completed CPD output row count mismatch for {task.asset_id} lbw={task.lbw}: "
-            f"{len(completed_rows)} != {expected_row_count}"
-        )
+
+
+def _update_progress_row(
+    progress_report_path: Path | str,
+    task: T14ChainTask,
+    *,
+    project_root: Path,
+    state: str | object = _UNSET,
+    rows_written: int | object = _UNSET,
+    last_timestamp: str | None | object = _UNSET,
+    retry_count: int | object = _UNSET,
+    fallback_count: int | object = _UNSET,
+    started_at: str | None | object = _UNSET,
+    finished_at: str | None | object = _UNSET,
+    error_message: str | None | object = _UNSET,
+) -> T14ProgressRow:
+    progress_path = Path(progress_report_path)
+    with _progress_lock(progress_path):
+        rows = _read_progress_rows_unlocked(progress_path)
+        key = (task.asset_id, task.lbw)
+        current = rows.get(key) or _default_progress_row(task, project_root=project_root)
+        updates: dict[str, object] = {
+            "output_path": project_relative_path(task.output_path, project_root),
+        }
+        if state is not _UNSET:
+            if state not in PROGRESS_STATES:
+                raise ValueError(f"Invalid progress state: {state}")
+            updates["state"] = state
+        if rows_written is not _UNSET:
+            updates["rows_written"] = rows_written
+        if last_timestamp is not _UNSET:
+            updates["last_timestamp"] = last_timestamp
+        if retry_count is not _UNSET:
+            updates["retry_count"] = retry_count
+        if fallback_count is not _UNSET:
+            updates["fallback_count"] = fallback_count
+        if started_at is not _UNSET:
+            updates["started_at"] = started_at
+        if finished_at is not _UNSET:
+            updates["finished_at"] = finished_at
+        if error_message is not _UNSET:
+            updates["error_message"] = error_message
+        updated = replace(current, **updates)
+        rows[key] = updated
+        _write_progress_rows_unlocked(progress_path, list(rows.values()))
+        return updated
+
+
+def initialize_progress_report(
+    tasks: Sequence[T14ChainTask],
+    *,
+    progress_report_path: Path | str,
+    project_root: Path,
+) -> Path:
+    progress_path = Path(progress_report_path)
+    with _progress_lock(progress_path):
+        existing_rows = _read_progress_rows_unlocked(progress_path)
+        merged_rows: dict[tuple[str, int], T14ProgressRow] = dict(existing_rows)
+        for task in tasks:
+            key = (task.asset_id, task.lbw)
+            existing = existing_rows.get(key)
+            if existing is None:
+                row = _default_progress_row(task, project_root=project_root)
+                if task.output_path.exists():
+                    try:
+                        summary = _summarize_cpd_rows(
+                            load_cpd_feature_csv(
+                                task.output_path,
+                                expected_asset_id=task.asset_id,
+                                expected_lbw=task.lbw,
+                            )
+                        )
+                        row = replace(
+                            row,
+                            state=PROGRESS_STATE_COMPLETED,
+                            rows_written=summary.rows_written,
+                            last_timestamp=summary.last_timestamp,
+                            retry_count=summary.retry_count,
+                            fallback_count=summary.fallback_count,
+                        )
+                    except Exception as exc:
+                        row = replace(
+                            row,
+                            state=PROGRESS_STATE_FAILED,
+                            finished_at=_utcnow_text(),
+                            error_message=str(exc),
+                        )
+                elif task.partial_output_path.exists():
+                    try:
+                        _repair_partial_output(task)
+                        summary = _summarize_cpd_rows(
+                            load_cpd_feature_csv(
+                                task.partial_output_path,
+                                expected_asset_id=task.asset_id,
+                                expected_lbw=task.lbw,
+                            )
+                        )
+                        row = replace(
+                            row,
+                            state=PROGRESS_STATE_RUNNING,
+                            rows_written=summary.rows_written,
+                            last_timestamp=summary.last_timestamp,
+                            retry_count=summary.retry_count,
+                            fallback_count=summary.fallback_count,
+                        )
+                    except Exception as exc:
+                        row = replace(
+                            row,
+                            state=PROGRESS_STATE_FAILED,
+                            finished_at=_utcnow_text(),
+                            error_message=str(exc),
+                        )
+                merged_rows[key] = row
+                continue
+            merged_rows[key] = replace(
+                existing,
+                output_path=project_relative_path(task.output_path, project_root),
+            )
+        _write_progress_rows_unlocked(progress_path, list(merged_rows.values()))
+    return progress_path
 
 
 def run_t14_chain_task(
@@ -903,7 +1225,18 @@ def run_t14_chain_task(
     resume: bool = False,
     skip_if_complete: bool = False,
     stop_after_rows: int | None = None,
+    progress_report_path: Path | str | None = None,
+    project_root: Path | str | None = None,
+    flush_rows: int = DEFAULT_FLUSH_ROWS,
 ) -> Path:
+    project_root_path = (
+        Path(project_root) if project_root is not None else default_project_root()
+    )
+    if flush_rows <= 0:
+        raise ValueError(f"flush_rows must be positive: {flush_rows}")
+    if stop_after_rows is not None and stop_after_rows <= 0:
+        raise ValueError(f"stop_after_rows must be positive: {stop_after_rows}")
+
     canonical_rows = load_canonical_daily_close_csv(
         task.canonical_csv_path,
         expected_asset_id=task.asset_id,
@@ -918,85 +1251,222 @@ def run_t14_chain_task(
         returns_rows,
     )
 
-    if stop_after_rows is not None and stop_after_rows <= 0:
-        raise ValueError(f"stop_after_rows must be positive: {stop_after_rows}")
+    progress_path = (
+        None if progress_report_path is None else Path(progress_report_path)
+    )
+    if progress_path is not None:
+        _update_progress_row(
+            progress_path,
+            task,
+            project_root=project_root_path,
+        )
 
-    if task.output_path.exists():
-        if skip_if_complete:
-            _validate_completed_output(
-                task,
-                expected_row_count=len(returns_rows),
+    try:
+        if task.output_path.exists():
+            if skip_if_complete:
+                completed_summary = _load_completed_output_summary(
+                    task,
+                    returns_rows=returns_rows,
+                )
+                _remove_if_exists(task.partial_output_path)
+                _remove_if_exists(task.checkpoint_path)
+                if progress_path is not None:
+                    timestamp = _utcnow_text()
+                    _update_progress_row(
+                        progress_path,
+                        task,
+                        project_root=project_root_path,
+                        state=PROGRESS_STATE_COMPLETED,
+                        rows_written=completed_summary.rows_written,
+                        last_timestamp=completed_summary.last_timestamp,
+                        retry_count=completed_summary.retry_count,
+                        fallback_count=completed_summary.fallback_count,
+                        started_at=timestamp,
+                        finished_at=timestamp,
+                        error_message=None,
+                    )
+                return task.output_path
+            _remove_if_exists(task.output_path)
+
+        if not resume:
+            _remove_if_exists(task.partial_output_path)
+            _remove_if_exists(task.checkpoint_path)
+            progress = T14ChainResumeState(
+                rows_written=0,
+                previous_outputs=None,
+                previous_output_timestamp=None,
+                last_timestamp=None,
+                retry_count=0,
+                fallback_count=0,
             )
-            return task.output_path
-        _remove_if_exists(task.output_path)
+        else:
+            progress = _load_partial_chain_progress(
+                task,
+                returns_rows=returns_rows,
+            )
 
-    if not resume:
-        _remove_if_exists(task.partial_output_path)
-        _remove_if_exists(task.checkpoint_path)
-        progress = T14ChainProgress(
-            rows_completed=0,
-            previous_outputs=None,
-            previous_output_timestamp=None,
-        )
-    else:
-        progress = _load_partial_chain_progress(task)
-
-    if progress.rows_completed > len(returns_rows):
-        raise ValueError(
-            f"Partial progress exceeds available rows for {task.asset_id} lbw={task.lbw}: "
-            f"{progress.rows_completed} > {len(returns_rows)}"
-        )
-
-    if stop_after_rows is not None and progress.rows_completed >= stop_after_rows:
-        raise ValueError(
-            f"stop_after_rows={stop_after_rows} must exceed existing progress "
-            f"{progress.rows_completed} for {task.asset_id} lbw={task.lbw}"
-        )
-
-    if progress.rows_completed == len(returns_rows):
-        if not task.partial_output_path.exists():
+        if progress.rows_written > len(returns_rows):
             raise ValueError(
-                f"Missing partial output for completed checkpoint {task.asset_id} lbw={task.lbw}"
+                f"Partial progress exceeds available rows for {task.asset_id} lbw={task.lbw}: "
+                f"{progress.rows_written} > {len(returns_rows)}"
+            )
+        if stop_after_rows is not None and progress.rows_written >= stop_after_rows:
+            raise ValueError(
+                f"stop_after_rows={stop_after_rows} must exceed existing progress "
+                f"{progress.rows_written} for {task.asset_id} lbw={task.lbw}"
+            )
+
+        if progress.rows_written == len(returns_rows):
+            if not task.partial_output_path.exists():
+                raise ValueError(
+                    f"Missing partial output for completed checkpoint {task.asset_id} lbw={task.lbw}"
+                )
+            task.partial_output_path.replace(task.output_path)
+            _remove_if_exists(task.checkpoint_path)
+            if progress_path is not None:
+                finished_at = _utcnow_text()
+                _update_progress_row(
+                    progress_path,
+                    task,
+                    project_root=project_root_path,
+                    state=PROGRESS_STATE_COMPLETED,
+                    rows_written=progress.rows_written,
+                    last_timestamp=progress.last_timestamp,
+                    retry_count=progress.retry_count,
+                    fallback_count=progress.fallback_count,
+                    started_at=finished_at,
+                    finished_at=finished_at,
+                    error_message=None,
+                )
+            return task.output_path
+
+        started_at = _utcnow_text()
+        if progress_path is not None:
+            _update_progress_row(
+                progress_path,
+                task,
+                project_root=project_root_path,
+                state=PROGRESS_STATE_RUNNING,
+                rows_written=progress.rows_written,
+                last_timestamp=progress.last_timestamp,
+                retry_count=progress.retry_count,
+                fallback_count=progress.fallback_count,
+                started_at=started_at,
+                finished_at=None,
+                error_message=None,
+            )
+
+        previous_outputs = progress.previous_outputs
+        previous_output_timestamp = progress.previous_output_timestamp
+        rows_written = progress.rows_written
+        last_timestamp = progress.last_timestamp
+        retry_count = progress.retry_count
+        fallback_count = progress.fallback_count
+        buffer: list[dict[str, str]] = []
+
+        writer, handle = _prepare_partial_writer(
+            task,
+            use_append=resume and task.partial_output_path.exists(),
+        )
+
+        def flush_buffer() -> None:
+            nonlocal rows_written, last_timestamp, retry_count, fallback_count, buffer
+            if not buffer:
+                return
+            writer.writerows(buffer)
+            _fsync_handle(handle)
+            rows_written += len(buffer)
+            last_timestamp = buffer[-1]["timestamp"]
+            retry_count += sum(1 for row in buffer if row["retry_used"] == "true")
+            fallback_count += sum(1 for row in buffer if row["fallback_used"] == "true")
+            if progress_path is not None:
+                _update_progress_row(
+                    progress_path,
+                    task,
+                    project_root=project_root_path,
+                    state=PROGRESS_STATE_RUNNING,
+                    rows_written=rows_written,
+                    last_timestamp=last_timestamp,
+                    retry_count=retry_count,
+                    fallback_count=fallback_count,
+                )
+            buffer = []
+
+        try:
+            for end_index in range(progress.rows_written, len(returns_rows)):
+                output_row, previous_outputs, previous_output_timestamp = compute_cpd_feature_row(
+                    returns_rows,
+                    end_index=end_index,
+                    lbw=task.lbw,
+                    previous_outputs=previous_outputs,
+                    previous_output_timestamp=previous_output_timestamp,
+                    fit_window_fn=fit_window_fn,
+                )
+                buffer.append(output_row)
+                pending_rows_written = rows_written + len(buffer)
+                if len(buffer) >= flush_rows:
+                    flush_buffer()
+                if stop_after_rows is not None and pending_rows_written >= stop_after_rows:
+                    flush_buffer()
+                    raise T14ChainStopRequested(
+                        f"Stopped after {pending_rows_written} rows for "
+                        f"{task.asset_id} lbw={task.lbw}"
+                    )
+            flush_buffer()
+        except T14ChainStopRequested:
+            handle.close()
+            raise
+        except Exception as exc:
+            try:
+                flush_buffer()
+            finally:
+                handle.close()
+            if progress_path is not None:
+                _update_progress_row(
+                    progress_path,
+                    task,
+                    project_root=project_root_path,
+                    state=PROGRESS_STATE_FAILED,
+                    rows_written=rows_written,
+                    last_timestamp=last_timestamp,
+                    retry_count=retry_count,
+                    fallback_count=fallback_count,
+                    finished_at=_utcnow_text(),
+                    error_message=str(exc),
+                )
+            raise
+        else:
+            handle.close()
+
+        completed_summary = _load_partial_chain_progress(
+            task,
+            returns_rows=returns_rows,
+        )
+        if completed_summary.rows_written != len(returns_rows):
+            raise ValueError(
+                f"Partial output remained incomplete for {task.asset_id} lbw={task.lbw}: "
+                f"{completed_summary.rows_written} != {len(returns_rows)}"
             )
         task.partial_output_path.replace(task.output_path)
         _remove_if_exists(task.checkpoint_path)
+        if progress_path is not None:
+            _update_progress_row(
+                progress_path,
+                task,
+                project_root=project_root_path,
+                state=PROGRESS_STATE_COMPLETED,
+                rows_written=completed_summary.rows_written,
+                last_timestamp=completed_summary.last_timestamp,
+                retry_count=completed_summary.retry_count,
+                fallback_count=completed_summary.fallback_count,
+                finished_at=_utcnow_text(),
+                error_message=None,
+            )
         return task.output_path
-
-    previous_outputs = progress.previous_outputs
-    previous_output_timestamp = progress.previous_output_timestamp
-    writer, handle = _prepare_partial_writer(task, resume=resume)
-    try:
-        for end_index in range(progress.rows_completed, len(returns_rows)):
-            output_row, previous_outputs, previous_output_timestamp = compute_cpd_feature_row(
-                returns_rows,
-                end_index=end_index,
-                lbw=task.lbw,
-                previous_outputs=previous_outputs,
-                previous_output_timestamp=previous_output_timestamp,
-                fit_window_fn=fit_window_fn,
-            )
-            writer.writerow(output_row)
-            rows_completed = end_index + 1
-            _write_chain_checkpoint(
-                task.checkpoint_path,
-                _build_chain_checkpoint(
-                    task,
-                    rows_completed=rows_completed,
-                    last_completed_timestamp=returns_rows[end_index].timestamp,
-                    previous_outputs=previous_outputs,
-                    previous_output_timestamp=previous_output_timestamp,
-                ),
-            )
-            if stop_after_rows is not None and rows_completed >= stop_after_rows:
-                raise T14ChainStopRequested(
-                    f"Stopped after {rows_completed} rows for {task.asset_id} lbw={task.lbw}"
-                )
     finally:
-        handle.close()
-
-    task.partial_output_path.replace(task.output_path)
-    _remove_if_exists(task.checkpoint_path)
-    return task.output_path
+        del canonical_rows
+        del returns_rows
+        _cleanup_job_memory()
 
 
 def _deterministic_worker_env() -> dict[str, str]:
@@ -1086,7 +1556,6 @@ def _apply_deterministic_worker_runtime() -> None:
         tf.config.threading.set_intra_op_parallelism_threads(1)
         tf.config.threading.set_inter_op_parallelism_threads(1)
     except RuntimeError:
-        # Thread pools can no longer be mutated if the runtime is already initialized.
         pass
     except Exception:
         pass
@@ -1105,13 +1574,26 @@ def _worker_subprocess_env() -> dict[str, str]:
     return env
 
 
-def _worker_command(task: T14ChainTask, *, resume: bool) -> list[str]:
+def _worker_command(
+    task: T14ChainTask,
+    *,
+    resume: bool,
+    progress_report_path: Path,
+    project_root: Path,
+    flush_rows: int,
+) -> list[str]:
     command = [
         sys.executable,
         "-m",
         "lstm_cpd.cpd.precompute",
         "--worker-task-json",
         _serialize_t14_chain_task(task),
+        "--worker-progress-report-path",
+        str(progress_report_path),
+        "--worker-project-root",
+        str(project_root),
+        "--worker-flush-rows",
+        str(flush_rows),
     ]
     if resume:
         command.append("--worker-resume")
@@ -1122,10 +1604,19 @@ def _run_t14_chain_task_worker_subprocess(
     task: T14ChainTask,
     *,
     resume: bool,
+    progress_report_path: Path,
+    project_root: Path,
+    flush_rows: int,
     env: dict[str, str],
 ) -> subprocess.Popen[str]:
     return subprocess.Popen(
-        _worker_command(task, resume=resume),
+        _worker_command(
+            task,
+            resume=resume,
+            progress_report_path=progress_report_path,
+            project_root=project_root,
+            flush_rows=flush_rows,
+        ),
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         text=True,
@@ -1158,39 +1649,59 @@ def build_t14_outputs_parallel(
     *,
     project_root: Path | str | None = None,
     lbws: Sequence[int] = ALLOWED_CPD_LBWS,
+    asset_ids: Sequence[str] | None = None,
     max_workers: int | None = None,
     resume: bool = True,
+    progress_report_path: Path | str | None = None,
+    flush_rows: int = DEFAULT_FLUSH_ROWS,
 ) -> list[Path]:
+    project_root_path = (
+        Path(project_root) if project_root is not None else default_project_root()
+    )
+    progress_path = (
+        Path(progress_report_path)
+        if progress_report_path is not None
+        else default_progress_report_path(project_root_path)
+    )
     tasks = build_t14_task_specs(
         canonical_manifest_input=canonical_manifest_input,
         returns_input_dir=returns_input_dir,
         output_dir=output_dir,
-        project_root=project_root,
+        project_root=project_root_path,
         lbws=lbws,
+        asset_ids=asset_ids,
     )
-    if max_workers is None:
-        max_workers = default_parallel_workers()
-    if max_workers <= 0:
-        raise ValueError(f"max_workers must be positive: {max_workers}")
+    initialize_progress_report(
+        tasks,
+        progress_report_path=progress_path,
+        project_root=project_root_path,
+    )
 
-    if max_workers == 1:
-        output_paths = [
-            run_t14_chain_task(
-                task,
-                resume=resume,
-                skip_if_complete=resume,
-            )
-            for task in tasks
-        ]
-    else:
-        previous_env = _set_parent_worker_env()
-        try:
+    requested_workers = default_parallel_workers() if max_workers is None else max_workers
+    effective_workers = clamp_parallel_workers(requested_workers)
+
+    previous_env = _set_parent_worker_env()
+    try:
+        _apply_deterministic_worker_runtime()
+        if effective_workers == 1:
+            output_paths = [
+                run_t14_chain_task(
+                    task,
+                    resume=resume,
+                    skip_if_complete=resume,
+                    progress_report_path=progress_path,
+                    project_root=project_root_path,
+                    flush_rows=flush_rows,
+                )
+                for task in tasks
+            ]
+        else:
             worker_env = _worker_subprocess_env()
             pending_tasks = list(tasks)
             active_processes: list[tuple[T14ChainTask, subprocess.Popen[str]]] = []
             completed_paths: dict[tuple[str, int], Path] = {}
             while pending_tasks or active_processes:
-                while pending_tasks and len(active_processes) < max_workers:
+                while pending_tasks and len(active_processes) < effective_workers:
                     task = pending_tasks.pop(0)
                     active_processes.append(
                         (
@@ -1198,6 +1709,9 @@ def build_t14_outputs_parallel(
                             _run_t14_chain_task_worker_subprocess(
                                 task,
                                 resume=resume,
+                                progress_report_path=progress_path,
+                                project_root=project_root_path,
+                                flush_rows=flush_rows,
                                 env=worker_env,
                             ),
                         )
@@ -1217,12 +1731,9 @@ def build_t14_outputs_parallel(
                 active_processes = next_active
                 if not made_progress and active_processes:
                     time.sleep(0.05)
-            output_paths = [
-                completed_paths[(task.asset_id, task.lbw)]
-                for task in tasks
-            ]
-        finally:
-            _restore_parent_worker_env(previous_env)
+            output_paths = [completed_paths[(task.asset_id, task.lbw)] for task in tasks]
+    finally:
+        _restore_parent_worker_env(previous_env)
 
     for task in tasks:
         if not task.output_path.exists():
@@ -1237,24 +1748,53 @@ def build_t14_outputs(
     *,
     project_root: Path | str | None = None,
     lbws: Sequence[int] = ALLOWED_CPD_LBWS,
+    asset_ids: Sequence[str] | None = None,
     fit_window_fn: Callable[[CPDWindowInput], CPDWindowResult] = fit_cpd_window,
+    resume: bool = False,
+    skip_if_complete: bool = False,
+    progress_report_path: Path | str | None = None,
+    flush_rows: int = DEFAULT_FLUSH_ROWS,
 ) -> list[Path]:
+    project_root_path = (
+        Path(project_root) if project_root is not None else default_project_root()
+    )
+    progress_path = (
+        Path(progress_report_path)
+        if progress_report_path is not None
+        else default_progress_report_path(project_root_path)
+    )
     tasks = build_t14_task_specs(
         canonical_manifest_input=canonical_manifest_input,
         returns_input_dir=returns_input_dir,
         output_dir=output_dir,
-        project_root=project_root,
+        project_root=project_root_path,
         lbws=lbws,
+        asset_ids=asset_ids,
     )
-    output_paths = [
-        run_t14_chain_task(
-            task,
-            fit_window_fn=fit_window_fn,
-            resume=False,
-            skip_if_complete=False,
-        )
-        for task in tasks
-    ]
+    initialize_progress_report(
+        tasks,
+        progress_report_path=progress_path,
+        project_root=project_root_path,
+    )
+
+    previous_env = _set_parent_worker_env()
+    try:
+        _apply_deterministic_worker_runtime()
+        output_paths = [
+            run_t14_chain_task(
+                task,
+                fit_window_fn=fit_window_fn,
+                resume=resume,
+                skip_if_complete=skip_if_complete,
+                progress_report_path=progress_path,
+                project_root=project_root_path,
+                flush_rows=flush_rows,
+            )
+            for task in tasks
+        ]
+    finally:
+        _restore_parent_worker_env(previous_env)
+
     for task in tasks:
         if not task.output_path.exists():
             raise ValueError(f"Missing CPD output for {task.asset_id} lbw={task.lbw}")
@@ -1277,12 +1817,39 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument("--output-dir", type=Path, default=default_output_dir())
     parser.add_argument("--project-root", type=Path, default=default_project_root())
+    parser.add_argument(
+        "--asset-id",
+        dest="asset_ids",
+        action="append",
+        default=None,
+        help="Restrict T-14 to one or more asset_ids.",
+    )
+    parser.add_argument(
+        "--lbw",
+        dest="lbws",
+        action="append",
+        type=int,
+        default=None,
+        help="Restrict T-14 to one or more LBWs.",
+    )
     parser.add_argument("--workers", type=int, default=1)
     parser.add_argument(
         "--resume",
         action=argparse.BooleanOptionalAction,
-        default=False,
-        help="Resume from per-chain checkpoints and skip completed final outputs.",
+        default=True,
+        help="Resume from partial CSVs and skip valid completed final outputs.",
+    )
+    parser.add_argument(
+        "--progress-report-path",
+        type=Path,
+        default=None,
+        help="Optional override for the durable T-14 progress report.",
+    )
+    parser.add_argument(
+        "--flush-rows",
+        type=int,
+        default=DEFAULT_FLUSH_ROWS,
+        help="Number of rows to buffer before fsync.",
     )
     parser.add_argument(
         "--worker-task-json",
@@ -1293,6 +1860,24 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--worker-resume",
         action="store_true",
+        help=argparse.SUPPRESS,
+    )
+    parser.add_argument(
+        "--worker-progress-report-path",
+        type=Path,
+        default=None,
+        help=argparse.SUPPRESS,
+    )
+    parser.add_argument(
+        "--worker-project-root",
+        type=Path,
+        default=None,
+        help=argparse.SUPPRESS,
+    )
+    parser.add_argument(
+        "--worker-flush-rows",
+        type=int,
+        default=DEFAULT_FLUSH_ROWS,
         help=argparse.SUPPRESS,
     )
     return parser.parse_args(argv)
@@ -1307,25 +1892,25 @@ def main(argv: Sequence[str] | None = None) -> int:
             task,
             resume=args.worker_resume,
             skip_if_complete=args.worker_resume,
+            progress_report_path=args.worker_progress_report_path,
+            project_root=args.worker_project_root,
+            flush_rows=args.worker_flush_rows,
         )
         print(str(output_path))
         return 0
-    if args.workers > 1 or args.resume:
-        output_paths = build_t14_outputs_parallel(
-            canonical_manifest_input=args.canonical_manifest_input,
-            returns_input_dir=args.returns_input_dir,
-            output_dir=args.output_dir,
-            project_root=args.project_root,
-            max_workers=args.workers,
-            resume=args.resume,
-        )
-    else:
-        output_paths = build_t14_outputs(
-            canonical_manifest_input=args.canonical_manifest_input,
-            returns_input_dir=args.returns_input_dir,
-            output_dir=args.output_dir,
-            project_root=args.project_root,
-        )
+
+    output_paths = build_t14_outputs_parallel(
+        canonical_manifest_input=args.canonical_manifest_input,
+        returns_input_dir=args.returns_input_dir,
+        output_dir=args.output_dir,
+        project_root=args.project_root,
+        lbws=ALLOWED_CPD_LBWS if args.lbws is None else args.lbws,
+        asset_ids=args.asset_ids,
+        max_workers=args.workers,
+        resume=args.resume,
+        progress_report_path=args.progress_report_path,
+        flush_rows=args.flush_rows,
+    )
     print(f"Wrote {len(output_paths)} CPD feature files.")
     return 0
 

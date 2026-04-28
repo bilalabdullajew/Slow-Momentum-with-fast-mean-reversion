@@ -16,6 +16,7 @@ if str(SRC_ROOT) not in sys.path:
 
 from lstm_cpd.cpd.fit_window import (  # noqa: E402
     WINDOW_STANDARDIZATION_DDOF,
+    compute_severity_score,
     compute_gamma_from_location,
     fit_cpd_window,
     standardize_return_window,
@@ -74,6 +75,14 @@ class T13CpdEngineTests(unittest.TestCase):
     def test_compute_gamma_from_location_uses_local_coordinate_ratio(self) -> None:
         self.assertAlmostEqual(compute_gamma_from_location(5.0, 10), 0.5)
         self.assertAlmostEqual(compute_gamma_from_location(2.5, 10), 0.25)
+
+    def test_compute_severity_score_is_high_when_changepoint_fit_is_better(self) -> None:
+        improved = compute_severity_score(12.0, 8.0)
+        worse = compute_severity_score(8.0, 12.0)
+
+        self.assertGreater(improved, 0.5)
+        self.assertLess(worse, 0.5)
+        self.assertGreater(improved, worse)
 
     def test_build_baseline_model_initializes_all_parameters_to_one(self) -> None:
         x_values = build_local_time_index(10)

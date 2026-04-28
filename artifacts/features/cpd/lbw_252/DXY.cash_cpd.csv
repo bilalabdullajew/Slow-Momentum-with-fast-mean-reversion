@@ -1,0 +1,321 @@
+timestamp,asset_id,lbw,nu,gamma,status,window_size,nlml_baseline,nlml_changepoint,retry_used,fallback_used,location_c,steepness_s,fallback_source_timestamp,failure_stage,failure_message
+2024-11-26T00:00:00,DXY.cash,252,,,invalid_window,1,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 1"
+2024-11-27T00:00:00,DXY.cash,252,,,invalid_window,2,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 2"
+2024-11-28T00:00:00,DXY.cash,252,,,invalid_window,3,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 3"
+2024-11-29T00:00:00,DXY.cash,252,,,invalid_window,4,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 4"
+2024-12-02T00:00:00,DXY.cash,252,,,invalid_window,5,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 5"
+2024-12-03T00:00:00,DXY.cash,252,,,invalid_window,6,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 6"
+2024-12-04T00:00:00,DXY.cash,252,,,invalid_window,7,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 7"
+2024-12-05T00:00:00,DXY.cash,252,,,invalid_window,8,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 8"
+2024-12-06T00:00:00,DXY.cash,252,,,invalid_window,9,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 9"
+2024-12-09T00:00:00,DXY.cash,252,,,invalid_window,10,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 10"
+2024-12-10T00:00:00,DXY.cash,252,,,invalid_window,11,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 11"
+2024-12-11T00:00:00,DXY.cash,252,,,invalid_window,12,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 12"
+2024-12-12T00:00:00,DXY.cash,252,,,invalid_window,13,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 13"
+2024-12-13T00:00:00,DXY.cash,252,,,invalid_window,14,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 14"
+2024-12-16T00:00:00,DXY.cash,252,,,invalid_window,15,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 15"
+2024-12-17T00:00:00,DXY.cash,252,,,invalid_window,16,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 16"
+2024-12-18T00:00:00,DXY.cash,252,,,invalid_window,17,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 17"
+2024-12-19T00:00:00,DXY.cash,252,,,invalid_window,18,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 18"
+2024-12-20T00:00:00,DXY.cash,252,,,invalid_window,19,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 19"
+2024-12-23T00:00:00,DXY.cash,252,,,invalid_window,20,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 20"
+2024-12-24T00:00:00,DXY.cash,252,,,invalid_window,21,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 21"
+2024-12-26T00:00:00,DXY.cash,252,,,invalid_window,22,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 22"
+2024-12-27T00:00:00,DXY.cash,252,,,invalid_window,23,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 23"
+2024-12-30T00:00:00,DXY.cash,252,,,invalid_window,24,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 24"
+2024-12-31T00:00:00,DXY.cash,252,,,invalid_window,25,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 25"
+2025-01-02T00:00:00,DXY.cash,252,,,invalid_window,26,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 26"
+2025-01-03T00:00:00,DXY.cash,252,,,invalid_window,27,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 27"
+2025-01-06T00:00:00,DXY.cash,252,,,invalid_window,28,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 28"
+2025-01-07T00:00:00,DXY.cash,252,,,invalid_window,29,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 29"
+2025-01-08T00:00:00,DXY.cash,252,,,invalid_window,30,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 30"
+2025-01-09T00:00:00,DXY.cash,252,,,invalid_window,31,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 31"
+2025-01-10T00:00:00,DXY.cash,252,,,invalid_window,32,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 32"
+2025-01-13T00:00:00,DXY.cash,252,,,invalid_window,33,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 33"
+2025-01-14T00:00:00,DXY.cash,252,,,invalid_window,34,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 34"
+2025-01-15T00:00:00,DXY.cash,252,,,invalid_window,35,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 35"
+2025-01-16T00:00:00,DXY.cash,252,,,invalid_window,36,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 36"
+2025-01-17T00:00:00,DXY.cash,252,,,invalid_window,37,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 37"
+2025-01-20T00:00:00,DXY.cash,252,,,invalid_window,38,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 38"
+2025-01-21T00:00:00,DXY.cash,252,,,invalid_window,39,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 39"
+2025-01-22T00:00:00,DXY.cash,252,,,invalid_window,40,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 40"
+2025-01-23T00:00:00,DXY.cash,252,,,invalid_window,41,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 41"
+2025-01-24T00:00:00,DXY.cash,252,,,invalid_window,42,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 42"
+2025-01-27T00:00:00,DXY.cash,252,,,invalid_window,43,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 43"
+2025-01-28T00:00:00,DXY.cash,252,,,invalid_window,44,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 44"
+2025-01-29T00:00:00,DXY.cash,252,,,invalid_window,45,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 45"
+2025-01-30T00:00:00,DXY.cash,252,,,invalid_window,46,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 46"
+2025-01-31T00:00:00,DXY.cash,252,,,invalid_window,47,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 47"
+2025-02-03T00:00:00,DXY.cash,252,,,invalid_window,48,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 48"
+2025-02-04T00:00:00,DXY.cash,252,,,invalid_window,49,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 49"
+2025-02-05T00:00:00,DXY.cash,252,,,invalid_window,50,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 50"
+2025-02-06T00:00:00,DXY.cash,252,,,invalid_window,51,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 51"
+2025-02-07T00:00:00,DXY.cash,252,,,invalid_window,52,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 52"
+2025-02-10T00:00:00,DXY.cash,252,,,invalid_window,53,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 53"
+2025-02-11T00:00:00,DXY.cash,252,,,invalid_window,54,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 54"
+2025-02-12T00:00:00,DXY.cash,252,,,invalid_window,55,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 55"
+2025-02-13T00:00:00,DXY.cash,252,,,invalid_window,56,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 56"
+2025-02-14T00:00:00,DXY.cash,252,,,invalid_window,57,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 57"
+2025-02-17T00:00:00,DXY.cash,252,,,invalid_window,58,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 58"
+2025-02-18T00:00:00,DXY.cash,252,,,invalid_window,59,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 59"
+2025-02-19T00:00:00,DXY.cash,252,,,invalid_window,60,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 60"
+2025-02-20T00:00:00,DXY.cash,252,,,invalid_window,61,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 61"
+2025-02-21T00:00:00,DXY.cash,252,,,invalid_window,62,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 62"
+2025-02-24T00:00:00,DXY.cash,252,,,invalid_window,63,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 63"
+2025-02-25T00:00:00,DXY.cash,252,,,invalid_window,64,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 64"
+2025-02-26T00:00:00,DXY.cash,252,,,invalid_window,65,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 65"
+2025-02-27T00:00:00,DXY.cash,252,,,invalid_window,66,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 66"
+2025-02-28T00:00:00,DXY.cash,252,,,invalid_window,67,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 67"
+2025-03-03T00:00:00,DXY.cash,252,,,invalid_window,68,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 68"
+2025-03-04T00:00:00,DXY.cash,252,,,invalid_window,69,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 69"
+2025-03-05T00:00:00,DXY.cash,252,,,invalid_window,70,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 70"
+2025-03-06T00:00:00,DXY.cash,252,,,invalid_window,71,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 71"
+2025-03-07T00:00:00,DXY.cash,252,,,invalid_window,72,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 72"
+2025-03-10T00:00:00,DXY.cash,252,,,invalid_window,73,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 73"
+2025-03-11T00:00:00,DXY.cash,252,,,invalid_window,74,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 74"
+2025-03-12T00:00:00,DXY.cash,252,,,invalid_window,75,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 75"
+2025-03-13T00:00:00,DXY.cash,252,,,invalid_window,76,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 76"
+2025-03-14T00:00:00,DXY.cash,252,,,invalid_window,77,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 77"
+2025-03-17T00:00:00,DXY.cash,252,,,invalid_window,78,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 78"
+2025-03-18T00:00:00,DXY.cash,252,,,invalid_window,79,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 79"
+2025-03-19T00:00:00,DXY.cash,252,,,invalid_window,80,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 80"
+2025-03-20T00:00:00,DXY.cash,252,,,invalid_window,81,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 81"
+2025-03-21T00:00:00,DXY.cash,252,,,invalid_window,82,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 82"
+2025-03-24T00:00:00,DXY.cash,252,,,invalid_window,83,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 83"
+2025-03-25T00:00:00,DXY.cash,252,,,invalid_window,84,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 84"
+2025-03-26T00:00:00,DXY.cash,252,,,invalid_window,85,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 85"
+2025-03-27T00:00:00,DXY.cash,252,,,invalid_window,86,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 86"
+2025-03-28T00:00:00,DXY.cash,252,,,invalid_window,87,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 87"
+2025-03-31T00:00:00,DXY.cash,252,,,invalid_window,88,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 88"
+2025-04-01T00:00:00,DXY.cash,252,,,invalid_window,89,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 89"
+2025-04-02T00:00:00,DXY.cash,252,,,invalid_window,90,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 90"
+2025-04-03T00:00:00,DXY.cash,252,,,invalid_window,91,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 91"
+2025-04-04T00:00:00,DXY.cash,252,,,invalid_window,92,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 92"
+2025-04-07T00:00:00,DXY.cash,252,,,invalid_window,93,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 93"
+2025-04-08T00:00:00,DXY.cash,252,,,invalid_window,94,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 94"
+2025-04-09T00:00:00,DXY.cash,252,,,invalid_window,95,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 95"
+2025-04-10T00:00:00,DXY.cash,252,,,invalid_window,96,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 96"
+2025-04-11T00:00:00,DXY.cash,252,,,invalid_window,97,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 97"
+2025-04-14T00:00:00,DXY.cash,252,,,invalid_window,98,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 98"
+2025-04-15T00:00:00,DXY.cash,252,,,invalid_window,99,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 99"
+2025-04-16T00:00:00,DXY.cash,252,,,invalid_window,100,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 100"
+2025-04-17T00:00:00,DXY.cash,252,,,invalid_window,101,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 101"
+2025-04-21T00:00:00,DXY.cash,252,,,invalid_window,102,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 102"
+2025-04-22T00:00:00,DXY.cash,252,,,invalid_window,103,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 103"
+2025-04-23T00:00:00,DXY.cash,252,,,invalid_window,104,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 104"
+2025-04-24T00:00:00,DXY.cash,252,,,invalid_window,105,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 105"
+2025-04-25T00:00:00,DXY.cash,252,,,invalid_window,106,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 106"
+2025-04-28T00:00:00,DXY.cash,252,,,invalid_window,107,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 107"
+2025-04-29T00:00:00,DXY.cash,252,,,invalid_window,108,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 108"
+2025-04-30T00:00:00,DXY.cash,252,,,invalid_window,109,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 109"
+2025-05-01T00:00:00,DXY.cash,252,,,invalid_window,110,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 110"
+2025-05-02T00:00:00,DXY.cash,252,,,invalid_window,111,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 111"
+2025-05-05T00:00:00,DXY.cash,252,,,invalid_window,112,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 112"
+2025-05-06T00:00:00,DXY.cash,252,,,invalid_window,113,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 113"
+2025-05-07T00:00:00,DXY.cash,252,,,invalid_window,114,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 114"
+2025-05-08T00:00:00,DXY.cash,252,,,invalid_window,115,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 115"
+2025-05-09T00:00:00,DXY.cash,252,,,invalid_window,116,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 116"
+2025-05-12T00:00:00,DXY.cash,252,,,invalid_window,117,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 117"
+2025-05-13T00:00:00,DXY.cash,252,,,invalid_window,118,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 118"
+2025-05-14T00:00:00,DXY.cash,252,,,invalid_window,119,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 119"
+2025-05-15T00:00:00,DXY.cash,252,,,invalid_window,120,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 120"
+2025-05-16T00:00:00,DXY.cash,252,,,invalid_window,121,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 121"
+2025-05-19T00:00:00,DXY.cash,252,,,invalid_window,122,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 122"
+2025-05-20T00:00:00,DXY.cash,252,,,invalid_window,123,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 123"
+2025-05-21T00:00:00,DXY.cash,252,,,invalid_window,124,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 124"
+2025-05-22T00:00:00,DXY.cash,252,,,invalid_window,125,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 125"
+2025-05-23T00:00:00,DXY.cash,252,,,invalid_window,126,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 126"
+2025-05-26T00:00:00,DXY.cash,252,,,invalid_window,127,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 127"
+2025-05-27T00:00:00,DXY.cash,252,,,invalid_window,128,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 128"
+2025-05-28T00:00:00,DXY.cash,252,,,invalid_window,129,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 129"
+2025-05-29T00:00:00,DXY.cash,252,,,invalid_window,130,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 130"
+2025-05-30T00:00:00,DXY.cash,252,,,invalid_window,131,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 131"
+2025-06-02T00:00:00,DXY.cash,252,,,invalid_window,132,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 132"
+2025-06-03T00:00:00,DXY.cash,252,,,invalid_window,133,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 133"
+2025-06-04T00:00:00,DXY.cash,252,,,invalid_window,134,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 134"
+2025-06-05T00:00:00,DXY.cash,252,,,invalid_window,135,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 135"
+2025-06-06T00:00:00,DXY.cash,252,,,invalid_window,136,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 136"
+2025-06-09T00:00:00,DXY.cash,252,,,invalid_window,137,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 137"
+2025-06-10T00:00:00,DXY.cash,252,,,invalid_window,138,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 138"
+2025-06-11T00:00:00,DXY.cash,252,,,invalid_window,139,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 139"
+2025-06-12T00:00:00,DXY.cash,252,,,invalid_window,140,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 140"
+2025-06-13T00:00:00,DXY.cash,252,,,invalid_window,141,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 141"
+2025-06-16T00:00:00,DXY.cash,252,,,invalid_window,142,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 142"
+2025-06-17T00:00:00,DXY.cash,252,,,invalid_window,143,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 143"
+2025-06-18T00:00:00,DXY.cash,252,,,invalid_window,144,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 144"
+2025-06-19T00:00:00,DXY.cash,252,,,invalid_window,145,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 145"
+2025-06-20T00:00:00,DXY.cash,252,,,invalid_window,146,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 146"
+2025-06-23T00:00:00,DXY.cash,252,,,invalid_window,147,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 147"
+2025-06-24T00:00:00,DXY.cash,252,,,invalid_window,148,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 148"
+2025-06-25T00:00:00,DXY.cash,252,,,invalid_window,149,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 149"
+2025-06-26T00:00:00,DXY.cash,252,,,invalid_window,150,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 150"
+2025-06-27T00:00:00,DXY.cash,252,,,invalid_window,151,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 151"
+2025-06-30T00:00:00,DXY.cash,252,,,invalid_window,152,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 152"
+2025-07-01T00:00:00,DXY.cash,252,,,invalid_window,153,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 153"
+2025-07-02T00:00:00,DXY.cash,252,,,invalid_window,154,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 154"
+2025-07-03T00:00:00,DXY.cash,252,,,invalid_window,155,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 155"
+2025-07-04T00:00:00,DXY.cash,252,,,invalid_window,156,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 156"
+2025-07-07T00:00:00,DXY.cash,252,,,invalid_window,157,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 157"
+2025-07-08T00:00:00,DXY.cash,252,,,invalid_window,158,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 158"
+2025-07-09T00:00:00,DXY.cash,252,,,invalid_window,159,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 159"
+2025-07-10T00:00:00,DXY.cash,252,,,invalid_window,160,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 160"
+2025-07-11T00:00:00,DXY.cash,252,,,invalid_window,161,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 161"
+2025-07-14T00:00:00,DXY.cash,252,,,invalid_window,162,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 162"
+2025-07-15T00:00:00,DXY.cash,252,,,invalid_window,163,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 163"
+2025-07-16T00:00:00,DXY.cash,252,,,invalid_window,164,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 164"
+2025-07-17T00:00:00,DXY.cash,252,,,invalid_window,165,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 165"
+2025-07-18T00:00:00,DXY.cash,252,,,invalid_window,166,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 166"
+2025-07-21T00:00:00,DXY.cash,252,,,invalid_window,167,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 167"
+2025-07-22T00:00:00,DXY.cash,252,,,invalid_window,168,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 168"
+2025-07-23T00:00:00,DXY.cash,252,,,invalid_window,169,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 169"
+2025-07-24T00:00:00,DXY.cash,252,,,invalid_window,170,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 170"
+2025-07-25T00:00:00,DXY.cash,252,,,invalid_window,171,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 171"
+2025-07-28T00:00:00,DXY.cash,252,,,invalid_window,172,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 172"
+2025-07-29T00:00:00,DXY.cash,252,,,invalid_window,173,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 173"
+2025-07-30T00:00:00,DXY.cash,252,,,invalid_window,174,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 174"
+2025-07-31T00:00:00,DXY.cash,252,,,invalid_window,175,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 175"
+2025-08-01T00:00:00,DXY.cash,252,,,invalid_window,176,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 176"
+2025-08-04T00:00:00,DXY.cash,252,,,invalid_window,177,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 177"
+2025-08-05T00:00:00,DXY.cash,252,,,invalid_window,178,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 178"
+2025-08-06T00:00:00,DXY.cash,252,,,invalid_window,179,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 179"
+2025-08-07T00:00:00,DXY.cash,252,,,invalid_window,180,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 180"
+2025-08-08T00:00:00,DXY.cash,252,,,invalid_window,181,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 181"
+2025-08-11T00:00:00,DXY.cash,252,,,invalid_window,182,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 182"
+2025-08-12T00:00:00,DXY.cash,252,,,invalid_window,183,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 183"
+2025-08-13T00:00:00,DXY.cash,252,,,invalid_window,184,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 184"
+2025-08-14T00:00:00,DXY.cash,252,,,invalid_window,185,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 185"
+2025-08-15T00:00:00,DXY.cash,252,,,invalid_window,186,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 186"
+2025-08-18T00:00:00,DXY.cash,252,,,invalid_window,187,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 187"
+2025-08-19T00:00:00,DXY.cash,252,,,invalid_window,188,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 188"
+2025-08-20T00:00:00,DXY.cash,252,,,invalid_window,189,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 189"
+2025-08-21T00:00:00,DXY.cash,252,,,invalid_window,190,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 190"
+2025-08-22T00:00:00,DXY.cash,252,,,invalid_window,191,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 191"
+2025-08-25T00:00:00,DXY.cash,252,,,invalid_window,192,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 192"
+2025-08-26T00:00:00,DXY.cash,252,,,invalid_window,193,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 193"
+2025-08-27T00:00:00,DXY.cash,252,,,invalid_window,194,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 194"
+2025-08-28T00:00:00,DXY.cash,252,,,invalid_window,195,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 195"
+2025-08-29T00:00:00,DXY.cash,252,,,invalid_window,196,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 196"
+2025-09-01T00:00:00,DXY.cash,252,,,invalid_window,197,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 197"
+2025-09-02T00:00:00,DXY.cash,252,,,invalid_window,198,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 198"
+2025-09-03T00:00:00,DXY.cash,252,,,invalid_window,199,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 199"
+2025-09-04T00:00:00,DXY.cash,252,,,invalid_window,200,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 200"
+2025-09-05T00:00:00,DXY.cash,252,,,invalid_window,201,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 201"
+2025-09-08T00:00:00,DXY.cash,252,,,invalid_window,202,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 202"
+2025-09-09T00:00:00,DXY.cash,252,,,invalid_window,203,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 203"
+2025-09-10T00:00:00,DXY.cash,252,,,invalid_window,204,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 204"
+2025-09-11T00:00:00,DXY.cash,252,,,invalid_window,205,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 205"
+2025-09-12T00:00:00,DXY.cash,252,,,invalid_window,206,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 206"
+2025-09-15T00:00:00,DXY.cash,252,,,invalid_window,207,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 207"
+2025-09-16T00:00:00,DXY.cash,252,,,invalid_window,208,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 208"
+2025-09-17T00:00:00,DXY.cash,252,,,invalid_window,209,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 209"
+2025-09-18T00:00:00,DXY.cash,252,,,invalid_window,210,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 210"
+2025-09-19T00:00:00,DXY.cash,252,,,invalid_window,211,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 211"
+2025-09-22T00:00:00,DXY.cash,252,,,invalid_window,212,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 212"
+2025-09-23T00:00:00,DXY.cash,252,,,invalid_window,213,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 213"
+2025-09-24T00:00:00,DXY.cash,252,,,invalid_window,214,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 214"
+2025-09-25T00:00:00,DXY.cash,252,,,invalid_window,215,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 215"
+2025-09-26T00:00:00,DXY.cash,252,,,invalid_window,216,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 216"
+2025-09-29T00:00:00,DXY.cash,252,,,invalid_window,217,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 217"
+2025-09-30T00:00:00,DXY.cash,252,,,invalid_window,218,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 218"
+2025-10-01T00:00:00,DXY.cash,252,,,invalid_window,219,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 219"
+2025-10-02T00:00:00,DXY.cash,252,,,invalid_window,220,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 220"
+2025-10-03T00:00:00,DXY.cash,252,,,invalid_window,221,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 221"
+2025-10-06T00:00:00,DXY.cash,252,,,invalid_window,222,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 222"
+2025-10-07T00:00:00,DXY.cash,252,,,invalid_window,223,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 223"
+2025-10-08T00:00:00,DXY.cash,252,,,invalid_window,224,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 224"
+2025-10-09T00:00:00,DXY.cash,252,,,invalid_window,225,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 225"
+2025-10-10T00:00:00,DXY.cash,252,,,invalid_window,226,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 226"
+2025-10-13T00:00:00,DXY.cash,252,,,invalid_window,227,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 227"
+2025-10-14T00:00:00,DXY.cash,252,,,invalid_window,228,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 228"
+2025-10-15T00:00:00,DXY.cash,252,,,invalid_window,229,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 229"
+2025-10-16T00:00:00,DXY.cash,252,,,invalid_window,230,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 230"
+2025-10-17T00:00:00,DXY.cash,252,,,invalid_window,231,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 231"
+2025-10-20T00:00:00,DXY.cash,252,,,invalid_window,232,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 232"
+2025-10-21T00:00:00,DXY.cash,252,,,invalid_window,233,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 233"
+2025-10-22T00:00:00,DXY.cash,252,,,invalid_window,234,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 234"
+2025-10-23T00:00:00,DXY.cash,252,,,invalid_window,235,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 235"
+2025-10-24T00:00:00,DXY.cash,252,,,invalid_window,236,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 236"
+2025-10-27T00:00:00,DXY.cash,252,,,invalid_window,237,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 237"
+2025-10-28T00:00:00,DXY.cash,252,,,invalid_window,238,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 238"
+2025-10-29T00:00:00,DXY.cash,252,,,invalid_window,239,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 239"
+2025-10-30T00:00:00,DXY.cash,252,,,invalid_window,240,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 240"
+2025-10-31T00:00:00,DXY.cash,252,,,invalid_window,241,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 241"
+2025-11-03T00:00:00,DXY.cash,252,,,invalid_window,242,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 242"
+2025-11-04T00:00:00,DXY.cash,252,,,invalid_window,243,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 243"
+2025-11-05T00:00:00,DXY.cash,252,,,invalid_window,244,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 244"
+2025-11-06T00:00:00,DXY.cash,252,,,invalid_window,245,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 245"
+2025-11-07T00:00:00,DXY.cash,252,,,invalid_window,246,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 246"
+2025-11-10T00:00:00,DXY.cash,252,,,invalid_window,247,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 247"
+2025-11-11T00:00:00,DXY.cash,252,,,invalid_window,248,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 248"
+2025-11-12T00:00:00,DXY.cash,252,,,invalid_window,249,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 249"
+2025-11-13T00:00:00,DXY.cash,252,,,invalid_window,250,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 250"
+2025-11-14T00:00:00,DXY.cash,252,,,invalid_window,251,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 251"
+2025-11-17T00:00:00,DXY.cash,252,,,invalid_window,252,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 252"
+2025-11-18T00:00:00,DXY.cash,252,,,invalid_window,253,,,false,false,,,,window_standardization,window returns must be finite
+2025-11-19T00:00:00,DXY.cash,252,0.99860021016343781,0.52392898735043991,success,253,358.99145003802499,352.42141763811173,false,false,132.03010481231087,9.506138653682072,,,
+2025-11-20T00:00:00,DXY.cash,252,0.99779540190126081,0.5493453328490423,success,253,358.99145027005056,352.87644724701158,false,false,138.43502387795866,0.99970556973377211,,,
+2025-11-21T00:00:00,DXY.cash,252,0.99905592482356664,0.51612376424517814,success,253,358.99144969012121,352.02708945228005,false,false,130.06318858978489,6.3535735334867693,,,
+2025-11-24T00:00:00,DXY.cash,252,0.98603775324161302,0.42058656075132866,success,253,358.99146508176631,354.73412746556721,false,false,105.98781330933483,42.988517213480129,,,
+2025-11-25T00:00:00,DXY.cash,252,0.99908877632670001,0.44840008578985807,success,253,358.99145053019953,351.99164000347628,false,false,112.99682161904424,205.86164380745782,,,
+2025-11-26T00:00:00,DXY.cash,252,0.99995217209692788,0.67458475595390233,success,253,358.99145048155964,349.0435969681065,false,false,169.99535850038339,191.21708451225851,,,
+2025-11-27T00:00:00,DXY.cash,252,0.9999812273293559,0.73401609788682987,success,253,358.99144958994287,348.10835992789055,false,false,184.97205666748113,36.224171903234108,,,
+2025-11-28T00:00:00,DXY.cash,252,0.99968142052592657,0.49654504465337718,success,253,358.99144996203438,350.94013000432051,false,false,125.12935125265105,4.1776101138329924,,,
+2025-12-01T00:00:00,DXY.cash,252,0.99971157705347957,0.49412644490689533,success,253,358.99144962444865,350.84065549818962,false,false,124.51986411653762,0.33485507193928643,,,
+2025-12-02T00:00:00,DXY.cash,252,0.99983014693021333,0.48840206969220218,success,253,358.9914496102283,350.31104268771975,false,false,123.07732156243495,5.1381726914702854,,,
+2025-12-03T00:00:00,DXY.cash,252,0.99513771812201046,0.39284871429614193,success,253,358.9914498478422,353.67007656002994,false,false,98.997876002627763,277.73575249459742,,,
+2025-12-04T00:00:00,DXY.cash,252,0.99988113800502731,0.48034530074765297,success,253,358.99144942334897,349.95402084846478,false,false,121.04701578840854,6.1622402181403304,,,
+2025-12-05T00:00:00,DXY.cash,252,0.99987802607214171,0.41653233913261511,success,253,358.99145038908887,349.97986912830766,false,false,104.96614946141901,22.009478718089529,,,
+2025-12-08T00:00:00,DXY.cash,252,0.99999644844403635,0.64183401939571205,success,253,358.99144946537012,346.44332826606734,false,false,161.74217288771945,17.663895435715244,,,
+2025-12-09T00:00:00,DXY.cash,252,0.99994854792286536,0.50772396705953293,success,253,358.99144952398382,349.11664125279299,false,false,127.9464396990023,14.715537270552856,,,
+2025-12-10T00:00:00,DXY.cash,252,0.99994366035776827,0.40471163578958119,success,253,358.99144971915428,349.20739391468277,false,false,101.98733221897446,61.449615036944408,,,
+2025-12-11T00:00:00,DXY.cash,252,0.99999752804318665,0.69412179851589273,success,253,358.99144966286678,346.08095164592862,false,false,174.91869322600496,12.929309769874399,,,
+2025-12-12T00:00:00,DXY.cash,252,0.99992731611601016,0.45641589345802219,success,253,358.9914498415103,349.46213165176744,false,false,115.01680515142159,8.9854170032578722,,,
+2025-12-15T00:00:00,DXY.cash,252,0.99994291840049421,0.45248048052644552,success,253,358.99145003308388,349.22047837274238,false,false,114.02508109266427,8.2478099818318515,,,
+2025-12-16T00:00:00,DXY.cash,252,0.99988056635584255,0.4030395044873693,success,253,358.99144968117048,349.95881950211367,false,false,101.56595513081706,0.78821294538365727,,,
+2025-12-17T00:00:00,DXY.cash,252,0.99996922926972376,0.44449123455785328,success,253,358.99144974938463,348.60253388506015,false,false,112.01179110857903,10.832086393244055,,,
+2025-12-18T00:00:00,DXY.cash,252,0.99996936206612252,0.38091634196435126,success,253,358.9914502947949,348.59820928563875,false,false,95.990918175016517,89.010895925542059,,,
+2025-12-19T00:00:00,DXY.cash,252,0.99998501695753894,0.43669051275032617,success,253,358.99144958670428,347.88287307089877,false,false,110.0460092130822,5.6776007172215941,,,
+2025-12-22T00:00:00,DXY.cash,252,0.99998706423088513,0.43255228286598524,success,253,358.99144934806668,347.73594799981333,false,false,109.00317528222828,10.093452581554841,,,
+2025-12-23T00:00:00,DXY.cash,252,0.99998511940283163,0.46824096678802629,success,253,358.99147029018661,347.87603277380981,false,false,117.99672363058262,257.34460331448639,,,
+2025-12-24T00:00:00,DXY.cash,252,0.99998607451784394,0.424644469287073,success,253,358.99144959171042,347.80967336975357,false,false,107.01040626034239,8.8163896396882393,,,
+2025-12-26T00:00:00,DXY.cash,252,0.99999050981257687,0.42068223197027776,success,253,358.99144923439121,347.42620652863008,false,false,106.01192245650999,8.6178084492296172,,,
+2025-12-29T00:00:00,DXY.cash,252,0.99999205984647255,0.4166978252976844,success,253,358.99144969441988,347.24787968767708,false,false,105.00785197501646,11.394441203651345,,,
+2025-12-30T00:00:00,DXY.cash,252,0.99999315020558255,0.41272002326375795,success,253,358.99145096533084,347.10016589696988,false,false,104.005445862467,12.134428151892729,,,
+2025-12-31T00:00:00,DXY.cash,252,0.99999995978284895,0.64154377262726558,success,253,358.99144930660725,341.9624770563683,false,false,161.66903070207093,20.145029542789956,,,
+2026-01-02T00:00:00,DXY.cash,252,0.99999992588046738,0.57539035650732862,success,253,358.99144929126891,342.57386262487876,false,false,144.99836983984682,658.00007979255361,,,
+2026-01-05T00:00:00,DXY.cash,252,0.99999994475065945,0.57140011650140499,success,253,358.99144930860024,342.28003993013971,false,false,143.99282935835404,150.51652890513071,,,
+2026-01-06T00:00:00,DXY.cash,252,0.99999780562762353,0.39683623142943369,success,253,358.99144944144979,345.96183715026939,false,false,100.0027303202173,7.7847727871562045,,,
+2026-01-07T00:00:00,DXY.cash,252,0.99999819745143603,0.403259763252861,success,253,358.99145008078784,345.76514285775511,false,false,101.62146033972097,0.1851671275211243,,,
+2026-01-08T00:00:00,DXY.cash,252,0.99999834406045018,0.32934972878078417,success,253,358.99145094738708,345.68031059699274,false,false,82.996131652757612,241.26175126822142,,,
+2026-01-09T00:00:00,DXY.cash,252,0.99999923411311442,0.38495274824235631,success,253,358.99145106712302,344.90922048593467,false,false,97.008092557073795,10.496612707493519,,,
+2026-01-12T00:00:00,DXY.cash,252,0.99999998707524185,0.55153358759186277,success,253,358.99145146683298,340.82733036402067,false,false,138.98646407314942,90.031483748303856,,,
+2026-01-13T00:00:00,DXY.cash,252,0.99999805416694265,0.41653161097611191,success,253,358.99144953289203,345.84163111322107,false,false,104.9659659659802,26.632164928441536,,,
+2026-01-14T00:00:00,DXY.cash,252,0.99999782313849084,0.31229959372562432,success,253,358.99144954678729,345.9538253305148,false,false,78.699497618857336,15.258646816736219,,,
+2026-01-15T00:00:00,DXY.cash,252,0.99999916196419458,0.36918253583034921,success,253,358.99144966263992,344.99924549055868,false,false,93.033999029248008,6.3810926405999808,,,
+2026-01-16T00:00:00,DXY.cash,252,0.99999999376203141,0.53570504159980847,success,253,358.99144932478265,340.09883807847126,false,false,134.99767048315172,485.30500791044574,,,
+2026-01-19T00:00:00,DXY.cash,252,0.99999890155768689,0.30035882796843755,success,253,358.99144958685639,345.26983322465333,false,false,75.69042464804626,17.447718861278901,,,
+2026-01-20T00:00:00,DXY.cash,252,0.9999991123359907,0.29668169934446176,success,253,358.99144925855433,345.05677761261541,false,false,74.763788234804366,16.038966917445972,,,
+2026-01-21T00:00:00,DXY.cash,252,0.99999962348252069,0.35521706846748674,success,253,358.99144930515314,344.19914831657525,false,false,89.514701253806663,2.5597222117189777,,,
+2026-01-22T00:00:00,DXY.cash,252,0.99992121521488087,0.25550991130737094,success,253,358.99145226228592,349.54274038818613,false,false,64.388497649457477,4.8505517174528787,,,
+2026-01-23T00:00:00,DXY.cash,252,0.99999938024280399,0.34522614094415177,success,253,358.99144923946966,344.69751180440795,false,false,86.996987517926243,10.824030349124385,,,
+2026-01-26T00:00:00,DXY.cash,252,0.99999922508686867,0.28161649366090075,success,253,358.99007134003097,344.91955721246342,false,false,70.967356402546983,30.048179714644945,,,
+2026-01-27T00:00:00,DXY.cash,252,0.99999980230483598,0.71904860264613135,success,253,358.95451329938186,343.51797392915375,false,false,181.20024786682509,3.0292492677049894,,,
+2026-01-28T00:00:00,DXY.cash,252,0.99999476239476104,0.65872026335849421,success,253,358.99145011085938,346.83180916891678,false,false,165.99750636634053,393.18970238883281,,,
+2026-01-29T00:00:00,DXY.cash,252,0.99999942788548402,0.56346555697743117,success,253,358.9914496584563,344.61752356782665,false,false,141.99332035831264,147.64274703951659,,,
+2026-01-30T00:00:00,DXY.cash,252,0.99999958155944102,0.68426235903533927,success,253,358.99144951307733,344.30471894070905,false,false,172.43411447690551,0.035383136554364064,,,
+2026-02-02T00:00:00,DXY.cash,252,0.99998452193240495,0.65098466455023529,success,253,358.99144972992997,347.91537867815839,false,false,164.04813546665929,0.78213634834836909,,,
+2026-02-03T00:00:00,DXY.cash,252,0.99999182896597127,0.56446105214025433,success,253,358.99144995221633,347.27654303027748,false,false,142.2441851393441,549.08778641839058,,,
+2026-02-04T00:00:00,DXY.cash,252,0.99999870651107692,0.48409348011436354,success,253,358.99144949070541,345.43328338538021,false,false,121.99155698881961,110.00017883243537,,,
+2026-02-05T00:00:00,DXY.cash,252,0.99999884792126548,0.47911830376124748,success,253,358.99062186134381,345.31668036140593,false,false,120.73781254783437,19.190540081824597,,,
+2026-02-06T00:00:00,DXY.cash,252,0.99999879966766558,0.47614059214987259,success,253,358.99144998769481,345.35853909385253,false,false,119.9874292217679,73.97648623107159,,,
+2026-02-09T00:00:00,DXY.cash,252,0.99999761136339405,0.47215646221372259,success,253,358.99129558128982,346.04651015739472,false,false,118.9834284778581,54.582532179343325,,,
+2026-02-10T00:00:00,DXY.cash,252,0.99999827934388053,0.46708977194988704,success,253,358.99142742561389,345.71862427115025,false,false,117.70662253137154,15.464951450488032,,,
+2026-02-11T00:00:00,DXY.cash,252,0.99999850003683977,0.52777983497202596,success,253,358.99145114628811,345.58138263624113,false,false,133.00051841295056,2125.5782932236566,,,
+2026-02-12T00:00:00,DXY.cash,252,0.99999925106119458,0.46031173586785623,success,253,358.99101400771229,344.88640619812873,false,false,115.99855743869978,748.76930542209197,,,
+2026-02-13T00:00:00,DXY.cash,252,0.99999927290808732,0.28198865789937383,success,253,358.98607365893236,344.8518614459515,false,false,71.06114179064221,0.1642314128102362,,,
+2026-02-16T00:00:00,DXY.cash,252,0.99999943478662934,0.22050303220382894,success,253,358.98697507345344,344.60091310850726,false,false,55.56676411536489,29.364160624442189,,,
+2026-02-17T00:00:00,DXY.cash,252,0.99999966468433044,0.21690592572982559,success,253,358.98557368080827,344.07738056440434,false,false,54.660293283916047,10.910404415341967,,,
+2026-02-18T00:00:00,DXY.cash,252,0.99999961736898879,0.27375089422099819,success,253,358.98036065997587,344.20416631341703,false,false,68.985225343691539,3.0087822942080149,,,
+2026-02-19T00:00:00,DXY.cash,252,0.99999024951751436,0.63827307558157931,success,253,358.98488874477505,347.44670470684218,false,false,160.84481504655798,1.7187103594401425,,,
+2026-02-20T00:00:00,DXY.cash,252,0.99999134397454426,0.63437891630650789,success,253,358.99030885977021,347.33306262079424,false,false,159.86348690923998,1.7356720437152904,,,
+2026-02-23T00:00:00,DXY.cash,252,0.99999318798585535,0.63040732053543769,success,253,358.98241693324303,347.08560102655537,false,false,158.86264477493029,1.7215981167487384,,,

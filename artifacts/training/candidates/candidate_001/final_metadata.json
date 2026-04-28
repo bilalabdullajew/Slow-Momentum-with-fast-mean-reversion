@@ -1,0 +1,101 @@
+{
+  "status": "completed",
+  "candidate_id": "C-002",
+  "candidate_index": 1,
+  "dropout": 0.5,
+  "hidden_size": 40,
+  "minibatch_size": 64,
+  "learning_rate": 0.1,
+  "max_grad_norm": 1.0,
+  "lbw": 63,
+  "dataset_registry_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/manifests/dataset_registry.json",
+  "output_dir": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_001",
+  "initial_validation_loss": "-0.35383310914039612",
+  "best_validation_loss": "-0.35383310914039612",
+  "best_epoch_index": null,
+  "epochs_completed": 25,
+  "validation_losses": [
+    "-0.315754234790802",
+    "-0.31360569596290588",
+    "-0.31238460540771484",
+    "-0.31364211440086365",
+    "-0.31363722681999207",
+    "-0.3136439323425293",
+    "-0.31161391735076904",
+    "-0.31231868267059326",
+    "-0.3136439323425293",
+    "-0.31345564126968384",
+    "-0.31366455554962158",
+    "-0.31410107016563416",
+    "-0.31364390254020691",
+    "-0.31364646553993225",
+    "-0.31364434957504272",
+    "-0.3134492039680481",
+    "0.029549989849328995",
+    "-0.29253906011581421",
+    "-0.23142629861831665",
+    "-0.056469481438398361",
+    "-0.25212448835372925",
+    "-0.1389666348695755",
+    "-0.21703784167766571",
+    "-0.10511018335819244",
+    "-0.14785715937614441"
+  ],
+  "dataset_entry": {
+    "lbw": 63,
+    "feature_columns": [
+      "normalized_return_1",
+      "normalized_return_21",
+      "normalized_return_63",
+      "normalized_return_126",
+      "normalized_return_256",
+      "macd_8_24",
+      "macd_16_28",
+      "macd_32_96",
+      "nu",
+      "gamma"
+    ],
+    "sequence_length": 63,
+    "train_sequence_count": 4992,
+    "val_sequence_count": 513,
+    "train_input_shape": [
+      4992,
+      63,
+      10
+    ],
+    "train_target_shape": [
+      4992,
+      63
+    ],
+    "val_input_shape": [
+      513,
+      63,
+      10
+    ],
+    "val_target_shape": [
+      513,
+      63
+    ],
+    "artifacts": {
+      "train_inputs_path": "artifacts/datasets/lbw_63/train_inputs.npy",
+      "train_target_scale_path": "artifacts/datasets/lbw_63/train_target_scale.npy",
+      "val_inputs_path": "artifacts/datasets/lbw_63/val_inputs.npy",
+      "val_target_scale_path": "artifacts/datasets/lbw_63/val_target_scale.npy",
+      "train_sequence_index_path": "artifacts/datasets/lbw_63/train_sequence_index.csv",
+      "val_sequence_index_path": "artifacts/datasets/lbw_63/val_sequence_index.csv"
+    },
+    "source_artifacts": {
+      "split_manifest_path": "artifacts/datasets/lbw_63/split_manifest.csv",
+      "sequence_manifest_path": "artifacts/datasets/lbw_63/sequence_manifest.csv",
+      "target_alignment_registry_path": "artifacts/datasets/lbw_63/target_alignment_registry.csv"
+    }
+  },
+  "artifacts": {
+    "candidate_dir": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_001",
+    "config_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_001/config.json",
+    "best_model_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_001/best_model.keras",
+    "epoch_log_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_001/epoch_log.csv",
+    "validation_history_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_001/validation_history.csv",
+    "final_metadata_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_001/final_metadata.json"
+  }
+}

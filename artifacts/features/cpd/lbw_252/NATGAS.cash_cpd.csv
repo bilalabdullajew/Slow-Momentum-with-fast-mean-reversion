@@ -1,0 +1,345 @@
+timestamp,asset_id,lbw,nu,gamma,status,window_size,nlml_baseline,nlml_changepoint,retry_used,fallback_used,location_c,steepness_s,fallback_source_timestamp,failure_stage,failure_message
+2024-10-23T00:00:00,NATGAS.cash,252,,,invalid_window,1,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 1"
+2024-10-24T00:00:00,NATGAS.cash,252,,,invalid_window,2,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 2"
+2024-10-25T00:00:00,NATGAS.cash,252,,,invalid_window,3,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 3"
+2024-10-28T00:00:00,NATGAS.cash,252,,,invalid_window,4,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 4"
+2024-10-29T00:00:00,NATGAS.cash,252,,,invalid_window,5,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 5"
+2024-10-30T00:00:00,NATGAS.cash,252,,,invalid_window,6,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 6"
+2024-10-31T00:00:00,NATGAS.cash,252,,,invalid_window,7,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 7"
+2024-11-01T00:00:00,NATGAS.cash,252,,,invalid_window,8,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 8"
+2024-11-04T00:00:00,NATGAS.cash,252,,,invalid_window,9,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 9"
+2024-11-05T00:00:00,NATGAS.cash,252,,,invalid_window,10,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 10"
+2024-11-06T00:00:00,NATGAS.cash,252,,,invalid_window,11,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 11"
+2024-11-07T00:00:00,NATGAS.cash,252,,,invalid_window,12,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 12"
+2024-11-08T00:00:00,NATGAS.cash,252,,,invalid_window,13,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 13"
+2024-11-11T00:00:00,NATGAS.cash,252,,,invalid_window,14,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 14"
+2024-11-12T00:00:00,NATGAS.cash,252,,,invalid_window,15,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 15"
+2024-11-13T00:00:00,NATGAS.cash,252,,,invalid_window,16,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 16"
+2024-11-14T00:00:00,NATGAS.cash,252,,,invalid_window,17,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 17"
+2024-11-15T00:00:00,NATGAS.cash,252,,,invalid_window,18,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 18"
+2024-11-18T00:00:00,NATGAS.cash,252,,,invalid_window,19,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 19"
+2024-11-19T00:00:00,NATGAS.cash,252,,,invalid_window,20,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 20"
+2024-11-20T00:00:00,NATGAS.cash,252,,,invalid_window,21,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 21"
+2024-11-21T00:00:00,NATGAS.cash,252,,,invalid_window,22,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 22"
+2024-11-22T00:00:00,NATGAS.cash,252,,,invalid_window,23,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 23"
+2024-11-25T00:00:00,NATGAS.cash,252,,,invalid_window,24,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 24"
+2024-11-26T00:00:00,NATGAS.cash,252,,,invalid_window,25,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 25"
+2024-11-27T00:00:00,NATGAS.cash,252,,,invalid_window,26,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 26"
+2024-11-28T00:00:00,NATGAS.cash,252,,,invalid_window,27,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 27"
+2024-11-29T00:00:00,NATGAS.cash,252,,,invalid_window,28,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 28"
+2024-12-02T00:00:00,NATGAS.cash,252,,,invalid_window,29,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 29"
+2024-12-03T00:00:00,NATGAS.cash,252,,,invalid_window,30,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 30"
+2024-12-04T00:00:00,NATGAS.cash,252,,,invalid_window,31,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 31"
+2024-12-05T00:00:00,NATGAS.cash,252,,,invalid_window,32,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 32"
+2024-12-06T00:00:00,NATGAS.cash,252,,,invalid_window,33,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 33"
+2024-12-09T00:00:00,NATGAS.cash,252,,,invalid_window,34,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 34"
+2024-12-10T00:00:00,NATGAS.cash,252,,,invalid_window,35,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 35"
+2024-12-11T00:00:00,NATGAS.cash,252,,,invalid_window,36,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 36"
+2024-12-12T00:00:00,NATGAS.cash,252,,,invalid_window,37,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 37"
+2024-12-13T00:00:00,NATGAS.cash,252,,,invalid_window,38,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 38"
+2024-12-16T00:00:00,NATGAS.cash,252,,,invalid_window,39,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 39"
+2024-12-17T00:00:00,NATGAS.cash,252,,,invalid_window,40,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 40"
+2024-12-18T00:00:00,NATGAS.cash,252,,,invalid_window,41,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 41"
+2024-12-19T00:00:00,NATGAS.cash,252,,,invalid_window,42,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 42"
+2024-12-20T00:00:00,NATGAS.cash,252,,,invalid_window,43,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 43"
+2024-12-23T00:00:00,NATGAS.cash,252,,,invalid_window,44,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 44"
+2024-12-24T00:00:00,NATGAS.cash,252,,,invalid_window,45,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 45"
+2024-12-26T00:00:00,NATGAS.cash,252,,,invalid_window,46,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 46"
+2024-12-27T00:00:00,NATGAS.cash,252,,,invalid_window,47,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 47"
+2024-12-30T00:00:00,NATGAS.cash,252,,,invalid_window,48,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 48"
+2024-12-31T00:00:00,NATGAS.cash,252,,,invalid_window,49,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 49"
+2025-01-02T00:00:00,NATGAS.cash,252,,,invalid_window,50,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 50"
+2025-01-03T00:00:00,NATGAS.cash,252,,,invalid_window,51,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 51"
+2025-01-06T00:00:00,NATGAS.cash,252,,,invalid_window,52,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 52"
+2025-01-07T00:00:00,NATGAS.cash,252,,,invalid_window,53,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 53"
+2025-01-08T00:00:00,NATGAS.cash,252,,,invalid_window,54,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 54"
+2025-01-09T00:00:00,NATGAS.cash,252,,,invalid_window,55,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 55"
+2025-01-10T00:00:00,NATGAS.cash,252,,,invalid_window,56,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 56"
+2025-01-13T00:00:00,NATGAS.cash,252,,,invalid_window,57,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 57"
+2025-01-14T00:00:00,NATGAS.cash,252,,,invalid_window,58,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 58"
+2025-01-15T00:00:00,NATGAS.cash,252,,,invalid_window,59,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 59"
+2025-01-16T00:00:00,NATGAS.cash,252,,,invalid_window,60,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 60"
+2025-01-17T00:00:00,NATGAS.cash,252,,,invalid_window,61,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 61"
+2025-01-20T00:00:00,NATGAS.cash,252,,,invalid_window,62,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 62"
+2025-01-21T00:00:00,NATGAS.cash,252,,,invalid_window,63,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 63"
+2025-01-22T00:00:00,NATGAS.cash,252,,,invalid_window,64,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 64"
+2025-01-23T00:00:00,NATGAS.cash,252,,,invalid_window,65,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 65"
+2025-01-24T00:00:00,NATGAS.cash,252,,,invalid_window,66,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 66"
+2025-01-27T00:00:00,NATGAS.cash,252,,,invalid_window,67,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 67"
+2025-01-28T00:00:00,NATGAS.cash,252,,,invalid_window,68,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 68"
+2025-01-29T00:00:00,NATGAS.cash,252,,,invalid_window,69,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 69"
+2025-01-30T00:00:00,NATGAS.cash,252,,,invalid_window,70,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 70"
+2025-01-31T00:00:00,NATGAS.cash,252,,,invalid_window,71,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 71"
+2025-02-03T00:00:00,NATGAS.cash,252,,,invalid_window,72,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 72"
+2025-02-04T00:00:00,NATGAS.cash,252,,,invalid_window,73,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 73"
+2025-02-05T00:00:00,NATGAS.cash,252,,,invalid_window,74,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 74"
+2025-02-06T00:00:00,NATGAS.cash,252,,,invalid_window,75,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 75"
+2025-02-07T00:00:00,NATGAS.cash,252,,,invalid_window,76,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 76"
+2025-02-10T00:00:00,NATGAS.cash,252,,,invalid_window,77,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 77"
+2025-02-11T00:00:00,NATGAS.cash,252,,,invalid_window,78,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 78"
+2025-02-12T00:00:00,NATGAS.cash,252,,,invalid_window,79,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 79"
+2025-02-13T00:00:00,NATGAS.cash,252,,,invalid_window,80,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 80"
+2025-02-14T00:00:00,NATGAS.cash,252,,,invalid_window,81,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 81"
+2025-02-17T00:00:00,NATGAS.cash,252,,,invalid_window,82,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 82"
+2025-02-18T00:00:00,NATGAS.cash,252,,,invalid_window,83,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 83"
+2025-02-19T00:00:00,NATGAS.cash,252,,,invalid_window,84,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 84"
+2025-02-20T00:00:00,NATGAS.cash,252,,,invalid_window,85,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 85"
+2025-02-21T00:00:00,NATGAS.cash,252,,,invalid_window,86,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 86"
+2025-02-24T00:00:00,NATGAS.cash,252,,,invalid_window,87,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 87"
+2025-02-25T00:00:00,NATGAS.cash,252,,,invalid_window,88,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 88"
+2025-02-26T00:00:00,NATGAS.cash,252,,,invalid_window,89,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 89"
+2025-02-27T00:00:00,NATGAS.cash,252,,,invalid_window,90,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 90"
+2025-02-28T00:00:00,NATGAS.cash,252,,,invalid_window,91,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 91"
+2025-03-03T00:00:00,NATGAS.cash,252,,,invalid_window,92,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 92"
+2025-03-04T00:00:00,NATGAS.cash,252,,,invalid_window,93,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 93"
+2025-03-05T00:00:00,NATGAS.cash,252,,,invalid_window,94,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 94"
+2025-03-06T00:00:00,NATGAS.cash,252,,,invalid_window,95,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 95"
+2025-03-07T00:00:00,NATGAS.cash,252,,,invalid_window,96,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 96"
+2025-03-10T00:00:00,NATGAS.cash,252,,,invalid_window,97,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 97"
+2025-03-11T00:00:00,NATGAS.cash,252,,,invalid_window,98,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 98"
+2025-03-12T00:00:00,NATGAS.cash,252,,,invalid_window,99,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 99"
+2025-03-13T00:00:00,NATGAS.cash,252,,,invalid_window,100,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 100"
+2025-03-14T00:00:00,NATGAS.cash,252,,,invalid_window,101,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 101"
+2025-03-17T00:00:00,NATGAS.cash,252,,,invalid_window,102,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 102"
+2025-03-18T00:00:00,NATGAS.cash,252,,,invalid_window,103,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 103"
+2025-03-19T00:00:00,NATGAS.cash,252,,,invalid_window,104,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 104"
+2025-03-20T00:00:00,NATGAS.cash,252,,,invalid_window,105,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 105"
+2025-03-21T00:00:00,NATGAS.cash,252,,,invalid_window,106,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 106"
+2025-03-24T00:00:00,NATGAS.cash,252,,,invalid_window,107,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 107"
+2025-03-25T00:00:00,NATGAS.cash,252,,,invalid_window,108,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 108"
+2025-03-26T00:00:00,NATGAS.cash,252,,,invalid_window,109,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 109"
+2025-03-27T00:00:00,NATGAS.cash,252,,,invalid_window,110,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 110"
+2025-03-28T00:00:00,NATGAS.cash,252,,,invalid_window,111,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 111"
+2025-03-31T00:00:00,NATGAS.cash,252,,,invalid_window,112,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 112"
+2025-04-01T00:00:00,NATGAS.cash,252,,,invalid_window,113,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 113"
+2025-04-02T00:00:00,NATGAS.cash,252,,,invalid_window,114,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 114"
+2025-04-03T00:00:00,NATGAS.cash,252,,,invalid_window,115,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 115"
+2025-04-04T00:00:00,NATGAS.cash,252,,,invalid_window,116,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 116"
+2025-04-07T00:00:00,NATGAS.cash,252,,,invalid_window,117,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 117"
+2025-04-08T00:00:00,NATGAS.cash,252,,,invalid_window,118,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 118"
+2025-04-09T00:00:00,NATGAS.cash,252,,,invalid_window,119,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 119"
+2025-04-10T00:00:00,NATGAS.cash,252,,,invalid_window,120,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 120"
+2025-04-11T00:00:00,NATGAS.cash,252,,,invalid_window,121,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 121"
+2025-04-14T00:00:00,NATGAS.cash,252,,,invalid_window,122,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 122"
+2025-04-15T00:00:00,NATGAS.cash,252,,,invalid_window,123,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 123"
+2025-04-16T00:00:00,NATGAS.cash,252,,,invalid_window,124,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 124"
+2025-04-17T00:00:00,NATGAS.cash,252,,,invalid_window,125,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 125"
+2025-04-21T00:00:00,NATGAS.cash,252,,,invalid_window,126,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 126"
+2025-04-22T00:00:00,NATGAS.cash,252,,,invalid_window,127,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 127"
+2025-04-23T00:00:00,NATGAS.cash,252,,,invalid_window,128,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 128"
+2025-04-24T00:00:00,NATGAS.cash,252,,,invalid_window,129,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 129"
+2025-04-25T00:00:00,NATGAS.cash,252,,,invalid_window,130,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 130"
+2025-04-28T00:00:00,NATGAS.cash,252,,,invalid_window,131,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 131"
+2025-04-29T00:00:00,NATGAS.cash,252,,,invalid_window,132,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 132"
+2025-04-30T00:00:00,NATGAS.cash,252,,,invalid_window,133,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 133"
+2025-05-01T00:00:00,NATGAS.cash,252,,,invalid_window,134,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 134"
+2025-05-02T00:00:00,NATGAS.cash,252,,,invalid_window,135,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 135"
+2025-05-05T00:00:00,NATGAS.cash,252,,,invalid_window,136,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 136"
+2025-05-06T00:00:00,NATGAS.cash,252,,,invalid_window,137,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 137"
+2025-05-07T00:00:00,NATGAS.cash,252,,,invalid_window,138,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 138"
+2025-05-08T00:00:00,NATGAS.cash,252,,,invalid_window,139,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 139"
+2025-05-09T00:00:00,NATGAS.cash,252,,,invalid_window,140,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 140"
+2025-05-12T00:00:00,NATGAS.cash,252,,,invalid_window,141,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 141"
+2025-05-13T00:00:00,NATGAS.cash,252,,,invalid_window,142,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 142"
+2025-05-14T00:00:00,NATGAS.cash,252,,,invalid_window,143,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 143"
+2025-05-15T00:00:00,NATGAS.cash,252,,,invalid_window,144,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 144"
+2025-05-16T00:00:00,NATGAS.cash,252,,,invalid_window,145,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 145"
+2025-05-19T00:00:00,NATGAS.cash,252,,,invalid_window,146,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 146"
+2025-05-20T00:00:00,NATGAS.cash,252,,,invalid_window,147,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 147"
+2025-05-21T00:00:00,NATGAS.cash,252,,,invalid_window,148,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 148"
+2025-05-22T00:00:00,NATGAS.cash,252,,,invalid_window,149,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 149"
+2025-05-23T00:00:00,NATGAS.cash,252,,,invalid_window,150,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 150"
+2025-05-26T00:00:00,NATGAS.cash,252,,,invalid_window,151,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 151"
+2025-05-27T00:00:00,NATGAS.cash,252,,,invalid_window,152,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 152"
+2025-05-28T00:00:00,NATGAS.cash,252,,,invalid_window,153,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 153"
+2025-05-29T00:00:00,NATGAS.cash,252,,,invalid_window,154,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 154"
+2025-05-30T00:00:00,NATGAS.cash,252,,,invalid_window,155,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 155"
+2025-06-02T00:00:00,NATGAS.cash,252,,,invalid_window,156,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 156"
+2025-06-03T00:00:00,NATGAS.cash,252,,,invalid_window,157,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 157"
+2025-06-04T00:00:00,NATGAS.cash,252,,,invalid_window,158,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 158"
+2025-06-05T00:00:00,NATGAS.cash,252,,,invalid_window,159,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 159"
+2025-06-06T00:00:00,NATGAS.cash,252,,,invalid_window,160,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 160"
+2025-06-09T00:00:00,NATGAS.cash,252,,,invalid_window,161,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 161"
+2025-06-10T00:00:00,NATGAS.cash,252,,,invalid_window,162,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 162"
+2025-06-11T00:00:00,NATGAS.cash,252,,,invalid_window,163,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 163"
+2025-06-12T00:00:00,NATGAS.cash,252,,,invalid_window,164,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 164"
+2025-06-13T00:00:00,NATGAS.cash,252,,,invalid_window,165,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 165"
+2025-06-16T00:00:00,NATGAS.cash,252,,,invalid_window,166,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 166"
+2025-06-17T00:00:00,NATGAS.cash,252,,,invalid_window,167,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 167"
+2025-06-18T00:00:00,NATGAS.cash,252,,,invalid_window,168,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 168"
+2025-06-19T00:00:00,NATGAS.cash,252,,,invalid_window,169,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 169"
+2025-06-20T00:00:00,NATGAS.cash,252,,,invalid_window,170,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 170"
+2025-06-23T00:00:00,NATGAS.cash,252,,,invalid_window,171,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 171"
+2025-06-24T00:00:00,NATGAS.cash,252,,,invalid_window,172,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 172"
+2025-06-25T00:00:00,NATGAS.cash,252,,,invalid_window,173,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 173"
+2025-06-26T00:00:00,NATGAS.cash,252,,,invalid_window,174,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 174"
+2025-06-27T00:00:00,NATGAS.cash,252,,,invalid_window,175,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 175"
+2025-06-30T00:00:00,NATGAS.cash,252,,,invalid_window,176,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 176"
+2025-07-01T00:00:00,NATGAS.cash,252,,,invalid_window,177,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 177"
+2025-07-02T00:00:00,NATGAS.cash,252,,,invalid_window,178,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 178"
+2025-07-03T00:00:00,NATGAS.cash,252,,,invalid_window,179,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 179"
+2025-07-04T00:00:00,NATGAS.cash,252,,,invalid_window,180,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 180"
+2025-07-07T00:00:00,NATGAS.cash,252,,,invalid_window,181,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 181"
+2025-07-08T00:00:00,NATGAS.cash,252,,,invalid_window,182,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 182"
+2025-07-09T00:00:00,NATGAS.cash,252,,,invalid_window,183,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 183"
+2025-07-10T00:00:00,NATGAS.cash,252,,,invalid_window,184,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 184"
+2025-07-11T00:00:00,NATGAS.cash,252,,,invalid_window,185,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 185"
+2025-07-14T00:00:00,NATGAS.cash,252,,,invalid_window,186,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 186"
+2025-07-15T00:00:00,NATGAS.cash,252,,,invalid_window,187,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 187"
+2025-07-16T00:00:00,NATGAS.cash,252,,,invalid_window,188,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 188"
+2025-07-17T00:00:00,NATGAS.cash,252,,,invalid_window,189,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 189"
+2025-07-18T00:00:00,NATGAS.cash,252,,,invalid_window,190,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 190"
+2025-07-21T00:00:00,NATGAS.cash,252,,,invalid_window,191,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 191"
+2025-07-22T00:00:00,NATGAS.cash,252,,,invalid_window,192,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 192"
+2025-07-23T00:00:00,NATGAS.cash,252,,,invalid_window,193,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 193"
+2025-07-24T00:00:00,NATGAS.cash,252,,,invalid_window,194,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 194"
+2025-07-25T00:00:00,NATGAS.cash,252,,,invalid_window,195,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 195"
+2025-07-28T00:00:00,NATGAS.cash,252,,,invalid_window,196,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 196"
+2025-07-29T00:00:00,NATGAS.cash,252,,,invalid_window,197,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 197"
+2025-07-30T00:00:00,NATGAS.cash,252,,,invalid_window,198,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 198"
+2025-07-31T00:00:00,NATGAS.cash,252,,,invalid_window,199,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 199"
+2025-08-01T00:00:00,NATGAS.cash,252,,,invalid_window,200,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 200"
+2025-08-04T00:00:00,NATGAS.cash,252,,,invalid_window,201,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 201"
+2025-08-05T00:00:00,NATGAS.cash,252,,,invalid_window,202,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 202"
+2025-08-06T00:00:00,NATGAS.cash,252,,,invalid_window,203,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 203"
+2025-08-07T00:00:00,NATGAS.cash,252,,,invalid_window,204,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 204"
+2025-08-08T00:00:00,NATGAS.cash,252,,,invalid_window,205,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 205"
+2025-08-11T00:00:00,NATGAS.cash,252,,,invalid_window,206,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 206"
+2025-08-12T00:00:00,NATGAS.cash,252,,,invalid_window,207,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 207"
+2025-08-13T00:00:00,NATGAS.cash,252,,,invalid_window,208,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 208"
+2025-08-14T00:00:00,NATGAS.cash,252,,,invalid_window,209,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 209"
+2025-08-15T00:00:00,NATGAS.cash,252,,,invalid_window,210,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 210"
+2025-08-18T00:00:00,NATGAS.cash,252,,,invalid_window,211,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 211"
+2025-08-19T00:00:00,NATGAS.cash,252,,,invalid_window,212,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 212"
+2025-08-20T00:00:00,NATGAS.cash,252,,,invalid_window,213,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 213"
+2025-08-21T00:00:00,NATGAS.cash,252,,,invalid_window,214,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 214"
+2025-08-22T00:00:00,NATGAS.cash,252,,,invalid_window,215,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 215"
+2025-08-25T00:00:00,NATGAS.cash,252,,,invalid_window,216,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 216"
+2025-08-26T00:00:00,NATGAS.cash,252,,,invalid_window,217,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 217"
+2025-08-27T00:00:00,NATGAS.cash,252,,,invalid_window,218,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 218"
+2025-08-28T00:00:00,NATGAS.cash,252,,,invalid_window,219,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 219"
+2025-08-29T00:00:00,NATGAS.cash,252,,,invalid_window,220,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 220"
+2025-09-01T00:00:00,NATGAS.cash,252,,,invalid_window,221,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 221"
+2025-09-02T00:00:00,NATGAS.cash,252,,,invalid_window,222,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 222"
+2025-09-03T00:00:00,NATGAS.cash,252,,,invalid_window,223,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 223"
+2025-09-04T00:00:00,NATGAS.cash,252,,,invalid_window,224,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 224"
+2025-09-05T00:00:00,NATGAS.cash,252,,,invalid_window,225,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 225"
+2025-09-08T00:00:00,NATGAS.cash,252,,,invalid_window,226,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 226"
+2025-09-09T00:00:00,NATGAS.cash,252,,,invalid_window,227,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 227"
+2025-09-10T00:00:00,NATGAS.cash,252,,,invalid_window,228,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 228"
+2025-09-11T00:00:00,NATGAS.cash,252,,,invalid_window,229,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 229"
+2025-09-12T00:00:00,NATGAS.cash,252,,,invalid_window,230,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 230"
+2025-09-15T00:00:00,NATGAS.cash,252,,,invalid_window,231,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 231"
+2025-09-16T00:00:00,NATGAS.cash,252,,,invalid_window,232,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 232"
+2025-09-17T00:00:00,NATGAS.cash,252,,,invalid_window,233,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 233"
+2025-09-18T00:00:00,NATGAS.cash,252,,,invalid_window,234,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 234"
+2025-09-19T00:00:00,NATGAS.cash,252,,,invalid_window,235,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 235"
+2025-09-22T00:00:00,NATGAS.cash,252,,,invalid_window,236,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 236"
+2025-09-23T00:00:00,NATGAS.cash,252,,,invalid_window,237,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 237"
+2025-09-24T00:00:00,NATGAS.cash,252,,,invalid_window,238,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 238"
+2025-09-25T00:00:00,NATGAS.cash,252,,,invalid_window,239,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 239"
+2025-09-26T00:00:00,NATGAS.cash,252,,,invalid_window,240,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 240"
+2025-09-29T00:00:00,NATGAS.cash,252,,,invalid_window,241,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 241"
+2025-09-30T00:00:00,NATGAS.cash,252,,,invalid_window,242,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 242"
+2025-10-01T00:00:00,NATGAS.cash,252,,,invalid_window,243,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 243"
+2025-10-02T00:00:00,NATGAS.cash,252,,,invalid_window,244,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 244"
+2025-10-03T00:00:00,NATGAS.cash,252,,,invalid_window,245,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 245"
+2025-10-06T00:00:00,NATGAS.cash,252,,,invalid_window,246,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 246"
+2025-10-07T00:00:00,NATGAS.cash,252,,,invalid_window,247,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 247"
+2025-10-08T00:00:00,NATGAS.cash,252,,,invalid_window,248,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 248"
+2025-10-09T00:00:00,NATGAS.cash,252,,,invalid_window,249,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 249"
+2025-10-10T00:00:00,NATGAS.cash,252,,,invalid_window,250,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 250"
+2025-10-13T00:00:00,NATGAS.cash,252,,,invalid_window,251,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 251"
+2025-10-14T00:00:00,NATGAS.cash,252,,,invalid_window,252,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 252"
+2025-10-15T00:00:00,NATGAS.cash,252,,,invalid_window,253,,,false,false,,,,window_standardization,window returns must be finite
+2025-10-16T00:00:00,NATGAS.cash,252,0.99988129240561907,0.57933999806675651,success,253,358.99144928054409,349.9527207164092,false,false,145.99367951282264,123.18145683137254,,,
+2025-10-17T00:00:00,NATGAS.cash,252,0.99971765425449777,0.2330461885834067,success,253,358.99144935429212,350.81935354977617,false,false,58.727639523018489,18.215314791377921,,,
+2025-10-20T00:00:00,NATGAS.cash,252,0.97823759792011089,0.090969425215667213,success,253,358.99145003348053,355.18588125588894,false,false,22.924295154348137,54.720663950541848,,,
+2025-10-21T00:00:00,NATGAS.cash,252,0.99813984094766572,0.46820813923071458,success,253,358.99144969790183,352.70621830629324,false,false,117.98845108614007,53.429823055469292,,,
+2025-10-22T00:00:00,NATGAS.cash,252,0.99887602444213908,0.59918706815198763,success,253,358.99144958885938,352.20169092312915,false,false,150.9951411743009,138.25520317340769,,,
+2025-10-23T00:00:00,NATGAS.cash,252,0.99927310529955038,0.34106278314755972,success,253,358.99144958093672,351.76544780783468,false,false,85.947821353185049,14.32115449082788,,,
+2025-10-24T00:00:00,NATGAS.cash,252,0.98582562382625727,0.074332108115499937,success,253,358.99144957825087,354.74940593112996,false,false,18.731691245105985,19.55188562752539,,,
+2025-10-27T00:00:00,NATGAS.cash,252,0.9991399908209585,0.45236235815755133,success,253,358.99144972637504,351.93374261010456,false,false,113.99531425570294,140.11121163177876,,,
+2025-10-28T00:00:00,NATGAS.cash,252,0.99926484055343212,0.3297158038829302,success,253,358.99144973380595,351.77676201544244,false,false,83.088382578498411,8.8169377722932207,,,
+2025-10-29T00:00:00,NATGAS.cash,252,0.99862287085487178,0.54364664734215362,success,253,358.99144959809064,352.40507340002796,false,false,136.99895513022273,615.32290369384145,,,
+2025-10-30T00:00:00,NATGAS.cash,252,0.99874468992185828,0.20771777316578841,success,253,358.99144941687166,352.31233285281183,false,false,52.34487883777868,0.32567848265781102,,,
+2025-10-31T00:00:00,NATGAS.cash,252,0.99929197525676972,0.31721576957608183,success,253,358.99144962199205,351.7391263806872,false,false,79.938373933172628,14.835582037601448,,,
+2025-11-03T00:00:00,NATGAS.cash,252,0.9982823675806618,0.43109439763521906,success,253,358.99144976114337,352.62636043359612,false,false,108.6357882040752,21.221823722246597,,,
+2025-11-04T00:00:00,NATGAS.cash,252,0.99705131465369456,0.33723906591829483,success,253,358.99145213040907,353.168009318413,false,false,84.984244611410304,38.572457339274543,,,
+2025-11-05T00:00:00,NATGAS.cash,252,0.99780251873824344,0.33327358447857636,success,253,358.99145230797529,352.87320875172747,false,false,83.984943288601244,41.460929278638005,,,
+2025-11-06T00:00:00,NATGAS.cash,252,0.99779347779183836,0.32934707013710202,success,253,358.99145013831446,352.87732143405617,false,false,82.995461674549702,137.8476141755294,,,
+2025-11-07T00:00:00,NATGAS.cash,252,0.89860790655607947,0.034441215465850369,success,253,358.99144979899211,356.80959811783663,false,false,8.6791862973942937,11.894193930939712,,,
+2025-11-10T00:00:00,NATGAS.cash,252,0.99690469892516165,0.29345129048145807,success,253,358.99144974373564,353.21667974540168,false,false,73.949725201327439,13.135054176483999,,,
+2025-11-11T00:00:00,NATGAS.cash,252,0.99363686948874153,0.26082852799392603,success,253,358.99145236217902,353.94060101971832,false,false,65.72878905446936,11.556920574293173,,,
+2025-11-12T00:00:00,NATGAS.cash,252,0.99535833866639745,0.61900426912751561,success,253,358.991449743891,353.62341928039382,false,false,155.98907582013393,54.886206970894591,,,
+2025-11-13T00:00:00,NATGAS.cash,252,0.99104736532280591,0.25396629794051201,success,253,358.99144939083681,354.28463492847322,false,false,63.999507081009028,1214.7478536178742,,,
+2025-11-14T00:00:00,NATGAS.cash,252,0.9360937316072403,0.73402604763005241,success,253,358.99144979330777,356.30715163472348,false,false,184.97456400277321,17.893818953860201,,,
+2025-11-17T00:00:00,NATGAS.cash,252,0.99423475777599768,0.60710518429804383,success,253,358.99144953261253,353.84132334815996,false,false,152.99050644310705,61.259093717467167,,,
+2025-11-18T00:00:00,NATGAS.cash,252,0.99445276165685248,0.29755120224599496,success,253,358.99145185924044,353.80255946975262,false,false,74.982902965990732,34.345053569864305,,,
+2025-11-19T00:00:00,NATGAS.cash,252,0.98786020742434588,0.14285368305414148,success,253,358.99144949959509,354.59239700177932,false,false,35.999128129643651,793.66402878649751,,,
+2025-11-20T00:00:00,NATGAS.cash,252,0.98810053447628277,0.2618330788907749,success,253,358.99144936067216,354.57215839769373,false,false,65.981935880475277,13.672469451673065,,,
+2025-11-21T00:00:00,NATGAS.cash,252,0.98903838884937212,0.26577495708886706,success,253,358.99144942866928,354.48911555548699,false,false,66.975289186394505,1.4086526461864994,,,
+2025-11-24T00:00:00,NATGAS.cash,252,0.99127010344336952,0.26143712258495783,success,253,358.99144990670271,354.25921637365616,false,false,65.882154891409371,1.4037876572765335,,,
+2025-11-25T00:00:00,NATGAS.cash,252,0.99515646408322134,0.58329870012106455,success,253,358.99144991574832,353.6661949559338,false,false,146.99127243050827,66.916639115568898,,,
+2025-11-26T00:00:00,NATGAS.cash,252,0.99137423479258757,0.36504066191839618,success,253,358.99145231382687,354.24711389597047,false,false,91.990246803435838,55.402669778947946,,,
+2025-11-27T00:00:00,NATGAS.cash,252,0.99553977536236204,0.57447709985464557,success,253,358.9914522654617,353.58336631954205,false,false,144.76822916337068,13.688980280104333,,,
+2025-11-28T00:00:00,NATGAS.cash,252,0.99591686454024231,0.57141614507575156,success,253,358.99144926268474,353.49465066623463,false,false,143.99686855908939,189.20815921981801,,,
+2025-12-01T00:00:00,NATGAS.cash,252,0.99756360435935509,0.48807868503408514,success,253,358.99144937203988,352.9766532122577,false,false,122.99582862858945,144.31535686796505,,,
+2025-12-02T00:00:00,NATGAS.cash,252,0.9967964569908947,0.56241150001641926,success,253,358.99145227628077,353.25116307030493,false,false,141.72769800413766,16.232799524749108,,,
+2025-12-03T00:00:00,NATGAS.cash,252,0.99741207094700468,0.55942770345638082,success,253,358.99144936171751,353.03714332869345,false,false,140.97578127100797,25.478490243950706,,,
+2025-12-04T00:00:00,NATGAS.cash,252,0.99712534209857351,0.5547419375817968,success,253,358.99144979884778,353.14250699389277,false,false,139.7949682706128,16.808038403893768,,,
+2025-12-05T00:00:00,NATGAS.cash,252,0.99689189982983939,0.21810638671512061,success,253,358.99144956565698,353.22081888878751,false,false,54.962809452210394,14.341402213342118,,,
+2025-12-08T00:00:00,NATGAS.cash,252,0.99428087750182148,0.21412079803240738,success,253,358.99144975015201,353.83324539468612,false,false,53.95844110416666,14.082209230594334,,,
+2025-12-09T00:00:00,NATGAS.cash,252,0.99389634798132531,0.08861304839468169,success,253,358.99144926029271,353.89870362037919,false,false,22.330488195459786,0.28594955958387258,,,
+2025-12-10T00:00:00,NATGAS.cash,252,0.99412745757958787,0.46029425574657234,success,253,358.99145030891503,353.85987254463197,false,false,115.99415244813623,94.229959497484828,,,
+2025-12-11T00:00:00,NATGAS.cash,252,0.98723122131021146,0.45545262936953729,success,253,358.99144950145057,354.64354824913147,false,false,114.77406260112339,14.252305259518245,,,
+2025-12-12T00:00:00,NATGAS.cash,252,0.99589716691424568,0.054194648212538242,success,253,358.99144957331123,353.49948329873445,false,false,13.657051349559637,18.837901474153593,,,
+2025-12-15T00:00:00,NATGAS.cash,252,0.99087344723053206,0.44837518560055811,success,253,358.99144925834815,354.30405048576995,false,false,112.99054677134065,55.73980448672976,,,
+2025-12-16T00:00:00,NATGAS.cash,252,0.9507033855772562,0.59116014337469203,success,253,358.99144927684495,356.03210256606866,false,false,148.97235613042238,15.364314665600487,,,
+2025-12-17T00:00:00,NATGAS.cash,252,0.94728423276622586,0.58722743572137581,success,253,358.99144973419999,356.10276514514635,false,false,147.98131380178671,22.427473898636354,,,
+2025-12-18T00:00:00,NATGAS.cash,252,0.99895724118006368,0.031217756858260649,success,253,358.9914494462725,352.12660738256278,false,false,7.866874728281684,0.68714127614862364,,,
+2025-12-19T00:00:00,NATGAS.cash,252,0.9995392560616394,9.4909877810600507e-07,success,253,358.99144947533802,351.30924220792366,false,false,0.00023917289208271329,0.18368067360829274,,,
+2025-12-22T00:00:00,NATGAS.cash,252,0.9647119448139897,0.29358708467446326,success,253,358.99144933783066,355.68316431051204,false,false,73.983945337964741,29.028304778024669,,,
+2025-12-23T00:00:00,NATGAS.cash,252,0.95733741831635866,0.42456094389418031,success,253,358.99144936250218,355.88061568284604,false,false,106.98935786133343,39.541112487628844,,,
+2025-12-24T00:00:00,NATGAS.cash,252,0.86108469844896518,0.56737916372197017,success,253,358.99144935662963,357.16712089090515,false,false,142.97954925793647,15.498501480250768,,,
+2025-12-26T00:00:00,NATGAS.cash,252,0.93342321128753369,0.49598622546947163,success,253,358.9914500242416,356.35094732254373,false,false,124.98852881830685,33.0418536514537,,,
+2025-12-29T00:00:00,NATGAS.cash,252,0.81560230858763283,0.55946378271492581,success,253,358.99144948488964,357.50461740724273,false,false,140.98487324416129,18.411455628976753,,,
+2025-12-30T00:00:00,NATGAS.cash,252,0.90309636635708712,0.48801269404366521,success,253,358.99144953263595,356.75933728399804,false,false,122.97919889900363,16.796261715036987,,,
+2025-12-31T00:00:00,NATGAS.cash,252,0.83265207264911845,0.26980302546699597,success,253,358.99144945498426,357.38690862242788,false,false,67.990362417682988,32.596491686449014,,,
+2026-01-02T00:00:00,NATGAS.cash,252,0.85060504862289921,0.26584457571359027,success,253,358.99144950774308,357.25209506904559,false,false,66.992833079824749,46.370876918134655,,,
+2026-01-05T00:00:00,NATGAS.cash,252,0.81000446981924512,0.26188882352116466,success,253,358.99144946717769,357.54141024775038,false,false,65.995983527333493,74.16460268648126,,,
+2026-01-06T00:00:00,NATGAS.cash,252,0.75895690868973031,0.53961398528126492,success,253,358.99144966675101,357.84448038438666,false,false,135.98272429087876,13.522602955336918,,,
+2026-01-07T00:00:00,NATGAS.cash,252,0.87696210613339065,0.46818133105663501,success,253,358.99144944804704,357.02747805326396,false,false,117.98169542627203,17.698231076781131,,,
+2026-01-08T00:00:00,NATGAS.cash,252,0.87065542189414991,0.46423164035919828,success,253,358.99144926797987,357.08468297275743,false,false,116.98637337051797,23.21170129911253,,,
+2026-01-09T00:00:00,NATGAS.cash,252,0.84048802170749881,0.46026204305978868,success,253,358.9914496475576,357.32958596461719,false,false,115.98603485106675,20.818647151948131,,,
+2026-01-12T00:00:00,NATGAS.cash,252,0.78605353165821057,0.45625454649615016,success,253,358.99144938012796,357.69015031937658,false,false,114.97614571702984,10.375844456071803,,,
+2026-01-13T00:00:00,NATGAS.cash,252,0.76393809104845789,0.23807926434446108,success,253,358.99144965225003,357.81705699571592,false,false,59.99597461480419,66.497557827276296,,,
+2026-01-14T00:00:00,NATGAS.cash,252,0.69461925248147194,0.2726488532722372,success,253,358.99144949904337,358.16964499233592,false,false,68.707511024603775,1.9648585344540064,,,
+2026-01-15T00:00:00,NATGAS.cash,252,0.73468836537502258,0.2301018086274626,success,253,358.99144931693309,357.9729080150982,false,false,57.985655774120573,17.113321097616904,,,
+2026-01-16T00:00:00,NATGAS.cash,252,0.72903588088135762,0.51360691910884715,success,253,358.99144945862702,358.00171291885118,false,false,129.42894361542949,0.92813856910653447,,,
+2026-01-19T00:00:00,NATGAS.cash,252,0.97205367182759128,0.74722166959667946,success,253,358.99144939923951,355.44232419805377,false,false,188.29986073836324,20.576323913530199,,,
+2026-01-20T00:00:00,NATGAS.cash,252,0.98574731811524108,0.7433020168074207,success,253,358.99144919936708,354.75499423871315,false,false,187.31210823547002,23.18658226038637,,,
+2026-01-21T00:00:00,NATGAS.cash,252,0.99999999999521627,0.99999999603174605,success,253,358.28075536892953,332.21495286244408,false,false,251.999999,1.1156057609423524,,,
+2026-01-22T00:00:00,NATGAS.cash,252,0.99999999999061151,0.987382095546673,success,253,358.71404298140624,333.32249994413354,false,false,248.8202880777616,6.8064865852302923,,,
+2026-01-23T00:00:00,NATGAS.cash,252,0.99999999999059952,0.99661855545017231,success,253,358.32649324998584,332.9362442352417,false,false,251.14787597344343,0.22975168501750853,,,
+2026-01-26T00:00:00,NATGAS.cash,252,0.99999999995786304,0.97893643949025266,success,253,358.31190541496215,334.4218097021527,false,false,246.69198275154366,11.697728262779982,,,
+2026-01-27T00:00:00,NATGAS.cash,252,0.99999999992246691,0.9742258450079706,success,253,358.36286087277671,335.0825458044734,false,false,245.50491294200859,27.376628716072421,,,
+2026-01-28T00:00:00,NATGAS.cash,252,0.99999999979851006,0.97027262163512706,success,253,358.34629851111993,336.02101736967393,false,false,244.50870065205203,23.611459888494942,,,
+2026-01-29T00:00:00,NATGAS.cash,252,0.99999644688038936,0.71454836543481826,success,253,358.35203978492819,345.80435876123789,false,false,180.06618808957421,19.096099156510107,,,
+2026-01-30T00:00:00,NATGAS.cash,252,0.99999736571117348,0.71043726705695542,success,253,358.3500711254751,345.50317645228182,false,false,179.03019129835278,42.81336161865034,,,
+2026-02-02T00:00:00,NATGAS.cash,252,0.99999999999805045,0.84520101803829906,success,253,358.99144933466675,332.02800822101568,false,false,212.99065654565138,12.892111539207463,,,
+2026-02-03T00:00:00,NATGAS.cash,252,0.99999999999999223,0.94026756655977506,success,253,358.99144929773485,326.50725473926593,false,false,236.94742677306331,0.41640662093653719,,,
+2026-02-04T00:00:00,NATGAS.cash,252,0.90340383991408157,0.37700866130000887,success,253,358.9914492748569,356.75581859089675,false,false,95.00618264760223,59.705067187415715,,,
+2026-02-05T00:00:00,NATGAS.cash,252,0.99999999999993094,0.92961149464065396,success,253,358.99144962786784,328.68890668443618,false,false,234.2620966494448,0.47342940041404641,,,
+2026-02-06T00:00:00,NATGAS.cash,252,0.99999999999987632,0.92484956205756852,success,253,358.99144930505713,329.27103813118407,false,false,233.06208963850727,0.49480062453242118,,,
+2026-02-09T00:00:00,NATGAS.cash,252,0.77484201463515201,0.99937868528880358,success,253,358.99144949571581,357.75559265221131,false,false,251.8434286927785,6.9538625287350664,,,
+2026-02-10T00:00:00,NATGAS.cash,252,0.99999999999988942,0.91612167215430484,success,253,358.69958137785426,328.86629767002353,false,false,230.86266138288482,0.51665845345623651,,,
+2026-02-11T00:00:00,NATGAS.cash,252,0.99999999999994427,0.91123378126217924,success,253,358.99144952370301,328.4749978006131,false,false,229.63091287806918,0.5351031890214849,,,
+2026-02-12T00:00:00,NATGAS.cash,252,0.99999999858395516,0.67468439803705915,success,253,358.99144956862926,338.61605131764708,false,false,170.02046830533891,39.929085984608179,,,
+2026-02-13T00:00:00,NATGAS.cash,252,0.99999999999991163,0.90193866686328894,success,253,358.99144972276912,328.93536314317259,false,false,227.28854404954882,0.57011382395145582,,,
+2026-02-16T00:00:00,NATGAS.cash,252,0.99999999999493694,0.80536292668550669,success,253,358.99102077130129,332.98195689323228,false,false,202.9514575247477,11.028393737314598,,,
+2026-02-17T00:00:00,NATGAS.cash,252,0.9999999730495549,0.69583098382440989,success,253,358.54595459641752,341.11668860498526,false,false,175.3494079237513,20.993421855641422,,,
+2026-02-18T00:00:00,NATGAS.cash,252,0.99999999999949196,0.91012369349540123,success,253,358.45563717770904,330.14757171487571,false,false,229.35117076084111,22.047515920202983,,,
+2026-02-19T00:00:00,NATGAS.cash,252,0.99999999522822947,0.6568277971551969,success,253,358.38406732780652,339.22351888943086,false,false,165.52060488310963,32.097749733397649,,,
+2026-02-20T00:00:00,NATGAS.cash,252,0.9999999999984257,0.88022640597277624,success,253,358.38647978632264,331.20922737272338,false,false,221.81705430513961,0.65142413618305106,,,
+2026-02-23T00:00:00,NATGAS.cash,252,0.99999998904446585,0.6481462515148172,success,253,358.27795696870891,339.94853587351537,false,false,163.33285538173394,25.214808056789064,,,

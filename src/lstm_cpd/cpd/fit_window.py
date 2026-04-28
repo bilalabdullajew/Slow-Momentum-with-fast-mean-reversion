@@ -91,7 +91,7 @@ def compute_severity_score(
     nlml_baseline: float,
     nlml_changepoint: float,
 ) -> float:
-    severity = float(expit(nlml_changepoint - nlml_baseline))
+    severity = float(expit(nlml_baseline - nlml_changepoint))
     if not math.isfinite(severity):
         raise RuntimeError("severity score is not finite")
     return severity

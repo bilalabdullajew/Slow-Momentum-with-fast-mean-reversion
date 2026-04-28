@@ -1,0 +1,13 @@
+{
+  "annualized_return": 0.21438763520238976,
+  "annualized_volatility": 0.21679880913575342,
+  "annualized_downside_deviation": 0.15688449960167444,
+  "sharpe_ratio": 0.9888782879252171,
+  "sortino_ratio": 1.3665316570261195,
+  "maximum_drawdown": -0.27992979502165105,
+  "calmar_ratio": 0.7658621519220847,
+  "percentage_positive_daily_returns": 53.68956743002544,
+  "selected_candidate_id": "C-031",
+  "selected_lbw": 63,
+  "daily_observation_count": 786
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "candidate_id": "C-001",
+    "candidate_index": 0,
+    "dropout": 0.3,
+    "hidden_size": 5,
+    "minibatch_size": 256,
+    "learning_rate": 0.001,
+    "max_grad_norm": 1.0,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-002",
+    "candidate_index": 1,
+    "dropout": 0.5,
+    "hidden_size": 40,
+    "minibatch_size": 64,
+    "learning_rate": 0.1,
+    "max_grad_norm": 1.0,
+    "lbw": 63
+  },
+  {
+    "candidate_id": "C-003",
+    "candidate_index": 2,
+    "dropout": 0.2,
+    "hidden_size": 80,
+    "minibatch_size": 256,
+    "learning_rate": 0.01,
+    "max_grad_norm": 100.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-004",
+    "candidate_index": 3,
+    "dropout": 0.1,
+    "hidden_size": 160,
+    "minibatch_size": 128,
+    "learning_rate": 0.01,
+    "max_grad_norm": 100.0,
+    "lbw": 63
+  },
+  {
+    "candidate_id": "C-005",
+    "candidate_index": 4,
+    "dropout": 0.3,
+    "hidden_size": 5,
+    "minibatch_size": 64,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 0.01,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-006",
+    "candidate_index": 5,
+    "dropout": 0.4,
+    "hidden_size": 5,
+    "minibatch_size": 256,
+    "learning_rate": 0.01,
+    "max_grad_norm": 1.0,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-007",
+    "candidate_index": 6,
+    "dropout": 0.4,
+    "hidden_size": 80,
+    "minibatch_size": 128,
+    "learning_rate": 0.001,
+    "max_grad_norm": 1.0,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-008",
+    "candidate_index": 7,
+    "dropout": 0.3,
+    "hidden_size": 80,
+    "minibatch_size": 128,
+    "learning_rate": 0.001,
+    "max_grad_norm": 100.0,
+    "lbw": 10
+  },
+  {
+    "candidate_id": "C-009",
+    "candidate_index": 8,
+    "dropout": 0.5,
+    "hidden_size": 20,
+    "minibatch_size": 128,
+    "learning_rate": 0.001,
+    "max_grad_norm": 100.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-010",
+    "candidate_index": 9,
+    "dropout": 0.4,
+    "hidden_size": 160,
+    "minibatch_size": 256,
+    "learning_rate": 0.001,
+    "max_grad_norm": 1.0,
+    "lbw": 126
+  },
+  {
+    "candidate_id": "C-011",
+    "candidate_index": 10,
+    "dropout": 0.2,
+    "hidden_size": 10,
+    "minibatch_size": 128,
+    "learning_rate": 0.001,
+    "max_grad_norm": 1.0,
+    "lbw": 10
+  },
+  {
+    "candidate_id": "C-012",
+    "candidate_index": 11,
+    "dropout": 0.4,
+    "hidden_size": 20,
+    "minibatch_size": 128,
+    "learning_rate": 0.01,
+    "max_grad_norm": 1.0,
+    "lbw": 63
+  },
+  {
+    "candidate_id": "C-013",
+    "candidate_index": 12,
+    "dropout": 0.1,
+    "hidden_size": 5,
+    "minibatch_size": 128,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 100.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-014",
+    "candidate_index": 13,
+    "dropout": 0.2,
+    "hidden_size": 5,
+    "minibatch_size": 256,
+    "learning_rate": 0.001,
+    "max_grad_norm": 100.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-015",
+    "candidate_index": 14,
+    "dropout": 0.3,
+    "hidden_size": 20,
+    "minibatch_size": 64,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 1.0,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-016",
+    "candidate_index": 15,
+    "dropout": 0.2,
+    "hidden_size": 20,
+    "minibatch_size": 256,
+    "learning_rate": 0.1,
+    "max_grad_norm": 0.01,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-017",
+    "candidate_index": 16,
+    "dropout": 0.4,
+    "hidden_size": 40,
+    "minibatch_size": 128,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 1.0,
+    "lbw": 10
+  },
+  {
+    "candidate_id": "C-018",
+    "candidate_index": 17,
+    "dropout": 0.3,
+    "hidden_size": 20,
+    "minibatch_size": 128,
+    "learning_rate": 0.01,
+    "max_grad_norm": 100.0,
+    "lbw": 10
+  },
+  {
+    "candidate_id": "C-019",
+    "candidate_index": 18,
+    "dropout": 0.3,
+    "hidden_size": 10,
+    "minibatch_size": 64,
+    "learning_rate": 0.1,
+    "max_grad_norm": 0.01,
+    "lbw": 63
+  },
+  {
+    "candidate_id": "C-020",
+    "candidate_index": 19,
+    "dropout": 0.4,
+    "hidden_size": 160,
+    "minibatch_size": 64,
+    "learning_rate": 0.01,
+    "max_grad_norm": 100.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-021",
+    "candidate_index": 20,
+    "dropout": 0.5,
+    "hidden_size": 80,
+    "minibatch_size": 128,
+    "learning_rate": 0.1,
+    "max_grad_norm": 100.0,
+    "lbw": 63
+  },
+  {
+    "candidate_id": "C-022",
+    "candidate_index": 21,
+    "dropout": 0.2,
+    "hidden_size": 5,
+    "minibatch_size": 128,
+    "learning_rate": 0.1,
+    "max_grad_norm": 0.01,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-023",
+    "candidate_index": 22,
+    "dropout": 0.4,
+    "hidden_size": 160,
+    "minibatch_size": 256,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 0.01,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-024",
+    "candidate_index": 23,
+    "dropout": 0.5,
+    "hidden_size": 80,
+    "minibatch_size": 64,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 0.01,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-025",
+    "candidate_index": 24,
+    "dropout": 0.2,
+    "hidden_size": 40,
+    "minibatch_size": 128,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 100.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-026",
+    "candidate_index": 25,
+    "dropout": 0.4,
+    "hidden_size": 80,
+    "minibatch_size": 64,
+    "learning_rate": 0.001,
+    "max_grad_norm": 1.0,
+    "lbw": 63
+  },
+  {
+    "candidate_id": "C-027",
+    "candidate_index": 26,
+    "dropout": 0.5,
+    "hidden_size": 10,
+    "minibatch_size": 128,
+    "learning_rate": 0.001,
+    "max_grad_norm": 1.0,
+    "lbw": 10
+  },
+  {
+    "candidate_id": "C-028",
+    "candidate_index": 27,
+    "dropout": 0.1,
+    "hidden_size": 40,
+    "minibatch_size": 64,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 100.0,
+    "lbw": 63
+  },
+  {
+    "candidate_id": "C-029",
+    "candidate_index": 28,
+    "dropout": 0.1,
+    "hidden_size": 5,
+    "minibatch_size": 256,
+    "learning_rate": 0.001,
+    "max_grad_norm": 100.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-030",
+    "candidate_index": 29,
+    "dropout": 0.4,
+    "hidden_size": 10,
+    "minibatch_size": 256,
+    "learning_rate": 0.01,
+    "max_grad_norm": 100.0,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-031",
+    "candidate_index": 30,
+    "dropout": 0.5,
+    "hidden_size": 20,
+    "minibatch_size": 64,
+    "learning_rate": 0.01,
+    "max_grad_norm": 100.0,
+    "lbw": 63
+  },
+  {
+    "candidate_id": "C-032",
+    "candidate_index": 31,
+    "dropout": 0.5,
+    "hidden_size": 80,
+    "minibatch_size": 64,
+    "learning_rate": 0.01,
+    "max_grad_norm": 1.0,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-033",
+    "candidate_index": 32,
+    "dropout": 0.3,
+    "hidden_size": 20,
+    "minibatch_size": 128,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 0.01,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-034",
+    "candidate_index": 33,
+    "dropout": 0.1,
+    "hidden_size": 80,
+    "minibatch_size": 64,
+    "learning_rate": 0.001,
+    "max_grad_norm": 0.01,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-035",
+    "candidate_index": 34,
+    "dropout": 0.4,
+    "hidden_size": 160,
+    "minibatch_size": 256,
+    "learning_rate": 0.1,
+    "max_grad_norm": 1.0,
+    "lbw": 10
+  },
+  {
+    "candidate_id": "C-036",
+    "candidate_index": 35,
+    "dropout": 0.4,
+    "hidden_size": 160,
+    "minibatch_size": 256,
+    "learning_rate": 0.001,
+    "max_grad_norm": 0.01,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-037",
+    "candidate_index": 36,
+    "dropout": 0.4,
+    "hidden_size": 160,
+    "minibatch_size": 64,
+    "learning_rate": 0.01,
+    "max_grad_norm": 100.0,
+    "lbw": 126
+  },
+  {
+    "candidate_id": "C-038",
+    "candidate_index": 37,
+    "dropout": 0.4,
+    "hidden_size": 10,
+    "minibatch_size": 128,
+    "learning_rate": 0.1,
+    "max_grad_norm": 100.0,
+    "lbw": 63
+  },
+  {
+    "candidate_id": "C-039",
+    "candidate_index": 38,
+    "dropout": 0.4,
+    "hidden_size": 5,
+    "minibatch_size": 256,
+    "learning_rate": 0.001,
+    "max_grad_norm": 1.0,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-040",
+    "candidate_index": 39,
+    "dropout": 0.5,
+    "hidden_size": 80,
+    "minibatch_size": 128,
+    "learning_rate": 0.001,
+    "max_grad_norm": 100.0,
+    "lbw": 126
+  },
+  {
+    "candidate_id": "C-041",
+    "candidate_index": 40,
+    "dropout": 0.2,
+    "hidden_size": 20,
+    "minibatch_size": 64,
+    "learning_rate": 0.1,
+    "max_grad_norm": 0.01,
+    "lbw": 126
+  },
+  {
+    "candidate_id": "C-042",
+    "candidate_index": 41,
+    "dropout": 0.2,
+    "hidden_size": 80,
+    "minibatch_size": 128,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 1.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-043",
+    "candidate_index": 42,
+    "dropout": 0.2,
+    "hidden_size": 80,
+    "minibatch_size": 256,
+    "learning_rate": 0.1,
+    "max_grad_norm": 0.01,
+    "lbw": 126
+  },
+  {
+    "candidate_id": "C-044",
+    "candidate_index": 43,
+    "dropout": 0.3,
+    "hidden_size": 5,
+    "minibatch_size": 128,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 1.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-045",
+    "candidate_index": 44,
+    "dropout": 0.1,
+    "hidden_size": 20,
+    "minibatch_size": 64,
+    "learning_rate": 0.01,
+    "max_grad_norm": 1.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-046",
+    "candidate_index": 45,
+    "dropout": 0.2,
+    "hidden_size": 40,
+    "minibatch_size": 128,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 0.01,
+    "lbw": 10
+  },
+  {
+    "candidate_id": "C-047",
+    "candidate_index": 46,
+    "dropout": 0.4,
+    "hidden_size": 80,
+    "minibatch_size": 64,
+    "learning_rate": 0.001,
+    "max_grad_norm": 100.0,
+    "lbw": 21
+  },
+  {
+    "candidate_id": "C-048",
+    "candidate_index": 47,
+    "dropout": 0.1,
+    "hidden_size": 40,
+    "minibatch_size": 256,
+    "learning_rate": 0.1,
+    "max_grad_norm": 0.01,
+    "lbw": 252
+  },
+  {
+    "candidate_id": "C-049",
+    "candidate_index": 48,
+    "dropout": 0.5,
+    "hidden_size": 80,
+    "minibatch_size": 128,
+    "learning_rate": 0.1,
+    "max_grad_norm": 0.01,
+    "lbw": 126
+  },
+  {
+    "candidate_id": "C-050",
+    "candidate_index": 49,
+    "dropout": 0.3,
+    "hidden_size": 5,
+    "minibatch_size": 128,
+    "learning_rate": 0.01,
+    "max_grad_norm": 100.0,
+    "lbw": 10
+  }
+]

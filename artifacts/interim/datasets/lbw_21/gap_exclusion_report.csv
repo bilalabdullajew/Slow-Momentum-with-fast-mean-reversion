@@ -1,0 +1,3 @@
+asset_id,lbw,split,previous_timestamp,current_timestamp,previous_timeline_index,current_timeline_index,missing_steps,reason_code
+ALGUSD,21,train,2020-08-25T00:00:00,2020-08-27T00:00:00,337,339,1,GAP_IN_TIMELINE
+ALGUSD,21,train,2021-01-25T00:00:00,2021-01-27T00:00:00,467,469,1,GAP_IN_TIMELINE

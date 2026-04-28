@@ -1,0 +1,642 @@
+timestamp,asset_id,lbw,nu,gamma,status,window_size,nlml_baseline,nlml_changepoint,retry_used,fallback_used,location_c,steepness_s,fallback_source_timestamp,failure_stage,failure_message
+2023-08-04T00:00:00,SOYBEAN.c,252,,,invalid_window,1,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 1"
+2023-08-07T00:00:00,SOYBEAN.c,252,,,invalid_window,2,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 2"
+2023-08-08T00:00:00,SOYBEAN.c,252,,,invalid_window,3,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 3"
+2023-08-09T00:00:00,SOYBEAN.c,252,,,invalid_window,4,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 4"
+2023-08-10T00:00:00,SOYBEAN.c,252,,,invalid_window,5,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 5"
+2023-08-11T00:00:00,SOYBEAN.c,252,,,invalid_window,6,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 6"
+2023-08-14T00:00:00,SOYBEAN.c,252,,,invalid_window,7,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 7"
+2023-08-15T00:00:00,SOYBEAN.c,252,,,invalid_window,8,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 8"
+2023-08-16T00:00:00,SOYBEAN.c,252,,,invalid_window,9,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 9"
+2023-08-17T00:00:00,SOYBEAN.c,252,,,invalid_window,10,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 10"
+2023-08-18T00:00:00,SOYBEAN.c,252,,,invalid_window,11,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 11"
+2023-08-21T00:00:00,SOYBEAN.c,252,,,invalid_window,12,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 12"
+2023-08-22T00:00:00,SOYBEAN.c,252,,,invalid_window,13,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 13"
+2023-08-23T00:00:00,SOYBEAN.c,252,,,invalid_window,14,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 14"
+2023-08-24T00:00:00,SOYBEAN.c,252,,,invalid_window,15,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 15"
+2023-08-25T00:00:00,SOYBEAN.c,252,,,invalid_window,16,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 16"
+2023-08-28T00:00:00,SOYBEAN.c,252,,,invalid_window,17,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 17"
+2023-08-29T00:00:00,SOYBEAN.c,252,,,invalid_window,18,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 18"
+2023-08-30T00:00:00,SOYBEAN.c,252,,,invalid_window,19,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 19"
+2023-08-31T00:00:00,SOYBEAN.c,252,,,invalid_window,20,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 20"
+2023-09-01T00:00:00,SOYBEAN.c,252,,,invalid_window,21,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 21"
+2023-09-05T00:00:00,SOYBEAN.c,252,,,invalid_window,22,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 22"
+2023-09-06T00:00:00,SOYBEAN.c,252,,,invalid_window,23,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 23"
+2023-09-07T00:00:00,SOYBEAN.c,252,,,invalid_window,24,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 24"
+2023-09-08T00:00:00,SOYBEAN.c,252,,,invalid_window,25,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 25"
+2023-09-11T00:00:00,SOYBEAN.c,252,,,invalid_window,26,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 26"
+2023-09-12T00:00:00,SOYBEAN.c,252,,,invalid_window,27,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 27"
+2023-09-13T00:00:00,SOYBEAN.c,252,,,invalid_window,28,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 28"
+2023-09-14T00:00:00,SOYBEAN.c,252,,,invalid_window,29,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 29"
+2023-09-15T00:00:00,SOYBEAN.c,252,,,invalid_window,30,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 30"
+2023-09-18T00:00:00,SOYBEAN.c,252,,,invalid_window,31,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 31"
+2023-09-19T00:00:00,SOYBEAN.c,252,,,invalid_window,32,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 32"
+2023-09-20T00:00:00,SOYBEAN.c,252,,,invalid_window,33,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 33"
+2023-09-21T00:00:00,SOYBEAN.c,252,,,invalid_window,34,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 34"
+2023-09-22T00:00:00,SOYBEAN.c,252,,,invalid_window,35,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 35"
+2023-09-25T00:00:00,SOYBEAN.c,252,,,invalid_window,36,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 36"
+2023-09-26T00:00:00,SOYBEAN.c,252,,,invalid_window,37,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 37"
+2023-09-27T00:00:00,SOYBEAN.c,252,,,invalid_window,38,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 38"
+2023-09-28T00:00:00,SOYBEAN.c,252,,,invalid_window,39,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 39"
+2023-09-29T00:00:00,SOYBEAN.c,252,,,invalid_window,40,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 40"
+2023-10-02T00:00:00,SOYBEAN.c,252,,,invalid_window,41,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 41"
+2023-10-03T00:00:00,SOYBEAN.c,252,,,invalid_window,42,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 42"
+2023-10-04T00:00:00,SOYBEAN.c,252,,,invalid_window,43,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 43"
+2023-10-05T00:00:00,SOYBEAN.c,252,,,invalid_window,44,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 44"
+2023-10-06T00:00:00,SOYBEAN.c,252,,,invalid_window,45,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 45"
+2023-10-09T00:00:00,SOYBEAN.c,252,,,invalid_window,46,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 46"
+2023-10-10T00:00:00,SOYBEAN.c,252,,,invalid_window,47,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 47"
+2023-10-11T00:00:00,SOYBEAN.c,252,,,invalid_window,48,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 48"
+2023-10-12T00:00:00,SOYBEAN.c,252,,,invalid_window,49,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 49"
+2023-10-13T00:00:00,SOYBEAN.c,252,,,invalid_window,50,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 50"
+2023-10-16T00:00:00,SOYBEAN.c,252,,,invalid_window,51,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 51"
+2023-10-17T00:00:00,SOYBEAN.c,252,,,invalid_window,52,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 52"
+2023-10-18T00:00:00,SOYBEAN.c,252,,,invalid_window,53,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 53"
+2023-10-19T00:00:00,SOYBEAN.c,252,,,invalid_window,54,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 54"
+2023-10-20T00:00:00,SOYBEAN.c,252,,,invalid_window,55,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 55"
+2023-10-23T00:00:00,SOYBEAN.c,252,,,invalid_window,56,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 56"
+2023-10-24T00:00:00,SOYBEAN.c,252,,,invalid_window,57,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 57"
+2023-10-25T00:00:00,SOYBEAN.c,252,,,invalid_window,58,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 58"
+2023-10-26T00:00:00,SOYBEAN.c,252,,,invalid_window,59,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 59"
+2023-10-27T00:00:00,SOYBEAN.c,252,,,invalid_window,60,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 60"
+2023-10-30T00:00:00,SOYBEAN.c,252,,,invalid_window,61,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 61"
+2023-10-31T00:00:00,SOYBEAN.c,252,,,invalid_window,62,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 62"
+2023-11-01T00:00:00,SOYBEAN.c,252,,,invalid_window,63,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 63"
+2023-11-02T00:00:00,SOYBEAN.c,252,,,invalid_window,64,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 64"
+2023-11-03T00:00:00,SOYBEAN.c,252,,,invalid_window,65,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 65"
+2023-11-06T00:00:00,SOYBEAN.c,252,,,invalid_window,66,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 66"
+2023-11-07T00:00:00,SOYBEAN.c,252,,,invalid_window,67,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 67"
+2023-11-08T00:00:00,SOYBEAN.c,252,,,invalid_window,68,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 68"
+2023-11-09T00:00:00,SOYBEAN.c,252,,,invalid_window,69,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 69"
+2023-11-10T00:00:00,SOYBEAN.c,252,,,invalid_window,70,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 70"
+2023-11-13T00:00:00,SOYBEAN.c,252,,,invalid_window,71,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 71"
+2023-11-14T00:00:00,SOYBEAN.c,252,,,invalid_window,72,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 72"
+2023-11-15T00:00:00,SOYBEAN.c,252,,,invalid_window,73,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 73"
+2023-11-16T00:00:00,SOYBEAN.c,252,,,invalid_window,74,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 74"
+2023-11-17T00:00:00,SOYBEAN.c,252,,,invalid_window,75,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 75"
+2023-11-20T00:00:00,SOYBEAN.c,252,,,invalid_window,76,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 76"
+2023-11-21T00:00:00,SOYBEAN.c,252,,,invalid_window,77,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 77"
+2023-11-22T00:00:00,SOYBEAN.c,252,,,invalid_window,78,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 78"
+2023-11-24T00:00:00,SOYBEAN.c,252,,,invalid_window,79,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 79"
+2023-11-27T00:00:00,SOYBEAN.c,252,,,invalid_window,80,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 80"
+2023-11-28T00:00:00,SOYBEAN.c,252,,,invalid_window,81,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 81"
+2023-11-29T00:00:00,SOYBEAN.c,252,,,invalid_window,82,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 82"
+2023-11-30T00:00:00,SOYBEAN.c,252,,,invalid_window,83,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 83"
+2023-12-01T00:00:00,SOYBEAN.c,252,,,invalid_window,84,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 84"
+2023-12-04T00:00:00,SOYBEAN.c,252,,,invalid_window,85,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 85"
+2023-12-05T00:00:00,SOYBEAN.c,252,,,invalid_window,86,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 86"
+2023-12-06T00:00:00,SOYBEAN.c,252,,,invalid_window,87,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 87"
+2023-12-07T00:00:00,SOYBEAN.c,252,,,invalid_window,88,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 88"
+2023-12-08T00:00:00,SOYBEAN.c,252,,,invalid_window,89,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 89"
+2023-12-11T00:00:00,SOYBEAN.c,252,,,invalid_window,90,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 90"
+2023-12-12T00:00:00,SOYBEAN.c,252,,,invalid_window,91,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 91"
+2023-12-13T00:00:00,SOYBEAN.c,252,,,invalid_window,92,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 92"
+2023-12-14T00:00:00,SOYBEAN.c,252,,,invalid_window,93,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 93"
+2023-12-15T00:00:00,SOYBEAN.c,252,,,invalid_window,94,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 94"
+2023-12-18T00:00:00,SOYBEAN.c,252,,,invalid_window,95,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 95"
+2023-12-19T00:00:00,SOYBEAN.c,252,,,invalid_window,96,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 96"
+2023-12-20T00:00:00,SOYBEAN.c,252,,,invalid_window,97,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 97"
+2023-12-21T00:00:00,SOYBEAN.c,252,,,invalid_window,98,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 98"
+2023-12-22T00:00:00,SOYBEAN.c,252,,,invalid_window,99,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 99"
+2023-12-26T00:00:00,SOYBEAN.c,252,,,invalid_window,100,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 100"
+2023-12-27T00:00:00,SOYBEAN.c,252,,,invalid_window,101,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 101"
+2023-12-28T00:00:00,SOYBEAN.c,252,,,invalid_window,102,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 102"
+2023-12-29T00:00:00,SOYBEAN.c,252,,,invalid_window,103,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 103"
+2024-01-02T00:00:00,SOYBEAN.c,252,,,invalid_window,104,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 104"
+2024-01-03T00:00:00,SOYBEAN.c,252,,,invalid_window,105,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 105"
+2024-01-04T00:00:00,SOYBEAN.c,252,,,invalid_window,106,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 106"
+2024-01-05T00:00:00,SOYBEAN.c,252,,,invalid_window,107,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 107"
+2024-01-08T00:00:00,SOYBEAN.c,252,,,invalid_window,108,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 108"
+2024-01-09T00:00:00,SOYBEAN.c,252,,,invalid_window,109,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 109"
+2024-01-10T00:00:00,SOYBEAN.c,252,,,invalid_window,110,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 110"
+2024-01-11T00:00:00,SOYBEAN.c,252,,,invalid_window,111,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 111"
+2024-01-12T00:00:00,SOYBEAN.c,252,,,invalid_window,112,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 112"
+2024-01-16T00:00:00,SOYBEAN.c,252,,,invalid_window,113,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 113"
+2024-01-17T00:00:00,SOYBEAN.c,252,,,invalid_window,114,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 114"
+2024-01-18T00:00:00,SOYBEAN.c,252,,,invalid_window,115,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 115"
+2024-01-19T00:00:00,SOYBEAN.c,252,,,invalid_window,116,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 116"
+2024-01-22T00:00:00,SOYBEAN.c,252,,,invalid_window,117,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 117"
+2024-01-23T00:00:00,SOYBEAN.c,252,,,invalid_window,118,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 118"
+2024-01-24T00:00:00,SOYBEAN.c,252,,,invalid_window,119,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 119"
+2024-01-25T00:00:00,SOYBEAN.c,252,,,invalid_window,120,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 120"
+2024-01-26T00:00:00,SOYBEAN.c,252,,,invalid_window,121,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 121"
+2024-01-29T00:00:00,SOYBEAN.c,252,,,invalid_window,122,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 122"
+2024-01-30T00:00:00,SOYBEAN.c,252,,,invalid_window,123,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 123"
+2024-01-31T00:00:00,SOYBEAN.c,252,,,invalid_window,124,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 124"
+2024-02-01T00:00:00,SOYBEAN.c,252,,,invalid_window,125,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 125"
+2024-02-02T00:00:00,SOYBEAN.c,252,,,invalid_window,126,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 126"
+2024-02-05T00:00:00,SOYBEAN.c,252,,,invalid_window,127,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 127"
+2024-02-06T00:00:00,SOYBEAN.c,252,,,invalid_window,128,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 128"
+2024-02-07T00:00:00,SOYBEAN.c,252,,,invalid_window,129,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 129"
+2024-02-08T00:00:00,SOYBEAN.c,252,,,invalid_window,130,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 130"
+2024-02-09T00:00:00,SOYBEAN.c,252,,,invalid_window,131,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 131"
+2024-02-12T00:00:00,SOYBEAN.c,252,,,invalid_window,132,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 132"
+2024-02-13T00:00:00,SOYBEAN.c,252,,,invalid_window,133,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 133"
+2024-02-14T00:00:00,SOYBEAN.c,252,,,invalid_window,134,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 134"
+2024-02-15T00:00:00,SOYBEAN.c,252,,,invalid_window,135,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 135"
+2024-02-16T00:00:00,SOYBEAN.c,252,,,invalid_window,136,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 136"
+2024-02-20T00:00:00,SOYBEAN.c,252,,,invalid_window,137,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 137"
+2024-02-21T00:00:00,SOYBEAN.c,252,,,invalid_window,138,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 138"
+2024-02-22T00:00:00,SOYBEAN.c,252,,,invalid_window,139,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 139"
+2024-02-23T00:00:00,SOYBEAN.c,252,,,invalid_window,140,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 140"
+2024-02-26T00:00:00,SOYBEAN.c,252,,,invalid_window,141,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 141"
+2024-02-27T00:00:00,SOYBEAN.c,252,,,invalid_window,142,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 142"
+2024-02-28T00:00:00,SOYBEAN.c,252,,,invalid_window,143,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 143"
+2024-02-29T00:00:00,SOYBEAN.c,252,,,invalid_window,144,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 144"
+2024-03-01T00:00:00,SOYBEAN.c,252,,,invalid_window,145,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 145"
+2024-03-04T00:00:00,SOYBEAN.c,252,,,invalid_window,146,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 146"
+2024-03-05T00:00:00,SOYBEAN.c,252,,,invalid_window,147,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 147"
+2024-03-06T00:00:00,SOYBEAN.c,252,,,invalid_window,148,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 148"
+2024-03-07T00:00:00,SOYBEAN.c,252,,,invalid_window,149,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 149"
+2024-03-08T00:00:00,SOYBEAN.c,252,,,invalid_window,150,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 150"
+2024-03-11T00:00:00,SOYBEAN.c,252,,,invalid_window,151,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 151"
+2024-03-12T00:00:00,SOYBEAN.c,252,,,invalid_window,152,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 152"
+2024-03-13T00:00:00,SOYBEAN.c,252,,,invalid_window,153,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 153"
+2024-03-14T00:00:00,SOYBEAN.c,252,,,invalid_window,154,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 154"
+2024-03-15T00:00:00,SOYBEAN.c,252,,,invalid_window,155,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 155"
+2024-03-18T00:00:00,SOYBEAN.c,252,,,invalid_window,156,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 156"
+2024-03-19T00:00:00,SOYBEAN.c,252,,,invalid_window,157,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 157"
+2024-03-20T00:00:00,SOYBEAN.c,252,,,invalid_window,158,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 158"
+2024-03-21T00:00:00,SOYBEAN.c,252,,,invalid_window,159,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 159"
+2024-03-22T00:00:00,SOYBEAN.c,252,,,invalid_window,160,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 160"
+2024-03-25T00:00:00,SOYBEAN.c,252,,,invalid_window,161,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 161"
+2024-03-26T00:00:00,SOYBEAN.c,252,,,invalid_window,162,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 162"
+2024-03-27T00:00:00,SOYBEAN.c,252,,,invalid_window,163,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 163"
+2024-03-28T00:00:00,SOYBEAN.c,252,,,invalid_window,164,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 164"
+2024-04-01T00:00:00,SOYBEAN.c,252,,,invalid_window,165,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 165"
+2024-04-02T00:00:00,SOYBEAN.c,252,,,invalid_window,166,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 166"
+2024-04-03T00:00:00,SOYBEAN.c,252,,,invalid_window,167,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 167"
+2024-04-04T00:00:00,SOYBEAN.c,252,,,invalid_window,168,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 168"
+2024-04-05T00:00:00,SOYBEAN.c,252,,,invalid_window,169,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 169"
+2024-04-08T00:00:00,SOYBEAN.c,252,,,invalid_window,170,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 170"
+2024-04-09T00:00:00,SOYBEAN.c,252,,,invalid_window,171,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 171"
+2024-04-10T00:00:00,SOYBEAN.c,252,,,invalid_window,172,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 172"
+2024-04-11T00:00:00,SOYBEAN.c,252,,,invalid_window,173,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 173"
+2024-04-12T00:00:00,SOYBEAN.c,252,,,invalid_window,174,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 174"
+2024-04-15T00:00:00,SOYBEAN.c,252,,,invalid_window,175,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 175"
+2024-04-16T00:00:00,SOYBEAN.c,252,,,invalid_window,176,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 176"
+2024-04-17T00:00:00,SOYBEAN.c,252,,,invalid_window,177,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 177"
+2024-04-18T00:00:00,SOYBEAN.c,252,,,invalid_window,178,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 178"
+2024-04-19T00:00:00,SOYBEAN.c,252,,,invalid_window,179,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 179"
+2024-04-22T00:00:00,SOYBEAN.c,252,,,invalid_window,180,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 180"
+2024-04-23T00:00:00,SOYBEAN.c,252,,,invalid_window,181,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 181"
+2024-04-24T00:00:00,SOYBEAN.c,252,,,invalid_window,182,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 182"
+2024-04-25T00:00:00,SOYBEAN.c,252,,,invalid_window,183,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 183"
+2024-04-26T00:00:00,SOYBEAN.c,252,,,invalid_window,184,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 184"
+2024-04-29T00:00:00,SOYBEAN.c,252,,,invalid_window,185,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 185"
+2024-04-30T00:00:00,SOYBEAN.c,252,,,invalid_window,186,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 186"
+2024-05-01T00:00:00,SOYBEAN.c,252,,,invalid_window,187,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 187"
+2024-05-02T00:00:00,SOYBEAN.c,252,,,invalid_window,188,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 188"
+2024-05-03T00:00:00,SOYBEAN.c,252,,,invalid_window,189,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 189"
+2024-05-06T00:00:00,SOYBEAN.c,252,,,invalid_window,190,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 190"
+2024-05-07T00:00:00,SOYBEAN.c,252,,,invalid_window,191,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 191"
+2024-05-08T00:00:00,SOYBEAN.c,252,,,invalid_window,192,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 192"
+2024-05-09T00:00:00,SOYBEAN.c,252,,,invalid_window,193,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 193"
+2024-05-10T00:00:00,SOYBEAN.c,252,,,invalid_window,194,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 194"
+2024-05-13T00:00:00,SOYBEAN.c,252,,,invalid_window,195,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 195"
+2024-05-14T00:00:00,SOYBEAN.c,252,,,invalid_window,196,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 196"
+2024-05-15T00:00:00,SOYBEAN.c,252,,,invalid_window,197,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 197"
+2024-05-16T00:00:00,SOYBEAN.c,252,,,invalid_window,198,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 198"
+2024-05-17T00:00:00,SOYBEAN.c,252,,,invalid_window,199,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 199"
+2024-05-20T00:00:00,SOYBEAN.c,252,,,invalid_window,200,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 200"
+2024-05-21T00:00:00,SOYBEAN.c,252,,,invalid_window,201,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 201"
+2024-05-22T00:00:00,SOYBEAN.c,252,,,invalid_window,202,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 202"
+2024-05-23T00:00:00,SOYBEAN.c,252,,,invalid_window,203,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 203"
+2024-05-24T00:00:00,SOYBEAN.c,252,,,invalid_window,204,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 204"
+2024-05-28T00:00:00,SOYBEAN.c,252,,,invalid_window,205,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 205"
+2024-05-29T00:00:00,SOYBEAN.c,252,,,invalid_window,206,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 206"
+2024-05-30T00:00:00,SOYBEAN.c,252,,,invalid_window,207,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 207"
+2024-05-31T00:00:00,SOYBEAN.c,252,,,invalid_window,208,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 208"
+2024-06-03T00:00:00,SOYBEAN.c,252,,,invalid_window,209,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 209"
+2024-06-04T00:00:00,SOYBEAN.c,252,,,invalid_window,210,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 210"
+2024-06-05T00:00:00,SOYBEAN.c,252,,,invalid_window,211,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 211"
+2024-06-06T00:00:00,SOYBEAN.c,252,,,invalid_window,212,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 212"
+2024-06-07T00:00:00,SOYBEAN.c,252,,,invalid_window,213,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 213"
+2024-06-10T00:00:00,SOYBEAN.c,252,,,invalid_window,214,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 214"
+2024-06-11T00:00:00,SOYBEAN.c,252,,,invalid_window,215,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 215"
+2024-06-12T00:00:00,SOYBEAN.c,252,,,invalid_window,216,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 216"
+2024-06-13T00:00:00,SOYBEAN.c,252,,,invalid_window,217,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 217"
+2024-06-14T00:00:00,SOYBEAN.c,252,,,invalid_window,218,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 218"
+2024-06-17T00:00:00,SOYBEAN.c,252,,,invalid_window,219,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 219"
+2024-06-18T00:00:00,SOYBEAN.c,252,,,invalid_window,220,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 220"
+2024-06-20T00:00:00,SOYBEAN.c,252,,,invalid_window,221,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 221"
+2024-06-21T00:00:00,SOYBEAN.c,252,,,invalid_window,222,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 222"
+2024-06-24T00:00:00,SOYBEAN.c,252,,,invalid_window,223,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 223"
+2024-06-25T00:00:00,SOYBEAN.c,252,,,invalid_window,224,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 224"
+2024-06-26T00:00:00,SOYBEAN.c,252,,,invalid_window,225,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 225"
+2024-06-27T00:00:00,SOYBEAN.c,252,,,invalid_window,226,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 226"
+2024-06-28T00:00:00,SOYBEAN.c,252,,,invalid_window,227,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 227"
+2024-07-01T00:00:00,SOYBEAN.c,252,,,invalid_window,228,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 228"
+2024-07-02T00:00:00,SOYBEAN.c,252,,,invalid_window,229,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 229"
+2024-07-03T00:00:00,SOYBEAN.c,252,,,invalid_window,230,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 230"
+2024-07-05T00:00:00,SOYBEAN.c,252,,,invalid_window,231,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 231"
+2024-07-08T00:00:00,SOYBEAN.c,252,,,invalid_window,232,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 232"
+2024-07-09T00:00:00,SOYBEAN.c,252,,,invalid_window,233,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 233"
+2024-07-10T00:00:00,SOYBEAN.c,252,,,invalid_window,234,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 234"
+2024-07-11T00:00:00,SOYBEAN.c,252,,,invalid_window,235,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 235"
+2024-07-12T00:00:00,SOYBEAN.c,252,,,invalid_window,236,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 236"
+2024-07-15T00:00:00,SOYBEAN.c,252,,,invalid_window,237,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 237"
+2024-07-16T00:00:00,SOYBEAN.c,252,,,invalid_window,238,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 238"
+2024-07-17T00:00:00,SOYBEAN.c,252,,,invalid_window,239,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 239"
+2024-07-18T00:00:00,SOYBEAN.c,252,,,invalid_window,240,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 240"
+2024-07-19T00:00:00,SOYBEAN.c,252,,,invalid_window,241,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 241"
+2024-07-22T00:00:00,SOYBEAN.c,252,,,invalid_window,242,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 242"
+2024-07-23T00:00:00,SOYBEAN.c,252,,,invalid_window,243,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 243"
+2024-07-24T00:00:00,SOYBEAN.c,252,,,invalid_window,244,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 244"
+2024-07-25T00:00:00,SOYBEAN.c,252,,,invalid_window,245,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 245"
+2024-07-26T00:00:00,SOYBEAN.c,252,,,invalid_window,246,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 246"
+2024-07-29T00:00:00,SOYBEAN.c,252,,,invalid_window,247,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 247"
+2024-07-30T00:00:00,SOYBEAN.c,252,,,invalid_window,248,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 248"
+2024-07-31T00:00:00,SOYBEAN.c,252,,,invalid_window,249,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 249"
+2024-08-01T00:00:00,SOYBEAN.c,252,,,invalid_window,250,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 250"
+2024-08-02T00:00:00,SOYBEAN.c,252,,,invalid_window,251,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 251"
+2024-08-05T00:00:00,SOYBEAN.c,252,,,invalid_window,252,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 252"
+2024-08-06T00:00:00,SOYBEAN.c,252,,,invalid_window,253,,,false,false,,,,window_standardization,window returns must be finite
+2024-08-07T00:00:00,SOYBEAN.c,252,0.95993426193049713,0.79812833640690628,success,253,358.98967941508255,355.81333616698356,false,false,201.12834077454039,0.024305562082435696,,,
+2024-08-08T00:00:00,SOYBEAN.c,252,0.98776531372948106,0.90477889739371475,success,253,358.97370072872235,354.58253065049951,false,false,228.00428214321613,521.95940630191285,,,
+2024-08-09T00:00:00,SOYBEAN.c,252,0.68508228915324787,0.50272871361013627,success,253,358.96719073981689,358.18996314790957,false,false,126.68763582975433,0.55964408211561678,,,
+2024-08-12T00:00:00,SOYBEAN.c,252,0.68729847564787783,0.4988940882013882,success,253,358.96055156236156,358.17303204137994,false,false,125.72131022674982,0.54981016142648353,,,
+2024-08-13T00:00:00,SOYBEAN.c,252,0.7179800578468104,0.49657239234210321,success,253,358.8992047206483,357.96474071186549,false,false,125.13624287021001,0.49931331007633356,,,
+2024-08-14T00:00:00,SOYBEAN.c,252,0.7050764851852761,0.49191265527370781,success,253,358.95106745053909,358.07947721489546,false,false,123.96198912897437,0.5082338848920277,,,
+2024-08-15T00:00:00,SOYBEAN.c,252,0.69360438755714349,0.4877460752053408,success,253,358.91848360330658,358.10145897014627,false,false,122.91201095174588,0.51343977118841699,,,
+2024-08-16T00:00:00,SOYBEAN.c,252,0.9428758859732671,0.69233198228208193,success,253,358.85237678561685,356.04866846750792,false,false,174.46765953508464,0.99263818365907808,,,
+2024-08-19T00:00:00,SOYBEAN.c,252,0.71959130587960274,0.47983666574232525,success,253,358.94270976179041,358.00027450248166,false,false,120.91883976706596,0.5151374116260401,,,
+2024-08-20T00:00:00,SOYBEAN.c,252,0.76699510179316299,0.39020848250794277,success,253,358.95492798236381,357.76350704289746,false,false,98.332537592001572,0.2933696350811143,,,
+2024-08-21T00:00:00,SOYBEAN.c,252,0.86378202864423315,0.52130475073060945,success,253,358.96980745710681,357.12274333508412,false,false,131.36879718411359,0.30049884290235712,,,
+2024-08-22T00:00:00,SOYBEAN.c,252,0.99580145132897135,0.86546368945115526,success,253,358.97885147080194,353.51004249019928,false,false,218.09684974169113,28.51561842495817,,,
+2024-08-23T00:00:00,SOYBEAN.c,252,0.99238451149049334,0.88110620023321407,success,253,358.98696159520733,354.1170350858776,false,false,222.03876245876995,18.431790991648189,,,
+2024-08-26T00:00:00,SOYBEAN.c,252,0.99154598966636476,0.89691815447110701,success,253,358.9875012294317,354.22287682309843,false,false,226.02337492671896,31.734328195982648,,,
+2024-08-27T00:00:00,SOYBEAN.c,252,0.8615705715844072,0.55081361239579207,success,253,358.98922012058296,357.1608238045078,false,false,138.8050303237396,0.96472658944236833,,,
+2024-08-28T00:00:00,SOYBEAN.c,252,0.97555351562834158,0.69262124601549857,success,253,358.99145132990219,355.30493272875509,false,false,174.54055399590564,0.027115489987501139,,,
+2024-08-29T00:00:00,SOYBEAN.c,252,0.98097522854502006,0.71251351386985151,success,253,358.99144933429875,355.04864401707727,false,false,179.55340549520258,0.026963375379414397,,,
+2024-08-30T00:00:00,SOYBEAN.c,252,0.81457463254499907,0.5119842136756535,success,253,358.99144953287919,357.51143594845672,false,false,129.02002184626468,13.465059150660663,,,
+2024-09-03T00:00:00,SOYBEAN.c,252,0.81407731697762131,0.50806566338034631,success,253,358.9907494075814,357.51402496670539,false,false,128.03254717184728,8.1762521814903639,,,
+2024-09-04T00:00:00,SOYBEAN.c,252,0.81327230090375846,0.50405043538430983,success,253,358.98278831296085,357.51137372709542,false,false,127.02070971684607,12.932073160554674,,,
+2024-09-05T00:00:00,SOYBEAN.c,252,0.80782217869061235,0.49613064565388615,success,253,358.97942348782021,357.54350262546342,false,false,125.02492270477931,1.2036912755890561,,,
+2024-09-06T00:00:00,SOYBEAN.c,252,0.98246598502819193,0.62740222077987062,success,253,358.98579699627714,354.95987398100846,false,false,158.1053596365274,0.027931489623594086,,,
+2024-09-09T00:00:00,SOYBEAN.c,252,0.99518191968829361,0.82156158178160832,success,253,358.99144936579995,353.66089938464597,false,false,207.0335186089653,39.016271198739659,,,
+2024-09-10T00:00:00,SOYBEAN.c,252,0.99117504208491347,0.83730923412785685,success,253,358.99144944533566,354.27014212881164,false,false,211.00192700021992,345.32339070442487,,,
+2024-09-11T00:00:00,SOYBEAN.c,252,0.99550245359077794,0.81369732879473777,success,253,358.99144947066907,353.59173388816851,false,false,205.05172685627392,22.710048564033482,,,
+2024-09-12T00:00:00,SOYBEAN.c,252,0.99527891286930414,0.80973337342329843,success,253,358.99145135029079,353.64046743534828,false,false,204.0528101026712,21.491365881016893,,,
+2024-09-13T00:00:00,SOYBEAN.c,252,0.98378977893023412,0.82658076604430253,success,253,358.99144956074173,354.88567929933015,false,false,208.29835304316424,16.400278195844713,,,
+2024-09-16T00:00:00,SOYBEAN.c,252,0.64732547123962414,0.3571736932498501,success,253,358.99144951624112,358.38414591826063,false,false,90.007770698962219,17.520410519218963,,,
+2024-09-17T00:00:00,SOYBEAN.c,252,0.77975975504866313,0.46832240418269416,success,253,358.99144944296211,357.72718255010562,false,false,118.01724585403893,14.249038039517608,,,
+2024-09-18T00:00:00,SOYBEAN.c,252,0.77516334624468075,0.31139960631911956,success,253,358.99146300467828,357.75376338342693,false,false,78.472700792418124,0.28726043825866221,,,
+2024-09-19T00:00:00,SOYBEAN.c,252,0.96916645141224445,0.53953656883553069,success,253,358.99145337579523,355.54362033922354,false,false,135.96321534655374,0.038293120739346667,,,
+2024-09-20T00:00:00,SOYBEAN.c,252,0.98654591946547443,0.78687481214780453,success,253,358.99144978869953,354.69652236196094,false,false,198.29245266124673,18.253904834054005,,,
+2024-09-23T00:00:00,SOYBEAN.c,252,0.99411066996082897,0.78187552676079053,success,253,358.99145015726026,353.86274386453471,false,false,197.0326327437192,30.190613916655945,,,
+2024-09-24T00:00:00,SOYBEAN.c,252,0.7705287774752958,0.99206637150937182,success,253,358.99144932593038,357.78014995236492,false,false,250.00072562036169,1417.0748911214489,,,
+2024-09-25T00:00:00,SOYBEAN.c,252,0.9945502746604401,0.77406981843965716,success,253,358.99131262017374,353.78458718145134,false,false,195.06559424679361,30.869539573981083,,,
+2024-09-26T00:00:00,SOYBEAN.c,252,0.9776250434412086,0.80952606952326622,success,253,358.99144980663232,355.2142659239276,false,false,204.00056951986309,1779.4262556363219,,,
+2024-09-27T00:00:00,SOYBEAN.c,252,0.9963457731527664,0.76600243167239013,success,253,358.99144973715556,353.38323991593859,false,false,193.03261278144231,27.979770807882193,,,
+2024-09-30T00:00:00,SOYBEAN.c,252,0.85285909358396383,0.46836644354152474,success,253,358.99144934279701,357.23424567289766,false,false,118.02834377246424,10.677707510194276,,,
+2024-10-01T00:00:00,SOYBEAN.c,252,0.83352607403824175,0.46436076419426042,success,253,358.99144986768596,357.38062357972206,false,false,117.01891257695362,15.085511571534369,,,
+2024-10-02T00:00:00,SOYBEAN.c,252,0.94656297846821491,0.53979797862836765,success,253,358.99144933334554,356.11711561951006,false,false,136.02909061434866,13.965882705637627,,,
+2024-10-03T00:00:00,SOYBEAN.c,252,0.9378055100531848,0.53582841635191503,success,253,358.99144976177416,356.27817358938313,false,false,135.0287609206826,13.699696439017325,,,
+2024-10-04T00:00:00,SOYBEAN.c,252,0.92853425284637947,0.53181606999664599,success,253,358.99145146225806,356.42706246575244,false,false,134.0176496391548,21.559483579610003,,,
+2024-10-07T00:00:00,SOYBEAN.c,252,0.79907331645744062,0.44845661700213668,success,253,358.99144935019592,357.61093673139101,false,false,113.01106748453844,23.416746074118294,,,
+2024-10-08T00:00:00,SOYBEAN.c,252,0.75536031076604238,0.40880572401937271,success,253,358.99144931149652,357.86404091516471,false,false,103.01904245288192,12.011055704735965,,,
+2024-10-09T00:00:00,SOYBEAN.c,252,0.79586823528920836,0.44054528045169772,success,253,358.99144951728437,357.63078156948058,false,false,111.01741067382783,14.787207384248076,,,
+2024-10-10T00:00:00,SOYBEAN.c,252,0.73125263918104311,0.40085822399207705,success,253,358.99144948476777,357.99046223627687,false,false,101.01627244600341,12.880107791096691,,,
+2024-10-11T00:00:00,SOYBEAN.c,252,0.7227372998481657,0.39688585785870012,success,253,358.99144948048854,358.03336910449337,false,false,100.01523618039244,13.322675732065207,,,
+2024-10-14T00:00:00,SOYBEAN.c,252,0.8904357273588247,0.41936419965417732,success,253,358.99088902387638,356.89568944147368,false,false,105.67977831285269,0.92223428012178743,,,
+2024-10-15T00:00:00,SOYBEAN.c,252,0.95550547215801762,0.50407288544682671,success,253,358.98593935005368,355.91906507114749,false,false,127.02636713260033,10.98708743924213,,,
+2024-10-16T00:00:00,SOYBEAN.c,252,0.8815272831912967,0.38087687054817987,success,253,358.98058546777497,356.97361221171184,false,false,95.980971378141334,1.2037517835692653,,,
+2024-10-17T00:00:00,SOYBEAN.c,252,0.92292023727300876,0.40776864913217764,success,253,358.98905623307184,356.50635418439742,false,false,102.75769958130877,0.95999208576017958,,,
+2024-10-18T00:00:00,SOYBEAN.c,252,0.98082006186321846,0.64659721087482569,success,253,358.99145015270773,355.05692597719127,false,false,162.94249714045608,1.109125622612946,,,
+2024-10-21T00:00:00,SOYBEAN.c,252,0.98295136548394768,0.70260228440255568,success,253,358.9914495507785,354.9369600209439,false,false,177.05577566944402,18.961511097648135,,,
+2024-10-22T00:00:00,SOYBEAN.c,252,0.98249881765191938,0.69853402269210874,success,253,358.99145058137202,354.96361988243171,false,false,176.0305737184114,34.760088772480366,,,
+2024-10-23T00:00:00,SOYBEAN.c,252,0.97963832755430602,0.69463943824348773,success,253,358.99145046549472,355.11792134746997,false,false,175.04913843735892,18.919402639213164,,,
+2024-10-24T00:00:00,SOYBEAN.c,252,0.93775034701838733,0.50798969099124158,success,253,358.99145016253499,356.27911936425551,false,false,128.01340212979287,30.114058599390201,,,
+2024-10-25T00:00:00,SOYBEAN.c,252,0.90610881528886633,0.47223960437919843,success,253,358.99145088871688,356.72442798697722,false,false,119.00438030355801,76.060294256289765,,,
+2024-10-28T00:00:00,SOYBEAN.c,252,0.96756482588389925,0.34970009937761382,success,253,358.9914507797086,355.59591180835713,false,false,88.124425043158681,0.035446462293778305,,,
+2024-10-29T00:00:00,SOYBEAN.c,252,0.96908853254401695,0.32700770780511051,success,253,358.98936936222918,355.54414061979531,false,false,82.405942366887857,0.033430224305577051,,,
+2024-10-30T00:00:00,SOYBEAN.c,252,0.97166934194312726,0.33129214301639093,success,253,358.98936255939378,355.45429153783692,false,false,83.485620040130513,0.0339207064562961,,,
+2024-10-31T00:00:00,SOYBEAN.c,252,0.78429194797101998,0.26965702241216982,success,253,358.98470996329434,357.69385451210223,false,false,67.9535696478668,0.58248116926852944,,,
+2024-11-01T00:00:00,SOYBEAN.c,252,0.98225393072634715,0.6540376536938961,success,253,358.98588026331515,354.97219444515326,false,false,164.81748873086181,0.8321834076082254,,,
+2024-11-04T00:00:00,SOYBEAN.c,252,0.6653889770240311,0.73411732904138405,success,253,358.98846099180042,358.30105792604428,false,false,184.99756691842879,13.878737478339685,,,
+2024-11-05T00:00:00,SOYBEAN.c,252,0.64695875024179672,0.75794272299979415,success,253,358.99145188999614,358.38575425789537,false,false,191.00156619594813,116.37022457599534,,,
+2024-11-06T00:00:00,SOYBEAN.c,252,0.54582375077859469,0.7310791112600028,success,253,358.99144986599458,358.80763907998266,false,false,184.23193603752071,6.7007844108443608,,,
+2024-11-07T00:00:00,SOYBEAN.c,252,0.96206233732901214,0.65089643288230836,success,253,358.99145200465654,355.75831711305034,false,false,164.02590108634172,34.071137966248529,,,
+2024-11-08T00:00:00,SOYBEAN.c,252,0.65411859612033918,0.74603595181018967,success,253,358.99144951197246,358.35425679026912,false,false,188.00105985616779,189.88581781404676,,,
+2024-11-11T00:00:00,SOYBEAN.c,252,0.96498003356937145,0.64313509774747624,success,253,358.99144862795765,355.67525958571451,false,false,162.07004463236402,32.144213374969958,,,
+2024-11-12T00:00:00,SOYBEAN.c,252,0.97450871156127084,0.62596129522831045,success,253,358.98976753143819,355.34617083695338,false,false,157.74224639753425,0.83359862989306366,,,
+2024-11-13T00:00:00,SOYBEAN.c,252,0.89148600197417183,0.45248146007497181,success,253,358.99108242096634,356.88507186416371,false,false,114.0253279388929,13.295328341444117,,,
+2024-11-14T00:00:00,SOYBEAN.c,252,0.80750501466906055,0.30159548287447613,success,253,358.99145124748605,357.55757208545168,false,false,76.002061684367987,140.83707548861901,,,
+2024-11-15T00:00:00,SOYBEAN.c,252,0.82504697716441799,0.33340493010546401,success,253,358.99144958621724,357.44052675643348,false,false,84.018042386576937,16.608244212446849,,,
+2024-11-18T00:00:00,SOYBEAN.c,252,0.93950798904687083,0.44056465103020143,success,253,358.99144947902408,356.24860446265342,false,false,111.02229205961076,18.415107742391307,,,
+2024-11-19T00:00:00,SOYBEAN.c,252,0.92442553486226575,0.65874338137791133,success,253,358.99144937822587,356.48739534043534,false,false,166.00333210723366,119.93535450602459,,,
+2024-11-20T00:00:00,SOYBEAN.c,252,0.93197248974617464,0.63492448646678046,success,253,358.99144958822706,356.37405847733584,false,false,160.00097058962868,402.50195016187212,,,
+2024-11-21T00:00:00,SOYBEAN.c,252,0.97440421977759195,0.61114482886612442,success,253,358.99144931968544,355.3520505949337,false,false,154.00849687426336,12.508183641716759,,,
+2024-11-22T00:00:00,SOYBEAN.c,252,0.942291289439385,0.39289750673484891,success,253,358.9914493658581,356.19854303966639,false,false,99.010171697181931,41.095569931025274,,,
+2024-11-25T00:00:00,SOYBEAN.c,252,0.95647876176404822,0.42068173826094346,success,253,358.99144938046106,355.90143985019802,false,false,106.01179804175776,37.497060178603327,,,
+2024-11-26T00:00:00,SOYBEAN.c,252,0.95006174458766235,0.53978460486298296,success,253,358.99144940897219,356.04570978275461,false,false,136.02572042547172,15.810840222048245,,,
+2024-11-27T00:00:00,SOYBEAN.c,252,0.9266569500123859,0.50400158245969318,success,253,358.99144920777422,356.4550135241488,false,false,127.00839877984269,45.053658801469197,,,
+2024-11-29T00:00:00,SOYBEAN.c,252,0.89141648775543147,0.29761929629589551,success,253,358.99146438527777,356.8861722034855,false,false,75.000062666565668,306.8107842361681,,,
+2024-12-02T00:00:00,SOYBEAN.c,252,0.91805380181661089,0.49610698077816323,success,253,358.9914497377207,356.57525665338295,false,false,125.01895915609714,19.422209515596034,,,
+2024-12-03T00:00:00,SOYBEAN.c,252,0.9530753157655919,0.58354819266249369,success,253,358.99144947522444,355.98029939780378,false,false,147.05414455094842,13.980330971676834,,,
+2024-12-04T00:00:00,SOYBEAN.c,252,0.93449043227931061,0.36509829867238325,success,253,358.99145006263319,356.33364487816669,false,false,92.004771265440581,86.886247920410426,,,
+2024-12-05T00:00:00,SOYBEAN.c,252,0.95293009872056489,0.57560550815140921,success,253,358.9914494770905,355.98354168289018,false,false,145.05258805415511,12.610702643366718,,,
+2024-12-06T00:00:00,SOYBEAN.c,252,0.841003400363313,0.61214186653705793,success,253,358.99144942550475,357.32573653836056,false,false,154.2597503673386,17.46649382707605,,,
+2024-12-09T00:00:00,SOYBEAN.c,252,0.93603444568416017,0.56768106922810424,success,253,358.99144919206043,356.30814163997098,false,false,143.05562944548228,14.123600077305175,,,
+2024-12-10T00:00:00,SOYBEAN.c,252,0.93402928677388086,0.56371299483789516,success,253,358.99145023856408,356.34115334908483,false,false,142.05567469914959,13.950297557564777,,,
+2024-12-11T00:00:00,SOYBEAN.c,252,0.92651696198412392,0.37702174703167751,success,253,358.99144947572955,356.45707172687145,false,false,95.009480251982737,43.018487031771862,,,
+2024-12-12T00:00:00,SOYBEAN.c,252,0.95055926447652772,0.34128248663532035,success,253,358.99145004951242,356.03517422881606,false,false,86.003186632100721,140.19043401337657,,,
+2024-12-13T00:00:00,SOYBEAN.c,252,0.94589341365148505,0.33731750670719118,success,253,358.9914494380086,356.13027546827061,false,false,85.004011690212181,110.23035286022547,,,
+2024-12-16T00:00:00,SOYBEAN.c,252,0.91020685553623071,0.48815637391294875,success,253,358.99145011220429,356.67528685486883,false,false,123.01540622606308,23.16560129890788,,,
+2024-12-17T00:00:00,SOYBEAN.c,252,0.92881930688756131,0.54367595225350207,success,253,358.99144954423178,356.42275694464331,false,false,137.00633996788252,12.7173546837868,,,
+2024-12-18T00:00:00,SOYBEAN.c,252,0.94719944409212187,0.53973923161671333,success,253,358.99145122709211,356.10446326907362,false,false,136.01428636741176,13.844430251333398,,,
+2024-12-19T00:00:00,SOYBEAN.c,252,0.94971549537702038,0.53574982797491977,success,253,358.9914493296493,356.05298383891829,false,false,135.00895664967979,12.822005479460078,,,
+2024-12-20T00:00:00,SOYBEAN.c,252,0.97028925848497782,0.53263061808632461,success,253,358.99144954498996,355.50536396091832,false,false,134.22291575775381,292.93178307862945,,,
+2024-12-23T00:00:00,SOYBEAN.c,252,0.94789074084979874,0.52766648281135919,success,253,358.99144930100482,356.09055270944305,false,false,132.9719536684625,11.35802204070515,,,
+2024-12-24T00:00:00,SOYBEAN.c,252,0.84108721897118077,0.56431890036238241,success,253,358.9914521511115,357.32511229259478,false,false,142.20836289132038,12.44829384352432,,,
+2024-12-26T00:00:00,SOYBEAN.c,252,0.95124375023017305,0.51985215093770543,success,253,358.99144925075581,356.02051230129535,false,false,131.00274203630175,13.099240094680999,,,
+2024-12-27T00:00:00,SOYBEAN.c,252,0.94851589218902344,0.51581274929977472,success,253,358.99144950304498,356.07782413258741,false,false,129.98481282354322,10.967635911536833,,,
+2024-12-30T00:00:00,SOYBEAN.c,252,0.9086864025701803,0.45252714505684855,success,253,358.99144920364415,356.69374886849704,false,false,114.03684055432583,9.7148031497452187,,,
+2024-12-31T00:00:00,SOYBEAN.c,252,0.93069341366902825,0.29381385371621321,success,253,358.99144929801565,356.39405932612948,false,false,74.041091136485733,10.611336067956199,,,
+2025-01-02T00:00:00,SOYBEAN.c,252,0.94690598813666926,0.32148941675322684,success,253,358.9914511901863,356.11031552623245,false,false,81.015333021813163,29.860978288556645,,,
+2025-01-03T00:00:00,SOYBEAN.c,252,0.95442768645550746,0.28573954608269819,success,253,358.99144959951781,355.94963809288885,false,false,72.006365612839943,75.759848168942497,,,
+2025-01-06T00:00:00,SOYBEAN.c,252,0.94537491544411534,0.28175996665653064,success,253,358.99146956273336,356.14038117934717,false,false,71.003511597445723,132.77035919880879,,,
+2025-01-07T00:00:00,SOYBEAN.c,252,0.57493692592655299,0.59126978178472478,success,253,358.99144951467849,358.68942674143614,false,false,148.99998500975065,1086.2269910146586,,,
+2025-01-08T00:00:00,SOYBEAN.c,252,0.55171476076842663,0.56349311746036013,success,253,358.99144941693947,358.78384796647993,false,false,142.00026560001075,284.04492994372794,,,
+2025-01-09T00:00:00,SOYBEAN.c,252,0.92992183708793541,0.48437149207544394,success,253,358.99144973216437,356.40596042782136,false,false,122.06161600301188,16.392140154059238,,,
+2025-01-10T00:00:00,SOYBEAN.c,252,0.89851448334224571,0.39005953210110322,success,253,358.99144935833368,356.81062262804488,false,false,98.295002089478018,14.825865238716759,,,
+2025-01-13T00:00:00,SOYBEAN.c,252,0.93808337550736831,0.51207617254983073,success,253,358.95639701295499,356.23834689521817,false,false,129.04319548255734,8.23003587860123,,,
+2025-01-14T00:00:00,SOYBEAN.c,252,0.60418492094809728,0.54762940421826878,success,253,358.97007145748267,358.54713827599323,false,false,138.00260986300373,21.398357494760191,,,
+2025-01-15T00:00:00,SOYBEAN.c,252,0.96737158397905476,0.46055189123478368,success,253,358.96673671730935,355.57733759673664,false,false,116.05907659116549,7.6837939004462879,,,
+2025-01-16T00:00:00,SOYBEAN.c,252,0.92048416277283052,0.25001582400536682,success,253,358.95306458497294,356.50412100169979,false,false,63.003987649352439,112.57779102248995,,,
+2025-01-17T00:00:00,SOYBEAN.c,252,0.98483706646560454,0.44824488057707257,success,253,358.9783869490787,354.80476460274679,false,false,112.95770990542229,0.88708979798759124,,,
+2025-01-21T00:00:00,SOYBEAN.c,252,0.99048956533214039,0.44482162838569161,success,253,358.90098827109676,354.25517852167394,false,false,112.09505035319428,0.88269969041930696,,,
+2025-01-22T00:00:00,SOYBEAN.c,252,0.7520838682619575,0.72557884435346598,success,253,358.95765009316028,357.84789275897913,false,false,182.84586877707343,0.59511677921780481,,,
+2025-01-23T00:00:00,SOYBEAN.c,252,0.98446948121229916,0.44883479790418995,success,253,358.97940850867843,354.83011265247728,false,false,113.10636907185587,18.101267643426159,,,
+2025-01-24T00:00:00,SOYBEAN.c,252,0.96508664432764968,0.35330573599060383,success,253,358.9839398511192,355.66459140696782,false,false,89.033045469632171,14.599766641546946,,,
+2025-01-27T00:00:00,SOYBEAN.c,252,0.98145155066003942,0.44109706207074473,success,253,358.98010901905013,355.01146256112526,false,false,111.15645964182767,13.006488187559995,,,
+2025-01-28T00:00:00,SOYBEAN.c,252,0.99007877636056951,0.87083133397191503,success,253,358.98847173617537,354.38536348856979,false,false,219.44949616092259,0.16532954452349669,,,
+2025-01-29T00:00:00,SOYBEAN.c,252,0.99046809320532536,0.86658742682198298,success,253,358.99092618564254,354.34739331387794,false,false,218.38003155913972,0.16667809633570652,,,
+2025-01-30T00:00:00,SOYBEAN.c,252,0.98992271945487864,0.8620025832615269,success,253,358.98999876180608,354.40265532193484,false,false,217.22465098190477,0.16439648893403425,,,
+2025-01-31T00:00:00,SOYBEAN.c,252,0.70014890367231031,0.49606863341588814,success,253,358.99134088986597,358.14333386377388,false,false,125.00929562080381,14.178567677531488,,,
+2025-02-03T00:00:00,SOYBEAN.c,252,0.9785012617811526,0.34143852409995934,success,253,358.99054883669714,355.17252100627229,false,false,86.042508073189751,12.633836819907193,,,
+2025-02-04T00:00:00,SOYBEAN.c,252,0.70376521148862736,0.51588587480039583,success,253,358.98992436880644,358.12463191901622,false,false,130.00324044969975,77.027844790182797,,,
+2025-02-05T00:00:00,SOYBEAN.c,252,0.57931565852505051,0.55936437474905154,success,253,358.99144976360589,358.67148502552402,false,false,140.95982243676099,2.3849416193469115,,,
+2025-02-06T00:00:00,SOYBEAN.c,252,0.56991752923822581,0.55533753841572864,success,253,358.99145033103838,358.70993564899175,false,false,139.94505968076362,2.3974512016012368,,,
+2025-02-07T00:00:00,SOYBEAN.c,252,0.96247978839095361,0.31352808410292643,success,253,358.99144947524275,355.7468161723977,false,false,79.009077193937458,52.947391822806736,,,
+2025-02-10T00:00:00,SOYBEAN.c,252,0.98276527379237821,0.40190030587958053,success,253,358.99145043450864,354.94800644244441,false,false,101.2788770816543,16.302820200586666,,,
+2025-02-11T00:00:00,SOYBEAN.c,252,0.97852736753659297,0.39788533476518589,success,253,358.99145079094126,355.17218125124748,false,false,100.26710436082685,14.251841564972805,,,
+2025-02-12T00:00:00,SOYBEAN.c,252,0.76988396339029663,0.16272468903704945,success,253,358.99119907343675,357.78354295554169,false,false,41.006621637336465,429.73749438044473,,,
+2025-02-13T00:00:00,SOYBEAN.c,252,0.97588779306666118,0.81472364296685384,success,253,358.99122549670886,355.29059610704473,false,false,205.31035802764717,0.18735785423840667,,,
+2025-02-14T00:00:00,SOYBEAN.c,252,0.91886582811042716,0.84127525364329048,success,253,358.99144746637705,356.56441157974848,false,false,212.00136391810921,29.814084103204117,,,
+2025-02-18T00:00:00,SOYBEAN.c,252,0.89773499946458646,0.087344524480495747,success,253,358.9914500241569,356.81914258889014,false,false,22.01082016908493,60.48436879752974,,,
+2025-02-19T00:00:00,SOYBEAN.c,252,0.54945161105629092,0.52337906884925689,success,253,358.99145001819471,358.79299479110063,false,false,131.89152535001273,2.3771495909893363,,,
+2025-02-20T00:00:00,SOYBEAN.c,252,0.54651224769504736,0.51936145051047089,success,253,358.99145054356967,358.80486208719651,false,false,130.87908552863865,2.3685845609989964,,,
+2025-02-21T00:00:00,SOYBEAN.c,252,0.62114809643190849,0.46825496419669344,success,253,358.99144982121453,358.49702566010683,false,false,118.00025097756675,744.23447649486911,,,
+2025-02-24T00:00:00,SOYBEAN.c,252,0.50434671207460247,0.49733517119418141,success,253,358.99144981725129,358.97406253092572,false,false,125.32846314093372,18.497332351569511,,,
+2025-02-25T00:00:00,SOYBEAN.c,252,0.54679103024116538,0.50738287859046294,success,253,358.99144971413023,358.80373633452132,false,false,127.86048540479665,2.3894133449924788,,,
+2025-02-26T00:00:00,SOYBEAN.c,252,0.54805250077309942,0.50338082021889541,success,253,358.9914496502588,358.79864458450243,false,false,126.85196669516165,2.3871157574993562,,,
+2025-02-27T00:00:00,SOYBEAN.c,252,0.55129541493749312,0.49936665891762599,success,253,358.99144969106493,358.785543613801,false,false,125.84039804724175,2.38483966545596,,,
+2025-02-28T00:00:00,SOYBEAN.c,252,0.55252752141593775,0.49539325960064318,success,253,358.99145028248358,358.78056207326762,false,false,124.83910141936208,2.3787127524330489,,,
+2025-03-03T00:00:00,SOYBEAN.c,252,0.55276163511208787,0.49143702602773498,success,253,358.99144997314846,358.77961481139727,false,false,123.84213055898921,2.3756125767197118,,,
+2025-03-04T00:00:00,SOYBEAN.c,252,0.53065259720698543,0.51188459674437137,success,253,358.99081765337786,358.86805331393651,false,false,128.99491837958158,17.250934878569662,,,
+2025-03-05T00:00:00,SOYBEAN.c,252,0.66019351295634476,0.57925321407184271,success,253,358.9914513820014,358.3272946883327,false,false,145.97180994610437,4.5917641485265177,,,
+2025-03-06T00:00:00,SOYBEAN.c,252,0.55797387951854749,0.47949388420422751,success,253,358.98935778153748,358.75641460759397,false,false,120.83245881946533,2.3272792989597741,,,
+2025-03-07T00:00:00,SOYBEAN.c,252,0.56502434247463218,0.4754618064858776,success,253,358.99005634428369,358.72847759985052,false,false,119.81637523444115,2.305239351953539,,,
+2025-03-10T00:00:00,SOYBEAN.c,252,0.56949318604655164,0.47147878259002124,success,253,358.98996476894717,358.71018110267249,false,false,118.81265321268535,2.3168731921941061,,,
+2025-03-11T00:00:00,SOYBEAN.c,252,0.53066377049405922,0.48666892351971708,success,253,358.99145020756055,358.86864100630407,false,false,122.64056872696871,18.052038864364985,,,
+2025-03-12T00:00:00,SOYBEAN.c,252,0.94032299983916456,0.73493361403377888,success,253,358.99144994725651,356.23417320339564,false,false,185.20327073651228,0.20707987950006687,,,
+2025-03-13T00:00:00,SOYBEAN.c,252,0.75846680062062388,0.76983512563769108,success,253,358.99144981374747,357.84715772089294,false,false,193.99845166069815,162.6034749078992,,,
+2025-03-14T00:00:00,SOYBEAN.c,252,0.68905014897626971,0.55145784780676244,success,253,358.99145027683812,358.19576787176106,false,false,138.96737764730415,5.0274147262695239,,,
+2025-03-17T00:00:00,SOYBEAN.c,252,0.77874243991000169,0.50511674946521978,success,253,358.99145005701746,357.73309714814621,false,false,127.28942086523539,0.8507729847158918,,,
+2025-03-18T00:00:00,SOYBEAN.c,252,0.79027087330219792,0.50101654968782072,success,253,358.99144961353113,357.66489067448924,false,false,126.25617052133082,0.852342865025426,,,
+2025-03-19T00:00:00,SOYBEAN.c,252,0.80163945169993533,0.496920806975236,success,253,358.99145009533021,357.59487747580175,false,false,125.22404335775947,0.85476080329250126,,,
+2025-03-20T00:00:00,SOYBEAN.c,252,0.78635603427126188,0.49287609769905699,success,253,358.9914510057759,357.68835226406469,false,false,124.20477662016236,0.85230567645881483,,,
+2025-03-21T00:00:00,SOYBEAN.c,252,0.79977041391496628,0.48878345575764215,success,253,358.99144932340306,357.60658925813368,false,false,123.17343085092583,0.85188231786348323,,,
+2025-03-24T00:00:00,SOYBEAN.c,252,0.81983015676749249,0.52380621654825421,success,253,358.99145120984116,357.47625399644818,false,false,131.99916657016007,67.642523231363455,,,
+2025-03-25T00:00:00,SOYBEAN.c,252,0.58197059747939972,0.3889582730396024,success,253,358.99145172684354,358.66058357119243,false,false,98.017484805979805,821.40896436666742,,,
+2025-03-26T00:00:00,SOYBEAN.c,252,0.9990567010008975,0.96940307024700867,success,253,358.98710172264163,352.02191821345866,false,false,244.28957370224617,3.6003438257987659,,,
+2025-03-27T00:00:00,SOYBEAN.c,252,0.80999826238223893,0.47297576638406563,success,253,358.98174004825466,357.5317411632729,false,false,119.18989312878453,0.86757389976979826,,,
+2025-03-28T00:00:00,SOYBEAN.c,252,0.62346601963232207,0.41572402604532238,success,253,358.97411969534795,358.46983372756779,false,false,104.76245456342124,2.3781094229639144,,,
+2025-03-31T00:00:00,SOYBEAN.c,252,0.8363150393409664,0.57940819389649012,success,253,358.98639667896015,357.35533490434608,false,false,146.01086486191551,0.15900989533034415,,,
+2025-04-01T00:00:00,SOYBEAN.c,252,0.91735393546302735,0.674948708117042,success,253,358.99144969976686,356.58452353804273,false,false,170.08707444549458,0.21144276265487821,,,
+2025-04-02T00:00:00,SOYBEAN.c,252,0.59846806807971176,0.40077927539862107,success,253,358.99145128709512,358.59236517855243,false,false,100.99637740045252,54.086556821315945,,,
+2025-04-03T00:00:00,SOYBEAN.c,252,0.91808491046875562,0.66671344966877633,success,253,358.99144968709589,356.57484302293784,false,false,168.01178931653163,0.20977617604004559,,,
+2025-04-04T00:00:00,SOYBEAN.c,252,0.80646719587700222,0.49632246966693666,success,253,358.97588528653876,357.54866909292537,false,false,125.07326235606804,1.0549170991047399,,,
+2025-04-07T00:00:00,SOYBEAN.c,252,0.77538317495751063,0.49223371722730541,success,253,358.99121505504036,357.75225367921257,false,false,124.04289674128097,1.0615656465021077,,,
+2025-04-08T00:00:00,SOYBEAN.c,252,0.79111412915050972,0.48818864373901621,success,253,358.98877869705166,357.65712448537414,false,false,123.02353822223209,1.066114277086839,,,
+2025-04-09T00:00:00,SOYBEAN.c,252,0.79859587716854485,0.48431398755216443,success,253,358.97800986706477,357.60046828595898,false,false,122.04712486314544,1.0504662185973781,,,
+2025-04-10T00:00:00,SOYBEAN.c,252,0.95931136533362016,0.6513679225885427,success,253,358.94146059316375,355.78119370080771,false,false,164.14471649231277,0.18756493501103957,,,
+2025-04-11T00:00:00,SOYBEAN.c,252,0.96488923474576582,0.64784994966928389,success,253,358.90094434984894,355.58743882359295,false,false,163.25818731665953,0.18681312743756551,,,
+2025-04-14T00:00:00,SOYBEAN.c,252,0.85459347025878929,0.47214284825552927,success,253,358.8972280487003,357.12613563912106,false,false,118.97999776039337,1.0693098728263966,,,
+2025-04-15T00:00:00,SOYBEAN.c,252,0.85793600763303934,0.46816613759682901,success,253,358.87195838076246,357.07370647379463,false,false,117.97786667440091,1.068675813239365,,,
+2025-04-16T00:00:00,SOYBEAN.c,252,0.86523859146555859,0.46405119442928849,success,253,358.8962593171745,357.03675989064618,false,false,116.9409009961807,1.0847027453343274,,,
+2025-04-17T00:00:00,SOYBEAN.c,252,0.87039778406699453,0.45995118074437807,success,253,358.88772570866809,356.98324526046906,false,false,115.90769754758327,1.0992204439764361,,,
+2025-04-21T00:00:00,SOYBEAN.c,252,0.85726449930419601,0.19668397424813686,success,253,358.8744450739556,357.08169184108448,false,false,49.564361510530489,0.83116852834089894,,,
+2025-04-22T00:00:00,SOYBEAN.c,252,0.92185667488213929,0.5383959411105973,success,253,358.82765888068667,356.35981376150994,false,false,135.67577715987051,0.086901873013328051,,,
+2025-04-23T00:00:00,SOYBEAN.c,252,0.92184719579073326,0.53161324955087885,success,253,358.86174378247,356.39403024251482,false,false,133.96653888682147,0.090117813261864993,,,
+2025-04-24T00:00:00,SOYBEAN.c,252,0.92647278103563102,0.52720295779484416,success,253,358.85801713150465,356.32428812818864,false,false,132.85514536430074,0.090121775058006171,,,
+2025-04-25T00:00:00,SOYBEAN.c,252,0.92665168298014666,0.52027407827465122,success,253,358.86974212833076,356.33338393970195,false,false,131.1090677252121,0.091782931726210659,,,
+2025-04-28T00:00:00,SOYBEAN.c,252,0.9293671386708835,0.51374305018397282,success,253,358.87256649866333,356.29555813433814,false,false,129.46324864636114,0.093013998963546243,,,
+2025-04-29T00:00:00,SOYBEAN.c,252,0.87090593065480526,0.38535186832873436,success,253,358.87974788377159,356.97075527263644,false,false,97.108670818841063,0.79268867768024198,,,
+2025-04-30T00:00:00,SOYBEAN.c,252,0.93935162313889053,0.50201017574443807,success,253,358.8638366085375,356.12373960653031,false,false,126.50656428759838,0.094176969903719043,,,
+2025-05-01T00:00:00,SOYBEAN.c,252,0.88724802724097152,0.37718845888023733,success,253,358.85200087920276,356.78906678611588,false,false,95.051491637819808,0.79210006410156009,,,
+2025-05-02T00:00:00,SOYBEAN.c,252,0.93414011086928717,0.49268823107470056,success,253,358.80941992148342,356.1573230764061,false,false,124.15743423082453,0.096449797468831644,,,
+2025-05-05T00:00:00,SOYBEAN.c,252,0.94648168864201565,0.80221338174331636,success,253,358.86940188808495,355.9966741277276,false,false,202.15777219931573,0.19232582887485603,,,
+2025-05-06T00:00:00,SOYBEAN.c,252,0.9264815116992936,0.48349515563713813,success,253,358.92898396481189,356.39512679037199,false,false,121.84077922055882,0.10426691500763791,,,
+2025-05-07T00:00:00,SOYBEAN.c,252,0.91810457443393934,0.40797167177530913,success,253,358.97259866447479,356.55573050024168,false,false,102.80886128737789,1.1433189119966543,,,
+2025-05-08T00:00:00,SOYBEAN.c,252,0.9151141789967675,0.47309009599995266,success,253,358.97535651893094,356.59761474681466,false,false,119.21870419198807,0.11915741141563863,,,
+2025-05-09T00:00:00,SOYBEAN.c,252,0.87327156777820281,0.35366542425380498,success,253,358.96862472818816,357.03842461452689,false,false,89.123686911958856,0.82644733003981641,,,
+2025-05-12T00:00:00,SOYBEAN.c,252,0.68890668712678138,0.296318039665116,success,253,358.97064610657333,358.17563318562713,false,false,74.672145995609227,2.1882559146171947,,,
+2025-05-13T00:00:00,SOYBEAN.c,252,0.86708387774987172,0.7046204748020386,success,253,358.94815612065918,357.07273867324733,false,false,177.56435965011372,1.4796540911113003,,,
+2025-05-14T00:00:00,SOYBEAN.c,252,0.88218754722960913,0.70048666871661402,success,253,358.94827294831356,356.93496225308314,false,false,176.52264051658673,1.4919462434783304,,,
+2025-05-15T00:00:00,SOYBEAN.c,252,0.88407034194180401,0.33780933124922241,success,253,358.95374445899404,356.92219143831363,false,false,85.12795147480405,0.81163870421904205,,,
+2025-05-16T00:00:00,SOYBEAN.c,252,0.93335994443497028,0.38013459755936685,success,253,358.9498679898827,356.31038290256657,false,false,95.793918584960451,1.1439996167418418,,,
+2025-05-19T00:00:00,SOYBEAN.c,252,0.74481192271006491,0.27622622554146736,success,253,358.95014395670512,357.87901305423122,false,false,69.609008836449775,2.1342213576098152,,,
+2025-05-20T00:00:00,SOYBEAN.c,252,0.95980467787082047,0.5384921149106614,success,253,358.95008185473199,355.77710267543051,false,false,135.70001295748668,0.20248827367287875,,,
+2025-05-21T00:00:00,SOYBEAN.c,252,0.97488277711692239,0.75247614512119343,success,253,358.95870596892672,355.29994251522578,false,false,189.62398857054075,0.20747300054591336,,,
+2025-05-22T00:00:00,SOYBEAN.c,252,0.98599254930067748,0.8926158531664502,success,253,358.93924784391197,354.68518842668772,false,false,224.93919499794546,13.821551940786236,,,
+2025-05-23T00:00:00,SOYBEAN.c,252,0.96190862876154115,0.71431228720065842,success,253,358.93568123150123,355.70674954564589,false,false,180.00669637456593,1.0090324544458513,,,
+2025-05-27T00:00:00,SOYBEAN.c,252,0.97877719685306186,0.73909375059399662,success,253,358.93157618240826,355.1003483719071,false,false,186.25162514968716,0.21352386512991958,,,
+2025-05-28T00:00:00,SOYBEAN.c,252,0.97691635211159711,0.73506087875178294,success,253,358.93235710476961,355.18708055671436,false,false,185.23534144544931,0.21133990560509533,,,
+2025-05-29T00:00:00,SOYBEAN.c,252,0.976828678522909,0.73012651102005155,success,253,358.92579870311567,355.18440279187115,false,false,183.99188077705298,0.21377179222848475,,,
+2025-05-30T00:00:00,SOYBEAN.c,252,0.94415861594394823,0.297133136945337,success,253,358.9551378056068,356.12735887246265,false,false,74.877550510224921,0.80609487111970146,,,
+2025-06-02T00:00:00,SOYBEAN.c,252,0.96843086851762394,0.33974274089686557,success,253,358.95445612996554,355.53095882095562,false,false,85.615170706010119,1.1895005780455161,,,
+2025-06-03T00:00:00,SOYBEAN.c,252,0.97182065280715124,0.33563952364617478,success,253,358.96147615472125,355.42089422144136,false,false,84.581159958836039,1.2004663380548186,,,
+2025-06-04T00:00:00,SOYBEAN.c,252,0.97670076945737228,0.33153565599527135,success,253,358.96763375850395,355.2318737643422,false,false,83.546985310808381,1.2116832628394358,,,
+2025-06-05T00:00:00,SOYBEAN.c,252,0.97543873775287149,0.32754052973802728,success,253,358.97495630498213,355.29323944414477,false,false,82.540213493982876,1.2277236312568443,,,
+2025-06-06T00:00:00,SOYBEAN.c,252,0.97925245470884636,0.32344774650002128,success,253,358.97309759742092,355.11873605861206,false,false,81.508832118005358,1.2399872023744754,,,
+2025-06-09T00:00:00,SOYBEAN.c,252,0.98520058772728569,0.67424404497681967,success,253,358.96675835077355,354.76850055664949,false,false,169.90949933415857,1.1722902026721349,,,
+2025-06-10T00:00:00,SOYBEAN.c,252,0.98917108967833467,0.69478215154851652,success,253,358.93974034810981,354.42509247815099,false,false,175.08510219022617,0.23196173465458647,,,
+2025-06-11T00:00:00,SOYBEAN.c,252,0.98665228205731526,0.66627905554591471,success,253,358.93831977693253,354.63534752699616,false,false,167.90232199757051,1.1939536333346188,,,
+2025-06-12T00:00:00,SOYBEAN.c,252,0.99161820503632769,0.68616007589681094,success,253,358.92796688321152,354.15469081166452,false,false,172.91233912599637,0.23394181707220496,,,
+2025-06-13T00:00:00,SOYBEAN.c,252,0.97591152690396865,0.36202380929851902,success,253,358.95699884282095,355.25536034048736,false,false,91.229999943226787,0.098023181040853766,,,
+2025-06-16T00:00:00,SOYBEAN.c,252,0.96678959260330766,0.46240560631366479,success,253,358.94742526357561,355.57630768219502,false,false,116.52621279104352,0.19939784733883331,,,
+2025-06-17T00:00:00,SOYBEAN.c,252,0.96739976618714041,0.45816622749839764,success,253,358.93021295848422,355.53992060030794,false,false,115.4578893295962,0.19983467936838478,,,
+2025-06-18T00:00:00,SOYBEAN.c,252,0.87934332308342078,0.40075288314928614,success,253,358.95793964356426,356.97171337017079,false,false,100.9897265536201,15.15177270762636,,,
+2025-06-20T00:00:00,SOYBEAN.c,252,0.9753524864380918,0.24076809528297835,success,253,358.95073938697976,355.27261648246582,false,false,60.673560011310542,0.77883766720519698,,,
+2025-06-23T00:00:00,SOYBEAN.c,252,0.57790013735823142,0.0039563066614899988,success,253,358.93439601946847,358.62023686583171,false,false,0.9969892786954796,64.554335245910522,,,
+2025-06-24T00:00:00,SOYBEAN.c,252,0.96078769901829475,0.7265243975435014,success,253,358.90298121367454,355.70421824396931,false,false,183.08414818096236,0.33303647557445548,,,
+2025-06-25T00:00:00,SOYBEAN.c,252,0.96221940911811865,0.72248363463169119,success,253,358.87519285166775,355.63774585302309,false,false,182.06587592718617,0.326624387234906,,,
+2025-06-26T00:00:00,SOYBEAN.c,252,0.96460155349951937,0.71812094789973147,success,253,358.83307033832517,355.52802315518954,false,false,180.96647887073232,0.32625315133025784,,,
+2025-06-27T00:00:00,SOYBEAN.c,252,0.98889541549822957,0.2673736518186059,success,253,358.85232258323782,354.36309204616083,false,false,67.378160258288688,1.2653016332627536,,,
+2025-06-30T00:00:00,SOYBEAN.c,252,0.97722773802895302,0.4255650577496774,success,253,358.84918021616932,355.09000370708549,false,false,107.24239455291871,0.19996442651305091,,,
+2025-07-01T00:00:00,SOYBEAN.c,252,0.99396107407413181,0.63787401401126953,success,253,358.84859048272182,353.74511860701392,false,false,160.74425153083993,0.22809668123247104,,,
+2025-07-02T00:00:00,SOYBEAN.c,252,0.98951337507448622,0.20825270735810059,success,253,358.847767757866,354.30065510446343,false,false,52.479682254241347,0.75024772155617947,,,
+2025-07-03T00:00:00,SOYBEAN.c,252,0.99448523668286848,0.25109549133035941,success,253,358.84665527683052,353.65185875919104,false,false,63.276063815250566,1.2784008124323483,,,
+2025-07-07T00:00:00,SOYBEAN.c,252,0.99469655138179291,0.2902770671108435,success,253,358.85798648768326,353.62390606216064,false,false,73.149820911932565,0.077050330719290266,,,
+2025-07-08T00:00:00,SOYBEAN.c,252,0.97420736226830973,0.55657108015283718,success,253,358.85994495112141,355.22840986450035,false,false,140.25591219851498,1.5026002672996812,,,
+2025-07-09T00:00:00,SOYBEAN.c,252,0.98656912948980791,0.59498665025883379,success,253,358.78230291321302,354.48562534146237,false,false,149.93663586522612,0.78071755165196433,,,
+2025-07-10T00:00:00,SOYBEAN.c,252,0.98282280759859708,0.59100268645784193,success,253,358.92828178527594,354.88143541884187,false,false,148.93267698737617,0.96568501280230512,,,
+2025-07-11T00:00:00,SOYBEAN.c,252,0.98811415448715101,0.23164458258927936,success,253,358.96576380796387,354.54531381536685,false,false,58.3744348124984,1.2458304851778477,,,
+2025-07-14T00:00:00,SOYBEAN.c,252,0.98933110407503377,0.22756703116544724,success,253,358.96310628551532,354.43340980845335,false,false,57.346891853692703,1.2590189349076204,,,
+2025-07-15T00:00:00,SOYBEAN.c,252,0.99148808324627324,0.22346323798066917,success,253,358.96218744682005,354.20444767052606,false,false,56.312735971128632,1.2644850350650858,,,
+2025-07-16T00:00:00,SOYBEAN.c,252,0.9807936713769021,0.7498753319713034,success,253,358.97807847481516,355.04495620267409,false,false,188.96858365676846,17.965144522059063,,,
+2025-07-17T00:00:00,SOYBEAN.c,252,0.98174849458376257,0.74585089995484477,success,253,358.94764236868599,354.96255477381732,false,false,187.95442678862088,12.288521488085641,,,
+2025-07-18T00:00:00,SOYBEAN.c,252,0.98915814394323931,0.25648495753312361,success,253,358.93445659828188,354.42101658087034,false,false,64.634209298347145,0.081312480352169328,,,
+2025-07-21T00:00:00,SOYBEAN.c,252,0.96824594691868138,0.10726016441539714,success,253,358.94760853711585,355.53014277801202,false,false,27.029561432680079,1.8510488839263801,,,
+2025-07-22T00:00:00,SOYBEAN.c,252,0.9926918232400942,0.20333304301854935,success,253,358.9427720184126,354.03134557714253,false,false,51.239926840674435,1.2943100902542286,,,
+2025-07-23T00:00:00,SOYBEAN.c,252,0.99105278837873412,0.73770445362995007,success,253,358.89189243990671,354.18446657225479,false,false,185.90152231474741,0.7811394387681394,,,
+2025-07-24T00:00:00,SOYBEAN.c,252,0.98859159550308995,0.72601110227677035,success,253,358.93647483718735,354.47454385810977,false,false,182.95479777374612,12.96563882365273,,,
+2025-07-25T00:00:00,SOYBEAN.c,252,0.99125778255574637,0.72974439036126026,success,253,358.92078933798297,354.18997858345563,false,false,183.89558637103758,0.81449497535675575,,,
+2025-07-28T00:00:00,SOYBEAN.c,252,0.99118068448854946,0.72581716441869759,success,253,358.86850596531906,354.14655338278669,false,false,182.90592543351178,0.8052428226472067,,,
+2025-07-29T00:00:00,SOYBEAN.c,252,0.98290479181480228,0.53945624340646769,success,253,358.69709915874546,354.64538509915531,false,false,135.94297333842985,1.1903648095253807,,,
+2025-07-30T00:00:00,SOYBEAN.c,252,0.94525320531280199,0.49393806204142499,success,253,358.73532065052768,355.88658663925082,false,false,124.47239163443909,1.5225281872788665,,,
+2025-07-31T00:00:00,SOYBEAN.c,252,0.9555792918428766,0.34263857562188427,success,253,358.749580801847,355.6809688175922,false,false,86.344921056714838,0.23080247993882425,,,
+2025-08-01T00:00:00,SOYBEAN.c,252,0.97835553926703078,0.52778456486599357,success,253,358.71319439036705,354.90207081573482,false,false,133.00171034623037,1.3617136287140099,,,
+2025-08-04T00:00:00,SOYBEAN.c,252,0.95643554547417142,0.48181913567368378,success,253,358.70757515829854,355.61860331217542,false,false,121.41842218976831,1.5445219585705259,,,
+2025-08-05T00:00:00,SOYBEAN.c,252,0.95051614704477505,0.33045182241156873,success,253,358.67472454444311,355.71936580814486,false,false,83.273859247715322,0.2345318448380414,,,
+2025-08-06T00:00:00,SOYBEAN.c,252,0.96380674171659997,0.47377814706293048,success,253,358.73781589355684,355.45579796066448,false,false,119.39209305985848,1.5553842836612906,,,
+2025-08-07T00:00:00,SOYBEAN.c,252,0.99350868060544084,0.6938895272194906,success,253,358.68223372149481,353.65145672873888,false,false,174.86016085931163,0.82987990872804263,,,
+2025-08-08T00:00:00,SOYBEAN.c,252,0.99307607630988803,0.68995563346840794,success,253,358.75167568052706,353.78585102300173,false,false,173.8688196340388,0.8303031346845019,,,
+2025-08-11T00:00:00,SOYBEAN.c,252,0.9794110914848051,0.68705801591553839,success,253,358.84883915238527,354.9866401976081,false,false,173.13862001071567,0.75495164122712344,,,
+2025-08-12T00:00:00,SOYBEAN.c,252,0.9777680255289688,0.68385983127992367,success,253,358.69125955986789,354.90751865481957,false,false,172.33267748254076,0.70898709943748073,,,
+2025-08-13T00:00:00,SOYBEAN.c,252,0.94985167865127829,0.45405467402831468,success,253,358.63686770543779,355.69554690200789,false,false,114.4217778551353,1.5252230800202013,,,
+2025-08-14T00:00:00,SOYBEAN.c,252,0.98370252906700473,0.51767366230798784,success,253,358.81945031513175,354.71913670993206,false,false,130.45376290161295,0.23926552669282458,,,
+2025-08-15T00:00:00,SOYBEAN.c,252,0.91392061133978986,0.77902701694981535,success,253,358.78026894570132,356.41779523090253,false,false,196.31480827135346,0.13687686477147609,,,
+2025-08-18T00:00:00,SOYBEAN.c,252,0.96980487874940002,0.66847466358951757,success,253,358.7905727464547,355.32115821445745,false,false,168.45561522455841,0.69422882510529582,,,
+2025-08-19T00:00:00,SOYBEAN.c,252,0.96196512117956934,0.48038326348938587,success,253,358.78640598647877,355.55593139548307,false,false,121.05658239932524,1.4614062424285441,,,
+2025-08-20T00:00:00,SOYBEAN.c,252,0.91552415245718355,0.43723531330512377,success,253,358.67078556851169,356.28775448864417,false,false,110.18329895289119,1.6019652286296369,,,
+2025-08-21T00:00:00,SOYBEAN.c,252,0.94429599386270058,0.47258623273175243,success,253,358.65283477264006,355.82244717063855,false,false,119.09173064840161,1.5060012993096863,,,
+2025-08-22T00:00:00,SOYBEAN.c,252,0.9676840283357655,0.6528016385797123,success,253,358.6308341544688,355.2314901242695,false,false,164.50601292208751,0.68044147533970689,,,
+2025-08-25T00:00:00,SOYBEAN.c,252,0.96737768833775029,0.64878448213421369,success,253,358.57676577522022,355.18717323972135,false,false,163.49368949782186,0.67951305917228944,,,
+2025-08-26T00:00:00,SOYBEAN.c,252,0.9532925658446032,0.48646538665717032,success,253,358.42760532243,355.41158681292723,false,false,122.58927743760692,0.25912783954143304,,,
+2025-08-27T00:00:00,SOYBEAN.c,252,0.95739486876134583,0.48237636005597589,success,253,358.48080117491901,355.3685599551639,false,false,121.55884273410592,0.26001462584391921,,,
+2025-08-28T00:00:00,SOYBEAN.c,252,0.96210302982421214,0.47805316392766184,success,253,358.51014800472865,355.27589762648978,false,false,120.46939730977078,0.26037995447052464,,,
+2025-08-29T00:00:00,SOYBEAN.c,252,0.9304381257957941,0.26397005224625947,success,253,358.46590204168859,355.87246309629859,false,false,66.520453166057379,0.25646660436383045,,,
+2025-09-02T00:00:00,SOYBEAN.c,252,0.9569146967027593,0.46964430887641528,success,253,358.39730410146518,355.2967717983127,false,false,118.35036583685665,0.25963907010846976,,,
+2025-09-03T00:00:00,SOYBEAN.c,252,0.97339079792686156,0.62445393243394298,success,253,358.39149097058663,354.79196242533169,false,false,157.36239097335363,0.71221245034085279,,,
+2025-09-04T00:00:00,SOYBEAN.c,252,0.90561878031199139,0.3956922373903109,success,253,358.46461245799514,356.20333612216075,false,false,99.714443822358348,1.5067815659371548,,,
+2025-09-05T00:00:00,SOYBEAN.c,252,0.97830835479643419,0.61625270858082848,success,253,358.53987925304125,354.73098151424642,false,false,155.29568256236877,0.73628623064283993,,,
+2025-09-08T00:00:00,SOYBEAN.c,252,0.91811645934277852,0.72013381837616841,success,253,358.5868013750985,356.16977513238095,false,false,181.47372223079444,0.18671817383516165,,,
+2025-09-09T00:00:00,SOYBEAN.c,252,0.98202757585062672,0.60803022156655517,success,253,358.55531974771122,354.55453894993224,false,false,153.22361583477189,0.74722528777210606,,,
+2025-09-10T00:00:00,SOYBEAN.c,252,0.97913134840065719,0.60413103178817618,success,253,358.34667436778381,354.49825667785154,false,false,152.24102001062039,0.74067102259008633,,,
+2025-09-11T00:00:00,SOYBEAN.c,252,0.90633289475091339,0.51290727813095005,success,253,358.15075135727676,355.8810917482503,false,false,129.2526340889994,0.39229441138025972,,,
+2025-09-12T00:00:00,SOYBEAN.c,252,0.8973572375434361,0.50949018608886487,success,253,358.00201458376006,355.83381517683438,false,false,128.39152689439393,0.40015134874258407,,,
+2025-09-15T00:00:00,SOYBEAN.c,252,0.90314112917955713,0.70017660712130625,success,253,358.06073603432947,355.82811218294398,false,false,176.44450499456917,0.19859419860029989,,,
+2025-09-16T00:00:00,SOYBEAN.c,252,0.90548327599523326,0.6958381859800763,success,253,358.02290759108996,355.7632155757334,false,false,175.35122286697921,0.20052795528558487,,,
+2025-09-17T00:00:00,SOYBEAN.c,252,0.9064530644715082,0.49698374032192366,success,253,358.05854457742072,355.78746861981568,false,false,125.23990256112477,0.39683136096762361,,,
+2025-09-18T00:00:00,SOYBEAN.c,252,0.91405570330349739,0.49266432121973036,success,253,358.03312174388884,355.66892960332393,false,false,124.15140894737205,0.39474476780878276,,,
+2025-09-19T00:00:00,SOYBEAN.c,252,0.91837897152057191,0.48852843964385972,success,253,358.00685849100597,355.58633529329069,false,false,123.10916679025264,0.39157103253784836,,,
+2025-09-22T00:00:00,SOYBEAN.c,252,0.92362520590039321,0.4844375486718604,success,253,357.84565605022567,355.35300240376512,false,false,122.07826226530882,0.38892131635109928,,,
+2025-09-23T00:00:00,SOYBEAN.c,252,0.9644290581967101,0.40902958574428122,success,253,357.87137452923935,354.571367315602,false,false,103.07545560755887,0.26127805129658516,,,
+2025-09-24T00:00:00,SOYBEAN.c,252,0.93409199004985999,0.47574282222336634,success,253,357.85973154191839,355.20841659928732,false,false,119.88719120028831,0.3835737140244555,,,
+2025-09-25T00:00:00,SOYBEAN.c,252,0.91975608594203795,0.47303363417122268,success,253,357.92777624638626,355.48873865732116,false,false,119.20447581114811,0.39901095445116153,,,
+2025-09-26T00:00:00,SOYBEAN.c,252,0.9631173866978745,0.3975757154788595,success,253,357.95703447084099,354.69459942536923,false,false,100.1890803006726,0.26758944439007681,,,
+2025-09-29T00:00:00,SOYBEAN.c,252,0.7620130905930671,0.2790606725026526,success,253,357.81773809372856,356.65399002860039,false,false,70.323289470668456,1.825013995179265,,,
+2025-09-30T00:00:00,SOYBEAN.c,252,0.93844069469540947,0.3652304624093774,success,253,357.39896923996247,354.67475060157608,false,false,92.038076527163099,1.538075193049256,,,
+2025-10-01T00:00:00,SOYBEAN.c,252,0.90104077385546288,0.65154141066916682,success,253,357.27071367398554,355.06187107157177,false,false,164.18843548863003,0.21718001591022462,,,
+2025-10-02T00:00:00,SOYBEAN.c,252,0.88001400667791951,0.45381238995811513,success,253,357.14004199206818,355.14747918169661,false,false,114.36072226944501,0.40753624181174652,,,
+2025-10-03T00:00:00,SOYBEAN.c,252,0.87345591049179694,0.16701399400988576,success,253,357.19022145771908,355.25835458506151,false,false,42.087526490491214,0.31217186448977846,,,
+2025-10-06T00:00:00,SOYBEAN.c,252,0.98477338549239879,0.5321529257317974,success,253,357.20517658786258,353.03580988981554,false,false,134.10253728441293,0.76119965665623923,,,
+2025-10-07T00:00:00,SOYBEAN.c,252,0.93249627816228153,0.61585151135504324,success,253,357.26799395774242,354.64231153217429,false,false,155.19458086147088,1.2975766671208084,,,
+2025-10-08T00:00:00,SOYBEAN.c,252,0.81347048859757931,0.72162721634796534,success,253,357.24446346673966,355.77174328246417,false,false,181.85005851968725,1.8792169426275247,,,
+2025-10-09T00:00:00,SOYBEAN.c,252,0.98948230345346533,0.51998360925192777,success,253,357.3601503698286,352.8160277131575,false,false,131.03586953148579,0.76542440444749982,,,
+2025-10-10T00:00:00,SOYBEAN.c,252,0.9254465726114901,0.62260027209883206,success,253,357.08501014330272,354.56624975560362,false,false,156.89526856890569,0.21558225438273926,,,
+2025-10-13T00:00:00,SOYBEAN.c,252,0.98741069251883573,0.51220164103653043,success,253,357.08773958823724,352.72550137458325,false,false,129.07481354120566,0.75661756121351231,,,
+2025-10-14T00:00:00,SOYBEAN.c,252,0.98961680179408928,0.50808080594019356,success,253,357.16901229173686,352.61188343503727,false,false,128.03636309692877,0.76327197933547375,,,
+2025-10-15T00:00:00,SOYBEAN.c,252,0.99123864690305219,0.50399737736194872,success,253,357.25711689794417,352.52851193451613,false,false,127.00733909521108,0.76926718910184611,,,
+2025-10-16T00:00:00,SOYBEAN.c,252,0.99243634621671017,0.49993803176939916,success,253,357.3064744804405,352.42966598283544,false,false,125.98438400588859,0.77195599587557195,,,
+2025-10-17T00:00:00,SOYBEAN.c,252,0.99326480559556862,0.495933215577883,success,253,357.34868283151587,352.35503220496599,false,false,124.97517032562652,0.77079398844353664,,,
+2025-10-20T00:00:00,SOYBEAN.c,252,0.99247703206214855,0.49205937601496985,success,253,357.07989896063617,352.19765582252734,false,false,123.9989627557724,0.75973717872026558,,,
+2025-10-21T00:00:00,SOYBEAN.c,252,0.99337828937577466,0.48794472873605454,success,253,356.93446732105599,351.92370951250763,false,false,122.96207164148575,0.76196462448824509,,,
+2025-10-22T00:00:00,SOYBEAN.c,252,0.91679057295002508,0.39643846513457903,success,253,356.80187508927224,354.40235667322116,false,false,99.902493213913914,0.40161500845410603,,,
+2025-10-23T00:00:00,SOYBEAN.c,252,0.99356813331852634,0.47999329759104897,success,253,356.85088244227279,351.81084460782881,false,false,120.95831099294435,0.76181581887316407,,,
+2025-10-24T00:00:00,SOYBEAN.c,252,0.96428933687193097,0.56406754977216278,success,253,356.92996301119263,353.6340209508806,false,false,142.14502254258502,1.3420651494627884,,,
+2025-10-27T00:00:00,SOYBEAN.c,252,0.9891771698872861,0.47253800677170887,success,253,357.04386676612148,352.52865111242454,false,false,119.07957770647063,0.72956149268506609,,,
+2025-10-28T00:00:00,SOYBEAN.c,252,0.9912213196533699,0.46843630165828887,success,253,356.80593402935938,352.07932228448817,false,false,118.04594801788879,0.73085823531475147,,,
+2025-10-29T00:00:00,SOYBEAN.c,252,0.99285730201057387,0.46432426473744293,success,253,356.90615226015984,351.97165588500218,false,false,117.00971471383562,0.73704070633779417,,,
+2025-10-30T00:00:00,SOYBEAN.c,252,0.99239156005324325,0.4604490178581413,success,253,357.04039134672195,352.16953174995399,false,false,116.0331525002516,0.73021855238475386,,,
+2025-10-31T00:00:00,SOYBEAN.c,252,0.99319402405478474,0.45639468270362826,success,253,356.78288146241442,351.79975646738103,false,false,115.01146004131432,0.72726157341616859,,,
+2025-11-03T00:00:00,SOYBEAN.c,252,0.99064259237123442,0.45276339913999436,success,253,356.69609739822806,352.03391187184906,false,false,114.09637658327858,0.71028951470959223,,,
+2025-11-04T00:00:00,SOYBEAN.c,252,0.92702534887742338,0.70970610655686084,success,253,357.03502695305326,354.49315817874265,false,false,178.84593885232894,0.43463648066710359,,,
+2025-11-05T00:00:00,SOYBEAN.c,252,0.98905168542832755,0.44497234936248153,success,253,357.26149728263897,352.75793621611058,false,false,112.13303203934535,0.6918148900466321,,,
+2025-11-06T00:00:00,SOYBEAN.c,252,0.9502087168151665,0.27507448253040784,success,253,357.65686981013926,354.70802808002571,false,false,69.318769597662779,0.28401921291736448,,,
+2025-11-07T00:00:00,SOYBEAN.c,252,0.94114001404087078,0.25378162721793746,success,253,357.88274615327259,355.11081573619708,false,false,63.952970058920236,1.5465439648096728,,,
+2025-11-10T00:00:00,SOYBEAN.c,252,0.98557573233707874,0.43352263119561035,success,253,357.79596948558401,353.57165555783456,false,false,109.24770306129381,0.65475426712334506,,,
+2025-11-11T00:00:00,SOYBEAN.c,252,0.89236264319308867,0.69072624482170653,success,253,357.88737121674404,355.77226638581271,false,false,174.06301369507005,0.39413087976081107,,,
+2025-11-12T00:00:00,SOYBEAN.c,252,0.94954503915735256,0.25930209691448669,success,253,357.8660981039626,354.93119621406186,false,false,65.344128422450652,0.27551043823114751,,,
+2025-11-13T00:00:00,SOYBEAN.c,252,0.93809766720137255,0.52157790888748423,success,253,357.87475636154755,355.1564601606953,false,false,131.43763303964602,0.16532487732536894,,,
+2025-11-14T00:00:00,SOYBEAN.c,252,0.93108516196098667,0.51733376077718252,success,253,358.11924229894146,355.51576306319339,false,false,130.36810771584999,0.1555380872391498,,,
+2025-11-17T00:00:00,SOYBEAN.c,252,0.93247808054024284,0.51265478263867537,success,253,358.66879858295255,356.04340521573528,false,false,129.18900522494619,0.13380538878024442,,,
+2025-11-18T00:00:00,SOYBEAN.c,252,0.93707116781621724,0.51031179640077418,success,253,358.70072164568273,355.99996685346508,false,false,128.59857269299511,0.14086051554991916,,,
+2025-11-19T00:00:00,SOYBEAN.c,252,0.93106711020507538,0.50638532544524417,success,253,358.70372552097598,356.10052758193154,false,false,127.60910201220152,0.13857300861177413,,,
+2025-11-20T00:00:00,SOYBEAN.c,252,0.92992649978097386,0.50227905629911884,success,253,358.55610257961189,355.97054172339199,false,false,126.57432218737794,0.13790447058857097,,,
+2025-11-21T00:00:00,SOYBEAN.c,252,0.95720469259121799,0.40012787822272172,success,253,358.62326261080227,355.51567380896063,false,false,100.83222531212587,0.57012976619873312,,,
+2025-11-24T00:00:00,SOYBEAN.c,252,0.96011870760265139,0.39593497699837293,success,253,358.67689200765733,355.4957424288109,false,false,99.775614203589981,0.57740015061421446,,,
+2025-11-25T00:00:00,SOYBEAN.c,252,0.93099719627294142,0.49016666416704963,success,253,358.6586729826646,356.05656385441137,false,false,123.52199937009651,0.14316255583723661,,,
+2025-11-26T00:00:00,SOYBEAN.c,252,0.93508366399835519,0.48498683121806285,success,253,358.65455491829579,355.9870182151833,false,false,122.21668146695184,0.14016684615104635,,,
+2025-11-28T00:00:00,SOYBEAN.c,252,0.94039754204649062,0.47951462833206959,success,253,358.63951064136523,355.88090475248629,false,false,120.83768633968154,0.13716431740528279,,,
+2025-12-01T00:00:00,SOYBEAN.c,252,0.94650917966712089,0.4737959241930923,success,253,358.65019874187175,355.77692812934743,false,false,119.39657289665926,0.13275820456403889,,,
+2025-12-02T00:00:00,SOYBEAN.c,252,0.9512214494794291,0.46839364964322583,success,253,358.64085855912123,355.67040234180445,false,false,118.03519971009291,0.13051803359348854,,,
+2025-12-03T00:00:00,SOYBEAN.c,252,0.95592174606844693,0.46233222741128843,success,253,358.62951770743751,355.55280820602036,false,false,116.50772130764469,0.12604552945465866,,,
+2025-12-04T00:00:00,SOYBEAN.c,252,0.96147799366738451,0.45650538920666234,success,253,358.62249974946405,355.40525774325016,false,false,115.03935808007891,0.12362521915755126,,,
+2025-12-05T00:00:00,SOYBEAN.c,252,0.96548185982597456,0.45073083778150919,success,253,358.61931331774412,355.28817099242241,false,false,113.58417112094031,0.11926141353880841,,,
+2025-12-08T00:00:00,SOYBEAN.c,252,0.98664562538987488,0.35853726085796128,success,253,358.49628773672612,354.19382082124247,false,false,90.351389736206244,0.60229928979319702,,,
+2025-12-09T00:00:00,SOYBEAN.c,252,0.94135340412019464,0.26100693793659074,success,253,358.46878359232005,355.69299449309489,false,false,65.773748360020861,0.32065497853554975,,,
+2025-12-10T00:00:00,SOYBEAN.c,252,0.94961574464797827,0.25600515707599097,success,253,358.47801777097351,355.54163907998378,false,false,64.513299583149731,0.31239387711136113,,,
+2025-12-11T00:00:00,SOYBEAN.c,252,0.95638658467714099,0.25105115452150517,success,253,358.45773888162773,355.36994146695656,false,false,63.26489093941931,0.30502158794794787,,,
+2025-12-12T00:00:00,SOYBEAN.c,252,0.98289767036049636,0.58994219224496813,success,253,358.48284876389556,354.43155843895278,false,false,148.66543244573197,0.01852121134326648,,,
+2025-12-15T00:00:00,SOYBEAN.c,252,0.983206850892412,0.76575318443414919,success,253,358.45801870845503,354.3881701942982,false,false,192.96980247740561,0.084383526451738355,,,
+2025-12-16T00:00:00,SOYBEAN.c,252,0.98310860011803702,0.75970572783004442,success,253,358.44700745626182,354.38309247364884,false,false,191.44584341317119,0.084505943168563857,,,
+2025-12-17T00:00:00,SOYBEAN.c,252,0.8438580111172661,0.49799414299565037,success,253,358.46187138321216,356.77465291447032,false,false,125.49452403490389,1.4972337742736328,,,
+2025-12-18T00:00:00,SOYBEAN.c,252,0.98515869183590499,0.39770503337326452,success,253,358.48091742462577,354.28552907304089,false,false,100.22166841006266,0.10192450062129273,,,
+2025-12-19T00:00:00,SOYBEAN.c,252,0.98610089578421822,0.39113230679050376,success,253,358.59132369548411,354.3293894108873,false,false,98.56534131120695,0.1010096063781511,,,
+2025-12-22T00:00:00,SOYBEAN.c,252,0.97543600495677163,0.39846010915166996,success,253,358.37349987474306,354.69189707380843,false,false,100.41194750622083,0.11272061220923331,,,
+2025-12-23T00:00:00,SOYBEAN.c,252,0.87548983066509867,0.82777568661048961,success,253,358.49177034348259,356.54137420125761,false,false,208.59947302584339,0.9899699495190305,,,
+2025-12-24T00:00:00,SOYBEAN.c,252,0.97441890369325845,0.73266136233145052,success,253,358.46035869819059,354.82037105427833,false,false,184.63066330752554,0.096319329124911757,,,
+2025-12-26T00:00:00,SOYBEAN.c,252,0.97549688394609158,0.72636829989732077,success,253,358.48851424627355,354.80436757586716,false,false,183.04481157412482,0.097153279280097676,,,
+2025-12-29T00:00:00,SOYBEAN.c,252,0.99456442871909601,0.30154951059085006,success,253,358.51043752529995,353.3010972705988,false,false,75.990476668894217,0.64292866273279881,,,
+2025-12-30T00:00:00,SOYBEAN.c,252,0.84410741921987253,0.46632105315730427,success,253,358.41593493045747,356.72682235532636,false,false,117.51290539564067,1.5309121868567055,,,
+2025-12-31T00:00:00,SOYBEAN.c,252,0.99402552139579159,0.29361739682421389,success,253,358.3900243111936,353.27575826053413,false,false,73.991583999701902,0.64530936607304012,,,
+2026-01-02T00:00:00,SOYBEAN.c,252,0.99538282868577466,0.28937045492832802,success,253,358.40496525540181,353.03162008772529,false,false,72.921354641938663,0.65125019495923464,,,
+2026-01-05T00:00:00,SOYBEAN.c,252,0.97253653437257026,0.70562467063022061,success,253,358.44954081834908,354.88248977484892,false,false,177.81741699881559,0.10034760841225393,,,
+2026-01-06T00:00:00,SOYBEAN.c,252,0.97581067694608692,0.69971042049812804,success,253,358.46480778013955,354.76745053076928,false,false,176.32702596552826,0.10118089027392597,,,
+2026-01-07T00:00:00,SOYBEAN.c,252,0.97500350378542289,0.69893824136146199,success,253,358.42913238919448,354.76542698820617,false,false,176.13243682308843,0.10361231925035162,,,
+2026-01-08T00:00:00,SOYBEAN.c,252,0.97782885389745955,0.35468508751020983,success,253,358.46138610768719,354.67484316737301,false,false,89.380642052572881,0.11527849472462871,,,
+2026-01-09T00:00:00,SOYBEAN.c,252,0.93194004169556754,0.5012517990287888,success,253,358.46413904983183,355.84725962660337,false,false,126.31545335525479,1.2352236750588552,,,
+2026-01-12T00:00:00,SOYBEAN.c,252,0.99585071631581379,0.26540326916882001,success,253,358.47479291915926,352.99413126914959,false,false,66.881623830542637,0.64945959166298606,,,
+2026-01-13T00:00:00,SOYBEAN.c,252,0.99634395838087142,0.26124700871236839,success,253,358.43080541345887,352.82309391306546,false,false,65.83424619551684,0.64928243897080995,,,
+2026-01-14T00:00:00,SOYBEAN.c,252,0.98614302813606003,0.25815357199398187,success,253,358.83625904150011,354.57124612811225,false,false,65.054700142483426,0.68905061027418302,,,
+2026-01-15T00:00:00,SOYBEAN.c,252,0.97086335412520908,0.25485992687952974,success,253,358.76618423403858,355.25999519293248,false,false,64.224701573641497,0.68496752024285501,,,
+2026-01-16T00:00:00,SOYBEAN.c,252,0.90187582030011415,0.61125349076021873,success,253,358.75761043765789,356.53936741490173,false,false,154.03587967157512,0.56595833624542335,,,
+2026-01-20T00:00:00,SOYBEAN.c,252,0.90762188021576062,0.60709308703701936,success,253,358.79394522825038,356.50900751959568,false,false,152.98745793332887,0.57600405207529071,,,
+2026-01-21T00:00:00,SOYBEAN.c,252,0.84956390794181136,0.57532736313215327,success,253,358.66386389442681,356.93267908259537,false,false,144.98249550930262,19.389700734721451,,,
+2026-01-22T00:00:00,SOYBEAN.c,252,0.92970533114893439,0.65779511497068588,success,253,358.86159704432146,356.27942531828268,false,false,165.76436897261283,0.11943616066830484,,,
+2026-01-23T00:00:00,SOYBEAN.c,252,0.86567957595466782,0.49825735591461295,success,253,358.72352078858324,356.86023412290336,false,false,125.56085369048246,0.43497451166409284,,,
+2026-01-26T00:00:00,SOYBEAN.c,252,0.87511570476854539,0.49424033533265455,success,253,358.69702675485678,356.75005831370652,false,false,124.54856450382894,0.4369155138126028,,,
+2026-01-27T00:00:00,SOYBEAN.c,252,0.76426403432359291,0.28051136471684446,success,253,358.68698963367495,357.51078869875482,false,false,70.688863908644805,1.0712158574162889,,,
+2026-01-28T00:00:00,SOYBEAN.c,252,0.91674783183062314,0.22433493853237732,success,253,358.69327112486604,356.29431285557609,false,false,56.532404510159083,0.68190359550693902,,,
+2026-01-29T00:00:00,SOYBEAN.c,252,0.90480428677410885,0.57950844963858095,success,253,358.70205602151282,356.45027227055181,false,false,146.0361293089224,0.69480229581275088,,,
+2026-01-30T00:00:00,SOYBEAN.c,252,0.90805482404323223,0.57547302123256039,success,253,358.69578428122986,356.40567201145768,false,false,145.01920135060521,0.69049227898786536,,,
+2026-02-02T00:00:00,SOYBEAN.c,252,0.85900953348226938,0.50010762585146828,success,253,358.56734117588422,356.76025343035485,false,false,126.02712171457,0.76132644664299365,,,
+2026-02-03T00:00:00,SOYBEAN.c,252,0.89822534781147256,0.4699004759978207,success,253,358.57740133688969,356.39974143288623,false,false,118.41491995145081,0.45523497623910614,,,
+2026-02-04T00:00:00,SOYBEAN.c,252,0.87949903585828915,0.46648908928681559,success,253,358.48323630588692,356.49554159202307,false,false,117.55525050027752,0.43028595566383554,,,
+2026-02-05T00:00:00,SOYBEAN.c,252,0.82204247907832106,0.4627599594305179,success,253,358.3244172637327,356.79417006760497,false,false,116.61550977649051,0.4223805520624368,,,
+2026-02-06T00:00:00,SOYBEAN.c,252,0.74728513946487796,0.42783338417644728,success,253,358.07168148290071,356.98749647748701,false,false,107.81401281246471,1.6349764802461118,,,
+2026-02-09T00:00:00,SOYBEAN.c,252,0.82583001788017207,0.30115867389839635,success,253,358.04118582547341,356.48482859370569,false,false,75.891985822395881,0.22756696667917922,,,
+2026-02-10T00:00:00,SOYBEAN.c,252,0.84255612002992575,0.29566412582233131,success,253,358.05739224383797,356.38002104963755,false,false,74.507359707227494,0.2225704358293196,,,
+2026-02-11T00:00:00,SOYBEAN.c,252,0.91034610357162116,0.68063213217092811,success,253,358.04099754820396,355.72312934918318,false,false,171.51929730707388,0.49870119519905404,,,
+2026-02-12T00:00:00,SOYBEAN.c,252,0.91108589709380794,0.67677828765279868,success,253,358.04001925582401,355.71305284201537,false,false,170.54812848850526,0.48836160706458737,,,
+2026-02-13T00:00:00,SOYBEAN.c,252,0.93117524905389371,0.61165516161012257,success,253,358.12384740764082,355.51896334300881,false,false,154.13710072575088,0.13844378476731417,,,
+2026-02-17T00:00:00,SOYBEAN.c,252,0.92748118508669586,0.60868087305719654,success,253,358.10710346417812,355.55847699976084,false,false,153.38758001041353,0.14197996144228783,,,
+2026-02-18T00:00:00,SOYBEAN.c,252,0.88764679099073485,0.52810163667773846,success,253,358.11292050405689,356.0459941589184,false,false,133.08161244279009,0.70293910500376355,,,
+2026-02-19T00:00:00,SOYBEAN.c,252,0.79343253140826209,0.3884480216077667,success,253,358.14141206248718,356.7956706361698,false,false,97.888901445157202,10.958083100330525,,,
+2026-02-20T00:00:00,SOYBEAN.c,252,0.8632540960026609,0.25492415962982617,success,253,358.14739031882141,356.30480572606598,false,false,64.240888226716194,0.53974861318720335,,,
+2026-02-23T00:00:00,SOYBEAN.c,252,0.84960893481200095,0.48806165200588131,success,253,358.06498040504925,356.3334432408808,false,false,122.99153630548209,49.463785815550899,,,

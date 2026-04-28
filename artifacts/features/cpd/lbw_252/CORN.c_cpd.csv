@@ -1,0 +1,729 @@
+timestamp,asset_id,lbw,nu,gamma,status,window_size,nlml_baseline,nlml_changepoint,retry_used,fallback_used,location_c,steepness_s,fallback_source_timestamp,failure_stage,failure_message
+2023-03-30T00:00:00,CORN.c,252,,,invalid_window,1,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 1"
+2023-03-31T00:00:00,CORN.c,252,,,invalid_window,2,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 2"
+2023-04-03T00:00:00,CORN.c,252,,,invalid_window,3,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 3"
+2023-04-04T00:00:00,CORN.c,252,,,invalid_window,4,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 4"
+2023-04-05T00:00:00,CORN.c,252,,,invalid_window,5,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 5"
+2023-04-06T00:00:00,CORN.c,252,,,invalid_window,6,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 6"
+2023-04-10T00:00:00,CORN.c,252,,,invalid_window,7,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 7"
+2023-04-11T00:00:00,CORN.c,252,,,invalid_window,8,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 8"
+2023-04-12T00:00:00,CORN.c,252,,,invalid_window,9,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 9"
+2023-04-13T00:00:00,CORN.c,252,,,invalid_window,10,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 10"
+2023-04-14T00:00:00,CORN.c,252,,,invalid_window,11,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 11"
+2023-04-17T00:00:00,CORN.c,252,,,invalid_window,12,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 12"
+2023-04-18T00:00:00,CORN.c,252,,,invalid_window,13,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 13"
+2023-04-19T00:00:00,CORN.c,252,,,invalid_window,14,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 14"
+2023-04-20T00:00:00,CORN.c,252,,,invalid_window,15,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 15"
+2023-04-21T00:00:00,CORN.c,252,,,invalid_window,16,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 16"
+2023-04-24T00:00:00,CORN.c,252,,,invalid_window,17,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 17"
+2023-04-25T00:00:00,CORN.c,252,,,invalid_window,18,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 18"
+2023-04-26T00:00:00,CORN.c,252,,,invalid_window,19,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 19"
+2023-04-27T00:00:00,CORN.c,252,,,invalid_window,20,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 20"
+2023-04-28T00:00:00,CORN.c,252,,,invalid_window,21,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 21"
+2023-05-01T00:00:00,CORN.c,252,,,invalid_window,22,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 22"
+2023-05-02T00:00:00,CORN.c,252,,,invalid_window,23,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 23"
+2023-05-03T00:00:00,CORN.c,252,,,invalid_window,24,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 24"
+2023-05-04T00:00:00,CORN.c,252,,,invalid_window,25,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 25"
+2023-05-05T00:00:00,CORN.c,252,,,invalid_window,26,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 26"
+2023-05-08T00:00:00,CORN.c,252,,,invalid_window,27,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 27"
+2023-05-09T00:00:00,CORN.c,252,,,invalid_window,28,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 28"
+2023-05-10T00:00:00,CORN.c,252,,,invalid_window,29,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 29"
+2023-05-11T00:00:00,CORN.c,252,,,invalid_window,30,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 30"
+2023-05-12T00:00:00,CORN.c,252,,,invalid_window,31,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 31"
+2023-05-15T00:00:00,CORN.c,252,,,invalid_window,32,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 32"
+2023-05-16T00:00:00,CORN.c,252,,,invalid_window,33,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 33"
+2023-05-17T00:00:00,CORN.c,252,,,invalid_window,34,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 34"
+2023-05-18T00:00:00,CORN.c,252,,,invalid_window,35,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 35"
+2023-05-19T00:00:00,CORN.c,252,,,invalid_window,36,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 36"
+2023-05-22T00:00:00,CORN.c,252,,,invalid_window,37,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 37"
+2023-05-23T00:00:00,CORN.c,252,,,invalid_window,38,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 38"
+2023-05-24T00:00:00,CORN.c,252,,,invalid_window,39,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 39"
+2023-05-25T00:00:00,CORN.c,252,,,invalid_window,40,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 40"
+2023-05-26T00:00:00,CORN.c,252,,,invalid_window,41,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 41"
+2023-05-30T00:00:00,CORN.c,252,,,invalid_window,42,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 42"
+2023-05-31T00:00:00,CORN.c,252,,,invalid_window,43,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 43"
+2023-06-01T00:00:00,CORN.c,252,,,invalid_window,44,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 44"
+2023-06-02T00:00:00,CORN.c,252,,,invalid_window,45,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 45"
+2023-06-05T00:00:00,CORN.c,252,,,invalid_window,46,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 46"
+2023-06-06T00:00:00,CORN.c,252,,,invalid_window,47,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 47"
+2023-06-07T00:00:00,CORN.c,252,,,invalid_window,48,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 48"
+2023-06-08T00:00:00,CORN.c,252,,,invalid_window,49,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 49"
+2023-06-09T00:00:00,CORN.c,252,,,invalid_window,50,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 50"
+2023-06-12T00:00:00,CORN.c,252,,,invalid_window,51,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 51"
+2023-06-13T00:00:00,CORN.c,252,,,invalid_window,52,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 52"
+2023-06-14T00:00:00,CORN.c,252,,,invalid_window,53,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 53"
+2023-06-15T00:00:00,CORN.c,252,,,invalid_window,54,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 54"
+2023-06-16T00:00:00,CORN.c,252,,,invalid_window,55,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 55"
+2023-06-20T00:00:00,CORN.c,252,,,invalid_window,56,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 56"
+2023-06-21T00:00:00,CORN.c,252,,,invalid_window,57,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 57"
+2023-06-22T00:00:00,CORN.c,252,,,invalid_window,58,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 58"
+2023-06-23T00:00:00,CORN.c,252,,,invalid_window,59,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 59"
+2023-06-26T00:00:00,CORN.c,252,,,invalid_window,60,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 60"
+2023-06-27T00:00:00,CORN.c,252,,,invalid_window,61,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 61"
+2023-06-28T00:00:00,CORN.c,252,,,invalid_window,62,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 62"
+2023-06-29T00:00:00,CORN.c,252,,,invalid_window,63,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 63"
+2023-06-30T00:00:00,CORN.c,252,,,invalid_window,64,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 64"
+2023-07-03T00:00:00,CORN.c,252,,,invalid_window,65,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 65"
+2023-07-05T00:00:00,CORN.c,252,,,invalid_window,66,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 66"
+2023-07-06T00:00:00,CORN.c,252,,,invalid_window,67,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 67"
+2023-07-07T00:00:00,CORN.c,252,,,invalid_window,68,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 68"
+2023-07-10T00:00:00,CORN.c,252,,,invalid_window,69,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 69"
+2023-07-11T00:00:00,CORN.c,252,,,invalid_window,70,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 70"
+2023-07-12T00:00:00,CORN.c,252,,,invalid_window,71,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 71"
+2023-07-13T00:00:00,CORN.c,252,,,invalid_window,72,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 72"
+2023-07-14T00:00:00,CORN.c,252,,,invalid_window,73,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 73"
+2023-07-17T00:00:00,CORN.c,252,,,invalid_window,74,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 74"
+2023-07-18T00:00:00,CORN.c,252,,,invalid_window,75,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 75"
+2023-07-19T00:00:00,CORN.c,252,,,invalid_window,76,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 76"
+2023-07-20T00:00:00,CORN.c,252,,,invalid_window,77,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 77"
+2023-07-21T00:00:00,CORN.c,252,,,invalid_window,78,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 78"
+2023-07-24T00:00:00,CORN.c,252,,,invalid_window,79,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 79"
+2023-07-25T00:00:00,CORN.c,252,,,invalid_window,80,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 80"
+2023-07-26T00:00:00,CORN.c,252,,,invalid_window,81,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 81"
+2023-07-27T00:00:00,CORN.c,252,,,invalid_window,82,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 82"
+2023-07-28T00:00:00,CORN.c,252,,,invalid_window,83,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 83"
+2023-07-31T00:00:00,CORN.c,252,,,invalid_window,84,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 84"
+2023-08-01T00:00:00,CORN.c,252,,,invalid_window,85,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 85"
+2023-08-02T00:00:00,CORN.c,252,,,invalid_window,86,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 86"
+2023-08-03T00:00:00,CORN.c,252,,,invalid_window,87,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 87"
+2023-08-04T00:00:00,CORN.c,252,,,invalid_window,88,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 88"
+2023-08-07T00:00:00,CORN.c,252,,,invalid_window,89,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 89"
+2023-08-08T00:00:00,CORN.c,252,,,invalid_window,90,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 90"
+2023-08-09T00:00:00,CORN.c,252,,,invalid_window,91,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 91"
+2023-08-10T00:00:00,CORN.c,252,,,invalid_window,92,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 92"
+2023-08-11T00:00:00,CORN.c,252,,,invalid_window,93,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 93"
+2023-08-14T00:00:00,CORN.c,252,,,invalid_window,94,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 94"
+2023-08-15T00:00:00,CORN.c,252,,,invalid_window,95,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 95"
+2023-08-16T00:00:00,CORN.c,252,,,invalid_window,96,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 96"
+2023-08-17T00:00:00,CORN.c,252,,,invalid_window,97,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 97"
+2023-08-18T00:00:00,CORN.c,252,,,invalid_window,98,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 98"
+2023-08-21T00:00:00,CORN.c,252,,,invalid_window,99,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 99"
+2023-08-22T00:00:00,CORN.c,252,,,invalid_window,100,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 100"
+2023-08-23T00:00:00,CORN.c,252,,,invalid_window,101,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 101"
+2023-08-24T00:00:00,CORN.c,252,,,invalid_window,102,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 102"
+2023-08-25T00:00:00,CORN.c,252,,,invalid_window,103,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 103"
+2023-08-28T00:00:00,CORN.c,252,,,invalid_window,104,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 104"
+2023-08-29T00:00:00,CORN.c,252,,,invalid_window,105,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 105"
+2023-08-30T00:00:00,CORN.c,252,,,invalid_window,106,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 106"
+2023-08-31T00:00:00,CORN.c,252,,,invalid_window,107,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 107"
+2023-09-01T00:00:00,CORN.c,252,,,invalid_window,108,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 108"
+2023-09-05T00:00:00,CORN.c,252,,,invalid_window,109,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 109"
+2023-09-06T00:00:00,CORN.c,252,,,invalid_window,110,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 110"
+2023-09-07T00:00:00,CORN.c,252,,,invalid_window,111,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 111"
+2023-09-08T00:00:00,CORN.c,252,,,invalid_window,112,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 112"
+2023-09-11T00:00:00,CORN.c,252,,,invalid_window,113,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 113"
+2023-09-12T00:00:00,CORN.c,252,,,invalid_window,114,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 114"
+2023-09-13T00:00:00,CORN.c,252,,,invalid_window,115,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 115"
+2023-09-14T00:00:00,CORN.c,252,,,invalid_window,116,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 116"
+2023-09-15T00:00:00,CORN.c,252,,,invalid_window,117,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 117"
+2023-09-18T00:00:00,CORN.c,252,,,invalid_window,118,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 118"
+2023-09-19T00:00:00,CORN.c,252,,,invalid_window,119,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 119"
+2023-09-20T00:00:00,CORN.c,252,,,invalid_window,120,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 120"
+2023-09-21T00:00:00,CORN.c,252,,,invalid_window,121,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 121"
+2023-09-22T00:00:00,CORN.c,252,,,invalid_window,122,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 122"
+2023-09-25T00:00:00,CORN.c,252,,,invalid_window,123,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 123"
+2023-09-26T00:00:00,CORN.c,252,,,invalid_window,124,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 124"
+2023-09-27T00:00:00,CORN.c,252,,,invalid_window,125,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 125"
+2023-09-28T00:00:00,CORN.c,252,,,invalid_window,126,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 126"
+2023-09-29T00:00:00,CORN.c,252,,,invalid_window,127,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 127"
+2023-10-02T00:00:00,CORN.c,252,,,invalid_window,128,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 128"
+2023-10-03T00:00:00,CORN.c,252,,,invalid_window,129,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 129"
+2023-10-04T00:00:00,CORN.c,252,,,invalid_window,130,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 130"
+2023-10-05T00:00:00,CORN.c,252,,,invalid_window,131,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 131"
+2023-10-06T00:00:00,CORN.c,252,,,invalid_window,132,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 132"
+2023-10-09T00:00:00,CORN.c,252,,,invalid_window,133,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 133"
+2023-10-10T00:00:00,CORN.c,252,,,invalid_window,134,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 134"
+2023-10-11T00:00:00,CORN.c,252,,,invalid_window,135,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 135"
+2023-10-12T00:00:00,CORN.c,252,,,invalid_window,136,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 136"
+2023-10-13T00:00:00,CORN.c,252,,,invalid_window,137,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 137"
+2023-10-16T00:00:00,CORN.c,252,,,invalid_window,138,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 138"
+2023-10-17T00:00:00,CORN.c,252,,,invalid_window,139,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 139"
+2023-10-18T00:00:00,CORN.c,252,,,invalid_window,140,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 140"
+2023-10-19T00:00:00,CORN.c,252,,,invalid_window,141,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 141"
+2023-10-20T00:00:00,CORN.c,252,,,invalid_window,142,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 142"
+2023-10-23T00:00:00,CORN.c,252,,,invalid_window,143,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 143"
+2023-10-24T00:00:00,CORN.c,252,,,invalid_window,144,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 144"
+2023-10-25T00:00:00,CORN.c,252,,,invalid_window,145,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 145"
+2023-10-26T00:00:00,CORN.c,252,,,invalid_window,146,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 146"
+2023-10-27T00:00:00,CORN.c,252,,,invalid_window,147,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 147"
+2023-10-30T00:00:00,CORN.c,252,,,invalid_window,148,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 148"
+2023-10-31T00:00:00,CORN.c,252,,,invalid_window,149,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 149"
+2023-11-01T00:00:00,CORN.c,252,,,invalid_window,150,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 150"
+2023-11-02T00:00:00,CORN.c,252,,,invalid_window,151,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 151"
+2023-11-03T00:00:00,CORN.c,252,,,invalid_window,152,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 152"
+2023-11-06T00:00:00,CORN.c,252,,,invalid_window,153,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 153"
+2023-11-07T00:00:00,CORN.c,252,,,invalid_window,154,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 154"
+2023-11-08T00:00:00,CORN.c,252,,,invalid_window,155,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 155"
+2023-11-09T00:00:00,CORN.c,252,,,invalid_window,156,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 156"
+2023-11-10T00:00:00,CORN.c,252,,,invalid_window,157,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 157"
+2023-11-13T00:00:00,CORN.c,252,,,invalid_window,158,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 158"
+2023-11-14T00:00:00,CORN.c,252,,,invalid_window,159,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 159"
+2023-11-15T00:00:00,CORN.c,252,,,invalid_window,160,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 160"
+2023-11-16T00:00:00,CORN.c,252,,,invalid_window,161,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 161"
+2023-11-17T00:00:00,CORN.c,252,,,invalid_window,162,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 162"
+2023-11-20T00:00:00,CORN.c,252,,,invalid_window,163,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 163"
+2023-11-21T00:00:00,CORN.c,252,,,invalid_window,164,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 164"
+2023-11-22T00:00:00,CORN.c,252,,,invalid_window,165,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 165"
+2023-11-24T00:00:00,CORN.c,252,,,invalid_window,166,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 166"
+2023-11-27T00:00:00,CORN.c,252,,,invalid_window,167,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 167"
+2023-11-28T00:00:00,CORN.c,252,,,invalid_window,168,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 168"
+2023-11-29T00:00:00,CORN.c,252,,,invalid_window,169,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 169"
+2023-11-30T00:00:00,CORN.c,252,,,invalid_window,170,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 170"
+2023-12-01T00:00:00,CORN.c,252,,,invalid_window,171,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 171"
+2023-12-04T00:00:00,CORN.c,252,,,invalid_window,172,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 172"
+2023-12-05T00:00:00,CORN.c,252,,,invalid_window,173,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 173"
+2023-12-06T00:00:00,CORN.c,252,,,invalid_window,174,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 174"
+2023-12-07T00:00:00,CORN.c,252,,,invalid_window,175,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 175"
+2023-12-08T00:00:00,CORN.c,252,,,invalid_window,176,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 176"
+2023-12-11T00:00:00,CORN.c,252,,,invalid_window,177,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 177"
+2023-12-12T00:00:00,CORN.c,252,,,invalid_window,178,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 178"
+2023-12-13T00:00:00,CORN.c,252,,,invalid_window,179,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 179"
+2023-12-14T00:00:00,CORN.c,252,,,invalid_window,180,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 180"
+2023-12-15T00:00:00,CORN.c,252,,,invalid_window,181,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 181"
+2023-12-18T00:00:00,CORN.c,252,,,invalid_window,182,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 182"
+2023-12-19T00:00:00,CORN.c,252,,,invalid_window,183,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 183"
+2023-12-20T00:00:00,CORN.c,252,,,invalid_window,184,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 184"
+2023-12-21T00:00:00,CORN.c,252,,,invalid_window,185,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 185"
+2023-12-22T00:00:00,CORN.c,252,,,invalid_window,186,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 186"
+2023-12-26T00:00:00,CORN.c,252,,,invalid_window,187,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 187"
+2023-12-27T00:00:00,CORN.c,252,,,invalid_window,188,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 188"
+2023-12-28T00:00:00,CORN.c,252,,,invalid_window,189,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 189"
+2023-12-29T00:00:00,CORN.c,252,,,invalid_window,190,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 190"
+2024-01-02T00:00:00,CORN.c,252,,,invalid_window,191,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 191"
+2024-01-03T00:00:00,CORN.c,252,,,invalid_window,192,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 192"
+2024-01-04T00:00:00,CORN.c,252,,,invalid_window,193,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 193"
+2024-01-05T00:00:00,CORN.c,252,,,invalid_window,194,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 194"
+2024-01-08T00:00:00,CORN.c,252,,,invalid_window,195,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 195"
+2024-01-09T00:00:00,CORN.c,252,,,invalid_window,196,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 196"
+2024-01-10T00:00:00,CORN.c,252,,,invalid_window,197,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 197"
+2024-01-11T00:00:00,CORN.c,252,,,invalid_window,198,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 198"
+2024-01-12T00:00:00,CORN.c,252,,,invalid_window,199,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 199"
+2024-01-16T00:00:00,CORN.c,252,,,invalid_window,200,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 200"
+2024-01-17T00:00:00,CORN.c,252,,,invalid_window,201,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 201"
+2024-01-18T00:00:00,CORN.c,252,,,invalid_window,202,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 202"
+2024-01-19T00:00:00,CORN.c,252,,,invalid_window,203,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 203"
+2024-01-22T00:00:00,CORN.c,252,,,invalid_window,204,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 204"
+2024-01-23T00:00:00,CORN.c,252,,,invalid_window,205,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 205"
+2024-01-24T00:00:00,CORN.c,252,,,invalid_window,206,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 206"
+2024-01-25T00:00:00,CORN.c,252,,,invalid_window,207,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 207"
+2024-01-26T00:00:00,CORN.c,252,,,invalid_window,208,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 208"
+2024-01-29T00:00:00,CORN.c,252,,,invalid_window,209,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 209"
+2024-01-30T00:00:00,CORN.c,252,,,invalid_window,210,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 210"
+2024-01-31T00:00:00,CORN.c,252,,,invalid_window,211,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 211"
+2024-02-01T00:00:00,CORN.c,252,,,invalid_window,212,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 212"
+2024-02-02T00:00:00,CORN.c,252,,,invalid_window,213,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 213"
+2024-02-05T00:00:00,CORN.c,252,,,invalid_window,214,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 214"
+2024-02-06T00:00:00,CORN.c,252,,,invalid_window,215,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 215"
+2024-02-07T00:00:00,CORN.c,252,,,invalid_window,216,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 216"
+2024-02-08T00:00:00,CORN.c,252,,,invalid_window,217,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 217"
+2024-02-09T00:00:00,CORN.c,252,,,invalid_window,218,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 218"
+2024-02-12T00:00:00,CORN.c,252,,,invalid_window,219,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 219"
+2024-02-13T00:00:00,CORN.c,252,,,invalid_window,220,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 220"
+2024-02-14T00:00:00,CORN.c,252,,,invalid_window,221,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 221"
+2024-02-15T00:00:00,CORN.c,252,,,invalid_window,222,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 222"
+2024-02-16T00:00:00,CORN.c,252,,,invalid_window,223,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 223"
+2024-02-20T00:00:00,CORN.c,252,,,invalid_window,224,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 224"
+2024-02-21T00:00:00,CORN.c,252,,,invalid_window,225,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 225"
+2024-02-22T00:00:00,CORN.c,252,,,invalid_window,226,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 226"
+2024-02-23T00:00:00,CORN.c,252,,,invalid_window,227,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 227"
+2024-02-26T00:00:00,CORN.c,252,,,invalid_window,228,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 228"
+2024-02-27T00:00:00,CORN.c,252,,,invalid_window,229,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 229"
+2024-02-28T00:00:00,CORN.c,252,,,invalid_window,230,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 230"
+2024-02-29T00:00:00,CORN.c,252,,,invalid_window,231,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 231"
+2024-03-01T00:00:00,CORN.c,252,,,invalid_window,232,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 232"
+2024-03-04T00:00:00,CORN.c,252,,,invalid_window,233,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 233"
+2024-03-05T00:00:00,CORN.c,252,,,invalid_window,234,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 234"
+2024-03-06T00:00:00,CORN.c,252,,,invalid_window,235,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 235"
+2024-03-07T00:00:00,CORN.c,252,,,invalid_window,236,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 236"
+2024-03-08T00:00:00,CORN.c,252,,,invalid_window,237,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 237"
+2024-03-11T00:00:00,CORN.c,252,,,invalid_window,238,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 238"
+2024-03-12T00:00:00,CORN.c,252,,,invalid_window,239,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 239"
+2024-03-13T00:00:00,CORN.c,252,,,invalid_window,240,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 240"
+2024-03-14T00:00:00,CORN.c,252,,,invalid_window,241,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 241"
+2024-03-15T00:00:00,CORN.c,252,,,invalid_window,242,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 242"
+2024-03-18T00:00:00,CORN.c,252,,,invalid_window,243,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 243"
+2024-03-19T00:00:00,CORN.c,252,,,invalid_window,244,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 244"
+2024-03-20T00:00:00,CORN.c,252,,,invalid_window,245,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 245"
+2024-03-21T00:00:00,CORN.c,252,,,invalid_window,246,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 246"
+2024-03-22T00:00:00,CORN.c,252,,,invalid_window,247,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 247"
+2024-03-25T00:00:00,CORN.c,252,,,invalid_window,248,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 248"
+2024-03-26T00:00:00,CORN.c,252,,,invalid_window,249,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 249"
+2024-03-27T00:00:00,CORN.c,252,,,invalid_window,250,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 250"
+2024-03-28T00:00:00,CORN.c,252,,,invalid_window,251,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 251"
+2024-04-01T00:00:00,CORN.c,252,,,invalid_window,252,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 252"
+2024-04-02T00:00:00,CORN.c,252,,,invalid_window,253,,,false,false,,,,window_standardization,window returns must be finite
+2024-04-03T00:00:00,CORN.c,252,0.99999999999999978,0.38030308675695584,success,253,358.86586968632281,322.54243527534658,false,false,95.836377862752869,0.18910718025820053,,,
+2024-04-04T00:00:00,CORN.c,252,0.99999999999999978,0.39473489433274889,success,253,358.85339702692659,322.1188692154513,false,false,99.473193371852716,0.17579404737168933,,,
+2024-04-05T00:00:00,CORN.c,252,1,0.39014059423330455,success,253,358.85389320629821,321.11488757590666,false,false,98.315429746792745,0.17517523106599336,,,
+2024-04-08T00:00:00,CORN.c,252,1,0.3857295921378221,success,253,358.85694739477992,320.53253736989814,false,false,97.203857218731173,0.17413306641016665,,,
+2024-04-09T00:00:00,CORN.c,252,1,0.36309085843279626,success,253,358.86868504383523,319.94427313532105,false,false,91.498896325064663,0.18348321045522786,,,
+2024-04-10T00:00:00,CORN.c,252,1,0.37665045679033282,success,253,358.85976959093165,319.37710198806036,false,false,94.915915111163869,0.17112102190541836,,,
+2024-04-11T00:00:00,CORN.c,252,1,0.35421279637703079,success,253,358.85867694604656,318.92821457014975,false,false,89.261624687011761,0.18177462127398239,,,
+2024-04-12T00:00:00,CORN.c,252,1,0.34942168216006464,success,253,358.87766878196538,318.63641801472949,false,false,88.054263904336295,0.18135145769666142,,,
+2024-04-15T00:00:00,CORN.c,252,1,0.34530533774776123,success,253,358.88460807980931,317.86757257203556,false,false,87.016945112435835,0.17935932968700066,,,
+2024-04-16T00:00:00,CORN.c,252,1,0.34078442953799509,success,253,358.88187588093581,317.01687539298615,false,false,85.877676243574768,0.17801037415036558,,,
+2024-04-17T00:00:00,CORN.c,252,1,0.30901977164082189,success,253,358.89592578269065,316.40785269294673,false,false,77.872982453487111,14.622930616706444,,,
+2024-04-18T00:00:00,CORN.c,252,1,0.30506683700907433,success,253,358.90045544020535,315.90720070098843,false,false,76.876842926286727,14.962514624524944,,,
+2024-04-19T00:00:00,CORN.c,252,1,0.30107261575581395,success,253,358.90454934826636,315.65144912016126,false,false,75.870299170465117,14.348040337175627,,,
+2024-04-22T00:00:00,CORN.c,252,1,0.29708668642407249,success,253,358.88915009702339,315.80904697202561,false,false,74.865844978866264,14.524897086966826,,,
+2024-04-23T00:00:00,CORN.c,252,0.99999999999922085,0.56685986702088831,success,253,358.88754151838498,331.00692897005632,false,false,142.84868648926386,8.9746397880127038,,,
+2024-04-24T00:00:00,CORN.c,252,1,0.31366499610874621,success,253,358.89778178902657,314.79161541232151,false,false,79.043579019404049,0.17312594775411602,,,
+2024-04-25T00:00:00,CORN.c,252,1,0.30903305009819426,success,253,358.90271129833889,314.1200991847586,false,false,77.876328624744957,0.17176861647183478,,,
+2024-04-26T00:00:00,CORN.c,252,1,0.32755123625402127,success,253,358.90551853339173,314.80791366106473,false,false,82.542911536013364,3.5951929834821827,,,
+2024-04-29T00:00:00,CORN.c,252,1,0.27721366990499807,success,253,358.92197340999462,312.48599744003474,false,false,69.857844816059512,14.781343184846017,,,
+2024-04-30T00:00:00,CORN.c,252,1,0.42694270990680638,success,253,358.93378856018126,321.91674863380211,false,false,107.5895628965152,17.23014980074576,,,
+2024-05-01T00:00:00,CORN.c,252,1,0.2920760992855243,success,253,358.93979189453688,311.57808141830026,false,false,73.603177019952128,0.16579035176866355,,,
+2024-05-02T00:00:00,CORN.c,252,1,0.28789363526991024,success,253,358.93170299655424,312.31200268844032,false,false,72.549196088017382,0.16561887838392028,,,
+2024-05-03T00:00:00,CORN.c,252,1,0.26129658524819166,success,253,358.91211735727126,311.34734432302059,false,false,65.846739482544294,14.97957028905649,,,
+2024-05-06T00:00:00,CORN.c,252,1,0.25728760176377746,success,253,358.89933111823694,312.06770241334294,false,false,64.836475644471918,13.971942060625871,,,
+2024-05-07T00:00:00,CORN.c,252,1,0.25323715514621675,success,253,358.89719838059096,311.17637859956875,false,false,63.815763096846617,12.38602219982435,,,
+2024-05-08T00:00:00,CORN.c,252,1,0.24938899373185386,success,253,358.8797398993114,311.18614753925135,false,false,62.846026420427172,14.462429808831876,,,
+2024-05-09T00:00:00,CORN.c,252,1,0.24538169447459129,success,253,358.89802163349657,310.40957152815457,false,false,61.836187007597005,13.930946806447368,,,
+2024-05-10T00:00:00,CORN.c,252,1,0.26702085815099252,success,253,358.88900083252742,313.55579539683959,false,false,67.289256254050116,1.9052014931403591,,,
+2024-05-13T00:00:00,CORN.c,252,1,0.2706344243187403,success,253,358.85947654925718,311.16520378349736,false,false,68.199874928322558,0.13976724501610505,,,
+2024-05-14T00:00:00,CORN.c,252,1,0.26506684509463901,success,253,358.88079506496217,310.33656906797899,false,false,66.796844963849026,0.13829545334714696,,,
+2024-05-15T00:00:00,CORN.c,252,1,0.23002837836490403,success,253,358.85126996493307,309.57994280815581,false,false,57.967151347955813,42.310989406220557,,,
+2024-05-16T00:00:00,CORN.c,252,0.9999999999999345,0.49960015883191994,success,253,358.78590564071567,328.4300363093891,false,false,125.89924002564382,13.169176040637199,,,
+2024-05-17T00:00:00,CORN.c,252,1,0.22205559666287689,success,253,358.83701635108315,309.06050190503015,false,false,55.958010359044977,33.401977608838486,,,
+2024-05-20T00:00:00,CORN.c,252,1,0.24607120822436973,success,253,358.86584226693867,309.66873745433719,false,false,62.009944472541171,0.13381645203474979,,,
+2024-05-21T00:00:00,CORN.c,252,0.9999999999999416,0.48761950163499207,success,253,358.87382050783208,328.40252548575086,false,false,122.880114412018,12.107194222958139,,,
+2024-05-22T00:00:00,CORN.c,252,1,0.23515174281411083,success,253,358.87523333302767,307.80061418579265,false,false,59.25823918915593,0.12999382397094547,,,
+2024-05-23T00:00:00,CORN.c,252,1,0.21515623744763585,success,253,358.90375665258023,307.33404888505373,false,false,54.219371836804235,0.15314538030158514,,,
+2024-05-24T00:00:00,CORN.c,252,1,0.21050414604089235,success,253,358.9102419626708,306.61779504346038,false,false,53.047044802304875,0.1504483139591099,,,
+2024-05-28T00:00:00,CORN.c,252,1,0.2055060962762689,success,253,358.90424098228863,305.57953718453462,false,false,51.787536261619763,0.14725677539765528,,,
+2024-05-29T00:00:00,CORN.c,252,1,0.17880868341523526,success,253,358.87058648115118,306.56070447044277,false,false,45.059788220639284,1.5470139264571738,,,
+2024-05-30T00:00:00,CORN.c,252,1,0.18859261935940447,success,253,358.72602145514418,306.88786184898788,false,false,47.525340078569926,0.92977543763002612,,,
+2024-05-31T00:00:00,CORN.c,252,1,0.20550826911734069,success,253,358.72736965611927,306.25326530340931,false,false,51.788083817569856,0.12249918158367307,,,
+2024-06-03T00:00:00,CORN.c,252,1,0.2008416628170398,success,253,358.70407402482516,305.47890073789597,false,false,50.612099029894033,0.11936524756662571,,,
+2024-06-04T00:00:00,CORN.c,252,1,0.18131825263453483,success,253,358.77122496830111,304.44987530744521,false,false,45.692199663902777,0.13947237780533056,,,
+2024-06-05T00:00:00,CORN.c,252,1,0.18990491107041291,success,253,358.73056607483562,304.40706303649256,false,false,47.856037589744055,0.11550815696287765,,,
+2024-06-06T00:00:00,CORN.c,252,1,0.1631413628600813,success,253,358.74580568785041,305.4757268227886,false,false,41.111623440740487,0.41376540853745147,,,
+2024-06-07T00:00:00,CORN.c,252,1,0.17463207983098386,success,253,358.75385415791925,304.17978613141696,false,false,44.007284117407934,0.11084889320325925,,,
+2024-06-10T00:00:00,CORN.c,252,1,0.16865170863104467,success,253,358.71241441263334,303.6459028870886,false,false,42.500230575023259,0.10906832464024839,,,
+2024-06-11T00:00:00,CORN.c,252,1,0.16163904290130376,success,253,358.69681021252921,302.73456299665582,false,false,40.733038811128552,0.10593769306760757,,,
+2024-06-12T00:00:00,CORN.c,252,1,0.1461886889729048,success,253,358.64380266158071,301.46540796379412,false,false,36.839549621172011,0.12330505535483859,,,
+2024-06-13T00:00:00,CORN.c,252,1,0.15005934153488895,success,253,358.64070798132479,303.53071098960805,false,false,37.814954066792019,0.10295386137798374,,,
+2024-06-14T00:00:00,CORN.c,252,1,0.1348128093217083,success,253,358.69595323886608,303.36006099413157,false,false,33.972827949070492,0.31121544349101254,,,
+2024-06-17T00:00:00,CORN.c,252,1,0.13140675173151309,success,253,358.66615145868906,301.80630956607712,false,false,33.1145014363413,0.094494109068046908,,,
+2024-06-18T00:00:00,CORN.c,252,1,0.12327952953263049,success,253,358.95098460928688,303.91987953267369,false,false,31.066441442222885,0.11066419868581207,,,
+2024-06-20T00:00:00,CORN.c,252,1,0.12119651327935778,success,253,358.95020850347828,307.00736080309309,false,false,30.541521346398159,0.11515098508195369,,,
+2024-06-21T00:00:00,CORN.c,252,0.99999999999992917,0.40437362927344844,success,253,358.92941158392296,328.64950190042242,false,false,101.90215457690901,13.163104013812656,,,
+2024-06-24T00:00:00,CORN.c,252,1,0.12034489556661106,success,253,358.84850981953713,310.53348631024892,false,false,30.326913682785985,0.097150922082453448,,,
+2024-06-25T00:00:00,CORN.c,252,1,0.10539979070758242,success,253,358.92406424232848,310.3480927737678,false,false,26.560747258310769,0.11122095301833967,,,
+2024-06-26T00:00:00,CORN.c,252,1,0.11559974337701975,success,253,358.82169649775363,315.37494025402907,false,false,29.131135331008977,0.099998044567441546,,,
+2024-06-27T00:00:00,CORN.c,252,1,0.10373107765959123,success,253,358.74846007910156,314.64381358905518,false,false,26.14023157021699,0.32309944219304015,,,
+2024-06-28T00:00:00,CORN.c,252,1,0.099072211463959198,success,253,358.98366537793004,318.77968052622657,false,false,24.966197288917719,0.12188561024019269,,,
+2024-07-01T00:00:00,CORN.c,252,0.99999999891889124,0.38080612937885372,success,253,358.99145555036353,338.34617681946992,false,false,95.963144603471136,31.108620225328782,,,
+2024-07-02T00:00:00,CORN.c,252,1,0.089541114513189829,success,253,358.99144953954652,320.60982213604365,false,false,22.564360857323837,0.11168034460450738,,,
+2024-07-03T00:00:00,CORN.c,252,0.99999999999994071,0.10391048883365091,success,253,358.99144944546481,328.53601073545929,false,false,26.185443186080029,0.13609854932203311,,,
+2024-07-05T00:00:00,CORN.c,252,0.99999999999997269,0.094340701095198251,success,253,358.99144922979553,327.76378908710342,false,false,23.773856675989958,0.12831904621184023,,,
+2024-07-08T00:00:00,CORN.c,252,0.99999999999991895,0.082427460707562794,success,253,358.99145436422043,328.84765761381152,false,false,20.771720098305824,0.12682747294376864,,,
+2024-07-09T00:00:00,CORN.c,252,0.99999999999974465,0.07733462735435917,success,253,358.9914492506785,329.9953888516211,false,false,19.488326093298511,0.12438038302932417,,,
+2024-07-10T00:00:00,CORN.c,252,0.99999999999975886,0.067077145691448209,success,253,358.99144994283711,329.93797731716438,false,false,16.903440714244947,0.11691536067164501,,,
+2024-07-11T00:00:00,CORN.c,252,0.99999999999990608,0.063513077840183091,success,253,358.99145060912423,328.99571321998468,false,false,16.005295615726141,0.12295894475505394,,,
+2024-07-12T00:00:00,CORN.c,252,0.99999999999996536,0.012732023832799243,success,253,358.99144955967716,327.99624131700079,false,false,3.2084700058654092,0.090141002586058158,,,
+2024-07-15T00:00:00,CORN.c,252,0.99999999999936207,0.022658673035748509,success,253,358.99122348966432,330.91078009477411,false,false,5.7099856050086242,0.11401669602922854,,,
+2024-07-16T00:00:00,CORN.c,252,0.99998317781953294,0.34115632942152796,success,253,358.99144955828456,347.99865410416419,false,false,85.971395014225052,29.447904488027209,,,
+2024-07-17T00:00:00,CORN.c,252,0.99997276180926808,0.33724707422340972,success,253,358.99144956023019,348.48058630037315,false,false,84.98626270429925,60.126072734309659,,,
+2024-07-18T00:00:00,CORN.c,252,0.99999999997902167,2.0986502345381404e-06,success,253,358.99144921474681,334.40392241916334,false,false,0.0005288598591036114,0.09515774878086132,,,
+2024-07-19T00:00:00,CORN.c,252,0.99996843235277943,0.22219661534043619,retry_success,253,358.99145130880919,348.62810509298959,true,false,55.993547065789919,138.82996313676705,,,
+2024-07-22T00:00:00,CORN.c,252,0.99739387767146326,0.32533490530413328,success,253,358.9914495984948,353.0441672624022,false,false,81.984396136641593,39.876004338085707,,,
+2024-07-23T00:00:00,CORN.c,252,0.99999976618894437,2.1552151978952324e-07,success,253,358.99145483554867,343.72270256680997,false,false,5.4311422986959859e-05,0.11305645702031927,,,
+2024-07-24T00:00:00,CORN.c,252,0.99999983594014874,8.3713705289043602e-07,success,253,358.99144945852794,343.36841509292441,false,false,0.00021095853732838987,0.12921705864666447,,,
+2024-07-25T00:00:00,CORN.c,252,0.99908685104097184,0.39426673021461406,success,253,358.99144995553456,351.99375198436212,false,false,99.355216014082743,0.031743867241225202,,,
+2024-07-26T00:00:00,CORN.c,252,0.99932478942890945,0.39639144729010189,success,253,358.99144938347968,351.69163886353903,false,false,99.890644717105673,0.030784480745589735,,,
+2024-07-29T00:00:00,CORN.c,252,0.99869545506155044,0.4119977173149304,success,253,358.99144948084484,352.35085387225428,false,false,103.82342476336247,0.03187730774153192,,,
+2024-07-30T00:00:00,CORN.c,252,0.99877370184499226,0.41280762105396646,success,253,358.99144939878778,352.28892117174479,false,false,104.02752050559954,0.031520536744661348,,,
+2024-07-31T00:00:00,CORN.c,252,0.66133309726435197,0.98413273210392849,success,253,358.9914493374651,358.32220873177175,false,false,248.00144849018997,490.23282822478257,,,
+2024-08-01T00:00:00,CORN.c,252,0.93292677395921331,0.75007792486237279,success,253,358.99144977271186,356.3589080080111,false,false,189.01963706531794,22.715561437271063,,,
+2024-08-02T00:00:00,CORN.c,252,0.9323119407294389,0.74609493158274154,success,253,358.99145513428078,356.36869746250676,false,false,188.01592275885088,27.620383643455298,,,
+2024-08-05T00:00:00,CORN.c,252,0.94981184517040174,0.63005505902487879,success,253,358.99144929685752,356.05096442887941,false,false,158.77387487426947,0.66910128082220832,,,
+2024-08-06T00:00:00,CORN.c,252,0.93481230283903061,0.51005208377526479,success,253,358.99144934601458,356.32837433978221,false,false,128.53312511136673,0.29333715426469975,,,
+2024-08-07T00:00:00,CORN.c,252,0.99523275470433803,0.41198637952901973,success,253,358.99145005043346,353.65024204823374,false,false,103.82056764131298,0.036810736068818399,,,
+2024-08-08T00:00:00,CORN.c,252,0.95610978627430032,0.50385015876681094,success,253,358.9914494697984,355.91026809740595,false,false,126.97024000923636,0.33363379112354641,,,
+2024-08-09T00:00:00,CORN.c,252,0.89818412903326827,0.51210543659341135,success,253,358.99144944236343,356.81424034698364,false,false,129.05057002153967,3.7635612426888043,,,
+2024-08-12T00:00:00,CORN.c,252,0.9029819015228171,0.50813924901910335,success,253,358.99145103967123,356.76064607240357,false,false,128.05109075281405,3.7289998731344003,,,
+2024-08-13T00:00:00,CORN.c,252,0.99345915676170626,0.40674576943575447,success,253,358.99144930802811,353.96832245001411,false,false,102.49993389781012,0.041865338865954886,,,
+2024-08-14T00:00:00,CORN.c,252,0.94796738760345822,0.48747508483273316,success,253,358.99144928312245,356.08899986619116,false,false,122.84372137784875,0.32718331518486188,,,
+2024-08-15T00:00:00,CORN.c,252,0.99322124320442018,0.39374640511865538,success,253,358.99144920989738,354.00428948950025,false,false,99.224094089901158,0.041498042537350829,,,
+2024-08-16T00:00:00,CORN.c,252,0.91239045024077303,0.49224294773302502,success,253,358.9914494120145,356.64827139581251,false,false,124.0452228287223,7.9313398543085949,,,
+2024-08-19T00:00:00,CORN.c,252,0.93854754956627418,0.48826024097827753,success,253,358.99144936651658,356.26537955836733,false,false,123.04158072652594,9.4464965690052907,,,
+2024-08-20T00:00:00,CORN.c,252,0.93402201155318132,0.48424069206439407,success,253,358.99145082977014,356.34127200286417,false,false,122.02865440022731,13.515948287291968,,,
+2024-08-21T00:00:00,CORN.c,252,0.93258647679786866,0.48035654527816379,success,253,358.99144924945574,356.3643330044988,false,false,121.04984941009728,7.6975687252062652,,,
+2024-08-22T00:00:00,CORN.c,252,0.94896916918956353,0.4762901357338768,success,253,358.99144943328974,356.06850309865689,false,false,120.02511420493695,16.358148185595798,,,
+2024-08-23T00:00:00,CORN.c,252,0.94027179374297809,0.47236534027921162,success,253,358.99144976622466,356.23508516591255,false,false,119.03606575036133,11.041358796567437,,,
+2024-08-26T00:00:00,CORN.c,252,0.9789409500841797,0.57280916843468976,success,253,358.99144946590047,355.15230853423202,false,false,144.34791044554183,0.80388467695250632,,,
+2024-08-27T00:00:00,CORN.c,252,0.96445420775716639,0.67862244850259379,success,253,358.99144922939837,355.69070866346055,false,false,171.01285702265363,35.033453695172547,,,
+2024-08-28T00:00:00,CORN.c,252,0.95615867599440452,0.67474608664000979,success,253,358.99144942190657,355.90910238659581,false,false,170.03601383328245,13.104729794261694,,,
+2024-08-29T00:00:00,CORN.c,252,0.9662656203294846,0.67069834752080926,success,253,358.99144947071841,355.6365281906227,false,false,169.01598357524392,30.226547601083684,,,
+2024-08-30T00:00:00,CORN.c,252,0.91263539050429188,0.40088733529630083,success,253,358.99144939723607,356.64520322460879,false,false,101.02360849466781,15.611007749673734,,,
+2024-09-03T00:00:00,CORN.c,252,0.97864864665248075,0.44850337104839072,success,253,358.99144935409396,355.16639179232646,false,false,113.02284950419447,21.060990120686085,,,
+2024-09-04T00:00:00,CORN.c,252,0.97513767629756798,0.44456263591018924,success,253,358.99144951223627,355.32222439800034,false,false,112.02978424936769,15.829110800040182,,,
+2024-09-05T00:00:00,CORN.c,252,0.90559330971994245,0.38910283695861114,success,253,358.99144927720289,356.73047089970896,false,false,98.053914913570011,6.8150153859772278,,,
+2024-09-06T00:00:00,CORN.c,252,0.97067395298668646,0.65165512283987514,success,253,358.99144944829976,355.49193491884944,false,false,164.21709095564853,13.452213183975759,,,
+2024-09-09T00:00:00,CORN.c,252,0.95852141018096881,0.76200574797833875,success,253,358.99144946130173,355.85123494802701,false,false,192.02544849054138,19.391151446726045,,,
+2024-09-10T00:00:00,CORN.c,252,0.96392928455251048,0.73917632342146999,success,253,358.99144944214555,355.70591283619115,false,false,186.27243350221045,16.482997422391374,,,
+2024-09-11T00:00:00,CORN.c,252,0.97323445594125935,0.52837780012749669,success,253,358.99144946299162,355.39793983880418,false,false,133.15120563212918,0.77326664569773162,,,
+2024-09-12T00:00:00,CORN.c,252,0.94099927561216701,0.4207492255242582,success,253,358.99144937934818,356.22205673115974,false,false,106.02880483211307,14.079275837312242,,,
+2024-09-13T00:00:00,CORN.c,252,0.95467280210834926,0.41680655618974394,success,253,358.99145330688924,355.94399188799122,false,false,105.03525215981547,12.231656012389411,,,
+2024-09-16T00:00:00,CORN.c,252,0.935056671064462,0.74212986989345975,success,253,358.9914496185807,356.3243575074369,false,false,187.01672721315185,26.54074727755356,,,
+2024-09-17T00:00:00,CORN.c,252,0.94050903747321069,0.6231164864617984,success,253,358.9914498293,356.23085298209219,false,false,157.0253545883732,16.343293776229174,,,
+2024-09-18T00:00:00,CORN.c,252,0.93268415572596175,0.61908710747932905,success,253,358.99144945506492,356.36277847350237,false,false,156.00995108479091,41.193388888290556,,,
+2024-09-19T00:00:00,CORN.c,252,0.96391954655211154,0.50404369061846488,success,253,358.99144932184538,355.70619275161272,false,false,127.01901003585316,0.75891686816866222,,,
+2024-09-20T00:00:00,CORN.c,252,0.93086039750931948,0.3969664910940619,success,253,358.99144942883061,356.39146779690424,false,false,100.0355557557036,11.121292830808427,,,
+2024-09-23T00:00:00,CORN.c,252,0.9534474313115946,0.39299161720235332,success,253,358.99144936213673,355.97194725443524,false,false,99.033887534993042,12.767888695407075,,,
+2024-09-24T00:00:00,CORN.c,252,0.86114524992749719,0.3374764772488919,success,253,358.99145033519909,357.16661556916517,false,false,85.044072266720761,7.5532161367709652,,,
+2024-09-25T00:00:00,CORN.c,252,0.99017220273503126,0.28124927135712513,success,253,358.9914494482565,354.37878540423355,false,false,70.874816381995529,0.048038127590689948,,,
+2024-09-26T00:00:00,CORN.c,252,0.98983052690270346,0.27442161964626577,success,253,358.99144945658139,354.41330611226294,false,false,69.154248150858976,0.048387023462286544,,,
+2024-09-27T00:00:00,CORN.c,252,0.93143447262999501,0.37707009432321731,success,253,358.99144943940672,356.3825134898716,false,false,95.021663769450768,18.529506777386565,,,
+2024-09-30T00:00:00,CORN.c,252,0.92899528214079929,0.70241834910399858,success,253,358.99144938595202,356.42009204913347,false,false,177.00942397420764,44.725826738840233,,,
+2024-10-01T00:00:00,CORN.c,252,0.95213384775520582,0.67862299575660512,success,253,358.99145231714101,356.00115531676408,false,false,171.01299493066449,33.479564126252022,,,
+2024-10-02T00:00:00,CORN.c,252,0.9623880337804489,0.67465030002101334,success,253,358.99144927245436,355.74935379188378,false,false,170.01187560529536,38.254027751412231,,,
+2024-10-03T00:00:00,CORN.c,252,0.97365478413570383,0.67067370814816485,success,253,358.99144932108919,355.38167920872024,false,false,169.00977445333754,48.952676892403751,,,
+2024-10-04T00:00:00,CORN.c,252,0.9458728258868464,0.68653572103095784,success,253,358.99144932796003,356.13067755535684,false,false,173.00700169980138,62.308223927941349,,,
+2024-10-07T00:00:00,CORN.c,252,0.98247585751351008,0.45762751141612823,success,253,358.9914492804254,354.96495301034196,false,false,115.32213287686432,0.82873739061497165,,,
+2024-10-08T00:00:00,CORN.c,252,0.9865721015371024,0.34936995449553404,success,253,358.99144938460131,354.69454749107513,false,false,88.041228532874584,13.23723731088314,,,
+2024-10-09T00:00:00,CORN.c,252,0.98617754949883274,0.45034392308044258,success,253,358.9914493093907,354.72390701870341,false,false,113.48666861627153,0.87115312215099749,,,
+2024-10-10T00:00:00,CORN.c,252,0.98401465424412482,0.44615840589036948,success,253,358.99144930485977,354.87148092769212,false,false,112.43191828437311,0.86074673903802734,,,
+2024-10-11T00:00:00,CORN.c,252,0.94815203567993578,0.64685357494940521,success,253,358.99144968591168,356.08525049428658,false,false,163.00710088725012,59.409885839841763,,,
+2024-10-14T00:00:00,CORN.c,252,0.95496922487006453,0.64290482084429645,success,253,358.99144929869237,355.93711633179709,false,false,162.01201485276272,35.878035591317683,,,
+2024-10-15T00:00:00,CORN.c,252,0.93694581264816601,0.50808729554344412,success,253,358.99145207931599,356.29282110283373,false,false,128.03799847694791,11.52890012208665,,,
+2024-10-16T00:00:00,CORN.c,252,0.97778716065176108,0.32549459699441774,success,253,358.99144927480432,355.20682772631784,false,false,82.024638442593272,21.043236001791449,,,
+2024-10-17T00:00:00,CORN.c,252,0.97389552396632673,0.32151364827383383,success,253,358.99144928731016,355.37225204951056,false,false,81.021439365006131,23.665635682543911,,,
+2024-10-18T00:00:00,CORN.c,252,0.89390596547100454,0.26639420310780204,success,253,358.99145039787788,356.86017563132685,false,false,67.131339183166119,3.6319605482709378,,,
+2024-10-21T00:00:00,CORN.c,252,0.93618111987788721,0.6230339390021673,success,253,358.99145071451142,356.30569082586226,false,false,157.00455262854615,87.685016269518272,,,
+2024-10-22T00:00:00,CORN.c,252,0.92361546120465232,0.63889531087337903,success,253,358.99144948468785,356.49893397109923,false,false,161.00161834009151,244.21799184316777,,,
+2024-10-23T00:00:00,CORN.c,252,0.96232742050938636,0.51991958583169107,success,253,358.99144934929137,355.75102709792452,false,false,131.01973562958614,24.028364338471111,,,
+2024-10-24T00:00:00,CORN.c,252,0.94230026718882676,0.58470257890304933,success,253,358.99145018532033,356.19837874940578,false,false,147.34504988356844,0.86339449701514948,,,
+2024-10-25T00:00:00,CORN.c,252,0.92129634638088231,0.6270029365971197,success,253,358.99144942627009,356.53135725486959,false,false,158.00474002247415,82.712349261864446,,,
+2024-10-28T00:00:00,CORN.c,252,0.98482957803476912,0.39903295605622374,success,253,358.99145173061555,354.81833073037984,false,false,100.55630492616838,0.89946067326669077,,,
+2024-10-29T00:00:00,CORN.c,252,0.98141717887385127,0.28981784469681265,success,253,358.99144935870908,355.02468928932353,false,false,73.034096863596787,16.234603980287403,,,
+2024-10-30T00:00:00,CORN.c,252,0.91981630769162914,0.23425939211936969,success,253,358.99144929101556,356.55159546285654,false,false,59.033366814081162,13.433520669807766,,,
+2024-10-31T00:00:00,CORN.c,252,0.97189427626831815,0.28190529370857553,success,253,358.99144954608107,355.44817576392404,false,false,71.040134014561033,13.027234085903064,,,
+2024-11-01T00:00:00,CORN.c,252,0.91634383786246076,0.4921588173925458,success,253,358.99144936065215,356.59777278800618,false,false,124.02402198292154,16.489981885622417,,,
+2024-11-04T00:00:00,CORN.c,252,0.83974722824275172,0.60318771250204495,success,253,358.99146165774721,357.3351131220619,false,false,152.00330355051534,93.937075403919735,,,
+2024-11-05T00:00:00,CORN.c,252,0.88802493700919383,0.57938506374607857,success,253,358.99144951784996,356.92072588767121,false,false,146.00503606401179,67.903746830692654,,,
+2024-11-06T00:00:00,CORN.c,252,0.97136305706074499,0.37009081921973253,success,253,358.99145458686229,355.46745188373609,false,false,93.262886443372594,0.84342293859899109,,,
+2024-11-07T00:00:00,CORN.c,252,0.96331346560126507,0.2619730737743261,success,253,358.99144970415068,355.72348061348464,false,false,66.017214591130184,29.849145674037747,,,
+2024-11-08T00:00:00,CORN.c,252,0.69431921536314889,0.64420398973542947,success,253,358.99145012570631,358.17105967644289,false,false,162.33940541332822,9.9785144314219423,,,
+2024-11-11T00:00:00,CORN.c,252,0.89924712149744879,0.56359437123079814,success,253,358.99144963322976,356.80256252282641,false,false,142.02578155016113,13.667881517414662,,,
+2024-11-12T00:00:00,CORN.c,252,0.89366555302678019,0.55957210843515515,success,253,358.99145416696172,356.86271185070575,false,false,141.0121713256591,28.63497166825983,,,
+2024-11-13T00:00:00,CORN.c,252,0.88467659361577677,0.55563943709962638,success,253,358.99144945090927,356.95396771450226,false,false,140.02113814910584,15.980938255735763,,,
+2024-11-14T00:00:00,CORN.c,252,0.95760943228771656,0.45647649068261714,success,253,358.99145087752498,355.87393675127936,false,false,115.03207565201951,16.30017445340857,,,
+2024-11-15T00:00:00,CORN.c,252,0.92727792275790188,0.41662549560946988,success,253,358.99144940398338,356.44584108894747,false,false,104.98962489358641,8.4242804460636513,,,
+2024-11-18T00:00:00,CORN.c,252,0.92936512872680732,0.54369100291537154,success,253,358.99144964159325,356.41447189578508,false,false,137.01013273467362,38.056461192387601,,,
+2024-11-19T00:00:00,CORN.c,252,0.90159153467041364,0.51609770065385308,success,253,358.99145005566061,356.776415312339,false,false,130.05662056477098,5.8587871599465116,,,
+2024-11-20T00:00:00,CORN.c,252,0.86260852437072111,0.55557024370618491,success,253,358.99145017578041,357.15432354675272,false,false,140.00370141395859,89.198308914831472,,,
+2024-11-21T00:00:00,CORN.c,252,0.90743048420028127,0.53177063280953818,success,253,358.99144975888436,356.70879268153772,false,false,134.00619946800362,58.025816826540158,,,
+2024-11-22T00:00:00,CORN.c,252,0.88828732347581929,0.39681714091534104,success,253,358.9914497904827,356.91808472422406,false,false,99.997919510665938,9.4481093850368225,,,
+2024-11-25T00:00:00,CORN.c,252,0.97494169994832169,0.32549297219125239,success,253,358.99144968702421,355.33027712477741,false,false,82.024228992195603,20.920610043168228,,,
+2024-11-26T00:00:00,CORN.c,252,0.99091486469032408,0.21039038102699406,success,253,358.99145008462676,354.29946105795568,false,false,53.018376018802506,37.688875169933972,,,
+2024-11-27T00:00:00,CORN.c,252,0.99376610732805715,0.20642579048059703,success,253,358.99144968153325,353.91994877169748,false,false,52.019299201110449,37.801188940049322,,,
+2024-11-29T00:00:00,CORN.c,252,0.80072733291500076,0.53176986314991426,success,253,358.99144936657387,357.60060295903594,false,false,134.0060055137784,47.383914969224882,,,
+2024-12-02T00:00:00,CORN.c,252,0.74313532917568603,0.46039659473419547,success,253,358.9914494855372,357.92912069208018,false,false,116.01994187301726,17.997628189733415,,,
+2024-12-03T00:00:00,CORN.c,252,0.97575473654231681,0.29992102774407131,success,253,358.99144964453285,355.29645966119898,false,false,75.580098991505977,0.95793001689622137,,,
+2024-12-04T00:00:00,CORN.c,252,0.88637887823446404,0.36339973539241577,success,253,358.99144949549247,356.93717442852864,false,false,91.57673331888877,1.1541108045985129,,,
+2024-12-05T00:00:00,CORN.c,252,0.83501305718643104,0.49603759220203636,success,253,358.99144942488249,357.36986839911094,false,false,125.00147323491316,199.93736808898063,,,
+2024-12-06T00:00:00,CORN.c,252,0.75410378840695824,0.51192332550369579,success,253,358.99144976703127,357.87082930090162,false,false,129.00467802693134,53.521737110454737,,,
+2024-12-09T00:00:00,CORN.c,252,0.82876221764858127,0.48811352345352838,success,253,358.99144969165786,357.41456953866964,false,false,123.00460791028915,62.648426309017047,,,
+2024-12-10T00:00:00,CORN.c,252,0.8800031987910244,0.3889570078044618,success,253,358.99144963533348,356.99898917871292,false,false,98.017165966724377,23.220374926962737,,,
+2024-12-11T00:00:00,CORN.c,252,0.88861899906979946,0.035768150637629441,success,253,358.99145055289506,356.91473874646482,false,false,9.0135739606826188,74.496188113322091,,,
+2024-12-12T00:00:00,CORN.c,252,0.716107121057736,0.41741770561524294,success,253,358.99145384868393,358.06622106268333,false,false,105.18926181504122,2.4421019581722296,,,
+2024-12-13T00:00:00,CORN.c,252,0.75758598112150743,0.4733327767307951,success,253,358.99144965944748,357.8519597082543,false,false,119.27985973616036,17.99440792420997,,,
+2024-12-16T00:00:00,CORN.c,252,0.78017760044844586,0.46827633063706114,success,253,358.99144966886098,357.72474802777776,false,false,118.00563532053941,45.238727887184538,,,
+2024-12-17T00:00:00,CORN.c,252,0.77441512415896874,0.43655328096067519,success,253,358.99144972448744,357.75803813621673,false,false,110.01142680209014,0.95064141430558258,,,
+2024-12-18T00:00:00,CORN.c,252,0.75414040724145404,0.46033639036535129,success,253,358.99145022704784,357.87063227171751,false,false,116.00477037206852,49.555346351306497,,,
+2024-12-19T00:00:00,CORN.c,252,0.66426525782814572,0.47621088429735275,success,253,358.99145004338789,358.30908987935868,false,false,120.0051428429329,36.488176401977903,,,
+2024-12-20T00:00:00,CORN.c,252,0.96634347271023291,0.14291292528831728,success,253,358.99144969616594,355.63413737654031,false,false,36.014057172655953,48.213699853351144,,,
+2024-12-23T00:00:00,CORN.c,252,0.78518587560533604,0.31121365417679953,success,253,358.99144947939703,357.69530212193314,false,false,78.425840852553478,1.1024218404575461,,,
+2024-12-24T00:00:00,CORN.c,252,0.81711301031867967,0.34120438817868337,success,253,358.99144953504367,357.49454054558436,false,false,85.983505821028203,1.0317650431737577,,,
+2024-12-26T00:00:00,CORN.c,252,0.75819868490259357,0.30310039575954312,success,253,358.99144926426442,357.8486201726306,false,false,76.381299731404866,1.0838658446361913,,,
+2024-12-27T00:00:00,CORN.c,252,0.92801373695345291,0.59126835669233524,success,253,358.991449465004,356.43487823936874,false,false,148.99962588646849,610.70903200531052,,,
+2024-12-30T00:00:00,CORN.c,252,0.87844138733949462,0.58336045247545054,success,253,358.9914495347532,357.01369690356086,false,false,147.00683402381352,12.795986884073489,,,
+2024-12-31T00:00:00,CORN.c,252,0.60832967136238936,0.50022704818995767,success,253,358.9914495309701,358.55115306089749,false,false,126.05721614386933,2.3177896218082292,,,
+2025-01-02T00:00:00,CORN.c,252,0.73758982565147602,0.28710479579216802,success,253,358.99144923181979,357.9579701840413,false,false,72.350408539626343,1.0870970582226869,,,
+2025-01-03T00:00:00,CORN.c,252,0.74930560132413238,0.2832145639104291,success,253,358.99144922903662,357.89653697846285,false,false,71.370070105428127,1.085830331830177,,,
+2025-01-06T00:00:00,CORN.c,252,0.78133305203510828,0.54273687739544307,success,253,358.99144953084846,357.71799781554301,false,false,136.76969310365166,11.369438184270685,,,
+2025-01-07T00:00:00,CORN.c,252,0.96253624627945911,0.7379422313592644,success,253,358.99144972134394,355.74525189551548,false,false,185.96144230253464,14.548158530274019,,,
+2025-01-08T00:00:00,CORN.c,252,0.95470739994831644,0.65860360824758624,success,253,358.99144956769112,355.94318832652306,false,false,165.96810927839172,14.391298693110206,,,
+2025-01-09T00:00:00,CORN.c,252,0.5914786918841114,0.42464015401868799,success,253,358.99144948871088,358.62136790459596,false,false,107.00931881270937,13.048340994018941,,,
+2025-01-10T00:00:00,CORN.c,252,0.74126679950779983,0.3017474619094318,success,253,358.99144948047842,357.93888628350692,false,false,76.040360401176812,6.1080578455322341,,,
+2025-01-13T00:00:00,CORN.c,252,0.64228923497451729,0.48412327551437917,success,253,358.98943498687777,358.40412100381019,false,false,121.99906542962356,128.57395114190717,,,
+2025-01-14T00:00:00,CORN.c,252,0.98020579340290437,0.72504063915411188,success,253,358.99133645050716,355.0889632063994,false,false,182.7102410668362,0.71428765724351651,,,
+2025-01-15T00:00:00,CORN.c,252,0.97825803650721743,0.72033471385744141,success,253,358.99144942643221,355.18492014485793,false,false,181.52434789207524,0.76115713416735498,,,
+2025-01-16T00:00:00,CORN.c,252,0.87412530033534919,0.53964220105107208,success,253,358.99144928438437,357.05351251983137,false,false,135.98983466487016,31.557168858774507,,,
+2025-01-17T00:00:00,CORN.c,252,0.85504393845717497,0.53571356644439039,success,253,358.99146065764336,357.21673847267562,false,false,134.99981874398637,311.25326515897007,,,
+2025-01-21T00:00:00,CORN.c,252,0.85973958617276269,0.583327414227927,success,253,358.99144942475613,357.17832068167354,false,false,146.99850838543762,216.64153720814954,,,
+2025-01-22T00:00:00,CORN.c,252,0.82706323333157383,0.75786416463806439,success,253,358.99144923499017,357.42649409888259,false,false,190.98176948879222,19.388695847229616,,,
+2025-01-23T00:00:00,CORN.c,252,0.87611825131577059,0.52377051252521356,success,253,358.9914493828382,357.0352757818838,false,false,131.99016915635383,32.66145830921257,,,
+2025-01-24T00:00:00,CORN.c,252,0.88902048096575714,0.51945794033163151,success,253,358.99144978003812,356.91067517766555,false,false,130.90340096357113,3.6979379257071328,,,
+2025-01-27T00:00:00,CORN.c,252,0.78290304123689625,0.48686262483129489,success,253,358.99144950727811,357.70878471711785,false,false,122.68938145748631,19.584065535843379,,,
+2025-01-28T00:00:00,CORN.c,252,0.9710471833280846,0.81587821025002782,success,253,358.99145002933022,355.47874246336147,false,false,205.60130898300702,0.06606592328186861,,,
+2025-01-29T00:00:00,CORN.c,252,0.88629798538584526,0.68524326284422055,success,253,358.99144974317375,356.93797764177481,false,false,172.68130223674359,0.70406294433882999,,,
+2025-01-30T00:00:00,CORN.c,252,0.88548504456390642,0.68128400845455006,success,253,358.99144926189456,356.94601912369745,false,false,171.68357013054663,0.70295144449235825,,,
+2025-01-31T00:00:00,CORN.c,252,0.92398708537371743,0.67767164130073509,success,253,358.99144950556024,356.49365466602768,false,false,170.77325360778525,0.6428198710520332,,,
+2025-02-03T00:00:00,CORN.c,252,0.87145548713969967,0.5911448889812988,success,253,358.99144942841718,357.07755988883997,false,false,148.9685120232873,10.755445537465125,,,
+2025-02-04T00:00:00,CORN.c,252,0.87411948983888954,0.5436313453323588,success,253,358.99144936263156,357.05356540520347,false,false,136.99509902375442,67.379975887847721,,,
+2025-02-05T00:00:00,CORN.c,252,0.89519189745332484,0.48803576900874596,success,253,358.99144942249376,356.8465423999142,false,false,122.98501379020398,22.589568844889204,,,
+2025-02-06T00:00:00,CORN.c,252,0.9086843963742407,0.48408008992163404,success,253,358.99144927764576,356.69377312045413,false,false,121.98818266025178,29.779947305634522,,,
+2025-02-07T00:00:00,CORN.c,252,0.80795010368324405,0.45140716705775807,success,253,358.99144936098378,357.55470427215221,false,false,113.75460609855503,10.139326995478811,,,
+2025-02-10T00:00:00,CORN.c,252,0.91523577606474427,0.47611366500766233,success,253,358.99144937871824,356.61214123409923,false,false,119.98064358193091,18.517689580260548,,,
+2025-02-11T00:00:00,CORN.c,252,0.91370943999145859,0.4721110896420061,success,253,358.99144938417618,356.63165696895766,false,false,118.97199458978554,12.759983247793086,,,
+2025-02-12T00:00:00,CORN.c,252,0.90255715255931046,0.55982741823564264,success,253,358.9914497820443,356.76548379294439,false,false,141.07650939538195,8.3258599112143354,,,
+2025-02-13T00:00:00,CORN.c,252,0.93031248106805364,0.4638084198263499,success,253,358.99144967235759,356.39995037482117,false,false,116.87972179624018,3.3515719840485816,,,
+2025-02-14T00:00:00,CORN.c,252,0.9248542326268574,0.45669199830328283,success,253,358.99144965765458,356.48124331114235,false,false,115.08638357242728,8.3848908034422518,,,
+2025-02-18T00:00:00,CORN.c,252,0.93612747360516935,0.4558754074712732,success,253,358.99144974651722,356.30658741162057,false,false,114.88060268276085,3.3825903831337163,,,
+2025-02-19T00:00:00,CORN.c,252,0.93387169097327538,0.4523271214738202,success,253,358.99145173002711,356.34370960798526,false,false,113.98643461140269,28.166811105468579,,,
+2025-02-20T00:00:00,CORN.c,252,0.91347735837648281,0.65867652630238138,success,253,358.99144959667291,356.6345971392974,false,false,165.98648462820012,29.480771398358261,,,
+2025-02-21T00:00:00,CORN.c,252,0.92562710443094842,0.62099772479842275,success,253,358.99144933624478,356.47006944629658,false,false,156.49142664920254,0.66168146655180737,,,
+2025-02-24T00:00:00,CORN.c,252,0.91683551785576978,0.49204764416816527,success,253,358.99144963992825,356.59134191297716,false,false,123.99600633037765,92.574512142087571,,,
+2025-02-25T00:00:00,CORN.c,252,0.93245442682579205,0.43604150008843523,success,253,358.99144991787159,356.36643216778276,false,false,109.88245802228568,3.406244152302671,,,
+2025-02-26T00:00:00,CORN.c,252,0.93120277703396004,0.48411100040289085,success,253,358.99144960324213,356.38613592431835,false,false,121.99597210152849,96.026764040116902,,,
+2025-02-27T00:00:00,CORN.c,252,0.88771274545707146,0.42815221238907408,success,253,358.99144968859082,356.92386184336004,false,false,107.89435752204668,3.3282521252452875,,,
+2025-02-28T00:00:00,CORN.c,252,0.86093914272274996,0.42456507108427088,success,253,358.99144952631354,357.16833736592434,false,false,106.99039791323627,32.013097117213583,,,
+2025-03-03T00:00:00,CORN.c,252,0.91282679255326515,0.42025325629951737,success,253,358.98934889426732,356.64069977374953,false,false,105.90382058747838,2.8948391935679547,,,
+2025-03-04T00:00:00,CORN.c,252,0.93130227116592212,0.416564209142331,success,253,358.97698321404209,356.37011545531061,false,false,104.97418070386742,10.662190490631946,,,
+2025-03-05T00:00:00,CORN.c,252,0.97055715804998399,0.56599824543355337,success,253,358.96729049105596,355.4718710175448,false,false,142.63155784925544,1.6142633123630488,,,
+2025-03-06T00:00:00,CORN.c,252,0.99531931887910507,0.71152067738056179,success,253,358.92914395736466,353.56952398618699,false,false,179.30321069990157,0.055569772543466234,,,
+2025-03-07T00:00:00,CORN.c,252,0.96780491120402734,0.58514667738475423,success,253,358.88254491403524,355.47932830413606,false,false,147.45696270095806,0.45796537346415894,,,
+2025-03-10T00:00:00,CORN.c,252,0.97309459455393832,0.5078319131997141,success,253,358.89647662067648,355.3083225361072,false,false,127.97364212632796,0.65058901557391091,,,
+2025-03-11T00:00:00,CORN.c,252,0.97091905130165157,0.50393352286033011,success,253,358.92138376682379,355.41322394420212,false,false,126.99124776080319,0.66380502430018895,,,
+2025-03-12T00:00:00,CORN.c,252,0.98417703593610806,0.54647702928021102,success,253,358.90851024813412,354.77816675929847,false,false,137.71221137861318,1.6018735026736104,,,
+2025-03-13T00:00:00,CORN.c,252,0.97224496302077235,0.49587075918782264,success,253,358.92801669275633,355.37182623696475,false,false,124.9594313153313,0.65768536374549269,,,
+2025-03-14T00:00:00,CORN.c,252,0.94781158231659213,0.3846805357097588,success,253,358.9411182581764,356.04182311531514,false,false,96.939494998859217,5.0236980629766661,,,
+2025-03-17T00:00:00,CORN.c,252,0.97285804287437472,0.43519707036560856,success,253,358.95003850368676,355.37088109249692,false,false,109.66966173213336,2.3274048736205297,,,
+2025-03-18T00:00:00,CORN.c,252,0.9945509247725709,0.66395497964032846,success,253,358.93811762421041,353.73127223205637,false,false,167.31665486936276,0.058175219322756773,,,
+2025-03-19T00:00:00,CORN.c,252,0.95347565695331649,0.37264078872421735,success,253,358.94289833857744,355.92276012605583,false,false,93.905478758502767,3.714513757996512,,,
+2025-03-20T00:00:00,CORN.c,252,0.97634012718481422,0.47558100657564334,success,253,358.92670062375038,355.20667009009344,false,false,119.84641365706212,0.64318330682059721,,,
+2025-03-21T00:00:00,CORN.c,252,0.96106802439701977,0.36478739623784023,success,253,358.94520395789726,355.73897467432641,false,false,91.926423851935738,4.8431070563390959,,,
+2025-03-24T00:00:00,CORN.c,252,0.77285182929665419,0.0316796124167735,success,253,358.9488271472639,357.72434233863817,false,false,7.983262329026922,55.229797708818637,,,
+2025-03-25T00:00:00,CORN.c,252,0.97931997513782343,0.41119448465132319,success,253,358.95112650166254,355.09343632565299,false,false,103.62101013213345,2.2891230248665755,,,
+2025-03-26T00:00:00,CORN.c,252,0.99600264688657125,0.62519624223273129,success,253,358.92357417637368,353.40545668171865,false,false,157.54945304264828,0.056408953757473554,,,
+2025-03-27T00:00:00,CORN.c,252,0.93787444288995503,0.57929171490249154,success,253,358.92299746726582,356.20853883535591,false,false,145.98151215542788,26.79413461738492,,,
+2025-03-28T00:00:00,CORN.c,252,0.99029910508510344,0.49799222361523138,success,253,358.94882699067711,354.32303810735226,false,false,125.49404035103831,1.6348976347063018,,,
+2025-03-31T00:00:00,CORN.c,252,0.98720608437214707,0.41666172784567662,success,253,358.87176333275931,354.52585423270625,false,false,104.9987554171105,47.117548668094841,,,
+2025-04-01T00:00:00,CORN.c,252,0.96693790756864884,0.44387723256534201,success,253,358.7808554984386,355.40510859877918,false,false,111.85706260646619,0.67104086942960861,,,
+2025-04-02T00:00:00,CORN.c,252,0.81020898316838152,0.77360279463739434,success,253,358.82674489861722,357.37537623571791,false,false,194.94790424862339,6.6955114965263318,,,
+2025-04-03T00:00:00,CORN.c,252,0.97277865097657956,0.88111435412301531,success,253,358.77554893576513,355.19939392675076,false,false,222.04081723899986,11.036203135986282,,,
+2025-04-04T00:00:00,CORN.c,252,0.9793202282248521,0.47830891026416733,success,253,358.78814248657051,354.93043981381851,false,false,120.53384538657016,1.6854718625779641,,,
+2025-04-07T00:00:00,CORN.c,252,0.97407299153630733,0.42782880141769497,success,253,358.76526393098942,355.13906291337457,false,false,107.81285795725913,0.67252194258090325,,,
+2025-04-08T00:00:00,CORN.c,252,0.97813406315539875,0.42377780918174957,success,253,358.72724612659317,354.92652941777766,false,false,106.79200791380089,0.66761685774792301,,,
+2025-04-09T00:00:00,CORN.c,252,0.96684014031169807,0.3133811435557094,success,253,358.66480962242605,355.2921165546291,false,false,78.972048176038768,13.251360064331319,,,
+2025-04-10T00:00:00,CORN.c,252,0.91003283280869529,0.28138827954787521,success,253,358.53902405441227,356.22498817032846,false,false,70.909846446064549,13.042148156476852,,,
+2025-04-11T00:00:00,CORN.c,252,0.92201342984156631,0.27742588704282761,success,253,358.37499182706557,355.90496867203575,false,false,69.911323534792558,13.439872322262701,,,
+2025-04-14T00:00:00,CORN.c,252,0.9695663289971409,0.30146297900626667,success,253,358.41058791728727,354.94928862352504,false,false,75.9686707095792,12.025994527828329,,,
+2025-04-15T00:00:00,CORN.c,252,0.97153273951986585,0.29701722696140592,success,253,358.35147048569485,354.82135018934292,false,false,74.848341194274298,2.7238813892715337,,,
+2025-04-16T00:00:00,CORN.c,252,0.84729082152306223,0.7340255036247707,success,253,358.38819640437623,356.6746877321703,false,false,184.97442691344222,10.389400367110735,,,
+2025-04-17T00:00:00,CORN.c,252,0.99531708662657359,0.54773183383065449,success,253,358.39853260067758,353.03939166619642,false,false,138.02842212532494,0.063169500533357612,,,
+2025-04-21T00:00:00,CORN.c,252,0.99381371819747732,0.43827429908540055,success,253,358.40988837296891,353.33067281822599,false,false,110.44512336952094,1.6466938946992775,,,
+2025-04-22T00:00:00,CORN.c,252,0.94843957025693959,0.25390926221472354,success,253,358.31913055226806,355.40706698862579,false,false,63.985134078110327,28.864930669172747,,,
+2025-04-23T00:00:00,CORN.c,252,0.98496370811203815,0.27704305624517284,success,253,358.39092054525764,354.20878248744134,false,false,69.814850173783555,2.6163421534575604,,,
+2025-04-24T00:00:00,CORN.c,252,0.97722234042422262,0.48714259446754227,success,253,358.46781029180693,354.70887630344697,false,false,122.75993380582065,1.739142286012487,,,
+2025-04-25T00:00:00,CORN.c,252,0.99616298239907664,0.52180397788379373,success,253,358.44253808713825,352.88332260440563,false,false,131.49460242671603,0.064216652729566628,,,
+2025-04-28T00:00:00,CORN.c,252,0.85530309056145393,0.96420451431706788,success,253,358.40964622484472,356.63283160184324,false,false,242.97953760790111,12.57763449035011,,,
+2025-04-29T00:00:00,CORN.c,252,0.99638078505999461,0.51323911780280951,success,253,358.39033126866468,352.77245890474302,false,false,129.33625768630799,0.060218665624684219,,,
+2025-04-30T00:00:00,CORN.c,252,0.99559966973330094,0.50963883677360666,success,253,358.51748883179636,353.09582319175001,false,false,128.42898686694889,0.058850587316265086,,,
+2025-05-01T00:00:00,CORN.c,252,0.99087885225600514,0.40637513538206982,success,253,358.52703726956906,353.83904063597788,false,false,102.40653411628159,1.6584669279837756,,,
+2025-05-02T00:00:00,CORN.c,252,0.99248059896758623,0.4023500539034357,success,253,358.48273910649624,353.60001812661022,false,false,101.39221358366579,1.6597418261093078,,,
+2025-05-05T00:00:00,CORN.c,252,0.98530253172542004,0.24510699050495444,success,253,358.45649322550184,354.2512197454127,false,false,61.766961607248518,2.3410537560198339,,,
+2025-05-06T00:00:00,CORN.c,252,0.98591936430347482,0.29353987275010712,success,253,358.58454741383605,354.33577334181456,false,false,73.972047933027,14.472129155052649,,,
+2025-05-07T00:00:00,CORN.c,252,0.98587318431551274,0.28934776927107209,success,253,358.56483590731398,354.31938299010193,false,false,72.91563785631017,14.715570301283703,,,
+2025-05-08T00:00:00,CORN.c,252,0.97242469044811231,0.23181561446455998,success,253,358.48696375034098,354.92409190786782,false,false,58.417534845069113,2.8388498397986104,,,
+2025-05-09T00:00:00,CORN.c,252,0.99436968602751918,0.48186979728383988,success,253,358.50405038982285,353.33010654313296,false,false,121.43118891552766,0.056613035501319291,,,
+2025-05-12T00:00:00,CORN.c,252,0.94238650393879597,0.7776498632801,success,253,358.42729864403969,355.63263999906718,false,false,195.96776554658521,2.9029107825053804,,,
+2025-05-13T00:00:00,CORN.c,252,0.94424563166706665,0.75739574605287929,success,253,358.3697505045057,355.54031993218825,false,false,190.86372800532558,2.9346894472655412,,,
+2025-05-14T00:00:00,CORN.c,252,0.93527461946403267,0.76997050758608243,success,253,358.41655767182885,355.74587087990164,false,false,194.03256791169278,11.068239487696127,,,
+2025-05-15T00:00:00,CORN.c,252,0.99128246636927453,0.47013747191994409,success,253,358.37401616987967,353.64035300191017,false,false,118.47464292382591,0.061575442209502444,,,
+2025-05-16T00:00:00,CORN.c,252,0.99172496202868499,0.46387038355302618,success,253,358.44476561399591,353.65856331110422,false,false,116.8953366553626,0.060275181524654359,,,
+2025-05-19T00:00:00,CORN.c,252,0.76391292998741422,0.759699845948273,success,253,358.50340948563371,357.32915634666188,false,false,191.44436117896478,23.878831625647589,,,
+2025-05-20T00:00:00,CORN.c,252,0.92308074921005356,0.75612107612710522,success,253,358.45853677791899,355.97357624219427,false,false,190.5425111840305,29.278723098965227,,,
+2025-05-21T00:00:00,CORN.c,252,0.74910132999846757,0.63866411307386239,success,253,358.28018101144676,357.18635590248039,false,false,160.94335649461331,13.976470089863804,,,
+2025-05-22T00:00:00,CORN.c,252,0.76565682849755634,0.63467303039868361,success,253,358.22502744429562,357.04107996542467,false,false,159.93760366046828,12.523801574003262,,,
+2025-05-23T00:00:00,CORN.c,252,0.70377512024739897,0.57895919623441128,success,253,358.2838805102931,357.41854053140099,false,false,145.89771745107163,13.445842316564002,,,
+2025-05-27T00:00:00,CORN.c,252,0.99006010238933695,0.33327300451501524,success,253,358.30136428401886,353.70015535312609,false,false,83.984797137783843,24.421940190134034,,,
+2025-05-28T00:00:00,CORN.c,252,0.79575049197585823,0.62292255734322521,success,253,358.28498658203063,356.925043222657,false,false,156.97648445049276,30.653171355204776,,,
+2025-05-29T00:00:00,CORN.c,252,0.99611918331090199,0.40747894473475194,success,253,358.19989047837538,352.65206918435786,false,false,102.68469407315749,0.052869214612484179,,,
+2025-05-30T00:00:00,CORN.c,252,0.96199636818834777,0.72622891160038949,success,253,358.14879731768303,354.91746837144677,false,false,183.00968572329816,25.819822579285418,,,
+2025-06-02T00:00:00,CORN.c,252,0.75643707802365412,0.6108430490337412,success,253,358.19712989582945,357.06388585679287,false,false,153.93244835650279,12.90678065231352,,,
+2025-06-03T00:00:00,CORN.c,252,0.99711643083600721,0.3876725168248214,success,253,358.26696705048772,352.42112832607586,false,false,97.693474239854993,0.05200936688413195,,,
+2025-06-04T00:00:00,CORN.c,252,0.99761415931168429,0.37621387205148454,success,253,358.28266694923246,352.24685191368178,false,false,94.80589575697411,0.050627066139758363,,,
+2025-06-05T00:00:00,CORN.c,252,0.99804865798535358,0.36322471866363681,success,253,358.27585683775249,352.03857215563829,false,false,91.532629103236474,0.049019784042339247,,,
+2025-06-06T00:00:00,CORN.c,252,0.98439549404071203,0.3679136005709161,success,253,358.27528946010273,354.13082143505483,false,false,92.71422734387086,1.6319206459148463,,,
+2025-06-09T00:00:00,CORN.c,252,0.99650974747119514,0.14673184610691273,success,253,358.28096852070382,352.626683690812,false,false,36.976425218942005,12.444655648461124,,,
+2025-06-10T00:00:00,CORN.c,252,0.74386640689412997,0.47602182143531868,success,253,358.29901920708176,357.23285690543179,false,false,119.95749900170031,13.273346115591645,,,
+2025-06-11T00:00:00,CORN.c,252,0.71289846175848626,0.53123948267120924,success,253,358.30420461904095,357.39470156361614,false,false,133.87234963314472,13.928226473350325,,,
+2025-06-12T00:00:00,CORN.c,252,0.69028142498548517,0.57902357887335076,success,253,358.31136212745122,357.50992681334026,false,false,145.91394187608438,14.844545364267779,,,
+2025-06-13T00:00:00,CORN.c,252,0.68909315028993889,0.57495206290717304,success,253,358.25773261756405,357.46184950802905,false,false,144.88791985260761,10.475645629441097,,,
+2025-06-16T00:00:00,CORN.c,252,0.69966080005686604,0.68426821529037318,success,253,358.44320378759642,357.59752064375436,false,false,172.43559025317404,18.89689560706184,,,
+2025-06-17T00:00:00,CORN.c,252,0.70629794054239159,0.5662816524375347,success,253,358.230543390126,357.35307207984818,false,false,142.70297641425876,109.99714752955801,,,
+2025-06-18T00:00:00,CORN.c,252,0.65844926571513673,0.56307846610425016,success,253,358.34681010756481,357.69041886561706,false,false,141.89577345827104,14.155078109059342,,,
+2025-06-20T00:00:00,CORN.c,252,0.99068083211628999,0.15342961462665131,success,253,358.36449388982328,353.69817481569771,false,false,38.664262885916131,0.10612159326176977,,,
+2025-06-23T00:00:00,CORN.c,252,0.99054389590620351,0.14526014447686478,success,253,358.1835839486809,353.53199023543772,false,false,36.605556408169925,0.099523829725563021,,,
+2025-06-24T00:00:00,CORN.c,252,0.99572633226243523,0.28833713230414343,success,253,358.1812758511428,352.73027581160136,false,false,72.660957340644146,0.040923274460127383,,,
+2025-06-25T00:00:00,CORN.c,252,0.75099222352128692,0.49548829398619604,success,253,358.03505834829559,356.93114717823215,false,false,124.8630500845214,13.102304349801365,,,
+2025-06-26T00:00:00,CORN.c,252,0.99762040299335508,0.24510590151024611,success,253,358.05758724401375,352.01914554618594,false,false,61.766687180582018,0.037629697860106386,,,
+2025-06-27T00:00:00,CORN.c,252,0.93831214817807385,0.63437770449663644,success,253,358.3995375746772,355.67754192092758,false,false,159.86318153315239,2.9275295894129507,,,
+2025-06-30T00:00:00,CORN.c,252,0.93755783570483475,0.64642663737056405,success,253,358.50954295004505,355.8005052597295,false,false,162.89951261738213,2.8266470887602804,,,
+2025-07-01T00:00:00,CORN.c,252,0.93966991337323669,0.64115207411101827,success,253,358.54983885543379,355.80414112615904,false,false,161.5703226759766,1.9803867386015932,,,
+2025-07-02T00:00:00,CORN.c,252,0.76914472775801257,0.54955055187558055,success,253,358.6374587981428,357.43397063087957,false,false,138.48673907264629,28.933747710438467,,,
+2025-07-03T00:00:00,CORN.c,252,0.93438343018911429,0.63513143559839635,success,253,358.57508133688816,355.91902271070933,false,false,160.05312177079588,11.761389660603928,,,
+2025-07-07T00:00:00,CORN.c,252,0.99740168534262819,0.2860940032170719,success,253,358.76415088309892,352.81386032639858,false,false,72.095688810702114,0.036170237284608234,,,
+2025-07-08T00:00:00,CORN.c,252,0.9982169239783607,0.26863283665198567,success,253,358.5540817866169,352.22645115012693,false,false,67.695474836300392,0.035759209095102065,,,
+2025-07-09T00:00:00,CORN.c,252,0.89699687306970688,0.74046995937821736,success,253,358.29447190033687,356.13017887058646,false,false,186.59842976331078,0.16641688351606002,,,
+2025-07-10T00:00:00,CORN.c,252,0.93160891871563001,0.61906525643585031,success,253,358.22422360816932,355.61255292220631,false,false,156.00444462183427,2.439124569615585,,,
+2025-07-11T00:00:00,CORN.c,252,0.99077310350676429,0.32153480796369976,success,253,358.21413834888972,353.5377755486017,false,false,81.026771606852336,0.048129389869619656,,,
+2025-07-14T00:00:00,CORN.c,252,0.99161144615914776,0.30415024092460791,success,253,358.24700044868217,353.47453724408649,false,false,76.645860713001198,0.04390494308767353,,,
+2025-07-15T00:00:00,CORN.c,252,0.99207266184344189,0.29121410837464667,success,253,358.32606052762208,353.4965814869704,false,false,73.385955310410964,0.042746969664710609,,,
+2025-07-16T00:00:00,CORN.c,252,0.87601121733603537,0.71983658312202248,success,253,358.07341796333333,356.11823016642649,false,false,181.39881894674966,0.19214594118764139,,,
+2025-07-17T00:00:00,CORN.c,252,0.88486165751329082,0.71705569348506037,success,253,357.83791098580627,355.7986140557216,false,false,180.69803475823522,0.20008661461385555,,,
+2025-07-18T00:00:00,CORN.c,252,0.98004175678580785,0.34247837376265261,success,253,358.0726997153763,354.17874678734302,false,false,86.304550188188458,0.065757697340321802,,,
+2025-07-21T00:00:00,CORN.c,252,0.97845538318767,0.33823830832476637,success,253,358.1519043080387,354.33605510484591,false,false,85.236053697841129,0.06504108572641254,,,
+2025-07-22T00:00:00,CORN.c,252,0.91716159012384635,0.44714701683740488,success,253,358.05314913948399,355.64875730791709,false,false,112.68104824302603,0.97685568322986283,,,
+2025-07-23T00:00:00,CORN.c,252,0.90771729438875604,0.76300081268431152,success,253,358.04295850871574,355.75688228084607,false,false,192.27620479644651,2.0507088442606793,,,
+2025-07-24T00:00:00,CORN.c,252,0.9718900706586624,0.86741752160935814,success,253,358.1097604879044,354.56664065713665,false,false,218.58921544555824,0.58960060977647888,,,
+2025-07-25T00:00:00,CORN.c,252,0.96669268350651261,0.86315511083325236,success,253,358.14563744882634,354.77753389528164,false,false,217.51508792997959,0.60225745363544891,,,
+2025-07-28T00:00:00,CORN.c,252,0.79079937198505768,0.50285828361622054,success,253,358.0943231608432,356.76457259786821,false,false,126.72028747128756,1.6091692902086898,,,
+2025-07-29T00:00:00,CORN.c,252,0.96679593446654388,0.30916594740556969,success,253,357.79873128416227,354.42741616473836,false,false,77.909818746203555,0.067513993606527198,,,
+2025-07-30T00:00:00,CORN.c,252,0.95796861333687844,0.32554192165638357,success,253,357.65283485986674,354.52643648582449,false,false,82.036564257408656,0.082200513465054539,,,
+2025-07-31T00:00:00,CORN.c,252,0.96872159485806753,0.32038347704568521,success,253,357.4806608987588,354.04761156782411,false,false,80.736636215512675,0.080339274929782808,,,
+2025-08-01T00:00:00,CORN.c,252,0.92205550116878343,0.73524870657546637,success,253,357.69152008606994,355.220911687799,false,false,185.28267405701752,2.1022154738427026,,,
+2025-08-04T00:00:00,CORN.c,252,0.96085754736469953,0.83906679819893892,success,253,357.63156713197441,354.43094859088814,false,false,211.44483314613259,0.69058192566933163,,,
+2025-08-05T00:00:00,CORN.c,252,0.88425267793916773,0.66375511379219443,success,253,357.56209420569934,355.528760906287,false,false,167.26628867563301,0.22950597981685827,,,
+2025-08-06T00:00:00,CORN.c,252,0.87078420328851014,0.6590369905498441,success,253,357.63131300266309,355.72340266336948,false,false,166.07732161856072,0.23796423153216786,,,
+2025-08-07T00:00:00,CORN.c,252,0.82879869085256164,0.55562418486924514,success,253,357.58914245504184,356.0120052736753,false,false,140.01729458704978,15.085921329225055,,,
+2025-08-08T00:00:00,CORN.c,252,0.92127593858961254,0.36889720078614002,success,253,357.65537673379237,355.19556597935417,false,false,92.962094598107285,0.23979192143694092,,,
+2025-08-11T00:00:00,CORN.c,252,0.95533109559226248,0.28370205836387835,success,253,357.71766534984846,354.65488498120658,false,false,71.492918707697342,0.078382117034284368,,,
+2025-08-12T00:00:00,CORN.c,252,0.97270650662210667,0.28570407436096396,success,253,357.92438198542987,354.35094792231638,false,false,71.997426738962915,0.074680464208442848,,,
+2025-08-13T00:00:00,CORN.c,252,0.9474256284657292,0.38415911108200312,success,253,358.0443694613295,355.15284978765629,false,false,96.808095992664789,1.1702389000685451,,,
+2025-08-14T00:00:00,CORN.c,252,0.8615756501125067,0.52008177561543889,success,253,357.84494342230721,356.01650452430965,false,false,131.0606074550906,3.2673246123106048,,,
+2025-08-15T00:00:00,CORN.c,252,0.88412490979937486,0.51615095225978913,success,253,357.62652710758482,355.59444155656729,false,false,130.07003996946685,3.4755547184756521,,,
+2025-08-18T00:00:00,CORN.c,252,0.84713490693178406,0.44454877046366276,success,253,357.6089416830203,355.89663751263748,false,false,112.02629015684302,1.8192462159381491,,,
+2025-08-19T00:00:00,CORN.c,252,0.86651631843513621,0.5081909708008634,success,253,357.66558246400768,355.79508075734384,false,false,128.06412464181759,3.3930580546396598,,,
+2025-08-20T00:00:00,CORN.c,252,0.93420330839420918,0.62178158356754842,success,253,357.44334773441039,354.790223202449,false,false,156.68895905902221,0.20212170803850546,,,
+2025-08-21T00:00:00,CORN.c,252,0.98592323464111364,0.27641094473590061,success,253,357.2976030993928,353.04855019445819,false,false,69.655558073446954,0.086938210898109589,,,
+2025-08-22T00:00:00,CORN.c,252,0.98428263859558718,0.35675550027962755,success,253,357.36455581400634,353.22740864717355,false,false,89.902386070466136,1.2804537904686142,,,
+2025-08-25T00:00:00,CORN.c,252,0.94919199326470016,0.61128674256329785,success,253,357.37263420726487,354.44507707304905,false,false,154.04425912595104,0.19696037587000215,,,
+2025-08-26T00:00:00,CORN.c,252,0.98278225754231852,0.25877276166900343,success,253,357.43098091505715,353.38653371792856,false,false,65.210735940588862,0.083333903604603979,,,
+2025-08-27T00:00:00,CORN.c,252,0.98098288831463409,0.25039655111350667,success,253,357.41157656586654,353.46836073843298,false,false,63.099930880603679,0.080209971350945194,,,
+2025-08-28T00:00:00,CORN.c,252,0.98507787370947886,0.24877543010774836,success,253,357.34695687485078,353.15708127459135,false,false,62.691408387152585,0.081033516903301323,,,
+2025-08-29T00:00:00,CORN.c,252,0.88087426103690225,0.46290510981462168,success,253,356.95698412695367,354.95624879941653,false,false,116.65208767328467,1.9660582315075794,,,
+2025-09-02T00:00:00,CORN.c,252,0.98916282401229816,0.75998404522364527,success,253,356.70631194056352,352.19243543182557,false,false,191.5159793963586,0.72192060730932917,,,
+2025-09-03T00:00:00,CORN.c,252,0.95811650443494845,0.59030441422721835,success,253,356.94968135896011,353.81960382497181,false,false,148.75671238525902,0.18761198079215391,,,
+2025-09-04T00:00:00,CORN.c,252,0.98771841433583119,0.75190286839752307,success,253,357.2720427935048,352.88474618224137,false,false,189.47952283617582,0.70069693272141431,,,
+2025-09-05T00:00:00,CORN.c,252,0.98725584653133991,0.74788705112706777,success,253,357.4901861443177,353.14032953709108,false,false,188.46753688402109,0.71239117824695319,,,
+2025-09-08T00:00:00,CORN.c,252,0.98833740128773129,0.74390731056246884,success,253,357.51928192833628,353.07964481981907,false,false,187.46464226174214,0.7153828233673093,,,
+2025-09-09T00:00:00,CORN.c,252,0.95465665495670993,0.79776013953010083,success,253,357.6168919868507,354.56980365384771,false,false,201.03555516158542,13.643901664258834,,,
+2025-09-10T00:00:00,CORN.c,252,0.98802501265904397,0.30936069594750665,success,253,357.54295519497657,353.13006726726638,false,false,77.958895378771672,1.4133209400796667,,,
+2025-09-11T00:00:00,CORN.c,252,0.80734700314901486,0.49423109300375362,success,253,357.55681413524701,356.1239511947731,false,false,124.54623543694591,2.0353569973095125,,,
+2025-09-12T00:00:00,CORN.c,252,0.98480668220807632,0.727948861945797,success,253,357.40679487380265,353.2352052258492,false,false,183.44311321034084,0.72961423832404959,,,
+2025-09-15T00:00:00,CORN.c,252,0.98495816919957169,0.72381780028665177,success,253,357.57890132888161,353.39713719629424,false,false,182.40208567223624,0.72003847810407717,,,
+2025-09-16T00:00:00,CORN.c,252,0.98586552390395099,0.71984409570442587,success,253,357.73387284263424,353.48896980897956,false,false,181.40071211751533,0.72078722988602595,,,
+2025-09-17T00:00:00,CORN.c,252,0.94855359305010145,0.54597635131415945,success,253,357.70577625324665,354.79137858659226,false,false,137.58604053116818,0.21157397326703914,,,
+2025-09-18T00:00:00,CORN.c,252,0.98500491039447202,0.28546051452313626,success,253,357.66489887189113,353.47997503343629,false,false,71.936049659830331,1.3648788135910215,,,
+2025-09-19T00:00:00,CORN.c,252,0.93515857792917823,0.53674707357455131,success,253,357.67048080334359,355.00170931499849,false,false,135.26026254078693,0.21688456400455683,,,
+2025-09-22T00:00:00,CORN.c,252,0.95893756279519637,0.57777203034023805,success,253,357.6581317629267,354.50739956372183,false,false,145.59855164574,0.60094724170786162,,,
+2025-09-23T00:00:00,CORN.c,252,0.97475428166804357,0.27345585714970239,success,253,357.80971113960516,354.15618228950234,false,false,68.910876001725001,1.3387823489450246,,,
+2025-09-24T00:00:00,CORN.c,252,0.96493086497711456,0.29197545217429632,success,253,357.55357349260618,354.23883843588908,false,false,73.577813947922678,2.3737578821379519,,,
+2025-09-25T00:00:00,CORN.c,252,0.94528923358070815,0.71424603560607614,success,253,357.47297428839767,354.62354385718999,false,false,179.9900009727312,3.3036239365356512,,,
+2025-09-26T00:00:00,CORN.c,252,0.94318093163468775,0.66110111192122578,success,253,357.48486044851103,354.67547429621033,false,false,166.59748020414889,1.1763270784358397,,,
+2025-09-29T00:00:00,CORN.c,252,0.93802252289812638,0.50933394372077867,success,253,357.4625720019024,354.74556908806119,false,false,128.35215381763624,0.27243169452345495,,,
+2025-09-30T00:00:00,CORN.c,252,0.97681636747336131,0.55363899082905932,success,253,357.45139097282902,353.71053882910775,false,false,139.51702568892296,0.64526755944631353,,,
+2025-10-01T00:00:00,CORN.c,252,0.97404892396469511,0.54956985303783612,success,253,357.65036613459779,354.02511767674076,false,false,138.4916029655347,0.65088055762977615,,,
+2025-10-02T00:00:00,CORN.c,252,0.97807706872635691,0.67148199311674961,success,253,357.73464968267774,353.93659439249564,false,false,169.2134622654209,0.78336445642224017,,,
+2025-10-03T00:00:00,CORN.c,252,0.92589966544227909,0.4939392127475577,success,253,357.8323140470913,355.30696821821067,false,false,124.47268161238453,0.27720770669597139,,,
+2025-10-06T00:00:00,CORN.c,252,0.99565463688066957,0.23829997542656453,success,253,357.81540889631157,352.38111777597157,false,false,60.051593807494264,1.7915164800226995,,,
+2025-10-07T00:00:00,CORN.c,252,0.99434987728761437,0.23429006254348456,success,253,357.89095181044149,352.72053994042443,false,false,59.041095760958108,1.7697683942090034,,,
+2025-10-08T00:00:00,CORN.c,252,0.99407230385557421,0.23029387873697776,success,253,357.90414484152143,352.78197052620504,false,false,58.034057441718396,1.742436108855816,,,
+2025-10-09T00:00:00,CORN.c,252,0.9224780137141867,0.099265159048043811,success,253,357.92034930910694,355.44384735698469,false,false,25.01482008010704,1.0034222407926947,,,
+2025-10-10T00:00:00,CORN.c,252,0.99517304984079313,0.22239562647159861,success,253,357.82576709933113,352.49706528906376,false,false,56.043697870842848,1.7936931844325579,,,
+2025-10-13T00:00:00,CORN.c,252,0.95827074215873209,0.53660737651277612,success,253,357.7806555478374,354.64672770760563,false,false,135.22505888121958,2.1989763756123604,,,
+2025-10-14T00:00:00,CORN.c,252,0.95502934443025111,0.53259985229268003,success,253,357.81794302468899,354.76221113613985,false,false,134.21516277775538,2.1964892949531087,,,
+2025-10-15T00:00:00,CORN.c,252,0.94969974979885052,0.5091066555637499,success,253,357.81132754675696,354.87319171623216,false,false,128.29487720206498,0.67976026373467824,,,
+2025-10-16T00:00:00,CORN.c,252,0.85740249077903496,0.60518422000008376,success,253,357.94950779280384,356.15562637454082,false,false,152.50642344002111,1.2913108727285973,,,
+2025-10-17T00:00:00,CORN.c,252,0.93926758026544632,0.50118407953138611,success,253,357.83877600093439,355.10015325256597,false,false,126.29838804190929,0.71771889576781955,,,
+2025-10-20T00:00:00,CORN.c,252,0.93193303583544185,0.497124724304496,success,253,357.85075409389464,355.23398511948926,false,false,125.275430524733,0.72078002686888953,,,
+2025-10-21T00:00:00,CORN.c,252,0.93238760554898115,0.49309201038326717,success,253,357.86050323477679,355.23654593687507,false,false,124.25918661658332,0.71506288368817117,,,
+2025-10-22T00:00:00,CORN.c,252,0.85759898243557176,0.5889206485679106,success,253,357.87908065507929,356.0835911960591,false,false,148.40800343911346,1.2517524267593452,,,
+2025-10-23T00:00:00,CORN.c,252,0.92357290367192668,0.48506875083450018,success,253,357.92934187691537,355.43742943487018,false,false,122.23732521029405,0.7198730361775344,,,
+2025-10-24T00:00:00,CORN.c,252,0.77235874025291529,0.28277319352584446,success,253,358.06528979719354,356.84361163332062,false,false,71.258844768512802,2.0639453725927139,,,
+2025-10-27T00:00:00,CORN.c,252,0.97044394328389216,0.2008745286333474,success,253,358.18835942377126,354.6968944713476,false,false,50.620381215603544,2.4708040140876442,,,
+2025-10-28T00:00:00,CORN.c,252,0.9912818656435447,0.17507251422704756,success,253,358.05634325573487,353.32274960145588,false,false,44.118273585215988,2.0491609533069273,,,
+2025-10-29T00:00:00,CORN.c,252,0.71595971542739845,0.72669110015507621,success,253,358.10841276484894,357.18390493802917,false,false,183.12615723907919,1.8811905999886349,,,
+2025-10-30T00:00:00,CORN.c,252,0.80091528907946874,0.49971073579854947,success,253,358.10568932260838,356.71366455475265,false,false,125.92710542123447,9.5080048767109062,,,
+2025-10-31T00:00:00,CORN.c,252,0.74619852013203258,0.26290037384830911,success,253,358.12732608334159,357.04888679186837,false,false,66.25089420977389,2.0387441650661486,,,
+2025-11-03T00:00:00,CORN.c,252,0.81414530594027168,0.51950546622703642,success,253,358.0919723858068,356.61479868088219,false,false,130.91537748921317,0.88736877987327534,,,
+2025-11-04T00:00:00,CORN.c,252,0.75221420209602896,0.73255380746218202,success,253,358.16750131160376,357.05704483981765,false,false,184.60355948046987,1.7525907635284947,,,
+2025-11-05T00:00:00,CORN.c,252,0.77975943388867608,0.70674762085270204,success,253,358.24526382370908,356.98099880094776,false,false,178.10040045488091,1.9033086130736339,,,
+2025-11-06T00:00:00,CORN.c,252,0.83540812211879423,0.50757639430017032,success,253,358.35616701073991,356.73171557873303,false,false,127.90925136364291,0.87406622258134259,,,
+2025-11-07T00:00:00,CORN.c,252,0.9258591818300459,0.56719452099338574,success,253,358.37582983689407,355.85107391840427,false,false,142.93301929033322,0.80758478120704613,,,
+2025-11-10T00:00:00,CORN.c,252,0.82052204488605662,0.49942634703039179,success,253,358.42878585199225,356.90889746184888,false,false,125.85543945165873,0.88791044181252632,,,
+2025-11-11T00:00:00,CORN.c,252,0.80804233007528181,0.49528889571029477,success,253,358.42029084521823,356.98295127794114,false,false,124.81280171899428,0.89460699966502077,,,
+2025-11-12T00:00:00,CORN.c,252,0.80240636718352987,0.49124221252035155,success,253,358.37208958855837,356.97068697897413,false,false,123.79303755512859,0.89760591708937087,,,
+2025-11-13T00:00:00,CORN.c,252,0.88617935269061188,0.42495970958434653,success,253,358.29634079571281,356.24404537621149,false,false,107.08984681525533,0.7127706461934975,,,
+2025-11-14T00:00:00,CORN.c,252,0.91499326632697731,0.42131518810068042,success,253,358.54686264605471,356.17067641304698,false,false,106.17142740137146,0.67608476430401476,,,
+2025-11-17T00:00:00,CORN.c,252,0.84342053571952902,0.48009667880516549,success,253,358.75418702036842,357.0702849707165,false,false,120.98436305890171,0.83437357882079111,,,
+2025-11-18T00:00:00,CORN.c,252,0.85887570507740907,0.51302309855127315,success,253,358.6820824667999,356.87609927885518,false,false,129.28182083492084,1.1914274120276549,,,
+2025-11-19T00:00:00,CORN.c,252,0.93967444923769938,0.53554378350706611,success,253,358.7337029866722,355.98792524338,false,false,134.95703344378066,0.79137409059342712,,,
+2025-11-20T00:00:00,CORN.c,252,0.93897816172172466,0.53146397431282555,success,253,358.67693322380217,355.94337280648358,false,false,133.92892152683203,0.78211039084955236,,,
+2025-11-21T00:00:00,CORN.c,252,0.93576267539337055,0.52738067983178361,success,253,358.67003610489559,355.99125863442339,false,false,132.89993131760946,0.77980369408825168,,,
+2025-11-24T00:00:00,CORN.c,252,0.87714064553979043,0.34556137759356781,success,253,358.65181139268935,356.68618428342876,false,false,87.081467153579084,0.25152725403077431,,,
+2025-11-25T00:00:00,CORN.c,252,0.91706764320763012,0.39311395599742971,success,253,358.65835239206734,356.25519645388118,false,false,99.064716911352292,0.6854434189040135,,,
+2025-11-26T00:00:00,CORN.c,252,0.79784402084351902,0.66894572236265637,success,253,358.64332017095455,357.27044662868235,false,false,168.5743220353894,1.5853220574611844,,,
+2025-11-28T00:00:00,CORN.c,252,0.92160006798560434,0.51132990801536926,success,253,358.64283490833702,356.17854660481896,false,false,128.85513681987305,0.77529411868988973,,,
+2025-12-01T00:00:00,CORN.c,252,0.91995927229822583,0.50739083959417852,success,253,358.64922070089619,356.20742690247459,false,false,127.86249157773298,0.78539056139296104,,,
+2025-12-02T00:00:00,CORN.c,252,0.92037622826629573,0.50337503864717781,success,253,358.67923556115431,356.23176571907521,false,false,126.85050973908881,0.78226336396724883,,,
+2025-12-03T00:00:00,CORN.c,252,0.92684934296588439,0.49933918570636177,success,253,358.74748479323074,356.20821487138221,false,false,125.83347479800317,0.76756517453529571,,,
+2025-12-04T00:00:00,CORN.c,252,0.92609055147288299,0.49527929279921939,success,253,358.78786377321336,356.25973243093841,false,false,124.81038178540329,0.76460765648077977,,,
+2025-12-05T00:00:00,CORN.c,252,0.90770551761224216,0.36492354064626192,success,253,358.80124881458437,356.51531316900417,false,false,91.960732242858001,0.66238810899678358,,,
+2025-12-08T00:00:00,CORN.c,252,0.89509510263064229,0.30738806997095713,success,253,358.77176524516295,356.62788947299913,false,false,77.461793632681193,0.21868145978798456,,,
+2025-12-09T00:00:00,CORN.c,252,0.74498877371580208,0.52383694825174543,success,253,358.81451516892974,357.74245358833485,false,false,132.00691095943984,2.4524908002067458,,,
+2025-12-10T00:00:00,CORN.c,252,0.74477768934457389,0.51985415344097197,success,253,358.84690703237055,357.77595623393427,false,false,131.00324666712493,2.4377311009361704,,,
+2025-12-11T00:00:00,CORN.c,252,0.88918130071406998,0.2941160789943571,success,253,358.87830394089747,356.79589831455723,false,false,74.117251906577991,0.21568306293627515,,,
+2025-12-12T00:00:00,CORN.c,252,0.88679086142966879,0.29027730742342411,success,253,358.90046200046055,356.84208971981064,false,false,73.14988147070288,0.22162218477136594,,,
+2025-12-15T00:00:00,CORN.c,252,0.98291342346409305,0.77185819758527763,success,253,358.89767045501014,354.84544256986828,false,false,194.50826579148998,0.20511385395485784,,,
+2025-12-16T00:00:00,CORN.c,252,0.94611521073328508,0.66651004174877615,success,253,358.90185359850045,356.03633748486391,false,false,167.96053052069158,12.863615289722564,,,
+2025-12-17T00:00:00,CORN.c,252,0.74015515878562954,0.49994756300871962,success,253,358.91611904956937,357.86934389963562,false,false,125.98678587819734,2.4308709428415982,,,
+2025-12-18T00:00:00,CORN.c,252,0.90444077998423389,0.32870876094705392,success,253,358.89328564566341,356.64571497580397,false,false,82.834607758657583,0.65317456411312413,,,
+2025-12-19T00:00:00,CORN.c,252,0.90449282890773075,0.2669825439352197,success,253,358.90631088756061,356.65813784563477,false,false,67.279601071675359,0.20057355161690554,,,
+2025-12-22T00:00:00,CORN.c,252,0.98540347022062358,0.6973249449552904,success,253,358.89333478856918,354.68106743094734,false,false,175.72588612873318,3.5154199170169065,,,
+2025-12-23T00:00:00,CORN.c,252,0.87227800809954348,0.93249916771441055,success,253,358.90675898173788,356.98550675557539,false,false,234.98979026403146,55.455633748889142,,,
+2025-12-24T00:00:00,CORN.c,252,0.99148735926518794,0.740300446841066,success,253,358.91523971013891,354.15758571542534,false,false,186.55571260394862,0.23693704151375419,,,
+2025-12-26T00:00:00,CORN.c,252,0.65604291403552684,0.11110947670122723,success,253,358.91886332093208,358.27315401587873,false,false,27.999588128709263,1.6461311071601241,,,
+2025-12-29T00:00:00,CORN.c,252,0.91756179791511305,0.24378737734325084,success,253,358.92172253537643,356.51205155005312,false,false,61.434419090499212,0.18927096546877054,,,
+2025-12-30T00:00:00,CORN.c,252,0.91728032479540322,0.23913372472022218,success,253,358.91063674208419,356.50468110314779,false,false,60.261698629495989,0.19006423465005851,,,
+2025-12-31T00:00:00,CORN.c,252,0.91599373652721228,0.18670540956154746,success,253,358.91164451467955,356.52252634909689,false,false,47.049763209509962,1.6673707614715878,,,
+2026-01-02T00:00:00,CORN.c,252,0.93653965876512324,0.22777011286194157,success,253,358.91135945107743,356.21958274554146,false,false,57.398068441209276,0.17907453564281947,,,
+2026-01-05T00:00:00,CORN.c,252,0.98744600800509608,0.7022806909074063,success,253,358.94640339556639,354.58132027796586,false,false,176.97473410866638,27.095077770884654,,,
+2026-01-06T00:00:00,CORN.c,252,0.99432167714105735,0.71229721453618777,success,253,358.93635537327856,353.77095051794009,false,false,179.49889806311933,0.22893576166154087,,,
+2026-01-07T00:00:00,CORN.c,252,0.99508256111169924,0.70766185302139117,success,253,358.88754073546454,353.57750286956866,false,false,178.33078696139057,0.24373430548672592,,,
+2026-01-08T00:00:00,CORN.c,252,0.99558268132080263,0.70313631177799918,success,253,358.89556548351186,353.47777018673509,false,false,177.19035056805581,0.25665618384041561,,,
+2026-01-09T00:00:00,CORN.c,252,0.95988136092111509,0.53155218251897141,success,253,358.89224342649561,355.71727477329881,false,false,133.95114999478079,1.9389804987113548,,,
+2026-01-12T00:00:00,CORN.c,252,0.90054327665449985,0.48806356589485145,success,253,358.89177935336727,356.68850373973243,false,false,122.99201860550257,31.152625470165354,,,
+2026-01-13T00:00:00,CORN.c,252,0.9366064143558408,3.9682539682540144e-09,success,253,358.90789871847517,356.21499825671481,false,false,1.0000000000000116e-06,1.5741709727575219,,,
+2026-01-14T00:00:00,CORN.c,252,0.83303542683700149,0.48010212348123127,success,253,358.96819449552748,357.36089997821296,false,false,120.98573511727028,15.103049685919858,,,
+2026-01-15T00:00:00,CORN.c,252,0.83839084654145091,0.4761410305740903,success,253,358.96826523902365,357.32196163045859,false,false,119.98753970467075,17.772272374811664,,,
+2026-01-16T00:00:00,CORN.c,252,0.84823332589343947,0.47215009024738658,success,253,358.9711637212759,357.2503522775657,false,false,118.98182274234142,12.643757845299083,,,
+2026-01-20T00:00:00,CORN.c,252,0.87470934018116542,0.62667135778075911,success,253,358.96345816146055,357.02020282951429,false,false,157.9211821607513,10.175733502167217,,,
+2026-01-21T00:00:00,CORN.c,252,0.97225423571219249,0.6970509205453973,success,253,358.93068412823629,355.37414998886669,false,false,175.65683197744011,0.12087132860403746,,,
+2026-01-22T00:00:00,CORN.c,252,0.88168556792387232,0.61157636060065124,success,253,358.97188896517457,356.96339923079631,false,false,154.11724287136411,9.7200626219705182,,,
+2026-01-23T00:00:00,CORN.c,252,0.79247432328461276,0.49674615952978929,success,253,358.9457464730595,357.60584144269569,false,false,125.1800322015069,1.5340726720974829,,,
+2026-01-26T00:00:00,CORN.c,252,0.89450319588682659,0.456092877913157,success,253,358.93523087506242,356.79764305899192,false,false,114.93540523411556,1.6925698921223258,,,
+2026-01-27T00:00:00,CORN.c,252,0.89993979858970752,0.45210265788559273,success,253,358.92369321592457,356.72713736424663,false,false,113.92986978716937,1.6933751637714209,,,
+2026-01-28T00:00:00,CORN.c,252,0.9708124681861936,0.67448114269050607,success,253,358.93544244980734,355.43105075823854,false,false,169.96924795800754,0.12896453682260922,,,
+2026-01-29T00:00:00,CORN.c,252,0.8870554517600201,0.57084041825125464,success,253,358.92636925733308,356.865358735629,false,false,143.85178539931616,1.8850623156725197,,,
+2026-01-30T00:00:00,CORN.c,252,0.83453106831789448,0.47665269246790848,success,253,358.95372775402291,357.33564123497393,false,false,120.11647850191294,1.5830278982867623,,,
+2026-02-02T00:00:00,CORN.c,252,0.8161254716534585,0.49434830266146662,success,253,358.91395334121194,357.42363884762887,false,false,124.57577227068958,1.211857119029262,,,
+2026-02-03T00:00:00,CORN.c,252,0.7948497191644226,0.46671367806861513,success,253,358.94224568507855,357.58783540860594,false,false,117.61184687329101,10.002599297236646,,,
+2026-02-04T00:00:00,CORN.c,252,0.8254495786534346,0.48149481829094321,success,253,358.91065287704936,357.35693834277026,false,false,121.33669420931768,17.723474735019707,,,
+2026-02-05T00:00:00,CORN.c,252,0.80158077047401621,0.4780483482442861,success,253,358.92985092256885,357.53364729462368,false,false,120.4681837575601,22.158166597461733,,,
+2026-02-06T00:00:00,CORN.c,252,0.80070068440976172,0.47337073465689633,success,253,358.95377772094378,357.56309831424608,false,false,119.28942513353788,17.85148067158741,,,
+2026-02-09T00:00:00,CORN.c,252,0.97171895496308458,0.19496599989352148,success,253,358.9495439192591,355.41266909115291,false,false,49.131431973167416,0.60642456654470345,,,
+2026-02-10T00:00:00,CORN.c,252,0.96779774251688666,0.079899615909111571,success,253,358.93525276469927,355.53226620119949,false,false,20.134703209096116,2.9469319555998181,,,
+2026-02-11T00:00:00,CORN.c,252,0.97594462676544769,0.075989611313260985,success,253,358.91131204558019,355.20826458656154,false,false,19.149382050941767,2.6112489058768329,,,
+2026-02-12T00:00:00,CORN.c,252,0.7436097948600362,0.71399608243191037,success,253,358.88692757248901,357.8221116673468,false,false,179.92701277284141,2.1480324479256327,,,
+2026-02-13T00:00:00,CORN.c,252,0.98320255869149065,0.61577384032165439,success,253,358.83144704647782,354.76185845756237,false,false,155.17500776105692,0.16487368217896137,,,
+2026-02-17T00:00:00,CORN.c,252,0.98173953754218723,0.61171740323095403,success,253,358.84899252668373,354.86440469135232,false,false,154.15278561420041,0.16796734483336598,,,
+2026-02-18T00:00:00,CORN.c,252,0.78328714878978545,0.77042519373464424,success,253,358.85742452478985,357.57249837798776,false,false,194.14714882113034,1.1358324449890633,,,
+2026-02-19T00:00:00,CORN.c,252,0.94517802500888914,0.4958735831137836,success,253,358.8832098155695,356.03592763662641,false,false,124.96014294467346,11.698304117064275,,,
+2026-02-20T00:00:00,CORN.c,252,0.97821158301610212,0.28758642321688427,success,253,358.86088965539227,355.05654216377872,false,false,72.471778650654841,0.68182946520389165,,,
+2026-02-23T00:00:00,CORN.c,252,0.98669447398903287,0.59235632036048946,success,253,358.86175306966351,354.55557206679589,false,false,149.27379273084335,0.18427996686719925,,,

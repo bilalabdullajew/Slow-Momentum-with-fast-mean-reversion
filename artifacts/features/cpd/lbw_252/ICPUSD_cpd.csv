@@ -1,0 +1,625 @@
+timestamp,asset_id,lbw,nu,gamma,status,window_size,nlml_baseline,nlml_changepoint,retry_used,fallback_used,location_c,steepness_s,fallback_source_timestamp,failure_stage,failure_message
+2024-06-04T00:00:00,ICPUSD,252,,,invalid_window,1,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 1"
+2024-06-05T00:00:00,ICPUSD,252,,,invalid_window,2,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 2"
+2024-06-06T00:00:00,ICPUSD,252,,,invalid_window,3,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 3"
+2024-06-07T00:00:00,ICPUSD,252,,,invalid_window,4,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 4"
+2024-06-08T00:00:00,ICPUSD,252,,,invalid_window,5,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 5"
+2024-06-09T00:00:00,ICPUSD,252,,,invalid_window,6,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 6"
+2024-06-10T00:00:00,ICPUSD,252,,,invalid_window,7,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 7"
+2024-06-11T00:00:00,ICPUSD,252,,,invalid_window,8,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 8"
+2024-06-12T00:00:00,ICPUSD,252,,,invalid_window,9,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 9"
+2024-06-13T00:00:00,ICPUSD,252,,,invalid_window,10,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 10"
+2024-06-14T00:00:00,ICPUSD,252,,,invalid_window,11,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 11"
+2024-06-15T00:00:00,ICPUSD,252,,,invalid_window,12,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 12"
+2024-06-16T00:00:00,ICPUSD,252,,,invalid_window,13,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 13"
+2024-06-17T00:00:00,ICPUSD,252,,,invalid_window,14,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 14"
+2024-06-18T00:00:00,ICPUSD,252,,,invalid_window,15,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 15"
+2024-06-19T00:00:00,ICPUSD,252,,,invalid_window,16,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 16"
+2024-06-20T00:00:00,ICPUSD,252,,,invalid_window,17,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 17"
+2024-06-21T00:00:00,ICPUSD,252,,,invalid_window,18,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 18"
+2024-06-22T00:00:00,ICPUSD,252,,,invalid_window,19,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 19"
+2024-06-23T00:00:00,ICPUSD,252,,,invalid_window,20,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 20"
+2024-06-24T00:00:00,ICPUSD,252,,,invalid_window,21,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 21"
+2024-06-25T00:00:00,ICPUSD,252,,,invalid_window,22,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 22"
+2024-06-26T00:00:00,ICPUSD,252,,,invalid_window,23,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 23"
+2024-06-27T00:00:00,ICPUSD,252,,,invalid_window,24,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 24"
+2024-06-28T00:00:00,ICPUSD,252,,,invalid_window,25,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 25"
+2024-06-29T00:00:00,ICPUSD,252,,,invalid_window,26,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 26"
+2024-06-30T00:00:00,ICPUSD,252,,,invalid_window,27,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 27"
+2024-07-01T00:00:00,ICPUSD,252,,,invalid_window,28,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 28"
+2024-07-02T00:00:00,ICPUSD,252,,,invalid_window,29,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 29"
+2024-07-03T00:00:00,ICPUSD,252,,,invalid_window,30,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 30"
+2024-07-04T00:00:00,ICPUSD,252,,,invalid_window,31,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 31"
+2024-07-05T00:00:00,ICPUSD,252,,,invalid_window,32,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 32"
+2024-07-06T00:00:00,ICPUSD,252,,,invalid_window,33,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 33"
+2024-07-07T00:00:00,ICPUSD,252,,,invalid_window,34,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 34"
+2024-07-08T00:00:00,ICPUSD,252,,,invalid_window,35,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 35"
+2024-07-09T00:00:00,ICPUSD,252,,,invalid_window,36,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 36"
+2024-07-10T00:00:00,ICPUSD,252,,,invalid_window,37,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 37"
+2024-07-11T00:00:00,ICPUSD,252,,,invalid_window,38,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 38"
+2024-07-12T00:00:00,ICPUSD,252,,,invalid_window,39,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 39"
+2024-07-13T00:00:00,ICPUSD,252,,,invalid_window,40,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 40"
+2024-07-14T00:00:00,ICPUSD,252,,,invalid_window,41,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 41"
+2024-07-15T00:00:00,ICPUSD,252,,,invalid_window,42,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 42"
+2024-07-16T00:00:00,ICPUSD,252,,,invalid_window,43,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 43"
+2024-07-17T00:00:00,ICPUSD,252,,,invalid_window,44,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 44"
+2024-07-18T00:00:00,ICPUSD,252,,,invalid_window,45,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 45"
+2024-07-19T00:00:00,ICPUSD,252,,,invalid_window,46,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 46"
+2024-07-20T00:00:00,ICPUSD,252,,,invalid_window,47,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 47"
+2024-07-21T00:00:00,ICPUSD,252,,,invalid_window,48,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 48"
+2024-07-22T00:00:00,ICPUSD,252,,,invalid_window,49,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 49"
+2024-07-23T00:00:00,ICPUSD,252,,,invalid_window,50,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 50"
+2024-07-24T00:00:00,ICPUSD,252,,,invalid_window,51,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 51"
+2024-07-25T00:00:00,ICPUSD,252,,,invalid_window,52,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 52"
+2024-07-26T00:00:00,ICPUSD,252,,,invalid_window,53,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 53"
+2024-07-27T00:00:00,ICPUSD,252,,,invalid_window,54,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 54"
+2024-07-28T00:00:00,ICPUSD,252,,,invalid_window,55,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 55"
+2024-07-29T00:00:00,ICPUSD,252,,,invalid_window,56,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 56"
+2024-07-30T00:00:00,ICPUSD,252,,,invalid_window,57,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 57"
+2024-07-31T00:00:00,ICPUSD,252,,,invalid_window,58,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 58"
+2024-08-01T00:00:00,ICPUSD,252,,,invalid_window,59,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 59"
+2024-08-02T00:00:00,ICPUSD,252,,,invalid_window,60,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 60"
+2024-08-03T00:00:00,ICPUSD,252,,,invalid_window,61,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 61"
+2024-08-04T00:00:00,ICPUSD,252,,,invalid_window,62,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 62"
+2024-08-05T00:00:00,ICPUSD,252,,,invalid_window,63,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 63"
+2024-08-06T00:00:00,ICPUSD,252,,,invalid_window,64,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 64"
+2024-08-07T00:00:00,ICPUSD,252,,,invalid_window,65,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 65"
+2024-08-08T00:00:00,ICPUSD,252,,,invalid_window,66,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 66"
+2024-08-09T00:00:00,ICPUSD,252,,,invalid_window,67,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 67"
+2024-08-10T00:00:00,ICPUSD,252,,,invalid_window,68,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 68"
+2024-08-11T00:00:00,ICPUSD,252,,,invalid_window,69,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 69"
+2024-08-12T00:00:00,ICPUSD,252,,,invalid_window,70,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 70"
+2024-08-13T00:00:00,ICPUSD,252,,,invalid_window,71,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 71"
+2024-08-14T00:00:00,ICPUSD,252,,,invalid_window,72,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 72"
+2024-08-15T00:00:00,ICPUSD,252,,,invalid_window,73,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 73"
+2024-08-16T00:00:00,ICPUSD,252,,,invalid_window,74,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 74"
+2024-08-17T00:00:00,ICPUSD,252,,,invalid_window,75,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 75"
+2024-08-18T00:00:00,ICPUSD,252,,,invalid_window,76,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 76"
+2024-08-19T00:00:00,ICPUSD,252,,,invalid_window,77,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 77"
+2024-08-20T00:00:00,ICPUSD,252,,,invalid_window,78,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 78"
+2024-08-21T00:00:00,ICPUSD,252,,,invalid_window,79,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 79"
+2024-08-22T00:00:00,ICPUSD,252,,,invalid_window,80,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 80"
+2024-08-23T00:00:00,ICPUSD,252,,,invalid_window,81,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 81"
+2024-08-24T00:00:00,ICPUSD,252,,,invalid_window,82,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 82"
+2024-08-25T00:00:00,ICPUSD,252,,,invalid_window,83,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 83"
+2024-08-26T00:00:00,ICPUSD,252,,,invalid_window,84,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 84"
+2024-08-27T00:00:00,ICPUSD,252,,,invalid_window,85,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 85"
+2024-08-28T00:00:00,ICPUSD,252,,,invalid_window,86,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 86"
+2024-08-29T00:00:00,ICPUSD,252,,,invalid_window,87,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 87"
+2024-08-30T00:00:00,ICPUSD,252,,,invalid_window,88,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 88"
+2024-08-31T00:00:00,ICPUSD,252,,,invalid_window,89,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 89"
+2024-09-01T00:00:00,ICPUSD,252,,,invalid_window,90,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 90"
+2024-09-02T00:00:00,ICPUSD,252,,,invalid_window,91,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 91"
+2024-09-03T00:00:00,ICPUSD,252,,,invalid_window,92,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 92"
+2024-09-04T00:00:00,ICPUSD,252,,,invalid_window,93,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 93"
+2024-09-05T00:00:00,ICPUSD,252,,,invalid_window,94,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 94"
+2024-09-06T00:00:00,ICPUSD,252,,,invalid_window,95,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 95"
+2024-09-07T00:00:00,ICPUSD,252,,,invalid_window,96,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 96"
+2024-09-08T00:00:00,ICPUSD,252,,,invalid_window,97,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 97"
+2024-09-09T00:00:00,ICPUSD,252,,,invalid_window,98,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 98"
+2024-09-10T00:00:00,ICPUSD,252,,,invalid_window,99,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 99"
+2024-09-11T00:00:00,ICPUSD,252,,,invalid_window,100,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 100"
+2024-09-12T00:00:00,ICPUSD,252,,,invalid_window,101,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 101"
+2024-09-13T00:00:00,ICPUSD,252,,,invalid_window,102,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 102"
+2024-09-14T00:00:00,ICPUSD,252,,,invalid_window,103,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 103"
+2024-09-15T00:00:00,ICPUSD,252,,,invalid_window,104,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 104"
+2024-09-16T00:00:00,ICPUSD,252,,,invalid_window,105,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 105"
+2024-09-17T00:00:00,ICPUSD,252,,,invalid_window,106,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 106"
+2024-09-18T00:00:00,ICPUSD,252,,,invalid_window,107,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 107"
+2024-09-19T00:00:00,ICPUSD,252,,,invalid_window,108,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 108"
+2024-09-20T00:00:00,ICPUSD,252,,,invalid_window,109,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 109"
+2024-09-21T00:00:00,ICPUSD,252,,,invalid_window,110,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 110"
+2024-09-22T00:00:00,ICPUSD,252,,,invalid_window,111,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 111"
+2024-09-23T00:00:00,ICPUSD,252,,,invalid_window,112,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 112"
+2024-09-24T00:00:00,ICPUSD,252,,,invalid_window,113,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 113"
+2024-09-25T00:00:00,ICPUSD,252,,,invalid_window,114,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 114"
+2024-09-26T00:00:00,ICPUSD,252,,,invalid_window,115,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 115"
+2024-09-27T00:00:00,ICPUSD,252,,,invalid_window,116,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 116"
+2024-09-28T00:00:00,ICPUSD,252,,,invalid_window,117,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 117"
+2024-09-29T00:00:00,ICPUSD,252,,,invalid_window,118,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 118"
+2024-09-30T00:00:00,ICPUSD,252,,,invalid_window,119,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 119"
+2024-10-01T00:00:00,ICPUSD,252,,,invalid_window,120,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 120"
+2024-10-02T00:00:00,ICPUSD,252,,,invalid_window,121,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 121"
+2024-10-03T00:00:00,ICPUSD,252,,,invalid_window,122,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 122"
+2024-10-04T00:00:00,ICPUSD,252,,,invalid_window,123,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 123"
+2024-10-05T00:00:00,ICPUSD,252,,,invalid_window,124,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 124"
+2024-10-06T00:00:00,ICPUSD,252,,,invalid_window,125,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 125"
+2024-10-07T00:00:00,ICPUSD,252,,,invalid_window,126,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 126"
+2024-10-08T00:00:00,ICPUSD,252,,,invalid_window,127,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 127"
+2024-10-09T00:00:00,ICPUSD,252,,,invalid_window,128,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 128"
+2024-10-10T00:00:00,ICPUSD,252,,,invalid_window,129,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 129"
+2024-10-11T00:00:00,ICPUSD,252,,,invalid_window,130,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 130"
+2024-10-12T00:00:00,ICPUSD,252,,,invalid_window,131,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 131"
+2024-10-13T00:00:00,ICPUSD,252,,,invalid_window,132,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 132"
+2024-10-14T00:00:00,ICPUSD,252,,,invalid_window,133,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 133"
+2024-10-15T00:00:00,ICPUSD,252,,,invalid_window,134,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 134"
+2024-10-16T00:00:00,ICPUSD,252,,,invalid_window,135,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 135"
+2024-10-17T00:00:00,ICPUSD,252,,,invalid_window,136,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 136"
+2024-10-18T00:00:00,ICPUSD,252,,,invalid_window,137,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 137"
+2024-10-19T00:00:00,ICPUSD,252,,,invalid_window,138,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 138"
+2024-10-20T00:00:00,ICPUSD,252,,,invalid_window,139,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 139"
+2024-10-21T00:00:00,ICPUSD,252,,,invalid_window,140,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 140"
+2024-10-22T00:00:00,ICPUSD,252,,,invalid_window,141,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 141"
+2024-10-23T00:00:00,ICPUSD,252,,,invalid_window,142,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 142"
+2024-10-24T00:00:00,ICPUSD,252,,,invalid_window,143,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 143"
+2024-10-25T00:00:00,ICPUSD,252,,,invalid_window,144,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 144"
+2024-10-26T00:00:00,ICPUSD,252,,,invalid_window,145,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 145"
+2024-10-27T00:00:00,ICPUSD,252,,,invalid_window,146,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 146"
+2024-10-28T00:00:00,ICPUSD,252,,,invalid_window,147,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 147"
+2024-10-29T00:00:00,ICPUSD,252,,,invalid_window,148,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 148"
+2024-10-30T00:00:00,ICPUSD,252,,,invalid_window,149,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 149"
+2024-10-31T00:00:00,ICPUSD,252,,,invalid_window,150,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 150"
+2024-11-01T00:00:00,ICPUSD,252,,,invalid_window,151,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 151"
+2024-11-02T00:00:00,ICPUSD,252,,,invalid_window,152,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 152"
+2024-11-03T00:00:00,ICPUSD,252,,,invalid_window,153,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 153"
+2024-11-04T00:00:00,ICPUSD,252,,,invalid_window,154,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 154"
+2024-11-05T00:00:00,ICPUSD,252,,,invalid_window,155,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 155"
+2024-11-06T00:00:00,ICPUSD,252,,,invalid_window,156,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 156"
+2024-11-07T00:00:00,ICPUSD,252,,,invalid_window,157,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 157"
+2024-11-08T00:00:00,ICPUSD,252,,,invalid_window,158,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 158"
+2024-11-09T00:00:00,ICPUSD,252,,,invalid_window,159,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 159"
+2024-11-10T00:00:00,ICPUSD,252,,,invalid_window,160,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 160"
+2024-11-11T00:00:00,ICPUSD,252,,,invalid_window,161,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 161"
+2024-11-12T00:00:00,ICPUSD,252,,,invalid_window,162,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 162"
+2024-11-13T00:00:00,ICPUSD,252,,,invalid_window,163,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 163"
+2024-11-14T00:00:00,ICPUSD,252,,,invalid_window,164,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 164"
+2024-11-15T00:00:00,ICPUSD,252,,,invalid_window,165,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 165"
+2024-11-16T00:00:00,ICPUSD,252,,,invalid_window,166,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 166"
+2024-11-17T00:00:00,ICPUSD,252,,,invalid_window,167,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 167"
+2024-11-18T00:00:00,ICPUSD,252,,,invalid_window,168,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 168"
+2024-11-19T00:00:00,ICPUSD,252,,,invalid_window,169,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 169"
+2024-11-20T00:00:00,ICPUSD,252,,,invalid_window,170,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 170"
+2024-11-21T00:00:00,ICPUSD,252,,,invalid_window,171,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 171"
+2024-11-22T00:00:00,ICPUSD,252,,,invalid_window,172,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 172"
+2024-11-23T00:00:00,ICPUSD,252,,,invalid_window,173,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 173"
+2024-11-24T00:00:00,ICPUSD,252,,,invalid_window,174,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 174"
+2024-11-25T00:00:00,ICPUSD,252,,,invalid_window,175,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 175"
+2024-11-26T00:00:00,ICPUSD,252,,,invalid_window,176,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 176"
+2024-11-27T00:00:00,ICPUSD,252,,,invalid_window,177,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 177"
+2024-11-28T00:00:00,ICPUSD,252,,,invalid_window,178,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 178"
+2024-11-29T00:00:00,ICPUSD,252,,,invalid_window,179,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 179"
+2024-11-30T00:00:00,ICPUSD,252,,,invalid_window,180,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 180"
+2024-12-01T00:00:00,ICPUSD,252,,,invalid_window,181,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 181"
+2024-12-02T00:00:00,ICPUSD,252,,,invalid_window,182,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 182"
+2024-12-03T00:00:00,ICPUSD,252,,,invalid_window,183,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 183"
+2024-12-04T00:00:00,ICPUSD,252,,,invalid_window,184,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 184"
+2024-12-05T00:00:00,ICPUSD,252,,,invalid_window,185,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 185"
+2024-12-06T00:00:00,ICPUSD,252,,,invalid_window,186,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 186"
+2024-12-07T00:00:00,ICPUSD,252,,,invalid_window,187,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 187"
+2024-12-08T00:00:00,ICPUSD,252,,,invalid_window,188,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 188"
+2024-12-09T00:00:00,ICPUSD,252,,,invalid_window,189,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 189"
+2024-12-10T00:00:00,ICPUSD,252,,,invalid_window,190,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 190"
+2024-12-11T00:00:00,ICPUSD,252,,,invalid_window,191,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 191"
+2024-12-12T00:00:00,ICPUSD,252,,,invalid_window,192,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 192"
+2024-12-13T00:00:00,ICPUSD,252,,,invalid_window,193,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 193"
+2024-12-14T00:00:00,ICPUSD,252,,,invalid_window,194,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 194"
+2024-12-15T00:00:00,ICPUSD,252,,,invalid_window,195,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 195"
+2024-12-16T00:00:00,ICPUSD,252,,,invalid_window,196,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 196"
+2024-12-17T00:00:00,ICPUSD,252,,,invalid_window,197,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 197"
+2024-12-18T00:00:00,ICPUSD,252,,,invalid_window,198,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 198"
+2024-12-19T00:00:00,ICPUSD,252,,,invalid_window,199,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 199"
+2024-12-20T00:00:00,ICPUSD,252,,,invalid_window,200,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 200"
+2024-12-21T00:00:00,ICPUSD,252,,,invalid_window,201,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 201"
+2024-12-22T00:00:00,ICPUSD,252,,,invalid_window,202,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 202"
+2024-12-23T00:00:00,ICPUSD,252,,,invalid_window,203,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 203"
+2024-12-24T00:00:00,ICPUSD,252,,,invalid_window,204,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 204"
+2024-12-25T00:00:00,ICPUSD,252,,,invalid_window,205,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 205"
+2024-12-26T00:00:00,ICPUSD,252,,,invalid_window,206,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 206"
+2024-12-27T00:00:00,ICPUSD,252,,,invalid_window,207,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 207"
+2024-12-28T00:00:00,ICPUSD,252,,,invalid_window,208,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 208"
+2024-12-29T00:00:00,ICPUSD,252,,,invalid_window,209,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 209"
+2024-12-30T00:00:00,ICPUSD,252,,,invalid_window,210,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 210"
+2024-12-31T00:00:00,ICPUSD,252,,,invalid_window,211,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 211"
+2025-01-01T00:00:00,ICPUSD,252,,,invalid_window,212,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 212"
+2025-01-02T00:00:00,ICPUSD,252,,,invalid_window,213,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 213"
+2025-01-03T00:00:00,ICPUSD,252,,,invalid_window,214,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 214"
+2025-01-04T00:00:00,ICPUSD,252,,,invalid_window,215,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 215"
+2025-01-05T00:00:00,ICPUSD,252,,,invalid_window,216,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 216"
+2025-01-06T00:00:00,ICPUSD,252,,,invalid_window,217,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 217"
+2025-01-07T00:00:00,ICPUSD,252,,,invalid_window,218,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 218"
+2025-01-08T00:00:00,ICPUSD,252,,,invalid_window,219,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 219"
+2025-01-09T00:00:00,ICPUSD,252,,,invalid_window,220,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 220"
+2025-01-10T00:00:00,ICPUSD,252,,,invalid_window,221,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 221"
+2025-01-11T00:00:00,ICPUSD,252,,,invalid_window,222,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 222"
+2025-01-12T00:00:00,ICPUSD,252,,,invalid_window,223,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 223"
+2025-01-13T00:00:00,ICPUSD,252,,,invalid_window,224,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 224"
+2025-01-14T00:00:00,ICPUSD,252,,,invalid_window,225,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 225"
+2025-01-15T00:00:00,ICPUSD,252,,,invalid_window,226,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 226"
+2025-01-16T00:00:00,ICPUSD,252,,,invalid_window,227,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 227"
+2025-01-17T00:00:00,ICPUSD,252,,,invalid_window,228,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 228"
+2025-01-18T00:00:00,ICPUSD,252,,,invalid_window,229,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 229"
+2025-01-19T00:00:00,ICPUSD,252,,,invalid_window,230,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 230"
+2025-01-20T00:00:00,ICPUSD,252,,,invalid_window,231,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 231"
+2025-01-21T00:00:00,ICPUSD,252,,,invalid_window,232,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 232"
+2025-01-22T00:00:00,ICPUSD,252,,,invalid_window,233,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 233"
+2025-01-23T00:00:00,ICPUSD,252,,,invalid_window,234,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 234"
+2025-01-24T00:00:00,ICPUSD,252,,,invalid_window,235,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 235"
+2025-01-25T00:00:00,ICPUSD,252,,,invalid_window,236,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 236"
+2025-01-26T00:00:00,ICPUSD,252,,,invalid_window,237,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 237"
+2025-01-27T00:00:00,ICPUSD,252,,,invalid_window,238,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 238"
+2025-01-28T00:00:00,ICPUSD,252,,,invalid_window,239,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 239"
+2025-01-29T00:00:00,ICPUSD,252,,,invalid_window,240,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 240"
+2025-01-30T00:00:00,ICPUSD,252,,,invalid_window,241,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 241"
+2025-01-31T00:00:00,ICPUSD,252,,,invalid_window,242,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 242"
+2025-02-01T00:00:00,ICPUSD,252,,,invalid_window,243,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 243"
+2025-02-02T00:00:00,ICPUSD,252,,,invalid_window,244,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 244"
+2025-02-03T00:00:00,ICPUSD,252,,,invalid_window,245,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 245"
+2025-02-04T00:00:00,ICPUSD,252,,,invalid_window,246,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 246"
+2025-02-05T00:00:00,ICPUSD,252,,,invalid_window,247,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 247"
+2025-02-06T00:00:00,ICPUSD,252,,,invalid_window,248,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 248"
+2025-02-07T00:00:00,ICPUSD,252,,,invalid_window,249,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 249"
+2025-02-08T00:00:00,ICPUSD,252,,,invalid_window,250,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 250"
+2025-02-09T00:00:00,ICPUSD,252,,,invalid_window,251,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 251"
+2025-02-10T00:00:00,ICPUSD,252,,,invalid_window,252,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 252"
+2025-02-11T00:00:00,ICPUSD,252,,,invalid_window,253,,,false,false,,,,window_standardization,window returns must be finite
+2025-02-12T00:00:00,ICPUSD,252,0.96622680292224372,0.59886205688054717,success,253,357.47374436877328,354.12001327852897,false,false,150.91323833389788,0.40826912121497749,,,
+2025-02-13T00:00:00,ICPUSD,252,0.96088723341700133,0.59435848183240214,success,253,357.48832386380013,354.28691572944575,false,false,149.77833742176534,0.42055362900832838,,,
+2025-02-14T00:00:00,ICPUSD,252,0.95273707344791925,0.58893792341116102,success,253,357.55074158993892,354.54712881224521,false,false,148.41235669961259,0.93331562232098364,,,
+2025-02-15T00:00:00,ICPUSD,252,0.9478911637826537,0.58609492590393064,success,253,357.65841209047187,354.7575069364234,false,false,147.69592132779053,0.45795134787843084,,,
+2025-02-16T00:00:00,ICPUSD,252,0.94211137326727001,0.60778104105542896,success,253,357.62821094172136,354.83860837928665,false,false,153.16082234596809,13.015935985556906,,,
+2025-02-17T00:00:00,ICPUSD,252,0.74905052605030698,0.44085628129297599,success,253,357.63629397195791,356.542739152568,false,false,111.09578288582995,15.176327139613917,,,
+2025-02-18T00:00:00,ICPUSD,252,0.92946040661744855,0.57267107368141135,success,253,357.64334667701996,355.06491662763511,false,false,144.31311056771565,0.92837369953101445,,,
+2025-02-19T00:00:00,ICPUSD,252,0.92704278141778629,0.56861436959458356,success,253,357.68200416471245,355.13987767235159,false,false,143.29082113783505,0.93834878020976797,,,
+2025-02-20T00:00:00,ICPUSD,252,0.92620073256254798,0.56507526120514917,success,253,357.44815607792555,354.91841389818114,false,false,142.39896582369758,0.39156089087240453,,,
+2025-02-21T00:00:00,ICPUSD,252,0.93233552154559829,0.56048261420638046,success,253,357.68817283739747,355.06504143757707,false,false,141.24161878000788,0.95886003049853852,,,
+2025-02-22T00:00:00,ICPUSD,252,0.92852028598693936,0.55646986112030572,success,253,357.76113496564517,355.19695642630973,false,false,140.23040500231704,0.91774849932464919,,,
+2025-02-23T00:00:00,ICPUSD,252,0.91913444757128582,0.57990271108393887,success,253,357.77945818619366,355.34881370589659,false,false,146.1354831931526,14.095025009937761,,,
+2025-02-24T00:00:00,ICPUSD,252,0.91717903020471692,0.54842475980971728,success,253,357.59439718815361,355.18977578799337,false,false,138.20303947204874,0.94009118464975361,,,
+2025-02-25T00:00:00,ICPUSD,252,0.92702889420879397,0.54430958746097446,success,253,357.6486012946724,355.10668011171867,false,false,137.16601604016557,0.97635556859137862,,,
+2025-02-26T00:00:00,ICPUSD,252,0.93557151679001394,0.53992867161224223,success,253,357.57128615216322,354.89568438290678,false,false,136.06202524628503,10.903386592911989,,,
+2025-02-27T00:00:00,ICPUSD,252,0.92910172193743301,0.53592647294446227,success,253,357.57768470209027,355.00471261950196,false,false,135.0534711820045,12.190796786925077,,,
+2025-02-28T00:00:00,ICPUSD,252,0.91601819819928432,0.53198410360464943,success,253,357.5840413152028,355.194605213839,false,false,134.05999410837165,10.271668551269585,,,
+2025-03-01T00:00:00,ICPUSD,252,0.90189084143187526,0.52801214314580214,success,253,357.56630340881975,355.34789063617421,false,false,133.05906007274214,9.7387520439172413,,,
+2025-03-02T00:00:00,ICPUSD,252,0.92475243624837677,0.55215131291480923,success,253,357.63689126403148,355.12814872653951,false,false,139.14213085453193,13.031656719701461,,,
+2025-03-03T00:00:00,ICPUSD,252,0.95076251744854301,0.52521188091626925,success,253,358.21637913038546,355.25576999171813,false,false,132.35339399089986,0.33933674315047169,,,
+2025-03-04T00:00:00,ICPUSD,252,0.94580476419352399,0.52021383593613435,success,253,358.0575621292802,355.19811896620541,false,false,131.09388665590586,0.33315155393075757,,,
+2025-03-05T00:00:00,ICPUSD,252,0.95389711588068549,0.51624091546312068,success,253,358.14729701426563,355.1176167039086,false,false,130.0927106967064,0.33517170409792379,,,
+2025-03-06T00:00:00,ICPUSD,252,0.94379275129394746,0.51186248190660588,success,253,358.16096912080286,355.34010825099841,false,false,128.98934544046469,0.33585819118638904,,,
+2025-03-07T00:00:00,ICPUSD,252,0.71930483064155992,0.34165580458054529,success,253,358.15132640987161,357.2103104512189,false,false,86.097262754297418,9.0003845995237928,,,
+2025-03-08T00:00:00,ICPUSD,252,0.70758383159412075,0.33772921576807591,success,253,358.1563284821583,357.27265039162722,false,false,85.107762373555133,7.7806728700771934,,,
+2025-03-09T00:00:00,ICPUSD,252,0.92834214251855884,0.49909762539180258,success,253,358.08015348886966,355.5186559490142,false,false,125.77260159873425,0.32781264153278222,,,
+2025-03-10T00:00:00,ICPUSD,252,0.92423090199495117,0.49456117137545713,success,253,357.90381562976125,355.40254422689532,false,false,124.62941518661519,0.33160270817486126,,,
+2025-03-11T00:00:00,ICPUSD,252,0.92797952213408064,0.49012068726120633,success,253,358.02932673607086,355.47326756357626,false,false,123.51041318982399,0.30339986424632703,,,
+2025-03-12T00:00:00,ICPUSD,252,0.91553713009477089,0.48658783233050273,success,253,358.12955004428261,355.74635115220326,false,false,122.62013374728669,0.32480939920134533,,,
+2025-03-13T00:00:00,ICPUSD,252,0.91865383634185993,0.48343741089966891,success,253,358.26654315682629,355.84234745378359,false,false,121.82622754671657,0.36952694640548289,,,
+2025-03-14T00:00:00,ICPUSD,252,0.93341855520978279,0.47997044082418505,success,253,358.30427072535645,355.66384294485113,false,false,120.95255108769463,0.35473069154796388,,,
+2025-03-15T00:00:00,ICPUSD,252,0.92608254752167274,0.47526518514928545,success,253,358.19812645939805,355.67011204804658,false,false,119.76682665761993,0.33805578371469547,,,
+2025-03-16T00:00:00,ICPUSD,252,0.94459828620533393,0.4702794422477154,success,253,358.11712206878315,355.2809728538266,false,false,118.51041944642428,0.31985056108835408,,,
+2025-03-17T00:00:00,ICPUSD,252,0.93606318768677721,0.53992538518642075,success,253,358.20553142059958,355.52174372623278,false,false,136.06119706697802,10.706648630891307,,,
+2025-03-18T00:00:00,ICPUSD,252,0.93586207999902971,0.53592674234069904,success,253,358.24830118600244,355.56786883550325,false,false,135.05353906985616,13.549805211499054,,,
+2025-03-19T00:00:00,ICPUSD,252,0.95315542004700227,0.48478316642118169,success,253,358.27971630684101,355.26677364406117,false,false,122.16535793813779,9.756625879739639,,,
+2025-03-20T00:00:00,ICPUSD,252,0.9480561196488736,0.46208886835652807,success,253,358.28319957649626,355.37894978983456,false,false,116.44639482584508,23.550453854857057,,,
+2025-03-21T00:00:00,ICPUSD,252,0.93442891596735633,0.47671748306680439,success,253,358.31308231865029,355.65628156761574,false,false,120.13280573283471,11.615161450666385,,,
+2025-03-22T00:00:00,ICPUSD,252,0.80558682233315837,0.53199219511464424,success,253,358.21574071773483,356.79415541012577,false,false,134.06203316889034,11.422218173708774,,,
+2025-03-23T00:00:00,ICPUSD,252,0.82814804272568077,0.52808814254830061,success,253,358.4839717946781,356.91141325337793,false,false,133.07821192217176,11.961111135449164,,,
+2025-03-24T00:00:00,ICPUSD,252,0.93586970277720938,0.5121844822864251,success,253,358.58872598445595,355.90816663194499,false,false,129.07048953617914,11.511969922451742,,,
+2025-03-25T00:00:00,ICPUSD,252,0.799154973835143,0.27051130508869214,success,253,358.63902680701102,357.25800551687854,false,false,68.168848882350417,11.676817018025123,,,
+2025-03-26T00:00:00,ICPUSD,252,0.77455365221173711,0.26661983500349085,success,253,358.66718220666758,357.43297748094017,false,false,67.188198420879687,11.011313921028734,,,
+2025-03-27T00:00:00,ICPUSD,252,0.81844375232318778,0.29024026118409918,success,253,358.54523185658684,357.03939269282279,false,false,73.140545818392994,11.186608015224843,,,
+2025-03-28T00:00:00,ICPUSD,252,0.98079537964325347,0.421076737320424,success,253,358.42089003486586,354.48767707416346,false,false,106.11133780474685,12.314007920147082,,,
+2025-03-29T00:00:00,ICPUSD,252,0.81043086666040298,0.75201081230156996,success,253,358.32303528141631,356.87022301875396,false,false,189.50672469999563,0.59155117532410262,,,
+2025-03-30T00:00:00,ICPUSD,252,0.70921292339431274,0.73744392351291466,success,253,358.35893111325004,357.46736662055838,false,false,185.8358687252545,12.417238063680445,,,
+2025-03-31T00:00:00,ICPUSD,252,0.72368280033362353,0.61904897829247507,success,253,358.35651322880148,357.39370953346571,false,false,156.00034252970372,33.124746736182885,,,
+2025-04-01T00:00:00,ICPUSD,252,0.84355382176175475,0.4921408375717648,success,253,358.33371316294711,356.6488014971452,false,false,124.01949106808473,14.991566434526691,,,
+2025-04-02T00:00:00,ICPUSD,252,0.75890882363719325,0.53938542815067281,success,253,358.326466801207,357.17976034508803,false,false,135.92512789396955,2.7522815921717201,,,
+2025-04-03T00:00:00,ICPUSD,252,0.96852762214033794,0.39725332462113239,success,253,358.30096586384849,354.87429912866253,false,false,100.10783780452536,11.531179979469544,,,
+2025-04-04T00:00:00,ICPUSD,252,0.96029161584937728,0.42109468127333394,success,253,358.29382217886143,355.10814752708677,false,false,106.11585968088015,14.606794723804878,,,
+2025-04-05T00:00:00,ICPUSD,252,0.95156275665387602,0.3893382698771935,success,253,358.28775654221948,355.30991991060171,false,false,98.113244009052764,10.35008406739694,,,
+2025-04-06T00:00:00,ICPUSD,252,0.94892785854916062,0.38532115656637572,success,253,358.24890307018768,355.32680946431526,false,false,97.100931454726677,11.562366676069015,,,
+2025-04-07T00:00:00,ICPUSD,252,0.93814277147946312,0.38139121893488681,success,253,358.3022815997395,355.5832084177203,false,false,96.110587171591476,10.373109772985321,,,
+2025-04-08T00:00:00,ICPUSD,252,0.67200168014866646,0.51444109496039259,success,253,358.31827726229307,357.60102490751837,false,false,129.63915593001894,2.3414970863233617,,,
+2025-04-09T00:00:00,ICPUSD,252,0.70197528283479715,0.51090270460593645,success,253,358.39252032003077,357.53579855283505,false,false,128.74748156069597,2.4393668130315835,,,
+2025-04-10T00:00:00,ICPUSD,252,0.71206890341279694,0.50459495516891884,success,253,358.46905488604085,357.56360140840553,false,false,127.15792870256755,1.8389549565626568,,,
+2025-04-11T00:00:00,ICPUSD,252,0.92738315130237647,0.39335026742548918,success,253,358.51660745860573,355.9694376251141,false,false,99.12426739122327,12.909390349805371,,,
+2025-04-12T00:00:00,ICPUSD,252,0.91899456033524696,0.36160296055537283,success,253,358.5720754218849,356.14331152743216,false,false,91.123946059953951,10.785504197271644,,,
+2025-04-13T00:00:00,ICPUSD,252,0.96031105195587418,0.37713655540307894,success,253,358.69491462886646,355.50873014656975,false,false,95.038411961575889,11.67200402460805,,,
+2025-04-14T00:00:00,ICPUSD,252,0.75715324025081576,0.27464461351009267,success,253,358.70710535094253,357.56997031311391,false,false,69.21044260454336,18.003786083121089,,,
+2025-04-15T00:00:00,ICPUSD,252,0.85914807657732395,0.72567101081856766,success,253,358.57828846006765,356.77005632048031,false,false,182.86909472627906,6.0166611485357517,,,
+2025-04-16T00:00:00,ICPUSD,252,0.96154565183123331,0.74510874433245555,success,253,358.39575954977084,355.17668928193717,false,false,187.7674035717788,0.26702103718882625,,,
+2025-04-17T00:00:00,ICPUSD,252,0.89552072291393237,0.71816861062163606,success,253,358.32141988876134,356.17300327270584,false,false,180.97848987665228,19.563835791469312,,,
+2025-04-18T00:00:00,ICPUSD,252,0.9135039897349152,0.71423110563702497,success,253,358.32300285250898,355.96581339794557,false,false,179.98623862053029,18.737910607925439,,,
+2025-04-19T00:00:00,ICPUSD,252,0.89877762126934269,0.66761492158944924,success,253,358.30826879279044,356.12455301735253,false,false,168.23896024054122,0.63155989289389758,,,
+2025-04-20T00:00:00,ICPUSD,252,0.92872058661274892,0.70632858891434946,success,253,358.31619978518137,355.74899941294848,false,false,177.99480440641605,54.784505746888172,,,
+2025-04-21T00:00:00,ICPUSD,252,0.91675637899414397,0.4127926469607896,success,253,358.18004385572038,355.78097359189348,false,false,104.02374703411898,12.784841671342011,,,
+2025-04-22T00:00:00,ICPUSD,252,0.98824111685318483,0.30313164957676164,success,253,358.19580221711567,353.76448447119566,false,false,76.38917569334393,0.25123343741823428,,,
+2025-04-23T00:00:00,ICPUSD,252,0.91988725388217418,0.23337460255055384,success,253,358.16239104391303,355.72157490048613,false,false,58.810399842739571,1.2961805628278869,,,
+2025-04-24T00:00:00,ICPUSD,252,0.93940736811175718,0.68937751041432216,success,253,358.18741901144432,355.44634309413948,false,false,173.72313262440917,13.232633552193519,,,
+2025-04-25T00:00:00,ICPUSD,252,0.94497566091038532,0.68544315144918766,success,253,358.12499277977679,355.28160922451264,false,false,172.7316741651953,13.129249168198722,,,
+2025-04-26T00:00:00,ICPUSD,252,0.95228893342045695,0.68161924385659522,success,253,358.15120599734263,355.15750088185604,false,false,171.768049451862,15.698754450072586,,,
+2025-04-27T00:00:00,ICPUSD,252,0.74354249204383138,0.47191838671244579,success,253,358.15757366991789,357.09311074417838,false,false,118.92343345153634,18.518857979895547,,,
+2025-04-28T00:00:00,ICPUSD,252,0.75510719890843814,0.46804473954576409,success,253,358.14297769968954,357.01693854343853,false,false,117.94727436553255,27.640747145298402,,,
+2025-04-29T00:00:00,ICPUSD,252,0.93362082974397731,0.6182108706153171,success,253,358.11776301797829,355.47407593235107,false,false,155.78913939505992,17.080521162142759,,,
+2025-04-30T00:00:00,ICPUSD,252,0.94312193383189646,0.56150847561918149,success,253,358.14595826319862,355.33767247122063,false,false,141.50013585603372,28.183164459151168,,,
+2025-05-01T00:00:00,ICPUSD,252,0.94797778315471792,0.61023120179042389,success,253,358.24409585427321,355.34143566214567,false,false,153.77826285118681,17.53444430647771,,,
+2025-05-02T00:00:00,ICPUSD,252,0.97817325203226879,0.65763769143974837,success,253,358.33568163555697,354.53313102057211,false,false,165.7246982428166,15.334716427950465,,,
+2025-05-03T00:00:00,ICPUSD,252,0.94988575586098234,0.60219705973340365,success,253,358.38963200300213,355.4475955644607,false,false,151.75365905281771,17.658136646866648,,,
+2025-05-04T00:00:00,ICPUSD,252,0.89076967278307295,0.48408262445414885,success,253,358.32508542206563,356.2264582787044,false,false,121.98882136244551,13.431505610166299,,,
+2025-05-05T00:00:00,ICPUSD,252,0.89699643035906573,0.45772880700827229,success,253,358.3597139232125,356.19542568503164,false,false,115.34765936608461,61.425362650041372,,,
+2025-05-06T00:00:00,ICPUSD,252,0.98332113071591432,0.64169954826589437,success,253,358.37669096056658,354.29989781532822,false,false,161.70828616300537,15.91310504156124,,,
+2025-05-07T00:00:00,ICPUSD,252,0.97158933151774318,0.58626237372612744,success,253,358.38715386304631,354.85498537171378,false,false,147.73811817898411,17.754129504656383,,,
+2025-05-08T00:00:00,ICPUSD,252,0.85469862202703539,0.46821642747387693,success,253,358.42657348495243,356.6546346211835,false,false,117.99053972341699,11.775097687683834,,,
+2025-05-09T00:00:00,ICPUSD,252,0.94041281897972084,0.63090729366819254,success,253,358.20220734133824,355.44332886073852,false,false,158.98863800438451,28.768894832213217,,,
+2025-05-10T00:00:00,ICPUSD,252,0.89650141007322226,0.5752874821973214,success,253,358.13541747639459,355.97647559920267,false,false,144.97244551372501,12.197869973664456,,,
+2025-05-11T00:00:00,ICPUSD,252,0.9340137472004828,0.62187319275620079,success,253,358.10968907520726,355.45964434787112,false,false,156.71204457456261,12.90358323643817,,,
+2025-05-12T00:00:00,ICPUSD,252,0.83150936560381272,0.45233450755290716,success,253,358.09425237673418,356.49788998068954,false,false,113.9882959033326,12.976057689527671,,,
+2025-05-13T00:00:00,ICPUSD,252,0.84280923552596976,0.44836138376649043,success,253,358.07574554636915,356.39646503445658,false,false,112.98706870915559,12.855613603711568,,,
+2025-05-14T00:00:00,ICPUSD,252,0.93631238647943793,0.55951098247848652,success,253,358.07001853428466,355.3820594606928,false,false,140.99676758457861,119.29088338752115,,,
+2025-05-15T00:00:00,ICPUSD,252,0.96216721070948619,0.60713857969273921,success,253,357.90762287657748,354.67161079347318,false,false,152.99892208257029,349.53822704018012,,,
+2025-05-16T00:00:00,ICPUSD,252,0.93911811308484983,0.55151998749162379,success,253,357.99115247580806,355.25514692555754,false,false,138.9830368478892,23.394541022493751,,,
+2025-05-17T00:00:00,ICPUSD,252,0.95989110197833294,0.59824232276205525,success,253,357.89740238217121,354.72218074508231,false,false,150.75706533603793,15.408047117613581,,,
+2025-05-18T00:00:00,ICPUSD,252,0.7263732250604279,0.38694248641436702,success,253,357.93431778441374,356.95801886016113,false,false,97.509506576420492,27.268155794683825,,,
+2025-05-19T00:00:00,ICPUSD,252,0.84556227728681554,0.40307900853209777,success,253,358.04924153500718,356.34903063787465,false,false,101.57591015008863,12.711459890213064,,,
+2025-05-20T00:00:00,ICPUSD,252,0.82547641367445979,0.42784605927974945,success,253,358.28977219397308,356.73587140088796,false,false,107.81720693849687,10.546330992649072,,,
+2025-05-21T00:00:00,ICPUSD,252,0.9263742258230343,0.47822086826845173,success,253,358.2863370575667,355.75405393005485,false,false,120.51165880364984,26.508543743886662,,,
+2025-05-22T00:00:00,ICPUSD,252,0.95183233587452554,0.57832517865506183,success,253,358.26106690042496,355.27736592608034,false,false,145.73794502107557,15.933091842247887,,,
+2025-05-23T00:00:00,ICPUSD,252,0.92968015295389939,0.52316488892493207,success,253,358.37568706007733,355.79390053290177,false,false,131.83755200908288,14.918590725217387,,,
+2025-05-24T00:00:00,ICPUSD,252,0.93538317170833551,0.46635483667343575,success,253,358.35206391422804,355.67958253630985,false,false,117.52141884170581,23.346323480291424,,,
+2025-05-25T00:00:00,ICPUSD,252,0.94847310124781725,0.51524039701662994,success,253,358.3172177998984,355.4044683473623,false,false,129.84058004819073,14.590574302385271,,,
+2025-05-26T00:00:00,ICPUSD,252,0.95339789840004763,0.51121843294149627,success,253,358.3909817500442,355.37259505042334,false,false,128.82704510125706,13.947721633772218,,,
+2025-05-27T00:00:00,ICPUSD,252,0.95171682218781206,0.45437655492201245,success,253,358.38066627586915,355.39948195554268,false,false,114.50289184034713,25.182848748439426,,,
+2025-05-28T00:00:00,ICPUSD,252,0.98814424624804298,0.72367498999520574,success,253,358.40114700697643,353.97813162008737,false,false,182.36609747879186,2.8975354579527317,,,
+2025-05-29T00:00:00,ICPUSD,252,0.99097678315161664,0.82071624930049969,success,253,358.40425269224431,353.70536249145755,false,false,206.82049482372591,4.3764040841764587,,,
+2025-05-30T00:00:00,ICPUSD,252,0.9887492518874591,0.71571828862344378,success,253,358.45390633294642,353.97790019582141,false,false,180.36100873310784,2.8300124401375193,,,
+2025-05-31T00:00:00,ICPUSD,252,0.98324576724123025,0.54242203833296077,success,253,358.44236946562489,354.3701612875509,false,false,136.69035365990612,14.999297857486036,,,
+2025-06-01T00:00:00,ICPUSD,252,0.97903685005799224,0.48767174257828927,success,253,358.44482085970918,354.60101770903253,false,false,122.8932791297289,24.815734734469746,,,
+2025-06-02T00:00:00,ICPUSD,252,0.98120972339981838,0.43059790103913886,success,253,358.38871707499527,354.43327038688057,false,false,108.51067106186299,23.399291945668168,,,
+2025-06-03T00:00:00,ICPUSD,252,0.9780910167453668,0.47951518070360255,success,253,358.48874656575578,354.69004058288562,false,false,120.83782553730784,14.765995451888548,,,
+2025-06-04T00:00:00,ICPUSD,252,0.97459340344530521,0.42273825828148742,success,253,358.48912681798043,354.84211530325211,false,false,106.53004108693483,26.483822884777382,,,
+2025-06-05T00:00:00,ICPUSD,252,0.87703312586149551,0.36437523600293198,success,253,358.44977408696911,356.48514432667162,false,false,91.82255947273886,14.715820159435713,,,
+2025-06-06T00:00:00,ICPUSD,252,0.5566461598320871,0.2730194112188411,success,253,358.56085479104962,358.33329320110624,false,false,68.800891627147962,12.94606673979375,,,
+2025-06-07T00:00:00,ICPUSD,252,0.5625838285705087,0.26903751049779429,success,253,358.49955329464035,358.24789822237295,false,false,67.797452645444153,13.550465206894541,,,
+2025-06-08T00:00:00,ICPUSD,252,0.97408602763291074,0.51066857091156992,success,253,358.37221837323864,354.74550104631271,false,false,128.68847986971562,14.686387069920874,,,
+2025-06-09T00:00:00,ICPUSD,252,0.98414366987221824,0.67850014425121563,success,253,358.17512728634256,354.04692419172102,false,false,170.98203635130633,1.2112172606395435,,,
+2025-06-10T00:00:00,ICPUSD,252,0.95937490304876216,0.71381486988373744,success,253,358.27281002711362,355.11091412453379,false,false,179.88134721070185,10.895099865208778,,,
+2025-06-11T00:00:00,ICPUSD,252,0.99546020383668288,0.7934120621303713,success,253,358.37271953612009,352.98239650256801,false,false,199.93983965685356,0.17837155976808017,,,
+2025-06-12T00:00:00,ICPUSD,252,0.98918798714344802,0.67156979517723636,success,253,358.39696534017116,353.88073876612327,false,false,169.23558838466357,0.62744282367786519,,,
+2025-06-13T00:00:00,ICPUSD,252,0.9606766217967736,0.4920169612849904,success,253,358.23834670062178,355.04252805728834,false,false,123.98827424381759,35.61990420035179,,,
+2025-06-14T00:00:00,ICPUSD,252,0.96296332527158213,0.48808859650847736,success,253,358.17766059414828,354.91955389750274,false,false,122.9983263201363,249.4485388222559,,,
+2025-06-15T00:00:00,ICPUSD,252,0.96171734540222242,0.48297506290105824,success,253,358.10859014155915,354.88486646485489,false,false,121.70971585106668,6.6667619003963168,,,
+2025-06-16T00:00:00,ICPUSD,252,0.96184936989142356,0.47919598646749278,success,253,358.0869540904115,354.85963850636176,false,false,120.75738858980819,17.093104137652535,,,
+2025-06-17T00:00:00,ICPUSD,252,0.95637033123754156,0.47473647731337576,success,253,358.29839670693582,355.21098888826276,false,false,119.6335922829707,10.833639439799914,,,
+2025-06-18T00:00:00,ICPUSD,252,0.96416010746318814,0.47106984173565314,success,253,358.34610372459588,355.0539079468835,false,false,118.7096001173846,14.885253232595469,,,
+2025-06-19T00:00:00,ICPUSD,252,0.96862975789193617,0.46703263267244999,success,253,358.29905483894214,354.86903212685837,false,false,117.6922234334574,14.120606662920739,,,
+2025-06-20T00:00:00,ICPUSD,252,0.97277927969451949,0.46316002527410866,success,253,358.31358184383487,354.73740309174065,false,false,116.71632636907538,15.78982112075709,,,
+2025-06-21T00:00:00,ICPUSD,252,0.97587114272665143,0.45915741437667562,success,253,358.28275349763305,354.58283146725364,false,false,115.70766842292225,15.835657538797205,,,
+2025-06-22T00:00:00,ICPUSD,252,0.97511711432050852,0.40462008004447259,success,253,358.21333846737872,354.54496113139032,false,false,101.96426017120709,13.306308718636471,,,
+2025-06-23T00:00:00,ICPUSD,252,0.9290250187797634,0.26401513072357519,success,253,358.34530392228709,355.77349569072635,false,false,66.531812942340949,28.506634685363096,,,
+2025-06-24T00:00:00,ICPUSD,252,0.97135871827445242,0.34330199275655365,success,253,358.13085032441751,354.60700358663081,false,false,86.512102174651517,23.564044375233774,,,
+2025-06-25T00:00:00,ICPUSD,252,0.97548781439305388,0.44288759266066974,success,253,358.14580459281234,354.46203729009409,false,false,111.60767335048877,10.397817863878782,,,
+2025-06-26T00:00:00,ICPUSD,252,0.95572353251929665,0.578754091604198,success,253,358.13308971182687,355.06107436032448,false,false,145.8460310842579,10.90339786736171,,,
+2025-06-27T00:00:00,ICPUSD,252,0.98601194169252859,0.3914640466052578,success,253,358.03720484886696,353.78174037067237,false,false,98.648939744524966,0.60119201618550411,,,
+2025-06-28T00:00:00,ICPUSD,252,0.98306129738846415,0.38076060630849562,success,253,358.07132639447076,354.0102560178168,false,false,95.951672789740897,10.34590375740771,,,
+2025-06-29T00:00:00,ICPUSD,252,0.95356985877952516,0.25806490989056113,success,253,358.06074539090935,355.03848154652667,false,false,65.032357292421409,4.9981723133648632,,,
+2025-06-30T00:00:00,ICPUSD,252,0.98844746047563115,0.37285657716713905,success,253,358.00092175861874,353.55169155321789,false,false,93.959857446119045,13.137768605804855,,,
+2025-07-01T00:00:00,ICPUSD,252,0.98894245812896908,0.59605353362120717,success,253,358.0491784776932,353.55565504705135,false,false,150.2054904725442,0.65595721420478381,,,
+2025-07-02T00:00:00,ICPUSD,252,0.97026578821242759,0.55487163221776681,success,253,358.19241006910505,354.70713832158117,false,false,139.82765131887723,12.075043395595278,,,
+2025-07-03T00:00:00,ICPUSD,252,0.98712604853940056,0.33275537284111595,success,253,358.24849827120477,353.90890653445211,false,false,83.854353955961216,11.366694252910946,,,
+2025-07-04T00:00:00,ICPUSD,252,0.99270814229201443,0.3036407978250677,success,253,358.21445543001886,353.30077706747363,false,false,76.517481051917059,23.845449869080156,,,
+2025-07-05T00:00:00,ICPUSD,252,0.9940740617678997,0.40238409706322181,success,253,358.24893956150396,353.12646687469646,false,false,101.40079245993189,7.4288572965329074,,,
+2025-07-06T00:00:00,ICPUSD,252,0.995079399908812,0.39844969750403753,success,253,358.24585709391755,352.93646505385959,false,false,100.40932377101745,6.99652731429636,,,
+2025-07-07T00:00:00,ICPUSD,252,0.99328402913432778,0.57186098594764634,success,253,358.26016719644184,353.26363894310032,false,false,144.10896845880688,0.64708084999582194,,,
+2025-07-08T00:00:00,ICPUSD,252,0.97936142957165229,0.60290834395884041,success,253,358.25765202588548,354.3979129451061,false,false,151.93290267762779,8.2065153933605792,,,
+2025-07-09T00:00:00,ICPUSD,252,0.98849967020659513,0.52684232865640823,success,253,358.23681947739192,353.78300688105685,false,false,132.76426682141488,9.4775976520698411,,,
+2025-07-10T00:00:00,ICPUSD,252,0.99469949922357359,0.67671172265993496,success,253,358.14801043711344,352.9133710586126,false,false,170.5313541103036,0.14478854557562232,,,
+2025-07-11T00:00:00,ICPUSD,252,0.9976480693682207,0.27592837362436307,success,253,358.09309397066608,352.04292992875918,false,false,69.533950153339489,23.10515162662448,,,
+2025-07-12T00:00:00,ICPUSD,252,0.99786104768903561,0.32520443461341197,success,253,358.16941828118416,352.0241203801761,false,false,81.95151752257982,12.970266160541287,,,
+2025-07-13T00:00:00,ICPUSD,252,0.99803576707722541,0.32123772955427204,success,253,358.30051321072369,352.06982589531736,false,false,80.951907847676551,13.099392681323081,,,
+2025-07-14T00:00:00,ICPUSD,252,0.99494478926397689,0.65998408522885366,success,253,358.36387271730496,353.08160501009598,false,false,166.31598947767111,0.14068981628313962,,,
+2025-07-15T00:00:00,ICPUSD,252,0.99563460054514907,0.65557051815015177,success,253,358.30387891208375,352.87420828697714,false,false,165.20377057383826,0.14415029909278831,,,
+2025-07-16T00:00:00,ICPUSD,252,0.9991713583456906,0.37340461359538069,success,253,358.38940488876659,351.2945111150587,false,false,94.097962626035937,0.24674920514708523,,,
+2025-07-17T00:00:00,ICPUSD,252,0.99851306662058259,0.35455020420441113,success,253,358.44052517341299,351.93097379886143,false,false,89.346651459511605,5.9811375038456447,,,
+2025-07-18T00:00:00,ICPUSD,252,0.99912530927643106,0.24796667603408812,success,253,358.46479171728555,351.42402659790804,false,false,62.487602360590209,25.185655437832686,,,
+2025-07-21T00:00:00,ICPUSD,252,0.99404333006344503,0.48717890847654216,success,253,358.42803839431576,353.31076918644521,false,false,122.76908493608862,11.697068902492761,,,
+2025-07-22T00:00:00,ICPUSD,252,0.99552252922547335,0.48322428032637588,success,253,358.44472086229001,353.04051143572246,false,false,121.77251864224672,12.276694101456091,,,
+2025-07-23T00:00:00,ICPUSD,252,0.98262648925944096,0.55126915891140538,success,253,358.5514037466416,354.51612134393969,false,false,138.91982804567417,6.5953446855235658,,,
+2025-07-24T00:00:00,ICPUSD,252,0.9971202110748959,3.3518479512306218e-05,success,253,358.49057306033882,352.64341872641961,false,false,0.0084466568371011665,0.012510123624871052,,,
+2025-07-25T00:00:00,ICPUSD,252,0.99753719874505264,1.0037812795532404e-05,success,253,358.56959315559362,352.565603139166,false,false,0.0025295288244741657,0.012489236697449122,,,
+2025-07-26T00:00:00,ICPUSD,252,0.99595714269163726,0.61928126801525163,success,253,358.60552322138608,353.098770690685,false,false,156.05887953984342,0.13914961892397659,,,
+2025-07-28T00:00:00,ICPUSD,252,0.99525856600448137,0.46330844418389855,success,253,358.535868104641,353.18920515656436,false,false,116.75372793434244,12.910555164148994,,,
+2025-07-29T00:00:00,ICPUSD,252,0.99855170398529425,0.31862570385124578,success,253,358.65665976249443,352.12074153243742,false,false,80.293677370513933,5.6701010105586569,,,
+2025-07-30T00:00:00,ICPUSD,252,0.99840221124848283,0.31470272620117773,success,253,358.61004548564699,352.17250991630141,false,false,79.305087002696794,5.6409941142709741,,,
+2025-07-31T00:00:00,ICPUSD,252,0.9991632205600286,0.20830638835100942,success,253,358.58985221552621,351.50473931048219,false,false,52.493209864454379,14.608306411764248,,,
+2025-08-01T00:00:00,ICPUSD,252,0.99762468187462261,0.48383645400767106,success,253,358.55006268791681,352.50981692864718,false,false,121.9267864099331,0.63268016593580623,,,
+2025-08-03T00:00:00,ICPUSD,252,0.93147017346045269,0.030675749750932707,success,253,358.56250062701622,355.95300553182381,false,false,7.7302889372350423,3.6431398582887198,,,
+2025-08-04T00:00:00,ICPUSD,252,0.99906777434598715,0.11278683223143304,success,253,358.55154080388792,351.57453780978949,false,false,28.422281722321127,35.927214182507164,,,
+2025-08-05T00:00:00,ICPUSD,252,0.99972772929859766,3.9682639389252197e-09,success,253,358.67030156596206,350.46186011290285,false,false,1.0000025126091554e-06,0.025175898058496612,,,
+2025-08-06T00:00:00,ICPUSD,252,0.90441512096865684,0.66667262926340132,success,253,358.86534133576299,356.61806751458073,false,false,168.00150257437713,665.57997764544893,,,
+2025-08-07T00:00:00,ICPUSD,252,0.90414985673691961,0.66257544104827926,success,253,358.86990111347927,356.62569196024856,false,false,166.96901114416636,7.58560334975851,,,
+2025-08-08T00:00:00,ICPUSD,252,0.99689960041768988,0.28286510266851567,success,253,358.85840471434972,353.08528565184997,false,false,71.282005872465945,5.4081882472124239,,,
+2025-08-09T00:00:00,ICPUSD,252,0.99605455554772182,0.4561861023255756,success,253,358.73152756992209,353.20028714931766,false,false,114.95889778604506,0.64586273671642558,,,
+2025-08-10T00:00:00,ICPUSD,252,0.99011723580627908,0.4158572462253019,success,253,358.61525111786079,354.00822001105888,false,false,104.79602604877608,12.878976460361162,,,
+2025-08-11T00:00:00,ICPUSD,252,0.99483083278722084,0.44839507435062048,success,253,358.58037289602356,353.32051178546391,false,false,112.99555873635636,0.6837225358831821,,,
+2025-08-12T00:00:00,ICPUSD,252,0.99762950337233958,0.16460743435974229,success,253,358.60570064194229,352.56341815439407,false,false,41.481073458655054,18.338390281111604,,,
+2025-08-13T00:00:00,ICPUSD,252,0.99683355194996148,0.26563444323944796,success,253,358.63868541926803,352.88671208286576,false,false,66.939879696340881,9.8112863470447778,,,
+2025-08-14T00:00:00,ICPUSD,252,0.99634198701866716,0.21488347385493492,success,253,358.70794418499332,353.10077372459676,false,false,54.150635411443602,0.56089494782835614,,,
+2025-08-15T00:00:00,ICPUSD,252,0.99720810609255572,0.21067719720181124,success,253,358.65894738147455,352.78070808641661,false,false,53.090653694856435,0.55513370241044535,,,
+2025-08-16T00:00:00,ICPUSD,252,0.99798588792497789,0.26553121373530869,success,253,358.76346355495536,352.55790285982289,false,false,66.913865861297793,0.23640575181156687,,,
+2025-08-17T00:00:00,ICPUSD,252,0.99273466914234865,0.42454937222946604,success,253,358.84052604595246,353.9231764561784,false,false,106.98644180182544,0.6534772254686142,,,
+2025-08-18T00:00:00,ICPUSD,252,0.90844155187236253,0.64717814919468264,success,253,358.82467622895075,356.52992322364338,false,false,163.08889359706004,0.43389318468010868,,,
+2025-08-19T00:00:00,ICPUSD,252,0.99249826750003411,0.53445820589509485,success,253,358.78326051533486,353.89816924222828,false,false,134.68346788556391,0.16652626660489611,,,
+2025-08-20T00:00:00,ICPUSD,252,0.99229260465917135,0.53042484812512158,success,253,358.79137653572332,353.93353880936968,false,false,133.66706172753064,0.16627241244956684,,,
+2025-08-21T00:00:00,ICPUSD,252,0.99287028426818313,0.5260570388321012,success,253,358.82170292975627,353.88537426870778,false,false,132.56637378568951,0.16636850223950403,,,
+2025-08-22T00:00:00,ICPUSD,252,0.99161447599978791,0.52234130261203182,success,253,358.89588865634613,354.12306114355749,false,false,131.63000825823201,0.15823319548377196,,,
+2025-08-23T00:00:00,ICPUSD,252,0.82373156221501542,0.60307896406385064,success,253,358.97685769725456,357.43502104219885,false,false,151.97589894409037,10.042745336075454,,,
+2025-08-24T00:00:00,ICPUSD,252,0.87015551998006102,0.60268245097440187,success,253,358.93493926587041,357.032604738369,false,false,151.87597764554928,1.2836745765339095,,,
+2025-08-25T00:00:00,ICPUSD,252,0.90490848873345398,0.48772048216707914,success,253,358.98102154133397,356.72802742460578,false,false,122.90556150610394,3.5827936930102044,,,
+2025-08-26T00:00:00,ICPUSD,252,0.88091767352079853,0.48392635542814644,success,253,358.99139662770978,356.99024752583585,false,false,121.9494415678929,6.6363661777266314,,,
+2025-08-27T00:00:00,ICPUSD,252,0.96357925117469256,0.38564179784295965,success,253,358.99137819431547,355.71586209133375,false,false,97.181733056425827,0.67473952866642128,,,
+2025-08-28T00:00:00,ICPUSD,252,0.96902820253584265,0.50364879798324202,success,253,358.98731951208265,355.5441028270136,false,false,126.91949709177699,0.18289230732318526,,,
+2025-08-29T00:00:00,ICPUSD,252,0.96236492069918333,0.37769601218912874,success,253,358.98616803107819,355.744710892483,false,false,95.179395071660437,0.68421853436027447,,,
+2025-08-31T00:00:00,ICPUSD,252,0.94538134501481375,0.33728322796147847,success,253,358.98666979940782,356.13545690440765,false,false,84.995373446292575,88.536600329545465,,,
+2025-09-01T00:00:00,ICPUSD,252,0.91803192311808046,0.46410248606637394,success,253,358.99143143502755,356.57552913552007,false,false,116.95382648872624,8.1160923826161877,,,
+2025-09-02T00:00:00,ICPUSD,252,0.76353414624917537,0.62840181456770772,success,253,358.99144938435853,357.81929535329198,false,false,158.35725727106234,0.39363055130205277,,,
+2025-09-03T00:00:00,ICPUSD,252,0.73945921441716511,0.62525078705448545,success,253,358.99144969519898,357.94828998296202,false,false,157.56319833773034,0.43135774235665153,,,
+2025-09-04T00:00:00,ICPUSD,252,0.72175413504119723,0.55544713982836746,success,253,358.99145026561564,358.03827084706177,false,false,139.9726792367486,9.6964891853449302,,,
+2025-09-05T00:00:00,ICPUSD,252,0.7435674014841972,0.55136859096505042,success,253,358.99144942442962,357.92685586458413,false,false,138.94488492319272,11.233106689647089,,,
+2025-09-07T00:00:00,ICPUSD,252,0.76796070112088766,0.6127463878656797,success,253,358.99144922083326,357.79461740845181,false,false,154.4120897421513,0.42936783885959739,,,
+2025-09-08T00:00:00,ICPUSD,252,0.75608817841075571,0.54358047600802639,success,253,358.99144944510397,357.86009821066455,false,false,136.98227995402266,9.0638446569243882,,,
+2025-09-09T00:00:00,ICPUSD,252,0.90490130412977676,0.43644204748136189,success,253,358.991449457447,356.73853883211478,false,false,109.9833959653032,21.128035990034416,,,
+2025-09-10T00:00:00,ICPUSD,252,0.94258334411062195,0.059476831044721491,success,253,358.99145040335344,356.19316049269878,false,false,14.988161423269815,65.81452330736883,,,
+2025-09-11T00:00:00,ICPUSD,252,0.94971668197617443,0.17659443613322939,success,253,358.991449449664,356.0529591115195,false,false,44.50179790557381,0.31934692553024208,,,
+2025-09-12T00:00:00,ICPUSD,252,0.92615410068338733,0.42452743431221018,success,253,358.991450032199,356.46238987621371,false,false,106.98091344667696,19.825574992701032,,,
+2025-09-13T00:00:00,ICPUSD,252,0.94908900517739481,0.099154732000611812,success,253,358.99144945927372,356.06602578520932,false,false,24.986992464154177,47.776899030441761,,,
+2025-09-14T00:00:00,ICPUSD,252,0.92839517356768853,0.26256858768850422,success,253,358.99145021799865,356.42915522223524,false,false,66.167284097503057,1.821035621133515,,,
+2025-09-15T00:00:00,ICPUSD,252,0.95800183748815804,0.091235991528305263,success,253,358.99145069891063,355.86422687050378,false,false,22.991469865132927,78.163582086869397,,,
+2025-09-16T00:00:00,ICPUSD,252,0.96139079786843962,0.30531590633567474,success,253,358.99144977881144,355.7765594402419,false,false,76.939608396590032,3.6217097086426864,,,
+2025-09-17T00:00:00,ICPUSD,252,0.9317579921600575,0.25062984327482979,success,253,358.99144944271006,356.37743665276952,false,false,63.158720505257101,1.8246003135576065,,,
+2025-09-18T00:00:00,ICPUSD,252,0.90905338644702327,0.68236883063302911,success,253,358.9914494400756,356.68931828676693,false,false,171.95694531952333,13.266283164297965,,,
+2025-09-19T00:00:00,ICPUSD,252,0.80912578421643389,0.72216425178290522,success,253,358.99144964069416,357.54710990960984,false,false,181.98539144929211,20.684451894777002,,,
+2025-09-20T00:00:00,ICPUSD,252,0.83096393120302792,0.71816996049240711,success,253,358.99144968543379,357.39897541259353,false,false,180.97883004408658,15.167306182722118,,,
+2025-09-21T00:00:00,ICPUSD,252,0.98851895792058653,0.90763950888748368,success,253,358.99144922303662,354.53593856237666,false,false,228.72515623964588,12.186716256253126,,,
+2025-09-22T00:00:00,ICPUSD,252,0.75863199607473131,0.4960945585944988,success,253,358.99144937742051,357.84625532733378,false,false,125.01582876581369,1.3906941626590523,,,
+2025-09-23T00:00:00,ICPUSD,252,0.8031354056425587,0.38081666093715649,success,253,358.99144946897258,357.58544229865646,false,false,95.965798556163435,7.861257770044463,,,
+2025-09-24T00:00:00,ICPUSD,252,0.76011897308681053,0.48805908704113876,success,253,358.99145097241808,357.83811908709066,false,false,122.99088993436696,1.4070460686461157,,,
+2025-09-25T00:00:00,ICPUSD,252,0.75595945439940238,0.73408235298041591,success,253,358.99144954752506,357.86079618651326,false,false,184.98875295106481,23.929906964125234,,,
+2025-09-26T00:00:00,ICPUSD,252,0.81814608100310171,0.65466640532615006,success,253,358.99144946700039,357.48761228512069,false,false,164.97593414218983,12.284724763992587,,,
+2025-09-27T00:00:00,ICPUSD,252,0.81277828745160374,0.64697261748761636,success,253,358.99144977604527,357.52328495600409,false,false,163.03709960687934,9.7101930924337854,,,
+2025-09-28T00:00:00,ICPUSD,252,0.93700117765853652,0.38996144063113891,success,253,358.99145012576662,356.29188161991374,false,false,98.270283039047001,0.21678017236828548,,,
+2025-09-29T00:00:00,ICPUSD,252,0.83533631388182727,0.087284959271894433,success,253,358.99145536194663,357.3675260749294,false,false,21.995809736517398,83.538800358645503,,,
+2025-09-30T00:00:00,ICPUSD,252,0.90502552258690705,0.25886226749172558,success,253,358.99144936553068,356.73709441717068,false,false,65.233291407914848,0.78777473056171532,,,
+2025-10-01T00:00:00,ICPUSD,252,0.88396004127300731,0.25509170996673852,success,253,358.991449317601,356.96097206173886,false,false,64.28311091161811,0.7902252029719804,,,
+2025-10-02T00:00:00,ICPUSD,252,0.81020705348256017,0.70628996028384894,success,253,358.9914619111704,357.54010579736035,false,false,177.98506999152994,20.446918863625839,,,
+2025-10-03T00:00:00,ICPUSD,252,0.82069329887426945,0.70233418449202301,success,253,358.99144939742382,357.47039768168742,false,false,176.98821449198979,26.566606783863307,,,
+2025-10-04T00:00:00,ICPUSD,252,0.80727722684311021,0.69836293445901454,success,253,358.99144954935338,357.55903516015661,false,false,175.98745948367167,23.885993215084735,,,
+2025-10-05T00:00:00,ICPUSD,252,0.84512011985441515,0.61514375807897725,success,253,358.99144976184766,357.29462084059406,false,false,155.01622703590226,11.132162186859176,,,
+2025-10-06T00:00:00,ICPUSD,252,0.71520875148143748,0.43648950624587696,success,253,358.99144974925503,358.07063173960859,false,false,109.99535557396099,46.488471767835051,,,
+2025-10-07T00:00:00,ICPUSD,252,0.81508295218376325,0.32532067370458312,success,253,358.99144953428197,357.50806697873884,false,false,81.980809773554952,14.997756101193511,,,
+2025-10-08T00:00:00,ICPUSD,252,0.75757175518961284,0.26183571990553545,success,253,358.9914495028379,357.85203701251976,false,false,65.982601416194939,14.730882208255315,,,
+2025-10-09T00:00:00,ICPUSD,252,0.71511148317465556,0.42453249756032491,success,253,358.99144933101798,358.07110881466252,false,false,106.98218938520188,12.265843488038252,,,
+2025-10-10T00:00:00,ICPUSD,252,0.86008282373227196,0.70629289127483352,success,253,358.99144952955101,357.17547148773366,false,false,177.98580860125804,25.056553575093687,,,
+2025-10-11T00:00:00,ICPUSD,252,0.73352987146919668,0.50002462140131898,success,253,358.98057874397955,357.96797257191872,false,false,126.0062045931324,1.3778561301035126,,,
+2025-10-12T00:00:00,ICPUSD,252,0.80960763138040415,0.44335912258520949,success,253,358.99147055319258,357.54400786936623,false,false,111.72649889147279,0.42155156925085796,,,
+2025-10-13T00:00:00,ICPUSD,252,0.80342428275626043,0.4961061395740099,success,253,358.99144954687131,357.58361428698743,false,false,125.01874717265049,14.013576292208262,,,
+2025-10-14T00:00:00,ICPUSD,252,0.80679296737157491,0.43554728445478302,success,253,358.9914496004946,357.56214483303035,false,false,109.75791568260532,0.41088046683064156,,,
+2025-10-15T00:00:00,ICPUSD,252,0.79586511114085023,0.48818417432087691,success,253,358.9914504137343,357.63080169584782,false,false,123.02241192886098,11.488760004727137,,,
+2025-10-16T00:00:00,ICPUSD,252,0.81164773903528464,0.42748066470441431,success,253,358.99144951904964,357.53069703006275,false,false,107.7251275055124,0.40496340305619438,,,
+2025-10-17T00:00:00,ICPUSD,252,0.78602740569270957,0.48024166655089084,success,253,358.99144971339376,357.69030599711522,false,false,121.02089997082449,12.048643523426033,,,
+2025-10-18T00:00:00,ICPUSD,252,0.68594251670236916,0.52777813126629936,success,253,358.9914493535407,358.21023156120054,false,false,133.00008907910743,1941.9388868846563,,,
+2025-10-19T00:00:00,ICPUSD,252,0.99999982316874791,0.9643540415005053,success,253,358.99144949874454,343.44337973849611,false,false,243.01721845812733,15.672027302881558,,,
+2025-10-20T00:00:00,ICPUSD,252,0.95533616542875144,0.76991619277925971,success,253,358.99144930938797,355.92855012931346,false,false,194.01888058037343,26.026807974836846,,,
+2025-10-21T00:00:00,ICPUSD,252,0.99999938864654458,0.95636077248721185,success,253,358.99144944426303,344.6838594973915,false,false,241.0029146667774,15.81468102359729,,,
+2025-10-22T00:00:00,ICPUSD,252,0.8490776941512882,0.46040469127081218,success,253,358.99144931373741,357.26406379266268,false,false,116.02198220024466,13.750779834986066,,,
+2025-10-23T00:00:00,ICPUSD,252,0.99999877900750622,0.94838822189838767,success,253,358.99144957342503,345.37560428398558,false,false,238.99383191839368,15.028661648116454,,,
+2025-10-24T00:00:00,ICPUSD,252,0.99999821409442569,0.94439720757723145,success,253,358.99144930074772,345.75586613984825,false,false,237.98809630946232,15.635745171818028,,,
+2025-10-25T00:00:00,ICPUSD,252,0.93460868043853507,0.29544569304113311,success,253,358.99144948961936,356.33171109276725,false,false,74.452314646365537,0.18793737945177746,,,
+2025-10-26T00:00:00,ICPUSD,252,0.77063248913880877,0.33743821971777632,success,253,358.991449292803,357.77956326874488,false,false,85.034431368879638,7.4345756307481166,,,
+2025-10-27T00:00:00,ICPUSD,252,0.99998901857659861,0.93241875221329984,success,253,358.99144931478753,347.5721548018156,false,false,234.96952555775155,15.69225522583899,,,
+2025-10-28T00:00:00,ICPUSD,252,0.89472801583782979,0.73819557480840492,success,253,358.99144923647395,356.85147678370362,false,false,186.02528485171803,15.597785681693562,,,
+2025-10-29T00:00:00,ICPUSD,252,0.88616678339086263,0.73423033398931958,success,253,358.9914492726196,356.93927846157186,false,false,185.02604416530855,14.634832938540766,,,
+2025-10-30T00:00:00,ICPUSD,252,0.79036851183655066,0.42865554133477901,success,253,358.99144931930164,357.66430118287599,false,false,108.0211964163643,12.20152147820547,,,
+2025-10-31T00:00:00,ICPUSD,252,0.73952283585933354,0.31751339661938993,success,253,358.99144928794163,357.94795932183604,false,false,80.013375948086264,17.331359316424042,,,
+2025-11-01T00:00:00,ICPUSD,252,0.84165052110937755,0.31750304821892245,success,253,358.9914495008648,357.32088911295631,false,false,80.010768151168463,29.528402663446414,,,
+2025-11-02T00:00:00,ICPUSD,252,0.99999999977444753,0.9087502681388866,success,253,358.98720886629548,336.77474051705417,false,false,229.00506757099942,55.330907234665005,,,
+2025-11-03T00:00:00,ICPUSD,252,0.99999999951628338,0.90473173187467038,success,253,358.99144930846671,337.54192736194318,false,false,227.99239643241694,15.875400862508934,,,
+2025-11-04T00:00:00,ICPUSD,252,0.99999999999999845,0.98859636289180874,success,253,358.99144952474859,324.83585887603897,false,false,249.12628344873579,0.67609032600082286,,,
+2025-11-05T00:00:00,ICPUSD,252,0.99999999999999645,0.97961084176486934,success,253,358.99144934868758,325.69018500133524,false,false,246.86193212474709,0.96205185484593225,,,
+2025-11-06T00:00:00,ICPUSD,252,1,0.97218024206980902,success,253,357.26963809074317,317.41107967602011,false,false,244.98942100159186,28.185568454271426,,,
+2025-11-07T00:00:00,ICPUSD,252,1,0.97234480678739998,success,253,354.5378894831278,315.35751052548193,false,false,245.03089131042481,87.762391799176413,,,
+2025-11-08T00:00:00,ICPUSD,252,0.99999999999795741,0.9682566618820353,success,253,351.07210095964922,324.15532213476047,false,false,244.00067879427289,1871.1174138523982,,,
+2025-11-09T00:00:00,ICPUSD,252,1,0.96271446587130938,success,253,356.02972818195576,309.67293623834092,false,false,242.60404539956997,1.0803465319073549,,,
+2025-11-10T00:00:00,ICPUSD,252,1,0.95798519228564394,success,253,356.7362242879945,308.16390620805572,false,false,241.41226845598229,1.234296260408871,,,
+2025-11-11T00:00:00,ICPUSD,252,1,0.87305562814592408,success,253,356.37411692620623,302.40746592204988,false,false,220.01001829277286,55.733086115925147,,,
+2025-11-12T00:00:00,ICPUSD,252,1,0.94813201044510154,success,253,356.57640974005699,309.37952150447632,false,false,238.92926663216559,11.471929040969989,,,
+2025-11-13T00:00:00,ICPUSD,252,1,0.94432803824220468,success,253,356.38589055465337,309.23366777094628,false,false,237.97066563703558,29.616524127700821,,,
+2025-11-14T00:00:00,ICPUSD,252,1,0.86113516059622064,success,253,356.12466627249381,303.70738826202637,false,false,217.0060604702476,87.722164506236084,,,
+2025-11-15T00:00:00,ICPUSD,252,1,0.93638826317542567,success,253,355.95472214760832,310.65310725791215,false,false,235.96984232020728,36.887448151507058,,,
+2025-11-16T00:00:00,ICPUSD,252,1,0.93203249468876948,success,253,355.07355985574139,310.10049606241245,false,false,234.87218866156991,9.5031554622707812,,,
+2025-11-17T00:00:00,ICPUSD,252,1,0.84933081553389711,success,253,355.60945899881438,300.40049970732559,false,false,214.03136551454207,15.164260330817955,,,
+2025-11-18T00:00:00,ICPUSD,252,1,0.92423144967686166,success,253,355.66494004500987,309.57757597876048,false,false,232.90632531856915,12.728173531944295,,,
+2025-11-19T00:00:00,ICPUSD,252,1,0.92053536882650711,success,253,355.56579503002592,309.72702157354877,false,false,231.97491294427979,62.658702003063013,,,
+2025-11-20T00:00:00,ICPUSD,252,1,0.91659349168054671,success,253,355.51554114632103,310.48893344214383,false,false,230.98155990349778,92.560177599072034,,,
+2025-11-21T00:00:00,ICPUSD,252,1,0.91261719969217248,success,253,355.30938823167162,310.84804831158374,false,false,229.97953432242747,89.384990623109402,,,
+2025-11-22T00:00:00,ICPUSD,252,1,0.90858158827434976,success,253,355.09435343751801,310.90925905641029,false,false,228.96256024513613,52.424093806114904,,,
+2025-11-23T00:00:00,ICPUSD,252,1,0.82542118970944078,success,253,355.38704956925937,302.28184295146661,false,false,208.00613980677909,65.088271573126121,,,
+2025-11-24T00:00:00,ICPUSD,252,1,0.90067294569231326,success,253,355.30128354728595,311.79812732540955,false,false,226.96958231446294,82.612218423879639,,,
+2025-11-25T00:00:00,ICPUSD,252,1,0.89664630784708188,success,253,355.29263684648936,312.42034652000865,false,false,225.95486957746462,63.098111857237974,,,
+2025-11-26T00:00:00,ICPUSD,252,1,0.81350492903854899,success,253,355.30876400947147,303.93391720788696,false,false,205.00324211771434,105.59106802898818,,,
+2025-11-27T00:00:00,ICPUSD,252,1,0.80954269141994906,success,253,355.21279701867536,304.66753110321827,false,false,204.00475823782716,69.363604827434031,,,
+2025-11-28T00:00:00,ICPUSD,252,1,0.80564192560131509,success,253,355.23194714737224,304.80161858122307,false,false,203.02176525153141,15.0211870629908,,,
+2025-11-29T00:00:00,ICPUSD,252,1,0.80160080906132036,success,253,355.20938771106404,305.54184301384043,false,false,202.00340388345273,92.211190015773397,,,
+2025-11-30T00:00:00,ICPUSD,252,1,0.87510879374781914,success,253,355.10418945914154,316.14348207975934,false,false,220.52741602445042,60.481416592999778,,,
+2025-12-01T00:00:00,ICPUSD,252,1,0.79371173326100375,success,253,354.93319597474061,305.48863172491815,false,false,200.01535678177294,19.851099951066782,,,
+2025-12-02T00:00:00,ICPUSD,252,1,0.86700313381278837,success,253,354.98985457550589,316.37852120936088,false,false,218.48478972082268,39.952401884380322,,,
+2025-12-03T00:00:00,ICPUSD,252,1,0.86308396676637877,success,253,354.9331414168405,317.09407588972874,false,false,217.49715962512744,27.576612108867749,,,
+2025-12-04T00:00:00,ICPUSD,252,1,0.78177730161342096,success,253,354.91386466248957,307.37097682455016,false,false,197.00788000658207,31.470734720007538,,,
+2025-12-05T00:00:00,ICPUSD,252,1,0.77779877729509417,success,253,354.82616413298285,307.92070346410281,false,false,196.00529187836372,46.755296066376381,,,
+2025-12-06T00:00:00,ICPUSD,252,0.99999999999999978,0.85144674596138825,success,253,354.90072877040024,319.16792897133547,false,false,214.56457998226983,28.107525456032061,,,
+2025-12-07T00:00:00,ICPUSD,252,1,0.76986995692967808,success,253,354.88156528723823,309.70850092153574,false,false,194.00722914627889,29.842127203758601,,,
+2025-12-08T00:00:00,ICPUSD,252,0.99999999999999867,0.84294846631979969,success,253,354.88525761455685,320.58410310963899,false,false,212.42301351258953,33.794618178554039,,,
+2025-12-09T00:00:00,ICPUSD,252,0.99999999999999734,0.8393768086026232,success,253,354.8510087176183,321.25138097843183,false,false,211.52295576786105,27.419208234366756,,,
+2025-12-10T00:00:00,ICPUSD,252,1,0.75796042179417333,success,253,354.88687929276807,311.76274807593518,false,false,191.00602629213168,29.47893178605224,,,
+2025-12-11T00:00:00,ICPUSD,252,0.99999999999998868,0.83135528148746174,success,253,354.91904455445825,322.80639665698203,false,false,209.50153093484036,34.715829282125206,,,
+2025-12-12T00:00:00,ICPUSD,252,0.99999999999995981,0.82693182924987652,success,253,355.01722640051162,324.1711902781733,false,false,208.38682097096887,18.252954318143292,,,
+2025-12-13T00:00:00,ICPUSD,252,0.99999999999998468,0.82343334489126607,success,253,354.97240603443123,323.16167190509765,false,false,207.50520291259906,28.106594410629064,,,
+2025-12-14T00:00:00,ICPUSD,252,1,0.74207148807258083,success,253,354.90620154419531,313.02604910127002,false,false,187.00201499429036,62.697098008410741,,,
+2025-12-15T00:00:00,ICPUSD,252,0.9999999999999436,0.81552447791312666,success,253,354.82984248379103,324.32462021892587,false,false,205.51216843410791,27.119967381953707,,,
+2025-12-16T00:00:00,ICPUSD,252,0.99999999999989631,0.811531999744877,success,253,354.85218366441524,324.95385657298038,false,false,204.50606393570899,29.017360419741951,,,
+2025-12-17T00:00:00,ICPUSD,252,1,0.73017487979442497,success,253,354.89689701267008,314.78826290050858,false,false,184.00406970819509,23.853638252063462,,,
+2025-12-18T00:00:00,ICPUSD,252,0.99999999999976152,0.80352494417098841,success,253,354.87816874377143,325.81371572239743,false,false,202.48828593108908,25.315165289260886,,,
+2025-12-19T00:00:00,ICPUSD,252,1,0.72222420171219559,success,253,355.03626660791116,315.99207556769397,false,false,182.00049883147329,134.21151481353883,,,
+2025-12-20T00:00:00,ICPUSD,252,0.9999999999998006,0.79567145214808543,success,253,355.092753383797,325.84980983674706,false,false,200.50920594131753,24.851109057903056,,,
+2025-12-21T00:00:00,ICPUSD,252,1,0.71429373023577403,success,253,355.39265275252041,315.05634159454496,false,false,180.00202001941506,17.745739989090872,,,
+2025-12-22T00:00:00,ICPUSD,252,1,0.71032128078623091,success,253,355.40404347192327,315.87513357641274,false,false,179.00096275813019,21.071233158781151,,,
+2025-12-23T00:00:00,ICPUSD,252,1,0.70634990496332994,success,253,355.27760772868032,316.56665931562634,false,false,178.00017605075914,15.593879028634895,,,
+2025-12-24T00:00:00,ICPUSD,252,1,0.70238194191050085,success,253,355.23677696224257,315.40282176039295,false,false,177.00024936144621,19.847489248970138,,,
+2025-12-25T00:00:00,ICPUSD,252,1,0.69840940489661352,success,253,355.17055167899815,315.9108862257915,false,false,175.9991700339466,20.300514358262625,,,
+2025-12-26T00:00:00,ICPUSD,252,1,0.69444286959820301,success,253,355.21238197182424,316.15593229637545,false,false,174.99960313874715,50.090163510660574,,,
+2025-12-27T00:00:00,ICPUSD,252,1,0.69046944691397982,success,253,355.10560737459849,316.63274383482451,false,false,173.99830062232292,19.465916348362132,,,
+2025-12-28T00:00:00,ICPUSD,252,1,0.68650726084968661,success,253,355.16898799167598,317.01316516517437,false,false,172.99982973412102,319.65423401614788,,,
+2025-12-29T00:00:00,ICPUSD,252,0.99999999999999978,0.68244602455824244,success,253,355.18910518104161,319.02802723544295,false,false,171.97639818867708,16.479717016694636,,,
+2025-12-30T00:00:00,ICPUSD,252,1,0.67855859751215941,success,253,355.16246624347485,318.1515688117114,false,false,170.99676657306418,21.567280790496007,,,
+2025-12-31T00:00:00,ICPUSD,252,0.99999999999999978,0.67458674965730803,success,253,355.08797695052266,318.76002163871237,false,false,169.99586091364162,19.744623734060518,,,
+2026-01-01T00:00:00,ICPUSD,252,0.99999999998859113,0.74784456478892092,success,253,355.31162379572396,330.11500089714406,false,false,188.45683032680807,29.63964599697541,,,
+2026-01-02T00:00:00,ICPUSD,252,0.99999999999999978,0.66664880922502179,success,253,355.25814690738343,319.591326779648,false,false,167.99549992470548,23.147037404058246,,,
+2026-01-03T00:00:00,ICPUSD,252,0.99999999999999933,0.6626847506712138,success,253,355.26610617092177,320.15707608337254,false,false,166.99655716914589,32.746801289590124,,,
+2026-01-04T00:00:00,ICPUSD,252,0.99999999999999889,0.65869216478779491,success,253,355.19077338540541,320.72862754371056,false,false,165.99042552652432,13.799428899482749,,,
+2026-01-05T00:00:00,ICPUSD,252,0.9999999999076401,0.73212937836040037,success,253,355.0615831409803,331.95625424760118,false,false,184.4966033468209,29.00597168843607,,,
+2026-01-06T00:00:00,ICPUSD,252,0.99999999984149723,0.72803533398140396,success,253,355.11646028941385,332.55121064583085,false,false,183.4649041633138,29.260419346884941,,,
+2026-01-07T00:00:00,ICPUSD,252,0.999999999999996,0.64679152877608648,success,253,355.22428875056073,322.06825259538482,false,false,162.9914652515738,16.781978989512542,,,
+2026-01-08T00:00:00,ICPUSD,252,0.99999999999999178,0.64283967686012533,success,253,355.21154845381744,322.78284118112646,false,false,161.99559856875157,34.909472425699384,,,
+2026-01-09T00:00:00,ICPUSD,252,0.99999999951172058,0.71631626699511408,success,253,355.17699866590118,333.73686536356678,false,false,180.51169928276875,26.060884739310023,,,
+2026-01-10T00:00:00,ICPUSD,252,0.99999999999996936,0.63487710511659545,success,253,355.18375245707693,324.06600717714525,false,false,159.98903048938206,15.847751726757865,,,
+2026-01-11T00:00:00,ICPUSD,252,0.99999999999995115,0.63091424108456828,success,253,355.20007697919391,324.55064541462627,false,false,158.99038875331121,19.950869554098322,,,
+2026-01-12T00:00:00,ICPUSD,252,0.99999999999990363,0.6269522079056008,success,253,355.19060495719509,325.22089261665764,false,false,157.99195639221139,24.637495531083648,,,
+2026-01-13T00:00:00,ICPUSD,252,0.99999999999996381,0.62029543066462689,success,253,355.47642156824435,324.52502108068614,false,false,156.31444852748598,3.32202122388775,,,
+2026-01-14T00:00:00,ICPUSD,252,0.99999999999890643,0.69635683945373938,success,253,354.22411880423471,326.68247449657713,false,false,175.48192354234232,28.617996369109104,,,
+2026-01-15T00:00:00,ICPUSD,252,1,0.61506644299723234,success,253,356.22123783679854,318.33276256665658,false,false,154.99674363530255,27.104446043610874,,,
+2026-01-16T00:00:00,ICPUSD,252,0.99999999999870726,0.68837960567119072,success,253,356.21619910708569,328.84187290267204,false,false,173.47166062914008,27.842815537626905,,,
+2026-01-17T00:00:00,ICPUSD,252,1,0.60711990309479935,success,253,356.3207640383377,319.36006049071739,false,false,152.99421557988944,20.332172313395169,,,
+2026-01-18T00:00:00,ICPUSD,252,0.99999999999999978,0.60314288913131497,success,253,356.35450635555463,319.90340263860378,false,false,151.99200806109138,18.231904553818797,,,
+2026-01-19T00:00:00,ICPUSD,252,0.99999999999999978,0.59919144907117883,success,253,356.40035376871077,320.36388572767999,false,false,150.99624516593707,38.785133987447992,,,
+2026-01-20T00:00:00,ICPUSD,252,0.99999999999999956,0.59520274630274672,success,253,356.2388130214282,320.72125450940894,false,false,149.99109206829218,14.450304879895535,,,
+2026-01-21T00:00:00,ICPUSD,252,0.99999999999113753,0.66851348387583942,success,253,356.27929991036535,330.83009666479086,false,false,168.46539793671153,28.853150335314094,,,
+2026-01-22T00:00:00,ICPUSD,252,1,0.58468067985563021,success,253,356.5155257612592,317.81511156121786,false,false,147.33953132361881,3.259589082998235,,,
+2026-01-23T00:00:00,ICPUSD,252,1,0.58331031319051296,success,253,356.52611611695079,317.82069852007078,false,false,146.99419892400925,21.030379520359535,,,
+2026-01-24T00:00:00,ICPUSD,252,0.99999999999853806,0.65668824106561097,success,253,356.57393076363576,329.32274032539618,false,false,165.48543674853397,27.120806852182287,,,
+2026-01-25T00:00:00,ICPUSD,252,1,0.57536130276366604,success,253,356.53540338535004,318.71902795346068,false,false,144.99104829644384,13.479903047865497,,,
+2026-01-26T00:00:00,ICPUSD,252,1,0.57139489161991752,success,253,356.6430981109861,319.45638722051945,false,false,143.99151268821922,16.916820986505368,,,
+2026-01-27T00:00:00,ICPUSD,252,0.99999999999999978,0.56742256256240453,success,253,356.5958191672583,320.15780996568913,false,false,142.99048576572594,15.815932682603002,,,
+2026-01-28T00:00:00,ICPUSD,252,0.99999999999081379,0.64083607010991317,success,253,356.63988508987347,331.22657628840108,false,false,161.49068966769812,25.86240288581746,,,
+2026-01-29T00:00:00,ICPUSD,252,0.99999999998967781,0.63683879033073398,success,253,356.63019495081181,331.33347016349501,false,false,160.48337516334496,26.125228983015425,,,
+2026-01-30T00:00:00,ICPUSD,252,0.99999999999999956,0.5530943206166864,success,253,356.6040422637123,321.47408702222594,false,false,139.37976879540497,3.3507452108572786,,,
+2026-01-31T00:00:00,ICPUSD,252,0.99999999998432654,0.62893348619074851,success,253,356.44707450097366,331.56802830033917,false,false,158.49123852006863,28.350756433682168,,,
+2026-02-01T00:00:00,ICPUSD,252,0.99999999999999911,0.54758591315493588,success,253,356.37594597822192,321.79016156680063,false,false,137.99165011504385,18.033604608576695,,,
+2026-02-02T00:00:00,ICPUSD,252,0.99999999999999845,0.54360872788468728,success,253,356.48799073025532,322.44630135753027,false,false,136.98939942694119,15.149759716212179,,,
+2026-02-03T00:00:00,ICPUSD,252,0.99999999992200839,0.61701364387936231,success,253,356.49941892283618,333.22500052234773,false,false,155.48743825759931,27.876396991970665,,,
+2026-02-04T00:00:00,ICPUSD,252,0.99999999999999334,0.53568143933403123,success,253,356.49939477993382,323.86843831369021,false,false,134.99172271217586,20.851153695655483,,,
+2026-02-05T00:00:00,ICPUSD,252,0.99999999995055555,0.60907639899012245,success,253,356.31311949377886,332.58295001046196,false,false,153.48725254551087,29.367495644006528,,,
+2026-02-06T00:00:00,ICPUSD,252,0.99999999996601763,0.60503933795250864,success,253,356.86682320985989,332.76164628538868,false,false,152.46991316403216,25.28676059851545,,,
+2026-02-07T00:00:00,ICPUSD,252,0.99999999999999756,0.52376853258768208,success,253,356.86614019345973,323.17478020309511,false,false,131.98967021209589,18.727942613906624,,,
+2026-02-08T00:00:00,ICPUSD,252,0.99999999990066057,0.59717291485824464,success,253,356.86479662634952,333.83231914576567,false,false,150.48757454427766,27.862880268921455,,,
+2026-02-09T00:00:00,ICPUSD,252,0.99999999930324512,0.5926919533885745,success,253,356.8651095913105,335.7805222973596,false,false,149.35837225392078,21.725829468724573,,,
+2026-02-10T00:00:00,ICPUSD,252,0.99999999999998601,0.51186267575030531,success,253,356.84353577559779,324.94549771883993,false,false,128.98939428907693,19.188203251175306,,,
+2026-02-11T00:00:00,ICPUSD,252,0.99999999955614927,0.58443109748223687,success,253,356.86017227557011,335.32463972626539,false,false,147.27663656552369,50.751433280998398,,,
+2026-02-12T00:00:00,ICPUSD,252,0.99999999920786298,0.58223093643234491,success,253,356.84120629165801,335.88491959719346,false,false,146.72219598095091,56.783644785390422,,,
+2026-02-13T00:00:00,ICPUSD,252,0.99999999999994804,0.49997371178937372,success,253,356.83132295054281,326.24445950116922,false,false,125.99337537092218,38.406694536470987,,,
+2026-02-14T00:00:00,ICPUSD,252,0.99999999872730716,0.57336228294097225,success,253,356.81345095417907,336.33132011550163,false,false,144.48729530112502,23.656591807466864,,,
+2026-02-15T00:00:00,ICPUSD,252,0.99999999826170072,0.56926707574664304,success,253,356.96537561955915,336.79501694197791,false,false,143.45530308815404,44.209887073722001,,,
+2026-02-16T00:00:00,ICPUSD,252,0.99999999697019382,0.56538780891519314,success,253,356.97478400061516,337.36001681990058,false,false,142.47772784662868,24.49460316917904,,,
+2026-02-17T00:00:00,ICPUSD,252,0.99999999999978373,0.48408713462179237,success,253,356.90852694574636,327.74611110656707,false,false,121.98995792469168,27.835108776257869,,,
+2026-02-18T00:00:00,ICPUSD,252,0.99999999999896705,0.48001450499133685,success,253,356.90434973671233,329.30582500675212,false,false,120.96365525781688,13.779451939303092,,,
+2026-02-19T00:00:00,ICPUSD,252,0.99999999530827077,0.55352915038495343,success,253,356.62086579693852,337.44340118743128,false,false,139.48934589700826,26.532911095765556,,,
+2026-02-20T00:00:00,ICPUSD,252,0.99999999371195702,0.54961160140131737,success,253,356.77039989632374,337.88578394201909,false,false,138.50212355313198,28.951817235185086,,,
+2026-02-21T00:00:00,ICPUSD,252,0.99999999254910688,0.54558397558669991,success,253,356.89660917910419,338.18167726125046,false,false,137.48716184784837,20.904926045050146,,,
+2026-02-22T00:00:00,ICPUSD,252,0.99999998908711041,0.5477898424693739,success,253,357.00799267125313,338.67467147323106,false,false,138.04304030228224,16.208066778344865,,,
+2026-02-23T00:00:00,ICPUSD,252,0.99999999621092894,0.53773110143184655,success,253,356.96556622371008,337.57442126147527,false,false,135.50823756082534,26.31216586764171,,,

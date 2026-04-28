@@ -1,0 +1,101 @@
+{
+  "status": "completed",
+  "candidate_id": "C-019",
+  "candidate_index": 18,
+  "dropout": 0.3,
+  "hidden_size": 10,
+  "minibatch_size": 64,
+  "learning_rate": 0.1,
+  "max_grad_norm": 0.01,
+  "lbw": 63,
+  "dataset_registry_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/manifests/dataset_registry.json",
+  "output_dir": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_018",
+  "initial_validation_loss": "-0.3944283127784729",
+  "best_validation_loss": "-0.3944283127784729",
+  "best_epoch_index": null,
+  "epochs_completed": 25,
+  "validation_losses": [
+    "-0.074837081134319305",
+    "-0.31563040614128113",
+    "-0.28729552030563354",
+    "-0.31261712312698364",
+    "-0.31349313259124756",
+    "-0.31384798884391785",
+    "-0.3137035071849823",
+    "-0.34139886498451233",
+    "-0.31439489126205444",
+    "-0.31355032324790955",
+    "-0.31364420056343079",
+    "-0.31364458799362183",
+    "-0.31364381313323975",
+    "-0.31364351511001587",
+    "-0.31364127993583679",
+    "-0.31364145874977112",
+    "-0.31364062428474426",
+    "-0.31364178657531738",
+    "-0.31364229321479797",
+    "-0.31364166736602783",
+    "-0.31364056468009949",
+    "-0.31386792659759521",
+    "-0.25071403384208679",
+    "-0.32513990998268127",
+    "-0.3160693347454071"
+  ],
+  "dataset_entry": {
+    "lbw": 63,
+    "feature_columns": [
+      "normalized_return_1",
+      "normalized_return_21",
+      "normalized_return_63",
+      "normalized_return_126",
+      "normalized_return_256",
+      "macd_8_24",
+      "macd_16_28",
+      "macd_32_96",
+      "nu",
+      "gamma"
+    ],
+    "sequence_length": 63,
+    "train_sequence_count": 4992,
+    "val_sequence_count": 513,
+    "train_input_shape": [
+      4992,
+      63,
+      10
+    ],
+    "train_target_shape": [
+      4992,
+      63
+    ],
+    "val_input_shape": [
+      513,
+      63,
+      10
+    ],
+    "val_target_shape": [
+      513,
+      63
+    ],
+    "artifacts": {
+      "train_inputs_path": "artifacts/datasets/lbw_63/train_inputs.npy",
+      "train_target_scale_path": "artifacts/datasets/lbw_63/train_target_scale.npy",
+      "val_inputs_path": "artifacts/datasets/lbw_63/val_inputs.npy",
+      "val_target_scale_path": "artifacts/datasets/lbw_63/val_target_scale.npy",
+      "train_sequence_index_path": "artifacts/datasets/lbw_63/train_sequence_index.csv",
+      "val_sequence_index_path": "artifacts/datasets/lbw_63/val_sequence_index.csv"
+    },
+    "source_artifacts": {
+      "split_manifest_path": "artifacts/datasets/lbw_63/split_manifest.csv",
+      "sequence_manifest_path": "artifacts/datasets/lbw_63/sequence_manifest.csv",
+      "target_alignment_registry_path": "artifacts/datasets/lbw_63/target_alignment_registry.csv"
+    }
+  },
+  "artifacts": {
+    "candidate_dir": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_018",
+    "config_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_018/config.json",
+    "best_model_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_018/best_model.keras",
+    "epoch_log_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_018/epoch_log.csv",
+    "validation_history_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_018/validation_history.csv",
+    "final_metadata_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_018/final_metadata.json"
+  }
+}

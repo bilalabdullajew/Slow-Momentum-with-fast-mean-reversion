@@ -1,0 +1,777 @@
+timestamp,asset_id,lbw,nu,gamma,status,window_size,nlml_baseline,nlml_changepoint,retry_used,fallback_used,location_c,steepness_s,fallback_source_timestamp,failure_stage,failure_message
+2023-01-19T00:00:00,COFFEE.c,252,,,invalid_window,1,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 1"
+2023-01-20T00:00:00,COFFEE.c,252,,,invalid_window,2,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 2"
+2023-01-23T00:00:00,COFFEE.c,252,,,invalid_window,3,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 3"
+2023-01-24T00:00:00,COFFEE.c,252,,,invalid_window,4,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 4"
+2023-01-25T00:00:00,COFFEE.c,252,,,invalid_window,5,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 5"
+2023-01-26T00:00:00,COFFEE.c,252,,,invalid_window,6,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 6"
+2023-01-27T00:00:00,COFFEE.c,252,,,invalid_window,7,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 7"
+2023-01-30T00:00:00,COFFEE.c,252,,,invalid_window,8,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 8"
+2023-01-31T00:00:00,COFFEE.c,252,,,invalid_window,9,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 9"
+2023-02-01T00:00:00,COFFEE.c,252,,,invalid_window,10,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 10"
+2023-02-02T00:00:00,COFFEE.c,252,,,invalid_window,11,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 11"
+2023-02-03T00:00:00,COFFEE.c,252,,,invalid_window,12,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 12"
+2023-02-06T00:00:00,COFFEE.c,252,,,invalid_window,13,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 13"
+2023-02-07T00:00:00,COFFEE.c,252,,,invalid_window,14,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 14"
+2023-02-08T00:00:00,COFFEE.c,252,,,invalid_window,15,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 15"
+2023-02-09T00:00:00,COFFEE.c,252,,,invalid_window,16,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 16"
+2023-02-10T00:00:00,COFFEE.c,252,,,invalid_window,17,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 17"
+2023-02-13T00:00:00,COFFEE.c,252,,,invalid_window,18,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 18"
+2023-02-14T00:00:00,COFFEE.c,252,,,invalid_window,19,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 19"
+2023-02-15T00:00:00,COFFEE.c,252,,,invalid_window,20,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 20"
+2023-02-16T00:00:00,COFFEE.c,252,,,invalid_window,21,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 21"
+2023-02-17T00:00:00,COFFEE.c,252,,,invalid_window,22,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 22"
+2023-02-21T00:00:00,COFFEE.c,252,,,invalid_window,23,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 23"
+2023-02-22T00:00:00,COFFEE.c,252,,,invalid_window,24,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 24"
+2023-02-23T00:00:00,COFFEE.c,252,,,invalid_window,25,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 25"
+2023-02-24T00:00:00,COFFEE.c,252,,,invalid_window,26,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 26"
+2023-02-27T00:00:00,COFFEE.c,252,,,invalid_window,27,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 27"
+2023-02-28T00:00:00,COFFEE.c,252,,,invalid_window,28,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 28"
+2023-03-01T00:00:00,COFFEE.c,252,,,invalid_window,29,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 29"
+2023-03-02T00:00:00,COFFEE.c,252,,,invalid_window,30,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 30"
+2023-03-03T00:00:00,COFFEE.c,252,,,invalid_window,31,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 31"
+2023-03-06T00:00:00,COFFEE.c,252,,,invalid_window,32,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 32"
+2023-03-07T00:00:00,COFFEE.c,252,,,invalid_window,33,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 33"
+2023-03-08T00:00:00,COFFEE.c,252,,,invalid_window,34,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 34"
+2023-03-09T00:00:00,COFFEE.c,252,,,invalid_window,35,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 35"
+2023-03-10T00:00:00,COFFEE.c,252,,,invalid_window,36,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 36"
+2023-03-13T00:00:00,COFFEE.c,252,,,invalid_window,37,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 37"
+2023-03-14T00:00:00,COFFEE.c,252,,,invalid_window,38,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 38"
+2023-03-15T00:00:00,COFFEE.c,252,,,invalid_window,39,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 39"
+2023-03-16T00:00:00,COFFEE.c,252,,,invalid_window,40,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 40"
+2023-03-17T00:00:00,COFFEE.c,252,,,invalid_window,41,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 41"
+2023-03-20T00:00:00,COFFEE.c,252,,,invalid_window,42,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 42"
+2023-03-21T00:00:00,COFFEE.c,252,,,invalid_window,43,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 43"
+2023-03-22T00:00:00,COFFEE.c,252,,,invalid_window,44,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 44"
+2023-03-23T00:00:00,COFFEE.c,252,,,invalid_window,45,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 45"
+2023-03-24T00:00:00,COFFEE.c,252,,,invalid_window,46,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 46"
+2023-03-27T00:00:00,COFFEE.c,252,,,invalid_window,47,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 47"
+2023-03-28T00:00:00,COFFEE.c,252,,,invalid_window,48,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 48"
+2023-03-29T00:00:00,COFFEE.c,252,,,invalid_window,49,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 49"
+2023-03-30T00:00:00,COFFEE.c,252,,,invalid_window,50,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 50"
+2023-03-31T00:00:00,COFFEE.c,252,,,invalid_window,51,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 51"
+2023-04-03T00:00:00,COFFEE.c,252,,,invalid_window,52,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 52"
+2023-04-04T00:00:00,COFFEE.c,252,,,invalid_window,53,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 53"
+2023-04-05T00:00:00,COFFEE.c,252,,,invalid_window,54,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 54"
+2023-04-06T00:00:00,COFFEE.c,252,,,invalid_window,55,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 55"
+2023-04-10T00:00:00,COFFEE.c,252,,,invalid_window,56,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 56"
+2023-04-11T00:00:00,COFFEE.c,252,,,invalid_window,57,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 57"
+2023-04-12T00:00:00,COFFEE.c,252,,,invalid_window,58,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 58"
+2023-04-13T00:00:00,COFFEE.c,252,,,invalid_window,59,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 59"
+2023-04-14T00:00:00,COFFEE.c,252,,,invalid_window,60,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 60"
+2023-04-17T00:00:00,COFFEE.c,252,,,invalid_window,61,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 61"
+2023-04-18T00:00:00,COFFEE.c,252,,,invalid_window,62,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 62"
+2023-04-19T00:00:00,COFFEE.c,252,,,invalid_window,63,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 63"
+2023-04-20T00:00:00,COFFEE.c,252,,,invalid_window,64,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 64"
+2023-04-21T00:00:00,COFFEE.c,252,,,invalid_window,65,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 65"
+2023-04-24T00:00:00,COFFEE.c,252,,,invalid_window,66,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 66"
+2023-04-25T00:00:00,COFFEE.c,252,,,invalid_window,67,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 67"
+2023-04-26T00:00:00,COFFEE.c,252,,,invalid_window,68,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 68"
+2023-04-27T00:00:00,COFFEE.c,252,,,invalid_window,69,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 69"
+2023-04-28T00:00:00,COFFEE.c,252,,,invalid_window,70,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 70"
+2023-05-01T00:00:00,COFFEE.c,252,,,invalid_window,71,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 71"
+2023-05-02T00:00:00,COFFEE.c,252,,,invalid_window,72,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 72"
+2023-05-03T00:00:00,COFFEE.c,252,,,invalid_window,73,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 73"
+2023-05-04T00:00:00,COFFEE.c,252,,,invalid_window,74,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 74"
+2023-05-05T00:00:00,COFFEE.c,252,,,invalid_window,75,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 75"
+2023-05-08T00:00:00,COFFEE.c,252,,,invalid_window,76,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 76"
+2023-05-09T00:00:00,COFFEE.c,252,,,invalid_window,77,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 77"
+2023-05-10T00:00:00,COFFEE.c,252,,,invalid_window,78,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 78"
+2023-05-11T00:00:00,COFFEE.c,252,,,invalid_window,79,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 79"
+2023-05-12T00:00:00,COFFEE.c,252,,,invalid_window,80,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 80"
+2023-05-15T00:00:00,COFFEE.c,252,,,invalid_window,81,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 81"
+2023-05-16T00:00:00,COFFEE.c,252,,,invalid_window,82,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 82"
+2023-05-17T00:00:00,COFFEE.c,252,,,invalid_window,83,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 83"
+2023-05-18T00:00:00,COFFEE.c,252,,,invalid_window,84,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 84"
+2023-05-19T00:00:00,COFFEE.c,252,,,invalid_window,85,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 85"
+2023-05-22T00:00:00,COFFEE.c,252,,,invalid_window,86,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 86"
+2023-05-23T00:00:00,COFFEE.c,252,,,invalid_window,87,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 87"
+2023-05-24T00:00:00,COFFEE.c,252,,,invalid_window,88,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 88"
+2023-05-25T00:00:00,COFFEE.c,252,,,invalid_window,89,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 89"
+2023-05-26T00:00:00,COFFEE.c,252,,,invalid_window,90,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 90"
+2023-05-30T00:00:00,COFFEE.c,252,,,invalid_window,91,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 91"
+2023-05-31T00:00:00,COFFEE.c,252,,,invalid_window,92,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 92"
+2023-06-01T00:00:00,COFFEE.c,252,,,invalid_window,93,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 93"
+2023-06-02T00:00:00,COFFEE.c,252,,,invalid_window,94,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 94"
+2023-06-05T00:00:00,COFFEE.c,252,,,invalid_window,95,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 95"
+2023-06-06T00:00:00,COFFEE.c,252,,,invalid_window,96,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 96"
+2023-06-07T00:00:00,COFFEE.c,252,,,invalid_window,97,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 97"
+2023-06-08T00:00:00,COFFEE.c,252,,,invalid_window,98,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 98"
+2023-06-09T00:00:00,COFFEE.c,252,,,invalid_window,99,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 99"
+2023-06-12T00:00:00,COFFEE.c,252,,,invalid_window,100,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 100"
+2023-06-13T00:00:00,COFFEE.c,252,,,invalid_window,101,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 101"
+2023-06-14T00:00:00,COFFEE.c,252,,,invalid_window,102,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 102"
+2023-06-15T00:00:00,COFFEE.c,252,,,invalid_window,103,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 103"
+2023-06-16T00:00:00,COFFEE.c,252,,,invalid_window,104,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 104"
+2023-06-20T00:00:00,COFFEE.c,252,,,invalid_window,105,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 105"
+2023-06-21T00:00:00,COFFEE.c,252,,,invalid_window,106,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 106"
+2023-06-22T00:00:00,COFFEE.c,252,,,invalid_window,107,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 107"
+2023-06-23T00:00:00,COFFEE.c,252,,,invalid_window,108,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 108"
+2023-06-26T00:00:00,COFFEE.c,252,,,invalid_window,109,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 109"
+2023-06-27T00:00:00,COFFEE.c,252,,,invalid_window,110,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 110"
+2023-06-28T00:00:00,COFFEE.c,252,,,invalid_window,111,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 111"
+2023-06-29T00:00:00,COFFEE.c,252,,,invalid_window,112,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 112"
+2023-06-30T00:00:00,COFFEE.c,252,,,invalid_window,113,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 113"
+2023-07-03T00:00:00,COFFEE.c,252,,,invalid_window,114,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 114"
+2023-07-05T00:00:00,COFFEE.c,252,,,invalid_window,115,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 115"
+2023-07-06T00:00:00,COFFEE.c,252,,,invalid_window,116,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 116"
+2023-07-07T00:00:00,COFFEE.c,252,,,invalid_window,117,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 117"
+2023-07-10T00:00:00,COFFEE.c,252,,,invalid_window,118,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 118"
+2023-07-11T00:00:00,COFFEE.c,252,,,invalid_window,119,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 119"
+2023-07-12T00:00:00,COFFEE.c,252,,,invalid_window,120,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 120"
+2023-07-13T00:00:00,COFFEE.c,252,,,invalid_window,121,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 121"
+2023-07-14T00:00:00,COFFEE.c,252,,,invalid_window,122,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 122"
+2023-07-17T00:00:00,COFFEE.c,252,,,invalid_window,123,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 123"
+2023-07-18T00:00:00,COFFEE.c,252,,,invalid_window,124,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 124"
+2023-07-19T00:00:00,COFFEE.c,252,,,invalid_window,125,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 125"
+2023-07-20T00:00:00,COFFEE.c,252,,,invalid_window,126,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 126"
+2023-07-21T00:00:00,COFFEE.c,252,,,invalid_window,127,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 127"
+2023-07-24T00:00:00,COFFEE.c,252,,,invalid_window,128,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 128"
+2023-07-25T00:00:00,COFFEE.c,252,,,invalid_window,129,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 129"
+2023-07-26T00:00:00,COFFEE.c,252,,,invalid_window,130,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 130"
+2023-07-27T00:00:00,COFFEE.c,252,,,invalid_window,131,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 131"
+2023-07-28T00:00:00,COFFEE.c,252,,,invalid_window,132,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 132"
+2023-07-31T00:00:00,COFFEE.c,252,,,invalid_window,133,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 133"
+2023-08-01T00:00:00,COFFEE.c,252,,,invalid_window,134,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 134"
+2023-08-02T00:00:00,COFFEE.c,252,,,invalid_window,135,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 135"
+2023-08-03T00:00:00,COFFEE.c,252,,,invalid_window,136,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 136"
+2023-08-04T00:00:00,COFFEE.c,252,,,invalid_window,137,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 137"
+2023-08-07T00:00:00,COFFEE.c,252,,,invalid_window,138,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 138"
+2023-08-08T00:00:00,COFFEE.c,252,,,invalid_window,139,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 139"
+2023-08-09T00:00:00,COFFEE.c,252,,,invalid_window,140,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 140"
+2023-08-10T00:00:00,COFFEE.c,252,,,invalid_window,141,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 141"
+2023-08-11T00:00:00,COFFEE.c,252,,,invalid_window,142,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 142"
+2023-08-14T00:00:00,COFFEE.c,252,,,invalid_window,143,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 143"
+2023-08-15T00:00:00,COFFEE.c,252,,,invalid_window,144,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 144"
+2023-08-16T00:00:00,COFFEE.c,252,,,invalid_window,145,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 145"
+2023-08-17T00:00:00,COFFEE.c,252,,,invalid_window,146,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 146"
+2023-08-18T00:00:00,COFFEE.c,252,,,invalid_window,147,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 147"
+2023-08-21T00:00:00,COFFEE.c,252,,,invalid_window,148,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 148"
+2023-08-22T00:00:00,COFFEE.c,252,,,invalid_window,149,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 149"
+2023-08-23T00:00:00,COFFEE.c,252,,,invalid_window,150,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 150"
+2023-08-24T00:00:00,COFFEE.c,252,,,invalid_window,151,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 151"
+2023-08-25T00:00:00,COFFEE.c,252,,,invalid_window,152,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 152"
+2023-08-28T00:00:00,COFFEE.c,252,,,invalid_window,153,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 153"
+2023-08-29T00:00:00,COFFEE.c,252,,,invalid_window,154,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 154"
+2023-08-30T00:00:00,COFFEE.c,252,,,invalid_window,155,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 155"
+2023-08-31T00:00:00,COFFEE.c,252,,,invalid_window,156,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 156"
+2023-09-01T00:00:00,COFFEE.c,252,,,invalid_window,157,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 157"
+2023-09-05T00:00:00,COFFEE.c,252,,,invalid_window,158,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 158"
+2023-09-06T00:00:00,COFFEE.c,252,,,invalid_window,159,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 159"
+2023-09-07T00:00:00,COFFEE.c,252,,,invalid_window,160,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 160"
+2023-09-08T00:00:00,COFFEE.c,252,,,invalid_window,161,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 161"
+2023-09-11T00:00:00,COFFEE.c,252,,,invalid_window,162,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 162"
+2023-09-12T00:00:00,COFFEE.c,252,,,invalid_window,163,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 163"
+2023-09-13T00:00:00,COFFEE.c,252,,,invalid_window,164,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 164"
+2023-09-14T00:00:00,COFFEE.c,252,,,invalid_window,165,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 165"
+2023-09-15T00:00:00,COFFEE.c,252,,,invalid_window,166,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 166"
+2023-09-18T00:00:00,COFFEE.c,252,,,invalid_window,167,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 167"
+2023-09-19T00:00:00,COFFEE.c,252,,,invalid_window,168,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 168"
+2023-09-20T00:00:00,COFFEE.c,252,,,invalid_window,169,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 169"
+2023-09-21T00:00:00,COFFEE.c,252,,,invalid_window,170,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 170"
+2023-09-22T00:00:00,COFFEE.c,252,,,invalid_window,171,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 171"
+2023-09-25T00:00:00,COFFEE.c,252,,,invalid_window,172,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 172"
+2023-09-26T00:00:00,COFFEE.c,252,,,invalid_window,173,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 173"
+2023-09-27T00:00:00,COFFEE.c,252,,,invalid_window,174,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 174"
+2023-09-28T00:00:00,COFFEE.c,252,,,invalid_window,175,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 175"
+2023-09-29T00:00:00,COFFEE.c,252,,,invalid_window,176,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 176"
+2023-10-02T00:00:00,COFFEE.c,252,,,invalid_window,177,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 177"
+2023-10-03T00:00:00,COFFEE.c,252,,,invalid_window,178,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 178"
+2023-10-04T00:00:00,COFFEE.c,252,,,invalid_window,179,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 179"
+2023-10-05T00:00:00,COFFEE.c,252,,,invalid_window,180,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 180"
+2023-10-06T00:00:00,COFFEE.c,252,,,invalid_window,181,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 181"
+2023-10-09T00:00:00,COFFEE.c,252,,,invalid_window,182,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 182"
+2023-10-10T00:00:00,COFFEE.c,252,,,invalid_window,183,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 183"
+2023-10-11T00:00:00,COFFEE.c,252,,,invalid_window,184,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 184"
+2023-10-12T00:00:00,COFFEE.c,252,,,invalid_window,185,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 185"
+2023-10-13T00:00:00,COFFEE.c,252,,,invalid_window,186,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 186"
+2023-10-16T00:00:00,COFFEE.c,252,,,invalid_window,187,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 187"
+2023-10-17T00:00:00,COFFEE.c,252,,,invalid_window,188,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 188"
+2023-10-18T00:00:00,COFFEE.c,252,,,invalid_window,189,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 189"
+2023-10-19T00:00:00,COFFEE.c,252,,,invalid_window,190,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 190"
+2023-10-20T00:00:00,COFFEE.c,252,,,invalid_window,191,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 191"
+2023-10-23T00:00:00,COFFEE.c,252,,,invalid_window,192,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 192"
+2023-10-24T00:00:00,COFFEE.c,252,,,invalid_window,193,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 193"
+2023-10-25T00:00:00,COFFEE.c,252,,,invalid_window,194,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 194"
+2023-10-26T00:00:00,COFFEE.c,252,,,invalid_window,195,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 195"
+2023-10-27T00:00:00,COFFEE.c,252,,,invalid_window,196,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 196"
+2023-10-30T00:00:00,COFFEE.c,252,,,invalid_window,197,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 197"
+2023-10-31T00:00:00,COFFEE.c,252,,,invalid_window,198,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 198"
+2023-11-01T00:00:00,COFFEE.c,252,,,invalid_window,199,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 199"
+2023-11-02T00:00:00,COFFEE.c,252,,,invalid_window,200,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 200"
+2023-11-03T00:00:00,COFFEE.c,252,,,invalid_window,201,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 201"
+2023-11-06T00:00:00,COFFEE.c,252,,,invalid_window,202,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 202"
+2023-11-07T00:00:00,COFFEE.c,252,,,invalid_window,203,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 203"
+2023-11-08T00:00:00,COFFEE.c,252,,,invalid_window,204,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 204"
+2023-11-09T00:00:00,COFFEE.c,252,,,invalid_window,205,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 205"
+2023-11-10T00:00:00,COFFEE.c,252,,,invalid_window,206,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 206"
+2023-11-13T00:00:00,COFFEE.c,252,,,invalid_window,207,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 207"
+2023-11-14T00:00:00,COFFEE.c,252,,,invalid_window,208,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 208"
+2023-11-15T00:00:00,COFFEE.c,252,,,invalid_window,209,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 209"
+2023-11-16T00:00:00,COFFEE.c,252,,,invalid_window,210,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 210"
+2023-11-17T00:00:00,COFFEE.c,252,,,invalid_window,211,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 211"
+2023-11-20T00:00:00,COFFEE.c,252,,,invalid_window,212,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 212"
+2023-11-21T00:00:00,COFFEE.c,252,,,invalid_window,213,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 213"
+2023-11-22T00:00:00,COFFEE.c,252,,,invalid_window,214,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 214"
+2023-11-24T00:00:00,COFFEE.c,252,,,invalid_window,215,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 215"
+2023-11-27T00:00:00,COFFEE.c,252,,,invalid_window,216,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 216"
+2023-11-28T00:00:00,COFFEE.c,252,,,invalid_window,217,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 217"
+2023-11-29T00:00:00,COFFEE.c,252,,,invalid_window,218,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 218"
+2023-11-30T00:00:00,COFFEE.c,252,,,invalid_window,219,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 219"
+2023-12-01T00:00:00,COFFEE.c,252,,,invalid_window,220,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 220"
+2023-12-04T00:00:00,COFFEE.c,252,,,invalid_window,221,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 221"
+2023-12-05T00:00:00,COFFEE.c,252,,,invalid_window,222,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 222"
+2023-12-06T00:00:00,COFFEE.c,252,,,invalid_window,223,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 223"
+2023-12-07T00:00:00,COFFEE.c,252,,,invalid_window,224,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 224"
+2023-12-08T00:00:00,COFFEE.c,252,,,invalid_window,225,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 225"
+2023-12-11T00:00:00,COFFEE.c,252,,,invalid_window,226,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 226"
+2023-12-12T00:00:00,COFFEE.c,252,,,invalid_window,227,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 227"
+2023-12-13T00:00:00,COFFEE.c,252,,,invalid_window,228,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 228"
+2023-12-14T00:00:00,COFFEE.c,252,,,invalid_window,229,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 229"
+2023-12-15T00:00:00,COFFEE.c,252,,,invalid_window,230,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 230"
+2023-12-18T00:00:00,COFFEE.c,252,,,invalid_window,231,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 231"
+2023-12-19T00:00:00,COFFEE.c,252,,,invalid_window,232,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 232"
+2023-12-20T00:00:00,COFFEE.c,252,,,invalid_window,233,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 233"
+2023-12-21T00:00:00,COFFEE.c,252,,,invalid_window,234,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 234"
+2023-12-22T00:00:00,COFFEE.c,252,,,invalid_window,235,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 235"
+2023-12-26T00:00:00,COFFEE.c,252,,,invalid_window,236,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 236"
+2023-12-27T00:00:00,COFFEE.c,252,,,invalid_window,237,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 237"
+2023-12-28T00:00:00,COFFEE.c,252,,,invalid_window,238,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 238"
+2023-12-29T00:00:00,COFFEE.c,252,,,invalid_window,239,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 239"
+2024-01-02T00:00:00,COFFEE.c,252,,,invalid_window,240,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 240"
+2024-01-03T00:00:00,COFFEE.c,252,,,invalid_window,241,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 241"
+2024-01-04T00:00:00,COFFEE.c,252,,,invalid_window,242,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 242"
+2024-01-05T00:00:00,COFFEE.c,252,,,invalid_window,243,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 243"
+2024-01-08T00:00:00,COFFEE.c,252,,,invalid_window,244,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 244"
+2024-01-09T00:00:00,COFFEE.c,252,,,invalid_window,245,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 245"
+2024-01-10T00:00:00,COFFEE.c,252,,,invalid_window,246,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 246"
+2024-01-11T00:00:00,COFFEE.c,252,,,invalid_window,247,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 247"
+2024-01-12T00:00:00,COFFEE.c,252,,,invalid_window,248,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 248"
+2024-01-16T00:00:00,COFFEE.c,252,,,invalid_window,249,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 249"
+2024-01-17T00:00:00,COFFEE.c,252,,,invalid_window,250,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 250"
+2024-01-18T00:00:00,COFFEE.c,252,,,invalid_window,251,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 251"
+2024-01-19T00:00:00,COFFEE.c,252,,,invalid_window,252,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 252"
+2024-01-22T00:00:00,COFFEE.c,252,,,invalid_window,253,,,false,false,,,,window_standardization,window returns must be finite
+2024-01-23T00:00:00,COFFEE.c,252,0.99606585488013522,0.75814317200983572,success,253,358.99144928557735,353.45732951873606,false,false,191.05207934647859,12.511460488152952,,,
+2024-01-24T00:00:00,COFFEE.c,252,0.99455953189802337,0.76994447484437312,success,253,358.99144968382154,353.78301483150824,false,false,194.02600766078203,24.437527919794309,,,
+2024-01-25T00:00:00,COFFEE.c,252,0.99477524773000969,0.75004306781141017,success,253,358.99144958080632,353.74234013512603,false,false,189.01085308847536,57.896621003563553,,,
+2024-01-26T00:00:00,COFFEE.c,252,0.70890653090956157,0.32941459069951162,success,253,358.99145072875194,358.10137145841742,false,false,83.012476856276933,15.884502972571436,,,
+2024-01-29T00:00:00,COFFEE.c,252,0.69710654289127527,0.32544880266581361,success,253,358.99144944888161,358.15789230753177,false,false,82.013098271785026,14.364241201051449,,,
+2024-01-30T00:00:00,COFFEE.c,252,0.9941361456420762,0.73813612109925564,success,253,358.99144962437373,353.85838258728222,false,false,186.01030251701243,60.345258674862251,,,
+2024-01-31T00:00:00,COFFEE.c,252,0.99239432929494242,0.7341471586898789,success,253,358.99144939998462,354.12022297678226,false,false,185.00508398984948,117.47419802214957,,,
+2024-02-01T00:00:00,COFFEE.c,252,0.99013202702629466,0.73016343164579611,success,253,358.99145251671223,354.3829086817247,false,false,184.00118477474061,489.01456465334388,,,
+2024-02-02T00:00:00,COFFEE.c,252,0.99645036274506793,0.72620313317997376,success,253,358.99144969406075,353.3540957838012,false,false,183.00318956135339,232.41251381112068,,,
+2024-02-05T00:00:00,COFFEE.c,252,0.99636754705392172,0.722241127850896,success,253,358.99144950083883,353.37724145096678,false,false,182.00476421842581,140.37884738212136,,,
+2024-02-06T00:00:00,COFFEE.c,252,0.99525289019114649,0.71827527649260214,success,253,358.99144982997387,353.64598893567745,false,false,181.00536967613573,115.53747547331264,,,
+2024-02-07T00:00:00,COFFEE.c,252,0.995028928850894,0.7143063236803171,success,253,358.99144977991989,353.69231330880768,false,false,180.0051935674399,124.99908256392584,,,
+2024-02-08T00:00:00,COFFEE.c,252,0.96447365634652527,0.58339383242212384,success,253,358.99144982140592,355.69014179873369,false,false,147.0152457703752,10.726944600823909,,,
+2024-02-09T00:00:00,COFFEE.c,252,0.82232788760417119,0.28975483204714481,success,253,358.9914495227373,357.45925010359883,false,false,73.018217675880493,16.940407078443094,,,
+2024-02-12T00:00:00,COFFEE.c,252,0.78732279041256825,0.45998989254134753,success,253,358.99144979278191,357.68258704376268,false,false,115.91745292041958,10.634527828906814,,,
+2024-02-13T00:00:00,COFFEE.c,252,0.95122207965731986,0.57163279250129129,success,253,358.99144981654206,356.02098001748885,false,false,144.05146371032541,11.920484331932773,,,
+2024-02-14T00:00:00,COFFEE.c,252,0.99035316968951936,0.66276431183595408,success,253,358.99144944279482,354.3600172223808,false,false,167.01660658266042,32.950909457846421,,,
+2024-02-15T00:00:00,COFFEE.c,252,0.98889511875524494,0.69054669660423129,success,253,358.99144942754299,354.50224591274952,false,false,174.01776754426629,33.442020000316063,,,
+2024-02-16T00:00:00,COFFEE.c,252,0.98877248969762277,0.65481931638037116,success,253,358.99144995929061,354.51335273846337,false,false,165.01446772785354,36.83495433755138,,,
+2024-02-20T00:00:00,COFFEE.c,252,0.98816618564181757,0.68255302750589453,success,253,358.99145037379446,354.56656054307473,false,false,172.00336293148541,184.23765970973602,,,
+2024-02-21T00:00:00,COFFEE.c,252,0.98730152555337469,0.6468869876856902,success,253,358.99144987973426,354.63795625387723,false,false,163.01552089679393,33.693496058424202,,,
+2024-02-22T00:00:00,COFFEE.c,252,0.95315745187305412,0.54782604642547461,success,253,358.99144984493438,355.97846167576193,false,false,138.05216369921959,12.735078762715766,,,
+2024-02-23T00:00:00,COFFEE.c,252,0.96212241859785275,0.54386890958424938,success,253,358.99144976053958,355.75666748104959,false,false,137.05496521523085,14.257575744063415,,,
+2024-02-26T00:00:00,COFFEE.c,252,0.98836324401198161,0.66672724320893273,success,253,358.99144944888138,354.54956787109296,false,false,168.01526528865105,42.639966921524362,,,
+2024-02-27T00:00:00,COFFEE.c,252,0.9884903391098947,0.63101048786073977,success,253,358.99144948598223,354.53845737680433,false,false,159.01464294090641,35.969695876064506,,,
+2024-02-28T00:00:00,COFFEE.c,252,0.93899631187743904,0.5635210378696639,success,253,358.99144960989031,356.25757238177403,false,false,142.00730154315531,125.19191770971314,,,
+2024-02-29T00:00:00,COFFEE.c,252,0.98029942646483814,0.65555995622446428,success,253,358.9914497074497,355.0842393940232,false,false,165.20110896856499,15.740873585835446,,,
+2024-03-01T00:00:00,COFFEE.c,252,0.97928401886888017,0.6190752673973472,success,253,358.99145254077899,355.13553626684359,false,false,156.00696738413149,69.80718754203329,,,
+2024-03-04T00:00:00,COFFEE.c,252,0.70941750292382311,0.40428224068586166,success,253,358.9914525300577,358.0988958341938,false,false,101.87912465283713,9.9147507990848744,,,
+2024-03-05T00:00:00,COFFEE.c,252,0.75722212499381358,0.43664479340711321,success,253,358.99144974537029,357.85394003765384,false,false,110.03448793859253,6.671826752180575,,,
+2024-03-06T00:00:00,COFFEE.c,252,0.96934399216495015,0.48392836059314964,success,253,358.99144939202631,355.53765850342592,false,false,121.94994686947371,0.14508409391764934,,,
+2024-03-07T00:00:00,COFFEE.c,252,0.67988560867454106,0.38896482140127092,success,253,358.99145253104518,358.23820637437109,false,false,98.019134993120275,13.032865653622311,,,
+2024-03-08T00:00:00,COFFEE.c,252,0.68820542181776923,0.38501760612989966,success,253,358.9914521458536,358.19970934196715,false,false,97.024436744734714,11.736235119271257,,,
+2024-03-11T00:00:00,COFFEE.c,252,0.70400754331343629,0.38466998289244986,success,253,358.99144950895078,358.1249944077486,false,false,96.936835688897361,11.288450250636533,,,
+2024-03-12T00:00:00,COFFEE.c,252,0.96097912281040521,0.62302996356238083,success,253,358.99144980765362,355.78759393881688,false,false,157.00355081771997,136.66189103765936,,,
+2024-03-13T00:00:00,COFFEE.c,252,0.95675219239323561,0.61997827201908973,success,253,358.9914497502067,355.89485187532284,false,false,156.23452454881061,16.197871672389716,,,
+2024-03-14T00:00:00,COFFEE.c,252,0.72189096754849635,0.40886780297285052,success,253,358.99144972418378,358.03758885103264,false,false,103.03468634915833,5.8870117577413197,,,
+2024-03-15T00:00:00,COFFEE.c,252,0.65257344475202717,0.36516334650748627,success,253,358.99144977129134,358.36107937028436,false,false,92.02116331988654,11.246601830712041,,,
+2024-03-18T00:00:00,COFFEE.c,252,0.94790744949269423,0.57544112928261859,success,253,358.99144949874568,356.09021458240528,false,false,145.01116457921989,36.753989260099743,,,
+2024-03-19T00:00:00,COFFEE.c,252,0.83510188315693423,0.70239393741135792,success,253,358.99144939710942,357.36922347345188,false,false,177.00327222766219,93.163461754182165,,,
+2024-03-20T00:00:00,COFFEE.c,252,0.8751188629752098,0.48925404446315818,success,253,358.99145253742512,357.04445519799793,false,false,123.29201920471586,18.558896886110603,,,
+2024-03-21T00:00:00,COFFEE.c,252,0.65819082151575881,0.35301962711988427,success,253,358.99144966068752,358.33620739279905,false,false,88.960946034210835,12.787136556101029,,,
+2024-03-22T00:00:00,COFFEE.c,252,0.92849548060152898,0.59127565205025456,success,253,358.99144966646122,356.42764480917185,false,false,149.00146431666414,329.12092435128966,,,
+2024-03-25T00:00:00,COFFEE.c,252,0.92021310841473103,0.58730530608176346,success,253,358.99144950817754,356.54620345049142,false,false,148.00093713260438,481.75969171448861,,,
+2024-03-26T00:00:00,COFFEE.c,252,0.90853646634670349,0.58432556344907094,success,253,358.99144981782428,356.69555514525717,false,false,147.25004198916588,16.388442290199478,,,
+2024-03-27T00:00:00,COFFEE.c,252,0.76838759463640371,0.67859023839174248,success,253,358.99145038902435,357.79222141067936,false,false,171.00474007471911,51.869551450036695,,,
+2024-03-28T00:00:00,COFFEE.c,252,0.90707856745215643,0.57615190539044314,success,253,358.99144980584271,356.71297506083346,false,false,145.19028015839166,15.504241873567166,,,
+2024-04-01T00:00:00,COFFEE.c,252,0.84273028809139783,0.43655861176129956,success,253,358.9914496353411,357.31276491315816,false,false,110.01277016384749,23.203214811797185,,,
+2024-04-02T00:00:00,COFFEE.c,252,0.8432245620226021,0.45637770568509456,success,253,358.99144954236084,357.30903068555835,false,false,115.00718183264382,48.53867537558537,,,
+2024-04-03T00:00:00,COFFEE.c,252,0.94763210911083662,0.53179021858072983,success,253,358.99144941860283,356.09577669644125,false,false,134.01113508234391,36.758785369917049,,,
+2024-04-04T00:00:00,COFFEE.c,252,0.75921160408508126,0.65953027256629737,success,253,358.99144981854067,357.84308780929109,false,false,166.20162868670693,13.142017149716654,,,
+2024-04-05T00:00:00,COFFEE.c,252,0.83317803971952231,0.6547811605474998,success,253,358.99144954343126,357.38312932856189,false,false,165.00485245796995,60.938816380342843,,,
+2024-04-08T00:00:00,COFFEE.c,252,0.9384059914720948,0.55281719314851308,success,253,358.9914495452777,356.26783146483626,false,false,139.30993267342529,21.042589742970204,,,
+2024-04-09T00:00:00,COFFEE.c,252,0.83844425345255214,0.59525654517008553,success,253,358.99145011681537,357.34475228438271,false,false,150.00464938286154,64.357956143239448,,,
+2024-04-10T00:00:00,COFFEE.c,252,0.94415881126266032,0.51197765136805784,success,253,358.99145168239022,356.16366904462808,false,false,129.01836814475058,22.060881500754085,,,
+2024-04-11T00:00:00,COFFEE.c,252,0.93139131589327162,0.54057270348271735,success,253,358.99144941075707,356.38318902116276,false,false,136.22432127764478,14.01452368276807,,,
+2024-04-12T00:00:00,COFFEE.c,252,0.89283358433001314,0.40095552427044917,success,253,358.99144954976487,356.87143225487983,false,false,101.04079211615318,8.5376151292762419,,,
+2024-04-15T00:00:00,COFFEE.c,252,0.96865998994089597,0.53175477716155883,success,253,358.99144965439547,355.56043154954881,false,false,134.00220384471282,212.49257923193923,,,
+2024-04-16T00:00:00,COFFEE.c,252,0.92633321219952836,0.41669604876189115,success,253,358.99144956504711,356.45976761193828,false,false,105.00740428799656,64.071595185399843,,,
+2024-04-17T00:00:00,COFFEE.c,252,0.92038579073998872,0.62302137769712507,success,253,358.99144925921621,356.543848924521,false,false,157.0013871796755,268.48581976077008,,,
+2024-04-18T00:00:00,COFFEE.c,252,0.94448812931643134,0.56747885156004541,success,253,358.99144928888035,356.15740305430995,false,false,143.00467059313144,87.339482447707326,,,
+2024-04-19T00:00:00,COFFEE.c,252,0.98400665257408215,0.51696671050329646,success,253,358.99144924134981,354.87198943347113,false,false,130.2756110468307,18.318628432682775,,,
+2024-04-22T00:00:00,COFFEE.c,252,0.98267217107272931,0.51191330125606238,success,253,358.99145025396541,354.95348850543292,false,false,129.00215191652771,264.48433145096345,,,
+2024-04-23T00:00:00,COFFEE.c,252,0.98730132262614767,0.50802003909635296,success,253,358.99145503066387,354.63797759065784,false,false,128.02104985228095,30.349606268790609,,,
+2024-04-24T00:00:00,COFFEE.c,252,0.9529233059222294,0.37157814284811957,success,253,358.99144953815585,355.98369317488988,false,false,93.637691997726137,3.9518901616361228,,,
+2024-04-25T00:00:00,COFFEE.c,252,0.98603516230738419,0.46827501929145954,success,253,358.99144935844265,354.73429991979543,false,false,118.0053048614478,96.051518275445744,,,
+2024-04-26T00:00:00,COFFEE.c,252,0.9844615774680433,0.49690620366747812,success,253,358.9914494437848,354.84267040354166,false,false,125.22036332420448,17.900328032172762,,,
+2024-04-29T00:00:00,COFFEE.c,252,0.9278081803591306,0.59128429547453809,success,253,358.99144951650499,356.43795124539054,false,false,149.0036424595836,103.71740993724755,,,
+2024-04-30T00:00:00,COFFEE.c,252,0.99075244953871855,0.33925794586507807,success,253,358.99144974735071,354.31734374433279,false,false,85.493002357999671,0.10633922160292722,,,
+2024-05-01T00:00:00,COFFEE.c,252,0.95796548796390402,0.58433521598932714,success,253,358.99144971045473,355.86512895422811,false,false,147.25247442931044,17.266305336690007,,,
+2024-05-02T00:00:00,COFFEE.c,252,0.97438640011828492,0.52778417201765337,success,253,358.9914492303617,355.35276474649328,false,false,133.00161134844865,287.22242646701284,,,
+2024-05-03T00:00:00,COFFEE.c,252,0.99456123894256931,0.44446519208747065,success,253,358.99144937583031,353.78269898994643,false,false,112.0052284060426,110.29618767971203,,,
+2024-05-06T00:00:00,COFFEE.c,252,0.99482427946182017,0.93310048982319993,success,253,358.99144979454798,353.7328622404317,false,false,235.1413234354464,2.0015267125947611,,,
+2024-05-07T00:00:00,COFFEE.c,252,0.60460324312990421,0.68266176067228945,success,253,358.99144987854322,358.56676714067385,false,false,172.03076368941694,4.5444898771981519,,,
+2024-05-08T00:00:00,COFFEE.c,252,0.59893491856267933,0.67862405952231175,success,253,358.99144935091715,358.59042012083671,false,false,171.01326299962255,7.3336951179675234,,,
+2024-05-09T00:00:00,COFFEE.c,252,0.99343298471264052,0.89007240499010543,success,253,358.99144934364097,353.9723421727731,false,false,224.29824605750656,17.153347068356183,,,
+2024-05-10T00:00:00,COFFEE.c,252,0.99060131982243016,0.42462140920759234,success,253,358.99144945225839,354.33370657253516,false,false,107.00459512031327,118.54640930047309,,,
+2024-05-13T00:00:00,COFFEE.c,252,0.9490044360742419,0.32561352367478785,success,253,358.99144933798561,356.06777451200759,false,false,82.054607966046532,19.832821938317853,,,
+2024-05-14T00:00:00,COFFEE.c,252,0.98946650936864156,0.41670371039864468,success,253,358.99144986082405,354.4488437075388,false,false,105.00933502045847,57.792865847254305,,,
+2024-05-15T00:00:00,COFFEE.c,252,0.98608436245820863,0.44445123439169754,success,253,358.99144992771068,354.73072122726722,false,false,112.00171106670778,344.68076255095781,,,
+2024-05-16T00:00:00,COFFEE.c,252,0.98940119730679299,0.40881558019989006,success,253,358.99145208500335,354.45509321734352,false,false,103.0215262103723,24.76723980949755,,,
+2024-05-17T00:00:00,COFFEE.c,252,0.98972473242653602,0.43653190076430071,success,253,358.99144942367309,354.42376236851726,false,false,110.00603899260378,100.41941031088503,,,
+2024-05-20T00:00:00,COFFEE.c,252,0.95514147492122825,0.53175045142698896,success,253,358.99144969494444,355.93310387439294,false,false,134.00111375960122,372.32105488606885,,,
+2024-05-21T00:00:00,COFFEE.c,252,0.90436869875065207,0.98957770511533472,success,253,358.99144991326261,356.74471296881313,false,false,249.37358168906434,16.784456503892709,,,
+2024-05-22T00:00:00,COFFEE.c,252,0.99100686701881224,0.8837648476488621,success,253,358.99145087550534,354.28919069582781,false,false,222.70874160751325,4.1619471161523345,,,
+2024-05-23T00:00:00,COFFEE.c,252,0.99550526749757762,0.85024068178279932,success,253,358.9914495454945,353.59110528682021,false,false,214.26065180926543,18.745985934556003,,,
+2024-05-24T00:00:00,COFFEE.c,252,0.71454435826021112,0.5675647662765988,success,253,358.99145066914627,358.07389223735026,false,false,143.02632110170291,21.269316526131675,,,
+2024-05-28T00:00:00,COFFEE.c,252,0.98936957744713561,0.41363207362893228,success,253,358.99145000483912,354.45810199754391,false,false,104.23528255449094,15.837670528622704,,,
+2024-05-29T00:00:00,COFFEE.c,252,0.99244560934337789,0.24821537143120337,success,253,358.99145042437345,354.11340715313617,false,false,62.550273600663246,0.058879220608805176,,,
+2024-05-30T00:00:00,COFFEE.c,252,0.98889515091132674,0.37309788148959866,success,253,358.99145065688634,354.50224421390055,false,false,94.02066613537886,26.526088053519025,,,
+2024-05-31T00:00:00,COFFEE.c,252,0.99559662416496642,0.40085081967512404,success,253,358.99144963502926,353.57047893728054,false,false,101.01440655813126,42.824232331666444,,,
+2024-06-03T00:00:00,COFFEE.c,252,0.9946767080259914,0.39685185661899613,success,253,358.99144928217271,353.76112341845527,false,false,100.00666786798702,89.297662660143217,,,
+2024-06-04T00:00:00,COFFEE.c,252,0.99866431037320358,0.85326372858860988,success,253,358.99144928857226,352.37447832489835,false,false,215.0224596043297,2.1715304496495329,,,
+2024-06-05T00:00:00,COFFEE.c,252,0.99030220067985797,0.89795875973792183,success,253,358.9914549217973,354.3653437575943,false,false,226.28560745395629,16.620651282804076,,,
+2024-06-06T00:00:00,COFFEE.c,252,0.6460608914253736,0.60310985674575346,success,253,358.99144951107024,358.38968064121957,false,false,151.98368389992987,8.7699914523174733,,,
+2024-06-07T00:00:00,COFFEE.c,252,0.98984054984008696,0.8889154140255362,success,253,358.99145049874534,354.41231095192308,false,false,224.00668433443514,154.44937716537487,,,
+2024-06-10T00:00:00,COFFEE.c,252,0.99722561048984348,0.83680961071688786,success,253,358.99145179388535,353.10690548682084,false,false,210.87602190065573,2.3810525398111837,,,
+2024-06-11T00:00:00,COFFEE.c,252,0.99790761937582861,0.83211946899443978,success,253,358.99144953889015,352.82409130499252,false,false,209.69410618659882,4.6317173995109764,,,
+2024-06-12T00:00:00,COFFEE.c,252,0.99904749992605768,0.79763499073726685,success,253,358.99144943275769,352.03598201341441,false,false,201.00401766579125,188.31754832782914,,,
+2024-06-13T00:00:00,COFFEE.c,252,0.99896128782102789,0.79368019001892576,success,253,358.99144997492914,352.12271560435084,false,false,200.00740788476929,101.40092651022431,,,
+2024-06-14T00:00:00,COFFEE.c,252,0.99649324570712339,0.82014541503449723,success,253,358.99144958017285,353.34189812535107,false,false,206.67664458869331,4.8685327205454296,,,
+2024-06-17T00:00:00,COFFEE.c,252,0.87950957880340419,0.11487842022436821,success,253,358.99144976066526,357.00365556298152,false,false,28.94936189654079,13.512005701985494,,,
+2024-06-18T00:00:00,COFFEE.c,252,0.99107438451024565,0.2192567707005276,success,253,358.99145199896822,354.28158769512976,false,false,55.252706216532957,2.0297294142561997,,,
+2024-06-20T00:00:00,COFFEE.c,252,0.99761897894101681,0.3492317451095916,success,253,358.99144953932256,352.95360753259934,false,false,88.006399767617083,111.16744965987142,,,
+2024-06-21T00:00:00,COFFEE.c,252,0.99826594423380433,0.34527696227672994,success,253,358.99145177141088,352.63589509168696,false,false,87.009794493735939,73.59154893264602,,,
+2024-06-24T00:00:00,COFFEE.c,252,0.99902493865949304,0.76984896686016335,success,253,358.99144966613881,352.05941502755593,false,false,194.00193964876115,377.61223255918509,,,
+2024-06-25T00:00:00,COFFEE.c,252,0.99805786716207712,0.79641402601988931,success,253,358.99145218725874,352.74942769966765,false,false,200.69633455701211,4.3564731490360042,,,
+2024-06-26T00:00:00,COFFEE.c,252,0.99940957368969241,0.76193301790899826,success,253,358.99144959393379,351.55737447247265,false,false,192.00712051306755,104.97661543992521,,,
+2024-06-27T00:00:00,COFFEE.c,252,0.82509559871129579,0.98435125609295704,success,253,358.99144955417205,357.44018984363368,false,false,248.05651653542517,14.749236279321092,,,
+2024-06-28T00:00:00,COFFEE.c,252,0.99921161912424561,0.29371699257903811,success,253,358.99144957172695,351.84670902352423,false,false,74.016682129917598,46.094365371278677,,,
+2024-07-01T00:00:00,COFFEE.c,252,0.99947516359467803,0.32143532452127316,success,253,358.99144940678957,351.43955042812632,false,false,81.001701779360829,489.61590189568898,,,
+2024-07-02T00:00:00,COFFEE.c,252,0.99650482899138348,0.18523318754499865,success,253,358.99144942897863,353.33857774737805,false,false,46.678763261339661,5.1227391421128479,,,
+2024-07-03T00:00:00,COFFEE.c,252,0.96780708468258303,0.80291656064431793,success,253,358.99144944281585,355.5881630752279,false,false,202.33497328236811,21.19558394202399,,,
+2024-07-05T00:00:00,COFFEE.c,252,0.99553019220289618,0.76847779329016253,success,253,358.99144953167502,353.58551948923895,false,false,193.65640390912097,5.0164712986940483,,,
+2024-07-08T00:00:00,COFFEE.c,252,0.99747581042531197,0.73537672012035649,success,253,358.99144964936085,353.01214180177988,false,false,185.31493347032983,18.844084861802841,,,
+2024-07-09T00:00:00,COFFEE.c,252,0.90889224275677216,0.99984713498301081,success,253,358.99145015039784,356.69126655956887,false,false,251.96147801571871,6.3549614075442129,,,
+2024-07-10T00:00:00,COFFEE.c,252,0.9981600961382775,0.76308152502365778,success,253,358.99144969999156,352.69524934076526,false,false,192.29654430596176,17.189238177046164,,,
+2024-07-11T00:00:00,COFFEE.c,252,0.99836373630531061,0.29366627356191111,success,253,358.9914499622148,352.57774769483382,false,false,74.0039009376016,188.2030260710313,,,
+2024-07-12T00:00:00,COFFEE.c,252,0.99824815762001928,0.28969101325406643,success,253,358.99144962825778,352.64611575062855,false,false,73.002135340024736,340.72735287493299,,,
+2024-07-15T00:00:00,COFFEE.c,252,0.99794339479464844,0.2857584559973676,success,253,358.99145002942134,352.806810138218,false,false,72.011130911336636,64.914003905996736,,,
+2024-07-16T00:00:00,COFFEE.c,252,0.9964566215729308,0.2500681993936153,success,253,358.99144958018422,353.35232460222852,false,false,63.017186247191056,41.769722933319173,,,
+2024-07-17T00:00:00,COFFEE.c,252,0.97510196858089881,0.16670115489481341,success,253,358.99145054201244,355.32369723419458,false,false,42.00869103349298,80.020723904196913,,,
+2024-07-18T00:00:00,COFFEE.c,252,0.99717597540421665,0.70239311204349208,success,253,358.99144957089794,353.12468534074037,false,false,177.00306423495999,206.27537026906521,,,
+2024-07-19T00:00:00,COFFEE.c,252,0.96234256166595322,0.77790558896448703,success,253,358.99144955990892,355.75060957946727,false,false,196.03220841905073,21.068943323018576,,,
+2024-07-22T00:00:00,COFFEE.c,252,0.66174245703980472,0.48021393955492936,success,253,358.99144959694985,358.32038072117035,false,false,121.0139127678422,10.997044900453622,,,
+2024-07-23T00:00:00,COFFEE.c,252,0.99512883411826958,0.69049946628366354,success,253,358.99144943135565,353.67191053026187,false,false,174.00586550348322,101.57916375411594,,,
+2024-07-24T00:00:00,COFFEE.c,252,0.99134869336634956,0.7166282330140975,success,253,358.99144959446818,354.25009362736847,false,false,180.59031471955257,4.9904827759752282,,,
+2024-07-25T00:00:00,COFFEE.c,252,0.94891771196351471,0.74325928545054532,success,253,358.99144976526003,356.0695655040272,false,false,187.30133993353741,14.394507171581765,,,
+2024-07-26T00:00:00,COFFEE.c,252,0.98682810206143023,0.70892616583163659,success,253,358.99144958520577,354.67503933910706,false,false,178.64939378957243,6.6115565240236407,,,
+2024-07-29T00:00:00,COFFEE.c,252,0.99219482918848623,0.6748191367082168,success,253,358.99144980296597,354.14631675318469,false,false,170.05442245047064,10.377917396112826,,,
+2024-07-30T00:00:00,COFFEE.c,252,0.99032527364181178,0.67065449927408149,success,253,358.99144945654479,354.36293296327023,false,false,169.00493381706855,111.36287774916694,,,
+2024-07-31T00:00:00,COFFEE.c,252,0.98875156264589348,0.66668704725650219,success,253,358.9914494676695,354.51523558530869,false,false,168.00513590863855,104.52194260487504,,,
+2024-08-01T00:00:00,COFFEE.c,252,0.98360652631024226,0.69048783304014727,success,253,358.99145075983893,354.89710812427484,false,false,174.00293392611712,175.76169865240823,,,
+2024-08-02T00:00:00,COFFEE.c,252,0.97992204501296576,0.68654393011585568,success,253,358.99144959028627,355.10359901405269,false,false,173.00907038919564,54.954814227509182,,,
+2024-08-05T00:00:00,COFFEE.c,252,0.97687718147790237,0.68254725157187468,success,253,358.99145235076105,355.24791136123821,false,false,172.00190739611241,256.23366083941988,,,
+2024-08-06T00:00:00,COFFEE.c,252,0.98920977266195764,0.6508317952542213,success,253,358.99144961564724,354.4731840490652,false,false,164.00961240406377,55.884738287341889,,,
+2024-08-07T00:00:00,COFFEE.c,252,0.99071468970436427,0.64685492828521729,success,253,358.99144916852612,354.32145619032605,false,false,163.00744192787477,73.530952987267028,,,
+2024-08-08T00:00:00,COFFEE.c,252,0.97536300698518308,0.67263837916602454,success,253,358.99145223694518,355.31289161486461,false,false,169.50487154983819,6.4496773254915976,,,
+2024-08-09T00:00:00,COFFEE.c,252,0.72311874053780634,0.36114723011107042,success,253,358.99147759887018,358.03149290516944,false,false,91.009101987989752,43.03646097314693,,,
+2024-08-12T00:00:00,COFFEE.c,252,0.64027251407972019,0.4207267104137023,success,253,358.99144972629273,358.41490259855658,false,false,106.02313102425298,6.0892071358266211,,,
+2024-08-13T00:00:00,COFFEE.c,252,0.9911297518348211,0.66124928735092348,success,253,358.99144955303478,354.27530687103479,false,false,166.6348204124327,5.3171143875763045,,,
+2024-08-14T00:00:00,COFFEE.c,252,0.99499973825957522,0.62799923315379325,success,253,358.9914494666408,353.69819725168691,false,false,158.25580675475589,17.081419153285616,,,
+2024-08-15T00:00:00,COFFEE.c,252,0.99334659411203419,0.65098026774324791,success,253,358.99146274203844,353.9855119886796,false,false,164.04702747129846,11.971837380753179,,,
+2024-08-16T00:00:00,COFFEE.c,252,0.99573739380081361,0.61906735583781125,success,253,358.99144949083268,353.5378466859197,false,false,156.00497367112843,116.23001198111182,,,
+2024-08-19T00:00:00,COFFEE.c,252,0.98908599088215521,0.64546365955437845,success,253,358.99144964205442,354.48471557109912,false,false,162.65684220770336,4.6679277066806453,,,
+2024-08-20T00:00:00,COFFEE.c,252,0.63415078260282431,0.39691174712747884,success,253,358.99145031997267,358.44138484055463,false,false,100.02176027612467,6.1292934683183811,,,
+2024-08-21T00:00:00,COFFEE.c,252,0.99106123609772478,0.1785807022260183,success,253,358.99144930024647,354.28307028925883,false,false,45.002336960956612,324.23750511053333,,,
+2024-08-22T00:00:00,COFFEE.c,252,0.94373650694027889,0.27383547248443391,success,253,358.9914493474347,356.17164823319149,false,false,69.006539066077337,70.481865079727882,,,
+2024-08-23T00:00:00,COFFEE.c,252,0.97950147614221417,0.62942544179410465,success,253,358.99144983607118,355.12475896826572,false,false,158.61521133211437,4.6798052495963578,,,
+2024-08-26T00:00:00,COFFEE.c,252,0.81334515413380337,0.72620324086254739,success,253,358.99144957829532,357.51955518234985,false,false,183.00321669736195,94.802393258801558,,,
+2024-08-27T00:00:00,COFFEE.c,252,0.9864556661322641,0.59129743364974585,success,253,358.99144977024702,354.70329968148729,false,false,149.00695327973597,73.292962782962817,,,
+2024-08-28T00:00:00,COFFEE.c,252,0.98354672497727236,0.58731799278456442,success,253,358.99144939243752,354.90080879378644,false,false,148.00413418171024,120.27276574483272,,,
+2024-08-29T00:00:00,COFFEE.c,252,0.98459046007869833,0.58335789705306496,success,253,358.99144990420848,354.83421091909838,false,false,147.00619005737238,80.883125347951164,,,
+2024-08-30T00:00:00,COFFEE.c,252,0.98035904311009836,0.5804891641856027,success,253,358.99144987518974,355.08114802332312,false,false,146.28326937477189,15.890892590226729,,,
+2024-09-03T00:00:00,COFFEE.c,252,0.97939242044981023,0.57541430427130758,success,253,358.99144955297527,355.13017610016209,false,false,145.00440467636952,109.65417216860216,,,
+2024-09-04T00:00:00,COFFEE.c,252,0.97434145858743848,0.57147523684651103,success,253,358.99145219512235,355.35456689414343,false,false,144.01175968532078,39.805088130976344,,,
+2024-09-05T00:00:00,COFFEE.c,252,0.96652483096160369,0.56875056036776217,success,253,358.99145002112516,355.62854697243074,false,false,143.32514121267607,19.113131644777006,,,
+2024-09-06T00:00:00,COFFEE.c,252,0.95012490920692527,0.5931481336505855,success,253,358.99144954589877,356.04437778219256,false,false,149.47332967994754,5.763147863829853,,,
+2024-09-09T00:00:00,COFFEE.c,252,0.97391257153569832,0.55955252106069198,success,253,358.99145171670318,355.37158370962811,false,false,141.00723530729437,64.122862763837233,,,
+2024-09-10T00:00:00,COFFEE.c,252,0.94955553392323866,0.5856295017207559,success,253,358.99144996496847,356.05632899842175,false,false,147.5786344336305,4.7774919048340072,,,
+2024-09-11T00:00:00,COFFEE.c,252,0.85039342982973443,0.6319034720618617,success,253,358.99145042420861,357.25376030601348,false,false,159.23967495958914,13.388068441908338,,,
+2024-09-12T00:00:00,COFFEE.c,252,0.94309721918253442,0.57756011700944632,success,253,358.99145152920829,356.18362636820495,false,false,145.54514948638047,5.4416071673736548,,,
+2024-09-13T00:00:00,COFFEE.c,252,0.9678032924685035,0.54374316849431414,success,253,358.99144951843573,355.58828485881673,false,false,137.02327846056716,19.280582247667159,,,
+2024-09-16T00:00:00,COFFEE.c,252,0.93293773344918851,0.56986132146274027,success,253,358.99145001089556,356.35873308958776,false,false,143.60505300861055,5.2568160475049499,,,
+2024-09-17T00:00:00,COFFEE.c,252,0.9552398921533457,0.53574760488960949,success,253,358.99144993181682,355.93080471979192,false,false,135.0083964321816,50.502644555028525,,,
+2024-09-18T00:00:00,COFFEE.c,252,0.95984259518595338,0.5317636392617151,success,253,358.99144997785328,355.81748752231408,false,false,134.00443709395222,97.703305594255625,,,
+2024-09-19T00:00:00,COFFEE.c,252,0.94376825772230633,0.52911338478233128,success,253,358.99144993240026,356.17105069275982,false,false,133.33657296514747,20.438624176081081,,,
+2024-09-20T00:00:00,COFFEE.c,252,0.9574274070248191,0.52383287280615565,success,253,358.99144952579655,355.87841031157558,false,false,132.00588394715123,72.503671844760362,,,
+2024-09-23T00:00:00,COFFEE.c,252,0.96485590698480417,0.51986075531201081,success,253,358.99145013029613,355.67892791265086,false,false,131.00491033862673,90.284737575888215,,,
+2024-09-24T00:00:00,COFFEE.c,252,0.96363545497261505,0.51592214419832094,success,253,358.99144938733633,355.71433058523843,false,false,130.01238033797688,35.565374208124048,,,
+2024-09-25T00:00:00,COFFEE.c,252,0.94273313612230081,0.54200836245034623,success,253,358.99144930432101,356.19038822091392,false,false,136.58610733748725,4.3236901545556421,,,
+2024-09-26T00:00:00,COFFEE.c,252,0.9634068813900456,0.50796258956993723,success,253,358.99144934510696,355.7208337147278,false,false,128.00657257162419,66.951971313638992,,,
+2024-09-27T00:00:00,COFFEE.c,252,0.95902616027462628,0.50400540513473879,success,253,358.9914493489581,355.83846480332693,false,false,127.00936209395417,46.061416111950571,,,
+2024-09-30T00:00:00,COFFEE.c,252,0.95191861403483513,0.5000360271158738,success,253,358.9914632851233,356.00587885948761,false,false,126.00907883320021,46.299026247126825,,,
+2024-10-01T00:00:00,COFFEE.c,252,0.9539018344968766,0.49606669403054782,success,253,358.99144929243101,355.96166168047972,false,false,125.00880689569804,48.025129002115037,,,
+2024-10-02T00:00:00,COFFEE.c,252,0.82093293915232246,0.57250146189419082,success,253,358.99145203345824,357.46877098653869,false,false,144.27036839733609,19.24215325037963,,,
+2024-10-03T00:00:00,COFFEE.c,252,0.75831115994585119,0.69893924701012666,success,253,358.99145583019589,357.84801314146409,false,false,176.13269024655193,0.70188310518991304,,,
+2024-10-04T00:00:00,COFFEE.c,252,0.78923078516947776,0.56441397413010708,success,253,358.99145589229579,357.67116087713629,false,false,142.23232148078699,14.242016885977916,,,
+2024-10-07T00:00:00,COFFEE.c,252,0.69477507106108505,0.61112250226284937,success,253,358.99144944849394,358.16891027081198,false,false,154.00287057023803,67.444002382651561,,,
+2024-10-08T00:00:00,COFFEE.c,252,0.9389085525344657,0.47620119734130512,success,253,358.99145578435258,356.25910957839488,false,false,120.00270173000889,148.40885063121567,,,
+2024-10-09T00:00:00,COFFEE.c,252,0.75674950299901367,0.55273076969903168,success,253,358.99145015134042,357.85650962442952,false,false,139.28815396415598,19.983130952580087,,,
+2024-10-10T00:00:00,COFFEE.c,252,0.87141906173365535,0.49803564318368193,success,253,358.99145565278275,357.07789124032843,false,false,125.50498208228785,4.9369455132304374,,,
+2024-10-11T00:00:00,COFFEE.c,252,0.90553310153710176,0.46431891050301249,success,253,358.99144936099447,356.73117502057295,false,false,117.00836544675914,42.835318027639488,,,
+2024-10-14T00:00:00,COFFEE.c,252,0.88431907768082019,0.48825395525085846,success,253,358.99145605948866,356.95747384577481,false,false,123.03999672321633,1.9700261017390368,,,
+2024-10-15T00:00:00,COFFEE.c,252,0.63076542533704516,0.58731775078930404,success,253,358.99144930303322,358.45594740602303,false,false,148.00407319890462,33.542450737773656,,,
+2024-10-16T00:00:00,COFFEE.c,252,0.63335733941744721,0.58333618053878988,success,253,358.99144932045886,358.44480223718398,false,false,147.00071749577506,190.26294469969739,,,
+2024-10-17T00:00:00,COFFEE.c,252,0.69949826332223841,0.55944437388304646,success,253,358.99144929874552,358.14653952063696,false,false,140.97998221852771,0.99833510687213267,,,
+2024-10-18T00:00:00,COFFEE.c,252,0.68037511173532272,0.52443143833188743,success,253,358.99144928164873,358.23595308469703,false,false,132.15672245963563,14.638574370714345,,,
+2024-10-21T00:00:00,COFFEE.c,252,0.83596933366550752,0.46826292315613,success,253,358.99144934284027,357.36291081283491,false,false,118.00225663534476,125.59980647176826,,,
+2024-10-22T00:00:00,COFFEE.c,252,0.65818787422139069,0.5167951638536018,success,253,358.99144937376207,358.33622020634948,false,false,130.23238129110766,16.162913451968638,,,
+2024-10-23T00:00:00,COFFEE.c,252,0.68047362322162863,0.54331201526766726,success,253,358.99144934926682,358.23550011564265,false,false,136.91462784745215,0.99839311356208216,,,
+2024-10-24T00:00:00,COFFEE.c,252,0.81410989426598068,0.45636207668347495,success,253,358.99144938534954,357.51450969293637,false,false,115.00324332423568,84.307247146513163,,,
+2024-10-25T00:00:00,COFFEE.c,252,0.83124853879611349,0.42462875912137205,success,253,358.991449369588,357.39694752415988,false,false,107.00644729858575,46.65918482830773,,,
+2024-10-28T00:00:00,COFFEE.c,252,0.75184436439696434,0.18645014140481736,success,253,358.99144951957527,357.88297629152834,false,false,46.985435634013974,19.200278959079824,,,
+2024-10-29T00:00:00,COFFEE.c,252,0.63306582777679488,0.47744333785575988,success,253,358.99145043054585,358.44605848520746,false,false,120.31572113965149,18.53285699672352,,,
+2024-10-30T00:00:00,COFFEE.c,252,0.56567663570092352,0.5595237260529935,success,253,358.99145529574963,358.72722203152205,false,false,140.99997896535436,575.11230161773244,,,
+2024-10-31T00:00:00,COFFEE.c,252,0.50155457828519767,0.56243448393003281,success,253,358.99144942996725,358.98523109678916,false,false,141.73348995036827,3.4562204239579355,,,
+2024-11-01T00:00:00,COFFEE.c,252,0.78348190691054254,0.73296331323118091,success,253,358.99144960459057,357.70537575051151,false,false,184.70675493425759,0.60890031507572639,,,
+2024-11-04T00:00:00,COFFEE.c,252,0.7831471545220976,0.72899021861396429,success,253,358.99145250802388,357.70735088494826,false,false,183.705535090719,0.6168615079610692,,,
+2024-11-05T00:00:00,COFFEE.c,252,0.71369383707609857,0.69097908922710016,success,253,358.99144942768214,358.07805709489423,false,false,174.12673048522925,0.94699944951200743,,,
+2024-11-06T00:00:00,COFFEE.c,252,0.77013377870630617,0.60235197486956882,success,253,358.99149868170014,357.78243193651565,false,false,151.79269766713134,0.70222501486948119,,,
+2024-11-07T00:00:00,COFFEE.c,252,0.87921328927650655,0.38892199491366075,success,253,358.99144939279881,357.00644814351398,false,false,98.008342718242503,41.70656054684499,,,
+2024-11-08T00:00:00,COFFEE.c,252,0.86995092829879384,0.38498389180451836,success,253,358.99146001692736,357.0909350649784,false,false,97.015940734738621,21.26195620839809,,,
+2024-11-11T00:00:00,COFFEE.c,252,0.99139377507923676,0.2730262958034661,success,253,358.99144935875461,354.24482332152536,false,false,68.802626542473462,0.080950781011370251,,,
+2024-11-12T00:00:00,COFFEE.c,252,0.84608927873386386,0.37706354878564341,success,253,358.99144939224095,357.28719721005035,false,false,95.020014293982143,16.00008919878487,,,
+2024-11-13T00:00:00,COFFEE.c,252,0.8343569973084578,0.40081895083296137,success,253,358.99144981463814,357.37462333587149,false,false,101.00637560990627,46.371855109904743,,,
+2024-11-14T00:00:00,COFFEE.c,252,0.87608076630376142,0.36907424900180652,success,253,358.99144953025302,357.03562125682066,false,false,93.006710748455248,51.913353478103303,,,
+2024-11-15T00:00:00,COFFEE.c,252,0.83083624657597144,0.39286450331346284,success,253,358.99145194089863,357.3998864222873,false,false,99.001854834992642,158.25722040194628,,,
+2024-11-18T00:00:00,COFFEE.c,252,0.6753237897464377,0.47173841354709312,success,253,358.99145209076175,358.25908823596365,false,false,118.87808021386746,1.0174152924036826,,,
+2024-11-19T00:00:00,COFFEE.c,252,0.56618263258814228,0.50396822194699586,success,253,358.9914550424665,358.72516197701259,false,false,126.99999193064295,1041.7625300233167,,,
+2024-11-20T00:00:00,COFFEE.c,252,0.68870278763546555,0.64736714033732079,success,253,358.99145197807337,358.19739029044092,false,false,163.13651936500483,0.95879248731555167,,,
+2024-11-21T00:00:00,COFFEE.c,252,0.56544779934369072,0.50396828082957357,success,253,358.99145195075783,358.72815004540479,false,false,127.00000676905253,1157.9894679275485,,,
+2024-11-22T00:00:00,COFFEE.c,252,0.5010415405357046,0.49214985209211093,success,253,358.99145196914696,358.98728580097816,false,false,124.02176272721195,4.4673836852636049,,,
+2024-11-25T00:00:00,COFFEE.c,252,0.67212870415158876,0.45169878323129331,success,253,358.99145207673411,358.27362337118694,false,false,113.82809337428591,1.0366203588287406,,,
+2024-11-26T00:00:00,COFFEE.c,252,0.670759466863319,0.44761468691129874,success,253,358.99145195598896,358.27982994033329,false,false,112.79890110164729,1.0418947893427541,,,
+2024-11-27T00:00:00,COFFEE.c,252,0.67680406520324743,0.44384344685439286,success,253,358.99144936067762,358.25232629448516,false,false,111.84854860730699,1.0284908946559763,,,
+2024-11-29T00:00:00,COFFEE.c,252,0.77107454417203181,0.53875685706391241,success,253,358.99145211191183,357.77706348813325,false,false,135.76672798010594,0.68085071253919593,,,
+2024-12-02T00:00:00,COFFEE.c,252,0.66678566345604262,0.71430028182615768,success,253,358.99144948787512,358.29776677395512,false,false,180.00367102019175,0.93507223406013085,,,
+2024-12-03T00:00:00,COFFEE.c,252,0.66380256343230659,0.71053855795367271,success,253,358.99144968382558,358.31116351901431,false,false,179.05571660432551,0.97432139825410369,,,
+2024-12-04T00:00:00,COFFEE.c,252,0.66169226322417729,0.74601225307121277,success,253,358.99144966666637,358.32060502308389,false,false,187.99508777394561,1.4481121636565637,,,
+2024-12-05T00:00:00,COFFEE.c,252,0.98272806171717264,0.31352060927394371,success,253,358.99144966463223,354.95020034389643,false,false,79.007193537033814,76.212355144590049,,,
+2024-12-06T00:00:00,COFFEE.c,252,0.65743801743487273,0.53179657953766546,success,253,358.99144927589623,358.33955139867112,false,false,134.01273804349171,12.616410324636401,,,
+2024-12-09T00:00:00,COFFEE.c,252,0.69472288062883658,0.69508793048938999,success,253,358.99144961377124,358.16915653282297,false,false,175.16215848332627,0.9202360554372061,,,
+2024-12-10T00:00:00,COFFEE.c,252,0.99315097697425714,0.96429964826998316,success,253,358.99144950824234,354.01467283261439,false,false,243.00351136403575,341.86909334926401,,,
+2024-12-11T00:00:00,COFFEE.c,252,0.70823108798720702,0.68738959514588327,success,253,358.99145069490976,358.10464235074102,false,false,173.22217797676259,0.89482874650944921,,,
+2024-12-12T00:00:00,COFFEE.c,252,0.99543052938226895,0.95635794678563268,success,253,358.99145062259436,353.60767264579925,false,false,241.00220258997945,523.72877256131994,,,
+2024-12-13T00:00:00,COFFEE.c,252,0.67013094155489272,0.51195594385674126,success,253,358.99145019140764,358.28267284608796,false,false,129.0128978518988,13.387940287330109,,,
+2024-12-16T00:00:00,COFFEE.c,252,0.98218203730476272,0.31350232586146598,success,253,358.99144925785527,354.98187968128326,false,false,79.002586117089422,208.85801870611405,,,
+2024-12-17T00:00:00,COFFEE.c,252,0.97728252328896958,0.31015442135460136,success,253,358.99145163466,355.22981037755358,false,false,78.158914181359549,2.4249841503372545,,,
+2024-12-18T00:00:00,COFFEE.c,252,0.98453665609060326,0.27780000085535494,success,253,358.99144960792273,354.83775079137132,false,false,70.00560021554945,103.80310849257056,,,
+2024-12-19T00:00:00,COFFEE.c,252,0.96518887703186562,0.30376239468803029,success,253,358.99144965978627,355.66906281133743,false,false,76.548123461383639,5.8442448032582224,,,
+2024-12-20T00:00:00,COFFEE.c,252,0.99488518060988862,0.26988581081472213,success,253,358.99144951517309,353.72096426997416,false,false,68.011224325309982,59.779237219975577,,,
+2024-12-23T00:00:00,COFFEE.c,252,0.97594354371248049,0.92860952852712453,success,253,358.99144961819792,355.28844829124307,false,false,234.00960118883538,83.512936750688425,,,
+2024-12-24T00:00:00,COFFEE.c,252,0.71148494700728515,0.73416985821487801,success,253,358.9914495112323,358.08884251196531,false,false,185.01080427014926,19.506005477986196,,,
+2024-12-26T00:00:00,COFFEE.c,252,0.66748744831069762,0.69051169162039394,success,253,358.99144962142236,358.2946066441786,false,false,174.00894628833927,17.819576221825496,,,
+2024-12-27T00:00:00,COFFEE.c,252,0.68695386790549062,0.72622773199362911,success,253,358.99144964189554,358.20553306855584,false,false,183.00938846239453,19.680462116838513,,,
+2024-12-30T00:00:00,COFFEE.c,252,0.65607470718190919,0.47228157203139043,success,253,358.99144972271847,358.345599519107,false,false,119.01495615191038,10.884030452183703,,,
+2024-12-31T00:00:00,COFFEE.c,252,0.99755501181841066,0.24608449003163835,success,253,358.99144932879858,352.98018232107199,false,false,62.013291487972865,56.488699585720617,,,
+2025-01-02T00:00:00,COFFEE.c,252,0.99860579158182905,0.22222542285317387,success,253,358.99144930518219,352.41741601947689,false,false,56.000806558999813,1021.4381445509421,,,
+2025-01-03T00:00:00,COFFEE.c,252,0.99953710485285918,0.23813868486086243,success,253,358.99144942217066,351.31390243090334,false,false,60.010948584937331,79.822733511296605,,,
+2025-01-06T00:00:00,COFFEE.c,252,0.99963972983388127,0.23415516160097663,success,253,358.99144935535639,351.063153343907,false,false,59.007100723446108,126.82143768926622,,,
+2025-01-07T00:00:00,COFFEE.c,252,0.65828930682593612,0.52642600248995608,success,253,358.99144931505407,358.33576925700402,false,false,132.65935262746893,0.81090259399247633,,,
+2025-01-08T00:00:00,COFFEE.c,252,0.62330940755879449,0.69842957508029513,success,253,358.99144935801434,358.48783046194239,false,false,176.00425292023436,26.316169216026523,,,
+2025-01-09T00:00:00,COFFEE.c,252,0.78397505283240254,0.55258577937847508,success,253,358.99144933293621,357.7024660306202,false,false,139.25161640337572,0.6191225442374646,,,
+2025-01-10T00:00:00,COFFEE.c,252,0.7786830697173116,0.54850479487007331,success,253,358.99144929142318,357.73344091869689,false,false,138.22320830725846,0.61794188213560164,,,
+2025-01-13T00:00:00,COFFEE.c,252,0.77382850197456909,0.5444725811515142,success,253,358.99144941573581,357.76139269269208,false,false,137.20709045018157,0.62208921315706855,,,
+2025-01-14T00:00:00,COFFEE.c,252,0.77030391513883834,0.54034953609063663,success,253,358.9914494067653,357.7814213397786,false,false,136.16808309484043,0.61977093937346217,,,
+2025-01-15T00:00:00,COFFEE.c,252,0.7684197931202561,0.53640241779919895,success,253,358.99144945097481,357.79203954106026,false,false,135.17340928539812,0.62129932244957931,,,
+2025-01-16T00:00:00,COFFEE.c,252,0.99906675783752841,0.2024933422551036,success,253,358.99144938448643,352.01553722408386,false,false,51.028322248286109,31.409888117187791,,,
+2025-01-17T00:00:00,COFFEE.c,252,0.99965417159477066,0.19843307664383572,success,253,358.99144939728023,351.02222744092938,false,false,50.005135314246601,189.03480028420958,,,
+2025-01-21T00:00:00,COFFEE.c,252,0.63858416775317139,0.4896830058620309,success,253,358.99144942717237,358.42222512461461,false,false,123.40011747723179,0.89127076167450314,,,
+2025-01-22T00:00:00,COFFEE.c,252,0.63971820684322889,0.48589785136100117,success,253,358.99145064103828,358.41730934747642,false,false,122.44625854297229,0.8691142816486932,,,
+2025-01-23T00:00:00,COFFEE.c,252,0.66078300523215661,0.57498800706290087,success,253,358.9914493893541,358.3246638911146,false,false,144.89697777985103,1.0494188431263527,,,
+2025-01-24T00:00:00,COFFEE.c,252,0.72720703703690504,0.75067372818977407,success,253,358.99144936556297,358.01095127589986,false,false,189.16977950382307,0.21759159807643275,,,
+2025-01-27T00:00:00,COFFEE.c,252,0.7148120439334299,0.7456018812105123,success,253,358.99144935793845,358.0725781832877,false,false,187.8916740650491,0.2206662490899286,,,
+2025-01-28T00:00:00,COFFEE.c,252,0.75623953331252303,0.50432054767629919,success,253,358.99144966000267,357.85927754021367,false,false,127.08877801442739,0.63037206890513853,,,
+2025-01-29T00:00:00,COFFEE.c,252,0.75588087622348854,0.50032634507953855,success,253,358.99144934798278,357.86122187370705,false,false,126.08223896004371,0.63076681256108347,,,
+2025-01-30T00:00:00,COFFEE.c,252,0.99971685391895027,0.16668346968854017,success,253,358.99145142267315,350.82218700280282,false,false,42.004234361512125,251.91421039588786,,,
+2025-01-31T00:00:00,COFFEE.c,252,0.69556861329775643,0.2936565416049764,success,253,358.99144939934638,358.16516547038486,false,false,74.001448484454045,147.02025126137607,,,
+2025-02-03T00:00:00,COFFEE.c,252,0.73362686495414509,0.27001408506844127,success,253,358.99144972996385,357.97834727813898,false,false,68.043549437247194,1.0735163136392565,,,
+2025-02-04T00:00:00,COFFEE.c,252,0.71891300513215706,0.26592556417812552,success,253,358.99145169217911,358.05237554772896,false,false,67.01324217288763,1.0704227594278093,,,
+2025-02-05T00:00:00,COFFEE.c,252,0.72203633647547383,0.26195442206175412,success,253,358.9914493525016,358.03686428574827,false,false,66.012514359562033,1.0715675051942219,,,
+2025-02-06T00:00:00,COFFEE.c,252,0.75113125156395688,0.47615834428096482,success,253,358.99144975417505,357.88679499139761,false,false,119.99190275880314,0.62958425721570443,,,
+2025-02-07T00:00:00,COFFEE.c,252,0.70292552469803304,0.25378980528993356,success,253,358.99144963436066,358.13018155338557,false,false,63.955030933063263,1.0743776185143845,,,
+2025-02-10T00:00:00,COFFEE.c,252,0.64415709875173965,0.43337013639686478,success,253,358.99144934257447,358.39799604888515,false,false,109.20927437200993,0.94080416297285752,,,
+2025-02-11T00:00:00,COFFEE.c,252,0.67984677433937546,0.5232134161866806,success,253,358.99145030600596,358.23838257646133,false,false,131.84978087904352,0.97648715146038634,,,
+2025-02-12T00:00:00,COFFEE.c,252,0.7586690847253571,0.70124843562526551,success,253,358.99145064154561,357.84605403181195,false,false,176.7146057775669,0.20005439269911487,,,
+2025-02-13T00:00:00,COFFEE.c,252,0.69131322891315927,0.78970369464159085,success,253,358.99144940068987,358.18518345860542,false,false,199.0053310496809,39.924650526062898,,,
+2025-02-14T00:00:00,COFFEE.c,252,0.63681276296203337,0.55122524121444971,success,253,358.99145067609936,358.42989350522589,false,false,138.90876078604134,1.5201262095569239,,,
+2025-02-18T00:00:00,COFFEE.c,252,0.63720199486112716,0.5472357050673412,success,253,358.99144988748878,358.42820939850179,false,false,137.90339767696997,1.5314071598610395,,,
+2025-02-19T00:00:00,COFFEE.c,252,0.69090228443025614,0.50323523548946369,success,253,358.99145195212492,358.18711100870428,false,false,126.81527934334486,0.97857550256929848,,,
+2025-02-20T00:00:00,COFFEE.c,252,0.67279080825453397,0.49973453384505778,success,253,358.99144936305447,358.27061461288315,false,false,125.93310252895456,0.93093024307647565,,,
+2025-02-21T00:00:00,COFFEE.c,252,0.67626934525004601,0.49566767151498808,success,253,358.99145237061691,358.2547727917713,false,false,124.908253221777,0.93474188217942333,,,
+2025-02-24T00:00:00,COFFEE.c,252,0.76314805852717238,0.31280297978030219,success,253,358.99144947595198,357.82143264201193,false,false,78.826350904636158,0.64791996226239346,,,
+2025-02-25T00:00:00,COFFEE.c,252,0.67735738040564086,0.48771821754504069,success,253,358.99144932545806,358.24979557327134,false,false,122.90499082135025,0.933206588916071,,,
+2025-02-26T00:00:00,COFFEE.c,252,0.60667912854802308,0.27775407638521515,success,253,358.99144934408787,358.55807505687392,false,false,69.994027249074222,13.768605733483458,,,
+2025-02-27T00:00:00,COFFEE.c,252,0.76404861203648644,0.42061000579585561,success,253,358.99144935119881,357.81644373633918,false,false,105.99372146055562,0.58329092029842888,,,
+2025-02-28T00:00:00,COFFEE.c,252,0.77092988430698073,0.29649698301676064,success,253,358.9914493577179,357.77788006828172,false,false,74.717239720223688,0.64222972094612685,,,
+2025-03-03T00:00:00,COFFEE.c,252,0.67089818122846212,0.37835487980919036,success,253,358.99144952563137,358.27919932444422,false,false,95.345429711915969,0.77605213477792345,,,
+2025-03-04T00:00:00,COFFEE.c,252,0.61814017831012269,0.54312960907740127,success,253,358.99144995336064,358.50978827821314,false,false,136.86866148750511,1.1569355012940339,,,
+2025-03-05T00:00:00,COFFEE.c,252,0.64536498704230305,0.50345074651602928,success,253,358.99144922377877,358.39272232371553,false,false,126.86958812203939,1.4727020466541381,,,
+2025-03-06T00:00:00,COFFEE.c,252,0.77021371707137587,0.4005656836471132,success,253,358.99144942548531,357.78193106679737,false,false,100.94255227907253,0.55984719306387143,,,
+2025-03-07T00:00:00,COFFEE.c,252,0.78508486394299215,0.27611843034574912,success,253,358.99144932483239,357.69590074015224,false,false,69.581844447128773,0.61147164807293852,,,
+2025-03-10T00:00:00,COFFEE.c,252,0.60491729773108749,0.23822624881977267,success,253,358.99144940743207,358.56545277252877,false,false,60.033014702582712,12.380937251548241,,,
+2025-03-11T00:00:00,COFFEE.c,252,0.81818629113346675,0.62805755229990834,success,253,358.99145185029397,357.48734438505505,false,false,158.27050317957691,0.17679612513993945,,,
+2025-03-12T00:00:00,COFFEE.c,252,0.62527178895022706,0.50452629931303272,success,253,358.9914494153561,358.47946399048789,false,false,127.14062742688425,1.4274279690790641,,,
+2025-03-13T00:00:00,COFFEE.c,252,0.62912630270290393,0.50048204375606375,success,253,358.99145073800679,358.46298026834688,false,false,126.12147502652807,1.4377571372121489,,,
+2025-03-14T00:00:00,COFFEE.c,252,0.65029973482005043,0.28961674556068734,success,253,358.99144935793777,358.37109237321971,false,false,72.983419881293216,9.5458496756940576,,,
+2025-03-17T00:00:00,COFFEE.c,252,0.63420917201366578,0.49248516200850895,success,253,358.99144962637638,358.44113246383466,false,false,124.10626082614425,1.4346038067772517,,,
+2025-03-18T00:00:00,COFFEE.c,252,0.66289917341247284,0.46752069313788586,success,253,358.99145244462829,358.31521161659953,false,false,117.81521467074724,1.4255601712945289,,,
+2025-03-19T00:00:00,COFFEE.c,252,0.65521642842794547,0.13884561750247187,success,253,358.99145046987428,358.34940175513822,false,false,34.989095610622911,17.870998458888028,,,
+2025-03-20T00:00:00,COFFEE.c,252,0.7112654149653046,0.27377847432401248,success,253,358.99144962337937,358.08991184036148,false,false,68.992175529651149,27.710498621379891,,,
+2025-03-21T00:00:00,COFFEE.c,252,0.7322658016754926,0.2698123103238188,success,253,358.99144970776098,357.98530083372555,false,false,67.992702201602341,32.229206029154206,,,
+2025-03-24T00:00:00,COFFEE.c,252,0.78165677061479399,0.19825417736166981,success,253,358.99145584065349,357.71610838008405,false,false,49.960052695140789,31.860924130599422,,,
+2025-03-25T00:00:00,COFFEE.c,252,0.77180286274453769,0.72521818660292092,success,253,358.99145571065469,357.7729364448353,false,false,182.75498302393606,12.780456608085144,,,
+2025-03-26T00:00:00,COFFEE.c,252,0.81590689385270765,0.72219032415464102,success,253,358.99144984871549,357.50259124223038,false,false,181.99196168696955,39.248463345717525,,,
+2025-03-27T00:00:00,COFFEE.c,252,0.7964499601932008,0.71822530340819712,success,253,358.99144938712402,357.62719695487539,false,false,180.99277645886568,41.000928692876307,,,
+2025-03-28T00:00:00,COFFEE.c,252,0.61494525849225012,0.49070577448990749,success,253,358.99145252542394,358.52330478207557,false,false,123.65785517145669,19.884904544594171,,,
+2025-03-31T00:00:00,COFFEE.c,252,0.87975464184602803,0.17783259962046721,success,253,358.99145075285855,357.00134200695743,false,false,44.813815104357737,18.144313407207463,,,
+2025-04-01T00:00:00,COFFEE.c,252,0.83085431728372527,0.27379754590274469,success,253,358.99145210633105,357.39975800846946,false,false,68.996981567491659,108.93021345833375,,,
+2025-04-02T00:00:00,COFFEE.c,252,0.85974611767514764,0.23805441462926771,success,253,358.99145197571346,357.1782690675355,false,false,59.989712486575463,34.39259337331972,,,
+2025-04-03T00:00:00,COFFEE.c,252,0.86411959138831151,0.69837708950157773,success,253,358.99145188940821,357.14151586466301,false,false,175.99102655439759,39.078588478469314,,,
+2025-04-04T00:00:00,COFFEE.c,252,0.76536129754291193,0.69442539714541562,success,253,358.9914498584223,357.80914874644043,false,false,174.99520008064474,54.407702824680783,,,
+2025-04-07T00:00:00,COFFEE.c,252,0.8581283937537908,0.5481528809121835,success,253,358.99144964275763,357.19161837861338,false,false,138.13452598987024,0.15828159554777974,,,
+2025-04-08T00:00:00,COFFEE.c,252,0.8190431697258771,0.37331456298225429,success,253,358.99144931987678,357.4815710231706,false,false,94.075269871528079,0.015553533052566959,,,
+2025-04-09T00:00:00,COFFEE.c,252,0.9720464776423634,0.75331477443603334,success,253,358.99144919823544,355.44258879360353,false,false,189.8353231578804,0.15911676845351269,,,
+2025-04-10T00:00:00,COFFEE.c,252,0.85888156687504036,0.53559313274508136,success,253,358.99144920985174,357.18541765968399,false,false,134.96946945176049,0.15737010455799469,,,
+2025-04-11T00:00:00,COFFEE.c,252,0.75211018889677905,0.24196568612912223,success,253,358.99144924003417,357.88155073639257,false,false,60.975352904538802,11.099458281084562,,,
+2025-04-14T00:00:00,COFFEE.c,252,0.77455753404655103,0.20630052018660611,success,253,358.99144959737833,357.75722264136795,false,false,51.987731087024741,24.03825885243262,,,
+2025-04-15T00:00:00,COFFEE.c,252,0.89368557450319475,0.24914795258270928,success,253,358.99144952662817,356.86249650135113,false,false,62.785284050842741,0.018772184695088023,,,
+2025-04-16T00:00:00,COFFEE.c,252,0.82417558465474527,0.80162005080258525,success,253,358.99144940392381,357.44655166552144,false,false,202.00825280225149,40.625745001796147,,,
+2025-04-17T00:00:00,COFFEE.c,252,0.80054470105432407,0.79774254354261664,success,253,358.99144947316296,357.60174724665654,false,false,201.03112097273939,9.9604581665503726,,,
+2025-04-21T00:00:00,COFFEE.c,252,0.93631856669781677,0.95637033861784027,success,253,358.99145350544825,356.30339078700899,false,false,241.00532533169576,167.9242571618025,,,
+2025-04-22T00:00:00,COFFEE.c,252,0.88803879681915643,0.51434845754033542,success,253,358.99144941311897,356.92058639208318,false,false,129.61581130016452,0.17144349506102474,,,
+2025-04-23T00:00:00,COFFEE.c,252,0.89648643796647243,0.51057578766249412,success,253,358.99144949851024,356.83266897159734,false,false,128.66509849094851,0.16979874716554441,,,
+2025-04-24T00:00:00,COFFEE.c,252,0.72955386801873534,0.5992304144386279,success,253,358.99144953904016,357.99908926747685,false,false,151.00606443853422,34.876878857479589,,,
+2025-04-25T00:00:00,COFFEE.c,252,0.84844000391691599,0.49839097046649283,success,253,358.99144940393899,357.26903159047777,false,false,125.5945245575562,0.1657963491989429,,,
+2025-04-28T00:00:00,COFFEE.c,252,0.90011207352462597,0.4996376129064799,success,253,358.99144959801038,356.79297913854879,false,false,125.90867845243294,0.17145403995159259,,,
+2025-04-29T00:00:00,COFFEE.c,252,0.81390779964476689,0.76984669968559416,success,253,358.99146025807772,357.5158554184689,false,false,194.00136832076973,234.87892180458906,,,
+2025-04-30T00:00:00,COFFEE.c,252,0.65258421427538826,0.53970536156674465,success,253,358.99144981716233,358.3610319146664,false,false,136.00575111481965,25.048189748901642,,,
+2025-05-01T00:00:00,COFFEE.c,252,0.66651456460105996,0.82940601826710891,success,253,358.99145207915581,358.29898927984596,false,false,209.01031660331145,18.710095944240269,,,
+2025-05-02T00:00:00,COFFEE.c,252,0.77166901178306924,0.5754236166659098,success,253,358.99144960841591,357.77369017049915,false,false,145.00675139980927,35.754710119860142,,,
+2025-05-05T00:00:00,COFFEE.c,252,0.90077132635809432,0.48210180574475997,success,253,358.99144950327911,356.78562509904174,false,false,121.48965504767951,0.18196155264858946,,,
+2025-05-06T00:00:00,COFFEE.c,252,0.83705210613899161,0.47369665652700088,success,253,358.99145011928846,357.35499427742224,false,false,119.37155744480422,0.1816155262966144,,,
+2025-05-07T00:00:00,COFFEE.c,252,0.8955742706141151,0.47732069281144779,success,253,358.99146025614965,356.84247119563656,false,false,120.28481458848485,0.19412049063407968,,,
+2025-05-08T00:00:00,COFFEE.c,252,0.77124804177129114,0.55954751400561109,success,253,358.99144925527298,357.77607748377062,false,false,141.00597352941401,40.488075773105493,,,
+2025-05-09T00:00:00,COFFEE.c,252,0.81806092932471097,0.4612798772892352,success,253,358.99144941679077,357.48818445175215,false,false,116.24252907688727,0.18610327072572352,,,
+2025-05-12T00:00:00,COFFEE.c,252,0.83107563528469641,0.45718463693817718,success,253,358.99144955013759,357.39817981091534,false,false,115.21052850842065,0.18200719990179393,,,
+2025-05-13T00:00:00,COFFEE.c,252,0.73844040342362505,0.54763858149773437,success,253,358.99144925043504,357.95357101153087,false,false,138.00492253742905,43.743745501497997,,,
+2025-05-14T00:00:00,COFFEE.c,252,0.81327730720886926,0.49998398878238454,success,253,358.99144967977423,357.52000212708759,false,false,125.9959651731609,748.23467991768121,,,
+2025-05-15T00:00:00,COFFEE.c,252,0.87814197641298086,0.44910833849238063,success,253,358.99144942533491,357.01649776640051,false,false,113.17530130007992,0.18561076353922806,,,
+2025-05-16T00:00:00,COFFEE.c,252,0.73315757890392586,0.53573898453781077,success,253,358.99144954172806,357.98074718591789,false,false,135.00622410352833,34.014878525332833,,,
+2025-05-19T00:00:00,COFFEE.c,252,0.77775959762806668,0.7142913494735682,success,253,358.99145954450074,357.73880175808415,false,false,180.00142006733918,184.44831063873997,,,
+2025-05-20T00:00:00,COFFEE.c,252,0.76652103738777411,0.71036164308321825,success,253,358.99145302887507,357.80268286207325,false,false,179.011134056971,22.614718508131809,,,
+2025-05-21T00:00:00,COFFEE.c,252,0.76283397605095327,0.70639147328465102,success,253,358.99144938313987,357.82316938804979,false,false,178.01065126773204,23.315190752422257,,,
+2025-05-22T00:00:00,COFFEE.c,252,0.82254338241568137,0.42270709746060486,success,253,358.99144960268734,357.45777454792773,false,false,106.52218856007242,0.18036479777332887,,,
+2025-05-23T00:00:00,COFFEE.c,252,0.82363778953005162,0.42058945130637276,success,253,358.99144936613624,357.45025840294369,false,false,105.98854172920593,0.19137822367504445,,,
+2025-05-27T00:00:00,COFFEE.c,252,0.81702961816064734,0.41571235684201346,success,253,358.99144999356872,357.49509893889746,false,false,104.75951392418739,0.19089011390334523,,,
+2025-05-28T00:00:00,COFFEE.c,252,0.81941485685815751,0.4118629637261258,success,253,358.99144937075448,357.47906124813062,false,false,103.7894668589837,0.19058386415177014,,,
+2025-05-29T00:00:00,COFFEE.c,252,0.81515296025084283,0.40702851527127365,success,253,358.99144953417488,357.50760242816847,false,false,102.57118584836095,0.18986830849113712,,,
+2025-05-30T00:00:00,COFFEE.c,252,0.64778720195680972,0.26551113095036988,success,253,358.99144938310667,358.38212266556172,false,false,66.908804999493213,1.3915267773391626,,,
+2025-06-02T00:00:00,COFFEE.c,252,0.64554635087726409,0.26143653600377253,success,253,358.99144939615252,358.3919299696995,false,false,65.882007072950685,1.3840207487537588,,,
+2025-06-03T00:00:00,COFFEE.c,252,0.61632164240843912,0.27824808779303067,success,253,358.99144998681084,358.51748560393901,false,false,70.118518123843728,1.6213994203478017,,,
+2025-06-04T00:00:00,COFFEE.c,252,0.62277773124588964,0.53538646604613793,success,253,358.99145133781218,358.49009624036944,false,false,134.91738944362675,1.9592481304854601,,,
+2025-06-05T00:00:00,COFFEE.c,252,0.60958603584440618,0.73417771178293445,success,253,358.99144934956337,358.54587687527311,false,false,185.01278336929948,5.3706143714981787,,,
+2025-06-06T00:00:00,COFFEE.c,252,0.66213110347058746,0.72607566883677632,success,253,358.99144972138816,358.31864408371001,false,false,182.97106854686763,1.2867705701895558,,,
+2025-06-09T00:00:00,COFFEE.c,252,0.95563373754993475,0.58501546958173622,success,253,358.99144954792587,355.92155415387521,false,false,147.42389833459754,0.19035510115169896,,,
+2025-06-10T00:00:00,COFFEE.c,252,0.73019258557508582,0.65480239390214612,success,253,358.9914493719927,357.99584948137277,false,false,165.01020326334083,20.852998077823528,,,
+2025-06-11T00:00:00,COFFEE.c,252,0.73938743517761119,0.65083790402921826,success,253,358.99144927663929,357.94866210205225,false,false,164.01115181536301,19.647870223919909,,,
+2025-06-12T00:00:00,COFFEE.c,252,0.9537660051995196,0.57238208195740492,success,253,358.99144953965612,355.96474652156036,false,false,144.24028465326603,0.19218274058420645,,,
+2025-06-13T00:00:00,COFFEE.c,252,0.9526787885800434,0.56793892805088086,success,253,358.99144935512726,355.98913020056801,false,false,143.12060986882199,0.19286227889968108,,,
+2025-06-16T00:00:00,COFFEE.c,252,0.63434621642873612,0.50388197696862103,success,253,358.99144952460978,358.44054157571128,false,false,126.97825819609251,5.7933066527697186,,,
+2025-06-17T00:00:00,COFFEE.c,252,0.63475862560440244,0.49991814864207995,success,253,358.99145081669633,358.43876444195905,false,false,125.97937345780414,6.0590485444396371,,,
+2025-06-18T00:00:00,COFFEE.c,252,0.95513629211236528,0.55557995725482912,success,253,358.99144950240532,355.93322463818066,false,false,140.00614922821694,0.19104156881028103,,,
+2025-06-20T00:00:00,COFFEE.c,252,0.63960084928687444,0.49198751317520228,success,253,358.99144962158084,358.41781748200083,false,false,123.98085332015097,6.6015066553238277,,,
+2025-06-23T00:00:00,COFFEE.c,252,0.65249141917111519,0.48413471488736226,success,253,358.99144952020612,358.36144088952409,false,false,122.0019481516153,433.95482330266208,,,
+2025-06-24T00:00:00,COFFEE.c,252,0.67085185359369193,0.48361723487230673,success,253,358.99144943452416,358.27940904888129,false,false,121.8715431878213,1.9006074662461734,,,
+2025-06-25T00:00:00,COFFEE.c,252,0.96426270538792003,0.53988991884132609,success,253,358.98672351518502,355.69155455224342,false,false,136.05225954801418,0.18724010312669334,,,
+2025-06-26T00:00:00,COFFEE.c,252,0.71685350115275537,0.57211051134487045,success,253,358.86190400724217,357.93299693695457,false,false,144.17184885890737,10.579694024639235,,,
+2025-06-27T00:00:00,COFFEE.c,252,0.87197851230638646,0.38127308714813807,success,253,358.89267473748174,356.97410807816379,false,false,96.080817961330794,13.012466768391398,,,
+2025-06-30T00:00:00,COFFEE.c,252,0.87513674251960982,0.37729669797726095,success,253,358.86858005845215,356.92141910549543,false,false,95.078767890269759,13.359969830908712,,,
+2025-07-01T00:00:00,COFFEE.c,252,0.75690211569015708,0.55978990301372078,success,253,358.82625047359898,357.69048071240525,false,false,141.06705555945763,24.442460293203272,,,
+2025-07-02T00:00:00,COFFEE.c,252,0.67726256175276756,0.63678398134343039,success,253,358.82441552096969,358.08319559996892,false,false,160.46956329854447,26.170973987617433,,,
+2025-07-03T00:00:00,COFFEE.c,252,0.74003460020726375,0.55180746242305645,success,253,358.81192004477793,357.76577164707561,false,false,139.05548053061023,27.931667514841031,,,
+2025-07-07T00:00:00,COFFEE.c,252,0.74392806608810136,0.54807253233235975,success,253,358.65091881773327,357.58443286979207,false,false,138.11427814775465,11.872287621765057,,,
+2025-07-08T00:00:00,COFFEE.c,252,0.71172192564768111,0.54371718836427985,success,253,358.71232066519997,357.80855893419113,false,false,137.01673146779851,87.449631939633392,,,
+2025-07-09T00:00:00,COFFEE.c,252,0.71102758053611814,0.74245221101654679,success,253,358.77425021264747,357.8738702415838,false,false,187.09795717616979,14.99648172069543,,,
+2025-07-10T00:00:00,COFFEE.c,252,0.73947599954508625,0.47512166297705383,success,253,358.9823144905335,357.93906765309958,false,false,119.73065907021757,0.28027305584031725,,,
+2025-07-11T00:00:00,COFFEE.c,252,0.70997914593705636,0.53215869537282956,success,253,358.71742457715476,357.82214181042735,false,false,134.10399123395305,13.097421451006287,,,
+2025-07-14T00:00:00,COFFEE.c,252,0.75620441523818627,0.52818888753845561,success,253,358.79116986162666,357.65918823826973,false,false,133.10359965969081,15.518513233610379,,,
+2025-07-15T00:00:00,COFFEE.c,252,0.87898253059803499,0.33762462906614948,success,253,358.98430251036848,357.00147239745672,false,false,85.081406524669674,13.568436609402498,,,
+2025-07-16T00:00:00,COFFEE.c,252,0.87133843175356729,0.33363700981447331,success,253,358.9854691870662,357.07262418526551,false,false,84.07652647324727,13.319744957578941,,,
+2025-07-17T00:00:00,COFFEE.c,252,0.74795845797241312,0.51640586291668278,success,253,358.78245028092374,357.69469676520265,false,false,130.13427745500405,11.697027353866455,,,
+2025-07-18T00:00:00,COFFEE.c,252,0.84006535060756349,0.31552609283837613,success,253,358.80487172991894,357.14615733326707,false,false,79.512575395270787,26.779104805240941,,,
+2025-07-21T00:00:00,COFFEE.c,252,0.86579993886753515,0.3217578612791227,success,253,358.85375966961146,356.98943748528166,false,false,81.082981042338915,12.461075056325535,,,
+2025-07-22T00:00:00,COFFEE.c,252,0.84612465256233582,0.31782975187025414,success,253,358.89120865002343,357.18668480024041,false,false,80.093097471304048,11.710286333050869,,,
+2025-07-23T00:00:00,COFFEE.c,252,0.83664440115422256,0.31384494250242417,success,253,358.89713979328224,357.26367007495475,false,false,79.088925510610892,12.280567197147413,,,
+2025-07-24T00:00:00,COFFEE.c,252,0.83128459196032467,0.30984456836301844,success,253,358.85773694627926,357.26297806013162,false,false,78.080831227480644,12.954799720159416,,,
+2025-07-25T00:00:00,COFFEE.c,252,0.74292023880682045,0.50719884207594412,success,253,358.98259334700543,357.92139104982522,false,false,127.81410820313791,0.95802578013763973,,,
+2025-07-28T00:00:00,COFFEE.c,252,0.72617557866277405,0.52781838117572244,success,253,358.98216378416834,358.00685905764487,false,false,133.01023205628206,20.194998664776421,,,
+2025-07-29T00:00:00,COFFEE.c,252,0.73443802463967367,0.49921449673845053,success,253,358.98287626163506,357.96561888949316,false,false,125.80205317808954,0.96767205922814004,,,
+2025-07-30T00:00:00,COFFEE.c,252,0.81135239686895466,0.29396559977953757,success,253,358.90857324168934,357.44975150148912,false,false,74.079331144443472,13.242515517858347,,,
+2025-07-31T00:00:00,COFFEE.c,252,0.80387295692328553,0.28999916860400188,success,253,358.9809592520154,357.57028063731502,false,false,73.079790488208474,12.387402660027076,,,
+2025-08-01T00:00:00,COFFEE.c,252,0.67280534100491629,0.51194195098145545,success,253,358.98327472615972,358.26237396028978,false,false,129.00937164732679,16.92899355740234,,,
+2025-08-04T00:00:00,COFFEE.c,252,0.66092552743561817,0.50798310946426506,success,253,358.98847469328018,358.3210532926222,false,false,128.0117435849948,12.488598294455279,,,
+2025-08-05T00:00:00,COFFEE.c,252,0.7512250798003699,0.30162507026487978,success,253,358.98387883054869,357.87872206962413,false,false,76.009517706749705,17.608433483513444,,,
+2025-08-06T00:00:00,COFFEE.c,252,0.74144186622991037,0.27409645516555881,success,253,358.9861765760765,357.93270037532528,false,false,69.072306701720819,11.529939911092722,,,
+2025-08-07T00:00:00,COFFEE.c,252,0.63297484988930686,0.45641576195878025,success,253,358.90578057458174,358.3607802594579,false,false,115.01677201361262,84.921841165991012,,,
+2025-08-08T00:00:00,COFFEE.c,252,0.76266770671099082,0.26614618679861829,success,253,358.98961155510176,357.82225036810166,false,false,67.068839073251809,13.503059741082209,,,
+2025-08-11T00:00:00,COFFEE.c,252,0.67521856881588527,0.65115358745496599,success,253,358.81762414105327,358.08574013359492,false,false,164.09070403865144,13.764172207386807,,,
+2025-08-12T00:00:00,COFFEE.c,252,0.63942683573220005,0.64724095053921604,success,253,358.87232677053925,358.29944945294778,false,false,163.10471953588245,10.97020661700425,,,
+2025-08-13T00:00:00,COFFEE.c,252,0.64922631889037863,0.64315633591850485,success,253,358.79623460276184,358.1805944597869,false,false,162.07539665146322,14.601581601675749,,,
+2025-08-14T00:00:00,COFFEE.c,252,0.64228877282196895,0.63934441182527191,success,253,358.68685822678674,358.10154625523091,false,false,161.11479177996853,8.9234908579784324,,,
+2025-08-15T00:00:00,COFFEE.c,252,0.7209140717952065,0.43280039460804559,success,253,358.41885905752713,357.4698588273472,false,false,109.06569944122749,28.529135018782522,,,
+2025-08-18T00:00:00,COFFEE.c,252,0.8940012930125244,0.2319798089685772,success,253,358.4650568196671,356.3327764939782,false,false,58.458911860081457,26.499301037893463,,,
+2025-08-19T00:00:00,COFFEE.c,252,0.76983385548117544,0.42512228939602514,success,253,358.29185164976917,357.0844783459205,false,false,107.13081692779834,14.310655973628524,,,
+2025-08-20T00:00:00,COFFEE.c,252,0.8317937432832454,0.25947485394804787,success,253,358.34736012893075,356.74896656847585,false,false,65.387663194908058,23.279617612058367,,,
+2025-08-21T00:00:00,COFFEE.c,252,0.77999539688482111,0.41718875541099515,success,253,358.10734004941548,356.84170050056326,false,false,105.13156636357078,14.196198513365909,,,
+2025-08-22T00:00:00,COFFEE.c,252,0.89105980257852069,0.79570874634971356,success,253,357.80269238915486,355.70107992959964,false,false,200.51860408012783,21.265928231320174,,,
+2025-08-25T00:00:00,COFFEE.c,252,0.85072161373374533,0.7916313087004323,success,253,357.90124966532738,356.16097764559674,false,false,199.49108979250894,24.88214525747264,,,
+2025-08-26T00:00:00,COFFEE.c,252,0.85960989733351523,0.78766661462624865,success,253,358.00783335669172,356.19577967338546,false,false,198.49198688581467,8.577713931585464,,,
+2025-08-27T00:00:00,COFFEE.c,252,0.61081171230231313,0.50786526888680139,success,253,357.8632369707725,357.41251147884913,false,false,127.98204775947396,4.0609065453702415,,,
+2025-08-28T00:00:00,COFFEE.c,252,0.59198455595562749,0.5036857617913183,success,253,358.01931135581106,357.64713583591782,false,false,126.9288119714122,3.7135455682268277,,,
+2025-08-29T00:00:00,COFFEE.c,252,0.66905653133766974,0.46066054005535273,success,253,357.86506086353467,357.16113987697543,false,false,116.08645609394888,6.02079952284749,,,
+2025-09-02T00:00:00,COFFEE.c,252,0.57505370296917935,0.49407613808269724,success,253,357.96952291469336,357.6670222828019,false,false,124.5071867968397,2.7844008455798801,,,
+2025-09-03T00:00:00,COFFEE.c,252,0.74007039360552951,0.58759522524802454,success,253,358.03734966370337,356.99101520525636,false,false,148.07399676250219,14.310572222366924,,,
+2025-09-04T00:00:00,COFFEE.c,252,0.68219039435824935,0.44872785632494289,success,253,358.03352467745816,357.26966836703843,false,false,113.07941979388561,6.4973766902614294,,,
+2025-09-05T00:00:00,COFFEE.c,252,0.5966605572236382,0.26987234389966985,success,253,358.02587996148964,357.63431008785273,false,false,68.007830662716799,25.080820408599291,,,
+2025-09-08T00:00:00,COFFEE.c,252,0.71772842557590144,0.37372680020947252,success,253,358.05305219502389,357.11983057227997,false,false,94.179153652787079,10.879166056182376,,,
+2025-09-09T00:00:00,COFFEE.c,252,0.7059535634558004,0.36955834157902551,success,253,358.0755000310391,357.19968827214655,false,false,93.128702077914426,14.867825890736535,,,
+2025-09-10T00:00:00,COFFEE.c,252,0.60779902562148924,0.48577319166553812,success,253,357.87391053734075,357.435840658134,false,false,122.41484429971561,8.7800280771551122,,,
+2025-09-11T00:00:00,COFFEE.c,252,0.63411111503011197,0.53763029802124584,success,253,357.97186441086461,357.42196990581306,false,false,135.48283510135394,20.20267313655048,,,
+2025-09-12T00:00:00,COFFEE.c,252,0.71279234189383245,0.62494815146800875,success,253,357.98292604210889,357.07394141123916,false,false,157.48693416993819,19.920592869145064,,,
+2025-09-15T00:00:00,COFFEE.c,252,0.8250719786727676,0.73619409122233792,success,253,357.8285370537327,356.27744100693991,false,false,185.52091098802916,22.198398780565114,,,
+2025-09-16T00:00:00,COFFEE.c,252,0.70034905439536876,0.56327762869877829,success,253,358.01911174836721,357.17015117106803,false,false,141.94596243209213,6.7101957295030124,,,
+2025-09-17T00:00:00,COFFEE.c,252,0.70735364603485107,0.54793544398541028,success,253,358.33156667729401,357.44900082687565,false,false,138.07973188432339,14.278188035623881,,,
+2025-09-18T00:00:00,COFFEE.c,252,0.67898008099061724,0.53938535362324536,success,253,358.34173619832302,357.59264758118991,false,false,135.92510911305783,6.9109453942674941,,,
+2025-09-19T00:00:00,COFFEE.c,252,0.72185108782492036,0.54001381811433224,success,253,358.24875782008411,357.2950955775982,false,false,136.08348216481173,14.754852635408362,,,
+2025-09-22T00:00:00,COFFEE.c,252,0.67873845205337135,0.63419428926318788,success,253,358.2733680058692,357.52538773079408,false,false,159.81696089432336,3.0689586515261342,,,
+2025-09-23T00:00:00,COFFEE.c,252,0.73607576638273209,0.53208109312215601,success,253,358.0878063386296,357.06213534982595,false,false,134.0844354667833,15.104110923001786,,,
+2025-09-24T00:00:00,COFFEE.c,252,0.6533192240718767,0.32550483748638837,success,253,358.28437216433377,357.65071069925062,false,false,82.027219046569869,68.374697668394916,,,
+2025-09-25T00:00:00,COFFEE.c,252,0.6640423752443434,0.3215108337227699,success,253,358.29041369561151,357.60905276524346,false,false,81.020730098138017,86.243275245373823,,,
+2025-09-26T00:00:00,COFFEE.c,252,0.66352977205428065,0.31794641199759044,success,253,358.30288395679304,357.62381990233411,false,false,80.122495823392796,15.164090916573908,,,
+2025-09-29T00:00:00,COFFEE.c,252,0.64614863980494175,0.52746415514552281,success,253,358.29694459907,357.69479196767946,false,false,132.92096709667175,8.70083530048238,,,
+2025-09-30T00:00:00,COFFEE.c,252,0.65870206746614035,0.69246629834599827,success,253,358.21792927364328,357.56041373756784,false,false,174.50150718319156,10.899812105553899,,,
+2025-10-01T00:00:00,COFFEE.c,252,0.63996620505392288,0.51950351035890174,success,253,358.29804983819258,357.72283236973072,false,false,130.91488461044324,8.352816882372732,,,
+2025-10-02T00:00:00,COFFEE.c,252,0.60884498713680779,0.30180593428309826,success,253,358.27148921271169,357.82902944787736,false,false,76.055095439340761,23.380655648402996,,,
+2025-10-03T00:00:00,COFFEE.c,252,0.64238451752884984,0.29803068062673244,success,253,358.36805086433469,357.78232214083818,false,false,75.103731517936581,17.530094644190605,,,
+2025-10-06T00:00:00,COFFEE.c,252,0.63507801849494283,0.50765019198985084,success,253,358.44448550799541,357.89042123431193,false,false,127.9278483814424,7.2308923554865467,,,
+2025-10-07T00:00:00,COFFEE.c,252,0.6231804488886824,0.55761943409891679,success,253,358.45597754212287,357.9529078487825,false,false,140.52009739292703,15.300886396346442,,,
+2025-10-08T00:00:00,COFFEE.c,252,0.62807818164112261,0.4997529173315764,success,253,358.48150930185733,357.95752831656193,false,false,125.93773516755725,5.9472252333989468,,,
+2025-10-09T00:00:00,COFFEE.c,252,0.63063798540704852,0.50591219500592177,success,253,358.45409216684857,357.91913741708748,false,false,127.4898731414923,24.733236593154516,,,
+2025-10-10T00:00:00,COFFEE.c,252,0.63032664852734555,0.4916988213643082,success,253,358.44650064156946,357.91288224868055,false,false,123.90810298380566,7.3668518087820445,,,
+2025-10-13T00:00:00,COFFEE.c,252,0.62237569883715749,0.4979812810208854,success,253,358.48379175971741,357.98414762099389,false,false,125.49128281726313,12.165647605597718,,,
+2025-10-14T00:00:00,COFFEE.c,252,0.62596584187573168,0.48390481069894326,success,253,358.46986662640791,357.95491794761739,false,false,121.94401229613371,13.304826148769655,,,
+2025-10-15T00:00:00,COFFEE.c,252,0.61849444227568062,0.47976299704729863,success,253,358.53729742463355,358.05413463735584,false,false,120.90027525591925,7.0286403241258268,,,
+2025-10-16T00:00:00,COFFEE.c,252,0.58358867801940029,0.46457351710403577,success,253,358.45041403395868,358.11289114426546,false,false,117.07252631021701,10.947490347922029,,,
+2025-10-17T00:00:00,COFFEE.c,252,0.5549614100749668,0.43454160566590749,success,253,358.47624747628868,358.25550989369515,false,false,109.50448462780869,22.448844380164783,,,
+2025-10-20T00:00:00,COFFEE.c,252,0.62516309755473398,0.4678023280663855,success,253,358.45378900124962,357.94226743401845,false,false,117.88618667272914,8.0107972801812171,,,
+2025-10-21T00:00:00,COFFEE.c,252,0.62750883270182245,0.46388624564161973,success,253,358.43440616034246,357.91286173900403,false,false,116.89933390168817,7.5731689677073648,,,
+2025-10-22T00:00:00,COFFEE.c,252,0.53589109837470772,0.7306147206170619,success,253,358.36599674838789,358.22218500910066,false,false,184.1149095954996,13.608766748343193,,,
+2025-10-23T00:00:00,COFFEE.c,252,0.6047254986927143,0.51000942057132237,success,253,358.52158532390041,358.0963911535618,false,false,128.52237398397324,14.588840072690999,,,
+2025-10-24T00:00:00,COFFEE.c,252,0.59715184524171661,0.50602049283464423,success,253,358.55439812497173,358.16078640052558,false,false,127.51716419433033,16.671827479867645,,,
+2025-10-27T00:00:00,COFFEE.c,252,0.70695959550174747,0.50207392683440233,success,253,358.56539392243275,357.68473090621012,false,false,126.52262956226939,26.323315851964587,,,
+2025-10-28T00:00:00,COFFEE.c,252,0.60372218414862566,0.42834083243394638,success,253,358.51412490445591,358.09312629281391,false,false,107.94188977335449,13.164074312601066,,,
+2025-10-29T00:00:00,COFFEE.c,252,0.59313376687180708,0.42435394419194994,success,253,358.52771436389514,358.1507788797112,false,false,106.93719393637139,13.158447545557753,,,
+2025-10-30T00:00:00,COFFEE.c,252,0.72854851495693362,0.49010239050332788,success,253,358.4884187202814,357.50114793229386,false,false,123.50580240683863,22.284053260547189,,,
+2025-10-31T00:00:00,COFFEE.c,252,0.61779644905735676,0.60125789720936862,success,253,358.49421084969561,358.01400513950972,false,false,151.51699009676088,24.516680853425331,,,
+2025-11-03T00:00:00,COFFEE.c,252,0.72828680277602842,0.48215516599759273,success,253,358.49230165383312,357.50635381139244,false,false,121.50310183139337,27.386569015738523,,,
+2025-11-04T00:00:00,COFFEE.c,252,0.74113335498249211,0.47814249652599605,success,253,358.54736133635424,357.49549380601087,false,false,120.491909124551,24.561679290474306,,,
+2025-11-05T00:00:00,COFFEE.c,252,0.74378825622822864,0.47404594751333928,success,253,358.50018887111537,357.43443670534225,false,false,119.4595787733615,25.943881531519398,,,
+2025-11-06T00:00:00,COFFEE.c,252,0.72893486187310719,0.47022717020340499,success,253,358.64400125279599,357.65477603158052,false,false,118.49724689125806,20.871635140788403,,,
+2025-11-07T00:00:00,COFFEE.c,252,0.72127320560829133,0.25593573896410093,success,253,358.6502642625473,357.69947834157892,false,false,64.495806218953433,11.633625795331559,,,
+2025-11-10T00:00:00,COFFEE.c,252,0.61745091591627665,0.40825058212017057,success,253,358.60511016821454,358.12636756070208,false,false,102.87914669428298,14.175263504980547,,,
+2025-11-11T00:00:00,COFFEE.c,252,0.75687003011568132,0.45825588229886138,success,253,358.67498912699119,357.5393937348739,false,false,115.48048233931307,26.875754776416841,,,
+2025-11-12T00:00:00,COFFEE.c,252,0.7126687211506102,0.45443291224370858,success,253,358.73921664194586,357.83083578801512,false,false,114.51709388541457,27.014435935234697,,,
+2025-11-13T00:00:00,COFFEE.c,252,0.71642052015851188,0.45049390008353118,success,253,358.73207189449261,357.80529701732996,false,false,113.52446282104985,24.607883832809279,,,
+2025-11-14T00:00:00,COFFEE.c,252,0.71082726141587627,0.44646789061604342,success,253,358.81747177859296,357.91806655082024,false,false,112.50990843524293,26.370398665575003,,,
+2025-11-17T00:00:00,COFFEE.c,252,0.6981751896059234,0.4424712428551475,success,253,358.8736407752757,358.03501746705149,false,false,111.50275319949716,25.487683515482221,,,
+2025-11-18T00:00:00,COFFEE.c,252,0.63963687029963778,0.45268795309502546,success,253,358.89301328651118,358.3192248780137,false,false,114.07736417994641,1.8816101301886945,,,
+2025-11-19T00:00:00,COFFEE.c,252,0.69767015387864684,0.43453736667626058,success,253,358.90404125408998,358.06781344898388,false,false,109.50341640241767,8.9892207783172733,,,
+2025-11-20T00:00:00,COFFEE.c,252,0.54598229662359588,0.28899237828185725,success,253,358.89701481616595,358.71256445621526,false,false,72.826079327028026,5.1137951010200791,,,
+2025-11-21T00:00:00,COFFEE.c,252,0.96563826800735497,0.055741677092332277,success,253,358.89102389999658,355.55517810275575,false,false,14.046902627267734,0.82140787992383824,,,
+2025-11-24T00:00:00,COFFEE.c,252,0.67182020352504779,0.43588021261463483,success,253,358.91426008234919,358.19783095008722,false,false,109.84181357888798,5.0269544069494021,,,
+2025-11-25T00:00:00,COFFEE.c,252,0.56737249343379592,0.27697211375014957,success,253,358.91436505646055,358.64322610931652,false,false,69.796972665037686,6.1976044738577718,,,
+2025-11-26T00:00:00,COFFEE.c,252,0.89002893119329052,0.4998009263123509,success,253,358.93280818402144,356.84177153521574,false,false,125.94983343071243,0.13476233952727731,,,
+2025-11-28T00:00:00,COFFEE.c,252,0.74045857023132655,0.42468061541430802,success,253,358.93970413056405,357.89135078894293,false,false,107.01951508440563,5.2224431804379323,,,
+2025-12-01T00:00:00,COFFEE.c,252,0.64853888906577062,0.42041396740306491,success,253,358.95100295764371,358.33838005564019,false,false,105.94431978557236,13.689989276854888,,,
+2025-12-02T00:00:00,COFFEE.c,252,0.98031426367057128,0.021531863753867737,success,253,358.83940123646175,354.93142236829414,false,false,5.4260296659746698,0.52118135545152322,,,
+2025-12-03T00:00:00,COFFEE.c,252,0.56137105531388576,0.25713622659517821,success,253,358.90254152936188,358.65581325197036,false,false,64.798329101984905,6.9745173989617335,,,
+2025-12-04T00:00:00,COFFEE.c,252,0.56970799817581697,0.50930270805820632,success,253,358.74926099700042,358.46860110356704,false,false,128.34428243066799,34.789648688324341,,,
+2025-12-05T00:00:00,COFFEE.c,252,0.82648370568418261,0.57176781829318535,success,253,358.98660137619351,357.42569268430952,false,false,144.08549020988272,12.647280051647295,,,
+2025-12-08T00:00:00,COFFEE.c,252,0.76477635323893201,0.6631391282747866,success,253,358.99079092662652,357.81174423417036,false,false,167.11106032524623,13.294209755165248,,,
+2025-12-09T00:00:00,COFFEE.c,252,0.71917646179369565,0.58336607301471866,success,253,358.9914494558883,358.05106919574399,false,false,147.00825039970911,23.677310177282969,,,
+2025-12-10T00:00:00,COFFEE.c,252,0.74692906355720246,0.57938626101664004,success,253,358.99144934445314,357.90914895622518,false,false,146.0053377761933,40.903421290757656,,,
+2025-12-11T00:00:00,COFFEE.c,252,0.83383432190056594,0.46282652144899128,success,253,358.99144934633921,357.37839996997536,false,false,116.6322834051458,0.18675285250401161,,,
+2025-12-12T00:00:00,COFFEE.c,252,0.97804197221821965,0.10322979022510975,success,253,358.99144940551838,355.19502962306126,false,false,26.013907136727656,61.41202394141299,,,
+2025-12-15T00:00:00,COFFEE.c,252,0.84238393234228759,0.30160591616028681,success,253,358.991449650351,357.31537588775075,false,false,76.004690872392274,69.443114776114612,,,
+2025-12-16T00:00:00,COFFEE.c,252,0.7899152031328841,0.28572816570924692,success,253,358.99144947464328,357.66703511656948,false,false,72.003497758730219,82.893555970837113,,,
+2025-12-17T00:00:00,COFFEE.c,252,0.68075932584325705,0.49213987414912647,success,253,358.99144949646075,358.23418594839575,false,false,124.01924828557986,10.596468768888128,,,
+2025-12-18T00:00:00,COFFEE.c,252,0.67141124211039249,0.48814773338173822,success,253,358.99144948105049,358.27687464523785,false,false,123.01322881219804,14.806931148296243,,,
+2025-12-19T00:00:00,COFFEE.c,252,0.69978528872494228,0.55160541127221929,success,253,358.99144942121251,358.14517378652567,false,false,139.00456364059926,39.084889065664768,,,
+2025-12-22T00:00:00,COFFEE.c,252,0.56953654510624729,0.56826318745154714,success,253,358.99144977801245,358.7114892570271,false,false,143.20232323778987,9.8208477824675171,,,
+2025-12-23T00:00:00,COFFEE.c,252,0.68684541553550049,0.61907326047654265,success,253,358.99144951773326,358.20603721330667,false,false,156.00646164008876,28.736281963171791,,,
+2025-12-24T00:00:00,COFFEE.c,252,0.67437868284648661,0.53969733591682578,success,253,358.99144948729241,358.26339279252795,false,false,136.00372865104009,41.592506005814002,,,
+2025-12-26T00:00:00,COFFEE.c,252,0.61938519948347914,0.70637768504805276,success,253,358.99144940226677,358.50450987137071,false,false,178.00717663210929,14.172480056473306,,,
+2025-12-29T00:00:00,COFFEE.c,252,0.62316171245377738,0.51190846878838536,success,253,358.99144937726385,358.48845947153103,false,false,129.00093413467312,113.41140823402331,,,
+2025-12-30T00:00:00,COFFEE.c,252,0.62177608820077379,0.50787713966091697,success,253,358.99144947456847,358.49435581295688,false,false,127.98503919455106,94.973605934318115,,,
+2025-12-31T00:00:00,COFFEE.c,252,0.65631595654673414,0.48778134077012703,success,253,358.99144953812993,358.34452998104052,false,false,122.92089787407201,1.6621482996257664,,,
+2026-01-02T00:00:00,COFFEE.c,252,0.79972848588680479,0.40233026045373543,success,253,358.99144934667169,357.60685108570021,false,false,101.38722563434133,0.18772982922581527,,,
+2026-01-05T00:00:00,COFFEE.c,252,0.64729229496975471,0.47971078495384145,success,253,358.99144956655942,358.38429128726654,false,false,120.88711780836805,1.6748432704056981,,,
+2026-01-06T00:00:00,COFFEE.c,252,0.66507925040820648,0.56130397601427107,success,253,358.99144972749332,358.30543745584754,false,false,141.4486019555963,0.63024104885569487,,,
+2026-01-07T00:00:00,COFFEE.c,252,0.67336222056013517,0.50275187002609933,success,253,358.99144975434677,358.2680182005181,false,false,126.69347124657702,1.6449204043320773,,,
+2026-01-08T00:00:00,COFFEE.c,252,0.80889532210676707,0.38479080084860162,success,253,358.99144975354608,357.54860156628735,false,false,96.967281813847606,0.18177449174786686,,,
+2026-01-09T00:00:00,COFFEE.c,252,0.82484152938560518,0.38041161803123313,success,253,358.99141061341118,357.44191044165223,false,false,95.863727743870754,0.16919631154816583,,,
+2026-01-12T00:00:00,COFFEE.c,252,0.83017796485928508,0.37542258354403529,success,253,358.99105306561694,357.40416400892133,false,false,94.606491053096889,0.16665822989596205,,,
+2026-01-13T00:00:00,COFFEE.c,252,0.66138849435128155,0.54104571852805194,success,253,358.99052972210637,358.3210417667936,false,false,136.34352106906908,0.61382815236185462,,,
+2026-01-14T00:00:00,COFFEE.c,252,0.90703606469809606,0.7579119670124107,success,253,358.99127148678349,356.7133009003266,false,false,190.99381568712749,69.010585208723086,,,
+2026-01-15T00:00:00,COFFEE.c,252,0.67421480580676751,0.49989820083802167,success,253,358.99142683054112,358.26411631809651,false,false,125.97434661118146,14.144212899121444,,,
+2026-01-16T00:00:00,COFFEE.c,252,0.75672910097593238,0.27333038743474758,success,253,358.99078718549868,357.85595748799136,false,false,68.879257633556392,34.489351817706392,,,
+2026-01-20T00:00:00,COFFEE.c,252,0.92760785683562774,0.68650483880788937,success,253,358.98500483938699,356.43449353764674,false,false,172.99921937958811,488.96551390204252,,,
+2026-01-21T00:00:00,COFFEE.c,252,0.93695849756530314,0.68246682156389005,success,253,358.98593507461555,356.28708936454797,false,false,171.98163903410028,23.421188374082966,,,
+2026-01-22T00:00:00,COFFEE.c,252,0.95996051901817547,0.76974049677336409,success,253,358.98593360088432,355.80890743516198,false,false,193.97460518688774,20.446671215423308,,,
+2026-01-23T00:00:00,COFFEE.c,252,0.95919310751656772,0.67459832741545411,success,253,358.98736226073748,355.83012084326822,false,false,169.99877850869444,351.03586299654194,,,
+2026-01-26T00:00:00,COFFEE.c,252,0.99982742749418019,0.8285115588063211,success,253,358.98921847755514,350.32469797874273,false,false,208.78491281919293,0.54828979135916889,,,
+2026-01-27T00:00:00,COFFEE.c,252,0.80256040603517642,0.20090756752380429,success,253,358.73566703262628,357.33329259235279,false,false,50.628707015998678,15.702297221881143,,,
+2026-01-28T00:00:00,COFFEE.c,252,0.99519915727365782,0.80155787436726289,success,253,358.99144957607558,353.6572981713735,false,false,201.99258434055025,103.3658193848941,,,
+2026-01-29T00:00:00,COFFEE.c,252,0.79619579898488146,0.10708611486366817,success,253,358.99144931958546,357.6287639193614,false,false,26.985700945644378,27.229031481637524,,,
+2026-01-30T00:00:00,COFFEE.c,252,0.83411343597705734,0.23807412449479157,success,253,358.99115299687242,357.37608779490944,false,false,59.994679372687472,55.889915982471024,,,
+2026-02-02T00:00:00,COFFEE.c,252,0.82691040852233888,0.234120786212966,success,253,358.99144955711324,357.42756253132535,false,false,58.998438125667434,201.76169536113318,,,
+2026-02-03T00:00:00,COFFEE.c,252,0.67832566586875742,0.48575734689908578,success,253,358.99144963255407,358.24536177586117,false,false,122.41085141856962,0.567172163249971,,,
+2026-02-04T00:00:00,COFFEE.c,252,0.67749189659380826,0.48166082035268304,success,253,358.99131756688331,358.24904823770919,false,false,121.37852672887612,0.56425996497185427,,,
+2026-02-05T00:00:00,COFFEE.c,252,0.67645861739824653,0.47758820384914191,success,253,358.9909388213581,358.25339457448842,false,false,120.35222736998377,0.56765541488758409,,,
+2026-02-06T00:00:00,COFFEE.c,252,0.68279688802252647,0.33851129310676842,success,253,358.68576557069252,357.91911043793965,false,false,85.304845862905637,39.116473644744559,,,
+2026-02-09T00:00:00,COFFEE.c,252,0.68481844537405545,0.4699763147558168,success,253,358.99144962089622,358.21544469769736,false,false,118.43403131846584,0.56795622225544273,,,
+2026-02-10T00:00:00,COFFEE.c,252,0.66695149634926099,0.56713127152091369,success,253,358.99144963589055,358.29702044771801,false,false,142.91708042327025,1.0062894625586172,,,
+2026-02-11T00:00:00,COFFEE.c,252,0.57848704624247294,0.50329822074340236,success,253,358.99144943614954,358.67488379123199,false,false,126.83115162733741,2.4544570197721924,,,
+2026-02-12T00:00:00,COFFEE.c,252,0.79568567347245545,0.20828264984845141,success,253,358.81650501530322,357.45696041433399,false,false,52.487227761809756,21.182621397809466,,,
+2026-02-13T00:00:00,COFFEE.c,252,0.73826244948902275,0.16574042434892827,success,253,358.78005477032127,357.74309767242744,false,false,41.766586935929922,6.4846285063386544,,,
+2026-02-17T00:00:00,COFFEE.c,252,0.79607756003326324,0.46259753611735399,success,253,358.75468463503495,357.39272774201936,false,false,116.57457910157321,14.624443937051101,,,
+2026-02-18T00:00:00,COFFEE.c,252,0.73004138896340021,0.60123409775565528,success,253,358.76065197870929,357.76581940375479,false,false,151.51099263442512,25.156444239642802,,,
+2026-02-19T00:00:00,COFFEE.c,252,0.70025087300706512,0.51435818514354503,success,253,358.79018609806462,357.94169331867027,false,false,129.61826265617336,8.8245527848537151,,,
+2026-02-20T00:00:00,COFFEE.c,252,0.71462684871763005,0.65522733029198665,success,253,358.77876079606335,357.8607979061311,false,false,165.11728723358064,12.32326933640028,,,

@@ -1,0 +1,732 @@
+timestamp,asset_id,lbw,nu,gamma,status,window_size,nlml_baseline,nlml_changepoint,retry_used,fallback_used,location_c,steepness_s,fallback_source_timestamp,failure_stage,failure_message
+2023-03-27T00:00:00,WHEAT.c,252,,,invalid_window,1,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 1"
+2023-03-28T00:00:00,WHEAT.c,252,,,invalid_window,2,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 2"
+2023-03-29T00:00:00,WHEAT.c,252,,,invalid_window,3,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 3"
+2023-03-30T00:00:00,WHEAT.c,252,,,invalid_window,4,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 4"
+2023-03-31T00:00:00,WHEAT.c,252,,,invalid_window,5,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 5"
+2023-04-03T00:00:00,WHEAT.c,252,,,invalid_window,6,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 6"
+2023-04-04T00:00:00,WHEAT.c,252,,,invalid_window,7,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 7"
+2023-04-05T00:00:00,WHEAT.c,252,,,invalid_window,8,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 8"
+2023-04-06T00:00:00,WHEAT.c,252,,,invalid_window,9,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 9"
+2023-04-10T00:00:00,WHEAT.c,252,,,invalid_window,10,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 10"
+2023-04-11T00:00:00,WHEAT.c,252,,,invalid_window,11,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 11"
+2023-04-12T00:00:00,WHEAT.c,252,,,invalid_window,12,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 12"
+2023-04-13T00:00:00,WHEAT.c,252,,,invalid_window,13,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 13"
+2023-04-14T00:00:00,WHEAT.c,252,,,invalid_window,14,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 14"
+2023-04-17T00:00:00,WHEAT.c,252,,,invalid_window,15,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 15"
+2023-04-18T00:00:00,WHEAT.c,252,,,invalid_window,16,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 16"
+2023-04-19T00:00:00,WHEAT.c,252,,,invalid_window,17,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 17"
+2023-04-20T00:00:00,WHEAT.c,252,,,invalid_window,18,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 18"
+2023-04-21T00:00:00,WHEAT.c,252,,,invalid_window,19,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 19"
+2023-04-24T00:00:00,WHEAT.c,252,,,invalid_window,20,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 20"
+2023-04-25T00:00:00,WHEAT.c,252,,,invalid_window,21,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 21"
+2023-04-26T00:00:00,WHEAT.c,252,,,invalid_window,22,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 22"
+2023-04-27T00:00:00,WHEAT.c,252,,,invalid_window,23,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 23"
+2023-04-28T00:00:00,WHEAT.c,252,,,invalid_window,24,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 24"
+2023-05-01T00:00:00,WHEAT.c,252,,,invalid_window,25,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 25"
+2023-05-02T00:00:00,WHEAT.c,252,,,invalid_window,26,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 26"
+2023-05-03T00:00:00,WHEAT.c,252,,,invalid_window,27,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 27"
+2023-05-04T00:00:00,WHEAT.c,252,,,invalid_window,28,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 28"
+2023-05-05T00:00:00,WHEAT.c,252,,,invalid_window,29,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 29"
+2023-05-08T00:00:00,WHEAT.c,252,,,invalid_window,30,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 30"
+2023-05-09T00:00:00,WHEAT.c,252,,,invalid_window,31,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 31"
+2023-05-10T00:00:00,WHEAT.c,252,,,invalid_window,32,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 32"
+2023-05-11T00:00:00,WHEAT.c,252,,,invalid_window,33,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 33"
+2023-05-12T00:00:00,WHEAT.c,252,,,invalid_window,34,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 34"
+2023-05-15T00:00:00,WHEAT.c,252,,,invalid_window,35,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 35"
+2023-05-16T00:00:00,WHEAT.c,252,,,invalid_window,36,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 36"
+2023-05-17T00:00:00,WHEAT.c,252,,,invalid_window,37,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 37"
+2023-05-18T00:00:00,WHEAT.c,252,,,invalid_window,38,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 38"
+2023-05-19T00:00:00,WHEAT.c,252,,,invalid_window,39,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 39"
+2023-05-22T00:00:00,WHEAT.c,252,,,invalid_window,40,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 40"
+2023-05-23T00:00:00,WHEAT.c,252,,,invalid_window,41,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 41"
+2023-05-24T00:00:00,WHEAT.c,252,,,invalid_window,42,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 42"
+2023-05-25T00:00:00,WHEAT.c,252,,,invalid_window,43,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 43"
+2023-05-26T00:00:00,WHEAT.c,252,,,invalid_window,44,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 44"
+2023-05-30T00:00:00,WHEAT.c,252,,,invalid_window,45,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 45"
+2023-05-31T00:00:00,WHEAT.c,252,,,invalid_window,46,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 46"
+2023-06-01T00:00:00,WHEAT.c,252,,,invalid_window,47,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 47"
+2023-06-02T00:00:00,WHEAT.c,252,,,invalid_window,48,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 48"
+2023-06-05T00:00:00,WHEAT.c,252,,,invalid_window,49,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 49"
+2023-06-06T00:00:00,WHEAT.c,252,,,invalid_window,50,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 50"
+2023-06-07T00:00:00,WHEAT.c,252,,,invalid_window,51,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 51"
+2023-06-08T00:00:00,WHEAT.c,252,,,invalid_window,52,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 52"
+2023-06-09T00:00:00,WHEAT.c,252,,,invalid_window,53,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 53"
+2023-06-12T00:00:00,WHEAT.c,252,,,invalid_window,54,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 54"
+2023-06-13T00:00:00,WHEAT.c,252,,,invalid_window,55,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 55"
+2023-06-14T00:00:00,WHEAT.c,252,,,invalid_window,56,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 56"
+2023-06-15T00:00:00,WHEAT.c,252,,,invalid_window,57,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 57"
+2023-06-16T00:00:00,WHEAT.c,252,,,invalid_window,58,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 58"
+2023-06-20T00:00:00,WHEAT.c,252,,,invalid_window,59,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 59"
+2023-06-21T00:00:00,WHEAT.c,252,,,invalid_window,60,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 60"
+2023-06-22T00:00:00,WHEAT.c,252,,,invalid_window,61,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 61"
+2023-06-23T00:00:00,WHEAT.c,252,,,invalid_window,62,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 62"
+2023-06-26T00:00:00,WHEAT.c,252,,,invalid_window,63,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 63"
+2023-06-27T00:00:00,WHEAT.c,252,,,invalid_window,64,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 64"
+2023-06-28T00:00:00,WHEAT.c,252,,,invalid_window,65,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 65"
+2023-06-29T00:00:00,WHEAT.c,252,,,invalid_window,66,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 66"
+2023-06-30T00:00:00,WHEAT.c,252,,,invalid_window,67,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 67"
+2023-07-03T00:00:00,WHEAT.c,252,,,invalid_window,68,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 68"
+2023-07-05T00:00:00,WHEAT.c,252,,,invalid_window,69,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 69"
+2023-07-06T00:00:00,WHEAT.c,252,,,invalid_window,70,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 70"
+2023-07-07T00:00:00,WHEAT.c,252,,,invalid_window,71,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 71"
+2023-07-10T00:00:00,WHEAT.c,252,,,invalid_window,72,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 72"
+2023-07-11T00:00:00,WHEAT.c,252,,,invalid_window,73,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 73"
+2023-07-12T00:00:00,WHEAT.c,252,,,invalid_window,74,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 74"
+2023-07-13T00:00:00,WHEAT.c,252,,,invalid_window,75,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 75"
+2023-07-14T00:00:00,WHEAT.c,252,,,invalid_window,76,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 76"
+2023-07-17T00:00:00,WHEAT.c,252,,,invalid_window,77,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 77"
+2023-07-18T00:00:00,WHEAT.c,252,,,invalid_window,78,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 78"
+2023-07-19T00:00:00,WHEAT.c,252,,,invalid_window,79,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 79"
+2023-07-20T00:00:00,WHEAT.c,252,,,invalid_window,80,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 80"
+2023-07-21T00:00:00,WHEAT.c,252,,,invalid_window,81,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 81"
+2023-07-24T00:00:00,WHEAT.c,252,,,invalid_window,82,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 82"
+2023-07-25T00:00:00,WHEAT.c,252,,,invalid_window,83,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 83"
+2023-07-26T00:00:00,WHEAT.c,252,,,invalid_window,84,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 84"
+2023-07-27T00:00:00,WHEAT.c,252,,,invalid_window,85,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 85"
+2023-07-28T00:00:00,WHEAT.c,252,,,invalid_window,86,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 86"
+2023-07-31T00:00:00,WHEAT.c,252,,,invalid_window,87,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 87"
+2023-08-01T00:00:00,WHEAT.c,252,,,invalid_window,88,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 88"
+2023-08-02T00:00:00,WHEAT.c,252,,,invalid_window,89,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 89"
+2023-08-03T00:00:00,WHEAT.c,252,,,invalid_window,90,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 90"
+2023-08-04T00:00:00,WHEAT.c,252,,,invalid_window,91,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 91"
+2023-08-07T00:00:00,WHEAT.c,252,,,invalid_window,92,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 92"
+2023-08-08T00:00:00,WHEAT.c,252,,,invalid_window,93,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 93"
+2023-08-09T00:00:00,WHEAT.c,252,,,invalid_window,94,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 94"
+2023-08-10T00:00:00,WHEAT.c,252,,,invalid_window,95,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 95"
+2023-08-11T00:00:00,WHEAT.c,252,,,invalid_window,96,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 96"
+2023-08-14T00:00:00,WHEAT.c,252,,,invalid_window,97,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 97"
+2023-08-15T00:00:00,WHEAT.c,252,,,invalid_window,98,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 98"
+2023-08-16T00:00:00,WHEAT.c,252,,,invalid_window,99,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 99"
+2023-08-17T00:00:00,WHEAT.c,252,,,invalid_window,100,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 100"
+2023-08-18T00:00:00,WHEAT.c,252,,,invalid_window,101,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 101"
+2023-08-21T00:00:00,WHEAT.c,252,,,invalid_window,102,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 102"
+2023-08-22T00:00:00,WHEAT.c,252,,,invalid_window,103,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 103"
+2023-08-23T00:00:00,WHEAT.c,252,,,invalid_window,104,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 104"
+2023-08-24T00:00:00,WHEAT.c,252,,,invalid_window,105,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 105"
+2023-08-25T00:00:00,WHEAT.c,252,,,invalid_window,106,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 106"
+2023-08-28T00:00:00,WHEAT.c,252,,,invalid_window,107,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 107"
+2023-08-29T00:00:00,WHEAT.c,252,,,invalid_window,108,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 108"
+2023-08-30T00:00:00,WHEAT.c,252,,,invalid_window,109,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 109"
+2023-08-31T00:00:00,WHEAT.c,252,,,invalid_window,110,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 110"
+2023-09-01T00:00:00,WHEAT.c,252,,,invalid_window,111,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 111"
+2023-09-05T00:00:00,WHEAT.c,252,,,invalid_window,112,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 112"
+2023-09-06T00:00:00,WHEAT.c,252,,,invalid_window,113,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 113"
+2023-09-07T00:00:00,WHEAT.c,252,,,invalid_window,114,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 114"
+2023-09-08T00:00:00,WHEAT.c,252,,,invalid_window,115,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 115"
+2023-09-11T00:00:00,WHEAT.c,252,,,invalid_window,116,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 116"
+2023-09-12T00:00:00,WHEAT.c,252,,,invalid_window,117,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 117"
+2023-09-13T00:00:00,WHEAT.c,252,,,invalid_window,118,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 118"
+2023-09-14T00:00:00,WHEAT.c,252,,,invalid_window,119,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 119"
+2023-09-15T00:00:00,WHEAT.c,252,,,invalid_window,120,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 120"
+2023-09-18T00:00:00,WHEAT.c,252,,,invalid_window,121,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 121"
+2023-09-19T00:00:00,WHEAT.c,252,,,invalid_window,122,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 122"
+2023-09-20T00:00:00,WHEAT.c,252,,,invalid_window,123,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 123"
+2023-09-21T00:00:00,WHEAT.c,252,,,invalid_window,124,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 124"
+2023-09-22T00:00:00,WHEAT.c,252,,,invalid_window,125,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 125"
+2023-09-25T00:00:00,WHEAT.c,252,,,invalid_window,126,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 126"
+2023-09-26T00:00:00,WHEAT.c,252,,,invalid_window,127,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 127"
+2023-09-27T00:00:00,WHEAT.c,252,,,invalid_window,128,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 128"
+2023-09-28T00:00:00,WHEAT.c,252,,,invalid_window,129,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 129"
+2023-09-29T00:00:00,WHEAT.c,252,,,invalid_window,130,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 130"
+2023-10-02T00:00:00,WHEAT.c,252,,,invalid_window,131,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 131"
+2023-10-03T00:00:00,WHEAT.c,252,,,invalid_window,132,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 132"
+2023-10-04T00:00:00,WHEAT.c,252,,,invalid_window,133,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 133"
+2023-10-05T00:00:00,WHEAT.c,252,,,invalid_window,134,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 134"
+2023-10-06T00:00:00,WHEAT.c,252,,,invalid_window,135,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 135"
+2023-10-09T00:00:00,WHEAT.c,252,,,invalid_window,136,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 136"
+2023-10-10T00:00:00,WHEAT.c,252,,,invalid_window,137,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 137"
+2023-10-11T00:00:00,WHEAT.c,252,,,invalid_window,138,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 138"
+2023-10-12T00:00:00,WHEAT.c,252,,,invalid_window,139,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 139"
+2023-10-13T00:00:00,WHEAT.c,252,,,invalid_window,140,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 140"
+2023-10-16T00:00:00,WHEAT.c,252,,,invalid_window,141,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 141"
+2023-10-17T00:00:00,WHEAT.c,252,,,invalid_window,142,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 142"
+2023-10-18T00:00:00,WHEAT.c,252,,,invalid_window,143,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 143"
+2023-10-19T00:00:00,WHEAT.c,252,,,invalid_window,144,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 144"
+2023-10-20T00:00:00,WHEAT.c,252,,,invalid_window,145,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 145"
+2023-10-23T00:00:00,WHEAT.c,252,,,invalid_window,146,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 146"
+2023-10-24T00:00:00,WHEAT.c,252,,,invalid_window,147,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 147"
+2023-10-25T00:00:00,WHEAT.c,252,,,invalid_window,148,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 148"
+2023-10-26T00:00:00,WHEAT.c,252,,,invalid_window,149,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 149"
+2023-10-27T00:00:00,WHEAT.c,252,,,invalid_window,150,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 150"
+2023-10-30T00:00:00,WHEAT.c,252,,,invalid_window,151,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 151"
+2023-10-31T00:00:00,WHEAT.c,252,,,invalid_window,152,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 152"
+2023-11-01T00:00:00,WHEAT.c,252,,,invalid_window,153,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 153"
+2023-11-02T00:00:00,WHEAT.c,252,,,invalid_window,154,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 154"
+2023-11-03T00:00:00,WHEAT.c,252,,,invalid_window,155,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 155"
+2023-11-06T00:00:00,WHEAT.c,252,,,invalid_window,156,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 156"
+2023-11-07T00:00:00,WHEAT.c,252,,,invalid_window,157,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 157"
+2023-11-08T00:00:00,WHEAT.c,252,,,invalid_window,158,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 158"
+2023-11-09T00:00:00,WHEAT.c,252,,,invalid_window,159,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 159"
+2023-11-10T00:00:00,WHEAT.c,252,,,invalid_window,160,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 160"
+2023-11-13T00:00:00,WHEAT.c,252,,,invalid_window,161,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 161"
+2023-11-14T00:00:00,WHEAT.c,252,,,invalid_window,162,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 162"
+2023-11-15T00:00:00,WHEAT.c,252,,,invalid_window,163,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 163"
+2023-11-16T00:00:00,WHEAT.c,252,,,invalid_window,164,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 164"
+2023-11-17T00:00:00,WHEAT.c,252,,,invalid_window,165,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 165"
+2023-11-20T00:00:00,WHEAT.c,252,,,invalid_window,166,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 166"
+2023-11-21T00:00:00,WHEAT.c,252,,,invalid_window,167,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 167"
+2023-11-22T00:00:00,WHEAT.c,252,,,invalid_window,168,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 168"
+2023-11-24T00:00:00,WHEAT.c,252,,,invalid_window,169,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 169"
+2023-11-27T00:00:00,WHEAT.c,252,,,invalid_window,170,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 170"
+2023-11-28T00:00:00,WHEAT.c,252,,,invalid_window,171,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 171"
+2023-11-29T00:00:00,WHEAT.c,252,,,invalid_window,172,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 172"
+2023-11-30T00:00:00,WHEAT.c,252,,,invalid_window,173,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 173"
+2023-12-01T00:00:00,WHEAT.c,252,,,invalid_window,174,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 174"
+2023-12-04T00:00:00,WHEAT.c,252,,,invalid_window,175,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 175"
+2023-12-05T00:00:00,WHEAT.c,252,,,invalid_window,176,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 176"
+2023-12-06T00:00:00,WHEAT.c,252,,,invalid_window,177,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 177"
+2023-12-07T00:00:00,WHEAT.c,252,,,invalid_window,178,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 178"
+2023-12-08T00:00:00,WHEAT.c,252,,,invalid_window,179,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 179"
+2023-12-11T00:00:00,WHEAT.c,252,,,invalid_window,180,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 180"
+2023-12-12T00:00:00,WHEAT.c,252,,,invalid_window,181,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 181"
+2023-12-13T00:00:00,WHEAT.c,252,,,invalid_window,182,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 182"
+2023-12-14T00:00:00,WHEAT.c,252,,,invalid_window,183,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 183"
+2023-12-15T00:00:00,WHEAT.c,252,,,invalid_window,184,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 184"
+2023-12-18T00:00:00,WHEAT.c,252,,,invalid_window,185,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 185"
+2023-12-19T00:00:00,WHEAT.c,252,,,invalid_window,186,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 186"
+2023-12-20T00:00:00,WHEAT.c,252,,,invalid_window,187,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 187"
+2023-12-21T00:00:00,WHEAT.c,252,,,invalid_window,188,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 188"
+2023-12-22T00:00:00,WHEAT.c,252,,,invalid_window,189,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 189"
+2023-12-26T00:00:00,WHEAT.c,252,,,invalid_window,190,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 190"
+2023-12-27T00:00:00,WHEAT.c,252,,,invalid_window,191,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 191"
+2023-12-28T00:00:00,WHEAT.c,252,,,invalid_window,192,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 192"
+2023-12-29T00:00:00,WHEAT.c,252,,,invalid_window,193,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 193"
+2024-01-02T00:00:00,WHEAT.c,252,,,invalid_window,194,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 194"
+2024-01-03T00:00:00,WHEAT.c,252,,,invalid_window,195,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 195"
+2024-01-04T00:00:00,WHEAT.c,252,,,invalid_window,196,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 196"
+2024-01-05T00:00:00,WHEAT.c,252,,,invalid_window,197,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 197"
+2024-01-08T00:00:00,WHEAT.c,252,,,invalid_window,198,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 198"
+2024-01-09T00:00:00,WHEAT.c,252,,,invalid_window,199,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 199"
+2024-01-10T00:00:00,WHEAT.c,252,,,invalid_window,200,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 200"
+2024-01-11T00:00:00,WHEAT.c,252,,,invalid_window,201,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 201"
+2024-01-12T00:00:00,WHEAT.c,252,,,invalid_window,202,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 202"
+2024-01-16T00:00:00,WHEAT.c,252,,,invalid_window,203,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 203"
+2024-01-17T00:00:00,WHEAT.c,252,,,invalid_window,204,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 204"
+2024-01-18T00:00:00,WHEAT.c,252,,,invalid_window,205,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 205"
+2024-01-19T00:00:00,WHEAT.c,252,,,invalid_window,206,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 206"
+2024-01-22T00:00:00,WHEAT.c,252,,,invalid_window,207,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 207"
+2024-01-23T00:00:00,WHEAT.c,252,,,invalid_window,208,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 208"
+2024-01-24T00:00:00,WHEAT.c,252,,,invalid_window,209,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 209"
+2024-01-25T00:00:00,WHEAT.c,252,,,invalid_window,210,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 210"
+2024-01-26T00:00:00,WHEAT.c,252,,,invalid_window,211,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 211"
+2024-01-29T00:00:00,WHEAT.c,252,,,invalid_window,212,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 212"
+2024-01-30T00:00:00,WHEAT.c,252,,,invalid_window,213,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 213"
+2024-01-31T00:00:00,WHEAT.c,252,,,invalid_window,214,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 214"
+2024-02-01T00:00:00,WHEAT.c,252,,,invalid_window,215,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 215"
+2024-02-02T00:00:00,WHEAT.c,252,,,invalid_window,216,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 216"
+2024-02-05T00:00:00,WHEAT.c,252,,,invalid_window,217,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 217"
+2024-02-06T00:00:00,WHEAT.c,252,,,invalid_window,218,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 218"
+2024-02-07T00:00:00,WHEAT.c,252,,,invalid_window,219,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 219"
+2024-02-08T00:00:00,WHEAT.c,252,,,invalid_window,220,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 220"
+2024-02-09T00:00:00,WHEAT.c,252,,,invalid_window,221,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 221"
+2024-02-12T00:00:00,WHEAT.c,252,,,invalid_window,222,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 222"
+2024-02-13T00:00:00,WHEAT.c,252,,,invalid_window,223,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 223"
+2024-02-14T00:00:00,WHEAT.c,252,,,invalid_window,224,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 224"
+2024-02-15T00:00:00,WHEAT.c,252,,,invalid_window,225,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 225"
+2024-02-16T00:00:00,WHEAT.c,252,,,invalid_window,226,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 226"
+2024-02-20T00:00:00,WHEAT.c,252,,,invalid_window,227,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 227"
+2024-02-21T00:00:00,WHEAT.c,252,,,invalid_window,228,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 228"
+2024-02-22T00:00:00,WHEAT.c,252,,,invalid_window,229,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 229"
+2024-02-23T00:00:00,WHEAT.c,252,,,invalid_window,230,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 230"
+2024-02-26T00:00:00,WHEAT.c,252,,,invalid_window,231,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 231"
+2024-02-27T00:00:00,WHEAT.c,252,,,invalid_window,232,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 232"
+2024-02-28T00:00:00,WHEAT.c,252,,,invalid_window,233,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 233"
+2024-02-29T00:00:00,WHEAT.c,252,,,invalid_window,234,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 234"
+2024-03-01T00:00:00,WHEAT.c,252,,,invalid_window,235,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 235"
+2024-03-04T00:00:00,WHEAT.c,252,,,invalid_window,236,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 236"
+2024-03-05T00:00:00,WHEAT.c,252,,,invalid_window,237,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 237"
+2024-03-06T00:00:00,WHEAT.c,252,,,invalid_window,238,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 238"
+2024-03-07T00:00:00,WHEAT.c,252,,,invalid_window,239,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 239"
+2024-03-08T00:00:00,WHEAT.c,252,,,invalid_window,240,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 240"
+2024-03-11T00:00:00,WHEAT.c,252,,,invalid_window,241,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 241"
+2024-03-12T00:00:00,WHEAT.c,252,,,invalid_window,242,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 242"
+2024-03-13T00:00:00,WHEAT.c,252,,,invalid_window,243,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 243"
+2024-03-14T00:00:00,WHEAT.c,252,,,invalid_window,244,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 244"
+2024-03-15T00:00:00,WHEAT.c,252,,,invalid_window,245,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 245"
+2024-03-18T00:00:00,WHEAT.c,252,,,invalid_window,246,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 246"
+2024-03-19T00:00:00,WHEAT.c,252,,,invalid_window,247,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 247"
+2024-03-20T00:00:00,WHEAT.c,252,,,invalid_window,248,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 248"
+2024-03-21T00:00:00,WHEAT.c,252,,,invalid_window,249,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 249"
+2024-03-22T00:00:00,WHEAT.c,252,,,invalid_window,250,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 250"
+2024-03-25T00:00:00,WHEAT.c,252,,,invalid_window,251,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 251"
+2024-03-26T00:00:00,WHEAT.c,252,,,invalid_window,252,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 252"
+2024-03-27T00:00:00,WHEAT.c,252,,,invalid_window,253,,,false,false,,,,window_standardization,window returns must be finite
+2024-03-28T00:00:00,WHEAT.c,252,0.8378245714845971,0.27614139147320654,success,253,358.99144952367129,357.3493194284062,false,false,69.587630651248048,2.1374187085538185,,,
+2024-04-01T00:00:00,WHEAT.c,252,0.84076889157354429,0.27207174290696129,success,253,358.99145019049928,357.32749002923532,false,false,68.562079212554238,2.1308265336728844,,,
+2024-04-02T00:00:00,WHEAT.c,252,0.99987584961353415,0.33308783833601174,success,253,358.99144947995387,349.99755670492755,false,false,83.938135260674954,13.679183403069116,,,
+2024-04-03T00:00:00,WHEAT.c,252,0.99015273881138477,0.73843898006445063,success,253,358.99144945066217,354.38078360240922,false,false,186.08662297624156,11.553630001696709,,,
+2024-04-04T00:00:00,WHEAT.c,252,0.99424621820806847,0.71239522116934362,success,253,358.99144924527099,353.83932170641549,false,false,179.52359573467459,1.7401581111187758,,,
+2024-04-05T00:00:00,WHEAT.c,252,0.99435188221936399,0.70842709339527798,success,253,358.99145610741135,353.82068731062884,false,false,178.52362753561005,1.7180389775348139,,,
+2024-04-08T00:00:00,WHEAT.c,252,0.99688233266297099,0.76178122272144844,success,253,358.99145615698166,353.22390848919093,false,false,191.96886812580502,23.641523686641548,,,
+2024-04-09T00:00:00,WHEAT.c,252,0.99651532563322254,0.70042006896417208,success,253,358.99144975427623,353.33555983661279,false,false,176.50585737897137,1.7434535343232385,,,
+2024-04-10T00:00:00,WHEAT.c,252,0.99994019644130161,0.49598630233833418,success,253,358.99144945720479,349.26706387378039,false,false,124.98854818926021,69.047103972898753,,,
+2024-04-11T00:00:00,WHEAT.c,252,0.99995650167566252,0.49205148372630814,success,253,358.99145614838517,348.94871150606588,false,false,123.99697389902965,264.40267050630013,,,
+2024-04-12T00:00:00,WHEAT.c,252,0.99996769234671623,0.48806908410921396,success,253,358.99144943129301,348.65127532743765,false,false,122.99340919552192,122.86137174938247,,,
+2024-04-15T00:00:00,WHEAT.c,252,0.99997655990256507,0.48312144896817588,success,253,358.99144943289912,348.33041043678327,false,false,121.74660513998032,13.197539034487351,,,
+2024-04-16T00:00:00,WHEAT.c,252,0.99998448423881214,0.48011739698744588,success,253,358.99144934915859,347.91781066518996,false,false,120.98958404083636,80.343301855209248,,,
+2024-04-17T00:00:00,WHEAT.c,252,0.99998302884644352,0.4761482023736251,success,253,358.99145613877306,348.00747760525741,false,false,119.98934699815352,78.343155806107433,,,
+2024-04-18T00:00:00,WHEAT.c,252,0.99998735470168554,0.47219260108616551,success,253,358.99145571400362,347.71324327275738,false,false,118.9925354737137,113.01503902097099,,,
+2024-04-19T00:00:00,WHEAT.c,252,0.99998447782858191,0.46719513847106869,success,253,358.99145005140798,347.91822443166495,false,false,117.73317489470931,12.086474961412511,,,
+2024-04-22T00:00:00,WHEAT.c,252,0.99996944393925147,0.46425219407001206,success,253,358.99144955620039,348.59553260854085,false,false,116.99155290564303,95.618425116187538,,,
+2024-04-23T00:00:00,WHEAT.c,252,0.99996763928317223,0.46030739643629387,success,253,358.98602739971409,348.64749444659884,false,false,115.99746390194605,303.33445088594073,,,
+2024-04-24T00:00:00,WHEAT.c,252,0.99997169619201953,0.45634397663650444,success,253,358.97790052145683,348.50541462091678,false,false,114.99868211239912,565.57193193959949,,,
+2024-04-25T00:00:00,WHEAT.c,252,0.99997855419244552,0.45237382988883101,success,253,358.97438312212819,348.22442318446667,false,false,113.99820513198542,409.31259564620518,,,
+2024-04-26T00:00:00,WHEAT.c,252,0.99999804170945406,0.26614433329015347,success,253,358.97594877731819,345.83251209995075,false,false,67.068371989118674,1.6084192087575815,,,
+2024-04-29T00:00:00,WHEAT.c,252,0.99998182853504669,0.46301813251832219,success,253,358.98485856874225,348.06921868641001,false,false,116.68056939461719,0.44849421724162369,,,
+2024-04-30T00:00:00,WHEAT.c,252,0.9999976779556401,0.32683039666881575,success,253,358.98052041930168,346.00746017069463,false,false,82.361259960541574,0.21152940064960238,,,
+2024-05-01T00:00:00,WHEAT.c,252,0.99999061437982695,0.4547729959322559,success,253,358.9770471500135,347.40072472687865,false,false,114.60279497492849,0.44940918329975343,,,
+2024-05-02T00:00:00,WHEAT.c,252,0.99959602260270874,0.63332662087048675,success,253,358.98458972890575,351.17084215905646,false,false,159.59830845936267,1.8883789917429306,,,
+2024-05-03T00:00:00,WHEAT.c,252,0.99715301697242686,0.59413396618104986,success,253,358.96086846316609,353.10222407434139,false,false,149.72175947762457,2.3149713102926102,,,
+2024-05-06T00:00:00,WHEAT.c,252,0.99997174209141582,0.44306484643143002,success,253,358.91312689259331,348.43901796123362,false,false,111.65234130072037,0.43703339940915426,,,
+2024-05-07T00:00:00,WHEAT.c,252,0.99997985164920056,0.43896289256252696,success,253,358.92866295746313,348.11629498692008,false,false,110.6186489257568,0.4353357084509652,,,
+2024-05-08T00:00:00,WHEAT.c,252,0.99999837532333535,0.23430110560933465,success,253,358.91822348499602,345.58802337208255,false,false,59.04387861355233,1.5270163470685676,,,
+2024-05-09T00:00:00,WHEAT.c,252,0.99999741527249264,0.28444493456668613,success,253,358.92692257698189,346.06103469316037,false,false,71.680123510804904,3.3392367689028619,,,
+2024-05-10T00:00:00,WHEAT.c,252,0.99998407783657817,0.40935416752302162,success,253,358.92214711972878,347.87436454857419,false,false,103.15725021580145,2.2874297080540291,,,
+2024-05-13T00:00:00,WHEAT.c,252,0.99989946117342909,0.66271923282856571,success,253,358.82664549973106,349.62177947257749,false,false,167.00524667279856,1.4601574236854258,,,
+2024-05-14T00:00:00,WHEAT.c,252,0.99893851524310384,0.6023421180764752,success,253,358.86243917146584,352.01541458310663,false,false,151.79021375527174,1.3910426766210719,,,
+2024-05-15T00:00:00,WHEAT.c,252,0.99925753613870416,0.59865454548164543,success,253,358.88126562159619,351.67647200109298,false,false,150.86094546137465,1.2426090957324407,,,
+2024-05-16T00:00:00,WHEAT.c,252,0.99998353397695616,0.39355796830154166,success,253,358.81328291355294,347.79908787009742,false,false,99.176608011988492,2.2469956204237262,,,
+2024-05-17T00:00:00,WHEAT.c,252,0.99998587962414809,0.38958086535805075,success,253,358.86068328681512,347.69280569944272,false,false,98.174378070228784,2.2448584664665669,,,
+2024-05-20T00:00:00,WHEAT.c,252,0.99988682210547231,0.44290925077398724,success,253,358.9616141926868,349.87517768769902,false,false,111.61313119504479,0.023918501336876185,,,
+2024-05-21T00:00:00,WHEAT.c,252,0.9999267204537915,0.38195074560970799,success,253,358.9315378182464,349.41038207029192,false,false,96.251587893646416,2.055142922443062,,,
+2024-05-22T00:00:00,WHEAT.c,252,0.99998983891421767,0.24867455914332687,success,253,358.93612292537119,347.43918783332015,false,false,62.665988904118372,3.014710718152287,,,
+2024-05-23T00:00:00,WHEAT.c,252,0.9999980533970988,0.19105800690866517,success,253,358.9386206087317,345.78919774875385,false,false,48.146617740983622,1.3062866928336427,,,
+2024-05-24T00:00:00,WHEAT.c,252,0.99999655789803965,0.25014434178369088,success,253,358.89983355536327,346.32040875928766,false,false,63.036374129490099,0.1838500322031317,,,
+2024-05-28T00:00:00,WHEAT.c,252,0.99999861903418574,0.18310351631334063,success,253,358.89536110911445,345.4026350517945,false,false,46.142086110961834,1.2651715126424552,,,
+2024-05-29T00:00:00,WHEAT.c,252,0.99999914352171448,0.17888334825631422,success,253,358.89907583135829,344.92863981574845,false,false,45.078603760591186,1.2691524065421675,,,
+2024-05-30T00:00:00,WHEAT.c,252,0.9999973202211131,0.2287212973172163,success,253,358.83042283488913,346.00064924292332,false,false,57.637766923938507,3.0653206864931377,,,
+2024-05-31T00:00:00,WHEAT.c,252,0.99998546859601178,0.51591525059562737,success,253,358.82334265637473,347.68415872968234,false,false,130.0106431500981,0.020713397675807859,,,
+2024-06-03T00:00:00,WHEAT.c,252,0.99998859434400955,0.38637771654343667,success,253,358.82593084566099,347.44454106529594,false,false,97.367184568946044,0.11069547735332798,,,
+2024-06-04T00:00:00,WHEAT.c,252,0.99998766117132931,0.38276628663421836,success,253,358.84270221914181,347.53995509271073,false,false,96.457104231823024,0.11089708086130717,,,
+2024-06-05T00:00:00,WHEAT.c,252,0.99999953609456949,0.15830973019901479,success,253,358.81444453941003,344.23085988419729,false,false,39.894052010151725,1.2848478406291677,,,
+2024-06-06T00:00:00,WHEAT.c,252,0.99999582273057386,0.45829537950573218,success,253,358.79991311425289,346.4140645193159,false,false,115.49043563544451,0.019596579641892778,,,
+2024-06-07T00:00:00,WHEAT.c,252,0.99941625984125482,0.53582769353144322,success,253,358.77529252900985,351.32982183180724,false,false,135.02857876992368,1.0586690616370982,,,
+2024-06-10T00:00:00,WHEAT.c,252,0.99999885313052761,0.20069217539339451,success,253,358.67531495863091,344.99684157996097,false,false,50.574428199135419,2.8878267151114221,,,
+2024-06-11T00:00:00,WHEAT.c,252,0.99999984930441255,0.14187795179572121,success,253,358.76469151109757,343.05668764999757,false,false,35.753243852521749,1.2110996635864524,,,
+2024-06-12T00:00:00,WHEAT.c,252,0.99999970355429157,0.18962423026417632,success,253,358.81800651777263,343.78660507081128,false,false,47.785306026572435,0.15736521502371098,,,
+2024-06-13T00:00:00,WHEAT.c,252,0.99999881177494865,0.16643545422754172,success,253,358.82910129887676,345.18605256931005,false,false,41.94173446534051,0.026365580690950283,,,
+2024-06-14T00:00:00,WHEAT.c,252,0.99999935767927672,0.12037619635547078,success,253,358.83525168656774,344.57707423998949,false,false,30.334801481578637,0.0275014486368159,,,
+2024-06-17T00:00:00,WHEAT.c,252,0.9999994862535192,0.096360177870005517,success,253,358.74366336152804,344.26212795410817,false,false,24.28276482324139,0.028723001776999709,,,
+2024-06-18T00:00:00,WHEAT.c,252,0.99999857961821115,0.13699460965186039,success,253,358.86471904616241,345.40013560951218,false,false,34.522641632268815,0.026391175631326289,,,
+2024-06-20T00:00:00,WHEAT.c,252,0.99999756602314738,0.14957782107728593,success,253,358.878998901366,345.95301726189507,false,false,37.693610911476057,0.025719136328100359,,,
+2024-06-21T00:00:00,WHEAT.c,252,0.9997621898122131,0.5567474296273448,success,253,358.91712651913792,350.57332662481053,false,false,140.3003522660909,0.99253516641115724,,,
+2024-06-24T00:00:00,WHEAT.c,252,0.99999121595178242,0.18636678364382922,success,253,358.9409736973563,347.29840929749275,false,false,46.964429478244966,0.022955063121247107,,,
+2024-06-25T00:00:00,WHEAT.c,252,0.9999941110351217,0.14496970907074666,success,253,358.92592691698042,346.88350248801117,false,false,36.532366685828158,0.024585158435102436,,,
+2024-06-26T00:00:00,WHEAT.c,252,0.99999640568834203,0.076432201954734602,success,253,358.93180057628268,346.39564611340313,false,false,19.260914892593121,0.026522693320570386,,,
+2024-06-27T00:00:00,WHEAT.c,252,0.99999983883885379,0.095187370935939902,success,253,358.94405862728809,343.30319772345194,false,false,23.987217475856855,44.365409570789183,,,
+2024-06-28T00:00:00,WHEAT.c,252,0.99999935900426118,0.090184623022811855,success,253,358.99144932148192,344.73120693464608,false,false,22.726525001748588,18.207436874109955,,,
+2024-07-01T00:00:00,WHEAT.c,252,0.99997094215782611,0.11108869735519795,success,253,358.99145593096648,348.54526283247895,false,false,27.994351733509884,0.02700506490393231,,,
+2024-07-02T00:00:00,WHEAT.c,252,0.96888177327361258,0.43634852074250563,success,253,358.99145164263399,355.55310276307927,false,false,109.95982722711142,11.084137889882417,,,
+2024-07-03T00:00:00,WHEAT.c,252,0.99999650224403502,0.12246231906580515,success,253,358.99144948536525,346.42806403513907,false,false,30.860504404582898,0.14026477553357156,,,
+2024-07-05T00:00:00,WHEAT.c,252,0.99998925858013632,0.13094107530660437,success,253,358.99145065695166,347.55005812412838,false,false,32.997150977264305,10.163722146596127,,,
+2024-07-08T00:00:00,WHEAT.c,252,0.98364589693163018,0.48584871856161854,success,253,358.99145010345956,354.89466295006849,false,false,122.43387707752787,2.2276422286084867,,,
+2024-07-09T00:00:00,WHEAT.c,252,0.99999755770498622,0.066209040513287604,success,253,358.99145626744689,346.0688863284135,false,false,16.684678209348476,19.61013795949626,,,
+2024-07-10T00:00:00,WHEAT.c,252,0.95052916158725798,0.47750491043434962,success,253,358.99144949362642,356.03581402490704,false,false,120.33123742945611,2.1798731336885369,,,
+2024-07-11T00:00:00,WHEAT.c,252,0.99999923917531675,0.058712495839653565,success,253,358.99144925833781,344.90258713669715,false,false,14.795548951592698,9.9906617944336542,,,
+2024-07-12T00:00:00,WHEAT.c,252,0.95848005656428648,0.44348438112043848,success,253,358.9914492189107,355.85227434008289,false,false,111.7580640423505,1.1106839272833213,,,
+2024-07-15T00:00:00,WHEAT.c,252,0.99999862754088764,0.051324018816022145,success,253,358.99144947526912,345.4925443930556,false,false,12.93365274163758,13.265259416883971,,,
+2024-07-16T00:00:00,WHEAT.c,252,0.97374622745695438,0.43685852487251098,success,253,358.99145451936755,355.37811349106903,false,false,110.08834826787276,1.0254222780730076,,,
+2024-07-17T00:00:00,WHEAT.c,252,0.96960553842242581,0.43306153261319469,success,253,358.99144985336335,355.52882093286155,false,false,109.13150621852506,1.018328998264117,,,
+2024-07-18T00:00:00,WHEAT.c,252,0.97202171081965394,0.42884053065840605,success,253,358.99144963973367,355.44350032227993,false,false,108.06781372591833,1.0316496509833373,,,
+2024-07-19T00:00:00,WHEAT.c,252,0.99999975806695873,0.025191184338918166,success,253,358.99144990496035,343.7568453088245,false,false,6.3481784534073782,0.34920269374848684,,,
+2024-07-22T00:00:00,WHEAT.c,252,0.9998737442313983,4.7521364460092223e-09,success,253,358.99144944248451,350.01437490726659,false,false,1.197538384394324e-06,0.20842118624400094,,,
+2024-07-23T00:00:00,WHEAT.c,252,0.85106057494856824,0.41623257432490235,success,253,358.99144935768766,357.24850573074974,false,false,104.8906087298754,1.2258699496285419,,,
+2024-07-24T00:00:00,WHEAT.c,252,0.99992874213260574,1.6065350004460951e-07,success,253,358.9831437506831,349.43400968574554,false,false,4.0484682011241597e-05,0.33750390909677291,,,
+2024-07-25T00:00:00,WHEAT.c,252,0.85739953848957584,0.46796304579560988,success,253,358.99144990354546,357.19759263202252,false,false,117.92668754049369,1.0904004032403227,,,
+2024-07-26T00:00:00,WHEAT.c,252,0.97128352912369853,0.51516972661628524,success,253,358.9834060182373,355.46225845180902,false,false,129.82277110730388,0.11688527327056268,,,
+2024-07-29T00:00:00,WHEAT.c,252,0.96214533413139991,0.51324058800327854,success,253,358.99144958222172,355.75603831289027,false,false,129.3366281768262,0.12982631381858986,,,
+2024-07-30T00:00:00,WHEAT.c,252,0.95908787861645795,0.50839945873533543,success,253,358.99144974135447,355.83689342047671,false,false,128.11666360130454,0.12948400128485399,,,
+2024-07-31T00:00:00,WHEAT.c,252,0.86807204179177588,0.71827380865075396,success,253,358.9914499078638,357.10743120164085,false,false,181.00499977998999,67.31182295288697,,,
+2024-08-01T00:00:00,WHEAT.c,252,0.89811601172580791,0.71431795620856631,success,253,358.9914496850771,356.81498523224229,false,false,180.0081249645587,44.949386342550682,,,
+2024-08-02T00:00:00,WHEAT.c,252,0.89030758369982244,0.71040821309467639,success,253,358.99144955282259,356.89756278376552,false,false,179.02286969985846,15.744705222480226,,,
+2024-08-05T00:00:00,WHEAT.c,252,0.904497886174635,0.49052144932685382,success,253,358.99144964909027,356.74321806280619,false,false,123.61140523036717,0.14839111960429938,,,
+2024-08-06T00:00:00,WHEAT.c,252,0.90137204051257469,0.48590272098943255,success,253,358.99144988585124,356.7788865801158,false,false,122.447485689337,0.14986578361293892,,,
+2024-08-07T00:00:00,WHEAT.c,252,0.89999136668389457,0.48131607796632309,success,253,358.99144994036607,356.79432128508387,false,false,121.29165164751342,0.14973354928790281,,,
+2024-08-08T00:00:00,WHEAT.c,252,0.89633943949157213,0.47756962509560186,success,253,358.99144993059275,356.8342524705692,false,false,120.34754552409167,0.15233818076255692,,,
+2024-08-09T00:00:00,WHEAT.c,252,0.89580641374959857,0.47271196554947398,success,253,358.99144935205186,356.83997559362888,false,false,119.12341531846744,0.15178042623626553,,,
+2024-08-12T00:00:00,WHEAT.c,252,0.89092236142023662,0.46898196918384333,success,253,358.99145006149035,356.89125268349534,false,false,118.18345623432852,0.1556542559819146,,,
+2024-08-13T00:00:00,WHEAT.c,252,0.8040417376661898,0.527661852607343,success,253,358.99145004231224,357.57970055123809,false,false,132.97078685705043,1.8315599256727273,,,
+2024-08-14T00:00:00,WHEAT.c,252,0.8835551741941492,0.2178362189597419,success,253,358.99145114168044,356.96491496489131,false,false,54.894727177854961,0.19893110325230398,,,
+2024-08-15T00:00:00,WHEAT.c,252,0.8535376812373664,0.21405328842497856,success,253,358.99144954437406,357.22882803959857,false,false,53.9414286830946,0.19877062935613427,,,
+2024-08-16T00:00:00,WHEAT.c,252,0.88443472090257202,0.45154937719371907,success,253,358.99144954379585,356.95633639360301,false,false,113.79044305281721,0.15917590850441507,,,
+2024-08-19T00:00:00,WHEAT.c,252,0.61940135494056092,0.51167264739163998,success,253,358.99145018607788,358.50444212587996,false,false,128.94150714269327,1.8147310761490818,,,
+2024-08-20T00:00:00,WHEAT.c,252,0.62600604736590593,0.56189691453767698,success,253,358.99144947434377,358.47632907081766,false,false,141.5980224634946,1.2329254465475652,,,
+2024-08-21T00:00:00,WHEAT.c,252,0.66488455612896424,0.58713027681146024,success,253,358.9914496522797,358.30631130753153,false,false,147.95682975648799,0.87062588819464493,,,
+2024-08-22T00:00:00,WHEAT.c,252,0.87636949822336707,0.63653955914845339,success,253,358.99144945299906,357.0329589420781,false,false,160.40796890541026,0.47319636804442194,,,
+2024-08-23T00:00:00,WHEAT.c,252,0.627771895680026,0.49586991306101069,success,253,358.99144963782385,358.46877961078542,false,false,124.95921809137469,1.8431068002795408,,,
+2024-08-26T00:00:00,WHEAT.c,252,0.62510431662714683,0.49188538556057554,success,253,358.99144956881594,358.48017883600289,false,false,123.95511716126504,1.880171437093306,,,
+2024-08-27T00:00:00,WHEAT.c,252,0.87553985216544328,0.42395605443713386,success,253,358.99144968512201,357.04059458205933,false,false,106.83692571815773,0.16428896544580363,,,
+2024-08-28T00:00:00,WHEAT.c,252,0.62280000568992055,0.48390502720058309,success,253,358.99144939347718,358.48999948005599,false,false,121.94406685454695,1.8545670791434652,,,
+2024-08-29T00:00:00,WHEAT.c,252,0.87518628118896447,0.41470297539937756,success,253,358.99144946680821,357.043835086586,false,false,104.50514980064314,0.16444836169236302,,,
+2024-08-30T00:00:00,WHEAT.c,252,0.61923488616984812,0.47591271494006077,success,253,358.99144962996496,358.50514765444245,false,false,119.93000416489531,1.8751758481348619,,,
+2024-09-03T00:00:00,WHEAT.c,252,0.8741114225419383,0.40693244867842709,success,253,358.9914500562287,357.05363941278682,false,false,102.54697706696363,0.16545999893564325,,,
+2024-09-04T00:00:00,WHEAT.c,252,0.96038198475315772,0.40478365145834239,success,253,358.99144949672973,355.80340233591158,false,false,102.00548016750228,0.16029490191710563,,,
+2024-09-05T00:00:00,WHEAT.c,252,0.8313608630398841,0.54583774957997933,success,253,358.99144941960594,357.39614661515174,false,false,137.55111289415478,0.98532254963594579,,,
+2024-09-06T00:00:00,WHEAT.c,252,0.71369720088944233,0.72058383753469268,success,253,358.99144936956463,358.0780405744668,false,false,181.58712705874257,0.9038324264390929,,,
+2024-09-09T00:00:00,WHEAT.c,252,0.72109314388438384,0.71646452484675405,success,253,358.99144919007682,358.04155875108961,false,false,180.54906026138201,0.91401508634516049,,,
+2024-09-10T00:00:00,WHEAT.c,252,0.61463806770852825,0.50600454472337242,success,253,358.99144969151763,358.52459908130044,false,false,127.51314527028985,1.3006863337578281,,,
+2024-09-11T00:00:00,WHEAT.c,252,0.85467047464249535,0.50204096148376054,success,253,358.99145062622972,357.21973839402636,false,false,126.51432229390765,1.2196020864692847,,,
+2024-09-12T00:00:00,WHEAT.c,252,0.96336705434285752,0.37580043068454655,success,253,358.99144919160392,355.72196268534793,false,false,94.701708532505734,0.1591233461144454,,,
+2024-09-13T00:00:00,WHEAT.c,252,0.96457375344133667,0.37140931116871767,success,253,358.99144934693709,355.68721602308591,false,false,93.595146414516847,0.15645655467623781,,,
+2024-09-16T00:00:00,WHEAT.c,252,0.80746858438109059,0.49017688998520981,success,253,358.9914496552625,357.55780484414652,false,false,123.52457627627287,1.1996883515714392,,,
+2024-09-17T00:00:00,WHEAT.c,252,0.80832887604910608,0.48612360724776155,success,253,358.99144951551511,357.5522615222477,false,false,122.50314902643591,1.2044944100820167,,,
+2024-09-18T00:00:00,WHEAT.c,252,0.92329675908344744,0.56385187925815672,success,253,358.99144922322182,356.50344248652766,false,false,142.09067357305548,0.41072778117682324,,,
+2024-09-19T00:00:00,WHEAT.c,252,0.92408314494492838,0.55997679395126121,success,253,358.99144929970811,356.49228597739273,false,false,141.11415207571781,0.41357327881829609,,,
+2024-09-20T00:00:00,WHEAT.c,252,0.91772366837802599,0.55570244257338308,success,253,358.99144953570828,356.57963668495239,false,false,140.03701552849253,0.41166053776386946,,,
+2024-09-23T00:00:00,WHEAT.c,252,0.79053191841418069,0.49768644671843054,success,253,358.99144802058674,357.66331335980783,false,false,125.4169845730445,1.0117635781143306,,,
+2024-09-24T00:00:00,WHEAT.c,252,0.80510748797958054,0.46609254752485729,success,253,358.99136069170481,357.57283308393733,false,false,117.45532197626403,1.2339956835488481,,,
+2024-09-25T00:00:00,WHEAT.c,252,0.77593017581156265,0.48976211292925859,success,253,358.99144948930581,357.7493446712042,false,false,123.42005245817316,1.0039156425280922,,,
+2024-09-26T00:00:00,WHEAT.c,252,0.76276990058362426,0.48569028698833511,success,253,358.99144957183921,357.82352371175688,false,false,122.39395232106045,1.0193840151927132,,,
+2024-09-27T00:00:00,WHEAT.c,252,0.767340590331543,0.48154823248136547,success,253,358.99144955153577,357.79809441661189,false,false,121.3501545853041,1.036870536036923,,,
+2024-09-30T00:00:00,WHEAT.c,252,0.90122977098881529,0.53098322659482489,success,253,358.99144958338246,356.78048557408835,false,false,133.80777310189586,0.40706530851206862,,,
+2024-10-01T00:00:00,WHEAT.c,252,0.90650470543373773,0.52683682558477618,success,253,358.99145031789584,356.71976520647735,false,false,132.76288004736361,0.39773902341454209,,,
+2024-10-02T00:00:00,WHEAT.c,252,0.9240187196111308,0.52527895610846909,success,253,358.73164090798582,356.23339557650405,false,false,132.3702969393342,0.43885392967095171,,,
+2024-10-03T00:00:00,WHEAT.c,252,0.93637831593630616,0.52263145602258576,success,253,358.80573484065519,356.11666961878063,false,false,131.70312691769161,0.48231775304799956,,,
+2024-10-04T00:00:00,WHEAT.c,252,0.94086276877646757,0.51862011406148323,success,253,358.75281969657328,355.98588309914771,false,false,130.69226874349377,0.47607460234785259,,,
+2024-10-07T00:00:00,WHEAT.c,252,0.92972058387222478,0.51449189559792452,success,253,358.69805081680852,356.11564567873762,false,false,129.65195769067697,0.47660267821219376,,,
+2024-10-08T00:00:00,WHEAT.c,252,0.93029428404911652,0.51091500125829359,success,253,358.62175569019638,356.03053704195014,false,false,128.75058031709,0.49350615455264096,,,
+2024-10-09T00:00:00,WHEAT.c,252,0.92451408084855957,0.50676233146184002,success,253,358.59992579637589,356.09460365244888,false,false,127.70410752838367,0.49076877337544045,,,
+2024-10-10T00:00:00,WHEAT.c,252,0.9162960921721347,0.50255449897602389,success,253,358.55720552182669,356.16415162956599,false,false,126.64373374195802,0.48814690384605258,,,
+2024-10-11T00:00:00,WHEAT.c,252,0.91663837686916216,0.49863758179406042,success,253,358.57537886631997,356.17785387555568,false,false,125.65667061210323,0.49344930743751736,,,
+2024-10-14T00:00:00,WHEAT.c,252,0.91542106551432523,0.49455601702618845,success,253,358.53547469205154,356.15377578599163,false,false,124.62811629059949,0.48818554278077297,,,
+2024-10-15T00:00:00,WHEAT.c,252,0.92564053323577244,0.49089658592239638,success,253,358.54140021475126,356.01982524034611,false,false,123.70593965244389,0.49993362764869542,,,
+2024-10-16T00:00:00,WHEAT.c,252,0.87995296469366435,0.32160527077424278,success,253,358.55010732423597,356.55812249427549,false,false,81.044528235109183,1.2712438322632587,,,
+2024-10-17T00:00:00,WHEAT.c,252,0.90718181315838065,0.28798927325482865,success,253,358.54200534445425,356.26230505839328,false,false,72.573296860216814,0.20429940827371645,,,
+2024-10-18T00:00:00,WHEAT.c,252,0.90359881825810118,0.28269580221378932,success,253,358.56267042981256,356.32480341330961,false,false,71.239342157874901,0.19561146675215249,,,
+2024-10-21T00:00:00,WHEAT.c,252,0.68679718640207055,0.52713424090033023,success,253,358.63784838277576,357.85266029790495,false,false,132.83782870688322,1.6792477718976044,,,
+2024-10-22T00:00:00,WHEAT.c,252,0.97775922416682681,0.78323832185398345,success,253,358.58166874808217,354.79833265377511,false,false,197.37605710720382,0.28179241440728164,,,
+2024-10-23T00:00:00,WHEAT.c,252,0.98154226772413511,0.77867182518499733,success,253,358.56082336911891,354.58718166814799,false,false,196.22529994661932,0.28866467809334523,,,
+2024-10-24T00:00:00,WHEAT.c,252,0.65715936339543368,0.51507345914096314,success,253,358.5429389423208,357.89227811388906,false,false,129.79851170352271,1.6703381600237728,,,
+2024-10-25T00:00:00,WHEAT.c,252,0.62134782257242216,0.49951129832210422,success,253,358.60932024409539,358.11404726424433,false,false,125.87684717717026,2.2225301169084037,,,
+2024-10-28T00:00:00,WHEAT.c,252,0.65560451348184945,0.50711322659773239,success,253,358.47156863792321,357.82780157369137,false,false,127.79253310262855,1.6605549029829807,,,
+2024-10-29T00:00:00,WHEAT.c,252,0.66006447649116418,0.50319145633201756,success,253,358.51513270453432,357.85155114552026,false,false,126.80424699566844,1.6721579009790666,,,
+2024-10-30T00:00:00,WHEAT.c,252,0.89791896435889362,0.24412283866781415,success,253,358.52362584199972,356.3493129828363,false,false,61.518955344289168,0.18189436265223771,,,
+2024-10-31T00:00:00,WHEAT.c,252,0.90193787530241076,0.23857327548539364,success,253,358.56071324132563,356.34176880133282,false,false,60.120465422319199,0.18071407935361528,,,
+2024-11-01T00:00:00,WHEAT.c,252,0.8353426043996075,0.27344454934259488,success,253,358.54119319377571,356.9172181733195,false,false,68.908026434333905,1.2076241264534631,,,
+2024-11-04T00:00:00,WHEAT.c,252,0.9016181923230997,0.8405916518854617,success,253,358.55231515938146,356.33697992467205,false,false,211.82909627513635,1.1164866185381528,,,
+2024-11-05T00:00:00,WHEAT.c,252,0.99315702715689369,0.74124451054951712,success,253,358.56091691730836,353.5832503950665,false,false,186.79361665847833,0.30065294369383283,,,
+2024-11-06T00:00:00,WHEAT.c,252,0.87661651112200656,0.42514995305034542,success,253,358.57538843335578,356.61461611101868,false,false,107.13778816868705,0.47864608141741183,,,
+2024-11-07T00:00:00,WHEAT.c,252,0.9247718902120593,0.20802837900890928,success,253,358.56580237733004,356.05678023688722,false,false,52.423151510245134,0.17328954592866744,,,
+2024-11-08T00:00:00,WHEAT.c,252,0.75364892361918689,0.28105683967210521,success,253,358.50492847705448,357.38675949431837,false,false,70.826323597370518,2.0515313722980482,,,
+2024-11-11T00:00:00,WHEAT.c,252,0.9963214752531433,0.7247475408859908,success,253,358.40699670747398,352.80543852344783,false,false,182.63638030326968,0.31475277596542217,,,
+2024-11-12T00:00:00,WHEAT.c,252,0.99627950084858907,0.72074301881774716,success,253,358.38505288559463,352.79488288380588,false,false,181.62724074207227,0.31146648704966939,,,
+2024-11-13T00:00:00,WHEAT.c,252,0.99625486936577967,0.71672961576505367,success,253,358.27339458026762,352.68984796114313,false,false,180.61586317279352,0.30878316209261386,,,
+2024-11-14T00:00:00,WHEAT.c,252,0.76369759767474721,0.26522318843544385,success,253,358.19920935138828,357.02614980570092,false,false,66.836243485731856,2.060388772319389,,,
+2024-11-15T00:00:00,WHEAT.c,252,0.76958265959637795,0.26119688229595911,success,253,358.25909221466912,357.05313603543914,false,false,65.821614338581696,2.0477199949338063,,,
+2024-11-18T00:00:00,WHEAT.c,252,0.99739405485244004,0.70421945251065976,success,253,358.24777355352052,352.30042305103382,false,false,177.46330203268627,0.30947692478724509,,,
+2024-11-19T00:00:00,WHEAT.c,252,0.9980413246152916,0.69982981620299234,success,253,358.2482475642999,352.01472130205752,false,false,176.35711368315407,0.31434865201048429,,,
+2024-11-20T00:00:00,WHEAT.c,252,0.99847626945574208,0.69551891067558613,success,253,358.25918405152845,351.7741152985509,false,false,175.2707654902477,0.31726088227413246,,,
+2024-11-21T00:00:00,WHEAT.c,252,0.98934055042253433,0.84281289660903314,success,253,358.21847298215471,353.68788115468118,false,false,212.38884994547635,1.5399522625085413,,,
+2024-11-22T00:00:00,WHEAT.c,252,0.99896926097428396,0.68725356754904054,success,253,358.23705837720081,351.36061041447732,false,false,173.18789902235821,0.32257884792363212,,,
+2024-11-25T00:00:00,WHEAT.c,252,0.92119413444911613,0.49622228378242328,success,253,358.19651722474936,355.73783385413526,false,false,125.04801551317067,1.0425498306122314,,,
+2024-11-26T00:00:00,WHEAT.c,252,0.92776212596036689,0.49209913113192655,success,253,358.29571909084416,355.74290820024561,false,false,124.00898104524549,1.0506018128256207,,,
+2024-11-27T00:00:00,WHEAT.c,252,0.91951988529106532,0.48827428850830978,success,253,358.07731580143184,355.64147426308136,false,false,123.04512070409406,1.0533422432880555,,,
+2024-11-29T00:00:00,WHEAT.c,252,0.92011794191554142,0.48431039975448775,success,253,358.22819747017911,355.78424688353687,false,false,122.04622073813091,1.0532085690448436,,,
+2024-12-02T00:00:00,WHEAT.c,252,0.92212444376038105,0.48030647290691558,success,253,358.3530552868757,355.88148722069235,false,false,121.03723117254273,1.0595052172640058,,,
+2024-12-03T00:00:00,WHEAT.c,252,0.92618259899150968,0.4763311392132879,success,253,358.37042792753573,355.8409510110298,false,false,120.03544708174856,1.0628901308525744,,,
+2024-12-04T00:00:00,WHEAT.c,252,0.93658788553878591,0.47223324954495921,success,253,358.39870930427281,355.70612086513574,false,false,119.00277888532972,1.0690751787856678,,,
+2024-12-05T00:00:00,WHEAT.c,252,0.64364502589461436,0.39909014472379273,success,253,358.52990613229952,357.93868611252321,false,false,100.57071647039577,1.6404093460253137,,,
+2024-12-06T00:00:00,WHEAT.c,252,0.84031366707002919,0.25948500569453786,success,253,358.56031801511699,356.89975425171167,false,false,65.390221435023548,1.5119287612116572,,,
+2024-12-09T00:00:00,WHEAT.c,252,0.62946530739030038,0.38029391988360672,success,253,358.57707215049788,358.04714848753139,false,false,95.834067810668898,2.4595583497428106,,,
+2024-12-10T00:00:00,WHEAT.c,252,0.99962368964025095,0.63415238060508705,success,253,358.52045805180313,350.63573810279991,false,false,159.80639991248194,0.94704503196704115,,,
+2024-12-11T00:00:00,WHEAT.c,252,0.99608403970415205,0.94007979717762247,success,253,358.62698387560181,353.08821283002453,false,false,236.90010888876085,13.247138656693311,,,
+2024-12-12T00:00:00,WHEAT.c,252,0.99975046562575387,0.63516098152873934,success,253,358.36429941650641,350.06863510228635,false,false,160.0605673452423,0.35108659077629195,,,
+2024-12-13T00:00:00,WHEAT.c,252,0.90250908258583107,0.096706234893221804,success,253,358.07011156091403,355.84469202588878,false,false,24.369971193091896,0.18337261758358528,,,
+2024-12-16T00:00:00,WHEAT.c,252,0.90230701917885681,0.49187747926838382,success,253,357.88448775127506,355.66136262535997,false,false,123.95312477563272,13.064826832884664,,,
+2024-12-17T00:00:00,WHEAT.c,252,0.99982538210537897,0.802734210073768,success,253,357.99882301677155,349.34608721934188,false,false,202.28902093858954,1.8684013832372128,,,
+2024-12-18T00:00:00,WHEAT.c,252,0.99938228521317374,0.77118970972823808,success,253,357.8376191915936,350.44875338021984,false,false,194.33980685151599,1.781057525484435,,,
+2024-12-19T00:00:00,WHEAT.c,252,0.99913836227626029,0.7378922727974262,success,253,357.7451593330195,350.68934569244209,false,false,185.94885274495141,14.460308683593027,,,
+2024-12-20T00:00:00,WHEAT.c,252,0.95740703720215026,0.42486070746538684,success,253,357.68397272389461,354.57143314372797,false,false,107.06489828127748,1.096201486234333,,,
+2024-12-23T00:00:00,WHEAT.c,252,0.9707224696417136,0.49391507801830548,success,253,357.64890956667648,354.14768929820065,false,false,124.46659966061299,1.9883811849248836,,,
+2024-12-24T00:00:00,WHEAT.c,252,0.82589904385324775,0.29486104893669368,success,253,357.71865450827073,356.16181730385659,false,false,74.304984332046814,0.55615207872656458,,,
+2024-12-26T00:00:00,WHEAT.c,252,0.6716159559664554,0.23393309057547898,success,253,357.84205615354369,357.12655325989419,false,false,58.951138825020706,1.9561389774722735,,,
+2024-12-27T00:00:00,WHEAT.c,252,0.99926806677240909,0.71796375992520067,success,253,357.45919549485086,350.24010642877067,false,false,180.92686750115058,10.073456117165485,,,
+2024-12-30T00:00:00,WHEAT.c,252,0.99990595468580634,0.77106060676708277,success,253,357.30646665597067,348.03482687974667,false,false,194.30727290530487,1.8634243852228449,,,
+2024-12-31T00:00:00,WHEAT.c,252,0.99973718935617484,0.55140597635978839,success,253,357.27826310421426,349.03444917884269,false,false,138.95430604266667,7.5731128832547299,,,
+2025-01-02T00:00:00,WHEAT.c,252,0.77143292984129119,0.27533575525407311,success,253,357.34576280312132,356.12934276078107,false,false,69.384610324026426,0.57702400917238528,,,
+2025-01-03T00:00:00,WHEAT.c,252,0.81092892556615925,0.27262429409209776,success,253,357.37466981516218,355.91861240248085,false,false,68.70132211120864,0.60291110655665336,,,
+2025-01-06T00:00:00,WHEAT.c,252,0.9984253470181611,0.79331916384032541,success,253,357.62297595692843,351.17083149100756,false,false,199.91642928776201,10.880161740022428,,,
+2025-01-07T00:00:00,WHEAT.c,252,0.99747299716110804,0.72404616747738271,success,253,357.64642027534586,351.6682291492927,false,false,182.45963420430044,1.7778383886212401,,,
+2025-01-08T00:00:00,WHEAT.c,252,0.98360906500049117,0.45423607721132958,success,253,357.54217864086758,353.44767855250126,false,false,114.46749145725505,1.9186251680401623,,,
+2025-01-09T00:00:00,WHEAT.c,252,0.98614240222578919,0.45036267205635244,success,253,357.18459590565072,352.91962879528813,false,false,113.49139335820081,1.9308174345473552,,,
+2025-01-10T00:00:00,WHEAT.c,252,0.98609970880467601,0.44637147672509375,success,253,357.19045142410926,352.9286037392921,false,false,112.48561213472362,1.9263985903309919,,,
+2025-01-13T00:00:00,WHEAT.c,252,0.99919395618476736,0.83979683441476349,success,253,357.25291757436668,350.13035148760559,false,false,211.6288022725204,0.056104670350981149,,,
+2025-01-14T00:00:00,WHEAT.c,252,0.99937152746605507,0.83830113542152129,success,253,357.27535576008006,349.9037661983341,false,false,211.25188612622335,0.055228766462300814,,,
+2025-01-15T00:00:00,WHEAT.c,252,0.99927650912951904,0.72793492748305921,success,253,357.37740424112582,350.14670536332244,false,false,183.43960172573091,1.6117634084564954,,,
+2025-01-16T00:00:00,WHEAT.c,252,0.99677657224225258,0.69646880256702648,success,253,357.40220726811771,351.66812593772312,false,false,175.51013824689068,1.7730271416636658,,,
+2025-01-17T00:00:00,WHEAT.c,252,0.99930173924946442,0.72001831075705491,success,253,357.44032621983325,350.17410676762285,false,false,181.44461431077784,1.6003224679435242,,,
+2025-01-21T00:00:00,WHEAT.c,252,0.99415426943246188,0.65855507385931034,success,253,357.40403758680532,352.26785676883731,false,false,165.9558786125462,12.694147715703979,,,
+2025-01-22T00:00:00,WHEAT.c,252,0.99898108473169633,0.49568336485739328,success,253,357.56886646690788,350.68086922161245,false,false,124.91220794406311,3.1445331177729594,,,
+2025-01-23T00:00:00,WHEAT.c,252,0.99925906948553211,0.49169234611099094,success,253,357.58948791848366,350.38262541390969,false,false,123.90647121996972,3.1631949821027412,,,
+2025-01-24T00:00:00,WHEAT.c,252,0.97913119002887172,0.33745487097593696,success,253,357.66941400749658,353.82100406826305,false,false,85.038627485936118,1.1062606387277725,,,
+2025-01-27T00:00:00,WHEAT.c,252,0.99953313427106649,0.5218437843116539,success,253,357.58192854446168,349.91292665922612,false,false,131.50463364653677,0.33517893195710613,,,
+2025-01-28T00:00:00,WHEAT.c,252,0.99361843429549979,0.66872433847197676,success,253,357.66947960815173,352.62153981958761,false,false,168.51853329493815,1.7372551587185576,,,
+2025-01-29T00:00:00,WHEAT.c,252,0.99510135951366752,0.69327634480192313,success,253,357.54713265537697,352.23324576939956,false,false,174.70563889008463,1.185249156173124,,,
+2025-01-30T00:00:00,WHEAT.c,252,0.99947919400642005,0.50957272457377023,success,253,357.36848850607299,349.80887648900716,false,false,128.41232659259009,0.32872511306589908,,,
+2025-01-31T00:00:00,WHEAT.c,252,0.99950931664703146,0.50567995938046117,success,253,357.26851541557488,349.64929467883911,false,false,127.43134976387623,0.33031883865261857,,,
+2025-02-03T00:00:00,WHEAT.c,252,0.99691259185153058,0.68115180313778845,success,253,357.27418351216573,351.49685236923716,false,false,171.65025439072269,1.2439463317143076,,,
+2025-02-04T00:00:00,WHEAT.c,252,0.99959483605309019,0.49741438504105068,success,253,357.20217131945969,349.39135779992228,false,false,125.34842503034477,0.32922665998478395,,,
+2025-02-05T00:00:00,WHEAT.c,252,0.99967272758778203,0.49335249068657111,success,253,357.25825806528479,349.23386772227565,false,false,124.32482765301592,0.32731770159541579,,,
+2025-02-06T00:00:00,WHEAT.c,252,0.99952145809325732,0.4896710105710797,success,253,357.35946126011726,349.71517314505502,false,false,123.39709466391209,0.32003135525134119,,,
+2025-02-07T00:00:00,WHEAT.c,252,0.99962777594181895,0.48559076456494116,success,253,357.48460274592156,349.58896046120532,false,false,122.36887267036518,0.31745757694687893,,,
+2025-02-10T00:00:00,WHEAT.c,252,0.99971414177824636,0.48143301133438982,success,253,357.40195293068018,349.24222423157477,false,false,121.32111885626624,0.31886372567681137,,,
+2025-02-11T00:00:00,WHEAT.c,252,0.99975581989935824,0.47732119879677698,success,253,357.31897583191846,349.00161555427434,false,false,120.2849420967878,0.32272792731735578,,,
+2025-02-12T00:00:00,WHEAT.c,252,0.99972141630852784,0.43605913447023759,success,253,357.30363523637487,349.11812182311661,false,false,109.88690188649987,2.4728946144620956,,,
+2025-02-13T00:00:00,WHEAT.c,252,0.99979715351310117,0.43205568366222824,success,253,357.31409648481616,348.81123826470298,false,false,108.87803228288152,2.4632371099301658,,,
+2025-02-14T00:00:00,WHEAT.c,252,0.99967054924659204,0.46531952282796624,success,253,357.22336924806706,349.20561507935992,false,false,117.2605197526475,0.30676560301714995,,,
+2025-02-18T00:00:00,WHEAT.c,252,0.99521208172772013,0.64289497341236634,success,253,357.4205016434986,352.08364149985613,false,false,162.00953329991631,0.91510640877049421,,,
+2025-02-19T00:00:00,WHEAT.c,252,0.99954785415474645,0.45743300517477248,success,253,357.63306407288314,349.93201055728963,false,false,115.27311730404267,0.30522186024609244,,,
+2025-02-20T00:00:00,WHEAT.c,252,0.98308040100249172,0.26538837551290079,success,253,357.34304545706397,353.28082720279065,false,false,66.877870629250992,1.1080365907868879,,,
+2025-02-21T00:00:00,WHEAT.c,252,0.99946630346147225,0.44979431968216332,success,253,357.34138924287777,349.80623992143597,false,false,113.34816855990516,0.31386924210877876,,,
+2025-02-24T00:00:00,WHEAT.c,252,0.98182057232874098,0.64830155649536392,success,253,357.40999035202708,353.42087238396175,false,false,163.37199223683172,1.7254855125432635,,,
+2025-02-25T00:00:00,WHEAT.c,252,0.99370066126639089,0.56333663598709349,success,253,357.32788871798044,352.26689736725388,false,false,141.96083226874757,13.196350610031805,,,
+2025-02-26T00:00:00,WHEAT.c,252,0.9996158061977346,0.43759364352430086,success,253,357.22321167985513,349.35923250818678,false,false,110.27359816812381,0.30900790691884761,,,
+2025-02-27T00:00:00,WHEAT.c,252,0.99953150183467565,0.43372618245475597,success,253,357.09912473991676,349.43361497550472,false,false,109.29899797859851,0.30015582351938519,,,
+2025-02-28T00:00:00,WHEAT.c,252,0.99954542302478699,0.42978766640098415,success,253,356.80925715335934,349.11356853740381,false,false,108.30649193304801,0.30291756491555827,,,
+2025-03-03T00:00:00,WHEAT.c,252,0.9995948114372899,0.42567282782133659,success,253,356.72047587726917,348.90972313567153,false,false,107.26955261097682,0.30342276344179914,,,
+2025-03-04T00:00:00,WHEAT.c,252,0.99938050415473456,0.38463049663019105,success,253,356.5782544671365,349.19226959143754,false,false,96.926885150808147,2.0217687433029052,,,
+2025-03-05T00:00:00,WHEAT.c,252,0.99041234019445368,0.23015607215642972,success,253,356.56879331881305,351.93114879182053,false,false,57.999330183420291,1.1028335315516478,,,
+2025-03-06T00:00:00,WHEAT.c,252,0.9993327917960223,0.68387059333064759,success,253,356.35242200132348,349.04068102134431,false,false,172.3353895193232,0.047129551509934468,,,
+2025-03-07T00:00:00,WHEAT.c,252,0.99935552868946242,0.67674188185031059,success,253,356.69090111014015,349.34446553834186,false,false,170.53895422627826,0.047133424638995003,,,
+2025-03-10T00:00:00,WHEAT.c,252,0.99908077021406416,0.67938225718056711,success,253,356.83269756418855,349.84164278896537,false,false,171.2043288095029,0.047876595944299834,,,
+2025-03-11T00:00:00,WHEAT.c,252,0.99006544631117943,0.58454062500706017,success,253,356.91740394072792,352.31565184427575,false,false,147.30423750177917,0.81122694513616433,,,
+2025-03-12T00:00:00,WHEAT.c,252,0.99905741331792142,0.3607365557233973,success,253,357.06366090699402,350.09772126569419,false,false,90.905612042296113,2.0123619854950769,,,
+2025-03-13T00:00:00,WHEAT.c,252,0.99945355191369001,0.39395335220774069,success,253,357.08669748389741,349.57517283345283,false,false,99.27624475635065,0.30311687297939077,,,
+2025-03-14T00:00:00,WHEAT.c,252,0.99070848283726876,0.27545645174129735,success,253,357.13654592187549,352.46722744633803,false,false,69.415025838806926,1.7445905088723621,,,
+2025-03-17T00:00:00,WHEAT.c,252,0.9862723470248228,0.19784111229270854,success,253,357.31385702043224,353.03933675375993,false,false,49.85596029776255,1.1126905390916131,,,
+2025-03-18T00:00:00,WHEAT.c,252,0.9993535965107504,0.64935101332878986,success,253,357.45826320636877,350.11482316606759,false,false,163.63645535885505,0.045875802791421436,,,
+2025-03-19T00:00:00,WHEAT.c,252,0.99924033160157888,0.65361927540018339,success,253,357.37828146785921,350.19641288718668,false,false,164.71205740084622,0.046162042427150579,,,
+2025-03-20T00:00:00,WHEAT.c,252,0.99393617764307529,0.55629934523970692,success,253,357.59606465007522,352.49673200629115,false,false,140.18743500040614,0.83965814064754396,,,
+2025-03-21T00:00:00,WHEAT.c,252,0.98788675968652551,0.44101297058402017,success,253,357.48809597708271,353.08682699674625,false,false,111.13526858717309,2.1097899753862035,,,
+2025-03-24T00:00:00,WHEAT.c,252,0.99949505199710553,0.32891798839295949,success,253,357.50838076311578,349.91783074009226,false,false,82.887333075025794,1.8664987634270809,,,
+2025-03-25T00:00:00,WHEAT.c,252,0.9949238208275446,0.48393657095927406,success,253,357.48268483700923,352.20457751195528,false,false,121.95201588173707,10.899440364326635,,,
+2025-03-26T00:00:00,WHEAT.c,252,0.99978341782256408,0.35725552918321873,success,253,357.46142568176839,349.02410177731377,false,false,90.028393354171115,0.28876024803670114,,,
+2025-03-27T00:00:00,WHEAT.c,252,0.99670552025565939,0.53617296202622167,success,253,357.39609630917118,351.68388921170731,false,false,135.11558643060786,0.84405218932082504,,,
+2025-03-28T00:00:00,WHEAT.c,252,0.99938727223804502,0.61644765560330461,success,253,357.29714673861486,349.9001698257573,false,false,155.34480921203277,0.047081012520106179,,,
+2025-03-31T00:00:00,WHEAT.c,252,0.99988377464536804,0.34466582359191877,success,253,357.36974780248755,348.30988449545896,false,false,86.855787545163537,0.2892035831330893,,,
+2025-04-01T00:00:00,WHEAT.c,252,0.993624782482881,0.15359574828704173,success,253,357.3304963920624,352.28155494987664,false,false,38.706128568334513,1.1252129036707321,,,
+2025-04-02T00:00:00,WHEAT.c,252,0.99603977629517959,0.22343835579752122,success,253,357.37193054227504,351.84444386423564,false,false,56.306465660975348,1.6510215618691397,,,
+2025-04-03T00:00:00,WHEAT.c,252,0.9996900229254746,0.58452933182294575,success,253,357.16857975732665,349.08987756609019,false,false,147.30139161938234,0.049504398225495384,,,
+2025-04-04T00:00:00,WHEAT.c,252,0.99985744375954611,0.29311721468721358,success,253,357.15984344850546,348.30421204864325,false,false,73.865538101177819,1.9454543939538347,,,
+2025-04-07T00:00:00,WHEAT.c,252,0.99963368311921641,0.58471880466681769,success,253,357.26552977071862,349.35388435005365,false,false,147.34913877603805,0.048375511797601141,,,
+2025-04-08T00:00:00,WHEAT.c,252,0.9997529756829231,0.56938064257564103,success,253,357.21659423015217,348.91081750850645,false,false,143.48392192906155,0.04913707996183151,,,
+2025-04-09T00:00:00,WHEAT.c,252,0.99897830681484612,0.49932352881529102,success,253,357.21040991508619,350.32513808806158,false,false,125.82952926145333,0.98338257267086426,,,
+2025-04-10T00:00:00,WHEAT.c,252,0.99982894136465639,0.55459387462485576,success,253,357.21642495001555,348.54309185979139,false,false,139.75765640546365,0.047831768988426754,,,
+2025-04-11T00:00:00,WHEAT.c,252,0.99835186409432597,0.49210503900340058,success,253,357.36536263554979,350.95890174726566,false,false,124.01046982885694,0.86841363078473355,,,
+2025-04-14T00:00:00,WHEAT.c,252,0.99995274875731421,0.30379572266594779,success,253,357.56437080604644,347.60438645426478,false,false,76.556522111818836,0.27614320489299121,,,
+2025-04-15T00:00:00,WHEAT.c,252,0.99884911872227267,0.398938045027314,success,253,357.50425580353732,350.73818004595938,false,false,100.53238734688313,1.0786786789006586,,,
+2025-04-16T00:00:00,WHEAT.c,252,0.9973396617171586,0.51934972891071185,success,253,357.53684381893993,351.61020571193734,false,false,130.87613168549939,1.2268739145874088,,,
+2025-04-17T00:00:00,WHEAT.c,252,0.99998391010509602,0.29058416107840818,success,253,357.55476359183075,346.51746055311008,false,false,73.227208591758867,0.26920961458112319,,,
+2025-04-21T00:00:00,WHEAT.c,252,0.99998306623398725,0.28654042905368832,success,253,357.58456036295019,346.59837635641833,false,false,72.20818812152946,0.26837758009877827,,,
+2025-04-22T00:00:00,WHEAT.c,252,0.9994715523887856,0.46756315834640494,success,253,357.52456111126753,349.97952281367475,false,false,117.82591590329405,0.92665751848203926,,,
+2025-04-23T00:00:00,WHEAT.c,252,0.99992220066743864,0.47757477833037798,success,253,357.87089330065197,348.40959339729028,false,false,120.34884413925525,0.033457030506194543,,,
+2025-04-24T00:00:00,WHEAT.c,252,0.99983697046344089,0.50775601238497936,success,253,358.16925974696755,349.44784362210515,false,false,127.95451512101479,0.041681059788380069,,,
+2025-04-25T00:00:00,WHEAT.c,252,0.99893838159014225,0.3710059270691265,success,253,358.31716479605524,351.47026624489882,false,false,93.493493621419873,1.1533459304685041,,,
+2025-04-28T00:00:00,WHEAT.c,252,0.99994557941545004,0.23336408985836654,success,253,358.40006820394234,348.58135454279693,false,false,58.807750644308371,1.485420797830479,,,
+2025-04-29T00:00:00,WHEAT.c,252,0.99996999475799564,0.26241142254187044,success,253,358.33550208617788,347.92139363378476,false,false,66.127678480551353,0.25496938155719229,,,
+2025-04-30T00:00:00,WHEAT.c,252,0.99920787365900354,0.44347435881799624,success,253,358.36550916346431,351.22551194629114,false,false,111.75553842213505,0.99580221993192508,,,
+2025-05-01T00:00:00,WHEAT.c,252,0.99984885178371119,0.47076209164372013,success,253,358.40153960145238,349.60444112335034,false,false,118.63204709421747,0.038132238702402815,,,
+2025-05-02T00:00:00,WHEAT.c,252,0.99986569633586775,0.4311128890203107,success,253,358.43361871742445,349.51834585848934,false,false,108.64044803311829,0.031013310435409391,,,
+2025-05-05T00:00:00,WHEAT.c,252,0.99990377899745797,0.39486980688394846,success,253,358.57411134242511,349.32534466557956,false,false,99.507191334755007,0.027621384686873023,,,
+2025-05-06T00:00:00,WHEAT.c,252,0.97828916442087854,0.53662491870421469,success,253,358.66731486301859,354.85932103890661,false,false,135.22947951346211,3.0571854975884261,,,
+2025-05-07T00:00:00,WHEAT.c,252,0.97154111889389494,0.53267496849474516,success,253,358.88218002701279,355.35175671120555,false,false,134.23409206067578,3.1121622119616275,,,
+2025-05-08T00:00:00,WHEAT.c,252,0.99966183953953425,0.47038001420063924,success,253,358.86857860449953,350.87692678212267,false,false,118.53576357856109,0.044137142641624702,,,
+2025-05-09T00:00:00,WHEAT.c,252,0.99843125542329558,0.41547565767186745,success,253,358.85847561257373,352.4025659767475,false,false,104.6998657333106,1.0822628421989253,,,
+2025-05-12T00:00:00,WHEAT.c,252,0.99847616013270535,0.40847646781879371,success,253,358.82979307141397,352.34479617231415,false,false,102.93606989033601,12.829864648562019,,,
+2025-05-13T00:00:00,WHEAT.c,252,0.99853570575874717,0.32317000892957243,success,253,358.86691131404291,352.3419947822353,false,false,81.43884225025225,1.1952179107850078,,,
+2025-05-14T00:00:00,WHEAT.c,252,0.99766671523028183,0.40071081648294965,success,253,358.98559064791959,352.92744842725051,false,false,100.97912575370331,30.059655509022363,,,
+2025-05-15T00:00:00,WHEAT.c,252,0.97154078293555612,0.019686894045868365,success,253,358.93285208521411,355.40244092018048,false,false,4.9610972995588281,9.0782088613665639,,,
+2025-05-16T00:00:00,WHEAT.c,252,0.99949929582561536,0.17816986811169022,success,253,358.96374161837053,351.36474734637324,false,false,44.898806764145938,1.4000400366213763,,,
+2025-05-19T00:00:00,WHEAT.c,252,0.99544859817911091,0.38880942001001356,success,253,358.97458077688594,353.58682256690469,false,false,97.979973842523421,29.65829444907828,,,
+2025-05-20T00:00:00,WHEAT.c,252,0.98537578280226013,0.42446932559716388,success,253,358.95623384653476,354.74588963947889,false,false,106.96627005048529,14.731185262365383,,,
+2025-05-21T00:00:00,WHEAT.c,252,0.99882167912495412,0.45577362044506714,success,253,358.82136581468882,352.07887998916806,false,false,114.85495235215691,0.048173099643196292,,,
+2025-05-22T00:00:00,WHEAT.c,252,0.99279387345852188,0.48624203077273664,success,253,358.94131195236264,354.01572046220696,false,false,122.53299175472964,0.067553301415990363,,,
+2025-05-23T00:00:00,WHEAT.c,252,0.99219841844010825,0.4896528417722526,success,253,358.93384477876606,354.08824815012377,false,false,123.39251612660766,0.070733822395918355,,,
+2025-05-27T00:00:00,WHEAT.c,252,0.96977662268802012,0.3746398083925111,success,253,358.92765344995775,355.45920339897992,false,false,94.409231714912792,0.85335405155121746,,,
+2025-05-28T00:00:00,WHEAT.c,252,0.99336495201666086,0.46641914732502249,success,253,358.9486006548824,353.9398684332786,false,false,117.53762512590566,0.064889825154087352,,,
+2025-05-29T00:00:00,WHEAT.c,252,0.99417295232283287,0.47007235466315056,success,253,358.94572669661852,353.80632597903644,false,false,118.45823337511393,0.066153151150121256,,,
+2025-05-30T00:00:00,WHEAT.c,252,0.96530962859499148,0.39670106915279163,success,253,358.94249939663052,355.61651265543213,false,false,99.968669426503496,14.015641684814389,,,
+2025-06-02T00:00:00,WHEAT.c,252,0.96930137117170756,0.39273529001156654,success,253,358.95696181637601,355.50460423030069,false,false,98.969293082914774,14.60027556881076,,,
+2025-06-03T00:00:00,WHEAT.c,252,0.99535064359854597,0.44540266685097862,success,253,358.95879256771161,353.5924262887371,false,false,112.24147204644662,0.063289674413158026,,,
+2025-06-04T00:00:00,WHEAT.c,252,0.99901365663325503,0.16449645868847509,success,253,358.96222782594361,352.04170863421803,false,false,41.453107589495723,0.25093189527669707,,,
+2025-06-05T00:00:00,WHEAT.c,252,0.9884587920047424,0.34118843001158655,success,253,358.96763623476664,354.5174132149919,false,false,85.979484362919806,26.704418886493727,,,
+2025-06-06T00:00:00,WHEAT.c,252,0.99888624950514115,0.12209803117655191,success,253,358.98155618894197,352.18264842525605,false,false,30.768703856491079,1.274960209695108,,,
+2025-06-09T00:00:00,WHEAT.c,252,0.99608661862115833,0.42222131523035294,success,253,358.99144986322523,353.45201744597853,false,false,106.39977143804894,0.057641359482807075,,,
+2025-06-10T00:00:00,WHEAT.c,252,0.80931053008208398,0.77273114397865095,success,253,358.99145029822921,357.54591390349856,false,false,194.72824828262003,1.5095505740637938,,,
+2025-06-11T00:00:00,WHEAT.c,252,0.99911842663279971,0.14223093984250251,success,253,358.99144929977325,351.95852893231427,false,false,35.842196840310635,0.23267465824982131,,,
+2025-06-12T00:00:00,WHEAT.c,252,0.99566515320999494,0.40774064612971,success,253,358.98953450573561,353.55280976328083,false,false,102.75064282468692,0.058668528061769219,,,
+2025-06-13T00:00:00,WHEAT.c,252,0.99288943100090266,0.41834560388824538,success,253,358.9886045401862,354.04956749939441,false,false,105.42309217983784,0.060227233521885082,,,
+2025-06-16T00:00:00,WHEAT.c,252,0.99619742425941971,0.091193199188680643,success,253,358.99141686045118,353.42315006896132,false,false,22.980686195547523,37.277755495354242,,,
+2025-06-17T00:00:00,WHEAT.c,252,0.99679513437225264,0.087261042094530492,success,253,358.99145027317297,353.25157517007329,false,false,21.989782607821684,91.126189655792999,,,
+2025-06-18T00:00:00,WHEAT.c,252,0.99418478322597126,0.40305439541014448,success,253,358.97840411408652,353.83695908978791,false,false,101.56970764335641,0.048512524251274274,,,
+2025-06-20T00:00:00,WHEAT.c,252,0.99089996421787396,0.41110921908647036,success,253,358.99144973735849,354.30111449802121,false,false,103.59952320979053,0.055258880235780163,,,
+2025-06-23T00:00:00,WHEAT.c,252,0.99116348672418664,0.40656821969814361,success,253,358.9914494552246,354.27146233606379,false,false,102.45519136393219,0.053986323089821306,,,
+2025-06-24T00:00:00,WHEAT.c,252,0.71554769125750073,0.52467953240365262,success,253,358.99145136249547,358.06896871895037,false,false,132.21924216572046,1.2168460655311557,,,
+2025-06-25T00:00:00,WHEAT.c,252,0.99165429805974525,0.39982233400104761,success,253,358.98822804475918,354.21060015671594,false,false,100.755228168264,0.051183624195853594,,,
+2025-06-26T00:00:00,WHEAT.c,252,0.99425114327713759,0.37444671689284381,success,253,358.98770599949745,353.83471716975458,false,false,94.360572656996638,0.044479028092142263,,,
+2025-06-27T00:00:00,WHEAT.c,252,0.71896597996201184,0.51260320520509539,success,253,358.99000152528816,358.05066321421214,false,false,129.17600771168404,1.2040319391788774,,,
+2025-06-30T00:00:00,WHEAT.c,252,0.65944349429831939,0.53619533182267343,success,253,358.99074692759535,358.32993169973582,false,false,135.1212236193137,1.8872266247864866,,,
+2025-07-01T00:00:00,WHEAT.c,252,0.75906449476105931,0.5051171349282888,success,253,358.98653327861058,357.8389758160497,false,false,127.28951800192878,1.2678466002178734,,,
+2025-07-02T00:00:00,WHEAT.c,252,0.99097152844715541,0.38336898992249224,success,253,358.92348979583016,354.22518708188824,false,false,96.608985460468048,0.05293927437281816,,,
+2025-07-03T00:00:00,WHEAT.c,252,0.98850683630851455,0.39499750614094142,success,253,358.93574081333912,354.48129765190856,false,false,99.539371547517234,0.06080929019384998,,,
+2025-07-07T00:00:00,WHEAT.c,252,0.86148603545010383,0.2696029487860781,success,253,358.93339426041621,357.10570656177555,false,false,67.939943094091674,0.77075910171471784,,,
+2025-07-08T00:00:00,WHEAT.c,252,0.81688527108907649,0.23320782877383864,success,253,358.87471262220151,357.37932685460578,false,false,58.768372851007335,1.7025358115991844,,,
+2025-07-09T00:00:00,WHEAT.c,252,0.94554759481480133,0.74351807767378064,success,253,358.65338814066035,355.79895093634639,false,false,187.36655557379271,0.12821099143078254,,,
+2025-07-10T00:00:00,WHEAT.c,252,0.94715893188839873,0.7368079478963393,success,253,358.61299697686349,355.72681876457756,false,false,185.67560286987751,0.14819214504863515,,,
+2025-07-11T00:00:00,WHEAT.c,252,0.95092833433909274,0.7326980780799337,success,253,358.65702836068641,355.69287145330713,false,false,184.63991567614329,0.1465718945150398,,,
+2025-07-14T00:00:00,WHEAT.c,252,0.98644437023475706,0.39742950031347513,success,253,358.52462375382521,354.23731876286411,false,false,100.15223407899573,0.088021927935418992,,,
+2025-07-15T00:00:00,WHEAT.c,252,0.98909813216745412,0.39452710765309629,success,253,358.28335148765933,353.77549207267015,false,false,99.420831128580261,0.091476592361584563,,,
+2025-07-16T00:00:00,WHEAT.c,252,0.83741590229436214,0.49336636356797808,success,253,358.64644200451238,357.00731655326865,false,false,124.32832361913047,2.1190102457254918,,,
+2025-07-17T00:00:00,WHEAT.c,252,0.92227550646911205,0.77258497765474865,success,253,358.69398918455312,356.22031563143088,false,false,194.69141436899665,0.60747881068513476,,,
+2025-07-18T00:00:00,WHEAT.c,252,0.94634666721522942,0.45867597822557149,success,253,358.77634087404891,355.90627550431458,false,false,115.58634651284402,1.4621185473309661,,,
+2025-07-21T00:00:00,WHEAT.c,252,0.61415979442928093,0.19881836313333962,success,253,358.76467695148312,358.2998451142301,false,false,50.102227509601583,2.0339741096320556,,,
+2025-07-22T00:00:00,WHEAT.c,252,0.66595812854332026,0.22831117672159951,success,253,358.74804428110303,358.05808383135621,false,false,57.534416533843078,0.86135081729898755,,,
+2025-07-23T00:00:00,WHEAT.c,252,0.84619686387077386,0.50796690564629188,success,253,358.8269218809773,357.12184329665149,false,false,128.00766022286555,36.114371962897096,,,
+2025-07-24T00:00:00,WHEAT.c,252,0.96056977508604191,0.86007235959918915,success,253,358.81909833558785,355.62610436347825,false,false,216.73823461899568,0.66323183183667256,,,
+2025-07-25T00:00:00,WHEAT.c,252,0.9614678860998056,0.688943591112815,success,253,358.80120815631062,355.58423901251246,false,false,173.61378496042937,0.22580003673085852,,,
+2025-07-28T00:00:00,WHEAT.c,252,0.99010439895164259,0.37046371147463847,success,253,358.76681598286268,354.16109591165053,false,false,93.356855291608895,0.11126961807467395,,,
+2025-07-29T00:00:00,WHEAT.c,252,0.9879664256069205,0.36800910295901845,success,253,358.84895571250917,354.4410076066539,false,false,92.738293945672652,0.11341723912871204,,,
+2025-07-30T00:00:00,WHEAT.c,252,0.84635349270847915,0.27900745357096707,success,253,358.73416300997445,357.02788045428838,false,false,70.309878299883707,0.40531103626440546,,,
+2025-07-31T00:00:00,WHEAT.c,252,0.92147425714427189,0.73279183089597977,success,253,358.68585696433132,356.22330862892653,false,false,184.66354138578691,0.66682606372258579,,,
+2025-08-01T00:00:00,WHEAT.c,252,0.92107270022591559,0.72878658073421487,success,253,358.6658205166583,356.20880872008104,false,false,183.65421834502214,0.668817915832701,,,
+2025-08-04T00:00:00,WHEAT.c,252,0.91299304788597613,0.83061482311747326,success,253,358.69506726273124,356.34432702156658,false,false,209.31493542560327,0.72536212387408783,,,
+2025-08-05T00:00:00,WHEAT.c,252,0.80550373129454622,0.49600032956642937,success,253,358.73664773426435,357.31559287822756,false,false,124.99208305074021,2.288356722844413,,,
+2025-08-06T00:00:00,WHEAT.c,252,0.98988013937347641,0.34278550830528437,success,253,358.75124989427144,354.16816592149428,false,false,86.381948092931665,0.11639522023002391,,,
+2025-08-07T00:00:00,WHEAT.c,252,0.89093977115107115,0.44453728839669299,success,253,358.75133415766442,356.65095761726286,false,false,112.02339667596664,2.8396777068506469,,,
+2025-08-08T00:00:00,WHEAT.c,252,0.82881469902544147,0.76219031213542143,success,253,358.76377824001889,357.18652823458842,false,false,192.07195865812619,1.6919373351355469,,,
+2025-08-11T00:00:00,WHEAT.c,252,0.78096701491090059,0.58741217292587844,success,253,358.77136711337232,357.50005653417372,false,false,148.02786757732136,3.0061880768416427,,,
+2025-08-12T00:00:00,WHEAT.c,252,0.7853573193540403,0.50435381103687116,success,253,358.77010369125145,357.4729395882153,false,false,127.09716038129154,1.433570067387675,,,
+2025-08-13T00:00:00,WHEAT.c,252,0.98943973066350244,0.31672922864920827,success,253,358.77693760940144,354.23689753839659,false,false,79.815765619600484,0.10801750533060475,,,
+2025-08-14T00:00:00,WHEAT.c,252,0.76904045953344213,0.49627862248229826,success,253,358.80424866190901,357.60134762629588,false,false,125.06221286553917,1.4323050392820149,,,
+2025-08-15T00:00:00,WHEAT.c,252,0.98924106240819676,0.30657507452407301,success,253,358.7805860301504,354.25938479767825,false,false,77.2569187800664,0.10678428706210323,,,
+2025-08-18T00:00:00,WHEAT.c,252,0.99073610529438272,0.30121202240541184,success,253,358.74525359495613,354.07292994220762,false,false,75.905429646163782,0.10637876725773329,,,
+2025-08-19T00:00:00,WHEAT.c,252,0.74670904706622987,0.73406602512817931,success,253,358.72284926349215,357.64171248902488,false,false,184.98463833230119,1.8451977893632023,,,
+2025-08-20T00:00:00,WHEAT.c,252,0.74804119399815272,0.73011747086560552,success,253,358.75181171995644,357.66361927721073,false,false,183.98960265813258,1.8264156835083456,,,
+2025-08-21T00:00:00,WHEAT.c,252,0.83660474817849173,0.67171586558427809,success,253,358.74845129166499,357.11527168049082,false,false,169.27239812723809,0.66692496819062619,,,
+2025-08-22T00:00:00,WHEAT.c,252,0.94145303892762999,0.60543909170821786,success,253,358.70273287357861,355.92513759129639,false,false,152.57065111047089,0.28044532669223121,,,
+2025-08-25T00:00:00,WHEAT.c,252,0.9889287972435008,0.27849115557781434,success,253,358.79272140572152,354.30044646229754,false,false,70.179771205609214,0.10533957951337099,,,
+2025-08-26T00:00:00,WHEAT.c,252,0.93007662273312164,0.35115303041161899,success,253,358.81219209516701,356.22432515443057,false,false,88.490563663727983,1.4968544870519196,,,
+2025-08-27T00:00:00,WHEAT.c,252,0.98654469722505356,0.2701813541877095,success,253,358.83779327490549,354.54295792828287,false,false,68.085701255302794,0.10540290476319113,,,
+2025-08-28T00:00:00,WHEAT.c,252,0.8085879695900301,0.53571280018912915,success,253,358.82702655337158,357.38616540619887,false,false,134.99962564766054,3.7876033437398977,,,
+2025-08-29T00:00:00,WHEAT.c,252,0.68491787313425134,0.73109853953995685,success,253,358.85298116573034,358.07651555294331,false,false,184.23683196406913,2.1417532617490105,,,
+2025-09-02T00:00:00,WHEAT.c,252,0.91840005135861924,0.58134020994912616,success,253,358.8869157683626,356.46611131945048,false,false,146.4977329071798,0.29421026049891669,,,
+2025-09-03T00:00:00,WHEAT.c,252,0.98427865826614647,0.25296895334675279,success,253,358.88697313719194,354.75008322632044,false,false,63.7481762433817,0.10554107203983423,,,
+2025-09-04T00:00:00,WHEAT.c,252,0.96505105720509154,0.90247085194320831,success,253,358.91239083899615,355.59409804918556,false,false,227.4226546896885,2.0822314737175271,,,
+2025-09-05T00:00:00,WHEAT.c,252,0.88448311897856469,0.56885009554299482,success,253,358.97980409417227,356.94421734144959,false,false,143.35022407683471,0.29403583995702748,,,
+2025-09-08T00:00:00,WHEAT.c,252,0.81550228901322164,0.16992643300981994,success,253,358.96424795956159,357.47808078744919,false,false,42.821461118474623,0.41493346906460676,,,
+2025-09-09T00:00:00,WHEAT.c,252,0.8872078698832907,0.56100819001949054,success,253,358.97890794227095,356.91637520396267,false,false,141.37406388491161,0.30386252084795889,,,
+2025-09-10T00:00:00,WHEAT.c,252,0.71519284330668453,0.50391358917813411,success,253,358.97250424724717,358.05176433806116,false,false,126.98622447288979,3.5529165345295763,,,
+2025-09-11T00:00:00,WHEAT.c,252,0.88514656934581082,0.55287388891699629,success,253,358.98070046935203,356.93860402240313,false,false,139.32422000708306,0.3042109192738261,,,
+2025-09-12T00:00:00,WHEAT.c,252,0.70851023101238508,0.49594903014333885,success,253,358.98436885644651,358.09620926439754,false,false,124.97915559612139,3.5045938348513537,,,
+2025-09-15T00:00:00,WHEAT.c,252,0.71256592473849456,0.4919621689752226,success,253,358.98410385789236,358.07622495458617,false,false,123.97446658175609,3.3335857362770831,,,
+2025-09-16T00:00:00,WHEAT.c,252,0.87922824436731151,0.54047106861386962,success,253,358.97814437773133,356.99300229725634,false,false,136.19870929069515,0.30100419240217863,,,
+2025-09-17T00:00:00,WHEAT.c,252,0.90996504801304201,0.53695864497133805,success,253,358.92323906647795,356.61003082683203,false,false,135.3135785327772,0.32080284992923291,,,
+2025-09-18T00:00:00,WHEAT.c,252,0.90645939985092427,0.53344702099659091,success,253,358.92169057852055,356.65053990537695,false,false,134.42864929114091,0.33314546394449995,,,
+2025-09-19T00:00:00,WHEAT.c,252,0.73113876757866314,0.49578366138396446,success,253,358.91853556400588,357.91812767163628,false,false,124.93748266875905,1.8527201854832203,,,
+2025-09-22T00:00:00,WHEAT.c,252,0.72847167116719258,0.49185077697522012,success,253,358.90850749888915,357.92162523639047,false,false,123.94639579775547,1.8043994902305527,,,
+2025-09-23T00:00:00,WHEAT.c,252,0.74380333483407801,0.48792535990581654,success,253,358.9543309783914,357.88849968625283,false,false,122.95719069626577,1.816214356945212,,,
+2025-09-24T00:00:00,WHEAT.c,252,0.90945836534529778,0.51732716343772223,success,253,358.97118511777694,356.66414569473471,false,false,130.36644518630601,0.32236191138957765,,,
+2025-09-25T00:00:00,WHEAT.c,252,0.91620018589348917,0.51363236671888635,success,253,358.96411593451103,356.5723118393484,false,false,129.43535641315935,0.32963007748568862,,,
+2025-09-26T00:00:00,WHEAT.c,252,0.9217079606053793,0.50946539244094113,success,253,358.97335224132456,356.50756974330545,false,false,128.38527889511715,0.32789785021383661,,,
+2025-09-29T00:00:00,WHEAT.c,252,0.92958945724674902,0.50551334633682876,success,253,358.95795469745889,356.3775546595669,false,false,127.38936327688084,0.33591284756148115,,,
+2025-09-30T00:00:00,WHEAT.c,252,0.92937525077815342,0.50155251246798427,success,253,358.96474984121431,356.38761789278385,false,false,126.39123314193205,0.32905326089583675,,,
+2025-10-01T00:00:00,WHEAT.c,252,0.92957188926146783,0.49739851979154964,success,253,358.97305074592498,356.39291908361952,false,false,125.34442698747051,0.32927756997871338,,,
+2025-10-02T00:00:00,WHEAT.c,252,0.97201269122335954,0.24875970705851783,success,253,358.98007066742417,355.43245295568045,false,false,62.687446178746491,1.6713585735687795,,,
+2025-10-03T00:00:00,WHEAT.c,252,0.94648396304111837,0.24999294009369624,success,253,358.99145608990091,356.11868342805241,false,false,62.998220903611454,241.64688713415563,,,
+2025-10-06T00:00:00,WHEAT.c,252,0.90873245099381827,0.28183801455179769,success,253,358.99005040706112,356.69179498139619,false,false,71.023179667053014,15.978407538666282,,,
+2025-10-07T00:00:00,WHEAT.c,252,0.96305242172604311,0.24211379107815201,success,253,358.9914503200572,355.73084257851076,false,false,61.012675351694305,44.344784849990667,,,
+2025-10-08T00:00:00,WHEAT.c,252,0.954535940373475,0.26191088431706555,success,253,358.99141563414008,355.94711245357502,false,false,66.001542847900524,313.66050397460509,,,
+2025-10-09T00:00:00,WHEAT.c,252,0.98933464082131006,0.2340777936575551,success,253,358.99143509370799,354.46140348612545,false,false,58.987604001703886,44.944951398353979,,,
+2025-10-10T00:00:00,WHEAT.c,252,0.96529012152829652,0.23019429042700484,success,253,358.99144958050857,355.66604520890337,false,false,58.008961187605223,67.998292774473882,,,
+2025-10-13T00:00:00,WHEAT.c,252,0.89718371753801984,0.46544779578146478,success,253,358.99145002723219,356.82513310302267,false,false,117.29284453692912,0.34550869153247898,,,
+2025-10-14T00:00:00,WHEAT.c,252,0.99093884114729669,0.77372519598288902,success,253,358.99145428526356,354.29679848768137,false,false,194.97874938768803,31.935595622415306,,,
+2025-10-15T00:00:00,WHEAT.c,252,0.73295830065184353,0.51982235611387206,success,253,358.99145023724066,357.98176624911792,false,false,130.99523374069577,0.72900973807919134,,,
+2025-10-16T00:00:00,WHEAT.c,252,0.68282908243547291,0.51562420298276401,success,253,358.99144977566488,358.22464599345079,false,false,129.93729915165653,0.72023278226417675,,,
+2025-10-17T00:00:00,WHEAT.c,252,0.71664158877991702,0.51195457333627081,success,253,358.9914506094039,358.06358733705065,false,false,129.01255248074025,0.74465097933917779,,,
+2025-10-20T00:00:00,WHEAT.c,252,0.70852966315024235,0.50780378772136336,success,253,358.99144997042112,358.10319628486383,false,false,127.96655450578358,0.73977614590449359,,,
+2025-10-21T00:00:00,WHEAT.c,252,0.72891993480967687,0.50377660081948916,success,253,358.99145064186757,358.00230096543544,false,false,126.95170340651126,0.73978455313834268,,,
+2025-10-22T00:00:00,WHEAT.c,252,0.73321989398326992,0.50029109737858801,success,253,358.99145040247805,357.98042949989497,false,false,126.07335653940417,0.77405731571090597,,,
+2025-10-23T00:00:00,WHEAT.c,252,0.73245476759885686,0.49634382280691092,success,253,358.99128604320754,357.98417310007108,false,false,125.07864334734155,0.77080841763735464,,,
+2025-10-24T00:00:00,WHEAT.c,252,0.79021577721444936,0.37696052491073961,success,253,358.99143220290784,357.66520565094868,false,false,94.994052277506384,10.515116122571683,,,
+2025-10-27T00:00:00,WHEAT.c,252,0.89390014367394111,0.42577842055294202,success,253,358.99145106115918,356.86023767982027,false,false,107.29616197934139,0.35254368224082328,,,
+2025-10-28T00:00:00,WHEAT.c,252,0.73414411516465439,0.4843384070429555,success,253,358.98374034271103,357.96798936681211,false,false,122.05327857482479,0.75795046245006914,,,
+2025-10-29T00:00:00,WHEAT.c,252,0.71009661119735601,0.48046659081363835,success,253,358.9905567924983,358.09470348502748,false,false,121.07758088503687,0.76999327473362622,,,
+2025-10-30T00:00:00,WHEAT.c,252,0.90168028488213903,0.41413070229652243,success,253,358.98470351751075,356.76866807938524,false,false,104.36093697872366,0.36249744411605883,,,
+2025-10-31T00:00:00,WHEAT.c,252,0.74230785804786725,0.47293550526101286,success,253,358.99144936220006,357.93345092623821,false,false,119.17974732577524,0.7887651492009875,,,
+2025-11-03T00:00:00,WHEAT.c,252,0.69841384177612686,0.572543874740019,success,253,358.98262064384676,358.14286456084812,false,false,144.28105643448478,0.94267877173927062,,,
+2025-11-04T00:00:00,WHEAT.c,252,0.69421334821588832,0.5685003538674489,success,253,358.96869768598924,358.14880599693942,false,false,143.26208917459712,0.94257117094928,,,
+2025-11-05T00:00:00,WHEAT.c,252,0.69394828887331783,0.56446284056895768,success,253,358.95967901757172,358.14103564983611,false,false,142.24463582337734,0.94327167023471004,,,
+2025-11-06T00:00:00,WHEAT.c,252,0.74951639106040335,0.45693645519696002,success,253,358.98021161048541,357.88417690886433,false,false,115.14798670963393,0.75062999441392053,,,
+2025-11-07T00:00:00,WHEAT.c,252,0.62820428569968545,0.49322075046008479,success,253,358.94122731653903,358.41670645559344,false,false,124.29162911594136,1.6319359740750357,,,
+2025-11-10T00:00:00,WHEAT.c,252,0.6334537561785577,0.48922414157449157,success,253,358.96678175941383,358.41971944990064,false,false,123.28448367677187,1.6325800842059399,,,
+2025-11-11T00:00:00,WHEAT.c,252,0.73624446926094822,0.44465586071099095,success,253,358.96600145669822,357.93946188799725,false,false,112.05327689916972,0.72852286936682631,,,
+2025-11-12T00:00:00,WHEAT.c,252,0.90044102080456223,0.37763785842963715,success,253,358.96740394777942,356.76526950564835,false,false,95.164740324268564,0.32213537840309464,,,
+2025-11-13T00:00:00,WHEAT.c,252,0.71285902391699352,0.43640588165679839,success,253,358.98121556453191,358.07190518710547,false,false,109.97428217751319,0.72226152068703864,,,
+2025-11-14T00:00:00,WHEAT.c,252,0.59443186244515134,0.26585501323878841,success,253,358.99127039168781,358.60895318820502,false,false,66.99546333617468,53.301864307607936,,,
+2025-11-17T00:00:00,WHEAT.c,252,0.69203793922379242,0.42888985487906955,success,253,358.99144924959222,358.18178506609786,false,false,108.08024342952552,0.72355948094179956,,,
+2025-11-18T00:00:00,WHEAT.c,252,0.59268112705519116,0.51190784678639667,success,253,358.99145058356606,358.61639040789998,false,false,129.00077739017195,62.977191893204918,,,
+2025-11-19T00:00:00,WHEAT.c,252,0.88996142347216478,0.67048499232669379,success,253,358.99144943625015,356.9011023188973,false,false,168.96221806632684,9.5890019330448055,,,
+2025-11-20T00:00:00,WHEAT.c,252,0.682815753435846,0.52146262391709053,success,253,358.99144968639638,358.22470744840638,false,false,131.40858122710682,0.88155251763196774,,,
+2025-11-21T00:00:00,WHEAT.c,252,0.59239493240242325,0.50000088873131021,success,253,358.99145098111762,358.61757618715421,false,false,126.00022396029019,208.2745360761827,,,
+2025-11-24T00:00:00,WHEAT.c,252,0.67401502267160074,0.51330877116441953,success,253,358.99144954223721,358.2650484412332,false,false,129.35381033343373,0.8868187001353276,,,
+2025-11-25T00:00:00,WHEAT.c,252,0.91102949139067091,0.65466564347892875,success,253,358.9914496361742,356.66517931776968,false,false,164.97574215669005,15.736260824223088,,,
+2025-11-26T00:00:00,WHEAT.c,252,0.93874357367638728,0.60335859452600638,success,253,358.99144942953012,356.26197583558326,false,false,152.0463658205536,1.6443325252068091,,,
+2025-11-28T00:00:00,WHEAT.c,252,0.66907809046623268,0.50115713101250781,success,253,358.99144963343548,358.2874312776492,false,false,126.29159701515198,0.89157608606835237,,,
+2025-12-01T00:00:00,WHEAT.c,252,0.66872372520091472,0.49705705578078047,success,253,358.99144938057646,358.28903106686022,false,false,125.25837805675668,0.89484417865315435,,,
+2025-12-02T00:00:00,WHEAT.c,252,0.66991691096992334,0.4931191804722595,success,253,358.99144965391918,358.28364037040984,false,false,124.26603347900939,0.89257681326352545,,,
+2025-12-03T00:00:00,WHEAT.c,252,0.67116833583425051,0.48902732577767982,success,253,358.99144983525713,358.27797581742499,false,false,123.23488609597531,0.89572286488985087,,,
+2025-12-04T00:00:00,WHEAT.c,252,0.72585815970458956,0.26560080136752179,success,253,358.99145518993481,358.01774620426272,false,false,66.931401944615487,2.8708957163458146,,,
+2025-12-05T00:00:00,WHEAT.c,252,0.65334222866424474,0.24602711801466637,success,253,358.99144929913103,358.35768626389455,false,false,61.998833739695925,190.05902793209958,,,
+2025-12-08T00:00:00,WHEAT.c,252,0.97138182935618766,0.57153731623164739,success,253,358.99144965590165,355.46677188507044,false,false,144.02740369037514,4.1991965553015795,,,
+2025-12-09T00:00:00,WHEAT.c,252,0.97575933195055142,0.61883959556664603,success,253,358.99145092504449,355.29626667577207,false,false,155.94757808279479,9.2718449705598349,,,
+2025-12-10T00:00:00,WHEAT.c,252,0.72086058817449106,0.26901487342274016,success,253,358.99144970704782,358.04271528842372,false,false,67.791748102530519,1.5422177423646442,,,
+2025-12-11T00:00:00,WHEAT.c,252,0.73652412241385479,0.26498893850125899,success,253,358.99145517589335,357.9634750053869,false,false,66.777212502317269,1.5311718393677893,,,
+2025-12-12T00:00:00,WHEAT.c,252,0.75345240828408266,0.26096769208141452,success,253,358.99144985348539,357.87433904297268,false,false,65.763858404516455,1.529516607747095,,,
+2025-12-15T00:00:00,WHEAT.c,252,0.77582227307191332,0.23740678322101719,success,253,358.99144988914691,357.74996558578835,false,false,59.826509371696332,2.2779423285011213,,,
+2025-12-16T00:00:00,WHEAT.c,252,0.89393843952371255,0.27848675658035998,success,253,358.99144986915269,356.85983264069023,false,false,70.178662658250715,0.2213768969643275,,,
+2025-12-17T00:00:00,WHEAT.c,252,0.98253140176421294,0.54360067726206474,success,253,358.99144998402761,354.96172256227482,false,false,136.98737067004032,3.4619941480082668,,,
+2025-12-18T00:00:00,WHEAT.c,252,0.98973461329623269,0.54330667455979731,success,253,358.99144958292027,354.42279046493394,false,false,136.91328198906893,1.6857433303107408,,,
+2025-12-19T00:00:00,WHEAT.c,252,0.98879702735906261,0.53596779397886152,success,253,358.99144986672485,354.51113994379187,false,false,135.0638840826731,3.1949622411815866,,,
+2025-12-22T00:00:00,WHEAT.c,252,0.98986758007979136,0.58326217601042396,success,253,358.99145007482832,354.40961907436935,false,false,146.98206835462685,29.868633504937289,,,
+2025-12-23T00:00:00,WHEAT.c,252,0.99317877939257948,0.53136303718541766,success,253,358.99144989668736,354.01057763971352,false,false,133.90348537072526,1.6950742046455556,,,
+2025-12-24T00:00:00,WHEAT.c,252,0.994199598695788,0.52737377562134147,success,253,358.99145154982114,353.8474406653462,false,false,132.89819145657805,1.697258381680762,,,
+2025-12-26T00:00:00,WHEAT.c,252,0.99326189818451616,0.52002959502426449,success,253,358.99144994589682,353.99823382773974,false,false,131.04745794611466,3.4638729521463922,,,
+2025-12-29T00:00:00,WHEAT.c,252,0.68134097640589464,0.2975451662478093,success,253,358.99144930590961,358.23150806505851,false,false,74.981381894447949,11.224688802056138,,,
+2025-12-30T00:00:00,WHEAT.c,252,0.87890445486000701,0.18252359591406583,success,253,358.99144928443019,357.00935295345539,false,false,45.995946170344588,101.18723924196665,,,
+2025-12-31T00:00:00,WHEAT.c,252,0.99555240283027835,0.50816619009531638,success,253,358.99144943279339,353.58051565945152,false,false,128.05787990401973,3.1736586315428941,,,
+2026-01-02T00:00:00,WHEAT.c,252,0.99699282348837936,0.55662177851751993,success,253,358.99144944827066,353.18770747896394,false,false,140.26868818641503,1.1179186085209716,,,
+2026-01-05T00:00:00,WHEAT.c,252,0.99789607053562912,0.50331698970887218,success,253,358.99144955218816,352.82960718881418,false,false,126.83588140663578,1.6931041319182574,,,
+2026-01-06T00:00:00,WHEAT.c,252,0.99814760552654758,0.49933548490201651,success,253,358.99144956374977,352.70202750921277,false,false,125.83254219530816,1.7102228866198346,,,
+2026-01-07T00:00:00,WHEAT.c,252,0.99583693829303155,0.49237133788448295,success,253,358.99145086233449,353.51411812554556,false,false,124.07757714688971,3.4140793306053072,,,
+2026-01-08T00:00:00,WHEAT.c,252,0.9959435718984001,0.53963757746243135,success,253,358.99145020636297,353.48806241355464,false,false,135.98866952053271,51.331296744939181,,,
+2026-01-09T00:00:00,WHEAT.c,252,0.9969510111353721,0.53569753350778282,success,253,358.99145103196571,353.20155941534489,false,false,134.99577844396126,142.22555723236729,,,
+2026-01-12T00:00:00,WHEAT.c,252,0.99705168095805397,0.48032533113234649,success,253,358.99144983931626,353.16788242588569,false,false,121.04198344535132,3.5592473985625195,,,
+2026-01-13T00:00:00,WHEAT.c,252,0.99786101638302338,0.52773351660663415,success,253,358.99145052143143,352.8461672878326,false,false,132.98884618487182,54.967115730626489,,,
+2026-01-14T00:00:00,WHEAT.c,252,0.71211328131158047,0.30949121633368548,success,253,358.99145041969143,358.08578048284016,false,false,77.991786516088737,28.407094329153679,,,
+2026-01-15T00:00:00,WHEAT.c,252,0.66559318096633002,0.30550955490694454,success,253,358.99144920696716,358.30312883530479,false,false,76.988407836550024,17.010198260989867,,,
+2026-01-16T00:00:00,WHEAT.c,252,0.99796719084112739,0.51581759466861243,success,253,358.99144973420152,352.79514799189815,false,false,129.98603385649034,44.251300338441922,,,
+2026-01-20T00:00:00,WHEAT.c,252,0.99878133799141866,0.46356538910996548,success,253,358.99144952247451,352.28266719130977,false,false,116.8184780557113,1.7234892184759698,,,
+2026-01-21T00:00:00,WHEAT.c,252,0.9983322544465183,0.50778978165529753,success,253,358.99145138025267,352.59683798548571,false,false,127.96302497713499,16.970565100798094,,,
+2026-01-22T00:00:00,WHEAT.c,252,0.99833507992272053,0.45270748043382064,success,253,358.99144999441268,352.59513814367386,false,false,114.08228506932281,3.2761860295542355,,,
+2026-01-23T00:00:00,WHEAT.c,252,0.99340371032682317,0.49990679151946793,success,253,358.98895461541355,353.97432479799397,false,false,125.97651146290592,23.183482043745673,,,
+2026-01-26T00:00:00,WHEAT.c,252,0.99375875560989835,0.44458778919414405,success,253,358.99144981772548,353.9211349251093,false,false,112.0361228769243,3.458364927452283,,,
+2026-01-27T00:00:00,WHEAT.c,252,0.98388403091595289,0.4177121256242417,success,253,358.99145078241105,354.87975339605259,false,false,105.26345565730891,3.7689930474491309,,,
+2026-01-28T00:00:00,WHEAT.c,252,0.99550772922106123,0.44004374865266854,success,253,358.99144966130649,353.59055508899445,false,false,110.89102466047247,1.6822037941607129,,,
+2026-01-29T00:00:00,WHEAT.c,252,0.99298141853282973,0.4839721381805675,success,253,358.98925249405664,354.03710167005602,false,false,121.96097882150301,14.010810887522942,,,
+2026-01-30T00:00:00,WHEAT.c,252,0.99342857128405759,0.48015309908006248,success,253,358.99144957722024,353.97301868327821,false,false,120.99858096817574,385.41015048270333,,,
+2026-02-02T00:00:00,WHEAT.c,252,0.98818129919354747,0.47606932486596509,success,253,358.99145096772355,354.56526787668707,false,false,119.96946986622321,16.721138794027155,,,
+2026-02-03T00:00:00,WHEAT.c,252,0.99007208696356142,0.42092856386623667,success,253,358.99144994096906,354.38902247381657,false,false,106.07399809429164,3.3014144021474205,,,
+2026-02-04T00:00:00,WHEAT.c,252,0.99193615706166993,0.41683693635168578,success,253,358.99144958196263,354.17918106879529,false,false,105.04290796062482,3.3805369912146479,,,
+2026-02-05T00:00:00,WHEAT.c,252,0.99180851046465679,0.41269841506917448,success,253,358.9914499253594,354.19501562428923,false,false,104.00000059743196,3.5941317460450901,,,
+2026-02-06T00:00:00,WHEAT.c,252,0.99144798990695782,0.4088495484008921,success,253,358.99144947280166,354.23844933610519,false,false,103.03008619702481,3.3670587305386639,,,
+2026-02-09T00:00:00,WHEAT.c,252,0.99315995510482002,0.40488570173248462,success,253,358.99144952241602,354.01335208389537,false,false,102.03119683658612,3.3382983151062695,,,
+2026-02-10T00:00:00,WHEAT.c,252,0.99170895747529253,0.45234155623231226,success,253,358.99144970302291,354.20719574656829,false,false,113.99007217054269,53.521408725060155,,,
+2026-02-11T00:00:00,WHEAT.c,252,0.99191281507251738,0.44835739245739031,success,253,358.9914496996999,354.18209518541533,false,false,112.98606289926236,38.236111608321067,,,
+2026-02-12T00:00:00,WHEAT.c,252,0.98749923005466722,0.44426645347898075,success,253,358.98786934271754,354.618483863672,false,false,111.95514627670315,11.300203819388903,,,
+2026-02-13T00:00:00,WHEAT.c,252,0.80767139405771593,0.61104416044777676,success,253,358.99107227946524,357.55612239256948,false,false,153.98312843283975,14.506950556521478,,,
+2026-02-17T00:00:00,WHEAT.c,252,0.99077771920353319,0.43615124746379308,success,253,358.98962773806721,354.31275991025234,false,false,109.91011436087585,5.7584290047412132,,,
+2026-02-18T00:00:00,WHEAT.c,252,0.98981051331399905,0.43242139084898989,success,253,358.99144954559426,354.41529249315539,false,false,108.97019049394545,17.42341729240982,,,
+2026-02-19T00:00:00,WHEAT.c,252,0.97405343672694067,0.38086851750747469,success,253,358.99145067577234,355.36602367481584,false,false,95.978866411883615,1.6288197953827812,,,
+2026-02-20T00:00:00,WHEAT.c,252,0.96251943750032576,0.42424978732901214,success,253,358.96723442967345,355.72150263416307,false,false,106.91094640691107,4.067402737711979,,,
+2026-02-23T00:00:00,WHEAT.c,252,0.95979129799340834,0.42054352257622268,success,253,358.98745739180362,355.81482496892448,false,false,105.97696768920811,18.209056493299997,,,

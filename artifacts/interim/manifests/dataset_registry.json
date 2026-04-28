@@ -1,0 +1,247 @@
+[
+  {
+    "lbw": 10,
+    "feature_columns": [
+      "normalized_return_1",
+      "normalized_return_21",
+      "normalized_return_63",
+      "normalized_return_126",
+      "normalized_return_256",
+      "macd_8_24",
+      "macd_16_28",
+      "macd_32_96",
+      "nu",
+      "gamma"
+    ],
+    "sequence_length": 63,
+    "train_sequence_count": 3401,
+    "val_sequence_count": 355,
+    "train_input_shape": [
+      3401,
+      63,
+      10
+    ],
+    "train_target_shape": [
+      3401,
+      63
+    ],
+    "val_input_shape": [
+      355,
+      63,
+      10
+    ],
+    "val_target_shape": [
+      355,
+      63
+    ],
+    "artifacts": {
+      "train_inputs_path": "artifacts/interim/datasets/lbw_10/train_inputs.npy",
+      "train_target_scale_path": "artifacts/interim/datasets/lbw_10/train_target_scale.npy",
+      "val_inputs_path": "artifacts/interim/datasets/lbw_10/val_inputs.npy",
+      "val_target_scale_path": "artifacts/interim/datasets/lbw_10/val_target_scale.npy",
+      "train_sequence_index_path": "artifacts/interim/datasets/lbw_10/train_sequence_index.csv",
+      "val_sequence_index_path": "artifacts/interim/datasets/lbw_10/val_sequence_index.csv"
+    },
+    "source_artifacts": {
+      "split_manifest_path": "artifacts/interim/datasets/lbw_10/split_manifest.csv",
+      "sequence_manifest_path": "artifacts/interim/datasets/lbw_10/sequence_manifest.csv",
+      "target_alignment_registry_path": "artifacts/interim/datasets/lbw_10/target_alignment_registry.csv"
+    }
+  },
+  {
+    "lbw": 21,
+    "feature_columns": [
+      "normalized_return_1",
+      "normalized_return_21",
+      "normalized_return_63",
+      "normalized_return_126",
+      "normalized_return_256",
+      "macd_8_24",
+      "macd_16_28",
+      "macd_32_96",
+      "nu",
+      "gamma"
+    ],
+    "sequence_length": 63,
+    "train_sequence_count": 1079,
+    "val_sequence_count": 113,
+    "train_input_shape": [
+      1079,
+      63,
+      10
+    ],
+    "train_target_shape": [
+      1079,
+      63
+    ],
+    "val_input_shape": [
+      113,
+      63,
+      10
+    ],
+    "val_target_shape": [
+      113,
+      63
+    ],
+    "artifacts": {
+      "train_inputs_path": "artifacts/interim/datasets/lbw_21/train_inputs.npy",
+      "train_target_scale_path": "artifacts/interim/datasets/lbw_21/train_target_scale.npy",
+      "val_inputs_path": "artifacts/interim/datasets/lbw_21/val_inputs.npy",
+      "val_target_scale_path": "artifacts/interim/datasets/lbw_21/val_target_scale.npy",
+      "train_sequence_index_path": "artifacts/interim/datasets/lbw_21/train_sequence_index.csv",
+      "val_sequence_index_path": "artifacts/interim/datasets/lbw_21/val_sequence_index.csv"
+    },
+    "source_artifacts": {
+      "split_manifest_path": "artifacts/interim/datasets/lbw_21/split_manifest.csv",
+      "sequence_manifest_path": "artifacts/interim/datasets/lbw_21/sequence_manifest.csv",
+      "target_alignment_registry_path": "artifacts/interim/datasets/lbw_21/target_alignment_registry.csv"
+    }
+  },
+  {
+    "lbw": 63,
+    "feature_columns": [
+      "normalized_return_1",
+      "normalized_return_21",
+      "normalized_return_63",
+      "normalized_return_126",
+      "normalized_return_256",
+      "macd_8_24",
+      "macd_16_28",
+      "macd_32_96",
+      "nu",
+      "gamma"
+    ],
+    "sequence_length": 63,
+    "train_sequence_count": 1079,
+    "val_sequence_count": 113,
+    "train_input_shape": [
+      1079,
+      63,
+      10
+    ],
+    "train_target_shape": [
+      1079,
+      63
+    ],
+    "val_input_shape": [
+      113,
+      63,
+      10
+    ],
+    "val_target_shape": [
+      113,
+      63
+    ],
+    "artifacts": {
+      "train_inputs_path": "artifacts/interim/datasets/lbw_63/train_inputs.npy",
+      "train_target_scale_path": "artifacts/interim/datasets/lbw_63/train_target_scale.npy",
+      "val_inputs_path": "artifacts/interim/datasets/lbw_63/val_inputs.npy",
+      "val_target_scale_path": "artifacts/interim/datasets/lbw_63/val_target_scale.npy",
+      "train_sequence_index_path": "artifacts/interim/datasets/lbw_63/train_sequence_index.csv",
+      "val_sequence_index_path": "artifacts/interim/datasets/lbw_63/val_sequence_index.csv"
+    },
+    "source_artifacts": {
+      "split_manifest_path": "artifacts/interim/datasets/lbw_63/split_manifest.csv",
+      "sequence_manifest_path": "artifacts/interim/datasets/lbw_63/sequence_manifest.csv",
+      "target_alignment_registry_path": "artifacts/interim/datasets/lbw_63/target_alignment_registry.csv"
+    }
+  },
+  {
+    "lbw": 126,
+    "feature_columns": [
+      "normalized_return_1",
+      "normalized_return_21",
+      "normalized_return_63",
+      "normalized_return_126",
+      "normalized_return_256",
+      "macd_8_24",
+      "macd_16_28",
+      "macd_32_96",
+      "nu",
+      "gamma"
+    ],
+    "sequence_length": 63,
+    "train_sequence_count": 1079,
+    "val_sequence_count": 113,
+    "train_input_shape": [
+      1079,
+      63,
+      10
+    ],
+    "train_target_shape": [
+      1079,
+      63
+    ],
+    "val_input_shape": [
+      113,
+      63,
+      10
+    ],
+    "val_target_shape": [
+      113,
+      63
+    ],
+    "artifacts": {
+      "train_inputs_path": "artifacts/interim/datasets/lbw_126/train_inputs.npy",
+      "train_target_scale_path": "artifacts/interim/datasets/lbw_126/train_target_scale.npy",
+      "val_inputs_path": "artifacts/interim/datasets/lbw_126/val_inputs.npy",
+      "val_target_scale_path": "artifacts/interim/datasets/lbw_126/val_target_scale.npy",
+      "train_sequence_index_path": "artifacts/interim/datasets/lbw_126/train_sequence_index.csv",
+      "val_sequence_index_path": "artifacts/interim/datasets/lbw_126/val_sequence_index.csv"
+    },
+    "source_artifacts": {
+      "split_manifest_path": "artifacts/interim/datasets/lbw_126/split_manifest.csv",
+      "sequence_manifest_path": "artifacts/interim/datasets/lbw_126/sequence_manifest.csv",
+      "target_alignment_registry_path": "artifacts/interim/datasets/lbw_126/target_alignment_registry.csv"
+    }
+  },
+  {
+    "lbw": 252,
+    "feature_columns": [
+      "normalized_return_1",
+      "normalized_return_21",
+      "normalized_return_63",
+      "normalized_return_126",
+      "normalized_return_256",
+      "macd_8_24",
+      "macd_16_28",
+      "macd_32_96",
+      "nu",
+      "gamma"
+    ],
+    "sequence_length": 63,
+    "train_sequence_count": 1012,
+    "val_sequence_count": 105,
+    "train_input_shape": [
+      1012,
+      63,
+      10
+    ],
+    "train_target_shape": [
+      1012,
+      63
+    ],
+    "val_input_shape": [
+      105,
+      63,
+      10
+    ],
+    "val_target_shape": [
+      105,
+      63
+    ],
+    "artifacts": {
+      "train_inputs_path": "artifacts/interim/datasets/lbw_252/train_inputs.npy",
+      "train_target_scale_path": "artifacts/interim/datasets/lbw_252/train_target_scale.npy",
+      "val_inputs_path": "artifacts/interim/datasets/lbw_252/val_inputs.npy",
+      "val_target_scale_path": "artifacts/interim/datasets/lbw_252/val_target_scale.npy",
+      "train_sequence_index_path": "artifacts/interim/datasets/lbw_252/train_sequence_index.csv",
+      "val_sequence_index_path": "artifacts/interim/datasets/lbw_252/val_sequence_index.csv"
+    },
+    "source_artifacts": {
+      "split_manifest_path": "artifacts/interim/datasets/lbw_252/split_manifest.csv",
+      "sequence_manifest_path": "artifacts/interim/datasets/lbw_252/sequence_manifest.csv",
+      "target_alignment_registry_path": "artifacts/interim/datasets/lbw_252/target_alignment_registry.csv"
+    }
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "status": "completed",
+  "candidate_id": "C-032",
+  "candidate_index": 31,
+  "dropout": 0.5,
+  "hidden_size": 80,
+  "minibatch_size": 64,
+  "learning_rate": 0.01,
+  "max_grad_norm": 1.0,
+  "lbw": 252,
+  "dataset_registry_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/manifests/dataset_registry.json",
+  "output_dir": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_031",
+  "initial_validation_loss": "-0.24333342909812927",
+  "best_validation_loss": "-0.3443603515625",
+  "best_epoch_index": 0,
+  "epochs_completed": 26,
+  "validation_losses": [
+    "-0.3443603515625",
+    "-0.32692688703536987",
+    "-0.32462164759635925",
+    "-0.32491064071655273",
+    "-0.32426676154136658",
+    "-0.32364380359649658",
+    "-0.32349491119384766",
+    "-0.3232782781124115",
+    "-0.32301262021064758",
+    "-0.32280060648918152",
+    "-0.32270154356956482",
+    "-0.32280510663986206",
+    "-0.3230631947517395",
+    "-0.32272830605506897",
+    "-0.32286626100540161",
+    "-0.32244536280632019",
+    "-0.32254001498222351",
+    "-0.32253125309944153",
+    "-0.32237005233764648",
+    "-0.32276654243469238",
+    "-0.32243669033050537",
+    "-0.32284414768218994",
+    "-0.32360970973968506",
+    "-0.32223072648048401",
+    "-0.32341188192367554",
+    "-0.32340994477272034"
+  ],
+  "dataset_entry": {
+    "lbw": 252,
+    "feature_columns": [
+      "normalized_return_1",
+      "normalized_return_21",
+      "normalized_return_63",
+      "normalized_return_126",
+      "normalized_return_256",
+      "macd_8_24",
+      "macd_16_28",
+      "macd_32_96",
+      "nu",
+      "gamma"
+    ],
+    "sequence_length": 63,
+    "train_sequence_count": 4990,
+    "val_sequence_count": 511,
+    "train_input_shape": [
+      4990,
+      63,
+      10
+    ],
+    "train_target_shape": [
+      4990,
+      63
+    ],
+    "val_input_shape": [
+      511,
+      63,
+      10
+    ],
+    "val_target_shape": [
+      511,
+      63
+    ],
+    "artifacts": {
+      "train_inputs_path": "artifacts/datasets/lbw_252/train_inputs.npy",
+      "train_target_scale_path": "artifacts/datasets/lbw_252/train_target_scale.npy",
+      "val_inputs_path": "artifacts/datasets/lbw_252/val_inputs.npy",
+      "val_target_scale_path": "artifacts/datasets/lbw_252/val_target_scale.npy",
+      "train_sequence_index_path": "artifacts/datasets/lbw_252/train_sequence_index.csv",
+      "val_sequence_index_path": "artifacts/datasets/lbw_252/val_sequence_index.csv"
+    },
+    "source_artifacts": {
+      "split_manifest_path": "artifacts/datasets/lbw_252/split_manifest.csv",
+      "sequence_manifest_path": "artifacts/datasets/lbw_252/sequence_manifest.csv",
+      "target_alignment_registry_path": "artifacts/datasets/lbw_252/target_alignment_registry.csv"
+    }
+  },
+  "artifacts": {
+    "candidate_dir": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_031",
+    "config_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_031/config.json",
+    "best_model_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_031/best_model.keras",
+    "epoch_log_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_031/epoch_log.csv",
+    "validation_history_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_031/validation_history.csv",
+    "final_metadata_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_031/final_metadata.json"
+  }
+}

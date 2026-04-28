@@ -1,0 +1,1075 @@
+timestamp,asset_id,lbw,nu,gamma,status,window_size,nlml_baseline,nlml_changepoint,retry_used,fallback_used,location_c,steepness_s,fallback_source_timestamp,failure_stage,failure_message
+2022-01-03T00:00:00,USDILS,252,,,invalid_window,1,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 1"
+2022-01-04T00:00:00,USDILS,252,,,invalid_window,2,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 2"
+2022-01-05T00:00:00,USDILS,252,,,invalid_window,3,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 3"
+2022-01-06T00:00:00,USDILS,252,,,invalid_window,4,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 4"
+2022-01-07T00:00:00,USDILS,252,,,invalid_window,5,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 5"
+2022-01-10T00:00:00,USDILS,252,,,invalid_window,6,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 6"
+2022-01-11T00:00:00,USDILS,252,,,invalid_window,7,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 7"
+2022-01-12T00:00:00,USDILS,252,,,invalid_window,8,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 8"
+2022-01-13T00:00:00,USDILS,252,,,invalid_window,9,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 9"
+2022-01-14T00:00:00,USDILS,252,,,invalid_window,10,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 10"
+2022-01-17T00:00:00,USDILS,252,,,invalid_window,11,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 11"
+2022-01-18T00:00:00,USDILS,252,,,invalid_window,12,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 12"
+2022-01-19T00:00:00,USDILS,252,,,invalid_window,13,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 13"
+2022-01-20T00:00:00,USDILS,252,,,invalid_window,14,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 14"
+2022-01-21T00:00:00,USDILS,252,,,invalid_window,15,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 15"
+2022-01-24T00:00:00,USDILS,252,,,invalid_window,16,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 16"
+2022-01-25T00:00:00,USDILS,252,,,invalid_window,17,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 17"
+2022-01-26T00:00:00,USDILS,252,,,invalid_window,18,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 18"
+2022-01-27T00:00:00,USDILS,252,,,invalid_window,19,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 19"
+2022-01-28T00:00:00,USDILS,252,,,invalid_window,20,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 20"
+2022-01-31T00:00:00,USDILS,252,,,invalid_window,21,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 21"
+2022-02-01T00:00:00,USDILS,252,,,invalid_window,22,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 22"
+2022-02-02T00:00:00,USDILS,252,,,invalid_window,23,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 23"
+2022-02-03T00:00:00,USDILS,252,,,invalid_window,24,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 24"
+2022-02-04T00:00:00,USDILS,252,,,invalid_window,25,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 25"
+2022-02-07T00:00:00,USDILS,252,,,invalid_window,26,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 26"
+2022-02-08T00:00:00,USDILS,252,,,invalid_window,27,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 27"
+2022-02-09T00:00:00,USDILS,252,,,invalid_window,28,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 28"
+2022-02-10T00:00:00,USDILS,252,,,invalid_window,29,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 29"
+2022-02-11T00:00:00,USDILS,252,,,invalid_window,30,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 30"
+2022-02-14T00:00:00,USDILS,252,,,invalid_window,31,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 31"
+2022-02-15T00:00:00,USDILS,252,,,invalid_window,32,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 32"
+2022-02-16T00:00:00,USDILS,252,,,invalid_window,33,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 33"
+2022-02-17T00:00:00,USDILS,252,,,invalid_window,34,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 34"
+2022-02-18T00:00:00,USDILS,252,,,invalid_window,35,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 35"
+2022-02-21T00:00:00,USDILS,252,,,invalid_window,36,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 36"
+2022-02-22T00:00:00,USDILS,252,,,invalid_window,37,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 37"
+2022-02-23T00:00:00,USDILS,252,,,invalid_window,38,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 38"
+2022-02-24T00:00:00,USDILS,252,,,invalid_window,39,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 39"
+2022-02-25T00:00:00,USDILS,252,,,invalid_window,40,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 40"
+2022-02-28T00:00:00,USDILS,252,,,invalid_window,41,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 41"
+2022-03-01T00:00:00,USDILS,252,,,invalid_window,42,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 42"
+2022-03-02T00:00:00,USDILS,252,,,invalid_window,43,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 43"
+2022-03-03T00:00:00,USDILS,252,,,invalid_window,44,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 44"
+2022-03-04T00:00:00,USDILS,252,,,invalid_window,45,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 45"
+2022-03-07T00:00:00,USDILS,252,,,invalid_window,46,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 46"
+2022-03-08T00:00:00,USDILS,252,,,invalid_window,47,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 47"
+2022-03-09T00:00:00,USDILS,252,,,invalid_window,48,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 48"
+2022-03-10T00:00:00,USDILS,252,,,invalid_window,49,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 49"
+2022-03-11T00:00:00,USDILS,252,,,invalid_window,50,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 50"
+2022-03-14T00:00:00,USDILS,252,,,invalid_window,51,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 51"
+2022-03-15T00:00:00,USDILS,252,,,invalid_window,52,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 52"
+2022-03-16T00:00:00,USDILS,252,,,invalid_window,53,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 53"
+2022-03-17T00:00:00,USDILS,252,,,invalid_window,54,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 54"
+2022-03-18T00:00:00,USDILS,252,,,invalid_window,55,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 55"
+2022-03-21T00:00:00,USDILS,252,,,invalid_window,56,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 56"
+2022-03-22T00:00:00,USDILS,252,,,invalid_window,57,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 57"
+2022-03-23T00:00:00,USDILS,252,,,invalid_window,58,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 58"
+2022-03-24T00:00:00,USDILS,252,,,invalid_window,59,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 59"
+2022-03-25T00:00:00,USDILS,252,,,invalid_window,60,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 60"
+2022-03-28T00:00:00,USDILS,252,,,invalid_window,61,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 61"
+2022-03-29T00:00:00,USDILS,252,,,invalid_window,62,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 62"
+2022-03-30T00:00:00,USDILS,252,,,invalid_window,63,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 63"
+2022-03-31T00:00:00,USDILS,252,,,invalid_window,64,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 64"
+2022-04-01T00:00:00,USDILS,252,,,invalid_window,65,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 65"
+2022-04-04T00:00:00,USDILS,252,,,invalid_window,66,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 66"
+2022-04-05T00:00:00,USDILS,252,,,invalid_window,67,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 67"
+2022-04-06T00:00:00,USDILS,252,,,invalid_window,68,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 68"
+2022-04-07T00:00:00,USDILS,252,,,invalid_window,69,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 69"
+2022-04-08T00:00:00,USDILS,252,,,invalid_window,70,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 70"
+2022-04-11T00:00:00,USDILS,252,,,invalid_window,71,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 71"
+2022-04-12T00:00:00,USDILS,252,,,invalid_window,72,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 72"
+2022-04-13T00:00:00,USDILS,252,,,invalid_window,73,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 73"
+2022-04-14T00:00:00,USDILS,252,,,invalid_window,74,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 74"
+2022-04-15T00:00:00,USDILS,252,,,invalid_window,75,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 75"
+2022-04-18T00:00:00,USDILS,252,,,invalid_window,76,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 76"
+2022-04-19T00:00:00,USDILS,252,,,invalid_window,77,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 77"
+2022-04-20T00:00:00,USDILS,252,,,invalid_window,78,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 78"
+2022-04-21T00:00:00,USDILS,252,,,invalid_window,79,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 79"
+2022-04-22T00:00:00,USDILS,252,,,invalid_window,80,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 80"
+2022-04-25T00:00:00,USDILS,252,,,invalid_window,81,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 81"
+2022-04-26T00:00:00,USDILS,252,,,invalid_window,82,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 82"
+2022-04-27T00:00:00,USDILS,252,,,invalid_window,83,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 83"
+2022-04-28T00:00:00,USDILS,252,,,invalid_window,84,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 84"
+2022-04-29T00:00:00,USDILS,252,,,invalid_window,85,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 85"
+2022-05-02T00:00:00,USDILS,252,,,invalid_window,86,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 86"
+2022-05-03T00:00:00,USDILS,252,,,invalid_window,87,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 87"
+2022-05-04T00:00:00,USDILS,252,,,invalid_window,88,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 88"
+2022-05-05T00:00:00,USDILS,252,,,invalid_window,89,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 89"
+2022-05-06T00:00:00,USDILS,252,,,invalid_window,90,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 90"
+2022-05-09T00:00:00,USDILS,252,,,invalid_window,91,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 91"
+2022-05-10T00:00:00,USDILS,252,,,invalid_window,92,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 92"
+2022-05-11T00:00:00,USDILS,252,,,invalid_window,93,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 93"
+2022-05-12T00:00:00,USDILS,252,,,invalid_window,94,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 94"
+2022-05-13T00:00:00,USDILS,252,,,invalid_window,95,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 95"
+2022-05-16T00:00:00,USDILS,252,,,invalid_window,96,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 96"
+2022-05-17T00:00:00,USDILS,252,,,invalid_window,97,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 97"
+2022-05-18T00:00:00,USDILS,252,,,invalid_window,98,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 98"
+2022-05-19T00:00:00,USDILS,252,,,invalid_window,99,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 99"
+2022-05-20T00:00:00,USDILS,252,,,invalid_window,100,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 100"
+2022-05-23T00:00:00,USDILS,252,,,invalid_window,101,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 101"
+2022-05-24T00:00:00,USDILS,252,,,invalid_window,102,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 102"
+2022-05-25T00:00:00,USDILS,252,,,invalid_window,103,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 103"
+2022-05-26T00:00:00,USDILS,252,,,invalid_window,104,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 104"
+2022-05-27T00:00:00,USDILS,252,,,invalid_window,105,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 105"
+2022-05-30T00:00:00,USDILS,252,,,invalid_window,106,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 106"
+2022-05-31T00:00:00,USDILS,252,,,invalid_window,107,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 107"
+2022-06-01T00:00:00,USDILS,252,,,invalid_window,108,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 108"
+2022-06-02T00:00:00,USDILS,252,,,invalid_window,109,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 109"
+2022-06-03T00:00:00,USDILS,252,,,invalid_window,110,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 110"
+2022-06-06T00:00:00,USDILS,252,,,invalid_window,111,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 111"
+2022-06-07T00:00:00,USDILS,252,,,invalid_window,112,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 112"
+2022-06-08T00:00:00,USDILS,252,,,invalid_window,113,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 113"
+2022-06-09T00:00:00,USDILS,252,,,invalid_window,114,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 114"
+2022-06-10T00:00:00,USDILS,252,,,invalid_window,115,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 115"
+2022-06-13T00:00:00,USDILS,252,,,invalid_window,116,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 116"
+2022-06-14T00:00:00,USDILS,252,,,invalid_window,117,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 117"
+2022-06-15T00:00:00,USDILS,252,,,invalid_window,118,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 118"
+2022-06-16T00:00:00,USDILS,252,,,invalid_window,119,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 119"
+2022-06-17T00:00:00,USDILS,252,,,invalid_window,120,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 120"
+2022-06-20T00:00:00,USDILS,252,,,invalid_window,121,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 121"
+2022-06-21T00:00:00,USDILS,252,,,invalid_window,122,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 122"
+2022-06-22T00:00:00,USDILS,252,,,invalid_window,123,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 123"
+2022-06-23T00:00:00,USDILS,252,,,invalid_window,124,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 124"
+2022-06-24T00:00:00,USDILS,252,,,invalid_window,125,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 125"
+2022-06-27T00:00:00,USDILS,252,,,invalid_window,126,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 126"
+2022-06-28T00:00:00,USDILS,252,,,invalid_window,127,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 127"
+2022-06-29T00:00:00,USDILS,252,,,invalid_window,128,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 128"
+2022-06-30T00:00:00,USDILS,252,,,invalid_window,129,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 129"
+2022-07-01T00:00:00,USDILS,252,,,invalid_window,130,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 130"
+2022-07-04T00:00:00,USDILS,252,,,invalid_window,131,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 131"
+2022-07-05T00:00:00,USDILS,252,,,invalid_window,132,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 132"
+2022-07-06T00:00:00,USDILS,252,,,invalid_window,133,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 133"
+2022-07-07T00:00:00,USDILS,252,,,invalid_window,134,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 134"
+2022-07-08T00:00:00,USDILS,252,,,invalid_window,135,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 135"
+2022-07-11T00:00:00,USDILS,252,,,invalid_window,136,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 136"
+2022-07-12T00:00:00,USDILS,252,,,invalid_window,137,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 137"
+2022-07-13T00:00:00,USDILS,252,,,invalid_window,138,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 138"
+2022-07-14T00:00:00,USDILS,252,,,invalid_window,139,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 139"
+2022-07-15T00:00:00,USDILS,252,,,invalid_window,140,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 140"
+2022-07-18T00:00:00,USDILS,252,,,invalid_window,141,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 141"
+2022-07-19T00:00:00,USDILS,252,,,invalid_window,142,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 142"
+2022-07-20T00:00:00,USDILS,252,,,invalid_window,143,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 143"
+2022-07-21T00:00:00,USDILS,252,,,invalid_window,144,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 144"
+2022-07-22T00:00:00,USDILS,252,,,invalid_window,145,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 145"
+2022-07-25T00:00:00,USDILS,252,,,invalid_window,146,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 146"
+2022-07-26T00:00:00,USDILS,252,,,invalid_window,147,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 147"
+2022-07-27T00:00:00,USDILS,252,,,invalid_window,148,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 148"
+2022-07-28T00:00:00,USDILS,252,,,invalid_window,149,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 149"
+2022-07-29T00:00:00,USDILS,252,,,invalid_window,150,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 150"
+2022-08-01T00:00:00,USDILS,252,,,invalid_window,151,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 151"
+2022-08-02T00:00:00,USDILS,252,,,invalid_window,152,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 152"
+2022-08-03T00:00:00,USDILS,252,,,invalid_window,153,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 153"
+2022-08-04T00:00:00,USDILS,252,,,invalid_window,154,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 154"
+2022-08-05T00:00:00,USDILS,252,,,invalid_window,155,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 155"
+2022-08-08T00:00:00,USDILS,252,,,invalid_window,156,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 156"
+2022-08-09T00:00:00,USDILS,252,,,invalid_window,157,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 157"
+2022-08-10T00:00:00,USDILS,252,,,invalid_window,158,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 158"
+2022-08-11T00:00:00,USDILS,252,,,invalid_window,159,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 159"
+2022-08-12T00:00:00,USDILS,252,,,invalid_window,160,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 160"
+2022-08-15T00:00:00,USDILS,252,,,invalid_window,161,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 161"
+2022-08-16T00:00:00,USDILS,252,,,invalid_window,162,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 162"
+2022-08-17T00:00:00,USDILS,252,,,invalid_window,163,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 163"
+2022-08-18T00:00:00,USDILS,252,,,invalid_window,164,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 164"
+2022-08-19T00:00:00,USDILS,252,,,invalid_window,165,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 165"
+2022-08-22T00:00:00,USDILS,252,,,invalid_window,166,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 166"
+2022-08-23T00:00:00,USDILS,252,,,invalid_window,167,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 167"
+2022-08-24T00:00:00,USDILS,252,,,invalid_window,168,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 168"
+2022-08-25T00:00:00,USDILS,252,,,invalid_window,169,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 169"
+2022-08-26T00:00:00,USDILS,252,,,invalid_window,170,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 170"
+2022-08-29T00:00:00,USDILS,252,,,invalid_window,171,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 171"
+2022-08-30T00:00:00,USDILS,252,,,invalid_window,172,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 172"
+2022-08-31T00:00:00,USDILS,252,,,invalid_window,173,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 173"
+2022-09-01T00:00:00,USDILS,252,,,invalid_window,174,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 174"
+2022-09-02T00:00:00,USDILS,252,,,invalid_window,175,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 175"
+2022-09-05T00:00:00,USDILS,252,,,invalid_window,176,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 176"
+2022-09-06T00:00:00,USDILS,252,,,invalid_window,177,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 177"
+2022-09-07T00:00:00,USDILS,252,,,invalid_window,178,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 178"
+2022-09-08T00:00:00,USDILS,252,,,invalid_window,179,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 179"
+2022-09-09T00:00:00,USDILS,252,,,invalid_window,180,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 180"
+2022-09-12T00:00:00,USDILS,252,,,invalid_window,181,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 181"
+2022-09-13T00:00:00,USDILS,252,,,invalid_window,182,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 182"
+2022-09-14T00:00:00,USDILS,252,,,invalid_window,183,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 183"
+2022-09-15T00:00:00,USDILS,252,,,invalid_window,184,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 184"
+2022-09-16T00:00:00,USDILS,252,,,invalid_window,185,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 185"
+2022-09-19T00:00:00,USDILS,252,,,invalid_window,186,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 186"
+2022-09-20T00:00:00,USDILS,252,,,invalid_window,187,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 187"
+2022-09-21T00:00:00,USDILS,252,,,invalid_window,188,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 188"
+2022-09-22T00:00:00,USDILS,252,,,invalid_window,189,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 189"
+2022-09-23T00:00:00,USDILS,252,,,invalid_window,190,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 190"
+2022-09-26T00:00:00,USDILS,252,,,invalid_window,191,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 191"
+2022-09-27T00:00:00,USDILS,252,,,invalid_window,192,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 192"
+2022-09-28T00:00:00,USDILS,252,,,invalid_window,193,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 193"
+2022-09-29T00:00:00,USDILS,252,,,invalid_window,194,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 194"
+2022-09-30T00:00:00,USDILS,252,,,invalid_window,195,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 195"
+2022-10-03T00:00:00,USDILS,252,,,invalid_window,196,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 196"
+2022-10-04T00:00:00,USDILS,252,,,invalid_window,197,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 197"
+2022-10-05T00:00:00,USDILS,252,,,invalid_window,198,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 198"
+2022-10-06T00:00:00,USDILS,252,,,invalid_window,199,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 199"
+2022-10-07T00:00:00,USDILS,252,,,invalid_window,200,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 200"
+2022-10-10T00:00:00,USDILS,252,,,invalid_window,201,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 201"
+2022-10-11T00:00:00,USDILS,252,,,invalid_window,202,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 202"
+2022-10-12T00:00:00,USDILS,252,,,invalid_window,203,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 203"
+2022-10-13T00:00:00,USDILS,252,,,invalid_window,204,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 204"
+2022-10-14T00:00:00,USDILS,252,,,invalid_window,205,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 205"
+2022-10-17T00:00:00,USDILS,252,,,invalid_window,206,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 206"
+2022-10-18T00:00:00,USDILS,252,,,invalid_window,207,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 207"
+2022-10-19T00:00:00,USDILS,252,,,invalid_window,208,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 208"
+2022-10-20T00:00:00,USDILS,252,,,invalid_window,209,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 209"
+2022-10-21T00:00:00,USDILS,252,,,invalid_window,210,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 210"
+2022-10-24T00:00:00,USDILS,252,,,invalid_window,211,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 211"
+2022-10-25T00:00:00,USDILS,252,,,invalid_window,212,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 212"
+2022-10-26T00:00:00,USDILS,252,,,invalid_window,213,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 213"
+2022-10-27T00:00:00,USDILS,252,,,invalid_window,214,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 214"
+2022-10-28T00:00:00,USDILS,252,,,invalid_window,215,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 215"
+2022-10-31T00:00:00,USDILS,252,,,invalid_window,216,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 216"
+2022-11-01T00:00:00,USDILS,252,,,invalid_window,217,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 217"
+2022-11-02T00:00:00,USDILS,252,,,invalid_window,218,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 218"
+2022-11-03T00:00:00,USDILS,252,,,invalid_window,219,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 219"
+2022-11-04T00:00:00,USDILS,252,,,invalid_window,220,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 220"
+2022-11-07T00:00:00,USDILS,252,,,invalid_window,221,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 221"
+2022-11-08T00:00:00,USDILS,252,,,invalid_window,222,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 222"
+2022-11-09T00:00:00,USDILS,252,,,invalid_window,223,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 223"
+2022-11-10T00:00:00,USDILS,252,,,invalid_window,224,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 224"
+2022-11-11T00:00:00,USDILS,252,,,invalid_window,225,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 225"
+2022-11-14T00:00:00,USDILS,252,,,invalid_window,226,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 226"
+2022-11-15T00:00:00,USDILS,252,,,invalid_window,227,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 227"
+2022-11-16T00:00:00,USDILS,252,,,invalid_window,228,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 228"
+2022-11-17T00:00:00,USDILS,252,,,invalid_window,229,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 229"
+2022-11-18T00:00:00,USDILS,252,,,invalid_window,230,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 230"
+2022-11-21T00:00:00,USDILS,252,,,invalid_window,231,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 231"
+2022-11-22T00:00:00,USDILS,252,,,invalid_window,232,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 232"
+2022-11-23T00:00:00,USDILS,252,,,invalid_window,233,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 233"
+2022-11-24T00:00:00,USDILS,252,,,invalid_window,234,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 234"
+2022-11-25T00:00:00,USDILS,252,,,invalid_window,235,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 235"
+2022-11-28T00:00:00,USDILS,252,,,invalid_window,236,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 236"
+2022-11-29T00:00:00,USDILS,252,,,invalid_window,237,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 237"
+2022-11-30T00:00:00,USDILS,252,,,invalid_window,238,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 238"
+2022-12-01T00:00:00,USDILS,252,,,invalid_window,239,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 239"
+2022-12-02T00:00:00,USDILS,252,,,invalid_window,240,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 240"
+2022-12-05T00:00:00,USDILS,252,,,invalid_window,241,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 241"
+2022-12-06T00:00:00,USDILS,252,,,invalid_window,242,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 242"
+2022-12-07T00:00:00,USDILS,252,,,invalid_window,243,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 243"
+2022-12-08T00:00:00,USDILS,252,,,invalid_window,244,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 244"
+2022-12-09T00:00:00,USDILS,252,,,invalid_window,245,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 245"
+2022-12-12T00:00:00,USDILS,252,,,invalid_window,246,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 246"
+2022-12-13T00:00:00,USDILS,252,,,invalid_window,247,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 247"
+2022-12-14T00:00:00,USDILS,252,,,invalid_window,248,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 248"
+2022-12-15T00:00:00,USDILS,252,,,invalid_window,249,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 249"
+2022-12-16T00:00:00,USDILS,252,,,invalid_window,250,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 250"
+2022-12-19T00:00:00,USDILS,252,,,invalid_window,251,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 251"
+2022-12-20T00:00:00,USDILS,252,,,invalid_window,252,,,false,false,,,,window_length,"Expected 253 returns for lbw=252, got 252"
+2022-12-21T00:00:00,USDILS,252,,,invalid_window,253,,,false,false,,,,window_standardization,window returns must be finite
+2022-12-22T00:00:00,USDILS,252,0.99654851071560613,0.2894509159127312,success,253,358.99144933089468,353.32595732586088,false,false,72.941630810008263,10.792594597879402,,,
+2022-12-23T00:00:00,USDILS,252,0.99790495691995207,0.28548650743655268,success,253,358.99144937104393,352.82536544924602,false,false,71.942599874011279,11.553109723808355,,,
+2022-12-27T00:00:00,USDILS,252,0.68765494777443936,0.63560606827690413,success,253,358.99144939378942,358.20227072439411,false,false,160.17272920577983,1.5827806222114309,,,
+2022-12-28T00:00:00,USDILS,252,0.78697661190801571,0.58741985039394162,success,253,358.99144938825492,357.68465282124237,false,false,148.02980229927329,13.411497964231957,,,
+2022-12-29T00:00:00,USDILS,252,0.71567864755836474,0.64659931844776042,success,253,358.99144948202058,358.0683233532211,false,false,162.94302824883562,1.6075105021536618,,,
+2022-12-30T00:00:00,USDILS,252,0.99888280751454284,0.26961764159421281,success,253,358.99144924346166,352.19563061032721,false,false,67.943645681741629,11.8204949011094,,,
+2023-01-02T00:00:00,USDILS,252,0.86190018383607836,0.5432979969879147,success,253,358.991449399001,357.1602866602895,false,false,136.9110952409545,0.61554745927872145,,,
+2023-01-03T00:00:00,USDILS,252,0.76343663786865834,0.57151118361835818,success,253,358.99145113073291,357.81983708659476,false,false,144.02081827182627,16.514503353264036,,,
+2023-01-04T00:00:00,USDILS,252,0.69552401925430651,0.50401142814930455,success,253,358.99144939609295,358.16537605316529,false,false,127.01087989362475,16.106386676750997,,,
+2023-01-05T00:00:00,USDILS,252,0.9974673752523755,0.25366083014338803,success,253,358.99144941235062,353.01548618524981,false,false,63.922529196133787,10.798114968641189,,,
+2023-01-06T00:00:00,USDILS,252,0.99702822156072013,0.24968712926036096,success,253,358.99144934407929,353.17583084274702,false,false,62.921156573610965,10.109700230711498,,,
+2023-01-09T00:00:00,USDILS,252,0.90157182028772542,0.3728571394418928,success,253,358.9914495215645,356.77663695680326,false,false,93.959999139356981,8.591122351164465,,,
+2023-01-10T00:00:00,USDILS,252,0.65783427005328921,0.6151893928464931,success,253,358.99145022895277,358.33779240874577,false,false,155.02772699731625,4.8569601823191135,,,
+2023-01-11T00:00:00,USDILS,252,0.84379987619099306,0.51533129904370056,success,253,358.99144952976178,357.30467220683602,false,false,129.86348735901254,0.56000797922468881,,,
+2023-01-12T00:00:00,USDILS,252,0.77523545229502622,0.53999810798549652,success,253,358.99144931883473,357.75333592585309,false,false,136.07952321234512,1.2774248400969583,,,
+2023-01-13T00:00:00,USDILS,252,0.82978235958672797,0.5072179980516448,success,253,358.99145031314441,357.40736472007399,false,false,127.81893550901448,0.54401187323167088,,,
+2023-01-16T00:00:00,USDILS,252,0.68870968315542136,0.53569751482290884,success,253,358.99145031097515,358.19735645989596,false,false,134.99577373537304,9.5329922673146825,,,
+2023-01-17T00:00:00,USDILS,252,0.81540217414086791,0.34860670881039729,success,253,358.9914496926263,357.5059477803174,false,false,87.848890620220118,6.102107642411033,,,
+2023-01-18T00:00:00,USDILS,252,0.98217640148621621,0.2539813208549449,success,253,358.9914494209043,354.98220183222418,false,false,64.003292855446119,177.62416602691087,,,
+2023-01-19T00:00:00,USDILS,252,0.98042105149660941,0.21388723769454868,success,253,358.99144953922564,355.07792234852303,false,false,53.899583899026268,8.7717328213268058,,,
+2023-01-20T00:00:00,USDILS,252,0.62169352252354382,0.45638033933696975,success,253,358.99144957796568,358.49470698980332,false,false,115.00784551291638,12.585529364317484,,,
+2023-01-23T00:00:00,USDILS,252,0.62192647633824938,0.55964498833273157,success,253,358.99144959996408,358.49371640320288,false,false,141.03053705984837,1.5608095311973962,,,
+2023-01-24T00:00:00,USDILS,252,0.62426788476344142,0.51183660282652965,success,253,358.99144965017598,358.48374650141778,false,false,128.98282391228548,7.7016004223317447,,,
+2023-01-25T00:00:00,USDILS,252,0.67950668790722679,0.50356678598020688,success,253,358.99144959234076,358.23994392544103,false,false,126.89883006701214,1.1571058493765503,,,
+2023-01-26T00:00:00,USDILS,252,0.84669417844403605,0.31214221391049973,success,253,358.99144933318195,357.28254452822165,false,false,78.659837905445926,0.74974962488095631,,,
+2023-01-27T00:00:00,USDILS,252,0.97169061528788259,0.22620895778591832,success,253,358.99144945255705,355.45560536073896,false,false,57.004657362051418,122.37534955474646,,,
+2023-01-30T00:00:00,USDILS,252,0.97363969480651258,0.22223552998715562,success,253,358.99144956238575,355.38226753784721,false,false,56.003353556763216,163.11131428618216,,,
+2023-01-31T00:00:00,USDILS,252,0.96056346530075865,0.21828891849686868,success,253,358.99144942238127,355.79862203036043,false,false,55.008807461210907,61.987396433875659,,,
+2023-02-01T00:00:00,USDILS,252,0.58917872881426758,0.3809523927450042,success,253,358.99144965645701,358.63087833094971,false,false,96.000002971741054,284.36267266683336,,,
+2023-02-02T00:00:00,USDILS,252,0.68578308518620845,0.047717288450065128,success,253,358.99136240585301,358.2108845893988,false,false,12.024756689416412,15.157952673672712,,,
+2023-02-03T00:00:00,USDILS,252,0.61472479418820958,0.52379147303552431,success,253,358.99144970753565,358.52423292822294,false,false,131.99545120495213,1.5256042290022376,,,
+2023-02-06T00:00:00,USDILS,252,0.70763851851290072,0.52010657831885021,success,253,358.99144952047521,358.10750711117532,false,false,131.06685773635024,1.5424841059329224,,,
+2023-02-07T00:00:00,USDILS,252,0.72161142363468189,0.53528467907036326,success,253,358.9914494273857,358.0389805222311,false,false,134.89173912573153,1.5319207951798737,,,
+2023-02-08T00:00:00,USDILS,252,0.91587902865584303,0.72015135487258874,success,253,358.99144964902183,356.60382125574807,false,false,181.47814142789235,1.0103041763746266,,,
+2023-02-09T00:00:00,USDILS,252,0.91788123595670135,0.71606864220070554,success,253,358.99144965057144,356.57754818233656,false,false,180.44929783457781,1.0127339078090054,,,
+2023-02-10T00:00:00,USDILS,252,0.84892437605048632,0.60069662118117173,success,253,358.9914496059917,357.2652600300969,false,false,151.37554853765528,0.82143525027157049,,,
+2023-02-13T00:00:00,USDILS,252,0.63802542294853037,0.51914662793195487,success,253,358.99144937898234,358.42464522876975,false,false,130.82495023885264,1.5691857162919316,,,
+2023-02-14T00:00:00,USDILS,252,0.97695669676261965,0.1786044403163902,success,253,358.99144965252435,355.24438251935157,false,false,45.008318959730332,78.51989896580119,,,
+2023-02-15T00:00:00,USDILS,252,0.81213165994429282,0.21525796990651402,success,253,358.99144960481294,357.52752853364598,false,false,54.245008416441536,12.296063762525849,,,
+2023-02-16T00:00:00,USDILS,252,0.6245066219358073,0.50712050245661622,success,253,358.99144940451163,358.48272830748857,false,false,127.79436661906729,1.555227647245808,,,
+2023-02-17T00:00:00,USDILS,252,0.62164215111726939,0.50310358633167507,success,253,358.99144941183033,358.49492524235524,false,false,126.78210375558211,1.5573554892012309,,,
+2023-02-20T00:00:00,USDILS,252,0.62335665242339477,0.49916871083659475,success,253,358.99144951583526,358.48762939708274,false,false,125.79051513082187,1.5420574642402707,,,
+2023-02-21T00:00:00,USDILS,252,0.59998587142093907,0.26775376723599259,success,253,358.54371974734948,358.1383135079742,false,false,67.473949343470139,26.614688162873293,,,
+2023-02-22T00:00:00,USDILS,252,0.80828150779345209,0.39552019101866631,success,253,358.99144967919671,357.55256739031904,false,false,99.671088136703915,0.50929647471121275,,,
+2023-02-23T00:00:00,USDILS,252,0.69009839763794223,0.48753971417913483,success,253,358.99144959563665,358.19087023829826,false,false,122.86000797314198,1.4648312498536391,,,
+2023-02-24T00:00:00,USDILS,252,0.62276205087955994,0.46453577239764571,success,253,358.99144945078126,358.49016109887805,false,false,117.06301464420672,1.4557873524965543,,,
+2023-02-27T00:00:00,USDILS,252,0.59354212543081675,0.5158885789177875,success,253,358.99144956865263,358.61282167316409,false,false,130.00392188728244,15.415527840335507,,,
+2023-02-28T00:00:00,USDILS,252,0.82959903674987601,0.55434108068677113,success,253,358.99144932016156,357.40866109160436,false,false,139.69395233306633,0.77856909348237024,,,
+2023-03-01T00:00:00,USDILS,252,0.82783911362452445,0.54951519949747119,success,253,358.99144955757095,357.42106015479914,false,false,138.47783027336274,0.7784905711256882,,,
+2023-03-02T00:00:00,USDILS,252,0.62897506253652724,0.50392599789010906,success,253,358.9914494082737,358.46362707579618,false,false,126.98935146830749,2.0010654518127158,,,
+2023-03-03T00:00:00,USDILS,252,0.68239556467257956,0.27656050152947537,success,253,358.99144987026165,358.22664706811804,false,false,69.693246385427798,0.92026530258276995,,,
+2023-03-06T00:00:00,USDILS,252,0.68711203764437379,0.27280026305307814,success,253,358.9914493101378,358.20479712747613,false,false,68.745666289375691,0.90745215011632308,,,
+2023-03-07T00:00:00,USDILS,252,0.68742376285686757,0.26886315525866228,success,253,358.99144942095381,358.20334688623325,false,false,67.753515125182901,0.90685710520624485,,,
+2023-03-08T00:00:00,USDILS,252,0.68813200738046287,0.26491960359456113,success,253,358.99144950798893,358.20004881496675,false,false,66.759740105829408,0.90622892017650014,,,
+2023-03-09T00:00:00,USDILS,252,0.77392583071802457,0.58383650811994703,success,253,358.9914493584551,357.76083644349842,false,false,147.12680004622666,0.27232989015448877,,,
+2023-03-10T00:00:00,USDILS,252,0.84133414173635823,0.87309003652975081,success,253,358.99144971480604,357.32326128952741,false,false,220.0186892054972,22.438866963124383,,,
+2023-03-13T00:00:00,USDILS,252,0.69017288257499343,0.81354827104075211,success,253,358.99144932267205,358.19052165819664,false,false,205.01416430226953,18.486369175781636,,,
+2023-03-14T00:00:00,USDILS,252,0.87948598814674717,0.7391529225391763,success,253,358.99145071423351,357.00387910890583,false,false,186.26653647987243,0.21850961775277886,,,
+2023-03-15T00:00:00,USDILS,252,0.87666781984389852,0.73462219095124248,success,253,358.99144956678276,357.03020278170942,false,false,185.12479211971311,0.22184415987253511,,,
+2023-03-16T00:00:00,USDILS,252,0.6769914999957789,0.50733040467528667,success,253,358.99144923209445,358.25146915333761,false,false,127.84726197817224,0.71250212199532426,,,
+2023-03-17T00:00:00,USDILS,252,0.87275223875700259,0.72551242634628865,success,253,358.99144957955951,357.06593393030266,false,false,182.82913143926473,0.22786191732204544,,,
+2023-03-20T00:00:00,USDILS,252,0.68098950224381227,0.49925915523989373,success,253,358.99145057775496,358.23312769750157,false,false,125.81330712045322,0.71594877918392075,,,
+2023-03-21T00:00:00,USDILS,252,0.68593806760867393,0.49517234233854723,success,253,358.99144934152361,358.21025220170173,false,false,124.7834302693139,0.71763312350287645,,,
+2023-03-22T00:00:00,USDILS,252,0.70556822415196885,0.49076391799924995,success,253,358.99145750646119,358.11750135187754,false,false,123.67250733581099,0.72509312121394909,,,
+2023-03-23T00:00:00,USDILS,252,0.68434160020218582,0.48715579327373132,success,253,358.99144952999143,358.21765293710757,false,false,122.76325990498029,0.72203458537468168,,,
+2023-03-24T00:00:00,USDILS,252,0.61574470563990669,0.25773782270851076,success,253,358.99144964320396,358.51992436521977,false,false,64.949931322544714,1.7215132130654656,,,
+2023-03-27T00:00:00,USDILS,252,0.62562959859050371,0.39982305255137157,success,253,358.99144933636933,358.47793652134641,false,false,100.75540924294563,1.4069412595658786,,,
+2023-03-28T00:00:00,USDILS,252,0.6002574662369089,0.46425840321872469,success,253,358.99144945574517,358.58491145644979,false,false,116.99311761111862,18.061506127663158,,,
+2023-03-29T00:00:00,USDILS,252,0.70098885754892026,0.47099877227813425,success,253,358.99144955267644,358.13943839926719,false,false,118.69169061408984,0.71770951108166969,,,
+2023-03-30T00:00:00,USDILS,252,0.69535477462277973,0.5770910540607822,success,253,358.99144965385227,358.16617537553429,false,false,145.42694562331712,0.88232750520656034,,,
+2023-03-31T00:00:00,USDILS,252,0.76756352294151953,0.51684541103620307,success,253,358.99144952078257,357.79684524944264,false,false,130.24504358112318,0.2747349021170894,,,
+2023-04-03T00:00:00,USDILS,252,0.77184217220401896,0.51262946804491238,success,253,358.99144955611615,357.77270708379342,false,false,129.18262594731792,0.27429147901349216,,,
+2023-04-04T00:00:00,USDILS,252,0.66394900595964756,0.6387898054690101,success,253,358.9914498116338,358.31050737978489,false,false,160.97503097819055,6.6256092248664515,,,
+2023-04-05T00:00:00,USDILS,252,0.70440617003257977,0.61503621555419874,success,253,358.99144961647681,358.12308079656407,false,false,154.98912631965808,17.458575539172354,,,
+2023-04-06T00:00:00,USDILS,252,0.73415388994463737,0.44691537190338942,success,253,358.99145098411418,357.97564992589008,false,false,112.62267371965413,0.69523640871959869,,,
+2023-04-07T00:00:00,USDILS,252,0.77547406986710032,0.49712166708667965,success,253,358.99144929948653,357.75196595631098,false,false,125.27466010584327,0.2629638647281336,,,
+2023-04-10T00:00:00,USDILS,252,0.67317565782391886,0.087259762709692448,success,253,358.99144978387574,358.26886632779446,false,false,21.989460202842498,26.180653880865425,,,
+2023-04-11T00:00:00,USDILS,252,0.62590466199875949,0.081915638563929513,success,253,358.99144932761845,358.47676194461451,false,false,20.642740918110238,14.315067282128025,,,
+2023-04-12T00:00:00,USDILS,252,0.78154961866457962,0.48458017276757093,success,253,358.99144951977553,357.71672978139372,false,false,122.11420353742787,0.26325680267133178,,,
+2023-04-13T00:00:00,USDILS,252,0.78014360454579046,0.48082049250648645,success,253,358.9914493379294,357.72494591208385,false,false,121.16676411163459,0.26289274762559289,,,
+2023-04-14T00:00:00,USDILS,252,0.78500826648180388,0.47668368764137697,success,253,358.99145202758194,357.69635735794083,false,false,120.124289285627,0.26023839366124757,,,
+2023-04-17T00:00:00,USDILS,252,0.81802499214419033,0.24126159715589635,success,253,358.99144975549018,357.48842622478469,false,false,60.79792248328588,0.31883663835974746,,,
+2023-04-18T00:00:00,USDILS,252,0.82456817125006876,0.13885013306074823,success,253,358.99145251131438,357.44384321807632,false,false,34.990233531308554,41.427332545021414,,,
+2023-04-19T00:00:00,USDILS,252,0.79960642766988921,0.46420316911677656,success,253,358.99144929095957,357.60761294425424,false,false,116.9791986174277,0.26059723184923095,,,
+2023-04-20T00:00:00,USDILS,252,0.7691869967004662,0.40663962904282891,success,253,358.99144932197277,357.78772308653282,false,false,102.47318651879289,0.71826924280951443,,,
+2023-04-21T00:00:00,USDILS,252,0.69312404521486504,0.51303324643647974,success,253,358.99145483774481,358.17668946700906,false,false,129.2843781019929,0.88822369058731188,,,
+2023-04-24T00:00:00,USDILS,252,0.74644135890728347,0.56344561768354928,success,253,358.99146148131933,357.91173954422703,false,false,141.98829565625442,18.848417591912014,,,
+2023-04-25T00:00:00,USDILS,252,0.73314424239460552,0.72471726758293997,success,253,358.99145019359128,357.98081600617621,false,false,182.62875143090088,0.5225170294185576,,,
+2023-04-26T00:00:00,USDILS,252,0.71876552033049701,0.55551643951294749,success,253,358.99145022257562,358.05310380579255,false,false,139.99014275726276,20.212637171514562,,,
+2023-04-27T00:00:00,USDILS,252,0.75306914687155557,0.3867721525324439,success,253,358.99145057229651,357.87640187078506,false,false,97.466582438175863,0.75591239541468414,,,
+2023-04-28T00:00:00,USDILS,252,0.68425586192767796,0.49321581490246208,success,253,358.99144931295677,358.21804959410082,false,false,124.29038535542044,0.93931701974159443,,,
+2023-05-01T00:00:00,USDILS,252,0.75862855629245562,0.37870983082230036,success,253,358.99144944986762,357.84627418507461,false,false,95.434877367219698,0.77096276457746404,,,
+2023-05-02T00:00:00,USDILS,252,0.77557059037520282,0.37459372058015244,success,253,358.99144932699608,357.75141154688828,false,false,94.397617586198422,0.76733703737276426,,,
+2023-05-03T00:00:00,USDILS,252,0.63361255160899654,0.26583134277737214,success,253,358.99144963434651,358.44370335969199,false,false,66.989498379897782,17.119182869688732,,,
+2023-05-04T00:00:00,USDILS,252,0.60897701116623248,0.26184968105707274,success,253,358.99146178028673,358.54844761501312,false,false,65.986119626382333,11.165894310127854,,,
+2023-05-05T00:00:00,USDILS,252,0.62293965687699171,0.25793283138477463,success,253,358.991449398751,358.48940497957392,false,false,64.999073508963207,185.80733910944576,,,
+2023-05-08T00:00:00,USDILS,252,0.60233219148086437,0.25394641142532354,success,253,358.99144969855428,358.57625759715376,false,false,63.994495679181533,27.520721631160232,,,
+2023-05-09T00:00:00,USDILS,252,0.56160831996802341,0.72222214107915639,success,253,358.99144923271666,358.74375732278139,false,false,181.9999795519474,1289.5343160423683,,,
+2023-05-10T00:00:00,USDILS,252,0.56106251208738267,0.71825388100233933,success,253,358.99144990854393,358.7459745858647,false,false,180.99997801258951,1142.6633674412662,,,
+2023-05-11T00:00:00,USDILS,252,0.56404281307248216,0.71428549722588897,success,253,358.99144938173788,358.73386326682504,false,false,179.99994530092403,693.93559997653426,,,
+2023-05-12T00:00:00,USDILS,252,0.73418402276834238,0.52672489979592052,success,253,358.99144959047709,357.97549413551593,false,false,132.73467474857196,2.1953270191279448,,,
+2023-05-15T00:00:00,USDILS,252,0.76946856157614674,0.5039342908634088,success,253,358.99144949731146,357.78613664594917,false,false,126.99144129757902,27.533990195672171,,,
+2023-05-16T00:00:00,USDILS,252,0.7869859681402378,0.49995922166059376,success,253,358.99145216987409,357.6845997919861,false,false,125.98972385846963,24.320933354083568,,,
+2023-05-17T00:00:00,USDILS,252,0.80313944825339512,0.49598348933334518,success,253,358.99145008652272,357.58541734749093,false,false,124.98783931200299,21.629795925461998,,,
+2023-05-18T00:00:00,USDILS,252,0.80584719393553439,0.37928943062294412,success,253,358.99144955762955,357.56820092793248,false,false,95.580936516981922,0.33182753646865704,,,
+2023-05-19T00:00:00,USDILS,252,0.84004787676189041,0.4880589155791894,success,253,358.9914500374411,357.3328656917767,false,false,122.99084672595573,31.75467003193215,,,
+2023-05-22T00:00:00,USDILS,252,0.85320411498781001,0.48408254695735736,success,253,358.99145810734387,357.2315023822888,false,false,121.98880183325406,26.716281696777585,,,
+2023-05-23T00:00:00,USDILS,252,0.79404830550142136,0.49593662233149965,success,253,358.99144946584642,357.64194681685336,false,false,124.97602882753792,11.030658395494601,,,
+2023-05-24T00:00:00,USDILS,252,0.82486410941463484,0.47614862724843598,success,253,358.99144968524519,357.44179321855904,false,false,119.98945406660587,26.328368197621291,,,
+2023-05-25T00:00:00,USDILS,252,0.84153304858250488,0.47218654838491608,success,253,358.99144943011788,357.32177020700817,false,false,118.99101019299886,32.31098098203406,,,
+2023-05-26T00:00:00,USDILS,252,0.85126144301886075,0.46822192730429307,success,253,358.99144947329285,357.24692028692164,false,false,117.99192568068186,37.042233682485559,,,
+2023-05-29T00:00:00,USDILS,252,0.99560918615193739,0.89402103174596681,success,253,358.99144956272517,353.56760936223213,false,false,225.29329999998365,0.28411154138100086,,,
+2023-05-30T00:00:00,USDILS,252,0.86823036487010852,0.46026498588872999,success,253,358.99144941340217,357.10604754619874,false,false,115.98677644395995,23.922750235645225,,,
+2023-05-31T00:00:00,USDILS,252,0.84005348682323444,0.47213472274475798,success,253,358.99144953854926,357.33282344064986,false,false,118.97795013167901,13.723584530717197,,,
+2023-06-01T00:00:00,USDILS,252,0.7706744988433164,0.61570250340253274,success,253,358.99144942696375,357.77932571978124,false,false,155.15703085743826,0.61499310864719769,,,
+2023-06-02T00:00:00,USDILS,252,0.95084547937460273,0.81744316797699779,success,253,358.99144961995438,356.02906687133191,false,false,205.99567833020345,12.042992631180818,,,
+2023-06-05T00:00:00,USDILS,252,0.73681635622905695,0.46025488172200518,success,253,358.99144941238973,357.96196278247982,false,false,115.98423019394531,14.354345543069009,,,
+2023-06-06T00:00:00,USDILS,252,0.85694837127771695,0.49433018507080101,success,253,358.9914605241413,357.20128845602477,false,false,124.57120663784185,0.30449282562675895,,,
+2023-06-07T00:00:00,USDILS,252,0.68504261370334163,0.4523312664018761,success,253,358.99144945963099,358.21440576159415,false,false,113.98747913327277,14.938097693230914,,,
+2023-06-08T00:00:00,USDILS,252,0.60962983866117315,0.25784968455127433,success,253,358.99145009150908,358.54569356102064,false,false,64.97812050692113,6.9711824694330673,,,
+2023-06-09T00:00:00,USDILS,252,0.6648194859855977,0.2643404281742826,success,253,358.99144953140683,358.30660321174872,false,false,66.613787899919217,0.8143637200628332,,,
+2023-06-12T00:00:00,USDILS,252,0.67566654562134099,0.26022387544267728,success,253,358.99144952601006,358.2575220141062,false,false,65.576416611554677,0.81088080360644865,,,
+2023-06-13T00:00:00,USDILS,252,0.69312246848413939,0.42059765128684617,success,253,358.99144946308587,358.17669150516377,false,false,105.99060812428523,19.016046297830997,,,
+2023-06-14T00:00:00,USDILS,252,0.86457223088285728,0.47050898236569128,success,253,358.99144961773487,357.13765319283658,false,false,118.56826355615421,0.27849043298167842,,,
+2023-06-15T00:00:00,USDILS,252,0.85668439592527523,0.46686748870001571,success,253,358.99144920857043,357.20342884379784,false,false,117.65060715240396,0.28453868699924634,,,
+2023-06-16T00:00:00,USDILS,252,0.70787628072203268,0.40868267011443371,success,253,358.99144920185785,358.10635727686849,false,false,102.98803286883729,15.986149988462596,,,
+2023-06-19T00:00:00,USDILS,252,0.85773963215017412,0.45927929827732666,success,253,358.99144953776658,357.19480789842333,false,false,115.73838316588632,0.2741482430959824,,,
+2023-06-20T00:00:00,USDILS,252,0.86059148282727227,0.45501117423824033,success,253,358.99144942633478,357.17123809802376,false,false,114.66281590803656,0.27497867471572951,,,
+2023-06-21T00:00:00,USDILS,252,0.66269946944099056,0.41560792608504415,success,253,358.99144944180233,358.31610215833575,false,false,104.73319737343112,2.1754599312220404,,,
+2023-06-22T00:00:00,USDILS,252,0.85411275907216089,0.44707660181682712,success,253,358.9914498318314,357.22422061127628,false,false,112.66330365784043,0.28353005899951139,,,
+2023-06-23T00:00:00,USDILS,252,0.85527066307022248,0.69838335092544346,success,253,358.99145012179713,357.21489749417208,false,false,175.99260443321174,45.371886488683785,,,
+2023-06-26T00:00:00,USDILS,252,0.87512392251529147,0.69442905458398096,success,253,358.99145026180179,357.04440662517806,false,false,174.99612175516322,91.256198744427138,,,
+2023-06-27T00:00:00,USDILS,252,0.59770787685660709,0.49760720206385345,success,253,358.99144942892633,358.59552579377561,false,false,125.39701492009107,1.8962638716988682,,,
+2023-06-28T00:00:00,USDILS,252,0.62900120436014317,0.20229577259681752,success,253,358.9914493517602,358.46351499668799,false,false,50.978534694398014,9.002138698737463,,,
+2023-06-29T00:00:00,USDILS,252,0.7409375969573927,0.26149164622330073,success,253,358.99144979667989,357.94060236062944,false,false,65.89589484827178,0.35585236352608085,,,
+2023-06-30T00:00:00,USDILS,252,0.72048727265387125,0.20407191628334259,success,253,358.9914500504712,358.04457012747071,false,false,51.42612290340233,0.7840454465119554,,,
+2023-07-03T00:00:00,USDILS,252,0.75676991078567435,0.36503447176526921,success,253,358.99144937372722,357.85639797979297,false,false,91.988686884847837,20.645366584578042,,,
+2023-07-04T00:00:00,USDILS,252,0.71881618386420887,0.52547508494785788,success,253,358.99144944476546,358.05285238041552,false,false,132.41972140686019,0.59858437965749633,,,
+2023-07-05T00:00:00,USDILS,252,0.97821728849043621,0.80011442594107707,success,253,358.99144931543134,355.18683409884795,false,false,201.62883533715143,0.18475672999039749,,,
+2023-07-06T00:00:00,USDILS,252,0.97851649435809607,0.7958827984244522,success,253,358.9914493452037,355.17269716298534,false,false,200.56246520296196,0.18745631930675358,,,
+2023-07-07T00:00:00,USDILS,252,0.8070770811634902,0.71812508582914725,success,253,358.991449452626,357.56032099808829,false,false,180.96752162894509,18.377515181820446,,,
+2023-07-10T00:00:00,USDILS,252,0.9291183906199546,0.65466619432981232,success,253,358.9914493174569,356.41822415972933,false,false,164.9758809711127,16.781888314667331,,,
+2023-07-11T00:00:00,USDILS,252,0.9830345033154998,0.7824230194666405,success,253,358.99144966452377,354.93198711979596,false,false,197.1706009055934,0.19296038033321933,,,
+2023-07-12T00:00:00,USDILS,252,0.90989924937991074,0.64676218841260735,success,253,358.99144971059519,356.67904432772696,false,false,162.98407147997705,23.567908394082004,,,
+2023-07-13T00:00:00,USDILS,252,0.79552158947140161,0.33330938580913849,success,253,358.99144924409018,357.63291365510412,false,false,83.993965223902904,44.488122212191783,,,
+2023-07-14T00:00:00,USDILS,252,0.78975176756785581,0.14280097478740889,success,253,358.99144944953753,357.66801966355814,false,false,35.985845646427038,30.640472931297491,,,
+2023-07-17T00:00:00,USDILS,252,0.69277959968987091,0.055533076528947019,success,253,358.9914494292874,358.17830292497604,false,false,13.994335285294648,74.615542887784457,,,
+2023-07-18T00:00:00,USDILS,252,0.73296726335107276,0.48542501711349262,success,253,358.99144946479828,357.98171968515078,false,false,122.32710431260014,0.58625460601304002,,,
+2023-07-19T00:00:00,USDILS,252,0.73787836523927164,0.48135421032185721,success,253,358.99144942456809,357.95647908114046,false,false,121.30126100110802,0.58207750357066468,,,
+2023-07-20T00:00:00,USDILS,252,0.82589820003200876,0.1992449795286044,success,253,358.99144935213815,357.43461801614825,false,false,50.209734841208309,0.28123059718416193,,,
+2023-07-21T00:00:00,USDILS,252,0.80948083619112432,0.32797953002291214,success,253,358.99145008957595,357.54480977730424,false,false,82.65084156577386,2.1024451283969339,,,
+2023-07-24T00:00:00,USDILS,252,0.89511558626468823,0.61361813269665377,success,253,358.99144938319682,356.8473554488362,false,false,154.63176943955676,19.030706688881164,,,
+2023-07-25T00:00:00,USDILS,252,0.81938083851764998,0.70550246375948844,success,253,358.99144925265523,357.47929100695922,false,false,177.78662086739109,10.615678169099397,,,
+2023-07-26T00:00:00,USDILS,252,0.85096579270505268,0.29757501946241055,success,253,358.9914500414211,357.24925396899886,false,false,74.988904904527459,28.564467864196441,,,
+2023-07-27T00:00:00,USDILS,252,0.85230965605223585,0.29359510833616992,success,253,358.99140247780559,357.23857038222098,false,false,73.985967300714819,22.597056020451916,,,
+2023-07-28T00:00:00,USDILS,252,0.76654621453648197,0.30548112582247949,success,253,358.99145011096698,357.80253925812821,false,false,76.981243707264838,14.132838829420004,,,
+2023-07-31T00:00:00,USDILS,252,0.78564906853139715,0.30151516490870595,success,253,358.9914499059351,357.69255422948652,false,false,75.981821556993893,15.339355927564792,,,
+2023-08-01T00:00:00,USDILS,252,0.67102648096534045,0.52403498750654642,success,253,358.99145012857247,358.2786187857231,false,false,132.0568168516497,1.0639572723347199,,,
+2023-08-02T00:00:00,USDILS,252,0.69064212351758081,0.6825283966453991,success,253,358.99144942899369,358.1883264334088,false,false,171.99715595464056,73.096331546880691,,,
+2023-08-03T00:00:00,USDILS,252,0.70514474007534866,0.6785295767333327,success,253,358.99144938346427,358.11953088826408,false,false,170.98945333679984,20.766591740081278,,,
+2023-08-04T00:00:00,USDILS,252,0.79176253449042566,0.57926946345555363,success,253,358.99144958403451,357.65586715697259,false,false,145.97590479079952,10.630753424536547,,,
+2023-08-07T00:00:00,USDILS,252,0.70490223200275182,0.67061819596628014,success,253,358.99144954056152,358.1206971437494,false,false,168.99578538350261,51.588886331594658,,,
+2023-08-08T00:00:00,USDILS,252,0.97156823618733201,0.71308419841679349,success,253,358.99144959576779,355.46004505572995,false,false,179.69721800103196,0.14353350416222738,,,
+2023-08-09T00:00:00,USDILS,252,0.71973225767187299,0.071439363607146728,success,253,358.99144931638375,358.04831540675707,false,false,18.002719629000975,12.307674918989678,,,
+2023-08-10T00:00:00,USDILS,252,0.65760224730593075,0.49632630993616711,success,253,358.99145000285228,358.33882282253268,false,false,125.07423010391412,1.0453670370715888,,,
+2023-08-11T00:00:00,USDILS,252,0.74289563216192667,0.24995728898523253,success,253,358.99144999104493,357.93037652734324,false,false,62.989236824278599,22.618659266937534,,,
+2023-08-14T00:00:00,USDILS,252,0.69932523660346624,0.26571914452163198,success,253,358.99145130942998,358.14736454728097,false,false,66.961224419451256,5.6794642785671785,,,
+2023-08-15T00:00:00,USDILS,252,0.71669862348782243,0.25786285427710814,success,253,358.99144946028821,358.06330530359008,false,false,64.981439277831257,12.962234017171843,,,
+2023-08-16T00:00:00,USDILS,252,0.83885131938420809,0.54758720663924276,success,253,358.99144972502927,357.34174366688819,false,false,137.99197607308918,36.165123962636265,,,
+2023-08-17T00:00:00,USDILS,252,0.97412473041128678,0.68146223268168415,success,253,358.99144990599541,355.36319822100006,false,false,171.72848263578442,0.15442204117333838,,,
+2023-08-18T00:00:00,USDILS,252,0.97393150016587549,0.67709378807121434,success,253,358.99144993682347,355.37083664655358,false,false,170.62763459394603,0.15804666406397005,,,
+2023-08-21T00:00:00,USDILS,252,0.74213090975178098,0.63094359990976601,success,253,358.99144973171639,357.93437612988464,false,false,158.99778717726105,475.36956899409608,,,
+2023-08-22T00:00:00,USDILS,252,0.7506581277446136,3.9682539682539681e-09,success,253,358.9914494336856,357.88932404401055,false,false,9.9999999999999995e-07,8.2113982466755857,,,
+2023-08-23T00:00:00,USDILS,252,0.71955429891542744,0.23783814727255223,success,253,358.99144974328334,358.04919787943788,false,false,59.935213112683165,4.475267030542823,,,
+2023-08-24T00:00:00,USDILS,252,0.74135564212127891,0.23297167261433249,success,253,358.99144931179109,357.93842283523355,false,false,58.708861498811785,2.1187510042047517,,,
+2023-08-25T00:00:00,USDILS,252,0.78666327019788751,0.21024530265375244,success,253,358.9914498316943,357.6865213484034,false,false,52.981816268745611,16.339979400017697,,,
+2023-08-28T00:00:00,USDILS,252,0.83921521272529465,0.51447047283887859,success,253,358.99144956721159,357.33904912841092,false,false,129.6465591553974,17.162067261522054,,,
+2023-08-29T00:00:00,USDILS,252,0.97723603886049004,0.64758427573923838,success,253,358.99144954673858,355.2318999619535,false,false,163.19123748628806,0.16407835940280299,,,
+2023-08-30T00:00:00,USDILS,252,0.71623143005201062,0.73327429381809273,success,253,358.99144947355927,358.0656051439002,false,false,184.78512204215937,0.62800724461954849,,,
+2023-08-31T00:00:00,USDILS,252,0.71505728231486865,0.72917375011828234,success,253,358.99144935731704,358.07137487219524,false,false,183.75178502980714,0.63503038558777536,,,
+2023-09-01T00:00:00,USDILS,252,0.71304897037348214,0.72512486472638371,success,253,358.99144998611308,358.08121145862845,false,false,182.7314659110487,0.64438956343611919,,,
+2023-09-04T00:00:00,USDILS,252,0.83159091505130667,0.4960253383427824,success,253,358.99145032299265,357.39450574070969,false,false,124.99838526238116,172.23949620245889,,,
+2023-09-05T00:00:00,USDILS,252,0.84346873806825129,0.49199972382844631,success,253,358.99134541147504,357.30707831911946,false,false,123.98393040476847,17.801854892394228,,,
+2023-09-06T00:00:00,USDILS,252,0.83604562199873822,0.48802580741877583,success,253,358.98277270384722,357.35367772668769,false,false,122.98250346953151,15.959587201936046,,,
+2023-09-07T00:00:00,USDILS,252,0.84311778689590344,0.48404398654239222,success,253,358.96633104106752,357.28471965811883,false,false,121.97908460868284,13.426691945474927,,,
+2023-09-08T00:00:00,USDILS,252,0.85658186501338751,0.48009282106842405,success,253,358.97368780085918,357.186502291306,false,false,120.98339090924286,17.74880714369862,,,
+2023-09-11T00:00:00,USDILS,252,0.96692264766834646,0.61415813167691291,success,253,358.97778282498615,355.60251315341281,false,false,154.76784918258204,0.17271580808094647,,,
+2023-09-12T00:00:00,USDILS,252,0.79480473615438929,0.47211078192506556,success,253,358.93004084960171,357.57590641237164,false,false,118.97191704511653,9.0279115859817143,,,
+2023-09-13T00:00:00,USDILS,252,0.75023853198882029,0.46812596787213756,success,253,358.98515252910096,357.88526766492083,false,false,117.96774390377867,6.3051978324022082,,,
+2023-09-14T00:00:00,USDILS,252,0.76663740365390265,0.46419252193270433,success,253,358.98997096804317,357.80055047609318,false,false,116.97651552704149,9.6569154249626195,,,
+2023-09-15T00:00:00,USDILS,252,0.77360586214490024,0.46021706378452382,success,253,358.98740477681957,357.75861970809007,false,false,115.97470007370001,9.1829613833243311,,,
+2023-09-18T00:00:00,USDILS,252,0.68587592933305097,0.5038862433809177,success,253,358.98779447351984,358.20688576055954,false,false,126.97933333199127,5.9855420831227653,,,
+2023-09-19T00:00:00,USDILS,252,0.80990887465219408,0.45233207539213682,success,253,358.98700809964407,357.5375899230151,false,false,113.98768299881849,21.136439553532686,,,
+2023-09-20T00:00:00,USDILS,252,0.79860275831497252,0.44834109178820175,success,253,358.98860191672145,357.61101755264593,false,false,112.98195513062684,13.999368006742158,,,
+2023-09-21T00:00:00,USDILS,252,0.96981194356290179,0.58211406532506016,success,253,358.98788600800691,355.51823019186259,false,false,146.69274446191517,0.16817622820440062,,,
+2023-09-22T00:00:00,USDILS,252,0.97044636897723713,0.57772579094372312,success,253,358.99145086450267,355.49990133820376,false,false,145.58689931781822,0.16994514029002181,,,
+2023-09-25T00:00:00,USDILS,252,0.73553749823647685,0.53174490058128432,success,253,358.98812994134386,357.96522789025346,false,false,133.99971494648364,558.99657356953446,,,
+2023-09-26T00:00:00,USDILS,252,0.82671933642082129,0.43249179058636911,success,253,358.98905476023413,357.42650211112561,false,false,108.98793122776502,22.718365969440693,,,
+2023-09-27T00:00:00,USDILS,252,0.77600622237704187,0.28340832197931787,success,253,358.98445474612924,357.74191248045133,false,false,71.418897138788097,0.59980041654374583,,,
+2023-09-28T00:00:00,USDILS,252,0.7687049731042962,0.27935130104060435,success,253,358.98982681145083,357.78881363395629,false,false,70.39652786223229,0.59603945628605559,,,
+2023-09-29T00:00:00,USDILS,252,0.76329712332639565,0.51587196662284807,success,253,358.98896121277664,357.81811951240519,false,false,129.99973558895772,946.27561733920027,,,
+2023-10-02T00:00:00,USDILS,252,0.72973314719241644,0.71525885549684109,success,253,358.99036408957573,357.99709498869493,false,false,180.24523158520395,0.96712910833510568,,,
+2023-10-03T00:00:00,USDILS,252,0.74095134342393565,0.71116405948849559,success,253,358.99049099545601,357.93957194299486,false,false,179.21334299110089,0.97184747853861086,,,
+2023-10-04T00:00:00,USDILS,252,0.97690010042316167,0.54369057890888883,success,253,358.99027468961697,355.24571856435557,false,false,137.01002588503999,0.17284432349140072,,,
+2023-10-05T00:00:00,USDILS,252,0.8779101827911705,0.39746275771437461,success,253,358.98884315815707,357.0160558477549,false,false,100.1606149440224,490.84229246771309,,,
+2023-10-06T00:00:00,USDILS,252,0.97684432559412204,0.53552214541149612,success,253,358.98607114058223,355.24398370566422,false,false,134.95158064369701,0.17581917905721861,,,
+2023-10-09T00:00:00,USDILS,252,0.97191128760809042,0.53667297762892063,success,253,358.99144996286753,355.44755323186604,false,false,135.24159036248801,0.14772603802555229,,,
+2023-10-10T00:00:00,USDILS,252,0.97279400164139862,0.53195810408784805,success,253,358.99144951741528,355.41471464917726,false,false,134.0534422301377,0.14841916956907353,,,
+2023-10-11T00:00:00,USDILS,252,0.97372465993351909,0.52737269914456764,success,253,358.99144945219979,355.37895173779481,false,false,132.89792018443106,0.14884789998390741,,,
+2023-10-12T00:00:00,USDILS,252,0.97370508511350551,0.52302877227194999,success,253,358.99072665318204,355.37899375291238,false,false,131.8032506125314,0.15058344639052318,,,
+2023-10-13T00:00:00,USDILS,252,0.97495650301094827,0.51894732968107771,success,253,358.98765425811337,355.32587559300032,false,false,130.77472707963159,0.15355966893506873,,,
+2023-10-16T00:00:00,USDILS,252,0.97360396197847576,0.51749382572082903,success,253,358.99145117816914,355.38366049104081,false,false,130.40844408164892,0.14174201824733706,,,
+2023-10-17T00:00:00,USDILS,252,0.97374619414865526,0.51316659932898279,success,253,358.99145053105826,355.37811080567053,false,false,129.31798303090366,0.14519720399296626,,,
+2023-10-18T00:00:00,USDILS,252,0.67057752498200007,0.46425082264171735,success,253,358.99144969204195,358.28065141894717,false,false,116.99120730571278,19.869689594848474,,,
+2023-10-19T00:00:00,USDILS,252,0.80726881401631645,0.36501256577700203,success,253,358.99145046560443,357.55909014922452,false,false,91.983166575804518,16.028041905783773,,,
+2023-10-20T00:00:00,USDILS,252,0.70943471351612641,0.45636168404110822,success,253,358.99145065781966,358.09881047241743,false,false,115.00314437835927,234.83469703247829,,,
+2023-10-23T00:00:00,USDILS,252,0.71989854361878802,0.45237766775341559,success,253,358.9914503183781,358.0474919096946,false,false,113.99917227386072,251.81947314896226,,,
+2023-10-24T00:00:00,USDILS,252,0.97656883342132594,0.49088811684975353,success,253,358.99145090926106,355.26147271273027,false,false,123.70380544613789,0.14550687069746435,,,
+2023-10-25T00:00:00,USDILS,252,0.74196427226729067,0.44441147231049227,success,253,358.99144950498817,357.93524646848158,false,false,111.99169102224405,27.766037266200097,,,
+2023-10-26T00:00:00,USDILS,252,0.85398092971804074,0.34518228498496373,success,253,358.99144982396382,357.2252781925136,false,false,86.985935816210855,22.174487415172276,,,
+2023-10-27T00:00:00,USDILS,252,0.9727914597801478,4.1140041458531948e-09,success,253,358.99144961958632,355.41481079011385,false,false,1.036729044755005e-06,0.33766957908094858,,,
+2023-10-30T00:00:00,USDILS,252,0.85065155437507023,0.33728048624812312,success,253,358.99144979671462,357.25172934331681,false,false,84.99468253452703,58.165880619640319,,,
+2023-10-31T00:00:00,USDILS,252,0.96196444572641027,0.259954240806134,success,253,358.99144649405753,355.7609903638471,false,false,65.508468683145765,0.87740864662964546,,,
+2023-11-01T00:00:00,USDILS,252,0.96756170869825553,0.47125858988790148,success,253,358.99144990454676,355.59601025536386,false,false,118.75716465175117,0.15238698176184462,,,
+2023-11-02T00:00:00,USDILS,252,0.96435431988735831,0.46860683895676047,success,253,358.99144959886115,355.6936187845879,false,false,118.08892341710364,0.16186965529732555,,,
+2023-11-03T00:00:00,USDILS,252,0.97191722395140745,0.46708350375654389,success,253,358.99144961295229,355.44733540906248,false,false,117.70504294664906,0.14945436621914357,,,
+2023-11-06T00:00:00,USDILS,252,0.97210495112652839,0.97621143083080875,success,253,358.99144938860019,355.44043482890584,false,false,246.0052805693638,195.77915147505823,,,
+2023-11-07T00:00:00,USDILS,252,0.78720776349910515,0.66275037955249272,success,253,358.99145075352044,357.68327481985585,false,false,167.01309564722817,21.119924059502697,,,
+2023-11-08T00:00:00,USDILS,252,0.75953366276124512,0.69185148708080835,success,253,358.99144956591783,357.84132503244581,false,false,174.34657474436369,18.253160149496459,,,
+2023-11-09T00:00:00,USDILS,252,0.74791892349973077,0.68772433440476965,success,253,358.99144946517748,357.90390565203154,false,false,173.30653227000195,14.3468784336523,,,
+2023-11-10T00:00:00,USDILS,252,0.97415344635805345,0.44748004568847133,success,253,358.9914492131299,355.36205765010544,false,false,112.76497151349477,0.14424427905963638,,,
+2023-11-13T00:00:00,USDILS,252,0.97306215313663802,0.44279438174507862,success,253,358.99144975396939,355.40453404036441,false,false,111.58418419975982,0.14454100278395751,,,
+2023-11-14T00:00:00,USDILS,252,0.89876202682941952,0.67573825599358484,success,253,358.9914498803912,356.80790550514683,false,false,170.28604051038337,11.457587700770894,,,
+2023-11-15T00:00:00,USDILS,252,0.98547512981960983,0.44155253367680147,success,253,358.99144933779684,354.77418781265766,false,false,111.27123848655397,0.12590643000954807,,,
+2023-11-16T00:00:00,USDILS,252,0.93453714204211891,0.63492445089755978,success,253,358.99144954005715,356.33288109631502,false,false,160.00096162618507,419.30248256207949,,,
+2023-11-17T00:00:00,USDILS,252,0.9315676460803628,0.63108859539156326,success,253,358.99144952291539,356.38042643823496,false,false,159.03432603867395,11.599843115220075,,,
+2023-11-20T00:00:00,USDILS,252,0.87991980819429849,0.65966921405392265,success,253,358.99144944855993,356.99977845693184,false,false,166.23664194158852,11.878973986560265,,,
+2023-11-21T00:00:00,USDILS,252,0.93050350272297799,0.51989931721797444,success,253,358.9914493339619,356.39699984595063,false,false,131.01462793892955,26.465168930952807,,,
+2023-11-22T00:00:00,USDILS,252,0.85796900745800742,0.4762765032861635,success,253,358.9914496391533,357.19292695328613,false,false,120.0216788281132,14.089697897253489,,,
+2023-11-23T00:00:00,USDILS,252,0.90859522784020119,0.51192838797737472,success,253,358.99144942141248,356.69484740922405,false,false,129.00595377029842,60.346302529013464,,,
+2023-11-24T00:00:00,USDILS,252,0.98178172868901847,0.41096521069557485,success,253,358.99144952652301,355.00450552376515,false,false,103.56323309528486,0.12718304490412632,,,
+2023-11-27T00:00:00,USDILS,252,0.98273933486911835,0.40746495024262486,success,253,358.99145020109847,354.9495365100741,false,false,102.68116746114147,0.12549568741260397,,,
+2023-11-28T00:00:00,USDILS,252,0.89147876159974715,0.50003626190047601,success,253,358.9914496240479,356.88551390969735,false,false,126.00913799891995,37.738561484219616,,,
+2023-11-29T00:00:00,USDILS,252,0.98139331776931382,0.39820080380448247,success,253,358.99145206568409,355.02599952684238,false,false,100.34660255872959,0.12395746611136238,,,
+2023-11-30T00:00:00,USDILS,252,0.99412645785703202,0.84524865229585755,success,253,358.99144964010782,353.86004310371817,false,false,213.0026603785561,271.04675224067466,,,
+2023-12-01T00:00:00,USDILS,252,0.87404088621898346,0.48812127350567702,success,253,358.99145008607184,357.05428029143008,false,false,123.00656092343061,50.057050388525838,,,
+2023-12-04T00:00:00,USDILS,252,0.81359958996774295,0.61905861401833795,success,253,358.99144958813821,357.51787834936971,false,false,156.00277073262117,141.03041297360417,,,
+2023-12-05T00:00:00,USDILS,252,0.98968392303060015,0.83336233268686422,success,253,358.99144938236878,354.427767309042,false,false,210.00730783708977,90.687756273269557,,,
+2023-12-06T00:00:00,USDILS,252,0.98685721327702269,0.8293778546198155,success,253,358.99145127867729,354.67279898705334,false,false,209.00321936419351,197.75249199095327,,,
+2023-12-07T00:00:00,USDILS,252,0.98413898529171095,0.82545595802123584,success,253,358.99144955839472,354.86354661934666,false,false,208.01490142135142,41.730324600981895,,,
+2023-12-08T00:00:00,USDILS,252,0.8285574885548711,0.46831028427375121,success,253,358.99145282188886,357.4160145988871,false,false,118.0141916369853,20.375870603695368,,,
+2023-12-11T00:00:00,USDILS,252,0.82305109973967649,0.46430720738501391,success,253,358.99144970698114,357.45429241043092,false,false,117.0054162610235,52.81240598013914,,,
+2023-12-12T00:00:00,USDILS,252,0.96888811081741344,0.81350362828115796,success,253,358.99144947904341,355.55289037749293,false,false,205.00291432685179,190.21156586476522,,,
+2023-12-13T00:00:00,USDILS,252,0.92156046383114487,0.71826077514170206,success,253,358.99144970551203,356.5277094040934,false,false,181.00171533570892,238.6958369343491,,,
+2023-12-14T00:00:00,USDILS,252,0.92069816459091447,0.86510736352731499,success,253,358.99144975006629,356.53957876677401,false,false,218.00705560888338,72.004043234148668,,,
+2023-12-15T00:00:00,USDILS,252,0.90066246584217424,0.86115278395643557,success,253,358.99145048248255,356.78684340389179,false,false,217.01050155702177,45.180586034979513,,,
+2023-12-18T00:00:00,USDILS,252,0.79149013298922632,0.4444757537005784,success,253,358.99144968956756,357.65751864045302,false,false,112.00788993254575,33.472130678967396,,,
+2023-12-19T00:00:00,USDILS,252,0.79550969867239862,0.39310032731204309,success,253,358.99145026320559,357.63298777166932,false,false,99.061282482634851,0.70818861503341235,,,
+2023-12-20T00:00:00,USDILS,252,0.78272066799418816,0.3889838255758406,success,253,358.99144943823103,357.70985732176416,false,false,98.023924045111826,0.70046381018710946,,,
+2023-12-21T00:00:00,USDILS,252,0.94066074156253032,0.78574101615942959,success,253,358.99145310665807,356.22814167971211,false,false,198.00673607217627,70.212104192218177,,,
+2023-12-22T00:00:00,USDILS,252,0.84371944850668412,0.69059484218879474,success,253,358.99144963952091,357.30528240622732,false,false,174.02990023157628,10.949620290082047,,,
+2023-12-26T00:00:00,USDILS,252,0.91600657428528132,0.77855297166817383,success,253,358.99144936664902,356.60216435531277,false,false,196.1953488603798,15.265691444678914,,,
+2023-12-27T00:00:00,USDILS,252,0.81198890740795504,0.68258410459917251,success,253,358.99144958742238,357.52846387242016,false,false,172.01119435899147,27.061586264060132,,,
+2023-12-28T00:00:00,USDILS,252,0.72545553398380458,0.51990039568105395,success,253,358.99144928259818,358.01976273928011,false,false,131.01489971162559,14.566388157248838,,,
+2023-12-29T00:00:00,USDILS,252,0.7646676933383173,0.4127544734267386,success,253,358.99144945070952,357.81300668523795,false,false,104.01412730353813,17.636875820189232,,,
+2024-01-02T00:00:00,USDILS,252,0.78549604228977943,0.408759105401161,success,253,358.99144977496303,357.69346254480126,false,false,103.00729456109258,36.173918179531555,,,
+2024-01-03T00:00:00,USDILS,252,0.97820668867183858,0.30151459620939319,success,253,358.99144932108163,355.18733143817241,false,false,75.981678244767082,0.123374389533262,,,
+2024-01-04T00:00:00,USDILS,252,0.89714348021755608,0.017937804414286138,success,253,358.9914501076197,356.82556930796875,false,false,4.5203267124001068,1.5488228158426145,,,
+2024-01-05T00:00:00,USDILS,252,0.7432682842929782,0.50007570124735723,success,253,358.9914493287996,357.92842389865177,false,false,126.01907671433403,12.074045111259435,,,
+2024-01-08T00:00:00,USDILS,252,0.64665223704856445,0.52851148571638107,success,253,358.99144992526425,358.3870940121123,false,false,133.18489440052804,8.581862532361713,,,
+2024-01-09T00:00:00,USDILS,252,0.91644168759667999,0.74207008952740161,success,253,358.99144935747813,356.59649565757962,false,false,187.0016625609052,251.11567630597463,,,
+2024-01-10T00:00:00,USDILS,252,0.90044840984696739,0.73810895494235373,success,253,358.99144936869311,356.78923250007574,false,false,186.00345664547314,115.67145579118112,,,
+2024-01-11T00:00:00,USDILS,252,0.79122425870335,0.64294701973804491,success,253,358.99144930181859,357.65912852906325,false,false,162.02264897398732,12.232111033432306,,,
+2024-01-12T00:00:00,USDILS,252,0.60063493597622553,0.51242809990956284,success,253,358.99145003699721,358.58333866068972,false,false,129.13188117720983,10.076952533183148,,,
+2024-01-15T00:00:00,USDILS,252,0.69862015667969946,0.47625783883771833,success,253,358.99144954987196,358.15071377206846,false,false,120.01697538710502,11.820618159614687,,,
+2024-01-16T00:00:00,USDILS,252,0.69748281464525097,0.46835133388492683,success,253,358.99144924431181,358.15610945636854,false,false,118.02453613900157,7.3339729745875948,,,
+2024-01-17T00:00:00,USDILS,252,0.69073539573888865,0.46485607479538416,success,253,358.99144926524173,358.18788967920716,false,false,117.1437308484368,2.2930930563025784,,,
+2024-01-18T00:00:00,USDILS,252,0.60729016464290653,0.49608410821489074,success,253,358.99144973758638,358.55551403677691,false,false,125.01319527015247,14.569473955989309,,,
+2024-01-19T00:00:00,USDILS,252,0.68542360218051046,0.46036704879229468,success,253,358.99144942716714,358.21263934767552,false,false,116.01249629565825,15.14625250314004,,,
+2024-01-22T00:00:00,USDILS,252,0.69360007446581973,0.45253693284150842,success,253,358.99144959960887,358.17444526161296,false,false,114.03930707606013,5.0148938901285245,,,
+2024-01-23T00:00:00,USDILS,252,0.66493074799241192,0.4524266646203135,success,253,358.99144974167041,358.30610407766625,false,false,114.011519484319,15.047785350311793,,,
+2024-01-24T00:00:00,USDILS,252,0.72148501250366348,0.4484543469681786,success,253,358.99145252043041,358.03961278810993,false,false,113.010495435981,20.624866574839,,,
+2024-01-25T00:00:00,USDILS,252,0.7066661896370795,0.44448796551250341,success,253,358.99145259361802,358.11220543470222,false,false,112.01096730915086,18.826732027982775,,,
+2024-01-26T00:00:00,USDILS,252,0.62070371809962555,0.4731652543092994,success,253,358.99145122936733,358.4989150119107,false,false,119.23764408594344,10.034465808162246,,,
+2024-01-29T00:00:00,USDILS,252,0.79123855098495377,0.74606094115527966,success,253,358.99144966992782,357.65904237391146,false,false,188.00735717113048,39.10241991446653,,,
+2024-01-30T00:00:00,USDILS,252,0.77285736468393429,0.74210588890976603,success,253,358.99144982263039,357.76693348238604,false,false,187.01068400526103,25.52616182013664,,,
+2024-01-31T00:00:00,USDILS,252,0.88253146754935707,0.67970680270964245,success,253,358.99144944850292,356.97482549183775,false,false,171.28611428282989,21.545467833943853,,,
+2024-02-01T00:00:00,USDILS,252,0.7660865217858065,0.32149455183457959,success,253,358.99144924598772,357.80510542566429,false,false,81.016627062314058,15.857455818132429,,,
+2024-02-02T00:00:00,USDILS,252,0.86659746726076925,0.67064992713738869,success,253,358.99144925757111,357.1202457902383,false,false,169.00378163862194,91.237401190339284,,,
+2024-02-05T00:00:00,USDILS,252,0.7058195090037841,0.7262475353351755,success,253,358.99144933394763,358.11628327603142,false,false,183.01437890446422,14.918576954620727,,,
+2024-02-06T00:00:00,USDILS,252,0.68949767695121023,0.72228090532231404,success,253,358.9914550854723,358.19368314040759,false,false,182.01478814122314,13.522381172530899,,,
+2024-02-07T00:00:00,USDILS,252,0.70544107559796498,0.70940464692288907,success,253,358.9914494023015,358.1181052219107,false,false,178.76997102456804,0.90549097595120809,,,
+2024-02-08T00:00:00,USDILS,252,0.82039117165680198,0.65478949425678956,success,253,358.99144948055306,357.47244952568138,false,false,165.00695255271097,44.12531686603041,,,
+2024-02-09T00:00:00,USDILS,252,0.80052796595673681,0.65082133332697889,success,253,358.99144963928723,357.60185221811901,false,false,164.00697599839867,42.256222242868283,,,
+2024-02-12T00:00:00,USDILS,252,0.72797732608796351,0.55562637656940783,success,253,358.99144958619502,358.0070651067594,false,false,140.01784689549078,12.863013628880072,,,
+2024-02-13T00:00:00,USDILS,252,0.79725386454451308,0.55168531682955146,success,253,358.99144962970422,357.6222311086575,false,false,139.02469984104698,11.27676111356719,,,
+2024-02-14T00:00:00,USDILS,252,0.67240064802243604,0.41295423187001024,success,253,358.99146136799936,358.27239837660642,false,false,104.06446643124258,8.5369441559423507,,,
+2024-02-15T00:00:00,USDILS,252,0.75076471108483089,0.38498325275931161,success,253,358.99145145197497,357.8887565358155,false,false,97.015779695346524,15.318791409939907,,,
+2024-02-16T00:00:00,USDILS,252,0.83155989871072133,0.27779743267808638,success,253,358.99144955856383,357.39472643022225,false,false,70.004953034877772,67.079624751233695,,,
+2024-02-19T00:00:00,USDILS,252,0.78370544158608013,0.53579327890543527,success,253,358.99144957833448,357.70405751589976,false,false,135.01990628416968,13.434463612122515,,,
+2024-02-20T00:00:00,USDILS,252,0.7326459901472635,0.68259067499627357,success,253,358.99144951999614,357.98336055480434,false,false,172.01285009906093,17.414988047904796,,,
+2024-02-21T00:00:00,USDILS,252,0.89723700449393307,0.6190739081286406,success,253,358.99144935275206,356.82455462885969,false,false,156.00662484841743,54.63946664722949,,,
+2024-02-22T00:00:00,USDILS,252,0.79910606562165054,0.67463743827750478,success,253,358.99144980037863,357.61073319458251,false,false,170.00863444593119,31.775874688128404,,,
+2024-02-23T00:00:00,USDILS,252,0.9183957852188025,0.61227798580779613,success,253,358.99146171102041,356.57071418709739,false,false,154.29405242356464,22.511165503425278,,,
+2024-02-26T00:00:00,USDILS,252,0.92093209960819966,0.5159269449410665,success,253,358.99144959070247,356.53637026374315,false,false,130.01359012514877,28.075310096508613,,,
+2024-02-27T00:00:00,USDILS,252,0.92836305929583884,0.51196827628207364,success,253,358.99145114579068,356.4296391343666,false,false,129.01600562308255,24.536510438448946,,,
+2024-02-28T00:00:00,USDILS,252,0.93939901089209121,0.34926936997558794,success,253,358.99144963703344,356.25052053121038,false,false,88.015881233848162,27.168286426149624,,,
+2024-02-29T00:00:00,USDILS,252,0.93121953099064669,0.34527824839447596,success,253,358.99144935720432,356.38587413040466,false,false,87.010118595407945,41.218963864958106,,,
+2024-03-01T00:00:00,USDILS,252,0.92097461245590317,0.34130223860574627,success,253,358.99144986851962,356.53578655999792,false,false,86.008164128648062,49.516590337077126,,,
+2024-03-04T00:00:00,USDILS,252,0.98097126850521232,0.23414047100581209,success,253,358.99144965269977,355.0488565024333,false,false,59.003398693464646,177.24215827428316,,,
+2024-03-05T00:00:00,USDILS,252,0.9109814988846332,0.33336524524658528,success,253,358.99145377390619,356.66577541126065,false,false,84.008041802139488,49.062489931531175,,,
+2024-03-06T00:00:00,USDILS,252,0.90233019180838747,0.32940646024811543,success,253,358.99145102508288,356.76806299131584,false,false,83.010427982525087,37.178094537857504,,,
+2024-03-07T00:00:00,USDILS,252,0.97370064837729142,0.22224207004365903,success,253,358.99144941077208,355.37988978264826,false,false,56.005001651002075,116.77645952556776,,,
+2024-03-08T00:00:00,USDILS,252,0.88786801288327477,0.32146261010259614,success,253,358.99145038893886,356.92230392499403,false,false,81.008577745854225,43.640828171588723,,,
+2024-03-11T00:00:00,USDILS,252,0.76551908080566755,0.62706116576296878,success,253,358.9914493778308,357.80826945364009,false,false,158.01941377226814,12.435235848095768,,,
+2024-03-12T00:00:00,USDILS,252,0.62713322679443417,0.91275842702357168,success,253,358.99144952792972,358.47151170639091,false,false,230.01512360994008,13.509843708196961,,,
+2024-03-13T00:00:00,USDILS,252,0.92894929300966356,0.5595624569664559,success,253,358.99144939593765,356.4207890460462,false,false,141.0097391555469,40.108213046220492,,,
+2024-03-14T00:00:00,USDILS,252,0.93529998465433184,0.55556810483458696,success,253,358.99145016242284,356.32034428407826,false,false,140.00316241831592,126.96010737848817,,,
+2024-03-15T00:00:00,USDILS,252,0.78484259259301892,0.61116872483262075,success,253,358.99144969028225,357.69733639932366,false,false,154.01451865782042,17.563574411079763,,,
+2024-03-18T00:00:00,USDILS,252,0.91917647000258385,0.54763876247776555,success,253,358.99145443284061,356.56024444094942,false,false,138.00496814439691,76.262841884132072,,,
+2024-03-19T00:00:00,USDILS,252,0.88147282395985305,0.45244354246513879,success,253,358.99144938095725,356.98499747686276,false,false,114.01577270121497,21.866438996625817,,,
+2024-03-20T00:00:00,USDILS,252,0.89282511860728109,0.44849079207554693,success,253,358.99144949614032,356.87152067608241,false,false,113.01967960303783,18.215953289122542,,,
+2024-03-21T00:00:00,USDILS,252,0.8995753799248648,0.28577052181712914,success,253,358.99144933049757,356.79893387565744,false,false,72.01417149791655,28.36044861527953,,,
+2024-03-22T00:00:00,USDILS,252,0.8805242318942037,0.44051818493860267,success,253,358.9914497449214,356.99404587020922,false,false,111.01058260452787,32.723641144657499,,,
+2024-03-25T00:00:00,USDILS,252,0.90936292914959804,0.52780362275719328,success,253,358.99145262776273,356.68557165117409,false,false,133.00651293481272,56.499593297816027,,,
+2024-03-26T00:00:00,USDILS,252,0.89754359155079644,0.52383171740069701,success,253,358.99144947286635,356.82122520840778,false,false,132.00559278497565,63.971336774073713,,,
+2024-03-27T00:00:00,USDILS,252,0.89105069190876984,0.51986651546244811,success,253,358.99144949791832,356.88993088946046,false,false,131.00636189653693,55.374995378582014,,,
+2024-03-28T00:00:00,USDILS,252,0.92130845596199273,0.51589585348656464,success,253,358.99145080799332,356.531191617763,false,false,130.0057550786143,70.130702784446669,,,
+2024-03-29T00:00:00,USDILS,252,0.88893481100134975,0.42068498534378301,success,253,358.99145017594236,356.91154358877674,false,false,106.01261630663332,28.141501493615969,,,
+2024-04-01T00:00:00,USDILS,252,0.82586822866809584,0.27145916497180461,success,253,358.99144973769876,357.43482682546932,false,false,68.40770957289476,17.445428969228189,,,
+2024-04-02T00:00:00,USDILS,252,0.83768517831296085,0.26749725487589787,success,253,358.99145005968933,357.35034550512751,false,false,67.40930822872626,16.002992660933305,,,
+2024-04-03T00:00:00,USDILS,252,0.90823710153819892,0.25001269056444125,success,253,358.99145018788414,356.69915277807178,false,false,63.003198022239197,135.26905628532643,,,
+2024-04-04T00:00:00,USDILS,252,0.92557797418859433,0.49605723052618195,success,253,358.99144940262988,356.4707829671645,false,false,125.00642209259784,60.532894938226725,,,
+2024-04-05T00:00:00,USDILS,252,0.7569572904908306,0.6968339826977088,success,253,358.99144942723058,357.85537978200932,false,false,175.60216363982261,0.27501805729862311,,,
+2024-04-08T00:00:00,USDILS,252,0.63850312997290215,0.75354734250155364,success,253,358.99144946898605,358.42257627472196,false,false,189.89393031039151,1.5370302234438311,,,
+2024-04-09T00:00:00,USDILS,252,0.94189417337448977,0.48413755071659592,success,253,358.99144952271513,356.20582254192249,false,false,122.00266278058217,154.38111820089,,,
+2024-04-10T00:00:00,USDILS,252,0.93154093201276489,0.23020680680165126,success,253,358.991454775401,356.38085066331593,false,false,58.012115314016114,39.863822686112776,,,
+2024-04-11T00:00:00,USDILS,252,0.82569630199956467,0.53576707805853552,success,253,358.99144952082787,357.4360216566364,false,false,135.01330367075096,21.179968293480947,,,
+2024-04-12T00:00:00,USDILS,252,0.64946349776690371,0.73770569654823948,success,253,358.99144955170379,358.3747677620558,false,false,185.90183553015635,1.4773491657671509,,,
+2024-04-15T00:00:00,USDILS,252,0.62654669688626585,0.76590954843699222,success,253,358.9914495166293,358.47401918056556,false,false,193.00920620612203,15.378754120259961,,,
+2024-04-16T00:00:00,USDILS,252,0.77968574075694952,0.52384022929408791,success,253,358.99144952335837,357.72761355951616,false,false,132.00773778211015,31.788896819166919,,,
+2024-04-17T00:00:00,USDILS,252,0.78440494165275665,0.51990365747027401,success,253,358.99144955993216,357.69992608402038,false,false,131.01572168250905,15.921328387018416,,,
+2024-04-18T00:00:00,USDILS,252,0.91061191470019898,0.45637489102775297,success,253,358.99144970969877,356.67032030167991,false,false,115.00647253899375,57.794505524321181,,,
+2024-04-19T00:00:00,USDILS,252,0.67270056709408266,0.47342192760830593,success,253,358.99144962034694,358.27102476116642,false,false,119.30232575729309,20.580034189584058,,,
+2024-04-22T00:00:00,USDILS,252,0.82389182689727836,0.35723625132910475,success,253,358.99144985536356,357.44850903824761,false,false,90.023535334934394,13.246009277430497,,,
+2024-04-23T00:00:00,USDILS,252,0.80694686913771707,0.35327239178281872,success,253,358.99145512042332,357.56116273228207,false,false,89.024642729270312,12.068438549475811,,,
+2024-04-24T00:00:00,USDILS,252,0.88904904154998399,0.33556931719172178,success,253,358.99145003248645,356.91038592156332,false,false,84.563467932313884,0.46161331726805299,,,
+2024-04-25T00:00:00,USDILS,252,0.76857722667521722,0.34531511694374073,success,253,358.99144988504406,357.79115506229317,false,false,87.019409469822662,14.037754198944077,,,
+2024-04-26T00:00:00,USDILS,252,0.74952727923584506,0.34104363609658872,success,253,358.99145075212141,357.89535805411214,false,false,85.942996296340354,3.5779478753051728,,,
+2024-04-29T00:00:00,USDILS,252,0.81718060224593425,0.42862144321210205,success,253,358.99144931051535,357.49408795272257,false,false,108.01260368944972,23.36260129218277,,,
+2024-04-30T00:00:00,USDILS,252,0.82169397669143118,0.42465133220270812,success,253,358.99145229954127,357.46358557110722,false,false,107.01213571508245,24.612160776114806,,,
+2024-05-01T00:00:00,USDILS,252,0.70853342243722106,0.46735614793535218,success,253,358.99145006112172,358.10317817207152,false,false,117.77374927970875,0.72896722285889026,,,
+2024-05-02T00:00:00,USDILS,252,0.75929602057402024,0.74872778818250874,success,253,358.99144926804559,357.84262543012761,false,false,188.67940262199221,0.50426348516005393,,,
+2024-05-03T00:00:00,USDILS,252,0.6615272078256007,0.91274479900063887,success,253,358.99144980579268,358.32134240408197,false,false,230.01168934816098,26.661869516103977,,,
+2024-05-06T00:00:00,USDILS,252,0.68739596259406821,0.52772111617951989,success,253,358.99144957021832,358.20347641273457,false,false,132.98572127723901,14.534407298889194,,,
+2024-05-07T00:00:00,USDILS,252,0.58651333439194098,0.50396783363653674,success,253,358.99145527614309,358.64188513909306,false,false,126.99989407640726,279.70893959263265,,,
+2024-05-08T00:00:00,USDILS,252,0.85774186153393095,0.29509348347849784,success,253,358.99145259867475,357.19479268892263,false,false,74.36355783658145,0.45285060317420822,,,
+2024-05-09T00:00:00,USDILS,252,0.84821621233559075,0.29076849553985307,success,253,358.99145283729359,357.27077432525169,false,false,73.273660876042968,0.44581842478456296,,,
+2024-05-10T00:00:00,USDILS,252,0.74071944955138869,0.39289884492431898,success,253,358.99144960507607,357.94173834388312,false,false,99.010508920928388,23.085172266092918,,,
+2024-05-13T00:00:00,USDILS,252,0.75835403480446528,0.71933974796087252,success,253,358.99144933901999,357.84777269928998,false,false,181.27361648613987,0.53154976070438686,,,
+2024-05-14T00:00:00,USDILS,252,0.75541630983121,0.71530857675598913,success,253,358.99144992705129,357.8637384674451,false,false,180.25776134250927,0.5367128522082879,,,
+2024-05-15T00:00:00,USDILS,252,0.75720315490620049,0.71121735249745266,success,253,358.99144952584521,357.85404300522924,false,false,179.22677282935808,0.53634691744606955,,,
+2024-05-16T00:00:00,USDILS,252,0.76002105148735333,0.70715888820121309,success,253,358.99145020126514,357.83865527400712,false,false,178.2040398267057,0.53669867607336597,,,
+2024-05-17T00:00:00,USDILS,252,0.86293581098715488,0.54587404716496579,success,253,358.99144942999038,357.15155846964018,false,false,137.56025988557138,0.60871532215032398,,,
+2024-05-20T00:00:00,USDILS,252,0.8615019617634696,0.54196852920411165,success,253,358.99144973531833,357.16362856337429,false,false,136.57606935943613,0.59561018990561132,,,
+2024-05-21T00:00:00,USDILS,252,0.82709722156566257,0.48408088815286182,success,253,358.99144990333531,357.42625711805448,false,false,121.98838381452119,25.90433495620853,,,
+2024-05-22T00:00:00,USDILS,252,0.84061624493405573,0.4801098032003171,success,253,358.99144948450902,357.32862908487238,false,false,120.98767040647991,25.165903585387774,,,
+2024-05-23T00:00:00,USDILS,252,0.85953428989615333,0.47607326760215068,success,253,358.99145011526628,357.18002279885889,false,false,119.97046343574198,11.111153184942806,,,
+2024-05-24T00:00:00,USDILS,252,0.86848977781474934,0.47217703675856204,success,253,358.99144933954625,357.10377810771121,false,false,118.98861326315763,29.171532320269939,,,
+2024-05-27T00:00:00,USDILS,252,0.88239885961116382,0.46821882559084865,success,253,358.99144958302605,356.97610414006084,false,false,117.99114404889386,38.899866413497769,,,
+2024-05-28T00:00:00,USDILS,252,0.83440139125863166,0.5116860491208447,success,253,358.99144939871621,357.37430166825055,false,false,128.94488437845285,5.1407214346576211,,,
+2024-05-29T00:00:00,USDILS,252,0.88175038507212256,0.53813215724139229,success,253,358.99144937555758,356.98233814067089,false,false,135.60930362483086,0.22027197117243533,,,
+2024-05-30T00:00:00,USDILS,252,0.80017244503215967,0.66631088110336167,success,253,358.99144951137401,357.60407702010212,false,false,167.91034203804713,0.56472913290861826,,,
+2024-05-31T00:00:00,USDILS,252,0.6852571125494894,0.59777243267109059,success,253,358.99144939874299,358.21341135933062,false,false,150.63865303311482,1.5563299538724633,,,
+2024-06-03T00:00:00,USDILS,252,0.66271928124012836,0.57138851115691536,success,253,358.99144981980919,358.31601390312164,false,false,143.98990481154266,14.685129417126872,,,
+2024-06-04T00:00:00,USDILS,252,0.79227778090024137,0.44834895880108988,success,253,358.99144929726623,357.65273893553353,false,false,112.98393761787464,16.086948876748533,,,
+2024-06-05T00:00:00,USDILS,252,0.84440545629934272,0.49444987571116245,success,253,358.99144933311237,357.30007010035018,false,false,124.60136867921294,0.61946156652914841,,,
+2024-06-06T00:00:00,USDILS,252,0.84736056847869223,0.44821847155162564,success,253,358.99144950510936,357.27740168374186,false,false,112.95105483100966,0.9541556064817196,,,
+2024-06-07T00:00:00,USDILS,252,0.8093774818120425,0.43246097942874712,success,253,358.99144935874801,357.54547907546839,false,false,108.98016681604427,15.965314131045645,,,
+2024-06-10T00:00:00,USDILS,252,0.791410483755973,0.43228426140026427,success,253,358.99144930596424,357.65800081360425,false,false,108.93563387286659,4.4296346224305232,,,
+2024-06-11T00:00:00,USDILS,252,0.64327564035304141,0.75895186603467446,success,253,358.99144930944493,358.40183938016941,false,false,191.25587024073798,1.400672826614807,,,
+2024-06-12T00:00:00,USDILS,252,0.66357824490503547,0.69042701570054765,success,253,358.99144932632305,358.31216814831618,false,false,173.987607956538,12.927155490656045,,,
+2024-06-13T00:00:00,USDILS,252,0.68101086291541124,0.53965668372195263,success,253,358.99144933462469,358.23302812636342,false,false,135.99348429793207,25.110744865498365,,,
+2024-06-14T00:00:00,USDILS,252,0.85554298005717788,0.41646467207321014,success,253,358.99144924389429,357.21269493559765,false,false,104.94909736244895,6.1991143030597229,,,
+2024-06-17T00:00:00,USDILS,252,0.86467423077261341,0.40866630070076027,success,253,358.99144940971985,357.13678156251069,false,false,102.98390777659159,21.171480118983052,,,
+2024-06-18T00:00:00,USDILS,252,0.86052536596298002,0.40464180031453528,success,253,358.99144944520833,357.17178910169127,false,false,101.96973367926289,10.752480349043994,,,
+2024-06-19T00:00:00,USDILS,252,0.71848937054712814,0.54612313619752884,success,253,358.9914494290141,358.05446872446674,false,false,137.62303032177726,1.628689165416535,,,
+2024-06-20T00:00:00,USDILS,252,0.73999194281103009,0.51980511235549742,success,253,358.99144935167163,357.94552267334961,false,false,130.99088831358534,23.249822095547341,,,
+2024-06-21T00:00:00,USDILS,252,0.89199484960055775,0.39275233023838646,success,253,358.99144984462117,356.8801684009191,false,false,98.973587220073384,13.905203405619742,,,
+2024-06-24T00:00:00,USDILS,252,0.91641945967078609,0.44194934346203218,success,253,358.99144946554543,356.59678600209594,false,false,111.37123455243211,0.62659792696427552,,,
+2024-06-25T00:00:00,USDILS,252,0.92478560079397476,0.43786028576012975,success,253,358.99144962157459,356.482230385283,false,false,110.34079201155269,0.62783909121250392,,,
+2024-06-26T00:00:00,USDILS,252,0.77528587746085809,0.50393589433993125,success,253,358.99144964830845,357.75304684068715,false,false,126.99184537366267,29.247926012021733,,,
+2024-06-27T00:00:00,USDILS,252,0.78445057114711547,0.71060822073289176,success,253,358.99144972257136,357.69965641067637,false,false,179.07327162468872,1.4226560059273157,,,
+2024-06-28T00:00:00,USDILS,252,0.95651208726840997,0.84110567740222542,success,253,358.99144954913248,355.90063915459791,false,false,211.9586307053608,15.188946574484307,,,
+2024-07-01T00:00:00,USDILS,252,0.93933870718759538,0.44064477342232061,success,253,358.99144946206155,356.25157915183371,false,false,111.04248290242479,0.2163973993029906,,,
+2024-07-02T00:00:00,USDILS,252,0.94704507264759108,0.43490372445176473,success,253,358.99144941759403,356.10754385476838,false,false,109.59573856184471,0.21682049676246118,,,
+2024-07-03T00:00:00,USDILS,252,0.83504257046811237,0.63090548296185445,success,253,358.99144927572735,357.3696540073546,false,false,158.98818170638731,25.284540697705058,,,
+2024-07-04T00:00:00,USDILS,252,0.79420636330693428,0.65458512170825367,success,253,358.99144946018964,357.64098003236546,false,false,164.95545067047993,4.7250733367453472,,,
+2024-07-05T00:00:00,USDILS,252,0.94162546152847371,0.40580099022272298,success,253,358.99144942899437,356.21072164239666,false,false,102.26184953612619,0.62339533122635793,,,
+2024-07-08T00:00:00,USDILS,252,0.93292128671397612,0.42139925852450805,success,253,358.99144948845975,356.35899541195408,false,false,106.19261314817602,0.21612372495664225,,,
+2024-07-09T00:00:00,USDILS,252,0.94985989605043375,0.39769937507901998,success,253,358.99144933685142,356.04995600688881,false,false,100.22024251991303,0.63014273447512992,,,
+2024-07-10T00:00:00,USDILS,252,0.96594451460765873,0.773716812076787,success,253,358.99144949678885,355.64633422030073,false,false,194.97663664335033,1.1442180192346929,,,
+2024-07-11T00:00:00,USDILS,252,0.82551777782635338,0.60709523271522592,success,253,358.99144934762461,357.43726140645936,false,false,152.98799864423694,23.903599645185306,,,
+2024-07-12T00:00:00,USDILS,252,0.94029153454169867,0.33330341820617221,success,253,358.99144929919748,356.23473313920584,false,false,83.992461387955402,56.326587829970862,,,
+2024-07-15T00:00:00,USDILS,252,0.94019022886186088,0.32923701356708812,success,253,358.9914494053973,356.23653622404549,false,false,82.967727418906208,13.093758453405638,,,
+2024-07-16T00:00:00,USDILS,252,0.94229157002133712,0.32530158808665549,success,253,358.9914494018156,356.19853791580834,false,false,81.97600019783718,18.062998967042773,,,
+2024-07-17T00:00:00,USDILS,252,0.92816561460607128,0.36878740177982072,success,253,358.99144936129687,356.43260244704192,false,false,92.934425248514827,5.9077972485400174,,,
+2024-07-18T00:00:00,USDILS,252,0.94366634940433569,0.31737408358767383,success,253,358.99144975067924,356.172969148552,false,false,79.978269064093809,19.752531075239244,,,
+2024-07-19T00:00:00,USDILS,252,0.95626854522940485,0.78159088463407456,success,253,358.99144964713315,355.90647850045514,false,false,196.96090292778678,13.892112002199257,,,
+2024-07-22T00:00:00,USDILS,252,0.83626841600790192,0.66998705876533005,success,253,358.99144993179647,357.36072870248489,false,false,168.83673880886317,0.71142847630659078,,,
+2024-07-23T00:00:00,USDILS,252,0.97372231154282396,0.73799466081364762,success,253,358.99144924373292,355.37904331332214,false,false,185.9746545250392,21.352698353021172,,,
+2024-07-24T00:00:00,USDILS,252,0.96345992977696582,0.76968663433490592,success,253,358.99144931484688,355.71932788880997,false,false,193.9610318523963,14.12743331140479,,,
+2024-07-25T00:00:00,USDILS,252,0.97440719153435817,0.77758514349311336,success,253,358.99144923033657,355.3519313456431,false,false,195.95145616026457,0.36556542942255771,,,
+2024-07-26T00:00:00,USDILS,252,0.97437441787362034,0.72605923164798591,success,253,358.99144937396511,355.35324488591647,false,false,182.96692637529245,1.1706707004325827,,,
+2024-07-29T00:00:00,USDILS,252,0.73949775500436554,0.48803331675210077,success,253,358.99145005875317,357.9480902916178,false,false,122.98439582152939,13.795763259138326,,,
+2024-07-30T00:00:00,USDILS,252,0.8624258107351116,0.33307016977811216,success,253,358.99144933138365,357.15586353260426,false,false,83.933682784084269,4.8134693324271556,,,
+2024-07-31T00:00:00,USDILS,252,0.88533677802697242,0.28171964938677402,success,253,358.99144960393488,356.94748081849167,false,false,70.993351645467058,56.255911241148183,,,
+2024-08-01T00:00:00,USDILS,252,0.89520049615952701,0.27770953201326265,success,253,358.99145052013017,356.84645184641738,false,false,69.982802067342192,22.445374055617112,,,
+2024-08-02T00:00:00,USDILS,252,0.91115641264961433,0.27367537946988196,success,253,358.99144958407169,356.66361238630259,false,false,68.966195626410254,12.112316732002675,,,
+2024-08-05T00:00:00,USDILS,252,0.91462224524641789,0.26978788906602008,success,253,358.99145227439811,356.6200267249763,false,false,67.986548044637061,31.171711536763603,,,
+2024-08-06T00:00:00,USDILS,252,0.92865153532660916,0.26583937585399248,success,253,358.99145031045822,356.4252925639862,false,false,66.991522715206102,50.82621967831836,,,
+2024-08-07T00:00:00,USDILS,252,0.92820018588246889,0.33203995738174003,success,253,358.99144963176713,356.43208409185735,false,false,83.674069260198493,0.21019415183108489,,,
+2024-08-08T00:00:00,USDILS,252,0.75925460363021702,0.40314426051520269,success,253,358.9914589528542,357.84286171401413,false,false,101.59235364983108,1.5521620495675981,,,
+2024-08-09T00:00:00,USDILS,252,0.74635339418749058,0.45232288137665311,success,253,358.99144984429614,357.91219262005308,false,false,113.98536610691659,15.130932813977987,,,
+2024-08-12T00:00:00,USDILS,252,0.92037103132585396,0.24995553447737084,success,253,358.99145021884061,356.5440512898914,false,false,62.988794688297453,37.813879536323903,,,
+2024-08-13T00:00:00,USDILS,252,0.90449071490091315,0.24600761263761556,success,253,358.99144977374425,356.74330120334008,false,false,61.99391838467912,67.105563472466287,,,
+2024-08-14T00:00:00,USDILS,252,0.70625483026289304,0.36505511595359325,success,253,358.99145039776909,358.11418689789656,false,false,91.993889220305505,31.094445516077112,,,
+2024-08-15T00:00:00,USDILS,252,0.97295222119697433,0.86870336845921881,success,253,358.99145007709086,355.40871998816868,false,false,218.91324885172313,0.063431159407676962,,,
+2024-08-16T00:00:00,USDILS,252,0.78583147809597986,0.66817976400656476,success,253,358.99144935488545,357.69147018055281,false,false,168.38130052965431,0.8709322738503521,,,
+2024-08-19T00:00:00,USDILS,252,0.97078632122606123,0.85217285498831152,success,253,358.99145204236714,355.48798270956951,false,false,214.74755945705451,0.061077613846721814,,,
+2024-08-20T00:00:00,USDILS,252,0.96565568732039742,0.8405383688901964,success,253,358.9914493163937,355.65507841228845,false,false,211.8156689603295,0.059854455552504772,,,
+2024-08-21T00:00:00,USDILS,252,0.67525895955915127,0.52243199844575827,success,253,358.99145057640959,358.25938238139162,false,false,131.65286360833107,1.4546030028682539,,,
+2024-08-22T00:00:00,USDILS,252,0.94953896058767262,0.21736275839461555,success,253,358.99144960451076,356.05667458409806,false,false,54.775415115443117,12.745749135047392,,,
+2024-08-23T00:00:00,USDILS,252,0.96031607327746848,0.21427303279798193,success,253,358.99145008216249,355.80513384615352,false,false,53.996804265091448,160.11022115050991,,,
+2024-08-26T00:00:00,USDILS,252,0.72952636903761037,0.48011705408987959,success,253,358.99144981159924,357.99922890851815,false,false,120.98949763064965,19.276956728072754,,,
+2024-08-27T00:00:00,USDILS,252,0.85105018509576857,0.63997006665319711,success,253,358.99144929995043,357.24858763769345,false,false,161.27245679660567,0.86810616425328668,,,
+2024-08-28T00:00:00,USDILS,252,0.94558622873917175,0.78630808382586026,success,253,358.99144944792937,356.13626163490198,false,false,198.14963712411679,0.058214004493890532,,,
+2024-08-29T00:00:00,USDILS,252,0.82297476685750492,0.32138393335820348,success,253,358.99144937448096,357.45481611676854,false,false,80.988751206267281,25.760938864806626,,,
+2024-08-30T00:00:00,USDILS,252,0.95330297871124581,0.23444140515345446,success,253,358.99144949590453,355.97519710045219,false,false,59.079234098670526,11.946916276831097,,,
+2024-09-02T00:00:00,USDILS,252,0.96752832039335601,0.19042912952033414,success,253,358.99144931072931,355.5970729272596,false,false,47.988140639124204,46.351054936619789,,,
+2024-09-03T00:00:00,USDILS,252,0.95406677996006128,0.18647067708095144,success,253,358.99144924968863,355.95790418416601,false,false,46.990610624399764,55.718529643756618,,,
+2024-09-04T00:00:00,USDILS,252,0.69467411601888185,0.5449465511132473,success,253,358.99144976886151,358.16938660934488,false,false,137.32653088053831,0.68342939088386845,,,
+2024-09-05T00:00:00,USDILS,252,0.79563439390021162,0.61261438475397789,success,253,358.991449651528,357.63222045189895,false,false,154.37882495800244,0.88075008372486874,,,
+2024-09-06T00:00:00,USDILS,252,0.75475443832825717,0.58332175973077316,success,253,358.99144932645885,357.86731687848419,false,false,146.99708345215484,83.269220760143014,,,
+2024-09-09T00:00:00,USDILS,252,0.80268003533576593,0.60471075573502242,success,253,358.99144954249397,357.58831996684046,false,false,152.38711044522566,0.86727852205520328,,,
+2024-09-10T00:00:00,USDILS,252,0.93439019141541391,0.74807881686098066,success,253,358.99144939142889,356.33528048249036,false,false,188.51586184896712,0.062544831691142388,,,
+2024-09-11T00:00:00,USDILS,252,0.73816440364626823,0.36105095326964337,success,253,358.99144933436065,357.95499957737189,false,false,90.98484022395013,14.557857684023508,,,
+2024-09-12T00:00:00,USDILS,252,0.96906463096925399,0.15870244303408804,success,253,358.99144945945244,355.54701830930156,false,false,39.993015644590187,84.702715586945331,,,
+2024-09-13T00:00:00,USDILS,252,0.64827577843659911,0.48404468909427534,success,253,358.99144964659666,358.37998086383664,false,false,121.97926165175738,7.5398936203366667,,,
+2024-09-16T00:00:00,USDILS,252,0.78204101589794939,0.55951099407008764,success,253,358.9914499508032,357.71384966040245,false,false,140.99677050566208,80.79536810319081,,,
+2024-09-17T00:00:00,USDILS,252,0.72955277049458989,0.50806048694800598,success,253,358.99144948830207,357.99909477930748,false,false,128.03124271089752,0.63159048119394878,,,
+2024-09-18T00:00:00,USDILS,252,0.81608549238927053,0.57684734526279924,success,253,358.99144985242964,357.50140174995209,false,false,145.36553100622541,0.8236456429461233,,,
+2024-09-19T00:00:00,USDILS,252,0.81724237508020936,0.57286156987974457,success,253,358.99144998215922,357.49367508755745,false,false,144.36111560969564,0.81947467462197521,,,
+2024-09-20T00:00:00,USDILS,252,0.66642501718224889,0.46419330426667621,success,253,358.99144959954936,358.29938964473075,false,false,116.97671267520241,7.7558943488648042,,,
+2024-09-23T00:00:00,USDILS,252,0.98876023775281363,0.12977080055739215,success,253,358.9914497581542,354.51445557674424,false,false,32.702241740462824,10.920400320693142,,,
+2024-09-24T00:00:00,USDILS,252,0.99145862422427122,0.12692766987673376,success,253,358.99144952735782,354.23719440343967,false,false,31.985772808936911,51.926488049552269,,,
+2024-09-25T00:00:00,USDILS,252,0.91601661671949697,0.098953930528372674,success,253,358.9914554248835,356.60203988103592,false,false,24.936390493149915,13.550055848775344,,,
+2024-09-26T00:00:00,USDILS,252,0.97932811267705455,0.15878394956514424,success,253,358.99144961629213,355.13335755594375,false,false,40.013555290416349,10.363758895088809,,,
+2024-09-27T00:00:00,USDILS,252,0.98187349338058716,0.15448167249089242,success,253,358.99144938085288,354.99936222739098,false,false,38.929381467704893,12.625355112934614,,,
+2024-09-30T00:00:00,USDILS,252,0.67933284858743848,0.25669816905566822,success,253,358.99144983838693,358.24074230051184,false,false,64.687938602028396,1.5151691423424718,,,
+2024-10-01T00:00:00,USDILS,252,0.68483811693322094,0.46986599703609794,success,253,358.99144942385288,358.21535336047941,false,false,118.40623125309668,0.67532809925916837,,,
+2024-10-02T00:00:00,USDILS,252,0.94824864758440863,0.68825042813275328,success,253,358.99144967705041,356.08328348814365,false,false,173.43910788945382,0.063863017780828299,,,
+2024-10-03T00:00:00,USDILS,252,0.75961596655431751,0.53352206052145823,success,253,358.99144955465766,357.84087434009342,false,false,134.44755925140748,0.82153202119806579,,,
+2024-10-04T00:00:00,USDILS,252,0.85855499977303096,0.78493349616319874,success,253,358.99145477333491,357.18811498063167,false,false,197.80324103312608,0.69997509390702906,,,
+2024-10-07T00:00:00,USDILS,252,0.92482933039838566,0.69419673416174243,success,253,358.9914496039014,356.48160151407018,false,false,174.93757700875909,0.092068541610740823,,,
+2024-10-08T00:00:00,USDILS,252,0.93402668264055533,0.68212703757936599,success,253,358.99144939490077,356.34119476679194,false,false,171.89601347000024,0.075884071893881522,,,
+2024-10-09T00:00:00,USDILS,252,0.63177676063930388,0.38393046466528102,success,253,358.99144975045357,358.45160302848421,false,false,96.750477095650822,1.4990884338156747,,,
+2024-10-10T00:00:00,USDILS,252,0.75625345262514843,0.51356228408854077,success,253,358.9914497447075,357.85920211507977,false,false,129.41769559031226,0.84745537631204548,,,
+2024-10-11T00:00:00,USDILS,252,0.91451579457921517,0.64685432566956913,success,253,358.99145099986299,356.62138788786518,false,false,163.00729006873141,0.06844302394482199,,,
+2024-10-14T00:00:00,USDILS,252,0.91040117127413389,0.63428551732145377,success,253,358.99144962455091,356.67290652227024,false,false,159.83995036500636,0.067748102436429883,,,
+2024-10-15T00:00:00,USDILS,252,0.79171858484106861,0.5013671735189531,success,253,358.99144951996288,357.65613363623459,false,false,126.34452772677619,0.85423831345634826,,,
+2024-10-16T00:00:00,USDILS,252,0.61798681296421565,0.39289273435624772,success,253,358.99144952983988,358.51043753990228,false,false,99.008969057774422,6.988166491707192,,,
+2024-10-17T00:00:00,USDILS,252,0.9574083432930055,0.098891785855474076,success,253,358.991449956243,355.87887834693583,false,false,24.920730035579467,13.246266952453647,,,
+2024-10-18T00:00:00,USDILS,252,0.99472175335088597,0.054180116555432076,success,253,358.99144939495625,353.752580310317,false,false,13.653389371968883,13.954057452407952,,,
+2024-10-21T00:00:00,USDILS,252,0.63945801161098426,0.38607784386731736,success,253,358.99144953069128,358.41843699257021,false,false,97.291616654563981,1.287817752750624,,,
+2024-10-22T00:00:00,USDILS,252,0.9198906476376304,0.61295753487775539,success,253,358.99144951809012,356.55058732221499,false,false,154.46529878919435,0.066904484741194453,,,
+2024-10-23T00:00:00,USDILS,252,0.92066890607634932,0.61701702897959154,success,253,358.9914495144435,356.53997919351877,false,false,155.48829130285708,0.068999103453476054,,,
+2024-10-24T00:00:00,USDILS,252,0.92992637522679733,0.61291767560464383,success,253,358.99144930588091,356.40589036107826,false,false,154.45525425237025,0.067135395155453206,,,
+2024-10-25T00:00:00,USDILS,252,0.92608788211798088,0.64286631192165133,success,253,358.99144967722799,356.46335733325407,false,false,162.00231060425614,0.11181992297185853,,,
+2024-10-28T00:00:00,USDILS,252,0.83294009194509866,0.67465750076410747,success,253,358.9914549520592,357.38484570986776,false,false,170.01369019255509,23.266687135348956,,,
+2024-10-29T00:00:00,USDILS,252,0.95168317507004707,0.63566803981372766,success,253,358.99145173616898,356.01099939830027,false,false,160.18834603305936,0.096286389127596392,,,
+2024-10-30T00:00:00,USDILS,252,0.94800183544473426,0.63410041349379276,success,253,358.99144925985775,356.08830124242581,false,false,159.79330420043578,0.10868025639039669,,,
+2024-10-31T00:00:00,USDILS,252,0.94752729774123645,0.63017719949846485,success,253,358.99144927491471,356.09788660548929,false,false,158.80465427361315,0.10979447094478964,,,
+2024-11-01T00:00:00,USDILS,252,0.94097373801590978,0.62488687299016599,success,253,358.99144934512225,356.22251657776161,false,false,157.47149199352182,0.11060957039286971,,,
+2024-11-04T00:00:00,USDILS,252,0.93584704808231101,0.61971180700466644,success,253,358.99144976487338,356.31126781778431,false,false,156.16737536517593,0.1105190569684292,,,
+2024-11-05T00:00:00,USDILS,252,0.6747723192033076,0.30959017795725741,success,253,358.99145003889498,358.26160020315876,false,false,78.016724845228865,10.208313531269546,,,
+2024-11-06T00:00:00,USDILS,252,0.64728809915168672,0.28576278865236304,success,253,358.99145190745281,358.38431200623785,false,false,72.012222740395487,12.934380740422483,,,
+2024-11-07T00:00:00,USDILS,252,0.84459332049867197,0.21491151369808253,success,253,358.99144935338063,357.29863953903487,false,false,54.1577014519168,0.61715909017175985,,,
+2024-11-08T00:00:00,USDILS,252,0.69007574897721025,0.29770927188586427,success,253,358.99144923243989,358.1909757758288,false,false,75.022736515237796,8.2459104142098631,,,
+2024-11-11T00:00:00,USDILS,252,0.93608001721263545,0.60459805651745469,success,253,358.99144961482779,356.30738068570304,false,false,152.35871024239859,0.15145641254888029,,,
+2024-11-12T00:00:00,USDILS,252,0.93031825072894414,0.60000835794404328,success,253,358.99144943132359,356.3998611352086,false,false,151.20210620189891,0.15281924024360669,,,
+2024-11-13T00:00:00,USDILS,252,0.91987801232481359,0.6744062556114484,success,253,358.99146679617633,356.55077604944051,false,false,169.95037641408499,0.78005139409041113,,,
+2024-11-14T00:00:00,USDILS,252,0.78713091283455139,0.71432338430371256,success,253,358.99144920465608,357.68373198844688,false,false,180.00949284453557,28.394539953929147,,,
+2024-11-15T00:00:00,USDILS,252,0.906980514345049,0.58556474821566074,success,253,358.99144934660751,356.71413737473381,false,false,147.56231655034651,0.15406343393486424,,,
+2024-11-18T00:00:00,USDILS,252,0.90642808837500488,0.58168300311656107,success,253,358.99144954133391,356.72066809213163,false,false,146.5841167853734,0.15792856553883919,,,
+2024-11-19T00:00:00,USDILS,252,0.67504099425649156,0.51251476001856644,success,253,358.99144932201818,358.26037493895802,false,false,129.15371952467873,2.0945061620457701,,,
+2024-11-20T00:00:00,USDILS,252,0.84391401085010487,0.45767124348973376,success,253,358.99144948561894,357.30380594697948,false,false,115.3331533594129,0.19024447114024301,,,
+2024-11-21T00:00:00,USDILS,252,0.84285371828105771,0.45360779217260144,success,253,358.99144938663721,357.31183307111394,false,false,114.30916362749556,0.19979074840653049,,,
+2024-11-22T00:00:00,USDILS,252,0.83881483462745221,0.44899804984949243,success,253,358.99144929147934,357.3420131066851,false,false,113.14750856207209,0.2048660483747449,,,
+2024-11-25T00:00:00,USDILS,252,0.63872844223456582,0.28824132175348294,success,253,358.99144975792706,358.42160028002638,false,false,72.636813081877705,1.5397917965418495,,,
+2024-11-26T00:00:00,USDILS,252,0.62572076611620131,0.28418175033466753,success,253,358.99144929475585,358.47754721718661,false,false,71.613801084336217,1.5275555162188406,,,
+2024-11-27T00:00:00,USDILS,252,0.74220906163572764,0.73945346812961621,success,253,358.99144925195139,357.93396723426349,false,false,186.34227396866328,0.77937684470546786,,,
+2024-11-28T00:00:00,USDILS,252,0.73065429753458211,0.73532162283446401,success,253,358.99144946368301,357.99350472677702,false,false,185.30104895428494,0.78221167628199983,,,
+2024-11-29T00:00:00,USDILS,252,0.72722721839535831,0.73126806175160852,success,253,358.99144968443358,358.01084986004923,false,false,184.27955156140536,0.77887101159626804,,,
+2024-12-02T00:00:00,USDILS,252,0.72197938527390371,0.72720227298560836,success,253,358.9914494992492,358.03714817764859,false,false,183.25497279237331,0.77993928813139624,,,
+2024-12-03T00:00:00,USDILS,252,0.88911781964957659,0.61848333351893792,success,253,358.991449405401,356.90968784743234,false,false,155.85780004677235,0.7916656055227711,,,
+2024-12-04T00:00:00,USDILS,252,0.76569439101209824,0.65876921726381521,success,253,358.99144931144872,357.80729247323342,false,false,166.00984275048143,24.432278382239872,,,
+2024-12-05T00:00:00,USDILS,252,0.88766182919556313,0.61051979759903097,success,253,358.99144931128046,356.92437216809577,false,false,153.8509889949558,0.79808476972719211,,,
+2024-12-06T00:00:00,USDILS,252,0.73758287809483836,0.65080720499308664,success,253,358.99144931996562,357.95800616709187,false,false,164.00341565825784,63.686387284800702,,,
+2024-12-09T00:00:00,USDILS,252,0.8229194034338555,0.60727475466829173,success,253,358.99144948346355,357.45519619456178,false,false,153.03323817640953,8.4252958694412019,,,
+2024-12-10T00:00:00,USDILS,252,0.89255680996199294,0.51600652149314385,success,253,358.99144932519044,356.87432140406219,false,false,130.03364341627224,0.15431110841234877,,,
+2024-12-11T00:00:00,USDILS,252,0.88638730022402423,0.51127679224992428,success,253,358.99144931872269,356.93709062403809,false,false,128.84175164698092,0.15404056099416569,,,
+2024-12-12T00:00:00,USDILS,252,0.88281997468312179,0.50684656783203386,success,253,358.99144940175597,356.97203953128707,false,false,127.72533509367254,0.15620417145241941,,,
+2024-12-13T00:00:00,USDILS,252,0.87724205759258123,0.5021263704968425,success,253,358.99144932547716,357.0248808333223,false,false,126.53584536520431,0.15710300129995108,,,
+2024-12-16T00:00:00,USDILS,252,0.87373283633322074,0.49788620354890145,success,253,358.99144931867045,357.05707467774795,false,false,125.46732329432317,0.15668797764598097,,,
+2024-12-17T00:00:00,USDILS,252,0.87176348160477457,0.49329605423836254,success,253,358.99144932737124,357.07480753574544,false,false,124.31060566806735,0.15590800556298084,,,
+2024-12-18T00:00:00,USDILS,252,0.74887950470613052,0.57951881565923846,success,253,358.99144931222389,357.89880410141126,false,false,146.03874154612808,5.6656901705507847,,,
+2024-12-19T00:00:00,USDILS,252,0.74800688795502868,0.5755034523685455,success,253,358.99145254178012,357.903442109335,false,false,145.02686999687347,8.1551535301311695,,,
+2024-12-20T00:00:00,USDILS,252,0.83234873638109119,0.56617481869485931,success,253,358.99144946728694,357.38908397010971,false,false,142.67605431110454,0.78978035667900104,,,
+2024-12-23T00:00:00,USDILS,252,0.86605542230454169,0.4774030559309887,success,253,358.99144940299823,357.12492661354889,false,false,120.30557009460915,0.16362144575929369,,,
+2024-12-24T00:00:00,USDILS,252,0.86486510257771332,0.47307530087352456,success,253,358.99144953098607,357.13514950668838,false,false,119.21497582012819,0.1610780306968527,,,
+2024-12-26T00:00:00,USDILS,252,0.86019971368324077,0.46876790285292669,success,253,358.99144946568805,357.17449975603063,false,false,118.12951151893752,0.16283720592727444,,,
+2024-12-27T00:00:00,USDILS,252,0.86193933643115062,0.46477224452685895,success,253,358.9914493136331,357.15995760045973,false,false,117.12260562076845,0.16138831381895816,,,
+2024-12-30T00:00:00,USDILS,252,0.86470483916314167,0.46166753589355136,success,253,358.99144957411522,357.13652012017991,false,false,116.34021904517495,0.16193722509586847,,,
+2024-12-31T00:00:00,USDILS,252,0.85990756153741155,0.4570596316441432,success,253,358.99144932726807,357.17692690983864,false,false,115.17902717432409,0.16105334840591873,,,
+2025-01-02T00:00:00,USDILS,252,0.79529149949293554,0.53810844967245675,success,253,358.99144933655475,357.63432764154101,false,false,135.6033293174591,0.79364588707435491,,,
+2025-01-03T00:00:00,USDILS,252,0.78325645885277007,0.53397811847804055,success,253,358.99144938651216,357.7067040270806,false,false,134.56248585646622,0.78939369928176573,,,
+2025-01-06T00:00:00,USDILS,252,0.84509113160118055,0.44394878196462823,success,253,358.99144933694919,357.29484186555572,false,false,111.87509305508631,0.16723303314153234,,,
+2025-01-07T00:00:00,USDILS,252,0.84154088865669052,0.43951403777021847,success,253,358.99144924982534,357.32171123461018,false,false,110.75753751809505,0.16796619519163927,,,
+2025-01-08T00:00:00,USDILS,252,0.76544997204079945,0.52203425520020141,success,253,358.99144932946365,357.80865437379009,false,false,131.55263231045075,0.80647666086108205,,,
+2025-01-09T00:00:00,USDILS,252,0.68710677239085061,0.52393868529421062,success,253,358.99144941086104,358.2048217188817,false,false,132.03254869414107,4.906804533260539,,,
+2025-01-10T00:00:00,USDILS,252,0.75928132545270566,0.51390880396533933,success,253,358.99144952002109,357.84270608463549,false,false,129.50501859926553,0.79614336206688818,,,
+2025-01-13T00:00:00,USDILS,252,0.72503418814767995,0.51596483861620412,success,253,358.99144940520358,358.02187736479607,false,false,130.02313933128343,8.6457187029846647,,,
+2025-01-14T00:00:00,USDILS,252,0.70811406085781148,0.51202988091029844,success,253,358.99144950350512,358.10520742646116,false,false,129.03152998939521,5.8184177607698278,,,
+2025-01-15T00:00:00,USDILS,252,0.75689339615694673,0.50801816351781448,success,253,358.9914496281707,357.85572725483195,false,false,128.02057720648924,10.931011189902881,,,
+2025-01-16T00:00:00,USDILS,252,0.84730382225791834,0.41250159616499898,success,253,358.99144943275661,357.27784027921166,false,false,103.95040223357974,0.16978256821306253,,,
+2025-01-17T00:00:00,USDILS,252,0.86511509164329825,0.40984691057537453,success,253,358.99144974817818,357.13300908031067,false,false,103.28142146499438,0.15961340651384792,,,
+2025-01-20T00:00:00,USDILS,252,0.86380816877085553,0.4064042429996072,success,253,358.99145558391928,357.14416928227803,false,false,102.41386923590102,0.16826383284964314,,,
+2025-01-21T00:00:00,USDILS,252,0.8577441782276165,0.40169776863137679,success,253,358.99144949389438,357.19477059795162,false,false,101.22783769510696,0.16730960336947634,,,
+2025-01-22T00:00:00,USDILS,252,0.86781331985001531,0.28327311088923585,success,253,358.9914494611549,357.10968800596879,false,false,71.384823944087429,0.17852576875753967,,,
+2025-01-23T00:00:00,USDILS,252,0.68090115678192331,0.44445077795019849,success,253,358.99145238064625,358.23353613739584,false,false,112.00159604345002,108.33274305277345,,,
+2025-01-24T00:00:00,USDILS,252,0.70282151452283426,0.57961646646641074,success,253,358.99144957008957,358.1306795211633,false,false,146.0633495495355,0.78161718754928344,,,
+2025-01-27T00:00:00,USDILS,252,0.58028032097715598,0.61507608116318624,success,253,358.99144941488566,358.66752517362153,false,false,154.99917245312292,29.406570669805927,,,
+2025-01-28T00:00:00,USDILS,252,0.70404614608085936,0.57150407069454856,success,253,358.99144981183389,358.12480945266248,false,false,144.01902581502623,0.78206237608235618,,,
+2025-01-29T00:00:00,USDILS,252,0.70799929594831634,0.56741646212023467,success,253,358.99144927237739,358.10576238650873,false,false,142.98894845429913,0.77904866584613985,,,
+2025-01-30T00:00:00,USDILS,252,0.7750238189977261,0.45856440857353586,success,253,358.99144937252959,357.75455014384642,false,false,115.55823096053103,0.79806127268850102,,,
+2025-01-31T00:00:00,USDILS,252,0.84958662996630985,0.36615878891128112,success,253,358.99144948570614,357.26008687626455,false,false,92.27201480564284,0.15653790231718714,,,
+2025-02-03T00:00:00,USDILS,252,0.78869595640732904,0.17061715540218608,success,253,358.99144975304193,357.67436692073613,false,false,42.995523161350896,75.755668514643801,,,
+2025-02-04T00:00:00,USDILS,252,0.9024156469021879,0.24439564622607129,success,253,358.99144967990031,356.76709162404404,false,false,61.587702848969968,0.16034068115200434,,,
+2025-02-05T00:00:00,USDILS,252,0.89515910590669268,0.24068224049356271,success,253,358.99144937990144,356.84689181205187,false,false,60.651924604377804,0.16498519044691326,,,
+2025-02-06T00:00:00,USDILS,252,0.68200810277833834,0.44448602631501205,success,253,358.99144943412648,358.22843379746746,false,false,112.01047863138304,15.866041815448556,,,
+2025-02-07T00:00:00,USDILS,252,0.87577779356571006,0.71709268801007198,success,253,358.99144935373897,357.03840890457747,false,false,180.70735737853815,20.581038520517879,,,
+2025-02-10T00:00:00,USDILS,252,0.90416467552601909,0.71425061845657289,success,253,358.99144983989561,356.74706968137389,false,false,179.99115585105636,44.70700145401922,,,
+2025-02-11T00:00:00,USDILS,252,0.90098612547559309,0.71026546357171294,success,253,358.99144927355752,356.78321940212209,false,false,178.98689682007165,29.764788412490567,,,
+2025-02-12T00:00:00,USDILS,252,0.9146749619812381,0.70630446137166158,success,253,358.99145009316686,356.6193492641774,false,false,177.98872426565873,36.042848086388311,,,
+2025-02-13T00:00:00,USDILS,252,0.79573675404456001,0.80548989361169487,success,253,358.99144933780258,357.63159050097079,false,false,202.98345319014712,20.119412169440203,,,
+2025-02-14T00:00:00,USDILS,252,0.71018084923971481,0.51974683670327348,success,253,358.99144927917303,358.09518673471547,false,false,130.9762028492249,0.81956063997711759,,,
+2025-02-17T00:00:00,USDILS,252,0.9226101622385966,0.69439737743977537,success,253,358.99144973316561,356.51309842422319,false,false,174.98813911482338,34.61333381280761,,,
+2025-02-18T00:00:00,USDILS,252,0.96256022494012505,0.94042202535601105,success,253,358.99144943094115,355.74458643894553,false,false,236.98635038971477,75.676340702886534,,,
+2025-02-19T00:00:00,USDILS,252,0.94291403614059088,0.68646583730050736,success,253,358.99144938401804,356.18703253513917,false,false,172.98939099972785,41.312681817864032,,,
+2025-02-20T00:00:00,USDILS,252,0.94785786554332385,0.68252961726230865,success,253,358.99145224444612,356.09122102898948,false,false,171.99746355010177,175.45993253695966,,,
+2025-02-21T00:00:00,USDILS,252,0.78822142025056929,0.60314144742752596,success,253,358.99144931870734,357.67721157187947,false,false,151.99164475173654,31.194955342978535,,,
+2025-02-24T00:00:00,USDILS,252,0.72899312242541037,0.49567364432541366,success,253,358.99145477220816,358.00193467356439,false,false,124.90975837000424,0.83676709469776744,,,
+2025-02-25T00:00:00,USDILS,252,0.88090278088391616,0.18257590938350363,success,253,358.9914499205338,356.99044277849367,false,false,46.009129164642914,0.18787817237950707,,,
+2025-02-26T00:00:00,USDILS,252,0.8951586498548707,0.17757924421298735,success,253,358.99144997512138,356.84689726666915,false,false,44.749969541672812,0.17641887240585899,,,
+2025-02-27T00:00:00,USDILS,252,0.89387163839778372,0.1736592561109962,success,253,358.99144940171936,356.86053653806982,false,false,43.762132539971041,0.17293313403706154,,,
+2025-02-28T00:00:00,USDILS,252,0.68148440940930799,0.55014612322825374,success,253,358.99144944124635,358.23084749111047,false,false,138.63682305351995,18.375226055095965,,,
+2025-03-03T00:00:00,USDILS,252,0.96279116977687329,0.65473168337075061,success,253,358.99145056028954,355.7381601305222,false,false,164.99238420942916,60.90559290996179,,,
+2025-03-04T00:00:00,USDILS,252,0.98662749954093021,0.89961188610540699,success,253,358.99145016803254,354.69035800033436,false,false,226.70219529856257,2.7695365309122426,,,
+2025-03-05T00:00:00,USDILS,252,0.96253151267408665,0.64679118237714883,success,253,358.9914492964254,355.74538273207764,false,false,162.9913779590415,53.393197493862836,,,
+2025-03-06T00:00:00,USDILS,252,0.96393586043712387,0.64283841227806204,success,253,358.99144935505353,355.70572360518946,false,false,161.99527989407164,98.061528268376705,,,
+2025-03-07T00:00:00,USDILS,252,0.65731520320795345,0.4404330418356518,success,253,358.99144951548629,358.34009691557242,false,false,110.98912654258426,14.242663611679761,,,
+2025-03-10T00:00:00,USDILS,252,0.65713576234763516,0.43646566958733646,success,253,358.99144948135654,358.34089340463981,false,false,109.98934873600879,14.58702530470566,,,
+2025-03-11T00:00:00,USDILS,252,0.75116057432797678,0.45181374049510331,success,253,358.99144926904415,357.8866376377394,false,false,113.85706260476603,0.84557815836518446,,,
+2025-03-12T00:00:00,USDILS,252,0.85428658699018212,0.55157394706794161,success,253,358.99144934758164,357.22282439618914,false,false,138.99663466112128,91.408218423749119,,,
+2025-03-13T00:00:00,USDILS,252,0.96933128718414707,0.62298797664751648,success,253,358.99144954332246,355.53808611263349,false,false,156.99297011517416,66.628718498760918,,,
+2025-03-14T00:00:00,USDILS,252,0.91936306936617584,0.72218760452453812,success,253,358.99144974468015,356.5577253713268,false,false,181.99127634018362,48.207119513037661,,,
+2025-03-17T00:00:00,USDILS,252,0.93239089934157515,0.71822190633112892,success,253,358.99144970187109,356.36744015433544,false,false,180.99192039544448,54.447314187395691,,,
+2025-03-18T00:00:00,USDILS,252,0.92566664112212882,0.7142513192667036,success,253,358.99145253953645,356.46949819493403,false,false,179.99133245520932,49.071846670852629,,,
+2025-03-19T00:00:00,USDILS,252,0.68938979794573685,0.46827124842921247,success,253,358.99145252028751,358.19418442122253,false,false,118.00435460416155,2.6315354959264456,,,
+2025-03-20T00:00:00,USDILS,252,0.69942962202964221,0.46429091920007975,success,253,358.99145250488084,358.14686925711067,false,false,117.00131163842009,2.6175846015395519,,,
+2025-03-21T00:00:00,USDILS,252,0.69699529001868632,0.46031935646140842,success,253,358.99144967477343,358.15841937142255,false,false,116.00047782827492,2.6015321989870586,,,
+2025-03-24T00:00:00,USDILS,252,0.69460131197245734,0.45632667195021975,success,253,358.99144983828631,358.16972990602113,false,false,114.99432133145538,31.726980053134209,,,
+2025-03-25T00:00:00,USDILS,252,0.70350719081727175,0.45238062693287784,success,253,358.99144964221489,358.1273945100329,false,false,113.99991798708521,2.6141263393041805,,,
+2025-03-26T00:00:00,USDILS,252,0.84375783555466288,0.5118929156456723,success,253,358.99147777970569,357.305019390788,false,false,128.99701474270941,99.489650961038123,,,
+2025-03-27T00:00:00,USDILS,252,0.8039996070740919,0.50791280857891363,success,253,358.99144982391078,357.57996770739828,false,false,127.99402776188624,44.320042129018539,,,
+2025-03-28T00:00:00,USDILS,252,0.86278068040707945,0.68248718127132513,success,253,358.99144949013657,357.15286948634986,false,false,171.98676968037392,25.625016670757731,,,
+2025-03-31T00:00:00,USDILS,252,0.8342687630701624,0.67851405888972327,success,253,358.99144977082199,357.3752615841309,false,false,170.98554284021026,21.510111752203887,,,
+2025-04-01T00:00:00,USDILS,252,0.87005604854058016,0.6507619081687942,success,253,358.99144982469312,357.08999540637677,false,false,163.99200085853613,42.233244360489444,,,
+2025-04-02T00:00:00,USDILS,252,0.79261122462564126,0.51910673239901495,success,253,358.99145163885544,357.65071397008808,false,false,130.81489656455176,0.72422853479778782,,,
+2025-04-03T00:00:00,USDILS,252,0.55535424188815996,0.45533658062230037,success,253,358.99144945221889,358.76912118437406,false,false,114.74481831681969,8.2306904655684807,,,
+2025-04-04T00:00:00,USDILS,252,0.84103480829474819,0.63887316795765037,success,253,358.99144945729313,357.32550166716436,false,false,160.9960383253279,77.596289389034567,,,
+2025-04-07T00:00:00,USDILS,252,0.88051327046886851,0.55551332877370263,success,253,358.99144969050167,356.99415000642045,false,false,139.98935885097308,30.854160199673839,,,
+2025-04-08T00:00:00,USDILS,252,0.78272676991073231,0.65469238091646542,success,253,358.99144963968655,357.70982164379672,false,false,164.98247999094929,14.920105807562971,,,
+2025-04-09T00:00:00,USDILS,252,0.807102983935994,0.54757595920321978,success,253,358.99145170325875,357.56015688079594,false,false,137.98914171921137,24.349945549886282,,,
+2025-04-10T00:00:00,USDILS,252,0.76053238163788495,0.49577959935376442,success,253,358.99145022207102,357.83584973441396,false,false,124.93645903714864,0.70764095653158332,,,
+2025-04-11T00:00:00,USDILS,252,0.75274099190467814,0.49199810470429761,success,253,358.99144925945131,357.87816446206119,false,false,123.983522385483,0.69982251353413094,,,
+2025-04-14T00:00:00,USDILS,252,0.75821666782656982,0.48790226756139338,success,253,358.99144935209745,357.84852216935963,false,false,122.95137142547114,0.6972954417417444,,,
+2025-04-15T00:00:00,USDILS,252,0.52323541250204941,0.42389848191882096,success,253,358.99145231453645,358.89844367404385,false,false,106.82241744354288,5.1813853183440921,,,
+2025-04-16T00:00:00,USDILS,252,0.58807859349117053,0.38921911311697677,success,253,358.99144942264985,358.63542139153475,false,false,98.083216505478148,2.6069790955050971,,,
+2025-04-17T00:00:00,USDILS,252,0.77408840899966813,0.47569205477745835,success,253,358.99144967308303,357.75990731497592,false,false,119.87439780391951,0.69578866530389494,,,
+2025-04-18T00:00:00,USDILS,252,0.84641307939508525,0.51981783924000358,success,253,358.99144945737271,357.28470860819272,false,false,130.99409548848089,49.723286232418189,,,
+2025-04-21T00:00:00,USDILS,252,0.75442226454246508,0.46815141527277593,success,253,358.99144925383223,357.86911054852345,false,false,117.97415664873954,0.69527161676152105,,,
+2025-04-22T00:00:00,USDILS,252,0.75543248034343702,0.46416925842899182,success,253,358.99145038262583,357.86365140053556,false,false,116.97065312410594,0.69042567961324364,,,
+2025-04-23T00:00:00,USDILS,252,0.7534834548139967,0.46028759717541978,success,253,358.99144951327406,357.87417156488726,false,false,115.99247448820579,0.6821350915144897,,,
+2025-04-24T00:00:00,USDILS,252,0.64386261495239416,0.58331608511164734,success,253,358.99144973676835,358.39928093370332,false,false,146.99565344813513,30.563458225778515,,,
+2025-04-25T00:00:00,USDILS,252,0.98059818977400781,0.82860504571871441,success,253,358.99144954319172,355.06865313234971,false,false,208.80847152111602,0.098219416361922399,,,
+2025-04-28T00:00:00,USDILS,252,0.97676312034462021,0.82048238395771123,success,253,358.99144965905089,355.25294614940168,false,false,206.76156075734323,0.102056210681908,,,
+2025-04-29T00:00:00,USDILS,252,0.78324840612029023,0.49199189738409566,success,253,358.99144926111819,357.70675133541772,false,false,123.9819581407921,13.546370788388092,,,
+2025-04-30T00:00:00,USDILS,252,0.79738846942050168,0.48796556277427888,success,253,358.99144969427385,357.62139822287446,false,false,122.96732181911828,7.2478829614605509,,,
+2025-05-01T00:00:00,USDILS,252,0.81634189473176477,0.48407525428478954,success,253,358.99144964087617,357.49969229063521,false,false,121.98696407976696,20.713739845094079,,,
+2025-05-02T00:00:00,USDILS,252,0.6768038963026537,0.40472236853043714,success,253,358.99144940794793,358.25232711390652,false,false,101.99003686967016,16.812139474784477,,,
+2025-05-05T00:00:00,USDILS,252,0.68816444090908635,0.40074694739754302,success,253,358.99144937277043,358.19989754511869,false,false,100.98823074418084,15.143425827062723,,,
+2025-05-06T00:00:00,USDILS,252,0.84848538601568002,0.47216703792719905,success,253,358.99144941554056,357.26867863657139,false,false,118.98609355765416,21.385992206996171,,,
+2025-05-07T00:00:00,USDILS,252,0.85462358936043492,0.4682201227967967,success,253,358.99144949825569,357.22011468686321,false,false,117.99147094479277,35.286036081342594,,,
+2025-05-08T00:00:00,USDILS,252,0.76849435213189821,0.54363036900073869,success,253,358.99145034425379,357.79162140057957,false,false,136.99485298818615,46.241923579712598,,,
+2025-05-09T00:00:00,USDILS,252,0.86357857041624497,0.4602681352633467,success,253,358.99144926202985,357.14611321939856,false,false,115.98757008636336,24.863079115159632,,,
+2025-05-12T00:00:00,USDILS,252,0.7155555461527634,0.55946848931539161,success,253,358.99144935859903,358.06892812317147,false,false,140.98605930747868,14.117290744357748,,,
+2025-05-13T00:00:00,USDILS,252,0.867023602966568,0.45234530119418781,success,253,358.99144977043221,357.11655521685947,false,false,113.99101590093532,34.709406767754523,,,
+2025-05-14T00:00:00,USDILS,252,0.88298363859263951,0.44838593766862,success,253,358.99145139049773,356.97045848551505,false,false,112.99325629249225,48.366012923384304,,,
+2025-05-15T00:00:00,USDILS,252,0.69906447123691551,0.32936405457230888,success,253,358.99144974514195,358.14860282528321,false,false,82.999741752221837,728.72770815399792,,,
+2025-05-16T00:00:00,USDILS,252,0.769258966600598,0.36503746157222922,success,253,358.99145485268417,357.78732319638107,false,false,91.989440316201765,23.19294234088817,,,
+2025-05-19T00:00:00,USDILS,252,0.77608049925659994,0.36108748091033599,success,253,358.99144941780622,357.74847978243213,false,false,90.994045189404673,42.113111820324896,,,
+2025-05-20T00:00:00,USDILS,252,0.66666620492419459,0.31680187488486572,success,253,358.99144956615567,358.29830446343612,false,false,79.834072470986158,11.56731954721786,,,
+2025-05-21T00:00:00,USDILS,252,0.83452084616512423,0.50792265549484428,success,253,358.9914517231208,357.37343922808736,false,false,127.99650918470077,82.52826300112477,,,
+2025-05-22T00:00:00,USDILS,252,0.80935970004378122,0.50394602409417855,success,253,358.99144952831966,357.5455944932375,false,false,126.994398071733,47.711690109894029,,,
+2025-05-23T00:00:00,USDILS,252,0.96096543142159307,0.72447812751742047,success,253,358.99144950666448,355.7879586971444,false,false,182.56848813438995,0.12059485971244284,,,
+2025-05-26T00:00:00,USDILS,252,0.96063680281002439,0.72350679075273927,success,253,358.99144974615393,355.7966846436471,false,false,182.32371126969031,0.1197968573520502,,,
+2025-05-27T00:00:00,USDILS,252,0.9581764271012676,0.71904616713854486,success,253,358.99145161865692,355.85987982125994,false,false,181.19963411891331,0.12252294298901699,,,
+2025-05-28T00:00:00,USDILS,252,0.87118002993870103,0.40864813630182717,success,253,358.99144939309321,357.08001659292489,false,false,102.97933034806044,15.399202667581692,,,
+2025-05-29T00:00:00,USDILS,252,0.74232460680301859,0.3293231808423096,success,253,358.99145440029048,357.93336840417504,false,false,82.989441572262024,21.896680383765545,,,
+2025-05-30T00:00:00,USDILS,252,0.74323346066071549,0.50390736850579765,success,253,358.99144955305712,357.92860660895661,false,false,126.984656863461,14.066266978047848,,,
+2025-06-02T00:00:00,USDILS,252,0.64538127982663152,0.62220864221500038,success,253,358.991450149152,358.39265206010521,false,false,156.7965778381801,10.115433175903924,,,
+2025-06-03T00:00:00,USDILS,252,0.95520569232815411,0.6955704803598578,success,253,358.99144953464014,355.93160390316626,false,false,175.28376105068418,0.12731163132073575,,,
+2025-06-04T00:00:00,USDILS,252,0.76715370251062232,0.49200876327325699,success,253,358.99145504821166,357.79914644097494,false,false,123.98620834486076,16.866695586034382,,,
+2025-06-05T00:00:00,USDILS,252,0.91579479051663015,0.38489379218127023,success,253,358.99144958601573,356.60491406394306,false,false,96.9932356296801,54.108764283916692,,,
+2025-06-06T00:00:00,USDILS,252,0.92709554176067244,0.38091524310410507,success,253,358.99144962695118,356.44854279384174,false,false,95.990641262234476,40.49931573220988,,,
+2025-06-09T00:00:00,USDILS,252,0.95775740467652826,0.67695153498962557,success,253,358.99144966657707,355.87028423152873,false,false,170.59178681738564,0.12784761091414149,,,
+2025-06-10T00:00:00,USDILS,252,0.76696728989042606,0.62285240327375413,success,253,358.99144917513831,357.80018385194745,false,false,156.95880562498604,5.6676099431124909,,,
+2025-06-11T00:00:00,USDILS,252,0.94350555801065716,0.36902510761993851,success,253,358.99144967003491,356.17598967584388,false,false,92.994327120224497,71.066715352391995,,,
+2025-06-12T00:00:00,USDILS,252,0.94573541174101139,0.36505479628184367,success,253,358.99144939083084,356.13335841677673,false,false,91.993808663024609,66.320718303963517,,,
+2025-06-13T00:00:00,USDILS,252,0.75458281881460698,0.24588547988518519,success,253,358.99144917625387,357.86824368038907,false,false,61.963140931066668,6.7195540821796307,,,
+2025-06-16T00:00:00,USDILS,252,0.99733642907199194,0.73081353181081676,success,253,358.99144933441346,353.0660288566221,false,false,184.16501001632582,0.034280058818934055,,,
+2025-06-17T00:00:00,USDILS,252,0.94762359767569704,0.78974318493804108,success,253,358.99144986640357,356.09594864443085,false,false,199.01528260438636,31.985353044164334,,,
+2025-06-18T00:00:00,USDILS,252,0.99993484187924231,0.98317940758625821,success,253,358.99144917877919,349.35282072394801,false,false,247.76121071173708,1.5541225247916417,,,
+2025-06-19T00:00:00,USDILS,252,0.99521580013645183,0.68881014225074466,success,253,358.99144935166015,353.65380854673157,false,false,173.58015584718765,0.036087673346775241,,,
+2025-06-20T00:00:00,USDILS,252,0.99412948030295223,0.67660873476672545,success,253,358.99144943037987,353.8595251346739,false,false,170.50540116121482,0.03682885620326256,,,
+2025-06-23T00:00:00,USDILS,252,0.99461402097967644,0.67164332088105583,success,253,358.99144988700834,353.77289424288085,false,false,169.25411686202608,0.035487811924727199,,,
+2025-06-24T00:00:00,USDILS,252,0.99552620250165236,0.66882571089531784,success,253,358.99144956538981,353.58641572144938,false,false,168.54407914562009,0.034076224674770533,,,
+2025-06-25T00:00:00,USDILS,252,0.89260654630101799,0.72721028998663506,success,253,358.99144937737293,356.87380271892897,false,false,183.25699307663203,11.908670893059519,,,
+2025-06-26T00:00:00,USDILS,252,0.87969305777080042,0.72240396205582136,success,253,358.9914496217902,357.00192290210634,false,false,182.04579843806698,12.644399688740158,,,
+2025-06-27T00:00:00,USDILS,252,0.77408058885333331,0.50595609025090238,success,253,358.99144945058987,357.75995181028782,false,false,127.5009347432274,0.56677509064598586,,,
+2025-06-30T00:00:00,USDILS,252,0.87094240089170027,0.71444497932206885,success,253,358.99145485631112,357.08213782092918,false,false,180.04013478916136,10.287667647665579,,,
+2025-07-01T00:00:00,USDILS,252,0.99026234521577161,0.62247652045300517,success,253,358.99144976800233,354.36948017156635,false,false,156.8640831541573,0.038574325320626955,,,
+2025-07-02T00:00:00,USDILS,252,0.98938967329039762,0.6245336882777246,success,253,358.99144930319579,354.45618878656489,false,false,157.38248944598661,0.076397231266350771,,,
+2025-07-03T00:00:00,USDILS,252,0.99041514718420787,0.6088520325954988,success,253,358.99145322153356,354.35351304641165,false,false,153.43071221406569,0.036248684009614188,,,
+2025-07-04T00:00:00,USDILS,252,0.98949937893616424,0.61720017735972554,success,253,358.99144928838945,354.44568455535222,false,false,155.53444469465083,0.07956861479604814,,,
+2025-07-07T00:00:00,USDILS,252,0.98925031136298425,0.61247406525248183,success,253,358.99144952577308,354.46937892091677,false,false,154.34346444362541,0.079276375522720557,,,
+2025-07-08T00:00:00,USDILS,252,0.98811769068315047,0.60669581112069715,success,253,358.99144927140077,354.57069814260649,false,false,152.88734440241569,0.08027788464615726,,,
+2025-07-09T00:00:00,USDILS,252,0.83039541876752243,0.68664509866118917,success,253,358.99144954232514,357.40301728180413,false,false,173.03456486261967,15.571487285298307,,,
+2025-07-10T00:00:00,USDILS,252,0.8097044765920014,0.68269225524719579,success,253,358.99144926687489,357.54335817965148,false,false,172.03844832229333,12.349544822177153,,,
+2025-07-11T00:00:00,USDILS,252,0.9876241974222667,0.55606172731598624,success,253,358.99144981396313,354.61189071667275,false,false,140.12755528362854,0.032818964755849549,,,
+2025-07-14T00:00:00,USDILS,252,0.9882097175412996,0.54411037616640556,success,253,358.99144928758062,354.56283001938306,false,false,137.11581479393419,0.031660156522365521,,,
+2025-07-15T00:00:00,USDILS,252,0.98804267735415119,0.5231076161336895,success,253,358.99144968934763,354.57706766124966,false,false,131.82311926568974,0.030164435624410547,,,
+2025-07-16T00:00:00,USDILS,252,0.98696152949966198,0.50428291887994658,success,253,358.99144928810824,354.66472248333866,false,false,127.07929555774653,0.029383390011909073,,,
+2025-07-17T00:00:00,USDILS,252,0.95794825040053477,0.050641686722957491,success,253,358.99144948497894,355.86555671998883,false,false,12.761705054185288,15.425106164963701,,,
+2025-07-18T00:00:00,USDILS,252,0.61841989940393272,0.48808417583921992,success,253,358.9914497823724,358.50860289769139,false,false,122.99721231148342,36.43821826404367,,,
+2025-07-21T00:00:00,USDILS,252,0.76718213849749517,0.65489112923505821,success,253,358.99144969577259,357.79898189147178,false,false,165.03256456723466,17.834948379375064,,,
+2025-07-22T00:00:00,USDILS,252,0.74673420486271824,0.65065831898193427,success,253,358.99145242855809,357.91018263445295,false,false,163.96589638344744,8.0186830266822788,,,
+2025-07-23T00:00:00,USDILS,252,0.97738525741234095,0.55835268944612149,success,253,358.99145034534826,355.22517146459325,false,false,140.7048777404226,0.10442260316266971,,,
+2025-07-24T00:00:00,USDILS,252,0.97764082789233475,0.55408903799021825,success,253,358.99145030849428,355.21354457956176,false,false,139.630437573535,0.10339069683331947,,,
+2025-07-25T00:00:00,USDILS,252,0.97639127584662211,0.54887798774143604,success,253,358.99144933307639,355.26920224085472,false,false,138.31725291084189,0.10355540898778617,,,
+2025-07-28T00:00:00,USDILS,252,0.974783602573562,0.54410980008698506,success,253,358.99144933101439,355.33672830516338,false,false,137.11566962192023,0.10523116402522255,,,
+2025-07-29T00:00:00,USDILS,252,0.84888412499119725,0.15868660496245293,success,253,358.99144971272631,357.26557394652957,false,false,39.989024450538139,35.857986854332424,,,
+2025-07-30T00:00:00,USDILS,252,0.91252545711527455,0.2301170016508661,success,253,358.99144953717388,356.64658136647034,false,false,57.989484416018257,38.861351749807092,,,
+2025-07-31T00:00:00,USDILS,252,0.97571155261747666,0.010448610874632074,success,253,358.99145040050706,355.29828421906882,false,false,2.6330499404072825,20.86866183427971,,,
+2025-08-01T00:00:00,USDILS,252,0.97271061407188553,0.52815722046079394,success,253,358.99144936474067,355.41786057570522,false,false,133.09561955612008,0.10860814074159451,,,
+2025-08-04T00:00:00,USDILS,252,0.74159568725630576,0.61525066431144393,success,253,358.99144957449977,357.93717083767683,false,false,155.04316740648386,14.225219751104756,,,
+2025-08-05T00:00:00,USDILS,252,0.79401624985945052,0.65081296294551982,success,253,358.99144968787203,357.64214304388167,false,false,164.00486666227098,59.044804610843265,,,
+2025-08-06T00:00:00,USDILS,252,0.79912499132912462,0.60728067511972517,success,253,358.99144966014325,357.61061515913002,false,false,153.03473013017074,20.636357688366356,,,
+2025-08-07T00:00:00,USDILS,252,0.79678732141502639,0.60332285671239128,success,253,358.99144975225977,357.62511506636366,false,false,152.03735989152261,17.011872192531591,,,
+2025-08-08T00:00:00,USDILS,252,0.82158566013643608,0.57548762546230869,success,253,358.99144982926879,357.4643222217062,false,false,145.02288161650179,12.365877702233705,,,
+2025-08-11T00:00:00,USDILS,252,0.76809638423130822,0.76593671847639921,success,253,358.99144980020372,357.79385641069985,false,false,193.01605305605261,16.75133607747863,,,
+2025-08-12T00:00:00,USDILS,252,0.74054736380598196,0.6310079736221833,success,253,358.991449794358,357.94263436723361,false,false,159.0140093527902,17.770928792680376,,,
+2025-08-13T00:00:00,USDILS,252,0.7488883416664126,0.62701911829242851,success,253,358.99145233056259,357.89876012883752,false,false,158.00881780969198,28.81416966247804,,,
+2025-08-14T00:00:00,USDILS,252,0.74744433564613921,0.58348300807832409,success,253,358.99145001557031,357.90642185774715,false,false,147.03771803573767,15.981990933950302,,,
+2025-08-15T00:00:00,USDILS,252,0.77989693429211715,0.5556540521167439,success,253,358.99145209808421,357.72638623979418,false,false,140.02482113341947,10.118082437087667,,,
+2025-08-18T00:00:00,USDILS,252,0.75931053802418425,0.551249888947133,success,253,358.99145061728734,357.84254734565059,false,false,138.91497201467752,2.5125229754701497,,,
+2025-08-19T00:00:00,USDILS,252,0.74791489500896025,0.54768480002908071,success,253,358.99145187201185,357.9039294259523,false,false,138.01656960732834,13.638491075937402,,,
+2025-08-20T00:00:00,USDILS,252,0.73482727740844833,0.54201490017754628,success,253,358.99145221288143,357.97219813503989,false,false,136.58775484474165,1.9846847854076544,,,
+2025-08-21T00:00:00,USDILS,252,0.66132845506519533,0.56360388047169996,success,253,358.99144967690501,358.32222979787065,false,false,142.02817787886838,15.2800531478452,,,
+2025-08-22T00:00:00,USDILS,252,0.67906966458932327,0.55965480086061736,success,253,358.99147780105551,358.24197815588786,false,false,141.03300981687556,10.965780696853511,,,
+2025-08-25T00:00:00,USDILS,252,0.65813749344045624,0.55569380425876447,success,253,358.99144976704355,358.33644452957435,false,false,140.03483867320864,13.284341873575224,,,
+2025-08-26T00:00:00,USDILS,252,0.69462438726361608,0.59127485775705857,success,253,358.99144938051018,358.16962066710215,false,false,149.00126415477877,167.69939713553492,,,
+2025-08-27T00:00:00,USDILS,252,0.75608177651449937,0.52387550963059526,success,253,358.99144979634349,357.8601332754896,false,false,132.01662842691002,13.942600121187843,,,
+2025-08-28T00:00:00,USDILS,252,0.73544658918675054,0.51990782827990378,success,253,358.99144942449919,357.96901466762142,false,false,131.01677272653575,12.874030478788558,,,
+2025-08-29T00:00:00,USDILS,252,0.74204614229245081,0.51589962083446828,success,253,358.99145256312499,357.93482185834512,false,false,130.00670445028601,32.686909109162293,,,
+2025-09-01T00:00:00,USDILS,252,0.74293065407006575,0.51196839830507568,success,253,358.99144954461957,357.93019271361851,false,false,129.01603637287906,13.848230903621316,,,
+2025-09-02T00:00:00,USDILS,252,0.72930788504317468,0.50799892549109704,success,253,358.99144945859877,358.00033554472088,false,false,128.01572922375647,13.469579452859543,,,
+2025-09-03T00:00:00,USDILS,252,0.71492808424620169,0.50399333340205865,success,253,358.99144968346587,358.07200921171989,false,false,127.00632001731877,31.785591435759169,,,
+2025-09-04T00:00:00,USDILS,252,0.74855763562768218,0.50004075008259397,success,253,358.9914495246648,357.90051511803421,false,false,126.01026902081367,22.203688877183147,,,
+2025-09-05T00:00:00,USDILS,252,0.67452039221225624,0.52000298340247197,success,253,358.99144923045401,358.26274713298403,false,false,131.04075181742294,18.437320219125279,,,
+2025-09-08T00:00:00,USDILS,252,0.68397040726402925,0.51650415627351443,success,253,358.99144945613722,358.21937066078533,false,false,130.15904738092564,12.840773683745004,,,
+2025-09-09T00:00:00,USDILS,252,0.77748466477232292,0.48816527646292635,success,253,358.99145264866365,357.74038475017312,false,false,123.01764966865744,14.008203485662635,,,
+2025-09-10T00:00:00,USDILS,252,0.67081866654522349,0.54762843787423254,success,253,358.99144953914953,358.27955944674449,false,false,138.00236634430661,80.120488557088549,,,
+2025-09-11T00:00:00,USDILS,252,0.75612024690687318,0.4801759344754199,success,253,358.99144967532413,357.85992454366544,false,false,121.00433548780582,53.445544318787867,,,
+2025-09-12T00:00:00,USDILS,252,0.74403314163053436,0.47621416984584192,success,253,358.99145255877471,357.92441495633608,false,false,120.00597080115216,37.541485085572468,,,
+2025-09-15T00:00:00,USDILS,252,0.7384978394290761,0.47224024116230412,success,253,358.99146255694569,357.95328692629164,false,false,119.00454077290064,48.26365358928539,,,
+2025-09-16T00:00:00,USDILS,252,0.75756500134799154,0.46826884233192939,success,253,358.99144940392802,357.85207368751634,false,false,118.0037482676462,62.303624050408501,,,
+2025-09-17T00:00:00,USDILS,252,0.68777957173040172,0.48873189527519678,success,253,358.99144983801563,358.20169088056417,false,false,123.16043760934959,11.184630935741481,,,
+2025-09-18T00:00:00,USDILS,252,0.75502120674630302,0.4603495531873858,success,253,358.99145251100794,357.86587832239786,false,false,116.00808740322123,28.757723174916453,,,
+2025-09-19T00:00:00,USDILS,252,0.63156227536109788,0.71035125555888401,success,253,358.99145049596899,358.45252564449709,false,false,179.00851640083877,16.578175829916614,,,
+2025-09-22T00:00:00,USDILS,252,0.72109798706950745,0.59002835440742141,success,253,358.9914519038573,358.04153738340943,false,false,148.68714531067019,0.71041053975918189,,,
+2025-09-23T00:00:00,USDILS,252,0.71874035827279015,0.58614279163376692,success,253,358.99144964330776,358.05322770049094,false,false,147.70798349170926,0.71383143404234273,,,
+2025-09-24T00:00:00,USDILS,252,0.66039674100104906,0.50794604567268198,success,253,358.99144949290536,358.3263867667302,false,false,128.00240350951586,61.729850079788591,,,
+2025-09-25T00:00:00,USDILS,252,0.69635257035335352,0.46430134426419395,success,253,358.99144980348433,358.16146096226413,false,false,117.00393875457688,10.770558399174632,,,
+2025-09-26T00:00:00,USDILS,252,0.74260793768468891,0.43653576029917712,success,253,358.9914498438323,357.93188206985229,false,false,110.00701159539264,32.184847057183092,,,
+2025-09-29T00:00:00,USDILS,252,0.7849027736271964,0.43257169819450236,success,253,358.99145048188183,357.69698076861852,false,false,109.0080679450146,31.862484214327392,,,
+2025-09-30T00:00:00,USDILS,252,0.75169940073899499,0.45252665672023318,success,253,358.99144982758412,357.88375342257541,false,false,114.03671749349876,12.814682683694706,,,
+2025-10-01T00:00:00,USDILS,252,0.7873855205371505,0.42463521095770901,success,253,358.99151127308437,357.68227385388565,false,false,107.00807316134267,31.983752095142581,,,
+2025-10-02T00:00:00,USDILS,252,0.61081161825762076,0.52778504482441058,success,253,358.99144969055823,358.54072459424475,false,false,133.00183129575146,44.939322193570867,,,
+2025-10-03T00:00:00,USDILS,252,0.71383318211942293,0.59818648924750095,success,253,358.99144981550239,358.07737543903005,false,false,150.74299529037023,0.74541715044482904,,,
+2025-10-06T00:00:00,USDILS,252,0.71107652493071216,0.59414456371433133,success,253,358.99144948504983,358.09083129193829,false,false,149.7244300560115,0.7413945970571244,,,
+2025-10-07T00:00:00,USDILS,252,0.70608415554316029,0.59006502804371119,success,253,358.99144959042883,358.11500864257249,false,false,148.69638706701522,0.74146931478790434,,,
+2025-10-08T00:00:00,USDILS,252,0.7020552106716722,0.58597376618975183,success,253,358.99145042326171,358.13434657327838,false,false,147.66538907981746,0.73954083641350199,,,
+2025-10-09T00:00:00,USDILS,252,0.94045105311555766,0.33074319756709608,success,253,358.99145483268256,356.23189383985152,false,false,83.347285786908216,0.14218567397381918,,,
+2025-10-10T00:00:00,USDILS,252,0.72263903212733605,0.39688524145129106,success,253,358.99145046205922,358.03386041953576,false,false,100.01508084572535,14.013400501342,,,
+2025-10-13T00:00:00,USDILS,252,0.81071453118996051,0.39292205733157626,success,253,358.99144971184239,357.53679000827032,false,false,99.016358447557224,17.26248847411582,,,
+2025-10-14T00:00:00,USDILS,252,0.8018157397882425,0.38893213900307599,success,253,358.99144976584557,357.59376814034158,false,false,98.010899028775157,25.215699119204363,,,
+2025-10-15T00:00:00,USDILS,252,0.73358122514614998,0.56675297213925702,success,253,358.99144980035726,357.9785808848705,false,false,142.82174897909277,0.75712066436321568,,,
+2025-10-16T00:00:00,USDILS,252,0.94244092477327746,0.67853130923803273,success,253,358.99144944324877,356.19578802081804,false,false,170.98988992798425,42.87629234222149,,,
+2025-10-17T00:00:00,USDILS,252,0.94503600052858316,0.67458178580176564,success,253,358.99144936152936,356.14690475481643,false,false,169.99461002204495,80.754619989256966,,,
+2025-10-20T00:00:00,USDILS,252,0.73629270954739956,0.56752639974633523,success,253,358.99145024298576,357.96466223987505,false,false,143.01665273607648,12.523951562090465,,,
+2025-10-21T00:00:00,USDILS,252,0.70699854923297678,0.55567863537834683,success,253,358.99144972660287,358.11059867314077,false,false,140.03101611534339,5.3927697304263749,,,
+2025-10-22T00:00:00,USDILS,252,0.76171422566395952,0.54730870371738893,success,253,358.99144959833546,357.82934883080105,false,false,137.921793336782,0.80314352110782361,,,
+2025-10-23T00:00:00,USDILS,252,0.90718107248035396,0.36215636115719585,success,253,358.9914518348466,356.71176034509489,false,false,91.263403011613349,10.97110391904596,,,
+2025-10-24T00:00:00,USDILS,252,0.86620265091394522,0.37056312391795032,success,253,358.9914518980853,357.12365934390175,false,false,93.381907227323481,21.079756965226075,,,
+2025-10-27T00:00:00,USDILS,252,0.7730701282485215,0.41668264139858502,success,253,358.99144966751567,357.76572093559452,false,false,105.00402563244343,66.764439434722078,,,
+2025-10-28T00:00:00,USDILS,252,0.88228336334050006,0.34923863164825353,success,253,358.99144958836825,356.97721666260679,false,false,88.008135175359882,43.521065867282729,,,
+2025-10-29T00:00:00,USDILS,252,0.64408175950063795,0.59924087375219615,success,253,358.99144958708564,358.39832495625029,false,false,151.00870018555344,16.957911245484716,,,
+2025-10-30T00:00:00,USDILS,252,0.86204013447423866,0.34130244522626957,success,253,358.99144960582095,357.15911058986086,false,false,86.008216197019934,41.067843869288552,,,
+2025-10-31T00:00:00,USDILS,252,0.86961606557623161,0.33733458392911886,success,253,358.99144972798695,357.09388135730774,false,false,85.008315150137946,41.464249944554822,,,
+2025-11-03T00:00:00,USDILS,252,0.93969552662180333,0.2705653418342413,success,253,358.9914496926653,356.24530006407781,false,false,68.182466142228805,0.17220731695573244,,,
+2025-11-04T00:00:00,USDILS,252,0.61250613886046201,0.58336105086115442,success,253,358.99144962725649,358.53359066870587,false,false,147.0069848170109,15.968656867527686,,,
+2025-11-05T00:00:00,USDILS,252,0.70305727013817831,0.50690119332236983,success,253,358.99144958591557,358.12955052353789,false,false,127.73910071723721,0.80090659804521236,,,
+2025-11-06T00:00:00,USDILS,252,0.69752479279890378,0.50281778529356491,success,253,358.99144969158607,358.15591094773708,false,false,126.71008189397837,0.80026062699656697,,,
+2025-11-07T00:00:00,USDILS,252,0.79673252494572799,0.31749880447984785,success,253,358.9914493362279,357.62545303895013,false,false,80.009698728921663,29.513047702272964,,,
+2025-11-10T00:00:00,USDILS,252,0.78918949216333301,0.3135417000873279,success,253,358.9914496040945,357.67140280742422,false,false,79.012508422006633,22.783923789943927,,,
+2025-11-11T00:00:00,USDILS,252,0.92722294416985018,0.24255952910106382,success,253,358.99145004132566,356.44665674231163,false,false,61.125001333468084,0.16232269995662948,,,
+2025-11-12T00:00:00,USDILS,252,0.92648247339309997,0.2374138341699904,success,253,358.9914497459452,356.45757845243475,false,false,59.828286210837582,0.15941820654229494,,,
+2025-11-13T00:00:00,USDILS,252,0.72696787578031763,0.30249077958383375,success,253,358.99144957692948,358.0121567471412,false,false,76.227676455126101,10.058985721220736,,,
+2025-11-14T00:00:00,USDILS,252,0.69049045449441915,0.47866574864622674,success,253,358.99144953735981,358.18903632200187,false,false,120.62376865884914,0.78515893319525087,,,
+2025-11-17T00:00:00,USDILS,252,0.62149591499096324,0.54763516435077275,success,253,358.99145009974433,358.49554762708294,false,false,138.00406141639473,29.361408155074205,,,
+2025-11-18T00:00:00,USDILS,252,0.62145943753315425,0.54366621683567096,success,253,358.99145252260388,358.49570511271088,false,false,137.00388664258909,30.547587664280954,,,
+2025-11-19T00:00:00,USDILS,252,0.55070718433891119,0.54098864231053334,success,253,358.99145251116835,358.78792409503166,false,false,136.32913786225441,19.338163833581408,,,
+2025-11-20T00:00:00,USDILS,252,0.60640798058404732,0.5357366064456357,success,253,358.99145023313673,358.55921212739986,false,false,135.00562482430018,17.636089004637622,,,
+2025-11-21T00:00:00,USDILS,252,0.6026657120041734,0.53175870738660669,success,253,358.99144963799785,358.57486493140732,false,false,134.00319426142488,29.387713312287744,,,
+2025-11-24T00:00:00,USDILS,252,0.60912497221911299,0.50539176936249386,success,253,358.99145250703185,358.54781693832763,false,false,127.35872587934844,1.3326563852976541,,,
+2025-11-25T00:00:00,USDILS,252,0.61356483394630745,0.50144711740547898,success,253,358.99144963467387,358.52912780495541,false,false,126.3646735861807,1.37325294574218,,,
+2025-11-26T00:00:00,USDILS,252,0.85320944910370478,0.26589839668660675,success,253,358.99144966081008,357.23145134629266,false,false,67.006395965024907,55.798190339551603,,,
+2025-11-27T00:00:00,USDILS,252,0.60620926266436981,0.49340746407960806,success,253,358.99144974866618,358.56004414896563,false,false,124.33868094806122,1.3720431916234404,,,
+2025-11-28T00:00:00,USDILS,252,0.61614603965089687,0.50543057020823157,success,253,358.99144977777718,358.51822793364676,false,false,127.36850369247435,1.3632662856159374,,,
+2025-12-01T00:00:00,USDILS,252,0.72955310066476542,0.079403867233178549,success,253,358.99145184918524,357.99909546679453,false,false,20.009774542760994,42.59957383958502,,,
+2025-12-02T00:00:00,USDILS,252,0.83863534181930399,0.25001969525323703,success,253,358.99144993807164,357.34334072186738,false,false,63.004963203815727,70.87112561277371,,,
+2025-12-03T00:00:00,USDILS,252,0.82407841571248153,0.24604422815553109,success,253,358.99144966193057,357.44722232378246,false,false,62.003145495193834,108.01012689591714,,,
+2025-12-04T00:00:00,USDILS,252,0.80906511088843314,0.2420875628055488,success,253,358.9914494520072,357.54750253023747,false,false,61.006065826998295,53.873841748096808,,,
+2025-12-05T00:00:00,USDILS,252,0.7885511957636443,0.23811178562853322,success,253,358.99144943939473,357.67523501589096,false,false,60.004169978390372,74.652665439777337,,,
+2025-12-08T00:00:00,USDILS,252,0.78175215501391981,0.23413762785302034,success,253,358.99145035518967,357.71554392281143,false,false,59.002682218961127,113.71832093911847,,,
+2025-12-09T00:00:00,USDILS,252,0.85117584968579463,0.750044121301639,success,253,358.99144957496327,357.24759623858642,false,false,189.01111856801302,1.6683308780745949,,,
+2025-12-10T00:00:00,USDILS,252,0.89118631044298369,0.70614089298084204,success,253,358.99144960948382,356.88853325088343,false,false,177.9475050311722,7.2928252122443213,,,
+2025-12-11T00:00:00,USDILS,252,0.9929546339743256,0.57520496996536719,success,253,358.99144958215317,354.04313470436227,false,false,144.95165243127252,11.607380964551277,,,
+2025-12-12T00:00:00,USDILS,252,0.90972412117502621,0.69826277567078954,success,253,358.99144957888791,356.68117849097661,false,false,175.96221946903896,10.582537377449128,,,
+2025-12-15T00:00:00,USDILS,252,0.99812760015439661,0.5118292475909374,success,253,358.99144969255764,352.7127895165375,false,false,128.98097039291622,32.486483904682132,,,
+2025-12-16T00:00:00,USDILS,252,0.99804163362337217,0.50790962457259126,success,253,358.99144956922896,352.75776522112159,false,false,127.99322539229298,91.280358761809353,,,
+2025-12-17T00:00:00,USDILS,252,0.92837940222544446,0.68576785216072478,success,253,358.99144960101017,356.42939182418138,false,false,172.81349874450265,2.731529876283779,,,
+2025-12-18T00:00:00,USDILS,252,0.96126200040751608,0.63190380708262439,success,253,358.99145248411565,355.78002649910491,false,false,159.23975938482135,1.4335945007774809,,,
+2025-12-19T00:00:00,USDILS,252,0.95954997923831842,0.62792736438858976,success,253,358.99145033788943,355.82505309173422,false,false,158.23769582592462,1.3925454903535717,,,
+2025-12-22T00:00:00,USDILS,252,0.99797000664211932,0.49201237011327775,success,253,358.99144974160691,352.79375904028029,false,false,123.98711726854599,48.32826979616538,,,
+2025-12-23T00:00:00,USDILS,252,0.99820699057900053,0.4878931512003038,success,253,358.99144968472706,352.66938447346257,false,false,122.94907410247656,12.139004904937948,,,
+2025-12-24T00:00:00,USDILS,252,0.99868074006518248,0.48411960887720795,success,253,358.99144972775082,352.36208550362403,false,false,121.9981414370564,341.72292682783501,,,
+2025-12-26T00:00:00,USDILS,252,0.70874462501592927,0.36277323552292956,success,253,358.99144971327559,358.10215490160471,false,false,91.418855351778248,0.81920110652805123,,,
+2025-12-29T00:00:00,USDILS,252,0.99926012038519119,0.47614290130336545,success,253,358.99144946882672,351.78316655459639,false,false,119.98801112844809,55.285641545388394,,,
+2025-12-30T00:00:00,USDILS,252,0.99947019152939054,0.47220786466342562,success,253,358.99144937210161,351.4489843280316,false,false,118.99638189518326,187.50094120565169,,,
+2025-12-31T00:00:00,USDILS,252,0.9996032689261739,0.46819673869301592,success,253,358.99144958689635,351.15959449397138,false,false,117.98557815064001,47.942594224656574,,,
+2026-01-02T00:00:00,USDILS,252,0.99965287083173393,0.4642564097495322,success,253,358.99144950138844,351.02598308637931,false,false,116.99261525688212,94.691373451237524,,,
+2026-01-05T00:00:00,USDILS,252,0.99904815042449668,0.46027379970785909,success,253,358.99144968805956,352.0352984463488,false,false,115.98899752638049,59.098481400784472,,,
+2026-01-06T00:00:00,USDILS,252,0.99928850587949036,0.45629602131659114,success,253,358.99144943255823,351.744017775928,false,false,114.98659737178097,49.56085233364599,,,
+2026-01-07T00:00:00,USDILS,252,0.98278934974236731,0.57903771838646678,success,253,358.99144980216624,354.94658339144462,false,false,145.91750503338963,0.97931118587012,,,
+2026-01-08T00:00:00,USDILS,252,0.99652032443545802,0.77372474144924874,success,253,358.99145007267157,353.33411959826634,false,false,194.97863484521068,49.160058506596258,,,
+2026-01-09T00:00:00,USDILS,252,0.98267725667089334,0.57632669818569149,success,253,358.99145229435379,354.95319183438642,false,false,145.23432794279427,1.5887046381869785,,,
+2026-01-12T00:00:00,USDILS,252,0.99841505935696184,0.49588121726470696,success,253,358.99145239501951,352.54583027146822,false,false,124.96206675070616,16.650597313227919,,,
+2026-01-13T00:00:00,USDILS,252,0.99949105663712134,0.43647801728974966,success,253,358.99145233815068,351.40878759210597,false,false,109.99246035701691,90.001074006213614,,,
+2026-01-14T00:00:00,USDILS,252,0.99946093604341024,0.49312041923830896,success,253,358.99144973425649,351.46631260733187,false,false,124.26634564805386,0.31396358036124072,,,
+2026-01-15T00:00:00,USDILS,252,0.99952077286881846,0.42852346394061647,success,253,358.9914523800735,351.34859582696271,false,false,107.98791291303534,56.437332522251339,,,
+2026-01-16T00:00:00,USDILS,252,0.99960141984841,0.42442383771656639,success,253,358.99145233588825,351.1642490487597,false,false,106.95480710457473,15.297595015179162,,,
+2026-01-19T00:00:00,USDILS,252,0.99961432098846348,0.42059394383221221,success,253,358.99145235957462,351.13133300219846,false,false,105.98967384571748,67.088661043354023,,,
+2026-01-20T00:00:00,USDILS,252,0.99969081919431213,0.41659250332061926,success,253,358.99145237525516,350.91017728335373,false,false,104.98131083679606,37.652316114399824,,,
+2026-01-21T00:00:00,USDILS,252,0.99924049241283297,0.46811272456701863,success,253,358.99145234620738,351.80937189607494,false,false,117.9644065908887,18.762871342171749,,,
+2026-01-22T00:00:00,USDILS,252,0.99938783291394817,0.46417210456033492,success,253,358.99150732799671,351.59361438624376,false,false,116.97137034920441,23.562284081604712,,,
+2026-01-23T00:00:00,USDILS,252,0.99983432355365442,0.40464201941837219,success,253,358.99144964171313,350.28614154187437,false,false,101.96978889342979,24.286475451147005,,,
+2026-01-26T00:00:00,USDILS,252,0.99986706974197204,0.40078497117100581,success,253,358.9914497110791,350.06589670716772,false,false,100.99781273509346,339.20062788071795,,,
+2026-01-27T00:00:00,USDILS,252,0.99960862180607279,0.45228790122628348,success,253,358.99145234078105,351.14600757801708,false,false,113.97655110902343,29.770923435962146,,,
+2026-01-28T00:00:00,USDILS,252,0.99988867047722019,0.39280572160530197,success,253,358.99145238940105,349.88854764435092,false,false,98.987041844536094,57.983734300179023,,,
+2026-01-29T00:00:00,USDILS,252,0.99991601104141847,0.38838917933772832,success,253,358.99145235307759,349.60671113234372,false,false,97.874073193107535,5.8451427731539001,,,
+2026-01-30T00:00:00,USDILS,252,0.99970564028245956,0.44034781734095729,success,253,358.99144992595762,350.86103631952949,false,false,110.96764996992124,21.911198770287385,,,
+2026-02-02T00:00:00,USDILS,252,0.99663409410378567,0.50733762367934543,success,253,358.99145196513319,353.30076540767408,false,false,127.84908116719504,0.96938325863011521,,,
+2026-02-03T00:00:00,USDILS,252,0.99233280726131257,0.55603544894611268,success,253,358.99145184640912,354.12834384719457,false,false,140.1209331344204,3.9474885434458735,,,
+2026-02-04T00:00:00,USDILS,252,0.99952851615450478,0.69836392173292272,success,253,358.99145219173153,351.33229806834288,false,false,175.98770827669654,83.202468773282234,,,
+2026-02-05T00:00:00,USDILS,252,0.9999110773664398,0.36771554339614881,success,253,358.99144960598994,349.66379468045778,false,false,92.664316935829504,21.812268719162876,,,
+2026-02-06T00:00:00,USDILS,252,0.99980146822973404,0.42045822610721018,success,253,358.99144982413856,350.46708695669304,false,false,105.95547297901696,16.291540239090068,,,
+2026-02-09T00:00:00,USDILS,252,0.99032239468457661,0.5426015999269227,success,253,358.99144953989173,354.36323348449292,false,false,136.73560318158451,2.5688140152736798,,,
+2026-02-10T00:00:00,USDILS,252,0.99995010469437118,0.35689637210091196,success,253,358.99144980864349,349.08591606998675,false,false,89.937885769429812,12.757426623427754,,,
+2026-02-11T00:00:00,USDILS,252,0.99996517608615543,0.35309293811081538,success,253,358.9914498175566,348.7262784143378,false,false,88.979420403925474,39.251105747430515,,,
+2026-02-12T00:00:00,USDILS,252,0.99997110371030462,0.34783914401280347,success,253,358.99144960021931,348.53968114159949,false,false,87.65546429122648,18.115368604161311,,,
+2026-02-13T00:00:00,USDILS,252,0.99997700156894709,0.34514078901620782,success,253,358.99144978573742,348.31138822498338,false,false,86.975478832084363,33.658550670156785,,,
+2026-02-16T00:00:00,USDILS,252,0.99998477451531864,0.34124411773255769,success,253,358.99144949231868,347.89892480760989,false,false,85.993517668604539,130.30160515425635,,,
+2026-02-17T00:00:00,USDILS,252,0.99998753839063992,0.3366664053969462,success,253,358.99144972946772,347.69860430033577,false,false,84.839934160030438,24.507791966648224,,,
+2026-02-18T00:00:00,USDILS,252,0.99998279850782912,0.33330895872853306,success,253,358.99144985320135,348.02095263105599,false,false,83.993857599590328,137.04479661443156,,,
+2026-02-19T00:00:00,USDILS,252,0.99998031461567094,0.32798515053773641,success,253,358.9914493564566,348.15583493222675,false,false,82.652257935509581,21.823439208017049,,,
+2026-02-20T00:00:00,USDILS,252,0.99953275236617445,0.65071155644176992,success,253,358.99144936315349,351.32326554429642,false,false,163.97931222332602,42.92402425413389,,,
+2026-02-23T00:00:00,USDILS,252,0.99998107434208849,0.37844576016894205,success,253,358.99144927768282,348.11647620842569,false,false,95.368331562573402,0.26822860633079482,,,

@@ -1,0 +1,36 @@
+{
+  "candidate_id": "C-014",
+  "candidate_index": 13,
+  "dropout": 0.2,
+  "hidden_size": 5,
+  "minibatch_size": 256,
+  "learning_rate": 0.001,
+  "max_grad_norm": 100.0,
+  "lbw": 21,
+  "dataset_registry_path": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/manifests/dataset_registry.json",
+  "dataset_entry": {
+    "lbw": 21,
+    "train_sequence_count": 4991,
+    "val_sequence_count": 513,
+    "train_input_shape": [
+      4991,
+      63,
+      10
+    ],
+    "val_input_shape": [
+      513,
+      63,
+      10
+    ]
+  },
+  "training_policy": {
+    "seed_base": 20260421,
+    "max_epochs": 300,
+    "patience": 25,
+    "shuffle_seed_formula": "20260421 + epoch_index",
+    "candidate_seed_formula": "20260421 + candidate_index",
+    "gradient_clipping": "global_norm"
+  },
+  "artifact_stem": "candidate",
+  "output_dir": "/Users/bilalabdullajew/Arbeit/tradinglab/quantitive/Dev/Research/Slow Momentum with fast mean reversion/artifacts/training/candidates/candidate_013"
+}

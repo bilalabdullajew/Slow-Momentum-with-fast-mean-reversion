@@ -45,9 +45,9 @@ This document is the binding output contract for `T-13`.
 
 - Severity is computed exactly as:
 
-  `nu = 1 - 1 / (1 + exp(-(nlml_changepoint - nlml_baseline)))`
+  `nu = 1 - 1 / (1 + exp(-(nlml_baseline - nlml_changepoint)))`
 
-- This is numerically equivalent to `sigmoid(nlml_changepoint - nlml_baseline)`.
+- This is numerically equivalent to `sigmoid(nlml_baseline - nlml_changepoint)`.
 - The paper's `nlmn`/`nlml` notation inconsistency is treated as a paper typo only; the engine uses the negative log marginal likelihood defined earlier in the spec.
 - The in-memory engine result exposes at least:
   - `status`

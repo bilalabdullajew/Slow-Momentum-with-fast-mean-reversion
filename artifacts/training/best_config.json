@@ -1,0 +1,10 @@
+{
+  "candidate_id": "C-031",
+  "candidate_index": 30,
+  "dropout": 0.5,
+  "hidden_size": 20,
+  "minibatch_size": 64,
+  "learning_rate": 0.01,
+  "max_grad_norm": 100.0,
+  "lbw": 63
+}
